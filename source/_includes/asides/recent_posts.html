@@ -1,0 +1,7 @@
+<section>
+  <p> Recent posts: <br />
+    {% for post in site.posts limit: site.recent_posts %}
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a><br />
+    {% endfor %}
+  </p>
+</section>

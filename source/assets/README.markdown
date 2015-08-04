@@ -1,0 +1,1 @@
+Folder contains images, pdfs, and all other files that are displayed and linked to by Posts and Pages.

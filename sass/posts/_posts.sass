@@ -1,0 +1,148 @@
+/*
+ *	Author: Lokesh Dhakar - lokeshdhakar.com
+ *	Post specific css. Theme agnostic.
+
+
+ /* =Lightbox demo page redesign
+  *-------------------------------------------------------------- */
+
+.wiper
+  max-width: 852px
+  padding: $gutter
+  margin-bottom: $gutter
+  border: 1px solid $lightBorderColor
+  position: relative
+  background: #f0f0f0 url(../images/patterns/white-grain.png)
+  +border-radius($radius)
+  .wiperPages
+    +border-radius($radius)
+    position: relative
+    overflow: hidden
+  .page1, .page2
+    line-height: 1em
+    img
+      position: static
+      height: auto
+  .page2
+    position: absolute
+    top: 0
+    left: 0
+    height: 0
+    overflow: hidden
+    +box-shadow(0 20px 40px 0 rgba(0,0,0,0.5))
+    z-index: 1
+  .page2shine
+    z-index: 2
+    position: absolute
+  .wiperSlider
+    visibility: hidden
+    position: absolute
+    top: $gutter
+    right: $gutter
+    width: 90px
+    height: 490px
+    background: #eee
+    border: 1px solid $darkBorderColor
+    +box-shadow(inset 0 2px 32px rgba(0,0,0,0.1))
+    +border-radius($radius)
+    overflow: hidden
+    .wiperSliderButton
+      display: block
+      width: 90px
+      height: 48px
+      border: 1px solid #aab651
+      border-bottom-color: darken(#aab651, 10%)
+      background: url(../images/wiperslider.png) repeat-x
+      left: -1px
+      z-index: 1
+      position: absolute
+      +border-radius($radius)
+      cursor: pointer
+      +box-shadow( inset 0 0 0 1px rgba(255,255,255,.4), 0 3px 7px 0 rgba(0,0,0,.4))
+      +transition( box-shadow .2s, border .2s)
+      &:hover
+        border-color: #6d762a
+        border-bottom-color: darken(#6d762a, 10%)
+      &:active
+        +scale(0.98)
+        +box-shadow(  inset 0 0 0 1px rgba(255,255,255,.4), 0 1px 3px 0 rgba(0,0,0,.4))
+    .wiperSlide
+      position: absolute
+      right: 39px
+      width: 10px
+      height: 490px
+      +box-shadow( inset 0 0 5px 0 rgba(0,0,0,.3))
+      +background( linear-gradient( #ddd, #ddd) )
+
+
+.wiper.lightboxPageRedesign
+  .pageButton
+    position: absolute
+    z-index: 3
+    width: 150px
+    +opacity(0)
+    +scale(.5)
+    +transition(all .5s)
+  .pageButton.on
+    +scale(1)
+    +opacity(1)
+
+/* =Coffee Illustrations
+ *-------------------------------------------------------------- */
+
+.coffee
+  text-align: center
+  +clearfix
+  max-width: 660px
+  .diagram
+    float: left
+    margin-bottom: $gutter
+    width: 220px
+    border: none
+    &.break
+      margin-right: 0
+    h3
+      font-size: 15px
+      line-height: 1.3em
+      margin-top: $gutter/2
+      small
+        font-size: 13px
+        color: $altColor
+        font-weight: 600
+
+// iPhone 5 landscape
+@media (max-width: 586px)
+  .coffee
+    .diagram
+      float: none
+
+/* =Baseball Pitches Illustrated
+ *-------------------------------------------------------------- */
+.pitch
+  max-width: $postTextMaxWidth
+  border-bottom: 1px solid $borderColor
+  padding: 1em 0
+  margin-bottom: 1em
+  +clearfix
+  h3, h4
+    text-align: left
+    margin-top: 0
+  .first
+    border-top: 1px solid $borderColor
+  .diagram
+    border: none
+
+// iPhone 5 landscape
+@media (max-width: 586px)
+  .pitch
+    .diagram
+      float: none
+
+/* =Design Observations In the Wild
+ *-------------------------------------------------------------- */
+.design-obs
+  .row
+    +clearfix
+  h3
+    text-align: left
+    margin-top: 0

@@ -1,0 +1,19 @@
+<section id="archives" class="archive-section section">
+  <h2>Archives</h2>
+  <div class="year-section">
+  {% for post in site.posts reverse %}
+    {% capture this_year %}
+      {{ post.date | date: "%Y" }}
+    {% endcapture %}
+    {% unless year == this_year %}
+      {% assign year = this_year %}
+      </div>
+      <div class="year-section">
+        <div class="year">{{ year }}</div>
+    {% endunless %}
+    <article class="post">
+      <div class="title"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></div>
+    </article>
+  {% endfor %}
+  </div>
+</section>

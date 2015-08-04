@@ -1,0 +1,25 @@
+.archive-section
+  .year-section
+    margin-bottom: $gutter
+    &:last-of-type
+      margin-bottom: 0
+  .year
+    float: left
+    width: 100px
+    padding: $gutter/4 0
+    color: $altColor
+    font-weight: 600
+  .post
+    margin-left: 100px
+    padding: $gutter/4 0
+
+
+/* ------------------------ Responsive design ----------------------------- */
+// iPhone 5 landscape
+@media (max-width: 586px)
+  .archive-section
+    .year
+      float: none
+      width: auto
+    .post
+      margin-left: 0

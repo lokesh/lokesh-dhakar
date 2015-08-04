@@ -1,0 +1,9 @@
+{% include disqus.html %}
+
+<script>
+  $LAB
+    .script("{{ root_url }}/javascripts/libs/jquery-1.7.1.min.js").wait()
+    .script("{{ root_url }}/javascripts/app.js");
+</script>
+
+{% include google_analytics.html %}

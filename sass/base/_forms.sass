@@ -1,0 +1,99 @@
+input,
+textarea,
+select,
+button,
+.button
+  margin: 0
+  background: #fff
+  +box-shadow( 0 1px 0 white, inset 0 1px 4px rgba(0,0,0,0.2) )
+  padding: 2px .4em
+  color: $inputColor
+
+input,
+textarea,
+select,
+button,
+.button
+  &:hover
+    border-color: $darkerBorderColor
+  &:focus
+    outline: none
+    border-color: $yellow
+    +box-shadow( 0 0 5px rgba(255, 190, 70, .75))
+
+input.error,
+textarea.error,
+select.error,
+input[type="text"].invalid
+  outline: none 
+  border-color: $red
+  +box-shadow( inset 0 1px 2px rgba(0,0,0,0.1), 0 0 4px rgba(196, 50, 63, 0.4) )    
+  
+input[type="button"],
+input[type="submit"],
+button,
+a.button
+  text-transform: uppercase
+  text-shadow: 0 1px 0 #fff
+  padding: .5em 1em
+  font-weight: 600
+  cursor: pointer
+  border: 1px solid $darkBorderColor
+  border-bottom-color: $darkerBorderColor
+  +border-radius($radius)
+  +background( linear-gradient( #fff, #e2e2e2 85%, #d2d2d2) )
+  +box-shadow( inset 0 0 3px rgba(255, 255, 255, 1), 0 2px 3px 0 rgba(0, 0, 0, 0.2))
+  &:hover
+    +background( linear-gradient( #fff, #ebebeb 85%, #dbdbdb) )
+    border: 1px solid $darkerBorderColor
+    color: $inputColor
+  &:active
+    +background( linear-gradient( #eee, #ccc) )
+    +box-shadow( inset 0 2px 4px rgba(0, 0, 0, .2))
+    border-bottom-color: $borderColor
+  &:focus
+    outline: none
+    border-color: $yellow
+    +box-shadow( 0 0 5px rgba(255, 190, 70, .75))
+
+input[type="button"].primary,
+input[type="submit"].primary,
+button.primary,
+select.primary,
+.button.primary
+  color: white
+  +background-image(linear-gradient(#69c3cb,  #0d9eab 96%, #008f9e))
+  +text-shadow( 0 -1px 0 rgba(0,0,0,0.3),  0 2px 0 rgba(120,200,200,.4) )
+
+input[type="button"],
+input[type="submit"],
+button,
+.button
+  cursor: pointer
+  width: auto
+
+.button
+  float: left
+  margin-bottom: 1em
+
+input[type="checkbox"],
+input[type="radio"]
+  width: 1em
+
+select
+  cursor: pointer
+  margin-right: $gutter
+  
+label,
+.label
+  font-weight: 600
+  color: $altColor
+  line-height: 1.4em    
+  
+div.field,
+div.actions
+  margin-bottom: 1.5em
+
+::-webkit-input-placeholder,
+::-moz-placeholder
+  color: $altColor

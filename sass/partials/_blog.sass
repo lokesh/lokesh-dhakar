@@ -1,0 +1,80 @@
+/* ------------------------ Blog post ----------------------------- */
+
+.meta
+  color: $altColor
+  font-weight: 600
+  margin-bottom: $gutter/4
+
+/* ------------------------ Images ----------------------------- */
+.image-wrapper-wide
+  margin-top: $gutter
+  margin-bottom: $gutter
+
+.image-wrapper
+  margin: $gutter 0
+  max-width: $postTextMaxWidth
+
+img.scale
+  width: 100%
+
+a img.scale
+  // +border-radius($radius)
+  &:active
+    +scale( 0.98)
+
+img.diagram
+  float: left
+  margin: 0 $gutter $gutter 0
+
+img.diagram-alt
+  float: right
+  margin: 0 0 $gutter $gutter
+
+.big-icon-box
+  text-align: center
+  width: 200px
+  margin-bottom: $gutter * 2
+  a.big-icon
+    display: block
+    background: darken($bodyBg, 10%)
+    padding: $gutter $gutter $gutter/2 $gutter
+    margin: 0 $gutter $gutter 0
+    border: 3px solid $lightGray
+    +border-radius($radius+2)
+    &:hover
+      border-color: $linkColor
+
+
+
+
+/* ------------------------ Responsive design ----------------------------- */
+// @media (max-width: 768px)
+//   .post-section
+//     .entry-header
+//       // margin-bottom: $gutter * 1.5
+//       padding-left: $gutter
+//       padding-right: $gutter
+//       // .entry-title
+//       //   font-size: 64px
+//     .entry-content
+//       h1, h2, h3, h4, p, ul, ol
+//         padding-left: $gutter
+//         padding-right: $gutter
+
+// @media (max-width: 480px)
+//   .post-section
+//     // .entry-header
+//       // margin-bottom: $gutter
+//       // .entry-title
+//       //   font-size: 40px
+//   .author-section
+//     text-align: center
+//     .author-photo-wrapper
+//       float: none
+//       // margin-bottom: $gutter
+//       .author-photo
+//         width: 100px
+//         height: 100px
+//     .author-bio
+//       margin-left: 0
+
