@@ -1,0 +1,47 @@
+@import "mixins"
+
+// Load Custom Fonts ------------------------------
+
++font-face("Proxima Nova Soft", "../fonts/proxima-nova-soft-webfont");
++font-face("Proxima Nova Soft Semibold", "../fonts/proxima-nova-soft-semibold-webfont");
+
+// Variables --------------------------------------
+
+$primary-color: #fc4c02
+$secondary-color: #ffa41a
+
+$font-color: #555
+$link-color: #c00
+$bg-color: #fff
+
+// ------------------------------------------------
+
+body
+  padding: 16px
+  color: $font-color
+  background-color: $bg-color
+  font-family: "Proxima Nova Soft", sans-serif
+
+a
+  color: $link-color
+  text-decoration: none
+
+h1,
+h2,
+h3,
+h4
+  font-family: "Proxima Nova Soft Semibold", sans-serif
+
+.bio
+  max-width: 360px
+  padding: 16px
+  font-size: 15px
+
+  &__title
+    margin: 0
+    padding: 0
+    line-height: 1.2em
+    font-size: 16px
+
+
+.bio
