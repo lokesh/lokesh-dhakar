@@ -1,9 +1,8 @@
 ---
-layout: post.jade
 title: "Lightbox JS v2.0"
 date: 2006-03-29 18:11
 comments: true
-categories:
+layout: post.jade
 ---
 
 ## <a href="http://www.lokeshdhakar.com/projects/lightbox2/">Lightbox JS v2.0</a> - Go check it out!

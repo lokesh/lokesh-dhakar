@@ -1,17 +1,16 @@
 ---
-layout: post.jade
 title: "MobileMe particles"
 date: 2011-09-20 16:16
 comments: true
-categories:
+layout: post.jade
 ---
 The soon to be retired, MobileMe service from Apple, has a [beautiful login page][1] with wispy particles floating about. There is a lot to love on this page and an unbelievable attention to detail.
 
 Inspired by the login page and a wanting to tinker with canvas and particles I set out to recreate the wispy particle effect. You can see the progress I made at the following page: [mobileme-particles][2]
 
-<div class="image-wrapper-wide">
-  <a href="http://lokeshdhakar.com/projects/mobileme-particles/" class="loadPageInline">
-    <img src="/media/posts/mobileme-particles/mobileme_particles.jpg" alt="Cloud iamge with particles flowing out from behind" title="mobileme_particles" class="scale" />
+<div class="figure">
+  <a href="http://lokeshdhakar.com/projects/mobileme-particles/">
+    <img src="/media/posts/mobileme-particles/mobileme_particles.jpg" alt="Cloud iamge with particles flowing out from behind" title="mobileme_particles" />
   </a>
 </div>
 

@@ -1,9 +1,8 @@
 ---
-layout: post.jade
 title: "Coffee diagram follow-up"
 date: 2007-09-04 21:59
 comments: true
-categories:
+layout: post.jade
 ---
 
 ## Mugs, t-shirts, and source files now available
@@ -14,13 +13,21 @@ categories:
 
 If you're simply looking to print up a copy to fold up in your wallet, I've created a PDF file which contains all nine images.
 
-<div class="big-icon-box"><a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.pdf" class="big-icon"><img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-pdf-icon.png" alt="thumbnail of coffee drinks pdf"  /></a></div>
+<figure class="figure">
+  <a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.pdf">
+    <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-pdf-icon.png" alt="thumbnail of coffee drinks pdf"  />
+  </a>
+</figure>
 
 ### Source file
 
 If you'd like to extend or localize the illustrations you can grab the Adobe Illustrator source file. You can also open up this file in Adobe Photoshop, without the vector data, as a bitmap..
 
-<div class="big-icon-box"><a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.ai" class="big-icon"><img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-ai-icon.png" alt="thumbnail of coffee drinks pdf" /></a></div>
+<figure class="figure">
+  <a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.ai">
+    <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-ai-icon.png" alt="thumbnail of coffee drinks pdf" />
+  </a>
+</figure>
 
 ### License information
 

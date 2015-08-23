@@ -11,9 +11,12 @@
 $primary-color: #fc4c02
 $secondary-color: #ffa41a
 
-$font-color: #222
-$font-color-light: #999
+$font-color: #999
+$font-color-dark: #222
 $link-color: #5af
+$border-color: #ddd
+
+$code-bg-color: #f3f3f3
 $bg-color: #fff
 
 // Layout
@@ -37,29 +40,47 @@ body
   +font-regular
 
 a
-  color: $font-color
+  color: $font-color-dark
 
 h1,
 h2,
 h3,
 h4
   +font-bold
+  color: $font-color-dark
 
 p
-  color: $font-color-light
+  line-height: 1.5em
 
 // Forms and Buttons ----------------------------
 
 .btn
   padding: 8px 12px
-  border: 2px solid $font-color
+  border: 2px solid $font-color-dark
   background-color: white
   +font-bold
   &:hover
     color: $bg-color
-    background-color: $font-color
+    background-color: $font-color-dark
     cursor: pointer
 
+
+// Images ----------------------------
+
+img
+  display: block
+
+// Code ----------------------------
+
+pre
+  overflow: auto
+  margin: 0 16px
+  padding: 12px 16px
+  border: 1px solid $border-color
+  background-color: $code-bg-color
+  font-size: 13px
+  +font-monospace
+  line-height: 1.5em
 
 // Homepage -------------------------------------
 
@@ -74,7 +95,7 @@ p
     padding: 0
     line-height: 1.2em
     font-size: 16px
-    color: $font-color
+    // color: $font-color-dark
 
 
 // Blog Post ------------------------------------
@@ -108,3 +129,28 @@ p
 
     > ol
       list-style-position: inside
+
+    ol,
+    ul
+      color: $font-color-dark
+
+    img
+      margin: 0 auto
+
+.figure
+  display: table
+  margin: 0 auto 16px auto
+  img
+    max-width: 100%
+    margin-bottom: 8px
+
+  &__caption
+    display: table-caption
+    caption-side: bottom
+    margin-bottom: 16px
+
+  // &__image--full-width
+  //   margin-bottom: 16px
+  //   img
+  //     width: 100%
+

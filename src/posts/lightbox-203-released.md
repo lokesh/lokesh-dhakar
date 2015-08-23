@@ -1,9 +1,8 @@
 ---
-layout: post.jade
 title: "Lightbox 2.03 released"
 date: 2007-04-06 22:27
 comments: true
-categories:
+layout: post.jade
 ---
 ### A minor update with a couple of bug fixes, a handful of tweaks, and some small niceties added.
 

@@ -1,17 +1,16 @@
 ---
-layout: post.jade
 title: "New book stack"
 date: 2008-07-24 18:36
 comments: true
-categories:
+layout: post.jade
 ---
 ## An updated list of the books I'm currently reading.
 
 More importantly, I'm back from my blogging hiatus. I'm hoping to average a few posts a month. Sounds reasonable. To start, here are the books on my shelf right now, all recommended:
 
-<div class="image-wrapper">
-  <img src="/media/posts/new-book-stack/bookstack2.jpg" alt="list of four books stacked" title="bookstack2" class="scale" />
-</div>
+<figure class="figure">
+  <img src="/media/posts/new-book-stack/bookstack2.jpg" alt="list of four books stacked" title="bookstack2" />
+</figure>
 
 *   [101 Things I Learned From Architecture School][1] *by Matthew Frederick*
 *   [The Death and Life of Great American Cities][2] *by Jane Jacobs*

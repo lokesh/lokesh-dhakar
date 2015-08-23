@@ -1,19 +1,16 @@
 ---
-layout: post.jade
 title: "Color Thief"
 date: 2011-11-03 16:03
 comments: true
-categories:
+layout: post.jade
 ---
 Ever wanted to grab the dominant color or color palette from an image? Probably not. But now you can! Take a look at the <a href="http://lokeshdhakar.com/projects/color-thief" class="loadPageInline">Color Thief Demo Page</a> to see it in action.
 
-<div class="image-wrapper-wide">
-  <a href="http://lokeshdhakar.com/projects/color-thief/" class="loadPageInline">
-    <img src="/media/posts/color-thief/color-thief-pixels.png" alt="pixelated image" title="color thief example" class="scale" />
+<div class="post__image">
+  <a href="http://lokeshdhakar.com/projects/color-thief/">
+    <img src="/media/posts/color-thief/color-thief-pixels.png" alt="pixelated image" title="color thief example" />
   </a>
 </div>
-
-<div class="clearfix"></div>
 
 ## Usecase #1: Color search
 
@@ -28,8 +25,8 @@ With this script you can build a UI that adapts to the colors of an image. For e
 
 A recent example of a color adapting UI is seen on Google Chrome's new home tab. The dominant color of the favicon is used as the bottom border color on the screenshot:
 
-<div class="image-wrapper">
-  <img src="/media/posts/color-thief/chrome-home-tab.png" alt="size screenshots of websites with favicons on top and bottom borders colored with the favicon dominant color" title="chrome_home_tab" class="scale" />
+<div class="post__image">
+  <img src="/media/posts/color-thief/chrome-home-tab.png" alt="size screenshots of websites with favicons on top and bottom borders colored with the favicon dominant color" title="chrome_home_tab"/media/ />
 </div>
 
 ## Usage

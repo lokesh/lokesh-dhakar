@@ -1,9 +1,8 @@
 ---
-layout: post.jade
 title: "Lightbox JS update"
 date: 2006-10-01 22:30
 comments: true
-categories:
+layout: post.jade
 published: false
 ---
 Now with captions! I've also fixed a couple of minor issues involving extra-large images falling out of the viewport and a small gap in the overlay in Firefox. Also, it's more keyboard friendly now. Thanks for all the comments and suggestions.

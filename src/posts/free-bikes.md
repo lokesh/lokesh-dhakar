@@ -9,7 +9,11 @@ Hey friends. I have a couple of older bikes that I'm not using anymore, if anyon
 
 ** Update: Both bikes have been claimed :( **
 
-<img alt="Raleigh Racer profile" src="/media/posts/free-bikes/raleigh-bike-profile.jpg" class="scale" />
-<img alt="Freespirit profile" src="/media/posts/free-bikes/freespirit-bike-profile.jpg" class="scale" />
+<div class="figure">
+  <img alt="Raleigh Racer profile" src="/media/posts/free-bikes/raleigh-bike-profile.jpg" />
+</div>
+<div class="figure">
+  <img alt="Freespirit profile" src="/media/posts/free-bikes/freespirit-bike-profile.jpg" />
+</div>
 
 Note: They currently reside in Manchester, NH and will not fit in my car. So either you would have to pick up, ride out, or wait till I get a bike rack.

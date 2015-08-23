@@ -15,7 +15,7 @@ textarea {
 body {
   padding: 0;
   margin: 0;
-  color: #222;
+  color: #999;
   background-color: #fff;
   font-family: "Proxima Nova Soft", sans-serif; }
 
@@ -26,10 +26,25 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Proxima Nova Soft Semibold", sans-serif; }
+  font-family: "Proxima Nova Soft Semibold", sans-serif;
+  color: #222; }
 
 p {
-  color: #999; }
+  line-height: 1.5em; }
+
+ol,
+ul {
+  color: #222; }
+
+ul {
+  list-style: square;
+  list-style-position: inside; }
+
+ol {
+  list-style-position: inside; }
+
+li {
+  margin-bottom: 8px; }
 
 .btn {
   padding: 8px 12px;
@@ -41,6 +56,19 @@ p {
     background-color: #222;
     cursor: pointer; }
 
+img {
+  display: block; }
+
+pre {
+  overflow: auto;
+  margin: 0 16px;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  font-size: 13px;
+  font-family: Menlo, Monaco, Consolas, Courier, monospace;
+  line-height: 1.5em; }
+
 .page {
   max-width: 360px;
   margin: 0 auto;
@@ -50,8 +78,7 @@ p {
   margin: 0;
   padding: 0;
   line-height: 1.2em;
-  font-size: 16px;
-  color: #222; }
+  font-size: 16px; }
 
 .post__title {
   max-width: 480px;
@@ -73,9 +100,19 @@ p {
   padding-left: 16px;
   padding-right: 16px; }
 
-.post__content > ul {
-  list-style: square;
-  list-style-position: inside; }
+.post__content img {
+  margin: 0 auto; }
 
-.post__content > ol {
-  list-style-position: inside; }
+.figure, .figure--coffee-drinks {
+  display: table;
+  margin: 0 auto 16px auto; }
+  .figure img, .figure--coffee-drinks img {
+    max-width: 100%;
+    margin-bottom: 8px; }
+  .figure__caption {
+    display: table-caption;
+    caption-side: bottom;
+    margin-bottom: 16px; }
+
+.figure--coffee-drinks {
+  max-width: 640px; }

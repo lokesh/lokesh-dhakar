@@ -1,9 +1,8 @@
 ---
-layout: post.jade
 title: "Biking DC mashup"
 date: 2008-11-24 22:42
 comments: true
-categories:
+layout: post.jade
 ---
 ## DC's bike lanes and routes drawn on a Google Map.
 
@@ -13,7 +12,9 @@ Inspired by the [Apps for Democracy][2] contest which encouraged developers to b
  [2]: http://www.appsfordemocracy.org/
  [3]: http://data.octo.dc.gov/
 
-<a href="http://www.lokeshdhakar.com/projects/bikingdc/" class="loadPageInline"><img src="/media/posts/biking-dc-mashup/biking-dc-map.png" class="scale" /></a>
+<figure class="figure">
+  <a href="http://www.lokeshdhakar.com/projects/bikingdc/" class="loadPageInline"><img src="/media/posts/biking-dc-mashup/biking-dc-map.png" /></a>
+</figure>
 
 ### Tech Notes
 

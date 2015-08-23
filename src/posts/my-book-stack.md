@@ -1,13 +1,14 @@
 ---
-layout: post.jade
 title: "My book stack"
 date: 2007-11-08 18:32
 comments: true
-categories:
+layout: post.jade
 ---
 ## A list of the books I'm currently reading.
 
-<img src="/media/posts/my-book-stack/bookstack.jpg" alt="a pile of six books on a desk" title="bookstack" class="scale" />
+<div class="figure">
+  <img src="/media/posts/my-book-stack/bookstack.jpg" alt="a pile of six books on a desk" title="bookstack" />
+</div>
 
 *   [Homicide][1] *by David Simon*
 *   [How to Conquer The New York Times Crossword Puzzle][2] *by Amy Reynaldo*
