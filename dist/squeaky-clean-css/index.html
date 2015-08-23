@@ -1,0 +1,70 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/css/main.css"><title>Squeaky clean CSS | lokeshdhakar.com</title></head><body><article class="post"><h1 class="post__title">Squeaky clean CSS</h1><div class="post__content"><p>I thought I&#39;d share a little bit of what I&#39;ve learned from noodling around with stylesheets these past few years. Here are some basic organizational practices I try to follow. ( Much of this might be old hat for you, and if so, just think of it as a refresher. I run into enough messy stylesheets that I thought this might be of some interest. )</p>
+<h3 id="grouping-your-styles">Grouping your styles</h3>
+<p>Group your styles into categories (ex. layout, typography, forms, so on) and visually seperate them in your css file. A title and table of contents doesn&#39;t hurt either:</p>
+<pre><code>/*
+    HuddleTogether.com Screen Styles
+
+    Table of Contents:
+        layout
+        typography
+        forms
+*/
+
+/* layout
+----------------------------------------------- */
+
+/* typography
+----------------------------------------------- */
+
+/* forms
+----------------------------------------------- */
+</code></pre><h3 id="choosing-your-categories">Choosing your categories</h3>
+<p>Even though I do have some common practices, I don&#39;t have a &#39;template&#39; for how to breakdown styles into categories.</p>
+<p>For starters, I almost always have <em>layout</em> and <em>typography</em> categories. With <em>typography</em> defining the sitewide look and feel. Depending on the complexity, I may break out the <em>table</em> and <em>form</em> styles into their own categories.</p>
+<p>Next, I address the physical sections of the page with their own categories: <em>header</em>, <em>sidebar</em>, <em>content</em>, and <em>footer</em> for example. Lastly, I collect the page and content section specific styles and place them in their own category (and sometimes subcategories).</p>
+<h3 id="importing-stylesheets">Importing stylesheets</h3>
+<p>Another method is to categorize the styles and place them in seperate CSS files which are all imported by one main CSS file. I find this method good in theory but it can lead to overlapping styles, <a href="http://www.stuffandnonsense.co.uk/archives/css_specificity_wars.html">specification issues</a>, and general confusion if you&#39;re not very careful:</p>
+<pre><code>@import url(&quot;layout.css&quot;);
+@import url(&quot;typography.css&quot;);
+@import url(&quot;forms.css&quot;);
+</code></pre><h3 id="linebreaks-and-indenting">Linebreaks and indenting</h3>
+<p>When styling multiple tags, ids, or classes with common attributes, display each on its own line. Also, indent closing braces. Both these actions keep the left column clean so you can quickly skim your stylesheet:</p>
+<pre><code>h2,
+h3,
+h4 {
+    font-weight: bold;
+    padding-bottom: 1.5em;
+    }
+h5 {
+    font-weight: normal;
+    font-size: 1.5em;
+    padding-bottom: 0;
+    }
+</code></pre><h3 id="descendant-selectors">Descendant selectors</h3>
+<p>Use descendant selectors generously and consistently to keep your styles grouped neatly and <a href="http://www.stuffandnonsense.co.uk/archives/css_specificity_wars.html">CSS specificity</a> in check:</p>
+<pre><code>#header {}
+#header .logo {}
+#header .logo img {}
+</code></pre><h3 id="quick-disable">Quick disable</h3>
+<p>A trick I use all the time to temporarily disable a style attribute involves simply adding an &#39;x&#39; in front of the attribute name. It&#39;s safer then cutting and quicker then commenting out:</p>
+<pre><code>#footer{
+    border-top: 1px solid #e5e5e5;
+    xborder-bottom: 1px solid #e5e5e5;
+    }
+</code></pre><h3 id="keeping-track-of-divs">Keeping track of divs</h3>
+<p>Quick HTML pointer. For div tags that stay open for a number of lines, add a small comment after the closing tag about the opening div&#39;s id or class:</p>
+<pre><code>&lt;div id=&quot;content&quot;&gt;
+    &lt;h2&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- end #content--&gt;
+</code></pre></div></article></body><!--script.
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2196019-1', 'auto');
+  ga('send', 'pageview');
+--><script src="http://localhost:35729/livereload.js"></script></html>

@@ -6,15 +6,21 @@
   font-family: "Proxima Nova Soft Semibold";
   src: url("../fonts/proxima-nova-soft-semibold-webfont.eot?") format("eot"), url("../fonts/proxima-nova-soft-semibold-webfont.woff2") format("woff2"), url("../fonts/proxima-nova-soft-semibold-webfont.woff") format("woff"), url("../fonts/proxima-nova-soft-semibold-webfont.ttf") format("truetype"), url("../fonts/proxima-nova-soft-semibold-webfont.svg#Proxima_Nova_Soft_Semibold") format("svg"); }
 
+body,
+input,
+button,
+textarea {
+  font-size: 15px; }
+
 body {
-  padding: 16px;
-  color: #555;
+  padding: 0;
+  margin: 0;
+  color: #222;
   background-color: #fff;
   font-family: "Proxima Nova Soft", sans-serif; }
 
 a {
-  color: #c00;
-  text-decoration: none; }
+  color: #222; }
 
 h1,
 h2,
@@ -22,12 +28,54 @@ h3,
 h4 {
   font-family: "Proxima Nova Soft Semibold", sans-serif; }
 
-.bio {
+p {
+  color: #999; }
+
+.btn {
+  padding: 8px 12px;
+  border: 2px solid #222;
+  background-color: white;
+  font-family: "Proxima Nova Soft Semibold", sans-serif; }
+  .btn:hover {
+    color: #fff;
+    background-color: #222;
+    cursor: pointer; }
+
+.page {
   max-width: 360px;
-  padding: 16px;
-  font-size: 15px; }
-  .bio__title {
-    margin: 0;
-    padding: 0;
-    line-height: 1.2em;
-    font-size: 16px; }
+  margin: 0 auto;
+  padding: 8px; }
+
+.bio__title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+  font-size: 16px;
+  color: #222; }
+
+.post__title {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.post__content > p,
+.post__content > h1,
+.post__content > h2,
+.post__content > h3,
+.post__content > h4,
+.post__content > ul,
+.post__content > ol {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.post__content > ul {
+  list-style: square;
+  list-style-position: inside; }
+
+.post__content > ol {
+  list-style-position: inside; }
