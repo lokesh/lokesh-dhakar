@@ -1,0 +1,82 @@
+// Typography -----------------------------------
+
+// Load Custom Fonts
+
++font-face("Proxima Nova Soft", "../fonts/proxima-nova-soft-webfont");
++font-face("Proxima Nova Soft", "../fonts/proxima-nova-soft-semibold-webfont", bold);
+
+body,
+input,
+button,
+textarea
+  +font-regular
+  font-size: 15px
+
+body
+  padding: 0
+  margin: 0
+  color: $font-color
+  background-color: $bg-color
+
+a
+  color: $font-color-dark
+
+h1,
+h2,
+h3,
+h4
+  color: $font-color-dark
+
+h1
+  font-size: 32px
+h2
+  font-size: 18px
+
+p
+  line-height: 1.5em
+
+ol,
+ul
+  color: $font-color-dark
+
+ul
+  list-style: square
+  list-style-position: inside
+
+ol
+  list-style-position: inside
+
+li
+  margin-bottom: 8px
+
+
+// Forms and Buttons ----------------------------
+
+.btn
+  padding: 8px 12px
+  border: 2px solid $font-color-dark
+  background-color: white
+  font-weight: bold
+  &:hover
+    color: $bg-color
+    background-color: $font-color-dark
+    cursor: pointer
+
+
+// Images ----------------------------
+
+img
+  display: block
+
+// Code ----------------------------
+
+pre
+  overflow: auto
+  max-width: $code-max-width
+  margin: 0 auto
+  padding: 12px 16px
+  border: 1px solid $border-color
+  background-color: $code-bg-color
+  font-size: 13px
+  +font-monospace
+  line-height: 1.5em
