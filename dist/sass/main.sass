@@ -3,7 +3,7 @@
 // Load Custom Fonts ----------------------------
 
 +font-face("Proxima Nova Soft", "../fonts/proxima-nova-soft-webfont");
-+font-face("Proxima Nova Soft Semibold", "../fonts/proxima-nova-soft-semibold-webfont");
++font-face("Proxima Nova Soft", "../fonts/proxima-nova-soft-semibold-webfont", bold);
 
 // Variables ------------------------------------
 
@@ -20,8 +20,9 @@ $code-bg-color: #f3f3f3
 $bg-color: #fff
 
 // Layout
-$page-width: 360px
-$post-width: 480px
+$page-max-width: 360px
+$post-max-width: 480px
+$code-max-width: 800px
 
 
 // Typography -----------------------------------
@@ -30,6 +31,7 @@ body,
 input,
 button,
 textarea
+  +font-regular
   font-size: 15px
 
 body
@@ -37,7 +39,6 @@ body
   margin: 0
   color: $font-color
   background-color: $bg-color
-  +font-regular
 
 a
   color: $font-color-dark
@@ -45,12 +46,34 @@ a
 h1,
 h2,
 h3,
-h4
-  +font-bold
+h4,
+h5,
+h6
   color: $font-color-dark
+  margin-top: 1.2em
+
+h1
+  font-size: 32px
+h2
+  font-size: 18px
 
 p
   line-height: 1.5em
+
+ol,
+ul
+  color: $font-color-dark
+
+ul
+  list-style: square
+  list-style-position: inside
+
+ol
+  list-style-position: inside
+
+li
+  margin-bottom: 0.5em
+
 
 // Forms and Buttons ----------------------------
 
@@ -58,23 +81,24 @@ p
   padding: 8px 12px
   border: 2px solid $font-color-dark
   background-color: white
-  +font-bold
+  font-weight: bold
   &:hover
     color: $bg-color
     background-color: $font-color-dark
     cursor: pointer
 
 
-// Images ----------------------------
+// Images and Video -----------------------------
 
 img
   display: block
 
-// Code ----------------------------
+// Code -----------------------------------------
 
 pre
   overflow: auto
-  margin: 0 16px
+  max-width: $code-max-width
+  margin: 0 auto
   padding: 12px 16px
   border: 1px solid $border-color
   background-color: $code-bg-color
@@ -85,7 +109,7 @@ pre
 // Homepage -------------------------------------
 
 .page
-  max-width: $page-width
+  max-width: $page-max-width
   margin: 0 auto
   padding: 8px
 
@@ -101,9 +125,8 @@ pre
 // Blog Post ------------------------------------
 
 .post
-
   &__title
-      max-width: $post-width
+      max-width: $post-max-width
       margin-left: auto
       margin-right: auto
       padding-left: 16px
@@ -115,28 +138,23 @@ pre
     > h2,
     > h3,
     > h4,
-    > ul,
-    > ol
-      max-width: $post-width
+    > .media
+      max-width: $post-max-width
       margin-left: auto
       margin-right: auto
       padding-left: 16px
       padding-right: 16px
 
-    > ul
-      list-style: square
-      list-style-position: inside
-
+    > ul,
     > ol
-      list-style-position: inside
+      max-width: $post-max-width
+      margin-left: auto
+      margin-right: auto
 
-    ol,
-    ul
-      color: $font-color-dark
 
-    img
-      margin: 0 auto
-
+// .figure vs .media
+// Use .figure for displaying images with optional captions in single column.
+// For two columns, use .media.
 .figure
   display: table
   margin: 0 auto 16px auto
@@ -149,8 +167,73 @@ pre
     caption-side: bottom
     margin-bottom: 16px
 
-  // &__image--full-width
-  //   margin-bottom: 16px
-  //   img
-  //     width: 100%
+.figure--right
+  @extend .figure
+  float: right
+  margin: 0 16px 16px 0
+
+.media
+  display: flex
+  max-width: $post-max-width
+  margin: 0 auto
+  padding-left: 16px
+  padding-right: 16px
+
+  &__figure
+    margin-right: 16px
+  &__body
+
+.post-column
+  max-width: $post-max-width
+  margin: 0 auto
+
+
+// Posts ------------------------------------
+
+// Baseball Pitches Illustrated
+.pitches
+  padding: 32px 0
+  margin: 32px 0
+  border-top: 1px solid $border-color
+  border-bottom: 1px solid $border-color
+
+.pitch
+  @extend .media
+  padding-bottom: 32px
+  margin-bottom: 32px
+  border-bottom: 1px solid $border-color
+
+  &:last-of-type
+    padding-bottom: 0
+    margin-bottom: 0
+    border-bottom: none
+
+  &__figure
+    @extend .media__figure
+
+  &__title
+    margin: 0 0 0.5em 0
+
+  &__speed
+    margin: 0 0 0.5em 0
+
+  &__notes
+    margin-top: 0.6em
+
+// Coffee Drinks Illustrated
+.figure--coffee-drinks
+  @extend .figure
+  max-width: 640px
+
+// Design Observations in the Wild
+.figure--design-obs
+  @extend .figure
+
+  img
+    min-width: $post-max-width
+  .figure__caption
+    padding-bottom: 32px
+    margin-bottom: 32px
+    border-bottom: 1px solid $border-color
+
 
