@@ -4,14 +4,17 @@ date: 2009-01-02 18:49
 comments: true
 layout: post.jade
 ---
-##Concise and well articulated pointers on storytelling from the host of This American Life.##
+## Concise and well articulated pointers on storytelling from the host of This American Life.##
 
 These videos are a couple years old but worth rewatching. Ira discusses the building blocks of storytelling with broadcast in mind (tv and video), but most of what he talks about isn't tied to any medium.  I've included some notes I jotted down below each video.
 
 <!-- more -->
 
-###Part 1###
-<iframe width="560" height="315" src="http://www.youtube.com/embed/loxJ3FtCJJA" frameborder="0" allowfullscreen></iframe>
+### Part 1
+
+<figure class="figure">
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/loxJ3FtCJJA" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 Building blocks of stories in broadcast :
 
@@ -21,26 +24,32 @@ Building blocks of stories in broadcast :
 Raise lots of questions. Use them as bait. It is implied that questions you raised will be answered.
 
 
-###Part 2###
+### Part 2
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/KW6x7lOIsPE" frameborder="0" allowfullscreen></iframe>
+<figure class="figure">
+  <iframe width="420" height="315" src="http://www.youtube.com/embed/KW6x7lOIsPE" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 You thought a story was going to be good, but the feeling you had about it isn't in the footage. Be super-ambitious, kill your medicore work.
 
 
-###Part 3###
+### Part 3
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/BI23U7U2aUY" frameborder="0" allowfullscreen></iframe>
+<figure class="figure">
+  <iframe width="420" height="315" src="http://www.youtube.com/embed/BI23U7U2aUY" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 You have good taste but for the first couple years the stuff you're making isn't so good. You recognize this. Do a huge volume of work to close the gap between the quality of your work and your ambition.
 
-###Part 4###
+### Part 4
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/baCJFAGEuJM" frameborder="0" allowfullscreen></iframe>
+<figure class="figure">
+  <iframe width="420" height="315" src="http://www.youtube.com/embed/baCJFAGEuJM" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 What's interesting isn't just a person's take on things, but their interaction with others. Interaction creates drama.
 
-###More Ira Glass###
+### More Ira Glass
 
 * <a href="http://www.thisamericanlife.org/
 ">This American Life Radio Show</a> - Listen to 14+ years of material in the archives.
