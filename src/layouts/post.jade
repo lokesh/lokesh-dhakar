@@ -6,11 +6,10 @@ block main
   - sharing = (sharing === false) ? false: true
 
   a.masthead(href="/")
-    .masthead__content
-      .tagline
-        div The personal site of
-        img.tagline__avatar(src='/media/me.jpg')
-        div Lokesh Dhakar
+    .masthead__tagline
+      div The personal site of
+      img.masthead__avatar(src='/media/me.jpg')
+      div Lokesh Dhakar
 
   article.post
     h1.post__title= title

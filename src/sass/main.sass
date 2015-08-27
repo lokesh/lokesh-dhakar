@@ -152,15 +152,10 @@ pre
   &:hover
     background-color: #f3f3f3
 
-  &__content
+  &__tagline
     +align-post-center
-    width: 100%
-    text-align: center
-
-.tagline
-  display: flex
-  align-items: center
-  justify-content: center
+    display: flex
+    align-items: center
 
   &__avatar
     display: inline-block
@@ -175,7 +170,7 @@ pre
 .page
   max-width: $page-max-width
   margin: 0 auto
-  padding: 8px
+  padding: 16px
 
 
 // Blog Post ------------------------------------
@@ -264,22 +259,16 @@ pre
 // Posts ------------------------------------
 
 // Baseball Pitches Illustrated
-.pitches
-  padding: 32px 0
-  margin: 32px 0
-  border-top: 1px solid $border-color
-  border-bottom: 1px solid $border-color
-
 .pitch
   @extend .media
-  padding-bottom: 32px
-  margin-bottom: 32px
-  border-bottom: 1px solid $border-color
+  padding-top: 32px
+  margin-top: 32px
+  border-top: 1px solid $border-color
 
   &:last-of-type
-    padding-bottom: 0
-    margin-bottom: 0
-    border-bottom: none
+    padding-bottom: 32px
+    margin-bottom: 32px
+    border-bottom: 1px solid $border-color
 
   &__figure
     @extend .media__figure
