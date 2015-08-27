@@ -3,3 +3,5 @@ node_modules
 
 dist/fonts
 src/fonts
+
+deploy.js

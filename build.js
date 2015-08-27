@@ -4,6 +4,7 @@ require('harmonize')();
 var metalsmith = require('metalsmith');
 
 // Metalsmith Plugins
+var autoprefixer = require('metalsmith-autoprefixer');
 var layouts = require('metalsmith-layouts');
 var markdown = require('metalsmith-markdown');
 var permalinks = require('metalsmith-permalinks');
@@ -24,6 +25,7 @@ var siteBuild = metalsmith(__dirname)
     outputDir: 'css/',
     outputStyle: 'expanded'
   }))
+  .use(autoprefixer())
   .use(markdown())
   .use(permalinks(':title'))
   .use(layouts({
