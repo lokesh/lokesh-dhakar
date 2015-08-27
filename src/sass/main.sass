@@ -16,11 +16,14 @@ $font-color-dark: #222
 $link-color: #5af
 $border-color: #ddd
 
-$code-bg-color: #f3f3f3
+$code-bg-color: #444
 $bg-color: #fff
 
+$twitter-color: #00aced
+$fb-color: #325a97
+
 // Layout
-$page-max-width: 360px
+$page-max-width: 400px
 $post-max-width: 480px
 $code-max-width: 800px
 
@@ -53,9 +56,13 @@ h6
   margin-top: 1.2em
 
 h1
-  font-size: 32px
+  font-size: 36px
+  line-height: 1.1em
+  margin-bottom: 0.5em
+
 h2
   font-size: 18px
+  margin-top: 0.8em
 
 p
   line-height: 1.5em
@@ -74,19 +81,39 @@ ol
 li
   margin-bottom: 0.5em
 
-
 // Forms and Buttons ----------------------------
 
 .btn
+  display: inline-block
   padding: 8px 12px
+  margin-right: 16px
+  margin-bottom: 16px
   border: 2px solid $font-color-dark
   background-color: white
   font-weight: bold
+  text-decoration: none
   &:hover
     color: $bg-color
     background-color: $font-color-dark
     cursor: pointer
 
+.twitter-btn
+  @extend .btn
+  color: white
+  background-color: $twitter-color
+  border-color: $twitter-color
+  &:hover
+    background-color: darken($twitter-color, 10%)
+    border-color: darken($twitter-color, 10%)
+
+.fb-btn
+  @extend .btn
+  color: white
+  border-color: $fb-color
+  background-color: $fb-color
+  &:hover
+    background-color: darken($fb-color, 20%)
+    border-color: darken($fb-color, 20%)
 
 // Images and Video -----------------------------
 
@@ -100,11 +127,48 @@ pre
   max-width: $code-max-width
   margin: 0 auto
   padding: 12px 16px
-  border: 1px solid $border-color
   background-color: $code-bg-color
   font-size: 13px
   +font-monospace
   line-height: 1.5em
+
+// Partial --------------------------------------
+
+.bio
+  &__name
+    font-weight: bold
+    color: $font-color-dark
+
+// Masthead -------------------------------------
+// Currently only displayed on post pages.
+
+.masthead
+  display: block
+  padding: 12px 0
+  border-bottom: 1px solid $border-color
+  color: $font-color
+  text-decoration: none
+
+  &:hover
+    background-color: #f3f3f3
+
+  &__content
+    +align-post-center
+    width: 100%
+    text-align: center
+
+.tagline
+  display: flex
+  align-items: center
+  justify-content: center
+
+  &__avatar
+    display: inline-block
+    width: 32px
+    height: 32px
+    margin: 0 8px
+    border-radius: 50%
+
 
 // Homepage -------------------------------------
 
@@ -113,44 +177,31 @@ pre
   margin: 0 auto
   padding: 8px
 
-.bio
-  &__title
-    margin: 0
-    padding: 0
-    line-height: 1.2em
-    font-size: 16px
-    // color: $font-color-dark
-
 
 // Blog Post ------------------------------------
 
 .post
+  margin-bottom: 32px
+
   &__title
-      max-width: $post-max-width
-      margin-left: auto
-      margin-right: auto
-      padding-left: 16px
-      padding-right: 16px
+    +align-post-center
 
   &__content
+    margin-bottom: 16px
+
     > p,
     > h1,
     > h2,
     > h3,
     > h4,
     > .media
-      max-width: $post-max-width
-      margin-left: auto
-      margin-right: auto
-      padding-left: 16px
-      padding-right: 16px
+      +align-post-center
 
     > ul,
     > ol
       max-width: $post-max-width
       margin-left: auto
       margin-right: auto
-
 
 // .figure vs .media
 // Use .figure for displaying images with optional captions in single column.
@@ -166,6 +217,8 @@ pre
     display: table-caption
     caption-side: bottom
     margin-bottom: 16px
+    padding-left: 8px
+    padding-right: 8px
 
 .figure--right
   @extend .figure
@@ -183,10 +236,30 @@ pre
     margin-right: 16px
   &__body
 
+
 .post-column
   max-width: $post-max-width
   margin: 0 auto
 
+// Twitter, FB, etc. share buttons
+.post-sharing
+  +align-post-center
+
+// Small bio after each post
+.post-bio
+  margin-top: 32px
+
+  &__content
+    +align-post-center
+    padding-top: 32px
+    padding-bottom: 32px
+    border-top: 1px solid $border-color
+
+  &__title
+    margin-top: 0
+
+.post-bio__btn
+  @extend .btn
 
 // Posts ------------------------------------
 
@@ -235,5 +308,4 @@ pre
     padding-bottom: 32px
     margin-bottom: 32px
     border-bottom: 1px solid $border-color
-
 

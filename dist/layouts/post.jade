@@ -1,6 +1,47 @@
 extends base
 
 block main
+
+  //- Default to true for social even if metadata not set in post.
+  - sharing = (sharing === false) ? false: true
+
+  a.masthead(href="/")
+    .masthead__content
+      .tagline
+        div The personal site of
+        img.tagline__avatar(src='/media/me.jpg')
+        div Lokesh Dhakar
+
   article.post
     h1.post__title= title
     .post__content!= contents
+
+  if sharing
+    include sharing.jade
+
+  .post-bio
+    .post-bio__content
+      h3.post-bio__title About the Author
+      include bio.jade
+
+
+  //- Twitter SDK used by Tweet button
+  script(async, src='//platform.twitter.com/widgets.js')
+
+  //- FB JS SDK used by Share button
+  script.
+    window.fbAsyncInit = function() {
+        FB.init({
+          appId      : 'your-app-id',
+          xfbml      : true,
+          version    : 'v2.4'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));

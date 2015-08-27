@@ -1,9 +1,9 @@
 ---
-layout: post.jade
 title: "Baseball pitches illustrated"
 date: 2007-09-20 16:29
 comments: true
-categories:
+sharing: true
+layout: post.jade
 ---
 <figure class="figure--right">
   <img src="/media/posts/baseball-pitches-illustrated/spitball.png" alt="spitball" />

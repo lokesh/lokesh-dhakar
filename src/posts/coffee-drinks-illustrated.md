@@ -15,5 +15,5 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
   <img src="/media/posts/coffee-drinks-illustrated/coffee drinks.png" alt="Diagram of ingredients of nine popular espresso based coffee drinks including cappuccino and latte." />
 </figure>
 
-### About the Diagrams ###
+### About the diagrams ###
 I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and tidbits from other online sources. Know that drinks might be prepared a bit differently coffee shop to coffee shop, and especially country to country.

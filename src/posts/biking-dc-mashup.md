@@ -2,6 +2,7 @@
 title: "Biking DC mashup"
 date: 2008-11-24 22:42
 comments: true
+sharing: true
 layout: post.jade
 ---
 ## DC's bike lanes and routes drawn on a Google Map.
