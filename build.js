@@ -37,9 +37,10 @@ var siteBuild = metalsmith(__dirname)
     watch({
       paths: {
         '${source}/**/*': true,
-        // When a SASS file is edited, force a complete rebuild. I was not able to get
-        // metalsmith-watch to rebuild just the CSS on a SASS edit.
+        // When a SASS or JS file is edited, force a complete rebuild. I was not able to get
+        // metalsmith-watch to rebuild just the CSS on a SASS edit or just the JS.
         '${source}/sass/**/*': '**/*',
+        '${source}/js/**/*': '**/*',
         '${source}/layouts/**/*': '**/*'
       },
       livereload: true
