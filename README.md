@@ -1,5 +1,10 @@
-http://lokeshdhakar.com
+# lokeshdhakar.com
 
-node build
+Built on Metalsmith.
 
-node deploy
+## Building and deploying
+
+```
+node build	// Builds, sets up watchers, and serves at http://localhost:8080.
+node deploy // Not in repo.
+```
