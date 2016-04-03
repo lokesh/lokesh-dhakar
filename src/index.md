@@ -5,9 +5,9 @@ sharing: false
 ---
 ### Hello!
 
-My name is <span class="bio__name">Lokesh Dhakar</span>. I'm a designer and developer living in San Francisco.
+My name is <span class="bio__name">Lokesh Dhakar</span>. I'm work on the Design Engineering team at [Weebly](http://weebly.com) in San Francisco.
 
-I recently worked at [Getaround](https://www.getaround.com/) as the Engineering Lead of the Web Team. See my full work history at [LinkedIn](https://www.linkedin.com/in/lokeshdhakar).
+Previously I worked at [Getaround](https://www.getaround.com/) as the Engineering Lead of the Web Team. See my full work history at [LinkedIn](https://www.linkedin.com/in/lokeshdhakar).
 
 I created the original [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) script many years ago. More recently I created [Color Thief](http://lokeshdhakar.com/projects/color-thief/). See all my open source projects on [Github](https://github.com/lokesh).
 

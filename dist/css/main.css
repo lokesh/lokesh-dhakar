@@ -193,7 +193,8 @@ pre {
 .post__content > h2,
 .post__content > h3,
 .post__content > h4,
-.post__content > .media, .post__content > .pitch {
+.post__content > .media,
+.post__content > .pitch {
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
