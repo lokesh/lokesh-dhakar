@@ -5,7 +5,7 @@ sharing: false
 ---
 ### Hello!
 
-My name is <span class="bio__name">Lokesh Dhakar</span>. I'm work on the Design Engineering team at [Weebly](http://weebly.com) in San Francisco.
+My name is <span class="bio__name">Lokesh Dhakar</span>. I work on the Design Engineering team at [Weebly](http://weebly.com) in San Francisco.
 
 Previously I worked at [Getaround](https://www.getaround.com/) as the Engineering Lead of the Web Team. See my full work history at [LinkedIn](https://www.linkedin.com/in/lokeshdhakar).
 
