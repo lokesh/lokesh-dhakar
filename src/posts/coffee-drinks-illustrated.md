@@ -17,3 +17,18 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
 
 ### About the diagrams ###
 I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and tidbits from other online sources. Know that drinks might be prepared a bit differently coffee shop to coffee shop, and especially country to country.
+
+
+<style>
+.figure--coffee-drinks {
+  display: table;
+  max-width: 640px;
+  margin: 0 auto 16px auto;
+}
+
+.figure--coffee-drinks img{
+  max-width: 100%;
+  margin-bottom: 8px;
+}
+
+</style>

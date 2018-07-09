@@ -8,6 +8,11 @@ layout: post.njk
 
 <style>
 .pitch {
+  display: flex;
+  max-width: 480px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 32px;
   margin-top: 32px;
   border-top: 1px solid #ddd;
@@ -17,6 +22,10 @@ layout: post.njk
   padding-bottom: 32px;
   margin-bottom: 32px;
   border-bottom: 1px solid #ddd;
+}
+
+.pitch__figure {
+  margin-right: 16px;
 }
 
 .pitch__title {
