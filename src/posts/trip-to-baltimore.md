@@ -2,7 +2,7 @@
 title: "Trip to Baltimore"
 date: 2005-05-10 17:44
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 I'll post my thoughts here soon. Here are a couple of pictures of Oriole Park at Camden Yards to start.
 

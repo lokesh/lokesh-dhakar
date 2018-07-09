@@ -2,7 +2,7 @@
 title: "Baltimore Travelogue"
 date: 2008-11-18 18:45
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 ## Places that are memorable for one reason or another.
 

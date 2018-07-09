@@ -1,5 +1,5 @@
 ---
-layout: post.jade
+layout: post.njk
 title: "Roadtrip 2004"
 date: 2005-01-12 17:08
 comments: true

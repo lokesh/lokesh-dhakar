@@ -2,7 +2,7 @@
 title: "MobileMe particles"
 date: 2011-09-20 16:16
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 The soon to be retired, MobileMe service from Apple, has a [beautiful login page][1] with wispy particles floating about. There is a lot to love on this page and an unbelievable attention to detail.
 

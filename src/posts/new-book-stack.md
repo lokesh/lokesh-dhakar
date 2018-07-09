@@ -2,7 +2,7 @@
 title: "New book stack"
 date: 2008-07-24 18:36
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 ## An updated list of the books I'm currently reading.
 

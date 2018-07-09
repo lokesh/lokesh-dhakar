@@ -2,7 +2,7 @@
 title: "My book stack"
 date: 2007-11-08 18:32
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 ## A list of the books I'm currently reading.
 

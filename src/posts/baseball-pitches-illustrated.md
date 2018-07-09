@@ -3,8 +3,35 @@ title: "Baseball pitches illustrated"
 date: 2007-09-20 16:29
 comments: true
 sharing: true
-layout: post.jade
+layout: post.njk
 ---
+
+<style>
+.pitch {
+  padding-top: 32px;
+  margin-top: 32px;
+  border-top: 1px solid #ddd;
+}
+
+.pitch:last-of-type {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pitch__title {
+  margin: 0 0 0.5em 0;
+}
+
+.pitch__speed {
+  margin: 0 0 0.5em 0;
+}
+
+.pitch__notes {
+  margin-top: 0.6em;
+}
+</style>
+
 <figure class="figure--right">
   <img src="/media/posts/baseball-pitches-illustrated/spitball.png" alt="spitball" />
 </figure>

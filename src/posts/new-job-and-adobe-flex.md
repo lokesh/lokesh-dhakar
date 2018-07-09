@@ -1,5 +1,5 @@
 ---
-layout: post.jade
+layout: post.njk
 title: "New job and Adobe Flex"
 date: 2006-06-11 18:17
 comments: true

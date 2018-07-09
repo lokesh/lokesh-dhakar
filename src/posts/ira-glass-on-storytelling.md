@@ -2,7 +2,7 @@
 title: "Ira Glass on storytelling"
 date: 2009-01-02 18:49
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 ## Concise and well articulated pointers on storytelling from the host of This American Life.##
 

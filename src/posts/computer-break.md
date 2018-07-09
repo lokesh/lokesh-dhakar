@@ -2,7 +2,7 @@
 title: "Computer break"
 date: 2005-03-24 17:35
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 Once in a while I will jump off the computer and paint or craft something up. Here is something I finished last night.
 

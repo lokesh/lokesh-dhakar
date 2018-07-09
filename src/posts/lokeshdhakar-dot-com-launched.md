@@ -3,7 +3,7 @@ title: "LokeshDhakar.com launched"
 date: 2007-08-17 18:19
 comments: false
 sharing: false
-layout: post.jade
+layout: post.njk
 ---
 ## I'm consolidating my blog, projects, and other 'internet things' to this new domain.
 

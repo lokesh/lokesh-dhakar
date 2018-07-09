@@ -2,7 +2,7 @@
 title: "Messageboard"
 date: 2006-05-19 18:14
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 634 comments into the game, a new forum is up for discussing modifications, features, troubleshooting, etc. related to the Lightbox scripts. You can find it here:
 [Huddletogether.com Forum](http://www.lokeshdhakar.com/forum/)

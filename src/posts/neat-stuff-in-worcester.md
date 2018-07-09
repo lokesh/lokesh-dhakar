@@ -2,7 +2,7 @@
 title: "Neat-o Stuff in Worcester"
 date: 2005-12-04 17:56
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 * <a href="http://www.downhillbattle.org/">Downhill Battle</a> - geeky music activism
 * <a href="http://www.fujichia.com/index1.html">Fujichia</a> - indie something or other

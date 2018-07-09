@@ -2,7 +2,7 @@
 title: "Design observations in the wild"
 date: 2011-09-16 22:34
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 
 

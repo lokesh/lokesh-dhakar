@@ -2,7 +2,7 @@
 title: "Coffee diagram follow-up"
 date: 2007-09-04 21:59
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 
 ## Mugs, t-shirts, and source files now available

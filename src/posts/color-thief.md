@@ -2,7 +2,7 @@
 title: "Color Thief"
 date: 2011-11-03 16:03
 comments: true
-layout: post.jade
+layout: post.njk
 ---
 Ever wanted to grab the dominant color or color palette from an image? Probably not. But now you can! Take a look at the <a href="http://lokeshdhakar.com/projects/color-thief" class="loadPageInline">Color Thief Demo Page</a> to see it in action.
 

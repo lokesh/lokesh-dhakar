@@ -1,5 +1,5 @@
 ---
-layout: post.jade
+layout: post.njk
 title: "Squeaky clean CSS"
 date: 2006-02-16 22:32
 comments: true
