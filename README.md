@@ -1,18 +1,32 @@
 # lokeshdhakar.com
 
-Built on Metalsmith.
+- Built with [Metalsmith](http://www.metalsmith.io/), a simple, plugin driven static site generator.
+- [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) for templating. 
 
-## Building and deploying
+Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-metalsmith-nunjucks).
 
-```
-node build	// Builds, sets up watchers, and serves at http://localhost:8080.
-node deploy // Not in repo.
-```
-
-## Configuring
-
-...
 
 ## Writing a new post
 
-...
+Duplicate an existing post's md file.
+
+- **Adding one-off CSS for a post.** Add the styles in a style tag in the md file.
+- **Adding one-off JS for a post.** Add a script tag at the bottom of the md file..
+
+
+## Developing
+
+```
+node build  // Builds, sets up watchers, and serves at http://localhost:8080.
+```
+
+**Enable live reloading.** Add `<script src="http://localhost:35729/livereload.js"></script>` to 
+each page. You can add to `base.njk`.
+
+**Templates.** Using [Nunjuks] for templating.
+
+## Deploying
+
+```
+node deploy // Not in repo.
+```
