@@ -1,10 +1,8 @@
 ---
 date: 2018-07-08
-layout: page.njk
+layout: post.njk
 ---
-TEST
-
-### Hello!
+# Hello!
  
 My name is <span class="bio__name">Lokesh Dhakar</span>. I work on the Design Engineering team at [Weebly](http://weebly.com) in San Francisco.
 

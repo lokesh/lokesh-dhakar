@@ -30,7 +30,7 @@ h3 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h2 {
@@ -83,7 +83,7 @@ pre {
   max-width: var(--post-width);
   margin-left: auto;
   margin-right: auto;
-  padding: 16px;
+  padding: 0 16px 16px 16px;
 }
 
 .nav__item {

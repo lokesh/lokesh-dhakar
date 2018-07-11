@@ -1,5 +1,3 @@
-// require('harmonize')();
-
 // Metalsmith
 var metalsmith = require('metalsmith');
 
@@ -7,6 +5,7 @@ var metalsmith = require('metalsmith');
 var layouts = require('metalsmith-layouts');
 var markdown = require('metalsmith-markdown');
 var permalinks = require('metalsmith-permalinks');
+var collections = require('metalsmith-collections');
 var sass = require('metalsmith-sass');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
@@ -28,7 +27,13 @@ var siteBuild = metalsmith(__dirname)
     outputStyle: 'expanded'
   }))
 
-  // .use(drafts()) // Only files that are NOT drafts.
+  .use(collections({
+     posts: {
+       pattern: 'posts/*.md',
+       sortBy: 'date',
+       reverse: true,
+      }
+  }))
 
   .use(markdown())
   .use(permalinks(':title'))
