@@ -131,8 +131,8 @@ pre {
 .post__content > h3,
 .post__content > h4,
 .post__content > pre,
-.post__content > .media,
-.post__content > .pitch {
+.post__content > table,
+.post__content > .media {
   max-width: var(--post-width);
   margin-left: auto;
   margin-right: auto;

@@ -8,9 +8,14 @@
     <main class="post__content">
       <ul>
         {% for post in collections.posts %}
+
+          {% if not post.draft %}
           <li>
+            {{ post.draft }}
             <a href="/{{ post.path }}">{{ post.title }}</a>
           </li>
+          {% endif %}
+
         {% endfor %}
       </ul>
     </main>

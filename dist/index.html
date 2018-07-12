@@ -13,6 +13,8 @@
   </head>
   <body>
 
+    <script src="/js/jquery-3.3.1.slim.min.js"></script>
+
     <nav class="nav">
       <a href="/" class="nav__item">Home</a>
       <a href="/blog" class="nav__item">Blog</a>
@@ -26,19 +28,35 @@
       <h1 class="post__title"></h1>
     </header>
     <main class="post__content">
-      <h1 id="hello-">Hello!</h1>
+      <style>
+.btn {
+  margin-right: 8px;
+}
+</style>
+
+<h1 id="hello-">Hello!</h1>
 <p>My name is <span class="bio__name">Lokesh Dhakar</span>. I work on the Design Engineering team at <a href="http://weebly.com">Weebly</a> in San Francisco.</p>
 <p>Previously I worked at <a href="https://www.getaround.com/">Getaround</a> as the Engineering Lead of the Web Team. See my full work history at <a href="https://www.linkedin.com/in/lokeshdhakar">LinkedIn</a>.</p>
 <p>I created the original <a href="http://lokeshdhakar.com/projects/lightbox2/">Lightbox</a> script many years ago. More recently I created <a href="http://lokeshdhakar.com/projects/color-thief/">Color Thief</a>. See all my open source projects on <a href="https://github.com/lokesh">Github</a>.</p>
 <p>I take photos on <a href="https://instagram.com/lokesh">Instagram</a>, post designs on <a href="https://dribbble.com/lokesh">Dribbble</a>, and track my runs and bike rides on <a href="https://www.strava.com/athletes/1136437">Strava</a>.</p>
 <p><a class="btn" href="https://twitter.com/lokesh">Follow me on Twitter</a> <a class="btn js-email-link" href="#">Email me</a></p>
+<script>
+  $(function() {
+      var emailLinks = $('.js-email-link').on('click', (event) => {
+        var a = "lokesh.dhakar@";
+        var b = "gmail.com";
+        window.open("mailto:" + a + b, 'email');
+        return false;  
+      })
+  });
+</script>
 
     </main>
   </article>
 
 
 
-    <script src="/js/base.js"></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2196019-1"></script>
