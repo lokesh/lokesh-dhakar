@@ -11,7 +11,7 @@ Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-meta
 Duplicate an existing post's md file.
 
 - **Adding one-off CSS for a post.** Add the styles in a style tag in the md file.
-- **Adding one-off JS for a post.** Add a script tag at the bottom of the md file..
+- **Adding one-off JS for a post.** Add a script tag at the bottom of the md file.
 
 
 ## Developing
