@@ -132,7 +132,8 @@ pre {
 .post__content > h4,
 .post__content > pre,
 .post__content > table,
-.post__content > .media {
+.post__content > .media,
+.post__content > .center {
   max-width: var(--post-width);
   margin-left: auto;
   margin-right: auto;
