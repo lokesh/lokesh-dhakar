@@ -7,13 +7,13 @@ layout: post.njk
 <div class="center">
 
   <div id="app">
-    <table>
-      <tr v-for="run in runs">
-        <td style="width: 100px; text-align: right;">{{ run.date }}</td>
+      <div v-for="run in runs">
+        {{ run.name }}
+<!--         <td style="width: 100px; text-align: right;">{{ run.date }}</td>
         <td style="width: 50px; text-align: right;">{{ run.distance }} mi</td>
         <td style="width: 80px; text-align: right;">{{ run.pace }} /mi</td>
-        <td >{{ run.name }}</td>
-      </tr>
+        <td >{{ run.name }}</td> -->
+      </div>
   </table>
 
 </div>
