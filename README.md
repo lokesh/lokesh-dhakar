@@ -17,7 +17,7 @@ Duplicate an existing post's md file.
 ## Developing
 
 ```
-node build  // Builds, sets up watchers, and serves at http://localhost:8080.
+npm run dev  // Builds, sets up watchers, and serves at http://localhost:8080.
 ```
 
 **Enable live reloading.** Add `<script src="http://localhost:35729/livereload.js"></script>` to 
@@ -26,6 +26,11 @@ each page. You can add to `base.njk`.
 **Templates.** Using [Nunjuks] for templating.
 
 ## Deploying
+
+Refresh data for the Boston Marathon blog post which hits the Strava API. Run at least once a year.
+```
+npm run fetch-data
+``` 
 
 ```
 node deploy // Not in repo.
