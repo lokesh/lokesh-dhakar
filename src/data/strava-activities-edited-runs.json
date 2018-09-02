@@ -1,0 +1,1862 @@
+[
+  {
+    "id": 1812834769,
+    "name": "Running on a full stomach 🤮",
+    "distance": "8.0",
+    "distancePercent": 30.58947770229008,
+    "pace": 7.122557638499547,
+    "paceFormatted": "7:07",
+    "date": "Sep 1",
+    "startDate": "2018-09-01T13:50:52Z"
+  },
+  {
+    "id": 1798971397,
+    "name": "Bridge to Bridge 5k (4th place)",
+    "distance": "3.3",
+    "distancePercent": 12.604581884351147,
+    "pace": 5.9249830361258065,
+    "paceFormatted": "5:55",
+    "date": "Aug 26",
+    "startDate": "2018-08-26T08:00:06Z"
+  },
+  {
+    "id": 1798816234,
+    "name": "Jog to the run",
+    "distance": "3.0",
+    "distancePercent": 11.610388284351144,
+    "pace": 8.728035219905538,
+    "paceFormatted": "8:43",
+    "date": "Aug 25",
+    "startDate": "2018-08-26T06:54:33Z"
+  },
+  {
+    "id": 1794315357,
+    "name": "Green gulch plus Diaz Ridge",
+    "distance": "8.8",
+    "distancePercent": 33.490473912977095,
+    "pace": 8.363245597896492,
+    "paceFormatted": "8:21",
+    "date": "Aug 23",
+    "startDate": "2018-08-24T06:18:37Z"
+  },
+  {
+    "id": 1783850258,
+    "name": "Feelin’ those Hare Krishna vibes",
+    "distance": "7.4",
+    "distancePercent": 28.400686496564887,
+    "pace": 7.391499643768401,
+    "paceFormatted": "7:23",
+    "date": "Aug 19",
+    "startDate": "2018-08-19T10:54:34Z"
+  },
+  {
+    "id": 1774217767,
+    "name": "2-mile quickie",
+    "distance": "2.0",
+    "distancePercent": 7.70144293244275,
+    "pace": 6.087554249924651,
+    "paceFormatted": "6:05",
+    "date": "Aug 15",
+    "startDate": "2018-08-15T09:01:17Z"
+  },
+  {
+    "id": 1774076006,
+    "name": "Fast mile showdown (5:21)",
+    "distance": "1.3",
+    "distancePercent": 4.776255942366412,
+    "pace": 6.459540207871073,
+    "paceFormatted": "6:27",
+    "date": "Aug 15",
+    "startDate": "2018-08-15T08:01:03Z"
+  },
+  {
+    "id": 1762865710,
+    "name": "Trouble brewing oceanside",
+    "distance": "10.3",
+    "distancePercent": 39.240052979007636,
+    "pace": 9.529002809034166,
+    "paceFormatted": "9:31",
+    "date": "Aug 10",
+    "startDate": "2018-08-10T07:02:05Z"
+  },
+  {
+    "id": 1752811709,
+    "name": "Miwok to Green Gulch Loop",
+    "distance": "8.9",
+    "distancePercent": 34.09239742366413,
+    "pace": 9.712044187282077,
+    "paceFormatted": "9:42",
+    "date": "Aug 5",
+    "startDate": "2018-08-05T14:31:45Z"
+  },
+  {
+    "id": 1742704741,
+    "name": "Kezar Workout plus Buena Vista sprint finish",
+    "distance": "6.7",
+    "distancePercent": 25.50751671450382,
+    "pace": 14.965902279600058,
+    "paceFormatted": "14:57",
+    "date": "Aug 1",
+    "startDate": "2018-08-01T07:04:06Z"
+  },
+  {
+    "id": 1735738378,
+    "name": "SF Half abort - knee pains 😫",
+    "distance": "4.9",
+    "distancePercent": 18.703504264503817,
+    "pace": 7.754598597557461,
+    "paceFormatted": "7:45",
+    "date": "Jul 28",
+    "startDate": "2018-07-29T06:31:29Z"
+  },
+  {
+    "id": 1733961666,
+    "name": "Fort Mason to pick up race bib",
+    "distance": "8.1",
+    "distancePercent": 30.782055279389315,
+    "pace": 7.003601279172185,
+    "paceFormatted": "7:00",
+    "date": "Jul 28",
+    "startDate": "2018-07-28T10:47:44Z"
+  },
+  {
+    "id": 1729300802,
+    "name": "6-miler sorta chill (T-3 days for half)",
+    "distance": "6.6",
+    "distancePercent": 25.317310782442746,
+    "pace": 6.79165991850679,
+    "paceFormatted": "6:47",
+    "date": "Jul 26",
+    "startDate": "2018-07-26T07:29:12Z"
+  },
+  {
+    "id": 1718377277,
+    "name": "6 mile leg warmer (T-7 days for half)",
+    "distance": "6.1",
+    "distancePercent": 23.156030659160308,
+    "pace": 7.348642645483793,
+    "paceFormatted": "7:20",
+    "date": "Jul 21",
+    "startDate": "2018-07-21T11:32:24Z"
+  },
+  {
+    "id": 1706853736,
+    "name": "Half-training. 2 weeks left",
+    "distance": "8.0",
+    "distancePercent": 30.38907369656489,
+    "pace": 7.029277485884975,
+    "paceFormatted": "7:01",
+    "date": "Jul 16",
+    "startDate": "2018-07-16T10:10:33Z"
+  },
+  {
+    "id": 1687360510,
+    "name": "Hopper’s Hands - 5mi threshold/tempo",
+    "distance": "5.2",
+    "distancePercent": 19.85517509503817,
+    "pace": 6.654420386696079,
+    "paceFormatted": "6:39",
+    "date": "Jul 7",
+    "startDate": "2018-07-07T11:55:15Z"
+  },
+  {
+    "id": 1681358605,
+    "name": "8 mile run around",
+    "distance": "8.1",
+    "distancePercent": 30.773043028244278,
+    "pace": 8.198411710675465,
+    "paceFormatted": "8:11",
+    "date": "Jul 4",
+    "startDate": "2018-07-04T12:06:28Z"
+  },
+  {
+    "id": 1672161489,
+    "name": "Half Training - 10 miles endurance pace",
+    "distance": "10.4",
+    "distancePercent": 39.63398321984733,
+    "pace": 8.222503991941329,
+    "paceFormatted": "8:13",
+    "date": "Jun 30",
+    "startDate": "2018-06-30T08:17:45Z"
+  },
+  {
+    "id": 1660199629,
+    "name": "Half Training cut-short",
+    "distance": "2.1",
+    "distancePercent": 7.983431527480916,
+    "pace": 8.972144181505486,
+    "paceFormatted": "8:58",
+    "date": "Jun 24",
+    "startDate": "2018-06-24T13:50:23Z"
+  },
+  {
+    "id": 1655019642,
+    "name": "Low energy workout 🤒",
+    "distance": "6.4",
+    "distancePercent": 24.43268718320611,
+    "pace": 8.13889034558363,
+    "paceFormatted": "8:08",
+    "date": "Jun 22",
+    "startDate": "2018-06-22T08:15:25Z"
+  },
+  {
+    "id": 1645585428,
+    "name": "Half Training - 9 miles",
+    "distance": "9.1",
+    "distancePercent": 34.59518617175573,
+    "pace": 7.408478990435706,
+    "paceFormatted": "7:24",
+    "date": "Jun 17",
+    "startDate": "2018-06-17T15:48:53Z"
+  },
+  {
+    "id": 1640099082,
+    "name": "Banjo kezarooie",
+    "distance": "5.4",
+    "distancePercent": 20.55338739427481,
+    "pace": 9.656475530550903,
+    "paceFormatted": "9:39",
+    "date": "Jun 15",
+    "startDate": "2018-06-15T07:08:35Z"
+  },
+  {
+    "id": 1630619047,
+    "name": "Half training",
+    "distance": "10.2",
+    "distancePercent": 38.768807109923664,
+    "pace": 7.772637342392266,
+    "paceFormatted": "7:46",
+    "date": "Jun 10",
+    "startDate": "2018-06-10T12:05:22Z"
+  },
+  {
+    "id": 1625225346,
+    "name": "Kezar mini-workout + 4x100",
+    "distance": "4.5",
+    "distancePercent": 17.063511720610688,
+    "pace": 10.468299674955796,
+    "paceFormatted": "10:28",
+    "date": "Jun 8",
+    "startDate": "2018-06-08T07:49:11Z"
+  },
+  {
+    "id": 1610155779,
+    "name": "Tam Summit #2 of 6 of 2018",
+    "distance": "8.5",
+    "distancePercent": 32.59162044351145,
+    "pace": 11.50016952839063,
+    "paceFormatted": "11:30",
+    "date": "May 31",
+    "startDate": "2018-06-01T06:32:54Z"
+  },
+  {
+    "id": 1584701112,
+    "name": "Bay to Breakers 2018",
+    "distance": "7.6",
+    "distancePercent": 29.011859422900766,
+    "pace": 6.819182019442091,
+    "paceFormatted": "6:49",
+    "date": "May 20",
+    "startDate": "2018-05-20T08:05:55Z"
+  },
+  {
+    "id": 1573857959,
+    "name": "Sutro Trails w/Yair",
+    "distance": "6.4",
+    "distancePercent": 24.47253081984733,
+    "pace": 10.84198404967936,
+    "paceFormatted": "10:50",
+    "date": "May 15",
+    "startDate": "2018-05-15T08:37:02Z"
+  },
+  {
+    "id": 1570618520,
+    "name": "Ocean side run plus coffee at Trouble with Yair",
+    "distance": "6.5",
+    "distancePercent": 24.936898918320612,
+    "pace": 18.37717358532901,
+    "paceFormatted": "18:22",
+    "date": "May 13",
+    "startDate": "2018-05-13T15:01:36Z"
+  },
+  {
+    "id": 1564873122,
+    "name": "Hill 88 ",
+    "distance": "5.3",
+    "distancePercent": 20.215902305343512,
+    "pace": 9.710693572064075,
+    "paceFormatted": "9:42",
+    "date": "May 11",
+    "startDate": "2018-05-11T07:30:05Z"
+  },
+  {
+    "id": 1539503495,
+    "name": "Can’t Catch Lasker Part 2",
+    "distance": "5.1",
+    "distancePercent": 19.533580027862595,
+    "pace": 8.222937599769159,
+    "paceFormatted": "8:13",
+    "date": "Apr 29",
+    "startDate": "2018-04-29T08:54:33Z"
+  },
+  {
+    "id": 1522641006,
+    "name": "Saturday morning run to Fort Point",
+    "distance": "9.3",
+    "distancePercent": 35.64013297557252,
+    "pace": 8.604889031227039,
+    "paceFormatted": "8:36",
+    "date": "Apr 21",
+    "startDate": "2018-04-21T07:00:59Z"
+  },
+  {
+    "id": 1508350290,
+    "name": "Chasing Lasker: The Running Man",
+    "distance": "6.9",
+    "distancePercent": 26.371269837404583,
+    "pace": 7.258361653444616,
+    "paceFormatted": "7:15",
+    "date": "Apr 14",
+    "startDate": "2018-04-14T08:47:44Z"
+  },
+  {
+    "id": 1506085342,
+    "name": "GGP looking grand",
+    "distance": "7.4",
+    "distancePercent": 28.22328744770993,
+    "pace": 10.776025316482702,
+    "paceFormatted": "10:46",
+    "date": "Apr 12",
+    "startDate": "2018-04-13T06:39:01Z"
+  },
+  {
+    "id": 1502398587,
+    "name": "💪Wed Workout after a long gap. Much needed!",
+    "distance": "3.8",
+    "distancePercent": 14.531780642366416,
+    "pace": 10.755578670654362,
+    "paceFormatted": "10:45",
+    "date": "Apr 11",
+    "startDate": "2018-04-11T07:41:03Z"
+  },
+  {
+    "id": 1495431575,
+    "name": "7.5mi on pavement, ouch! Cramp at 4. Left knee done at 6.5. ",
+    "distance": "7.5",
+    "distancePercent": 28.664176260305346,
+    "pace": 7.962701343182744,
+    "paceFormatted": "7:57",
+    "date": "Apr 7",
+    "startDate": "2018-04-07T16:12:53Z"
+  },
+  {
+    "id": 1490058231,
+    "name": "Haircut Run 🏃‍♂️😓💇‍♂️",
+    "distance": "2.5",
+    "distancePercent": 9.367523571755727,
+    "pace": 7.741542726203529,
+    "paceFormatted": "7:44",
+    "date": "Apr 4",
+    "startDate": "2018-04-04T18:06:50Z"
+  },
+  {
+    "id": 1478179237,
+    "name": "🎂Josh’s Birthday run! And my first Tam summit. ",
+    "distance": "9.3",
+    "distancePercent": 35.428345073664126,
+    "pace": 11.033631604164912,
+    "paceFormatted": "11:02",
+    "date": "Mar 28",
+    "startDate": "2018-03-29T06:18:00Z"
+  },
+  {
+    "id": 1475645948,
+    "name": "Camelback Sunset",
+    "distance": "1.6",
+    "distancePercent": 6.217267467557252,
+    "pace": 16.74929711393049,
+    "paceFormatted": "16:44",
+    "date": "Mar 27",
+    "startDate": "2018-03-27T17:16:15Z"
+  },
+  {
+    "id": 1475270450,
+    "name": "Gateway Loop at McDowell Sonoran Preserve: hiking before lunch so we can eat more",
+    "distance": "3.9",
+    "distancePercent": 14.884444259541985,
+    "pace": 14.103560768656946,
+    "paceFormatted": "14:06",
+    "date": "Mar 27",
+    "startDate": "2018-03-27T12:01:52Z"
+  },
+  {
+    "id": 1430080973,
+    "name": "Burn-al Bootcamp 🔥",
+    "distance": "3.6",
+    "distancePercent": 13.875309295801527,
+    "pace": 8.440313422272196,
+    "paceFormatted": "8:26",
+    "date": "Feb 27",
+    "startDate": "2018-02-28T07:08:27Z"
+  },
+  {
+    "id": 1426144555,
+    "name": "Bay to Breakers baseline",
+    "distance": "7.5",
+    "distancePercent": 28.699276606870228,
+    "pace": 7.1217583556852135,
+    "paceFormatted": "7:07",
+    "date": "Feb 25",
+    "startDate": "2018-02-25T11:31:09Z"
+  },
+  {
+    "id": 1420541927,
+    "name": "2 parks + 100 push ups + 100 random things",
+    "distance": "6.3",
+    "distancePercent": 24.2080923980916,
+    "pace": 8.02782884318377,
+    "paceFormatted": "8:01",
+    "date": "Feb 21",
+    "startDate": "2018-02-22T06:47:42Z"
+  },
+  {
+    "id": 1412088166,
+    "name": "Headlands trails - 2 day streak ⭐️⭐️",
+    "distance": "4.6",
+    "distancePercent": 17.477363779770993,
+    "pace": 11.39241691522877,
+    "paceFormatted": "11:23",
+    "date": "Feb 16",
+    "startDate": "2018-02-17T06:38:23Z"
+  },
+  {
+    "id": 1410297177,
+    "name": "HH scramble! 🧗‍♂️",
+    "distance": "3.6",
+    "distancePercent": 13.567232605343513,
+    "pace": 14.108419845700109,
+    "paceFormatted": "14:06",
+    "date": "Feb 15",
+    "startDate": "2018-02-16T06:27:32Z"
+  },
+  {
+    "id": 1401492144,
+    "name": "Up, down, and around Twin Peaks ",
+    "distance": "6.7",
+    "distancePercent": 25.680172473282447,
+    "pace": 9.809451132333688,
+    "paceFormatted": "9:48",
+    "date": "Feb 10",
+    "startDate": "2018-02-10T13:47:42Z"
+  },
+  {
+    "id": 1396158853,
+    "name": "Wednesday workout is back! 💪",
+    "distance": "2.7",
+    "distancePercent": 10.482671068702292,
+    "pace": 10.364858229262813,
+    "paceFormatted": "10:21",
+    "date": "Feb 6",
+    "startDate": "2018-02-07T07:21:04Z"
+  },
+  {
+    "id": 1387912920,
+    "name": "OTB: Not our first Rodeo",
+    "distance": "4.8",
+    "distancePercent": 18.209490603053435,
+    "pace": 10.232200300267687,
+    "paceFormatted": "10:13",
+    "date": "Feb 1",
+    "startDate": "2018-02-02T06:52:36Z"
+  },
+  {
+    "id": 1368797489,
+    "name": "Presidio run home. Activity started with my first Jump Bike TM ride.",
+    "distance": "7.5",
+    "distancePercent": 28.633582039312977,
+    "pace": 8.153382956973525,
+    "paceFormatted": "8:09",
+    "date": "Jan 21",
+    "startDate": "2018-01-21T11:02:21Z"
+  },
+  {
+    "id": 1361679139,
+    "name": "Solo Wed Workout: Last one standing ",
+    "distance": "2.8",
+    "distancePercent": 10.843161114503816,
+    "pace": 8.442135945127584,
+    "paceFormatted": "8:26",
+    "date": "Jan 16",
+    "startDate": "2018-01-17T07:16:57Z"
+  },
+  {
+    "id": 1358815339,
+    "name": "GGP Trailways",
+    "distance": "9.1",
+    "distancePercent": 34.82428708244275,
+    "pace": 8.636597730388596,
+    "paceFormatted": "8:38",
+    "date": "Jan 15",
+    "startDate": "2018-01-15T09:31:16Z"
+  },
+  {
+    "id": 1355804855,
+    "name": "Search for the tiny post office 🧚‍♀️",
+    "distance": "1.9",
+    "distancePercent": 7.280950267175573,
+    "pace": 19.710538475817714,
+    "paceFormatted": "19:42",
+    "date": "Jan 13",
+    "startDate": "2018-01-13T15:57:18Z"
+  },
+  {
+    "id": 1355305447,
+    "name": "Jog back from 🐶 drop-off",
+    "distance": "2.4",
+    "distancePercent": 9.109488591603053,
+    "pace": 8.561383122521404,
+    "paceFormatted": "8:33",
+    "date": "Jan 13",
+    "startDate": "2018-01-13T09:22:40Z"
+  },
+  {
+    "id": 1350300811,
+    "name": "Kezar Workout : new faces, old places",
+    "distance": "5.3",
+    "distancePercent": 20.193371677480915,
+    "pace": 9.08518709636924,
+    "paceFormatted": "9:05",
+    "date": "Jan 9",
+    "startDate": "2018-01-10T07:02:41Z"
+  },
+  {
+    "id": 1342062088,
+    "name": "Getting lost and turned around on dark and stormy Tam trails. Just happy to be alive. 😅",
+    "distance": "7.8",
+    "distancePercent": 29.86517730763359,
+    "pace": 10.319915522197519,
+    "paceFormatted": "10:19",
+    "date": "Jan 4",
+    "startDate": "2018-01-05T06:09:56Z"
+  },
+  {
+    "id": 1336414698,
+    "name": "🖐🖐Hi Hopper!",
+    "distance": "5.2",
+    "distancePercent": 19.803710397709924,
+    "pace": 7.044327249403988,
+    "paceFormatted": "7:02",
+    "date": "Jan 1",
+    "startDate": "2018-01-01T11:46:52Z"
+  },
+  {
+    "id": 1328253075,
+    "name": "Hawk Hill run | Part 2 of 3",
+    "distance": "6.1",
+    "distancePercent": 23.268920962977095,
+    "pace": 10.760347666644803,
+    "paceFormatted": "10:45",
+    "date": "Dec 26",
+    "startDate": "2017-12-26T10:46:42Z"
+  },
+  {
+    "id": 1320946535,
+    "name": "Wednesday Workout change of scenery: the Marina",
+    "distance": "5.2",
+    "distancePercent": 19.88458349351145,
+    "pace": 8.816783424956773,
+    "paceFormatted": "8:49",
+    "date": "Dec 19",
+    "startDate": "2017-12-20T06:37:45Z"
+  },
+  {
+    "id": 1318517851,
+    "name": "Solo Kezar",
+    "distance": "4.4",
+    "distancePercent": 16.959396503435116,
+    "pace": 8.154486238138865,
+    "paceFormatted": "8:09",
+    "date": "Dec 17",
+    "startDate": "2017-12-18T07:30:35Z"
+  },
+  {
+    "id": 1304574148,
+    "name": "Wed Work 💪",
+    "distance": "4.4",
+    "distancePercent": 16.671004466793896,
+    "pace": 16.820049760076678,
+    "paceFormatted": "16:49",
+    "date": "Dec 5",
+    "startDate": "2017-12-06T07:04:44Z"
+  },
+  {
+    "id": 1297878353,
+    "name": "First OTB 🏃‍♂️",
+    "distance": "6.3",
+    "distancePercent": 23.92681529656489,
+    "pace": 9.060708265712886,
+    "paceFormatted": "9:03",
+    "date": "Nov 30",
+    "startDate": "2017-12-01T06:26:57Z"
+  },
+  {
+    "id": 1295521301,
+    "name": "Lyon Street Steps and Wood Line balancing act",
+    "distance": "5.9",
+    "distancePercent": 22.508097234732826,
+    "pace": 14.529687694125121,
+    "paceFormatted": "14:31",
+    "date": "Nov 28",
+    "startDate": "2017-11-29T07:01:30Z"
+  },
+  {
+    "id": 1291686638,
+    "name": "Kezar drizzle",
+    "distance": "4.0",
+    "distancePercent": 15.078681988167938,
+    "pace": 8.353130503854196,
+    "paceFormatted": "8:21",
+    "date": "Nov 25",
+    "startDate": "2017-11-26T07:49:58Z"
+  },
+  {
+    "id": 1287444860,
+    "name": "🐤💪Thursday Workout",
+    "distance": "3.4",
+    "distancePercent": 13.148874420610687,
+    "pace": 11.688420051310178,
+    "paceFormatted": "11:41",
+    "date": "Nov 22",
+    "startDate": "2017-11-23T07:57:31Z"
+  },
+  {
+    "id": 1282842979,
+    "name": "Night jog to pick up my tent rental ⛺️",
+    "distance": "3.8",
+    "distancePercent": 14.365053996183205,
+    "pace": 10.025744161655284,
+    "paceFormatted": "10:01",
+    "date": "Nov 19",
+    "startDate": "2017-11-19T17:07:44Z"
+  },
+  {
+    "id": 1272743541,
+    "name": "Headlands Trail Run: Rodeo to SCA to Coastal",
+    "distance": "6.8",
+    "distancePercent": 25.77385245229008,
+    "pace": 9.171572968589471,
+    "paceFormatted": "9:10",
+    "date": "Nov 12",
+    "startDate": "2017-11-12T09:36:14Z"
+  },
+  {
+    "id": 1266720163,
+    "name": "Workout Wednesday 4-week streak ⭐️⭐️⭐️⭐️",
+    "distance": "4.4",
+    "distancePercent": 16.89346477137405,
+    "pace": 9.865748022814307,
+    "paceFormatted": "9:51",
+    "date": "Nov 7",
+    "startDate": "2017-11-08T07:14:00Z"
+  },
+  {
+    "id": 1261470356,
+    "name": "Errand x 3. Bonus goats sighting. ",
+    "distance": "3.8",
+    "distancePercent": 14.500000598854962,
+    "pace": 11.095024548352368,
+    "paceFormatted": "11:05",
+    "date": "Nov 4",
+    "startDate": "2017-11-04T15:35:05Z"
+  },
+  {
+    "id": 1256586056,
+    "name": "WW 💪",
+    "distance": "6.4",
+    "distancePercent": 24.55909586374046,
+    "pace": 9.736601816747857,
+    "paceFormatted": "9:44",
+    "date": "Nov 1",
+    "startDate": "2017-11-01T07:08:40Z"
+  },
+  {
+    "id": 1252664626,
+    "name": "Jog to Nourish Cafe",
+    "distance": "2.5",
+    "distancePercent": 9.558678161832061,
+    "pace": 8.278849722849465,
+    "paceFormatted": "8:16",
+    "date": "Oct 29",
+    "startDate": "2017-10-29T11:51:34Z"
+  },
+  {
+    "id": 1246315251,
+    "name": "Workout at Kezar. The new Wednesday routine. 💪",
+    "distance": "5.7",
+    "distancePercent": 21.80324432938931,
+    "pace": 9.523059258955483,
+    "paceFormatted": "9:31",
+    "date": "Oct 25",
+    "startDate": "2017-10-25T07:07:39Z"
+  },
+  {
+    "id": 1236116758,
+    "name": "💪 Kezar Workout w/Nate",
+    "distance": "6.7",
+    "distancePercent": 25.624675979389316,
+    "pace": 8.822801315350514,
+    "paceFormatted": "8:49",
+    "date": "Oct 17",
+    "startDate": "2017-10-18T06:48:06Z"
+  },
+  {
+    "id": 1233149849,
+    "name": "Morning jog. Basic ",
+    "distance": "2.7",
+    "distancePercent": 10.494766458396947,
+    "pace": 7.898035753444404,
+    "paceFormatted": "7:53",
+    "date": "Oct 16",
+    "startDate": "2017-10-16T08:13:15Z"
+  },
+  {
+    "id": 1222512764,
+    "name": "Coffee jog/walk. Recovering from cold",
+    "distance": "5.2",
+    "distancePercent": 19.96474509580153,
+    "pace": 9.699030762256255,
+    "paceFormatted": "9:41",
+    "date": "Oct 9",
+    "startDate": "2017-10-09T07:07:14Z"
+  },
+  {
+    "id": 1204831634,
+    "name": "Calves sore from trail running shoes. Prob should find more trails and less sidewalk. ",
+    "distance": "5.0",
+    "distancePercent": 19.209138986641218,
+    "pace": 7.616709560575543,
+    "paceFormatted": "7:37",
+    "date": "Sep 27",
+    "startDate": "2017-09-27T16:16:27Z"
+  },
+  {
+    "id": 1201244856,
+    "name": "1 mi Dorrs Pond Loop in New Hampshire. 90℉ and humid. 😅",
+    "distance": "3.3",
+    "distancePercent": 12.534618355725192,
+    "pace": 7.160829885108122,
+    "paceFormatted": "7:09",
+    "date": "Sep 25",
+    "startDate": "2017-09-25T12:28:44Z"
+  },
+  {
+    "id": 1197836668,
+    "name": "Twin Peaks 1 mile race practice run",
+    "distance": "3.9",
+    "distancePercent": 15.07631034312977,
+    "pace": 8.113937793178538,
+    "paceFormatted": "8:06",
+    "date": "Sep 23",
+    "startDate": "2017-09-23T08:33:11Z"
+  },
+  {
+    "id": 1193092303,
+    "name": "Small bit of the Liz boot camp",
+    "distance": "0.7",
+    "distancePercent": 2.6726067935114504,
+    "pace": 7.188186446054872,
+    "paceFormatted": "7:11",
+    "date": "Sep 20",
+    "startDate": "2017-09-20T08:12:03Z"
+  },
+  {
+    "id": 1189033667,
+    "name": "Run w/Kelly to Lyon St Steps. Agree w/Liz, lower set of steps is narrow and awkward. ",
+    "distance": "5.1",
+    "distancePercent": 19.536426001908396,
+    "pace": 9.553498749249936,
+    "paceFormatted": "9:33",
+    "date": "Sep 17",
+    "startDate": "2017-09-17T10:37:57Z"
+  },
+  {
+    "id": 1186928474,
+    "name": "🐑🚲Run to Red Bull Bay Climb. Cheering on Ali & Nathan!",
+    "distance": "3.2",
+    "distancePercent": 12.104639110305342,
+    "pace": 6.668946517452873,
+    "paceFormatted": "6:40",
+    "date": "Sep 16",
+    "startDate": "2017-09-16T10:09:17Z"
+  },
+  {
+    "id": 1183716551,
+    "name": "Liz boot camp!!! 💪",
+    "distance": "3.2",
+    "distancePercent": 12.118868980534351,
+    "pace": 9.374903857336145,
+    "paceFormatted": "9:22",
+    "date": "Sep 14",
+    "startDate": "2017-09-14T07:20:40Z"
+  },
+  {
+    "id": 1173566338,
+    "name": "JP Morgan Corp 5k with Weebly: My first race!",
+    "distance": "3.6",
+    "distancePercent": 13.660912584351145,
+    "pace": 6.28639280612883,
+    "paceFormatted": "6:17",
+    "date": "Sep 7",
+    "startDate": "2017-09-07T19:16:36Z"
+  },
+  {
+    "id": 1171195965,
+    "name": "Morning Run",
+    "distance": "3.6",
+    "distancePercent": 13.748426286259544,
+    "pace": 8.744928701675995,
+    "paceFormatted": "8:44",
+    "date": "Sep 6",
+    "startDate": "2017-09-06T07:39:21Z"
+  },
+  {
+    "id": 1165379397,
+    "name": "Evening Run",
+    "distance": "4.6",
+    "distancePercent": 17.431828195038168,
+    "pace": 8.364098423082124,
+    "paceFormatted": "8:21",
+    "date": "Sep 2",
+    "startDate": "2017-09-02T19:21:44Z"
+  },
+  {
+    "id": 1160832454,
+    "name": "Ate too much and then tried to run. Abort! 🤢",
+    "distance": "1.3",
+    "distancePercent": 4.89554968778626,
+    "pace": 8.368196368591631,
+    "paceFormatted": "8:22",
+    "date": "Aug 30",
+    "startDate": "2017-08-30T21:26:02Z"
+  },
+  {
+    "id": 1153564265,
+    "name": "5k run on GGP trails",
+    "distance": "4.2",
+    "distancePercent": 15.913263877099237,
+    "pace": 7.251460349481628,
+    "paceFormatted": "7:15",
+    "date": "Aug 26",
+    "startDate": "2017-08-26T11:37:44Z"
+  },
+  {
+    "id": 1141961348,
+    "name": "Getting that 5k closer to 20:00",
+    "distance": "4.0",
+    "distancePercent": 15.362093570229007,
+    "pace": 6.952608073099325,
+    "paceFormatted": "6:57",
+    "date": "Aug 19",
+    "startDate": "2017-08-19T14:07:56Z"
+  },
+  {
+    "id": 1121946837,
+    "name": "Zig-zagging around and jumping on things.",
+    "distance": "5.0",
+    "distancePercent": 19.256809051908398,
+    "pace": 8.390674057521535,
+    "paceFormatted": "8:23",
+    "date": "Aug 7",
+    "startDate": "2017-08-07T08:39:31Z"
+  },
+  {
+    "id": 1083148453,
+    "name": "My baseline 5k time. Time to get fast for Sep race",
+    "distance": "3.3",
+    "distancePercent": 12.49856935114504,
+    "pace": 6.896463613676228,
+    "paceFormatted": "6:53",
+    "date": "Jul 14",
+    "startDate": "2017-07-14T08:55:22Z"
+  },
+  {
+    "id": 1066282558,
+    "name": "Torrey Pines Beach run. 🌞🔥😓",
+    "distance": "5.2",
+    "distancePercent": 20.033759966412216,
+    "pace": 10.478495523261078,
+    "paceFormatted": "10:28",
+    "date": "Jul 3",
+    "startDate": "2017-07-03T14:16:05Z"
+  },
+  {
+    "id": 1063182825,
+    "name": "Bernardo Mt Summit Trail",
+    "distance": "7.1",
+    "distancePercent": 27.243798046946566,
+    "pace": 14.208243407467739,
+    "paceFormatted": "14:12",
+    "date": "Jul 1",
+    "startDate": "2017-07-01T17:35:49Z"
+  },
+  {
+    "id": 1062970514,
+    "name": "Cowles Mt hike up and run down. San Diego summer =☀️🔥",
+    "distance": "3.1",
+    "distancePercent": 11.682960622519085,
+    "pace": 10.334530551552225,
+    "paceFormatted": "10:20",
+    "date": "Jul 1",
+    "startDate": "2017-07-01T13:36:16Z"
+  },
+  {
+    "id": 1059683692,
+    "name": "San Diego burrito run",
+    "distance": "3.3",
+    "distancePercent": 12.720555326717559,
+    "pace": 10.501725972525861,
+    "paceFormatted": "10:30",
+    "date": "Jun 28",
+    "startDate": "2017-06-28T14:32:42Z"
+  },
+  {
+    "id": 1030211596,
+    "name": "Finally found the lawn mowing goats! 🐐 ",
+    "distance": "7.1",
+    "distancePercent": 27.04956031832061,
+    "pace": 9.722047092149124,
+    "paceFormatted": "9:43",
+    "date": "Jun 10",
+    "startDate": "2017-06-10T10:11:53Z"
+  },
+  {
+    "id": 1019987923,
+    "name": "A stroll through the park",
+    "distance": "9.5",
+    "distancePercent": 36.255812027480914,
+    "pace": 11.611720793706482,
+    "paceFormatted": "11:36",
+    "date": "Jun 3",
+    "startDate": "2017-06-03T18:23:08Z"
+  },
+  {
+    "id": 1004392658,
+    "name": "Enjoying night runs lately. Double Dip training #9 of 30",
+    "distance": "6.0",
+    "distancePercent": 23.075631892366413,
+    "pace": 10.75675113359093,
+    "paceFormatted": "10:45",
+    "date": "May 24",
+    "startDate": "2017-05-24T20:13:54Z"
+  },
+  {
+    "id": 997876063,
+    "name": "Night Run: Double Dip #8 of 30",
+    "distance": "3.5",
+    "distancePercent": 13.223106910305344,
+    "pace": 8.543914830529976,
+    "paceFormatted": "8:32",
+    "date": "May 20",
+    "startDate": "2017-05-20T21:25:08Z"
+  },
+  {
+    "id": 982956877,
+    "name": "Double Dip #7 of 30. Lots of stairs at Kezar",
+    "distance": "4.3",
+    "distancePercent": 16.347037754580153,
+    "pace": 9.77525347760703,
+    "paceFormatted": "9:46",
+    "date": "May 12",
+    "startDate": "2017-05-12T09:14:02Z"
+  },
+  {
+    "id": 974068282,
+    "name": "Double Dip training #6 of 30. Jogged for 5, strolled for 6.5.",
+    "distance": "11.6",
+    "distancePercent": 44.0919643980916,
+    "pace": 12.52009591646959,
+    "paceFormatted": "12:31",
+    "date": "May 6",
+    "startDate": "2017-05-06T11:38:18Z"
+  },
+  {
+    "id": 947581146,
+    "name": "Double Dip #5 of 30. Too fast downhill = unhappy knees",
+    "distance": "6.6",
+    "distancePercent": 25.187581798854957,
+    "pace": 10.349823376558296,
+    "paceFormatted": "10:20",
+    "date": "Apr 18",
+    "startDate": "2017-04-18T07:03:11Z"
+  },
+  {
+    "id": 936373756,
+    "name": "Double Dip training 4 of 30",
+    "distance": "5.1",
+    "distancePercent": 19.303293294656488,
+    "pace": 8.634105285692526,
+    "paceFormatted": "8:38",
+    "date": "Apr 10",
+    "startDate": "2017-04-10T08:17:13Z"
+  },
+  {
+    "id": 925541210,
+    "name": "Double Dip training 3 of 30",
+    "distance": "5.1",
+    "distancePercent": 19.51199805801527,
+    "pace": 10.934747840358115,
+    "paceFormatted": "10:56",
+    "date": "Apr 2",
+    "startDate": "2017-04-02T11:23:38Z"
+  },
+  {
+    "id": 919526015,
+    "name": "Double Dipsea training run #2",
+    "distance": "5.3",
+    "distancePercent": 20.358675336641223,
+    "pace": 10.13628439684435,
+    "paceFormatted": "10:08",
+    "date": "Mar 29",
+    "startDate": "2017-03-29T08:27:32Z"
+  },
+  {
+    "id": 917221262,
+    "name": "Tramway Trail Run in Albuquerque. Trying to work up an appetite. ",
+    "distance": "5.5",
+    "distancePercent": 20.992378890839696,
+    "pace": 17.20605037815859,
+    "paceFormatted": "17:12",
+    "date": "Mar 27",
+    "startDate": "2017-03-27T13:40:20Z"
+  },
+  {
+    "id": 903750997,
+    "name": "And so it begins. Double Dipsea training. Sorry knees!",
+    "distance": "5.2",
+    "distancePercent": 19.84616284389313,
+    "pace": 10.353172022707225,
+    "paceFormatted": "10:21",
+    "date": "Mar 17",
+    "startDate": "2017-03-17T08:00:59Z"
+  },
+  {
+    "id": 894821082,
+    "name": "Friday 🐶 pick-up",
+    "distance": "5.1",
+    "distancePercent": 19.33270169312977,
+    "pace": 10.256323502811554,
+    "paceFormatted": "10:15",
+    "date": "Mar 10",
+    "startDate": "2017-03-10T08:49:58Z"
+  },
+  {
+    "id": 878178386,
+    "name": "Picking up 🐶 plus some errands. ",
+    "distance": "5.8",
+    "distancePercent": 22.05677318396947,
+    "pace": 10.183643760454329,
+    "paceFormatted": "10:11",
+    "date": "Feb 24",
+    "startDate": "2017-02-24T09:20:59Z"
+  },
+  {
+    "id": 867308551,
+    "name": "Errands are more fun when you run! $4 net. Returned my juice shop bottles. ",
+    "distance": "2.2",
+    "distancePercent": 8.277989841221375,
+    "pace": 7.653884559081066,
+    "paceFormatted": "7:39",
+    "date": "Feb 14",
+    "startDate": "2017-02-15T07:40:42Z"
+  },
+  {
+    "id": 811400368,
+    "name": "Catsitting for the Spady's",
+    "distance": "5.5",
+    "distancePercent": 21.08961633740458,
+    "pace": 9.61907472257093,
+    "paceFormatted": "9:37",
+    "date": "Dec 25",
+    "startDate": "2016-12-25T18:15:21Z"
+  },
+  {
+    "id": 787378983,
+    "name": "Trail on trail action",
+    "distance": "8.1",
+    "distancePercent": 30.79201618854962,
+    "pace": 10.521629577982686,
+    "paceFormatted": "10:31",
+    "date": "Nov 27",
+    "startDate": "2016-11-27T09:03:29Z"
+  },
+  {
+    "id": 768422124,
+    "name": "Evening Run",
+    "distance": "3.9",
+    "distancePercent": 14.76135588206107,
+    "pace": 8.66629120478448,
+    "paceFormatted": "8:39",
+    "date": "Nov 6",
+    "startDate": "2016-11-06T20:50:28Z"
+  },
+  {
+    "id": 761237030,
+    "name": "Night Flight",
+    "distance": "5.5",
+    "distancePercent": 21.06210525496183,
+    "pace": 8.98832167096108,
+    "paceFormatted": "8:59",
+    "date": "Oct 30",
+    "startDate": "2016-10-30T20:55:15Z"
+  },
+  {
+    "id": 724814846,
+    "name": "Quick jog near Diablo while Kelly while does her race",
+    "distance": "4.0",
+    "distancePercent": 15.18208571183206,
+    "pace": 8.539259253573496,
+    "paceFormatted": "8:32",
+    "date": "Sep 25",
+    "startDate": "2016-09-25T09:23:45Z"
+  },
+  {
+    "id": 708757550,
+    "name": "SOMA scramble to office. Osprey bag W/laptop working great. ",
+    "distance": "2.4",
+    "distancePercent": 9.144826102671756,
+    "pace": 7.811811644204762,
+    "paceFormatted": "7:48",
+    "date": "Sep 11",
+    "startDate": "2016-09-11T09:49:55Z"
+  },
+  {
+    "id": 700701395,
+    "name": "First time running with laptop. Will it still turn on?",
+    "distance": "3.2",
+    "distancePercent": 12.239585712977101,
+    "pace": 8.492445969476465,
+    "paceFormatted": "8:29",
+    "date": "Sep 4",
+    "startDate": "2016-09-04T11:46:32Z"
+  },
+  {
+    "id": 687433663,
+    "name": "Morning Run",
+    "distance": "3.2",
+    "distancePercent": 12.245514825572519,
+    "pace": 8.25456719265871,
+    "paceFormatted": "8:15",
+    "date": "Aug 24",
+    "startDate": "2016-08-24T08:23:50Z"
+  },
+  {
+    "id": 684965400,
+    "name": "3 mile mornings",
+    "distance": "3.1",
+    "distancePercent": 12.002895538167941,
+    "pace": 8.151129018503465,
+    "paceFormatted": "8:09",
+    "date": "Aug 22",
+    "startDate": "2016-08-22T08:09:00Z"
+  },
+  {
+    "id": 660081316,
+    "name": "Quick jog to Nubble Lighthouse in Maine",
+    "distance": "3.1",
+    "distancePercent": 11.966372204580153,
+    "pace": 9.313631547975037,
+    "paceFormatted": "9:18",
+    "date": "Jul 31",
+    "startDate": "2016-07-31T16:07:04Z"
+  },
+  {
+    "id": 657497518,
+    "name": "My first six-minute mile!",
+    "distance": "4.6",
+    "distancePercent": 17.39506769694657,
+    "pace": 9.350870942999128,
+    "paceFormatted": "9:21",
+    "date": "Jul 29",
+    "startDate": "2016-07-29T11:05:18Z"
+  },
+  {
+    "id": 650818951,
+    "name": "Ragnar Yellow Loop",
+    "distance": "5.6",
+    "distancePercent": 21.217210840458016,
+    "pace": 14.604183991032833,
+    "paceFormatted": "14:36",
+    "date": "Jul 23",
+    "startDate": "2016-07-23T08:04:14Z"
+  },
+  {
+    "id": 650284363,
+    "name": "Ragnar Red Loop at midnight",
+    "distance": "7.3",
+    "distancePercent": 27.904538354580154,
+    "pace": 13.222105247334627,
+    "paceFormatted": "13:13",
+    "date": "Jul 22",
+    "startDate": "2016-07-22T23:44:07Z"
+  },
+  {
+    "id": 650038342,
+    "name": "Ragnar Green Loop",
+    "distance": "3.3",
+    "distancePercent": 12.467975130152674,
+    "pace": 8.137897554857997,
+    "paceFormatted": "8:08",
+    "date": "Jul 22",
+    "startDate": "2016-07-22T16:19:23Z"
+  },
+  {
+    "id": 639599617,
+    "name": "Camelback Summit #2. This time via Echo Canyon Trail.",
+    "distance": "2.3",
+    "distancePercent": 8.713898199236642,
+    "pace": 17.80519673380129,
+    "paceFormatted": "17:48",
+    "date": "Jul 12",
+    "startDate": "2016-07-13T05:32:04Z"
+  },
+  {
+    "id": 624577970,
+    "name": "Sutro mud followed by Kezar steps",
+    "distance": "6.1",
+    "distancePercent": 23.361889448473285,
+    "pace": 9.176337847313908,
+    "paceFormatted": "9:10",
+    "date": "Jun 28",
+    "startDate": "2016-06-29T06:22:05Z"
+  },
+  {
+    "id": 617262861,
+    "name": "Presidio + Chrissy Field + Lyon St steps repeats",
+    "distance": "7.0",
+    "distancePercent": 26.882122178625956,
+    "pace": 9.77550275963431,
+    "paceFormatted": "9:46",
+    "date": "Jun 21",
+    "startDate": "2016-06-22T06:41:30Z"
+  },
+  {
+    "id": 610060998,
+    "name": "GGP Trail Run",
+    "distance": "5.9",
+    "distancePercent": 22.502168122137405,
+    "pace": 9.730473162145522,
+    "paceFormatted": "9:43",
+    "date": "Jun 14",
+    "startDate": "2016-06-15T06:41:48Z"
+  },
+  {
+    "id": 602725378,
+    "name": "Chef Michael's Trail Running Bootcamp",
+    "distance": "7.8",
+    "distancePercent": 29.61947488167939,
+    "pace": 10.43558987276799,
+    "paceFormatted": "10:26",
+    "date": "Jun 7",
+    "startDate": "2016-06-08T06:37:06Z"
+  },
+  {
+    "id": 600554288,
+    "name": "Morning Run",
+    "distance": "3.7",
+    "distancePercent": 13.973969729389315,
+    "pace": 9.140950741298425,
+    "paceFormatted": "9:08",
+    "date": "Jun 6",
+    "startDate": "2016-06-06T08:26:23Z"
+  },
+  {
+    "id": 580160475,
+    "name": "The new morning run routine begins. Prepping for Ragnar Relay",
+    "distance": "3.3",
+    "distancePercent": 12.74403461259542,
+    "pace": 8.934979222814704,
+    "paceFormatted": "8:56",
+    "date": "May 18",
+    "startDate": "2016-05-18T08:32:58Z"
+  },
+  {
+    "id": 554699188,
+    "name": "Slow and Steady. Ramping up the miles",
+    "distance": "9.9",
+    "distancePercent": 37.804970566412216,
+    "pace": 11.852716622706264,
+    "paceFormatted": "11:51",
+    "date": "Apr 23",
+    "startDate": "2016-04-23T12:06:03Z"
+  },
+  {
+    "id": 549285718,
+    "name": "Morning Sutro",
+    "distance": "5.4",
+    "distancePercent": 20.748336616412214,
+    "pace": 12.705270616423354,
+    "paceFormatted": "12:42",
+    "date": "Apr 18",
+    "startDate": "2016-04-18T07:43:09Z"
+  },
+  {
+    "id": 521397921,
+    "name": "Long walk through GGP to get Indie to Easter Egg Hunt",
+    "distance": "8.6",
+    "distancePercent": 32.808863129007634,
+    "pace": 22.673541806247066,
+    "paceFormatted": "22:40",
+    "date": "Mar 19",
+    "startDate": "2016-03-19T11:25:16Z"
+  },
+  {
+    "id": 520215449,
+    "name": "First 'jog' in months. Lots of walking mixed in. My knees :-/",
+    "distance": "4.3",
+    "distancePercent": 16.409412019083973,
+    "pace": 11.947776033398082,
+    "paceFormatted": "11:56",
+    "date": "Mar 18",
+    "startDate": "2016-03-18T07:54:36Z"
+  },
+  {
+    "id": 451207303,
+    "name": "Jog, but mostly walking through GGP and Sunset. Also getting lost in the hospital.",
+    "distance": "6.6",
+    "distancePercent": 25.28197327137405,
+    "pace": 11.949195317885986,
+    "paceFormatted": "11:56",
+    "date": "Dec 15",
+    "startDate": "2015-12-16T07:39:52Z"
+  },
+  {
+    "id": 420325221,
+    "name": "Warren Sprint",
+    "distance": "3.5",
+    "distancePercent": 13.217889291221374,
+    "pace": 10.409787585277465,
+    "paceFormatted": "10:24",
+    "date": "Oct 25",
+    "startDate": "2015-10-25T11:42:54Z"
+  },
+  {
+    "id": 414881845,
+    "name": "Jog'n'walk to Hawk Hill",
+    "distance": "8.3",
+    "distancePercent": 31.5924463889313,
+    "pace": 10.63964187462847,
+    "paceFormatted": "10:38",
+    "date": "Oct 17",
+    "startDate": "2015-10-17T08:42:29Z"
+  },
+  {
+    "id": 380195664,
+    "name": "Morning Run",
+    "distance": "4.7",
+    "distancePercent": 18.030668567175574,
+    "pace": 7.835815225097079,
+    "paceFormatted": "7:50",
+    "date": "Aug 29",
+    "startDate": "2015-08-29T09:09:06Z"
+  },
+  {
+    "id": 369144666,
+    "name": "Evening Run",
+    "distance": "6.9",
+    "distancePercent": 26.395934945801525,
+    "pace": 8.26617373743088,
+    "paceFormatted": "8:15",
+    "date": "Aug 14",
+    "startDate": "2015-08-14T18:04:10Z"
+  },
+  {
+    "id": 365432613,
+    "name": "Auto pause!!!",
+    "distance": "2.2",
+    "distancePercent": 8.587015189694656,
+    "pace": 15.42360705854447,
+    "paceFormatted": "15:25",
+    "date": "Aug 9",
+    "startDate": "2015-08-09T14:04:42Z"
+  },
+  {
+    "id": 361422280,
+    "name": "Hard run. Harder walk back carrying two soy milks and miso mayo from Whole Foods with no bag. ",
+    "distance": "2.3",
+    "distancePercent": 8.707731922137405,
+    "pace": 7.137349631591288,
+    "paceFormatted": "7:08",
+    "date": "Aug 4",
+    "startDate": "2015-08-04T16:49:35Z"
+  },
+  {
+    "id": 353866294,
+    "name": "Dorrs Pond Scramble",
+    "distance": "3.0",
+    "distancePercent": 11.473070036641223,
+    "pace": 8.954479370267935,
+    "paceFormatted": "8:57",
+    "date": "Jul 25",
+    "startDate": "2015-07-25T13:27:59Z"
+  },
+  {
+    "id": 353262008,
+    "name": "NH: Tower Hill Loop Run ",
+    "distance": "3.8",
+    "distancePercent": 14.691629517938932,
+    "pace": 8.304741006984294,
+    "paceFormatted": "8:18",
+    "date": "Jul 24",
+    "startDate": "2015-07-24T16:51:22Z"
+  },
+  {
+    "id": 349667692,
+    "name": "Bernal Trails then long walk back through Mission",
+    "distance": "7.4",
+    "distancePercent": 28.147394806488553,
+    "pace": 13.528385368846541,
+    "paceFormatted": "13:31",
+    "date": "Jul 19",
+    "startDate": "2015-07-19T10:07:00Z"
+  },
+  {
+    "id": 344669791,
+    "name": "Presidio easy pace with Kelly and Kinjal. ",
+    "distance": "4.7",
+    "distancePercent": 17.94742382633588,
+    "pace": 12.699661570199437,
+    "paceFormatted": "12:41",
+    "date": "Jul 12",
+    "startDate": "2015-07-12T09:35:55Z"
+  },
+  {
+    "id": 343935540,
+    "name": "Dipsea Trail: First time. It was a blast. ",
+    "distance": "7.8",
+    "distancePercent": 29.77197165763359,
+    "pace": 15.211038107505809,
+    "paceFormatted": "15:12",
+    "date": "Jul 11",
+    "startDate": "2015-07-11T09:14:34Z"
+  },
+  {
+    "id": 341938775,
+    "name": "Trail run through GGP. First time on the South side trail. ★★★★★",
+    "distance": "9.6",
+    "distancePercent": 36.754568979007644,
+    "pace": 9.50185652893496,
+    "paceFormatted": "9:30",
+    "date": "Jul 8",
+    "startDate": "2015-07-08T13:03:40Z"
+  },
+  {
+    "id": 337808953,
+    "name": "Lunch Run",
+    "distance": "2.9",
+    "distancePercent": 11.144597198854962,
+    "pace": 10.20588326215624,
+    "paceFormatted": "10:12",
+    "date": "Jul 2",
+    "startDate": "2015-07-02T12:33:26Z"
+  },
+  {
+    "id": 335542142,
+    "name": "Morning Run",
+    "distance": "4.0",
+    "distancePercent": 15.24137683778626,
+    "pace": 8.472650563349422,
+    "paceFormatted": "8:28",
+    "date": "Jun 29",
+    "startDate": "2015-06-29T09:36:02Z"
+  },
+  {
+    "id": 329353351,
+    "name": "First run with No Meat Athlete group",
+    "distance": "5.9",
+    "distancePercent": 22.354177471755726,
+    "pace": 8.992404751139627,
+    "paceFormatted": "8:59",
+    "date": "Jun 20",
+    "startDate": "2015-06-20T08:41:46Z"
+  },
+  {
+    "id": 328321919,
+    "name": "Tahoe Trail Run #2: Vikingshom to Lester Beach via Rubicon Trail",
+    "distance": "10.1",
+    "distancePercent": 38.52571349351145,
+    "pace": 13.278861356549678,
+    "paceFormatted": "13:16",
+    "date": "Jun 18",
+    "startDate": "2015-06-18T13:00:02Z"
+  },
+  {
+    "id": 327728274,
+    "name": "Tahoe Trail Run: Big Meadow to Round Lake",
+    "distance": "8.0",
+    "distancePercent": 30.538961662977098,
+    "pace": 15.260195794938298,
+    "paceFormatted": "15:15",
+    "date": "Jun 17",
+    "startDate": "2015-06-17T17:19:52Z"
+  },
+  {
+    "id": 324650001,
+    "name": "Vega organized 6mi run over bridge",
+    "distance": "6.2",
+    "distancePercent": 23.578657804961832,
+    "pace": 9.048809325400002,
+    "paceFormatted": "9:02",
+    "date": "Jun 13",
+    "startDate": "2015-06-13T09:33:57Z"
+  },
+  {
+    "id": 318578374,
+    "name": "Run w/dog in GGP",
+    "distance": "6.6",
+    "distancePercent": 25.213195565267178,
+    "pace": 10.271187758746546,
+    "paceFormatted": "10:16",
+    "date": "Jun 4",
+    "startDate": "2015-06-04T18:02:07Z"
+  },
+  {
+    "id": 315957409,
+    "name": "GGP Trail Run",
+    "distance": "5.7",
+    "distancePercent": 21.597622704580154,
+    "pace": 9.731539434836693,
+    "paceFormatted": "9:43",
+    "date": "May 31",
+    "startDate": "2015-05-31T19:50:18Z"
+  },
+  {
+    "id": 306707809,
+    "name": "One hill, two errands",
+    "distance": "4.7",
+    "distancePercent": 17.867736553053433,
+    "pace": 12.015772442752983,
+    "paceFormatted": "12:00",
+    "date": "May 17",
+    "startDate": "2015-05-17T13:48:06Z"
+  },
+  {
+    "id": 303722482,
+    "name": "Doing a morning run so I can catch up 99% Invisible podcasts",
+    "distance": "5.0",
+    "distancePercent": 19.224791843893133,
+    "pace": 10.419778158554836,
+    "paceFormatted": "10:25",
+    "date": "May 13",
+    "startDate": "2015-05-13T07:11:30Z"
+  },
+  {
+    "id": 297655550,
+    "name": "Lunch stroll with the dog",
+    "distance": "7.2",
+    "distancePercent": 27.631562010687023,
+    "pace": 13.83618926359035,
+    "paceFormatted": "13:50",
+    "date": "May 3",
+    "startDate": "2015-05-03T12:30:48Z"
+  },
+  {
+    "id": 284435790,
+    "name": "Walking down from the Hollywood Sign. This would be so much fun climbing on a bike!",
+    "distance": "2.5",
+    "distancePercent": 9.451242641603054,
+    "pace": 15.554587231728663,
+    "paceFormatted": "15:33",
+    "date": "Apr 12",
+    "startDate": "2015-04-12T16:55:30Z"
+  },
+  {
+    "id": 282463529,
+    "name": "Dragging dog around. Her teenage years. Brat mode. ",
+    "distance": "4.1",
+    "distancePercent": 15.467394609923666,
+    "pace": 9.936357822759648,
+    "paceFormatted": "9:56",
+    "date": "Apr 9",
+    "startDate": "2015-04-09T19:19:25Z"
+  },
+  {
+    "id": 279377361,
+    "name": "Jogging with dog and listening to The Strokes",
+    "distance": "5.2",
+    "distancePercent": 19.885057822519084,
+    "pace": 11.750099073209267,
+    "paceFormatted": "11:45",
+    "date": "Apr 4",
+    "startDate": "2015-04-04T17:11:58Z"
+  },
+  {
+    "id": 265280190,
+    "name": "Taking the dog up to twin peaks peak #2",
+    "distance": "4.6",
+    "distancePercent": 17.550647611450383,
+    "pace": 12.341598910219044,
+    "paceFormatted": "12:20",
+    "date": "Mar 8",
+    "startDate": "2015-03-08T17:06:30Z"
+  },
+  {
+    "id": 250862117,
+    "name": "Bushwhacking in Tahoe",
+    "distance": "5.3",
+    "distancePercent": 20.081667196183204,
+    "pace": 12.465004210673165,
+    "paceFormatted": "12:27",
+    "date": "Feb 5",
+    "startDate": "2015-02-05T11:20:58Z"
+  },
+  {
+    "id": 250543076,
+    "name": "Tahoe trail test!",
+    "distance": "1.8",
+    "distancePercent": 6.904570199618322,
+    "pace": 11.82054403414373,
+    "paceFormatted": "11:49",
+    "date": "Feb 4",
+    "startDate": "2015-02-04T16:21:57Z"
+  },
+  {
+    "id": 246900820,
+    "name": "Starting running again. Slow and steady towards a 2015 half-marathon goal. ",
+    "distance": "2.8",
+    "distancePercent": 10.568998948091602,
+    "pace": 9.804708535540593,
+    "paceFormatted": "9:48",
+    "date": "Jan 27",
+    "startDate": "2015-01-27T08:09:18Z"
+  },
+  {
+    "id": 222543827,
+    "name": "Bolinas Ridge walkie",
+    "distance": "4.2",
+    "distancePercent": 15.977772622137406,
+    "pace": 19.385231706097894,
+    "paceFormatted": "19:23",
+    "date": "Nov 23",
+    "startDate": "2014-11-23T12:28:51Z"
+  },
+  {
+    "id": 222055298,
+    "name": "4 mi jog to get that iPhone 6 ordered",
+    "distance": "4.1",
+    "distancePercent": 15.6246346759542,
+    "pace": 9.820076928899235,
+    "paceFormatted": "9:49",
+    "date": "Nov 22",
+    "startDate": "2014-11-22T11:37:45Z"
+  },
+  {
+    "id": 219647105,
+    "name": "Tennessee Valley to the cove",
+    "distance": "3.9",
+    "distancePercent": 14.942549562977101,
+    "pace": 12.82690519839773,
+    "paceFormatted": "12:49",
+    "date": "Nov 15",
+    "startDate": "2014-11-15T16:08:32Z"
+  },
+  {
+    "id": 219645920,
+    "name": "Coastal Trail to Bonita Lighthouse",
+    "distance": "3.2",
+    "distancePercent": 12.30101131946565,
+    "pace": 14.298871911725946,
+    "paceFormatted": "14:17",
+    "date": "Nov 15",
+    "startDate": "2014-11-15T14:12:52Z"
+  },
+  {
+    "id": 217004494,
+    "name": "Stubbens Cold Canyon - Blue Ridge Loop Trail",
+    "distance": "5.1",
+    "distancePercent": 19.627022842366415,
+    "pace": 18.581251951331538,
+    "paceFormatted": "18:34",
+    "date": "Nov 8",
+    "startDate": "2014-11-08T11:17:55Z"
+  },
+  {
+    "id": 216393948,
+    "name": "Night Run",
+    "distance": "2.7",
+    "distancePercent": 10.445673406106868,
+    "pace": 9.920466605617815,
+    "paceFormatted": "9:55",
+    "date": "Nov 6",
+    "startDate": "2014-11-06T22:14:38Z"
+  },
+  {
+    "id": 194581812,
+    "name": "GGP dirt knee hurt",
+    "distance": "3.3",
+    "distancePercent": 12.754944179770995,
+    "pace": 10.234019789131045,
+    "paceFormatted": "10:14",
+    "date": "Sep 14",
+    "startDate": "2014-09-14T12:24:14Z"
+  },
+  {
+    "id": 190775924,
+    "name": "Kezar Stadium to Strawberry Hill to The Mill",
+    "distance": "7.5",
+    "distancePercent": 28.699750935877866,
+    "pace": 10.840941310493347,
+    "paceFormatted": "10:50",
+    "date": "Sep 6",
+    "startDate": "2014-09-06T11:14:13Z"
+  },
+  {
+    "id": 188119863,
+    "name": "GGP in and out",
+    "distance": "3.5",
+    "distancePercent": 13.536638384351146,
+    "pace": 8.557493475662579,
+    "paceFormatted": "8:33",
+    "date": "Aug 31",
+    "startDate": "2014-08-31T14:42:06Z"
+  },
+  {
+    "id": 186049039,
+    "name": "Busking with Kelly",
+    "distance": "2.5",
+    "distancePercent": 9.454325780152672,
+    "pace": 8.97579085636447,
+    "paceFormatted": "8:58",
+    "date": "Aug 27",
+    "startDate": "2014-08-27T07:40:41Z"
+  },
+  {
+    "id": 184438157,
+    "name": "First time running up Twin Peaks. Not as difficult as expected. Going down still aches me old knee bones though. ",
+    "distance": "3.6",
+    "distancePercent": 13.931280118702292,
+    "pace": 10.812799041582512,
+    "paceFormatted": "10:48",
+    "date": "Aug 23",
+    "startDate": "2014-08-23T17:21:01Z"
+  },
+  {
+    "id": 180356497,
+    "name": "Exploring GGP trails with Indie. Watching some kickball in the middle",
+    "distance": "4.1",
+    "distancePercent": 15.471900735496183,
+    "pace": 12.050903432415918,
+    "paceFormatted": "12:03",
+    "date": "Aug 14",
+    "startDate": "2014-08-14T18:02:44Z"
+  },
+  {
+    "id": 178551601,
+    "name": "Evening Sutro exploring with Indie, our Australian Cattle Dog",
+    "distance": "4.6",
+    "distancePercent": 17.707413348473285,
+    "pace": 12.724504800538107,
+    "paceFormatted": "12:43",
+    "date": "Aug 10",
+    "startDate": "2014-08-10T18:06:50Z"
+  },
+  {
+    "id": 178441807,
+    "name": "Quick 2 mile run around the hood",
+    "distance": "1.9",
+    "distancePercent": 7.070822516793894,
+    "pace": 12.361303079673876,
+    "paceFormatted": "12:21",
+    "date": "Aug 10",
+    "startDate": "2014-08-10T13:03:16Z"
+  },
+  {
+    "id": 176968060,
+    "name": "Loving Hut lunch run. ",
+    "distance": "4.6",
+    "distancePercent": 17.463371074045803,
+    "pace": 13.157310314954005,
+    "paceFormatted": "13:09",
+    "date": "Aug 7",
+    "startDate": "2014-08-07T11:31:11Z"
+  },
+  {
+    "id": 175856190,
+    "name": "Buena Vista Hill both ways up. First KOM is within reach. Couple more tries. ",
+    "distance": "2.8",
+    "distancePercent": 10.683786567938933,
+    "pace": 10.985469568059917,
+    "paceFormatted": "10:59",
+    "date": "Aug 5",
+    "startDate": "2014-08-05T09:19:17Z"
+  },
+  {
+    "id": 167267730,
+    "name": "First run with the new kicks. No pain, some gain. ",
+    "distance": "2.8",
+    "distancePercent": 10.712009143893129,
+    "pace": 10.32704585883192,
+    "paceFormatted": "10:19",
+    "date": "Jul 17",
+    "startDate": "2014-07-17T11:55:13Z"
+  },
+  {
+    "id": 164999884,
+    "name": "Quick run to diagnose knee pain before hitting up the shoe store. ",
+    "distance": "1.6",
+    "distancePercent": 6.266834848854962,
+    "pace": 9.937608887355053,
+    "paceFormatted": "9:56",
+    "date": "Jul 12",
+    "startDate": "2014-07-12T10:51:03Z"
+  },
+  {
+    "id": 152106489,
+    "name": "Walking/dragging the dog",
+    "distance": "1.2",
+    "distancePercent": 4.423117996183207,
+    "pace": 12.310982039285381,
+    "paceFormatted": "12:18",
+    "date": "Jun 10",
+    "startDate": "2014-06-10T22:06:22Z"
+  },
+  {
+    "id": 121671484,
+    "name": "Night walk with dog and trying out heart rate monitor. ",
+    "distance": "1.6",
+    "distancePercent": 6.011645842748092,
+    "pace": 13.555114813794471,
+    "paceFormatted": "13:33",
+    "date": "Mar 17",
+    "startDate": "2014-03-17T21:13:19Z"
+  },
+  {
+    "id": 113904827,
+    "name": "Walk and jog with our foster dog, Hope",
+    "distance": "1.1",
+    "distancePercent": 4.282716609923664,
+    "pace": 14.185070287290932,
+    "paceFormatted": "14:11",
+    "date": "Feb 16",
+    "startDate": "2014-02-16T20:52:42Z"
+  },
+  {
+    "id": 82087315,
+    "name": "Walk/jog",
+    "distance": "4.3",
+    "distancePercent": 16.302450827862597,
+    "pace": 11.436954090407443,
+    "paceFormatted": "11:26",
+    "date": "Sep 12",
+    "startDate": "2013-09-12T22:09:07Z"
+  },
+  {
+    "id": 24533846,
+    "name": "Oct 9, 2012",
+    "distance": "0.6",
+    "distancePercent": 2.299309864503817,
+    "pace": 12.256139119243693,
+    "paceFormatted": "12:15",
+    "date": "Oct 9",
+    "startDate": "2012-10-09T19:58:11Z"
+  }
+]
