@@ -1,7 +1,10 @@
 :root {
   --primary-color: #fc4c02;
   --secondary-color: #ffa41a;
+
   --post-width: 480px;
+
+  --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
 }
 
 body,
