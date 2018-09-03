@@ -23,32 +23,34 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
   </div>
 
   <div id="runs" class="runs">
-      <div v-for="(run, index) in runs">
-        <h3 v-if="index > 0 && run.year !== runs[index - 1].year">
-          {{ run.year }}
-        </h3>
-        <transition
-          appear
-          appear-class="custom-appear-class"
-          appear-to-class="custom-appear-to-class"
-          appear-active-class="custom-appear-active-class"
-        >
-          <div class="run" :style="getTransition(index)">
-            <div class="run-name">
-              <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
-            </div>
-            <div class="run-metrics">
-              {{ run.paceFormatted }}/mi • {{ run.distance }}mi
-            </div>
-            <div class="distance-bar" :style="`
-              width: ${run.distancePercent}%;
-              background-color: ${getPaceColor(run.pace)};
-            `">
-            </div>
+    <div class="distance-goal">26.2mi</div>
+    <div v-for="(run, index) in runs">
+      <h3 v-if="index > 0 && run.year !== runs[index - 1].year">
+        {{ run.year }}
+      </h3>
+      <transition
+        appear
+        appear-class="custom-appear-class"
+        appear-to-class="custom-appear-to-class"
+        appear-active-class="custom-appear-active-class"
+      >
+        <div class="run" :style="getTransition(index)">
+          <div class="run-name">
+            <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
           </div>
-        </transition>
-      </div>
+          <div class="run-metrics">
+            {{ run.paceFormatted }}/mi • {{ run.distance }}mi
+          </div>
+          <div class="distance-bar" :style="`
+            width: ${run.distancePercent}%;
+            background-color: ${getPaceColor(run.pace)};
+          `">
+          </div>
+        </div>
+      </transition>
+    </div>
   </div>
+
 </div>
 
 
@@ -76,13 +78,6 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
   transform: translateX(0);
 }
 
-
-.legend {
-  padding-bottom: 12px;
-  margin-bottom: 24px;
-  border-bottom: 1px solid #ddd;
-}
-
 .color-info {
   display: flex;
   align-items: center;
@@ -100,9 +95,24 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 }
 
 .runs {
-  padding-bottom: 12px;
-  margin-bottom: 24px;
-  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 36px;
+  border-right: 2px solid #000;
+}
+
+.distance-goal {
+  position: absolute;
+  top: -18px;
+  right: -2px;
+  padding: 2px 0;
+  width: 54px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: #000;
+  border-radius: 4px 0 0 4px;
 }
 
 .run {
@@ -122,7 +132,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 
 .run-name {
   z-index: 1;
-  opacity: 0.8;
+  opacity: 0.6;
   padding: 8px;
   white-space: nowrap;
   overflow: hidden;
@@ -134,7 +144,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
   display: flex;
   align-items: center;
   flex: 0 0 auto;
-  opacity: 0.8;
+  opacity: 0.6;
   padding: 8px;
   text-align: right;
   display: flex;
