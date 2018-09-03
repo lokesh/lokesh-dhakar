@@ -22,21 +22,31 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
     </div>
   </div>
 
-  <div id="runs">
+  <div id="runs" class="runs">
       <div v-for="(run, index) in runs">
-        <div class="run">
-          <div class="run-name">
-            <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
+        <h3 v-if="index > 0 && run.year !== runs[index - 1].year">
+          {{ run.year }}
+        </h3>
+        <transition
+          appear
+          appear-class="custom-appear-class"
+          appear-to-class="custom-appear-to-class"
+          appear-active-class="custom-appear-active-class"
+        >
+          <div class="run" :style="getTransition(index)">
+            <div class="run-name">
+              <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
+            </div>
+            <div class="run-metrics">
+              {{ run.paceFormatted }}/mi • {{ run.distance }}mi
+            </div>
+            <div class="distance-bar" :style="`
+              width: ${run.distancePercent}%;
+              background-color: ${getPaceColor(run.pace)};
+            `">
+            </div>
           </div>
-          <div class="run-metrics">
-            {{ run.paceFormatted }}/mi • {{ run.distance }}mi
-          </div>
-          <div class="distance-bar" :style="`
-            width: ${run.distancePercent}%;
-            background-color: ${getPaceColor(run.pace)};
-          `">
-          </div>
-        </div>
+        </transition>
       </div>
   </div>
 </div>
@@ -48,7 +58,7 @@ In the back-of-my-mind, I've always thought I'd like to run a marathon someday. 
 
 **Which marathon to run?** Though I lived in Boston previously, the Boston Marathon never held any special meaning to me. I knew of it, but not about it. So what was the reason for picking Boston? My family lives just one hour North in New Hampshire, and this would give me another chance to visit them.
 
-**Learning about qualifying.** For a race, I assumed you would go to a website to register, pay a fee, and then show up at the race. I was unaware that you had to qualify. I was also unaware about how difficult qualifying would be.
+**Learning about qualifying.** For a race, I assumed you would register on a website, pay a fee, and then show up at the race. I was unaware that you had to qualify. I was also unaware about how difficult qualifying would be.
 
 For my age group, 35-39 years old, qualifying for the Boston Marathon requires a sub 3hr 10min time. This means
 keeping a 7:15/mi pace for 26.2 miles. 
@@ -57,6 +67,16 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 
 
 <style>
+.custom-appear-class {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+.custom-appear-to-class {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
 .legend {
   padding-bottom: 12px;
   margin-bottom: 24px;
@@ -76,7 +96,13 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  border-radius: 4px;
+  border-radius: 2px;
+}
+
+.runs {
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ddd;
 }
 
 .run {
@@ -87,6 +113,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 12px;
+  border-radius: 2px;
 }
 
 .run a {
@@ -112,7 +139,6 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
   text-align: right;
   display: flex;
   align-items: center;
-
 }
 
 .distance-bar {
@@ -120,6 +146,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
   position: absolute;
   width: 100%;
   height: 100%;
+  border-radius: 2px 0 0 2px;
 }
 </style>
 
@@ -159,6 +186,9 @@ var app = new Vue({
       }
       return paceColor;
     },
+    getTransition(index) {
+      return (index < 40) ? `transition: all 0.5s ${index * 0.05}s`: '';
+    }
   }
 });
 </script>
