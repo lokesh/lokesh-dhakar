@@ -1,6 +1,6 @@
 ---
 title: "Chess"
-date: 2005-04-13 17:39
+date: 2005-04-13
 comments: true
 layout: post.njk
 ---

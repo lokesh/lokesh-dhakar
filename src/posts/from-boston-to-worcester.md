@@ -1,6 +1,6 @@
 ---
 title: "From Boston to Worcester"
-date: 2005-08-12 17:47
+date: 2005-08-12
 comments: false
 sharing: false
 layout: post.njk

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Squeaky clean CSS"
-date: 2006-02-16 22:32
+date: 2006-02-16
 comments: true
 categories:
 ---

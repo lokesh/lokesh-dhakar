@@ -1,6 +1,6 @@
 ---
 title: "MobileMe particles"
-date: 2011-09-20 16:16
+date: 2011-09-20
 comments: true
 layout: post.njk
 ---

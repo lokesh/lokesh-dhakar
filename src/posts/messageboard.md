@@ -1,6 +1,6 @@
 ---
 title: "Messageboard"
-date: 2006-05-19 18:14
+date: 2006-05-19
 comments: true
 layout: post.njk
 ---

@@ -1,6 +1,6 @@
 ---
 title: "LokeshDhakar.com launched"
-date: 2007-08-17 18:19
+date: 2007-08-17
 comments: false
 sharing: false
 layout: post.njk

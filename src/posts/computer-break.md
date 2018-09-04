@@ -1,6 +1,6 @@
 ---
 title: "Computer break"
-date: 2005-03-24 17:35
+date: 2005-03-24
 comments: true
 layout: post.njk
 ---

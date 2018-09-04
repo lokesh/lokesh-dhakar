@@ -1,6 +1,6 @@
 ---
 title: "Lightbox JS v2.0"
-date: 2006-03-29 18:11
+date: 2006-03-29
 comments: true
 layout: post.njk
 ---

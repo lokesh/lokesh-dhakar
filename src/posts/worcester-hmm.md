@@ -1,6 +1,6 @@
 ---
 title: "Worcester... hmm"
-date: 2005-09-28 17:54
+date: 2005-09-28
 comments: true
 sharing: false
 layout: post.njk

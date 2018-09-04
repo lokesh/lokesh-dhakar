@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Radio on the Web != Web Radio"
-date: 2005-02-08 17:26
+date: 2005-02-08
 comments: true
 categories:
 ---

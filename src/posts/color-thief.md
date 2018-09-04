@@ -1,6 +1,6 @@
 ---
 title: "Color Thief"
-date: 2011-11-03 16:03
+date: 2011-11-03
 comments: true
 layout: post.njk
 ---

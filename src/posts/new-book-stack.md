@@ -1,6 +1,6 @@
 ---
 title: "New book stack"
-date: 2008-07-24 18:36
+date: 2008-07-24
 comments: true
 layout: post.njk
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Coffee diagram follow-up"
-date: 2007-09-04 21:59
+date: 2007-09-04
 comments: true
 layout: post.njk
 ---

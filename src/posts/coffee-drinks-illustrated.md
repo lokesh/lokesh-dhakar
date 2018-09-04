@@ -1,6 +1,6 @@
 ---
 title: "Coffee drinks illustrated"
-date: 2007-08-20 00:02
+date: 2007-08-20
 comments: true
 layout: post.njk
 ---

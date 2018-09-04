@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "New job and Adobe Flex"
-date: 2006-06-11 18:17
+date: 2006-06-11
 comments: true
 categories:
 ---

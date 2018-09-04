@@ -2,12 +2,12 @@
 title: "Creatives at work"
 date: 2018-07-08
 layout: post.njk
+draft: true
 ---
 
 ## Subtitle
 
 Why is the internet so challenging? I decided to make a list of reasons and came up with 11. Though none of them are very novel, I found the catalog interesting. (For one thing, I expected fewer.)
-
 
 ## Heading 2
 

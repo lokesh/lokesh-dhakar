@@ -1,6 +1,6 @@
 ---
 title: "Lightbox 2.03 released"
-date: 2007-04-06 22:27
+date: 2007-04-06
 comments: true
 layout: post.njk
 ---

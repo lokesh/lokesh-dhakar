@@ -1,6 +1,6 @@
 ---
 title: "Lightbox != Lightshow"
-date: 2006-01-17 18:08
+date: 2006-01-17
 comments: true
 layout: post.njk
 ---

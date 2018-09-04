@@ -1,6 +1,6 @@
 ---
 title: "Neat-o Stuff in Worcester"
-date: 2005-12-04 17:56
+date: 2005-12-04
 comments: true
 layout: post.njk
 ---

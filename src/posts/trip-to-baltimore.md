@@ -1,6 +1,6 @@
 ---
 title: "Trip to Baltimore"
-date: 2005-05-10 17:44
+date: 2005-05-10
 comments: true
 layout: post.njk
 ---

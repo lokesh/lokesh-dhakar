@@ -1,6 +1,6 @@
 ---
 title: "Deerfield Fair"
-date: 2004-10-03 16:53
+date: 2004-10-03
 comments: true
 sharing: false
 layout: post.njk

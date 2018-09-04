@@ -1,6 +1,6 @@
 ---
 title: "Lightbox JS"
-date: 2006-01-03 18:00
+date: 2006-01-03
 comments: true
 layout: post.njk
 ---

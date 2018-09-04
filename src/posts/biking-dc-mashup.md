@@ -1,6 +1,6 @@
 ---
 title: "Biking DC mashup"
-date: 2008-11-24 22:42
+date: 2008-11-24
 comments: true
 sharing: true
 layout: post.njk

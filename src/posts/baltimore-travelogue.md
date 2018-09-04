@@ -1,6 +1,6 @@
 ---
 title: "Baltimore Travelogue"
-date: 2008-11-18 18:45
+date: 2008-11-18
 comments: true
 layout: post.njk
 ---

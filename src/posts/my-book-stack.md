@@ -1,6 +1,6 @@
 ---
 title: "My book stack"
-date: 2007-11-08 18:32
+date: 2007-11-08
 comments: true
 layout: post.njk
 ---

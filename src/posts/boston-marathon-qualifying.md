@@ -1,5 +1,5 @@
 ---
-title: "Boston Marathon qualifying"
+title: "Boston Marathon qualifying2"
 date: 2018-07-29
 layout: post.njk
 ---
@@ -96,6 +96,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 
 .runs {
   position: relative;
+  min-height: 1200px;
   padding-top: 20px;
   margin-bottom: 36px;
   border-right: 2px solid #000;
@@ -197,7 +198,7 @@ var app = new Vue({
       return paceColor;
     },
     getTransition(index) {
-      return (index < 40) ? `transition: all 0.5s ${index * 0.05}s`: '';
+      return (index < 30) ? `transition: all 0.5s ${index * 0.05}s`: '';
     }
   }
 });

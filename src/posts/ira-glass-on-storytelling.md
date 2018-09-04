@@ -1,6 +1,6 @@
 ---
 title: "Ira Glass on storytelling"
-date: 2009-01-02 18:49
+date: 2009-01-02
 comments: true
 layout: post.njk
 ---

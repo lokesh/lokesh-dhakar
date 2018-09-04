@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Free bikes!"
-date: 2006-01-01 18:02
+date: 2006-01-01
 comments: true
 categories:
 ---
