@@ -1,6 +1,7 @@
 :root {
   --primary-color: #fc4c02;
   --secondary-color: #ffa41a;
+  --muted-color: #555;
 
   --post-width: 480px;
 
@@ -174,4 +175,22 @@ pre {
   margin-bottom: 16px;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+/* Archive ------------ */
+
+.archive {
+}
+
+.archive__post {
+
+}
+
+.archive__post-title {
+  font-weight: bold;
+}
+
+.archive__post-date {
+  color: var(--muted-color);
+
 }

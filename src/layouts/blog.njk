@@ -6,13 +6,15 @@
       <h1 class="post__title">Blog posts</h1>
     </header>
     <main class="post__content">
-      <ul>
+      <ul class="archive">
         {% for post in collections.posts %}
 
           {% if not post.draft %}
-          <li>
-            {{ post.draft }}
-            <a href="/{{ post.path }}">{{ post.title }}</a>
+          <li class="archive__post">
+
+            <a href="/{{ post.path }}" class="archive__post-title">{{ post.title}}</a>
+            <span class="archive__post-date">{{ post.date | date }}</span>
+
           </li>
           {% endif %}
 
@@ -21,5 +23,3 @@
     </main>
   </article>
 {% endblock %}
-
-
