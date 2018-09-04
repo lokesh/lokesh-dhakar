@@ -41,8 +41,6 @@ let fetchPromise = fetch(`https://www.strava.com/api/v3/athlete/activities?per_p
 
 
 function formatRunData(runs) {
-  const dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
-
   let formattedRuns = [];
   runs.forEach((run) => {
     // Meters to miles

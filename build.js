@@ -36,9 +36,18 @@ var siteBuild = metalsmith(__dirname)
   }))
 
   .use(markdown())
-  .use(permalinks(':title'))
+  .use(permalinks({
+    'pattern': ':title'
+  }))
   .use(layouts({
-    directory: 'src/layouts'
+    directory: 'src/layouts',
+    engineOptions: {
+      filters: {
+        date: function(date) {
+          return new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+        }
+      }
+    }
   }))
   .use(serve())
   .use(
