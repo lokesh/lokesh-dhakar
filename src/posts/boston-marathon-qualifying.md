@@ -1,6 +1,6 @@
 ---
-title: "Boston Marathon qualifying2"
-date: 2018-07-29
+title: "Boston Marathon qualifying"
+date: 2018-09-03
 layout: post.njk
 ---
 
@@ -198,7 +198,7 @@ var app = new Vue({
       return paceColor;
     },
     getTransition(index) {
-      return (index < 30) ? `transition: all 0.5s ${index * 0.05}s`: '';
+      return (index < 40) ? `transition: all 0.5s ${index * 0.05}s`: '';
     }
   }
 });
