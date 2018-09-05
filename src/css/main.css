@@ -1,6 +1,6 @@
 :root {
   --primary-color: #fc4c02;
-  --secondary-color: #ffa41a;
+  --secondary-color: #f68727;
   --muted-color: #555;
 
   --post-width: 480px;
@@ -186,11 +186,15 @@ pre {
 
 }
 
+.archive__draft-label {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
 .archive__post-title {
   font-weight: bold;
 }
 
 .archive__post-date {
   color: var(--muted-color);
-
 }
