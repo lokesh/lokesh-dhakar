@@ -10,98 +10,148 @@ draft: true
 <svg class="histomap" viewBox="0 0 200 300">
   <rect x="0" y="0" width="200" height="300" fill="#eee" />
 <!--     <text x="5" y="30">A nice rectangle</text> -->
-  <!-- <polygon points="100, 0, 180, 60, 80, 120, 400, 200, 400, 0" fill="#ddd" /> -->
+<!-- <polygon points="100, 0, 180, 60, 80, 120, 400, 200, 400, 0" fill="#ddd" /> -->
 </svg>
 
 </div>
 
+Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018), “Rebasing ‘Maddison’: new income comparisons and the shape of long-run economic development” 
+
+
 <style>
 .histomap {
+  border: 2px solid black;
 }
 </style>
 
-<!-- <script src="/js/jquery-3.3.1.min.js"></script> -->
+<script src="/js/axios.min.js"></script>
 
 <script>
+// ------
+// CONFIG
+// ------
 
-/* https://stackoverflow.com/a/5092872/400407 */
-function randHex() {
-  return "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
-}
-
-document.querySelector('rect').setAttribute('fill', '#fcc')
-
+/* SVG size and colors */
 const width = 200;
 const height = 300;
+const colorList = [
+  '#F57373',
+  '#FCA469',
+  '#F6C458',
+  '#E6F598',
+  '#8ECC75',
+  '#47B068',
+]
+
+/* Timeline */
+const startYear = 2015;
+const endYear = 1960;
+const yearInterval = 5;
+
+/* Countries */
+let countryList = [
+  'Brazil',
+  'Canada',
+  'China',
+  'France',
+  'Germany',
+  'India',
+  'Indonesia',
+  'Italy',
+  'Japan',
+  'Russian Federation',
+  'Spain',
+  'United Kingdom',
+  'United States',
+  // 'West Germany',
+]
 
 
-// let countries = new Map([
-//   ['United States', [18, 14, 13, 10]],
-//   ['China', [11, 5, 2, 1]],
-//   ['Japan', [4, 5, 4, 4]],
-//   ['Germany', [4, 5, 4, 4]],
-//   ['India', [2, 1, 0, 0]]]);
+// ----------
+// FETCH DATA
+// ----------
 
-const countries = {
-  /* or
-    'United States': {
-      2015: 18,
-      2010: 14,
-      2005: 13,
-      2000: 10
-      },
-  */
-  'United States': [18, 14, 13, 10],
-  'China': [11, 5, 2, 1],
-  'Japan': [4, 5, 4, 4],
-  'Germany': [4, 5, 4, 4],
-  'India': [2, 1, 0, 0],
+function fetchData() {
+  return axios.get('/data/gdp-by-country.json')
+    .then((response) => {
+      return response.data;
+    })
 }
 
+// ------------
+// PROCESS DATA
+// ------------
 
-const YEARS = 4;
+// years map stores total GDP for the year across countries
+const years = new Map();
+for (let year = startYear; year >= endYear; year -= yearInterval) {
+  years.set(year, 0);
+}
 
-let gdpTotals = new Array(YEARS).fill(0);
-let gdpCounter = new Array(YEARS).fill(0);
-
-for (let i = 0; i < YEARS; i++) {
-  for (let country in countries) {
-    gdpTotals[i] += countries[country][i];
+function processData(data) {
+  // Sum up GDP totals for the year and store in years map
+  for (let year of years.keys()) {
+    for (let country in data){
+      if (countryList.indexOf(country) !== -1) {
+        let countryObj = data[country];
+        if (countryObj.hasOwnProperty(year)) {
+          years.set(year, years.get(year) + countryObj[year]);
+        }
+      }
+    }
   }
 }
 
-
-let polys = [];
-
-let points;
-
-
-for (let countryName in countries) {
-  let country = countries[countryName]
-
-  let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-  poly.setAttribute('fill', randHex());
-
-  points = '0, 0';
-  for (let i = 0; i < YEARS; i++) {
-    points += `, ${(country[i] + gdpCounter[i]) / gdpTotals[i] * width}, ${i * (height / (YEARS - 1))}`;
-    gdpCounter[i] += country[i];
-  }
-
-  points += `, 0, ${height}`
-  poly.setAttribute('points', points);
-
-  console.log(points);
-  polys.push(poly);
+function drawChart(data) {
+  console.log(data);
 }
 
+fetchData().then(data => {
+  processData(data);
+  drawChart(data);
+})
 
-let frag = document.createDocumentFragment()
+// let gdpTotals = new Array(YEARS).fill(0);
+// let gdpCounter = new Array(YEARS).fill(0);
 
-for (let i = polys.length - 1; i >= 0; i--) {
-  frag.appendChild(polys[i]);  
-}
+// for (let i = 0; i < YEARS; i++) {
+//   for (let country in countries) {
+//     gdpTotals[i] += countries[country][i];
+//   }
+// }
 
-document.querySelector('.histomap').appendChild(frag);
+
+
+
+// let polys = [];
+
+// let points;
+
+// Object.keys(countries).forEach((countryName, index) => {
+//   let country = countries[countryName]
+
+//   let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+//   poly.setAttribute('fill', colorList[index % colorList.length]);
+
+//   points = '0, 0';
+//   for (let i = 0; i < YEARS; i++) {
+//     points += `, ${(country[i] + gdpCounter[i]) / gdpTotals[i] * width}, ${i * (height / (YEARS - 1))}`;
+//     gdpCounter[i] += country[i];
+//   }
+
+//   points += `, 0, ${height}`
+//   poly.setAttribute('points', points);
+
+//   polys.push(poly);
+// });
+
+
+// let frag = document.createDocumentFragment()
+
+// for (let i = polys.length - 1; i >= 0; i--) {
+//   frag.appendChild(polys[i]);  
+// }
+
+// document.querySelector('.histomap').appendChild(frag);
 </script>
 
