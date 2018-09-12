@@ -7,8 +7,8 @@ draft: true
 
 <div class="center">
 
-<svg class="histomap" viewBox="0 0 200 300">
-  <rect x="0" y="0" width="200" height="300" fill="#eee" />
+<svg class="histomap" viewBox="0 0 200 400">
+  <rect x="0" y="0" width="200" height="400" fill="#eee" />
 <!--     <text x="5" y="30">A nice rectangle</text> -->
 <!-- <polygon points="100, 0, 180, 60, 80, 120, 400, 200, 400, 0" fill="#ddd" /> -->
 </svg>
@@ -33,7 +33,7 @@ Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de 
 
 /* SVG size and colors */
 const width = 200;
-const height = 300;
+const height = 400;
 const colorList = [
   '#F57373',
   '#FCA469',
@@ -78,11 +78,12 @@ function fetchData() {
     })
 }
 
+
 // ------------
 // PROCESS DATA
 // ------------
 
-// years map stores total GDP for the year across countries
+// years `map` stores total GDP for the year across countries
 const years = new Map();
 for (let year = startYear; year >= endYear; year -= yearInterval) {
   years.set(year, 0);
@@ -103,7 +104,62 @@ function processData(data) {
 }
 
 function drawChart(data) {
-  console.log(data);
+  // Loop through countries
+  // Object.keys(countries).forEach((countryName, index) => {
+
+  let index = 0;
+  let polys = [];
+  let points;
+
+  for (let country in data) {
+    index++;
+    let countryObj = data[country];
+
+      let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+      poly.setAttribute('fill', colorList[index % colorList.length]);
+
+      points = '0, 0';
+    //   for (let i = 0; i < YEARS; i++) {
+    //     points += `, ${(country[i] + gdpCounter[i]) / gdpTotals[i] * width}, ${i * (height / (YEARS - 1))}`;
+    //     gdpCounter[i] += country[i];
+    //   }
+
+    //   points += `, 0, ${height}`
+    //   poly.setAttribute('points', points);
+
+    //   polys.push(poly);
+    // });
+
+
+
+
+
+
+
+    // Draw left edge going down. Use prev countries right edge points.
+
+    // Draw line at bottom connecting to right
+
+    // Draw right going up. Save right edge points.
+
+    // Draw line at top connecting to left
+
+    poly.setAttribute('points', points);
+
+    polys.push(poly);
+
+  }    
+
+  let frag = document.createDocumentFragment()
+
+  for (let i = polys.length - 1; i >= 0; i--) {
+    frag.appendChild(polys[i]);  
+  }
+
+  document.querySelector('.histomap').appendChild(frag);
+
+  // console.log(years);
+  // console.log(data);
 }
 
 fetchData().then(data => {
