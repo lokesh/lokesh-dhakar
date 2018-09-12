@@ -7,8 +7,8 @@ draft: true
 
 <div class="center">
 
-<svg class="histomap" viewBox="0 0 200 400">
-  <rect x="0" y="0" width="200" height="400" fill="#eee" />
+<svg class="histomap" viewBox="0 0 400 800" style="width: 400px">
+  <rect x="0" y="0" width="400" height="800" fill="#eee" />
 <!--     <text x="5" y="30">A nice rectangle</text> -->
 <!-- <polygon points="100, 0, 180, 60, 80, 120, 400, 200, 400, 0" fill="#ddd" /> -->
 </svg>
@@ -24,6 +24,7 @@ Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de 
 }
 </style>
 
+<script src="/js/lodash-core.min.js"></script>
 <script src="/js/axios.min.js"></script>
 
 <script>
@@ -32,8 +33,8 @@ Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de 
 // ------
 
 /* SVG size and colors */
-const width = 200;
-const height = 400;
+const canvasWidth = 400;
+const canvasHeight = 800;
 const colorList = [
   '#F57373',
   '#FCA469',
@@ -50,17 +51,17 @@ const yearInterval = 5;
 
 /* Countries */
 let countryList = [
-  'Brazil',
-  'Canada',
+  // 'Brazil',
+  // 'Canada',
   'China',
-  'France',
+  // 'France',
   'Germany',
   'India',
-  'Indonesia',
-  'Italy',
+  // 'Indonesia',
+  // 'Italy',
   'Japan',
-  'Russian Federation',
-  'Spain',
+  // 'Russian Federation',
+  // 'Spain',
   'United Kingdom',
   'United States',
   // 'West Germany',
@@ -90,49 +91,84 @@ for (let year = startYear; year >= endYear; year -= yearInterval) {
 }
 
 function processData(data) {
-  // Sum up GDP totals for the year and store in years map
-  for (let year of years.keys()) {
-    for (let country in data){
+  
+  const filteredData = {};
+  let yearsArray = Array.from(years.keys());
+
+  /* Filter out unneeded countries and years data */
+  for (let country in data){
       if (countryList.indexOf(country) !== -1) {
         let countryObj = data[country];
-        if (countryObj.hasOwnProperty(year)) {
-          years.set(year, years.get(year) + countryObj[year]);
-        }
+        filteredData[country] = _.pick(countryObj, yearsArray);
+      }
+  }
+
+  // Sum up GDP totals for the year and store in years map
+  for (let year of years.keys()) {
+    for (let country in filteredData){
+      let countryObj = filteredData[country];
+      if (countryObj.hasOwnProperty(year)) {
+        years.set(year, years.get(year) + countryObj[year]);
       }
     }
   }
+
+  return filteredData;
 }
 
 function drawChart(data) {
-  // Loop through countries
-  // Object.keys(countries).forEach((countryName, index) => {
-
-  let index = 0;
+  
+  let countryIndex = 0;
   let polys = [];
   let points;
 
+  let yearHeight = canvasHeight / (years.size - 1); 
+
+  let widthSum = {};
+  for (let year of years.keys()) {        
+      widthSum[year] = 0;
+  }
+
   for (let country in data) {
-    index++;
     let countryObj = data[country];
 
       let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-      poly.setAttribute('fill', colorList[index % colorList.length]);
+      poly.setAttribute('fill', colorList[countryIndex % colorList.length]);
+      poly.setAttribute('stroke', 'black');
+      poly.setAttribute('stroke-width', '1');
+      poly.setAttribute('data-name', country);
 
       points = '0, 0';
-    //   for (let i = 0; i < YEARS; i++) {
-    //     points += `, ${(country[i] + gdpCounter[i]) / gdpTotals[i] * width}, ${i * (height / (YEARS - 1))}`;
-    //     gdpCounter[i] += country[i];
-    //   }
+      
+      let yearIndex = 0;
+      let height = 0;
 
-    //   points += `, 0, ${height}`
+      for (let year of years.keys()) {        
+        let yearTotal = years.get(year);
+
+        let width = ((countryObj[year] / yearTotal) * canvasWidth) + widthSum[year];
+        // console.log(width);
+        height = yearIndex * yearHeight;
+
+        // Add point
+        points += `, ${width}, ${height}`;
+
+        //
+        widthSum[year] = width;          
+        
+
+        // points +=`, ${countryObj[year]`;
+        // points += `, ${(country[i] + gdpCounter[i]) / gdpTotals[i] * width}, ${i * (height / (YEARS - 1))}`;
+        // gdpCounter[i] += country[i];
+        yearIndex++;
+      }
+
+      points += `, 0, ${height}`
     //   poly.setAttribute('points', points);
 
     //   polys.push(poly);
-    // });
-
-
-
-
+    
+    // console.log(widthSum);
 
 
 
@@ -148,6 +184,7 @@ function drawChart(data) {
 
     polys.push(poly);
 
+    countryIndex++;
   }    
 
   let frag = document.createDocumentFragment()
@@ -163,8 +200,8 @@ function drawChart(data) {
 }
 
 fetchData().then(data => {
-  processData(data);
-  drawChart(data);
+  let processedData = processData(data);
+  drawChart(processedData);
 })
 
 // let gdpTotals = new Array(YEARS).fill(0);
