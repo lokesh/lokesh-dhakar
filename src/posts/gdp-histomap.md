@@ -7,20 +7,45 @@ draft: true
 
 <div class="center">
 
-<svg class="histomap" viewBox="0 0 400 800" style="width: 400px">
-  <rect x="0" y="0" width="400" height="800" fill="#eee" />
-<!--     <text x="5" y="30">A nice rectangle</text> -->
-<!-- <polygon points="100, 0, 180, 60, 80, 120, 400, 200, 400, 0" fill="#ddd" /> -->
+<svg id="histomap">
+  <g id="chart-group">
+  <!-- <rect id="chart-rect"></rect>  -->
+  </g>
+  <g id="overlay-group"></g>
 </svg>
 
 </div>
 
-Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018), “Rebasing ‘Maddison’: new income comparisons and the shape of long-run economic development” 
-
+<p class="citation">Data provided by the Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018)</p>
 
 <style>
-.histomap {
-  border: 2px solid black;
+#histomap {
+}
+
+#chart-group {
+
+}
+
+#chart-rect {
+  fill: #eee;
+  stroke: black;
+  stroke-width: 2;
+}
+
+#overlay-group {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.year-line {
+  stroke: rgba(0, 0, 0, 0.1);
+  stroke-width: 1;
+  stroke-dasharray: 4;
+}
+
+.citation {
+  font-size: 12px;
 }
 </style>
 
@@ -35,6 +60,10 @@ Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de 
 /* SVG size and colors */
 const canvasWidth = 400;
 const canvasHeight = 800;
+const labelColumnWidth = 34;
+const chartWidth = canvasWidth - labelColumnWidth;
+const chartHeight = canvasHeight;
+
 const colorList = [
   '#F57373',
   '#FCA469',
@@ -46,7 +75,7 @@ const colorList = [
 
 /* Timeline */
 const startYear = 2015;
-const endYear = 1960;
+const endYear = 1950;
 const yearInterval = 5;
 
 /* Countries */
@@ -55,14 +84,14 @@ let countryList = [
   // 'Canada',
   'China',
   // 'France',
-  'Germany',
+  // 'Germany',
   'India',
   // 'Indonesia',
   // 'Italy',
   'Japan',
   // 'Russian Federation',
   // 'Spain',
-  'United Kingdom',
+  // 'United Kingdom',
   'United States',
   // 'West Germany',
 ]
@@ -91,7 +120,6 @@ for (let year = startYear; year >= endYear; year -= yearInterval) {
 }
 
 function processData(data) {
-  
   const filteredData = {};
   let yearsArray = Array.from(years.keys());
 
@@ -116,8 +144,24 @@ function processData(data) {
   return filteredData;
 }
 
-function drawChart(data) {
-  
+// ----
+// DRAW
+// ----
+
+function resizeSVG() {
+  const svg = document.getElementById('histomap');
+  // svg.setAttribute('style', `width: ${canvasWidth}px; height: ${canvasHeight}px`);
+  svg.setAttribute('viewBox', `0, 0, ${canvasWidth}, ${canvasHeight}`);
+
+  const chartGroup = document.getElementById('chart-group')
+  chartGroup.style.transform = `translateX(${labelColumnWidth}px)`
+
+  // const chartRect = document.querySelector('#chart-rect');
+  // chartRect.setAttribute('width', chartWidth);
+  // chartRect.setAttribute('height', chartHeight);
+}
+
+function drawChart(data) {  
   let countryIndex = 0;
   let polys = [];
   let points;
@@ -134,8 +178,8 @@ function drawChart(data) {
 
       let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
       poly.setAttribute('fill', colorList[countryIndex % colorList.length]);
-      poly.setAttribute('stroke', 'black');
-      poly.setAttribute('stroke-width', '1');
+      // poly.setAttribute('stroke', 'black');
+      // poly.setAttribute('stroke-width', '1');
       poly.setAttribute('data-name', country);
 
       points = '0, 0';
@@ -143,10 +187,10 @@ function drawChart(data) {
       let yearIndex = 0;
       let height = 0;
 
-      for (let year of years.keys()) {        
+      for (let year of years.keys()) { 
         let yearTotal = years.get(year);
 
-        let width = ((countryObj[year] / yearTotal) * canvasWidth) + widthSum[year];
+        let width = ((countryObj[year] / yearTotal) * chartWidth) + widthSum[year];
         // console.log(width);
         height = yearIndex * yearHeight;
 
@@ -164,13 +208,6 @@ function drawChart(data) {
       }
 
       points += `, 0, ${height}`
-    //   poly.setAttribute('points', points);
-
-    //   polys.push(poly);
-    
-    // console.log(widthSum);
-
-
 
     // Draw left edge going down. Use prev countries right edge points.
 
@@ -187,64 +224,68 @@ function drawChart(data) {
     countryIndex++;
   }    
 
+  // Append chart polys to DOM
   let frag = document.createDocumentFragment()
-
   for (let i = polys.length - 1; i >= 0; i--) {
     frag.appendChild(polys[i]);  
   }
 
-  document.querySelector('.histomap').appendChild(frag);
+  document.getElementById('chart-group').appendChild(frag);
+}
 
-  // console.log(years);
-  // console.log(data);
+
+
+function drawOverlay(data) {  
+  const svgOverlay = document.getElementById('overlay-group');
+  
+  // <text x="5" y="30">A nice rectangle</text>
+  
+  let yearIndex = 0;
+  let height = 0;
+  let polys = [];
+  let frag = document.createDocumentFragment();
+
+  let yearHeight = canvasHeight / (years.size - 1); 
+
+  for (let year of years.keys()) {        
+    let text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    let textY = (yearIndex === 0) ? 10 : yearIndex  * yearHeight;
+
+    // Draw year labels
+    text.setAttribute('x', 0);
+    text.setAttribute('y', textY);
+    text.setAttribute('text-anchor', 'right');
+    text.textContent = year;
+    frag.appendChild(text);
+    
+    // Draw year lines    
+    let line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute('x1', labelColumnWidth);
+    line.setAttribute('y1', yearIndex  * yearHeight);
+    line.setAttribute('x2', canvasWidth);
+    line.setAttribute('y2', yearIndex  * yearHeight);
+    line.classList.add('year-line');
+    frag.appendChild(line);
+
+    yearIndex++;
+  }
+
+  // Draw country labels
+  for (let country in data) {
+    let countryObj = data[country];
+    
+  }
+
+
+  svgOverlay.appendChild(frag);
 }
 
 fetchData().then(data => {
   let processedData = processData(data);
+  
+  resizeSVG();
   drawChart(processedData);
+  drawOverlay(processedData);
 })
-
-// let gdpTotals = new Array(YEARS).fill(0);
-// let gdpCounter = new Array(YEARS).fill(0);
-
-// for (let i = 0; i < YEARS; i++) {
-//   for (let country in countries) {
-//     gdpTotals[i] += countries[country][i];
-//   }
-// }
-
-
-
-
-// let polys = [];
-
-// let points;
-
-// Object.keys(countries).forEach((countryName, index) => {
-//   let country = countries[countryName]
-
-//   let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-//   poly.setAttribute('fill', colorList[index % colorList.length]);
-
-//   points = '0, 0';
-//   for (let i = 0; i < YEARS; i++) {
-//     points += `, ${(country[i] + gdpCounter[i]) / gdpTotals[i] * width}, ${i * (height / (YEARS - 1))}`;
-//     gdpCounter[i] += country[i];
-//   }
-
-//   points += `, 0, ${height}`
-//   poly.setAttribute('points', points);
-
-//   polys.push(poly);
-// });
-
-
-// let frag = document.createDocumentFragment()
-
-// for (let i = polys.length - 1; i >= 0; i--) {
-//   frag.appendChild(polys[i]);  
-// }
-
-// document.querySelector('.histomap').appendChild(frag);
 </script>
 
