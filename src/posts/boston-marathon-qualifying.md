@@ -30,9 +30,8 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
       </h3>
       <transition
         appear
-        appear-class="custom-appear-class"
-        appear-to-class="custom-appear-to-class"
-        appear-active-class="custom-appear-active-class"
+        appear-class="slide-start"
+        appear-to-class="slide-end"
       >
         <div class="run" :style="getTransition(index)">
           <div class="run-name">
@@ -69,11 +68,11 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 
 
 <style>
-.custom-appear-class {
+.slide-start {
   opacity: 0;
   transform: translateX(-40px);
 }
-.custom-appear-to-class {
+.slide-end {
   opacity: 1;
   transform: translateX(0);
 }
@@ -133,7 +132,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 
 .run-name {
   z-index: 1;
-  opacity: 0.6;
+  opacity: 0.8;
   padding: 8px;
   white-space: nowrap;
   overflow: hidden;
@@ -145,7 +144,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
   display: flex;
   align-items: center;
   flex: 0 0 auto;
-  opacity: 0.6;
+  opacity: 0.8;
   padding: 8px;
   text-align: right;
   display: flex;
