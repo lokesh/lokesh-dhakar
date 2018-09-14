@@ -7,21 +7,20 @@ layout: post.njk
 ## Tracking my progress
 
 In the chart below, you can see all my recent runs. The goal is to complete a marathon distance (26.2mi) run at a 7:15/mi pace.
-
-<div class="center">
   
-  <div class="legend">
-    <div class="color-info">
-        <div class="swatch" style="background-color: #58DF82"></div>7:15/mi or faster pace
-    </div>
-    <div class="color-info">
-      <div class="swatch" style="background-color: #F6DC58"></div>7:15/mi to 8:00/mi
-    </div>
-    <div class="color-info">
-      <div class="swatch" style="background-color: #FCA469"></div>8:00/mi or slower
-    </div>
+<div class="legend">
+  <div class="color-info">
+      <div class="swatch" style="background-color: #58DF82"></div>7:15/mi or faster pace
   </div>
+  <div class="color-info">
+    <div class="swatch" style="background-color: #F6DC58"></div>7:15/mi to 8:00/mi
+  </div>
+  <div class="color-info">
+    <div class="swatch" style="background-color: #FCA469"></div>8:00/mi or slower
+  </div>
+</div>
 
+<div class="center center--960">
   <div id="runs" class="runs">
     <div class="distance-goal">26.2mi</div>
     <div v-for="(run, index) in runs">
