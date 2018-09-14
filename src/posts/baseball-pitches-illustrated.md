@@ -7,12 +7,20 @@ layout: post.njk
 ---
 
 <style>
+.intro-illustration {
+  float: right;
+}
+
+@media (min-width: 800px) {
+  .intro-illustration {
+    position: absolute;
+    left: calc(var(--text-max-width) + 48px);
+  }
+}
+
 .pitch {
   display: flex;
   max-width: 480px;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
   padding-top: 32px;
   margin-top: 32px;
   border-top: 1px solid #ddd;
@@ -41,7 +49,7 @@ layout: post.njk
 }
 </style>
 
-<figure class="figure--right">
+<figure class="intro-illustration">
   <img src="/media/posts/baseball-pitches-illustrated/spitball.png" alt="spitball" />
 </figure>
 

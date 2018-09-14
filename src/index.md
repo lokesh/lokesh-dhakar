@@ -6,6 +6,12 @@ layout: post.njk
 .btn {
   margin-right: 8px;
 }
+
+.post {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 </style>
 
 # Hello!

@@ -3,7 +3,10 @@
   --secondary-color: #f68727;
   --muted-color: #555;
 
-  --post-width: 480px;
+  --nav-width: 140px;
+  --post-max-width: 960px;
+  --text-max-width: 480px;
+  --code-max-width: 480px;
 
   --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
 }
@@ -25,6 +28,10 @@ body {
 
 img {
   display: block;
+}
+
+figure {
+  margin: 0;
 }
 
 h1,
@@ -84,10 +91,10 @@ pre {
 
 /* Nav ------------ */
 .nav {
-  max-width: var(--post-width);
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 16px 16px 16px;
+  position: relative;
+  left: -4px;
+  max-width: var(--post-max-width);
+  padding: 8px 16px 16px 16px;
 }
 
 .nav__item {
@@ -95,18 +102,24 @@ pre {
   padding: 4px 4px;
   font-size: 15px;
   font-weight: 700;
-  color: #999;
+  color: #666;
 }
 
-@media (min-width: 800px) {
+.nav__item:hover {
+  color: #000;
+}
+
+@media (min-width: 700px) {
   .nav {
     position: fixed;
+    left: 0;
     margin-left: 0;
+    padding-top: 0;
   }
 
   .nav__item {
     display: block;
-    color: #000;
+    color: #666;
   }
 }
 
@@ -116,51 +129,40 @@ pre {
 
 .post,
 .page {
+  position: relative;
   margin-bottom: 64px;
 }
 
 /* Posts ------------ */
 
-.post__title {
-  max-width: var(--post-width);
-  margin-left: auto;
-  margin-right: auto;
+.post {
   padding-left: 16px;
   padding-right: 16px;
 }
+
+
+@media (min-width: 700px) {
+  .post,
+  .page {
+    margin-left: var(--nav-width);
+  }
+}
+
 
 .post__content > p,
-.post__content > h1,
 .post__content > h2,
 .post__content > h3,
-.post__content > h4,
-.post__content > pre,
-.post__content > table,
-.post__content > .media,
-.post__content > .center {
-  max-width: var(--post-width);
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
 .post__content > ul,
 .post__content > ol {
-  max-width: var(--post-width);
-  margin-left: auto;
-  margin-right: auto;
+  max-width: var(--text-max-width);
 }
 
-.figure,
-.figure--right {
-  display: table;
-  margin: 0 auto 16px auto;
+.post__content > .center--720 {
+  max-width: 720px;
 }
 
-.figure--right {
-  float: right;
-  margin: 0 16px 16px 0;
+.post__content > .center--960 {
+  max-width: 960px;
 }
 
 .figure img,
@@ -180,6 +182,7 @@ pre {
 /* Archive ------------ */
 
 .archive {
+  padding-left: 4px ;
 }
 
 .archive__post {

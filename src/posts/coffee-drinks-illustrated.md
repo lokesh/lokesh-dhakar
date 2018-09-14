@@ -23,7 +23,7 @@ I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and
 .figure--coffee-drinks {
   display: table;
   max-width: 640px;
-  margin: 0 auto 16px auto;
+  margin-bottom: 16px;
 }
 
 .figure--coffee-drinks img{
