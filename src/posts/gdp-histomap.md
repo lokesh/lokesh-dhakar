@@ -8,9 +8,7 @@ draft: true
 <div class="center">
 
 <svg id="histomap">
-  <g id="chart-group">
-  <!-- <rect id="chart-rect"></rect>  -->
-  </g>
+  <g id="chart-group"></g>
   <g id="overlay-group"></g>
 </svg>
 
@@ -19,20 +17,6 @@ draft: true
 <p class="citation">Data provided by the Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018)</p>
 
 <style>
-#histomap {
-/*  width: 400px;*/
-}
-
-#chart-group {
-
-}
-
-#chart-rect {
-  fill: #eee;
-  stroke: black;
-  stroke-width: 2;
-}
-
 #overlay-group {
   font-weight: 700;
   font-size: 10px;
@@ -60,10 +44,13 @@ draft: true
 
 /* SVG size and colors */
 const canvasWidth = 400;
-const canvasHeight = 800;
+const canvasHeight = 600;
+
 const labelColumnWidth = 34;
 const chartWidth = canvasWidth - labelColumnWidth;
 const chartHeight = canvasHeight;
+
+const fontHeight = 10; // About 10px, measured manually
 
 const colorList = [
   '#F57373',
@@ -98,6 +85,29 @@ let countryList = [
 ]
 
 
+
+// ----------
+// GLOBALS
+// ----------
+
+/*
+  Each child array in seriesCoords contains all the x & y positions for the 
+  country series data from top to bottom.
+  
+  Ex. seriesCoords = [
+    [{x: 200, y: 0}, {x: 120, y: 50}],
+    [{x: 230, y: 0}, {x: 180, y: 50}],
+  ]
+ */
+let seriesCoords = [];
+
+// years `map` stores total GDP for the year across countries
+const gdpTotalsByYear = new Map();
+for (let year = startYear; year >= endYear; year -= yearInterval) {
+  gdpTotalsByYear.set(year, 0);
+}
+
+
 // ----------
 // FETCH DATA
 // ----------
@@ -114,15 +124,9 @@ function fetchData() {
 // PROCESS DATA
 // ------------
 
-// years `map` stores total GDP for the year across countries
-const years = new Map();
-for (let year = startYear; year >= endYear; year -= yearInterval) {
-  years.set(year, 0);
-}
-
 function processData(data) {
   const filteredData = {};
-  let yearsArray = Array.from(years.keys());
+  let yearsArray = Array.from(gdpTotalsByYear.keys());
 
   /* Filter out unneeded countries and years data */
   for (let country in data){
@@ -133,11 +137,11 @@ function processData(data) {
   }
 
   // Sum up GDP totals for the year and store in years map
-  for (let year of years.keys()) {
+  for (let year of gdpTotalsByYear.keys()) {
     for (let country in filteredData){
       let countryObj = filteredData[country];
       if (countryObj.hasOwnProperty(year)) {
-        years.set(year, years.get(year) + countryObj[year]);
+        gdpTotalsByYear.set(year, gdpTotalsByYear.get(year) + countryObj[year]);
       }
     }
   }
@@ -156,10 +160,6 @@ function resizeSVG() {
 
   const chartGroup = document.getElementById('chart-group')
   chartGroup.style.transform = `translateX(${labelColumnWidth}px)`
-
-  // const chartRect = document.querySelector('#chart-rect');
-  // chartRect.setAttribute('width', chartWidth);
-  // chartRect.setAttribute('height', chartHeight);
 }
 
 function drawChart(data) {  
@@ -167,63 +167,62 @@ function drawChart(data) {
   let polys = [];
   let points;
 
-  let yearHeight = canvasHeight / (years.size - 1); 
-
-  let widthSum = {};
-  for (let year of years.keys()) {        
-      widthSum[year] = 0;
-  }
-
+  let rowHeight = canvasHeight / (gdpTotalsByYear.size - 1); 
+ 
   for (let country in data) {
     let countryObj = data[country];
 
-      let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-      poly.setAttribute('fill', colorList[countryIndex % colorList.length]);
-      // poly.setAttribute('stroke', 'black');
-      // poly.setAttribute('stroke-width', '1');
-      poly.setAttribute('data-name', country);
+    seriesCoords[countryIndex] = [];
 
-      points = '0, 0';
+    let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+    poly.setAttribute('fill', colorList[countryIndex % colorList.length]);
+    poly.setAttribute('data-name', country);
+
+    let yearIndex = 0;
+    let x = 0;
+    let y = 0;
+
+    for (let year of gdpTotalsByYear.keys()) { 
+      let gdpTotalForYear = gdpTotalsByYear.get(year);
+
+      let width = ((countryObj[year] / gdpTotalForYear) * chartWidth);
+      let xOffset = (countryIndex === 0) ? 0 : seriesCoords[countryIndex - 1][yearIndex].x;
+
+      x = width + xOffset;
+      y = yearIndex * rowHeight;
       
-      let yearIndex = 0;
-      let height = 0;
+      seriesCoords[countryIndex].push({x, y});
 
-      for (let year of years.keys()) { 
-        let yearTotal = years.get(year);
+      yearIndex++;
+    }
 
-        let width = ((countryObj[year] / yearTotal) * chartWidth) + widthSum[year];
-        // console.log(width);
-        height = yearIndex * yearHeight;
 
-        // Add point
-        points += `, ${width}, ${height}`;
+    let points = '';
+    seriesCoords[countryIndex].forEach(coord => {
+      points += `${coord.x},  ${coord.y},`;
+    });
 
-        //
-        widthSum[year] = width;          
-        
-
-        // points +=`, ${countryObj[year]`;
-        // points += `, ${(country[i] + gdpCounter[i]) / gdpTotals[i] * width}, ${i * (height / (YEARS - 1))}`;
-        // gdpCounter[i] += country[i];
-        yearIndex++;
+    /* So far we've created points for the right edge of the shape. Now we need to work on the left
+    side. To do this, we use the previous items right edge. */
+    for (let i = gdpTotalsByYear.size - 1; i >= 0; i--) { 
+      if (countryIndex === 0) {
+        let coord = seriesCoords[countryIndex][i];
+        points += `0,  ${coord.y},`;
+      } else {
+        let coord = seriesCoords[countryIndex - 1][i];
+        points += `${coord.x},  ${coord.y},`;
       }
-
-      points += `, 0, ${height}`
-
-    // Draw left edge going down. Use prev countries right edge points.
-
-    // Draw line at bottom connecting to right
-
-    // Draw right going up. Save right edge points.
-
-    // Draw line at top connecting to left
+    }
+    
+    // Remove comma at end
+    points = points.slice(0, -1);
 
     poly.setAttribute('points', points);
-
     polys.push(poly);
 
     countryIndex++;
   }    
+
 
   // Append chart polys to DOM
   let frag = document.createDocumentFragment()
@@ -238,33 +237,31 @@ function drawChart(data) {
 
 function drawOverlay(data) {  
   const svgOverlay = document.getElementById('overlay-group');
-  
-  // <text x="5" y="30">A nice rectangle</text>
-  
+    
   let yearIndex = 0;
   let height = 0;
   let polys = [];
   let frag = document.createDocumentFragment();
 
-  let yearHeight = canvasHeight / (years.size - 1); 
+  let rowHeight = canvasHeight / (gdpTotalsByYear.size - 1); 
 
-  for (let year of years.keys()) {        
-    let text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    let textY = (yearIndex === 0) ? 10 : yearIndex  * yearHeight;
+  for (let year of gdpTotalsByYear.keys()) {        
+    let yAxisLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    let textY = (yearIndex === 0) ? 10 : yearIndex  * rowHeight;
 
     // Draw year labels
-    text.setAttribute('x', 0);
-    text.setAttribute('y', textY);
-    text.setAttribute('text-anchor', 'right');
-    text.textContent = year;
-    frag.appendChild(text);
+    yAxisLabel.setAttribute('x', 0);
+    yAxisLabel.setAttribute('y', textY);
+    yAxisLabel.setAttribute('text-anchor', 'right');
+    yAxisLabel.textContent = year;
+    frag.appendChild(yAxisLabel);
     
     // Draw year lines    
     let line = document.createElementNS("http://www.w3.org/2000/svg", "line");
     line.setAttribute('x1', labelColumnWidth);
-    line.setAttribute('y1', yearIndex  * yearHeight);
+    line.setAttribute('y1', yearIndex  * rowHeight);
     line.setAttribute('x2', canvasWidth);
-    line.setAttribute('y2', yearIndex  * yearHeight);
+    line.setAttribute('y2', yearIndex  * rowHeight);
     line.classList.add('year-line');
     frag.appendChild(line);
 
@@ -272,10 +269,47 @@ function drawOverlay(data) {
   }
 
   // Draw country labels
-  for (let country in data) {
-    let countryObj = data[country];
+  let countryIndex = 0;
+  // let widestYearPerCountry = []
 
+  for (let country in data) {
+    let seriesLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    seriesLabel.setAttribute('text-anchor', 'middle');    
+    seriesLabel.textContent = country;
+
+    let countryObj = data[country];
+    let widestArea = 0;
+    let widestAreaIndex = 0;
+    let countryCoords = seriesCoords[countryIndex];
+    let prevCountryCoords = seriesCoords[countryIndex - 1];
+
+    countryCoords.forEach((coord, index) => {
+      if (index === 0 || index === countryCoords.length - 1) return;
+      
+      let areaWidth;
+      if (countryIndex === 0) {
+        areaWidth = coord.x;
+      } else {
+        areaWidth = coord.x - prevCountryCoords[index].x;  
+      }
+
+      if (areaWidth > widestArea) {
+        widestArea = areaWidth;
+        widestAreaIndex = index;
+      }
+    })
+    
+    seriesLabel.setAttribute('x', countryCoords[widestAreaIndex].x - (widestArea / 2) + labelColumnWidth);
+    seriesLabel.setAttribute('y', countryCoords[widestAreaIndex].y + 3);
+
+    frag.appendChild(seriesLabel);
+
+    countryIndex++;
   }
+
+  // for (let country in data) {
+  //   widestYearPerCountry
+  // }
 
 
   svgOverlay.appendChild(frag);
