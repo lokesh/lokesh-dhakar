@@ -2,17 +2,6 @@
 date: 2018-07-08
 layout: post.njk
 ---
-<style>
-.btn {
-  margin-right: 8px;
-}
-
-.post {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-</style>
 
 # Hello!
  
@@ -25,6 +14,17 @@ I created the original [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) s
 I take photos on [Instagram](https://instagram.com/lokesh), post designs on [Dribbble](https://dribbble.com/lokesh), and track my runs and bike rides on [Strava](https://www.strava.com/athletes/1136437).
 
 <a class="btn" href="https://twitter.com/lokesh">Follow me on Twitter</a> <a class="btn js-email-link" href="#">Email me</a>
+
+<style>
+.btn {
+  margin-right: 8px;
+}
+
+.post {
+  font-size: 18px;
+  font-weight: 700;
+}
+</style>
 
 <script>
   $(function() {

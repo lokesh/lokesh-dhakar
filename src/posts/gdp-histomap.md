@@ -20,6 +20,7 @@ draft: true
 
 <style>
 #histomap {
+/*  width: 400px;*/
 }
 
 #chart-group {
@@ -150,7 +151,7 @@ function processData(data) {
 
 function resizeSVG() {
   const svg = document.getElementById('histomap');
-  // svg.setAttribute('style', `width: ${canvasWidth}px; height: ${canvasHeight}px`);
+  svg.setAttribute('style', `width: ${canvasWidth}px; height: ${canvasHeight}px`);
   svg.setAttribute('viewBox', `0, 0, ${canvasWidth}, ${canvasHeight}`);
 
   const chartGroup = document.getElementById('chart-group')
@@ -273,7 +274,7 @@ function drawOverlay(data) {
   // Draw country labels
   for (let country in data) {
     let countryObj = data[country];
-    
+
   }
 
 

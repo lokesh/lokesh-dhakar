@@ -4,6 +4,7 @@
   --muted-color: #555;
 
   --nav-width: 140px;
+  --gutter: 12px;
   --post-max-width: 960px;
   --text-max-width: 480px;
   --code-max-width: 480px;
@@ -79,7 +80,7 @@ li {
 
 pre {
   overflow: auto;
-  padding: 16px;
+  padding: 16px var(--gutter);
   border-radius: 4px;
   font-size: 13px;
   font-family: Menlo, Monaco, Consolas, Courier, monospace;
@@ -94,19 +95,14 @@ pre {
   position: relative;
   left: -4px;
   max-width: var(--post-max-width);
-  padding: 8px 16px 16px 16px;
+  padding: 8px var(--gutter) 16px;
 }
 
 .nav__item {
   display: inline-block;
   padding: 4px 4px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #666;
-}
-
-.nav__item:hover {
   color: #000;
+  font-weight: 700;
 }
 
 @media (min-width: 700px) {
@@ -119,7 +115,6 @@ pre {
 
   .nav__item {
     display: block;
-    color: #666;
   }
 }
 
@@ -136,8 +131,8 @@ pre {
 /* Posts ------------ */
 
 .post {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
 }
 
 
