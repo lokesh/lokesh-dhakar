@@ -23,8 +23,8 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
 <div class="center center--960">
   <div id="runs" class="runs">
     <div class="distance-goal">26.2mi</div>
-    <div v-for="(run, index) in runs">
-      <h3 v-if="index > 0 && run.year !== runs[index - 1].year">
+    <div v-for="(run, index) in flatRuns">
+      <h3 v-if="index > 0 && run.year !== flatRuns[index - 1].year">
         {{ run.year }}
       </h3>
       <transition
@@ -164,6 +164,13 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 
 <script>
 
+/*
+CONFIG
+ */
+
+// Hide any steep runs with avg elevation gain more than 100 ft per mile.
+let MAX_ELEVATION_PER_MILE = 150;
+
 var app = new Vue({
   el: '#runs',
   
@@ -173,6 +180,14 @@ var app = new Vue({
     };
   },
   
+  computed: {
+    flatRuns: function() {
+      return this.runs.filter(run => {
+        return (run.elevation / run.distance) < MAX_ELEVATION_PER_MILE;
+      })
+    }
+  },
+
   created() {
     axios.get('/data/strava-activities-edited-runs.json')
     .then((response) => {

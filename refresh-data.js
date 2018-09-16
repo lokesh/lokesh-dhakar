@@ -66,6 +66,7 @@ function formatRunData(runs) {
       name: run.name,
       distance: miles.toFixed(1),
       distancePercent: distancePercent * 100,
+      elevation: run.total_elevation_gain * 3.28084,
       pace,
       paceFormatted,
       date: new Date(run.start_date_local).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
