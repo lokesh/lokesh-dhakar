@@ -44,7 +44,7 @@ draft: true
 
 /* SVG size and colors */
 const canvasWidth = 400;
-const canvasHeight = 600;
+const canvasHeight = 800;
 
 const labelColumnWidth = 34;
 const chartWidth = canvasWidth - labelColumnWidth;
@@ -63,7 +63,7 @@ const colorList = [
 
 /* Timeline */
 const startYear = 2015;
-const endYear = 1950;
+const endYear = 1820;
 const yearInterval = 5;
 
 /* Countries */
@@ -72,7 +72,7 @@ let countryList = [
   // 'Canada',
   'China',
   // 'France',
-  // 'Germany',
+  'Germany',
   'India',
   // 'Indonesia',
   // 'Italy',
@@ -123,6 +123,51 @@ function fetchData() {
 // ------------
 // PROCESS DATA
 // ------------
+
+function interpolateData(data) {
+  let interpolatedData = data;
+  
+  let countryIndex = 0;
+  for (let country in data){
+    
+    let countryObj = data[country];
+    
+    let firstZeroIndex;
+    let isZeroSequence = false;
+    let lastNonZeroYear;
+    let lastNonZeroGDP;
+
+    let zeroYears = [];
+    
+    _.forEach(countryObj, function(gdp, year) {
+        
+        if (gdp === 0) { 
+          zeroYears.push(year);
+          isZeroSequence = true;
+        } else {
+                  
+          if (isZeroSequence) {
+            if (lastNonZeroGDP) {
+              let gdpDiff = gdp - lastNonZeroGDP;
+              let yearsDiff = year - lastNonZeroYear;
+              let gdpPerYearDiff = gdpDiff / yearsDiff;
+              
+              zeroYears.forEach(zeroYear => {
+                interpolatedData[country][zeroYear] = ((zeroYear - lastNonZeroYear) * gdpPerYearDiff) + lastNonZeroGDP;
+              })
+            }
+
+            isZeroSequence = false;
+            zeroYears = [];
+          } 
+
+          lastNonZeroGDP = gdp;
+          lastNonZeroYear = year;
+        }        
+      })
+  }
+  return interpolatedData;
+}
 
 function processData(data) {
   const filteredData = {};
@@ -270,8 +315,6 @@ function drawOverlay(data) {
 
   // Draw country labels
   let countryIndex = 0;
-  // let widestYearPerCountry = []
-
   for (let country in data) {
     let seriesLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
     seriesLabel.setAttribute('text-anchor', 'middle');    
@@ -307,17 +350,12 @@ function drawOverlay(data) {
     countryIndex++;
   }
 
-  // for (let country in data) {
-  //   widestYearPerCountry
-  // }
-
-
   svgOverlay.appendChild(frag);
 }
 
 fetchData().then(data => {
-  let processedData = processData(data);
-  
+  let interpolatedData = interpolateData(data);
+  let processedData = processData(interpolatedData);
   resizeSVG();
   drawChart(processedData);
   drawOverlay(processedData);
