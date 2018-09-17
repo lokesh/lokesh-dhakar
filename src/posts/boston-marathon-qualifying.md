@@ -64,11 +64,11 @@ keeping a 7:15/mi pace for 26.2 miles.
 
 I'm not there yet. A little slow. And having some knee and hip pain when I ramp up the miles. But I'll get there. And having this lofty goal has helped me focus.
 
-<hr>
+---
 
 ## 🛠 Behind the scenes
 
-The data for my runs in this post is pulled from [Strava](//strava.com). I run a script manually thats hits the API, does some processing, and then saves the data as JSON.
+The data for my runs in this post are pulled from [Strava](//strava.com). I run a script manually thats hits the API, does some processing, and then saves the parsed data as JSON in a file.
 
 - [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/posts/boston-marathon-qualifying.md)
 - [Data fetching script](https://github.com/lokesh/lokesh-dhakar/blob/master/refresh-data.js#L8)

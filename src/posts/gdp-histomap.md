@@ -1,9 +1,10 @@
 ---
-title: "Histomap"
+title: "The GDP Histomap"
 date: 2018-09-04
 layout: post.njk
-draft: true
 ---
+
+## Relative power as told by _Real GDP_
 
 <div class="center">
 
@@ -14,9 +15,19 @@ draft: true
 
 </div>
 
-<p class="citation">Data provided by the Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018)</p>
+## About
+
+---
+
+<p class="citation">Data provided by Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018), “Rebasing ‘Maddison’: new income comparisons and the shape of long-run economic development”, [Maddison Project Working paper 10](https://www.rug.nl/ggdc/historicaldevelopment/maddison/research)
+</p>
+<p class="citation">For the references to the original research on individual countries, see Appendix A of Bolt et al. (2018).</p>
 
 <style>
+#histomap {
+  overflow: visible;
+}
+
 #overlay-group {
   font-weight: 700;
   font-size: 10px;
@@ -38,17 +49,28 @@ draft: true
 <script src="/js/axios.min.js"></script>
 
 <script>
+// Color function for use in generating our hover color changes
+// https://stackoverflow.com/a/13542669/400407
+function shadeBlend(p,c0,c1) {
+    var n=p<0?p*-1:p,u=Math.round,w=parseInt;
+    if(c0.length>7){
+        var f=c0.split(","),t=(c1?c1:p<0?"rgb(0,0,0)":"rgb(255,255,255)").split(","),R=w(f[0].slice(4)),G=w(f[1]),B=w(f[2]);
+        return "rgb("+(u((w(t[0].slice(4))-R)*n)+R)+","+(u((w(t[1])-G)*n)+G)+","+(u((w(t[2])-B)*n)+B)+")"
+    }else{
+        var f=w(c0.slice(1),16),t=w((c1?c1:p<0?"#000000":"#FFFFFF").slice(1),16),R1=f>>16,G1=f>>8&0x00FF,B1=f&0x0000FF;
+        return "#"+(0x1000000+(u(((t>>16)-R1)*n)+R1)*0x10000+(u(((t>>8&0x00FF)-G1)*n)+G1)*0x100+(u(((t&0x0000FF)-B1)*n)+B1)).toString(16).slice(1)
+    }
+}
+
 // ------
 // CONFIG
 // ------
 
-/* SVG size and colors */
-const canvasWidth = 400;
-const canvasHeight = 800;
+/* SVG sizing and colors */
+const canvasMaxWidth = 480;
+const canvasAspectRatio = 2; // height / width
 
 const labelColumnWidth = 34;
-const chartWidth = canvasWidth - labelColumnWidth;
-const chartHeight = canvasHeight;
 
 const fontHeight = 10; // About 10px, measured manually
 
@@ -67,21 +89,23 @@ const endYear = 1820;
 const yearInterval = 5;
 
 /* Countries */
+let maxCountriesPerRow = false;
+
 let countryList = [
-  // 'Brazil',
-  // 'Canada',
+  'Brazil',
+  'Canada',
   'China',
-  // 'France',
+  'France',
   'Germany',
   'India',
-  // 'Indonesia',
-  // 'Italy',
+  'Indonesia',
+  'Italy',
   'Japan',
-  // 'Russian Federation',
-  // 'Spain',
-  // 'United Kingdom',
+  'Russian Federation',
+  'Spain',
+  'United Kingdom',
   'United States',
-  // 'West Germany',
+  'West Germany',
 ]
 
 
@@ -89,6 +113,14 @@ let countryList = [
 // ----------
 // GLOBALS
 // ----------
+
+// Set in the resizeSVG function
+let canvasWidth;
+let canvasHeight;
+
+let chartWidth;
+let chartHeigh;
+
 
 /*
   Each child array in seriesCoords contains all the x & y positions for the 
@@ -106,6 +138,36 @@ const gdpTotalsByYear = new Map();
 for (let year = startYear; year >= endYear; year -= yearInterval) {
   gdpTotalsByYear.set(year, 0);
 }
+
+// --------------------
+// GENERATE CSS CLASSES
+// --------------------
+
+let styleTag = document.createElement('style');
+let seriesCSS = '';
+
+colorList.forEach((color, index) => {
+  seriesCSS += `
+    .series-color-${index}{
+      fill: ${color};
+    }
+    /*
+    .series-color-${index}:hover{
+      fill: ${shadeBlend(-0.5, color)};
+      transition: none;
+    }
+    */
+    `;
+
+});
+
+// Append new styles to DOM
+if (styleTag.styleSheet) {
+    styleTag.styleSheet.cssText = seriesCSS;
+} else {
+    styleTag.appendChild(document.createTextNode(seriesCSS));
+}
+document.head.appendChild(styleTag);
 
 
 // ----------
@@ -181,13 +243,42 @@ function processData(data) {
       }
   }
 
+  // If maxCountriesPerRow is set. We want to set the data for the countries not
+  // in the top X for each year to zero.
+  if (maxCountriesPerRow > 0) {
+    for (let year of gdpTotalsByYear.keys()) {       
+      
+      // Put all data for that year in a new object      
+      let allValuesForYear = [];
+      
+      for (let country in filteredData){
+        allValuesForYear.push({
+          'country': country,
+          'gdp': filteredData[country][year]
+        });
+      }
+
+       // Sort
+      let allValuesForYearSorted = allValuesForYear.sort((a, b) => b.gdp - a.gdp);
+
+      // For countries not in top maxCountriesPerRow, set their gdp value to 0 in filteredData
+      allValuesForYearSorted.forEach((yearVal, index) => {
+        if (index >= maxCountriesPerRow) {
+          console.log(yearVal);
+          filteredData[yearVal.country][year] = 0;
+        }
+      });
+    }
+  }
+
   // Sum up GDP totals for the year and store in years map
   for (let year of gdpTotalsByYear.keys()) {
     for (let country in filteredData){
       let countryObj = filteredData[country];
-      if (countryObj.hasOwnProperty(year)) {
-        gdpTotalsByYear.set(year, gdpTotalsByYear.get(year) + countryObj[year]);
-      }
+      if (!countryObj.hasOwnProperty(year)) {
+        filteredData[country][year] = 0;
+      } 
+      gdpTotalsByYear.set(year, gdpTotalsByYear.get(year) + countryObj[year]);
     }
   }
 
@@ -199,6 +290,16 @@ function processData(data) {
 // ----
 
 function resizeSVG() {
+  // 24 = left and right side padding for page at mobile resolution
+  let width = Math.min( (window.innerWidth - 24), canvasMaxWidth)
+
+  canvasWidth = width;
+  canvasHeight = canvasAspectRatio * canvasWidth; 
+
+  chartWidth = canvasWidth - labelColumnWidth;
+  chartHeight = canvasHeight;
+
+
   const svg = document.getElementById('histomap');
   svg.setAttribute('style', `width: ${canvasWidth}px; height: ${canvasHeight}px`);
   svg.setAttribute('viewBox', `0, 0, ${canvasWidth}, ${canvasHeight}`);
@@ -220,7 +321,8 @@ function drawChart(data) {
     seriesCoords[countryIndex] = [];
 
     let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-    poly.setAttribute('fill', colorList[countryIndex % colorList.length]);
+    poly.classList.add(`series-color-${countryIndex % colorList.length}`);
+    // poly.setAttribute('fill', colorList[countryIndex % colorList.length]);
     poly.setAttribute('data-name', country);
 
     let yearIndex = 0;
@@ -232,6 +334,7 @@ function drawChart(data) {
 
       let width = ((countryObj[year] / gdpTotalForYear) * chartWidth);
       let xOffset = (countryIndex === 0) ? 0 : seriesCoords[countryIndex - 1][yearIndex].x;
+
 
       x = width + xOffset;
       y = yearIndex * rowHeight;
@@ -292,7 +395,9 @@ function drawOverlay(data) {
 
   for (let year of gdpTotalsByYear.keys()) {        
     let yAxisLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    let textY = (yearIndex === 0) ? 10 : yearIndex  * rowHeight;
+    // Hardcoded y pos for first year label and finessed others to get them to
+    // line up with year lines
+    let textY = (yearIndex === 0) ? 5 : yearIndex  * rowHeight + 3;
 
     // Draw year labels
     yAxisLabel.setAttribute('x', 0);
@@ -342,7 +447,10 @@ function drawOverlay(data) {
       }
     })
     
-    seriesLabel.setAttribute('x', countryCoords[widestAreaIndex].x - (widestArea / 2) + labelColumnWidth);
+    // The labels can overlap the year labels on the left. To avoid this issue,
+    // set a min.  55 works for most cases.
+    let seriesLabelX = Math.max(countryCoords[widestAreaIndex].x - (widestArea / 2) + labelColumnWidth, 57)
+    seriesLabel.setAttribute('x', seriesLabelX);
     seriesLabel.setAttribute('y', countryCoords[widestAreaIndex].y + 3);
 
     frag.appendChild(seriesLabel);
