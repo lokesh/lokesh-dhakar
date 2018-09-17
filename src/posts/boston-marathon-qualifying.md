@@ -51,7 +51,6 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
 
 </div>
 
-
 ## Backstory
 
 In the back-of-my-mind, I've always thought I'd like to run a marathon someday. And in the past couple years, I've started to get into a regular cadence with my morning runs. So this seemed like a good time to start thinking about those back-of-the-mind marathon plans.
@@ -64,6 +63,17 @@ For my age group, 35-39 years old, qualifying for the Boston Marathon requires a
 keeping a 7:15/mi pace for 26.2 miles. 
 
 I'm not there yet. A little slow. And having some knee and hip pain when I ramp up the miles. But I'll get there. And having this lofty goal has helped me focus.
+
+<hr>
+
+## 🛠 Behind the scenes
+
+The data for my runs in this post is pulled from [Strava](//strava.com). I run a script manually thats hits the API, does some processing, and then saves the data as JSON.
+
+- [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/posts/boston-marathon-qualifying.md)
+- [Data fetching script](https://github.com/lokesh/lokesh-dhakar/blob/master/refresh-data.js#L8)
+- [Processed data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/strava-activities-edited-runs.json)
+
 
 
 <style>

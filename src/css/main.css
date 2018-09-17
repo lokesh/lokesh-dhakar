@@ -35,6 +35,14 @@ figure {
   margin: 0;
 }
 
+hr {
+  margin: 32px 0;
+  height: 2px;
+  border: none;
+  background-color: var(--muted-color);
+}
+
+
 h1,
 h2,
 h3 {
@@ -148,7 +156,8 @@ pre {
 .post__content > h2,
 .post__content > h3,
 .post__content > ul,
-.post__content > ol {
+.post__content > ol,
+.post__content > hr {
   max-width: var(--text-max-width);
 }
 
