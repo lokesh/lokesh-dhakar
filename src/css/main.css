@@ -21,10 +21,20 @@ textarea {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Reduce font size on desktop. Counter-intuitive, but it looks better and we
+tend to keep our phones closer to our eyes. */
+@media (min-width: 700px) {
+  body,
+  input,
+  button,
+  textarea {
+    font-size: 15px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
 }
 
 img {
@@ -55,6 +65,7 @@ h1 {
 
 h2 {
   font-size: 20px;
+  line-height: 1.3em;
   margin-top: 24px;
 }
 
@@ -84,6 +95,7 @@ ul {
 
 li {
   margin: 0 0 0.5em 1em;
+  line-height: 1.3em;
 }
 
 pre {
