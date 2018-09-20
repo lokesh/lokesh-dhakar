@@ -15,13 +15,22 @@ layout: post.njk
 
 </div>
 
+<!-- <div class="center">
+
+  <input type="text" class="input" />
+  <input type="radio" />
+
+</div>
+
 ## About
 
 ---
-
+ -->
 <p class="citation">Data provided by Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018), “Rebasing ‘Maddison’: new income comparisons and the shape of long-run economic development”, [Maddison Project Working paper 10](https://www.rug.nl/ggdc/historicaldevelopment/maddison/research)
 </p>
 <p class="citation">For the references to the original research on individual countries, see Appendix A of Bolt et al. (2018).</p>
+
+<link rel="stylesheet" href="/css/forms.css">
 
 <style>
 #histomap {

@@ -4,6 +4,7 @@ date: 2005-09-28
 comments: true
 sharing: false
 layout: post.njk
+permalink: 'worcester'
 ---
 This city is just about what I expected. It's a bit like Manchester, but not quite as friendly. My new place is nice though. It's roomy.
 
