@@ -9,7 +9,7 @@
       <ul class="archive">
         {% for post in collections.posts %}
 
-
+          {% if not post.draft %}
           <li class="archive__post">
             {% if post.draft %}
               <span class="archive__draft-label">DRAFT</span>
@@ -18,9 +18,10 @@
             <a href="/{{ post.path }}" class="archive__post-title">
               {{ post.title}}
             </a>
-            <span class="archive__post-date">{{ post.date | date }}</span>
+            <!-- <span class="archive__post-date">{{ post.date | date }}</span> -->
 
           </li>
+          {% endif %}
 
         {% endfor %}
       </ul>
