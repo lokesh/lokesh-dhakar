@@ -1,13 +1,21 @@
-var FtpDeploy = require('ftp-deploy');
-var ftpDeploy = new FtpDeploy();
+const fs = require('fs');
+const { resolve } = require('path');
+const FtpDeploy = require('ftp-deploy');
+
+const ftpDeploy = new FtpDeploy();
+
+const credentials = JSON.parse(fs.readFileSync(resolve(process.cwd(), '.private'), 'utf-8'));
 
 var config = {
-	username: "lokesh",
-	host: "lokeshdhakar.com",
+  user: credentials.login.username,
+  password: credentials.login.password,
+  host: "lokeshdhakar.com",
 	port: 21,
-	localRoot: __dirname + "/dist",
+	localRoot: __dirname + '/dist',
 	remoteRoot: "/home/lokesh/webapps/lokeshdhakar/",
-	exclude: ['.git', '.idea', 'tmp/*']
+	include: ['*', '**/*'],
+  exclude: ['.*'],
+  deleteRemote: false,
 }
 
 ftpDeploy.deploy(config, function(err) {
