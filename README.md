@@ -36,5 +36,5 @@ npm run fetch-data
 ``` 
 
 ```
-npm run deploy // Not in repo.
+npm run deploy
 ```
