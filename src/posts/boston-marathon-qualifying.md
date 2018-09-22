@@ -27,6 +27,14 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
       <h3 v-if="index > 0 && run.year !== flatRuns[index - 1].year">
         {{ run.year }}
       </h3>
+
+      <div 
+        v-if="hasComment(run.id)"
+        class="comment
+      ">
+        <div class="comment-icon">📝</div>
+        <div class="comment-text" v-html="comments[run.id]"></div>
+      </div>
       <transition
         appear
         appear-class="slide-start"
@@ -124,6 +132,31 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   border-radius: 4px 0 0 4px;
 }
 
+.comment {
+  display: flex;
+  padding: 8px 8px 20px 8px;
+  max-width: 32em;
+}
+
+.comment-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.comment-text {
+  font-size: 13px;
+  font-weight: 500;  
+}
+
+.comment-text em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.comment-text em::after {
+  content: ' -';
+}
+
 .run {
   position: relative;
   display: flex;
@@ -174,12 +207,16 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 <script>
 
-/*
-CONFIG
- */
+// ------
+// CONFIG
+// ------
 
-// Hide any steep runs with avg elevation gain more than 100 ft per mile.
-let MAX_ELEVATION_PER_MILE = 150;
+// Hide any steep runs with avg elevation gain more than X ft per mile.
+let MAX_ELEVATION_PER_MILE = 75;
+
+// --------
+// COMMENTS
+// --------
 
 var app = new Vue({
   el: '#runs',
@@ -187,15 +224,28 @@ var app = new Vue({
   data() {
     return {
       runs: [],
+      comments: {
+        1830959635: `<em>Sep 21</em> Having some pain on the back of my left ankle. This
+        started the day after a hard effort up a steep hill. The ankle pain goes in and out but 
+        has been around for over a week now. I don't want to take any chances so I'll be pausing
+        my running.`,
+        1735738378: `<em>July 29</em> I attemped my first half-marathon, the SF Half. Unfortunately I had knee pain
+          that started just a mile in. The likelihood of me finishing was slim, and injury high, 
+          so I cut my losses after finishing five miles.
+          <br><br>
+          Over the next couple weeks I focused on strenghtening the muscles around 
+          the IT Band. It seems to have worked as the knee pains have not come back.
+          `
+      }
     };
   },
   
   computed: {
-    flatRuns: function() {
+    flatRuns() {
       return this.runs.filter(run => {
         return (run.elevation / run.distance) < MAX_ELEVATION_PER_MILE;
       })
-    }
+    },
   },
 
   created() {
@@ -222,6 +272,9 @@ var app = new Vue({
     },
     getTransition(index) {
       return (index < 40) ? `transition: all 0.5s ${index * 0.05}s`: '';
+    },
+    hasComment(id) {
+      return this.comments.hasOwnProperty(id);
     }
   }
 });
