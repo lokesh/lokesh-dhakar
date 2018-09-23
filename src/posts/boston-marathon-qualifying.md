@@ -1,7 +1,8 @@
 ---
-title: "Boston Marathon qualifying"
+title: "Boston Marathon qualifying" 
 date: 2018-09-03
 layout: post.njk
+permalink: 'boston-marathon-qualifying'
 ---
 
 ## Tracking my progress
@@ -24,7 +25,7 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
   <div id="runs" class="runs">
     <div class="distance-goal">26.2mi</div>
     <div v-for="(run, index) in flatRuns">
-      <h3 v-if="index > 0 && run.year !== flatRuns[index - 1].year">
+      <h3 v-if="index === 0 || (index > 0 && run.year !== flatRuns[index - 1].year)">
         {{ run.year }}
       </h3>
 
@@ -32,7 +33,7 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
         v-if="hasComment(run.id)"
         class="comment
       ">
-        <div class="comment-icon">📝</div>
+        <div class="comment-icon">🤕</div>
         <div class="comment-text" v-html="comments[run.id]"></div>
       </div>
       <transition
@@ -107,13 +108,12 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  border-radius: 2px;
+  border-radius: var(--border-radius);
 }
 
 .runs {
   position: relative;
   min-height: 1200px;
-  padding-top: 20px;
   margin-bottom: 36px;
   border-right: 2px solid #000;
 }
@@ -145,12 +145,11 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 .comment-text {
   font-size: 13px;
-  font-weight: 500;  
 }
 
 .comment-text em {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .comment-text em::after {
@@ -165,7 +164,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 12px;
-  border-radius: 2px;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
 }
 
 .run a {
@@ -198,7 +197,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 2px 0 0 2px;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
 }
 </style>
 
@@ -225,16 +224,16 @@ var app = new Vue({
     return {
       runs: [],
       comments: {
-        1830959635: `<em>Sep 21</em> Having some pain on the back of my left ankle. This
-        started the day after a hard effort up a steep hill. The ankle pain goes in and out but 
-        has been around for over a week now. I don't want to take any chances so I'll be pausing
-        my running.`,
-        1735738378: `<em>July 29</em> I attemped my first half-marathon, the SF Half. Unfortunately I had knee pain
+        1830959635: `<em>Sep 21, 2018</em> I'm having some pain on the back of my left ankle.
+          This started the day after a hard effort up a steep hill. The ankle pain goes in and out,
+          but has lingered for over a week now. I don't want to take any chances, so I'll be pausing
+          my running for a couple of weeks.`,     
+        1735738378: `<em>Jul 29, 2018</em> I attemped my first half-marathon, the SF Half. Unfortunately I had knee pain
           that started just a mile in. The likelihood of me finishing was slim, and injury high, 
           so I cut my losses after finishing five miles.
           <br><br>
           Over the next couple weeks I focused on strenghtening the muscles around 
-          the IT Band. It seems to have worked as the knee pains have not come back.
+          the IT Band. It seems to have worked as the knee pains did not come back.
           `
       }
     };
