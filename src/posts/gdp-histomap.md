@@ -4,6 +4,15 @@ date: 2018-09-04
 layout: post.njk
 ---
 
+<div class="center">
+
+
+<div id="histomap-form">
+</div>
+
+</div>
+
+
 ## Relative power as told by _Real GDP_
 
 <div class="center">
@@ -14,17 +23,6 @@ layout: post.njk
 </svg>
 
 </div>
-
-<br>
-
-<div class="center">
-
-  <input type="checkbox"> Brazil
-  <input type="checkbox"> Canada
-
-</div>
-
-## About
 
 ---
 
@@ -119,10 +117,76 @@ let countryList = [
 ]
 
 
+// ----------
+// SETUP FORM
+// ----------
+
+function buildForm() {
+  let formEl = document.getElementById('histomap-form');
+   
+  // Build country inputs 
+  let countriesHTML = '';
+  countryList.forEach(country => {
+    countriesHTML += `
+      <div>
+        <input type="checkbox" name="country" value="${country}" checked>
+        <label for="coding">${country}</label>
+      </div>`;
+  });
+  formEl.insertAdjacentHTML('beforeend', countriesHTML);
+
+  // Add event handlers
+  document.querySelectorAll('input[name=country]').forEach(input => {
+    input.addEventListener('change', event => {
+      refresh();
+    })
+  });
+}
+
+
+function refresh() {
+  
+  // Countries
+  countryList = [];
+  document.querySelectorAll('input[name=country]:checked').forEach(input => {
+    countryList.push(input.value);
+  });
+
+  processData();
+  drawChart();
+  drawOverlay();
+}
+
+// $("input:checkbox[name=type]:checked").each(function(){
+//     yourArray.push($(this).val());
+// });
+// 
+// debugger;
+
+// var myDiv = document.getElementById("myDiv");
+
+// //Create array of options to be added
+// var array = ["Volvo","Saab","Mercades","Audi"];
+
+// //Create and append select list
+// var selectList = document.createElement("select");
+// selectList.id = "mySelect";
+// myDiv.appendChild(selectList);
+
+// //Create and append the options
+// for (var i = 0; i < array.length; i++) {
+//     var option = document.createElement("option");
+//     option.value = array[i];
+//     option.text = array[i];
+//     selectList.appendChild(option);
+// }
 
 // ----------
 // GLOBALS
 // ----------
+
+let interpolatedData;
+let processedData;
 
 // Set in the resizeSVG function
 let canvasWidth;
@@ -148,6 +212,7 @@ const gdpTotalsByYear = new Map();
 for (let year = startYear; year >= endYear; year -= yearInterval) {
   gdpTotalsByYear.set(year, 0);
 }
+
 
 // --------------------
 // GENERATE CSS CLASSES
@@ -240,7 +305,9 @@ function interpolateData(data) {
   return interpolatedData;
 }
 
-function processData(data) {
+function processData() {
+  let data = processedData;
+
   const filteredData = {};
   let yearsArray = Array.from(gdpTotalsByYear.keys());
 
@@ -251,6 +318,8 @@ function processData(data) {
         filteredData[country] = _.pick(countryObj, yearsArray);
       }
   }
+
+  // console.log(countryList.lengt)
 
   // If maxCountriesPerRow is set. We want to set the data for the countries not
   // in the top X for each year to zero.
@@ -291,7 +360,7 @@ function processData(data) {
     }
   }
 
-  return filteredData;
+  processedData = filteredData;
 }
 
 // ----
@@ -317,7 +386,9 @@ function resizeSVG() {
   chartGroup.style.transform = `translateX(${labelColumnWidth}px)`
 }
 
-function drawChart(data) {  
+function drawChart() {  
+  let data = processedData;
+
   let countryIndex = 0;
   let polys = [];
   let points;
@@ -347,12 +418,10 @@ function drawChart(data) {
 
       x = width + xOffset;
       y = yearIndex * rowHeight;
-      
       seriesCoords[countryIndex].push({x, y});
 
       yearIndex++;
     }
-
 
     let points = '';
     seriesCoords[countryIndex].forEach(coord => {
@@ -387,13 +456,15 @@ function drawChart(data) {
     frag.appendChild(polys[i]);  
   }
 
-  document.getElementById('chart-group').appendChild(frag);
+  let chartEl = document.getElementById('chart-group');
+  chartEl.innerHTML = '';
+  chartEl.appendChild(frag);
 }
 
 
 
-function drawOverlay(data) {  
-  const svgOverlay = document.getElementById('overlay-group');
+function drawOverlay() {  
+  let data = processedData;
     
   let yearIndex = 0;
   let height = 0;
@@ -467,15 +538,20 @@ function drawOverlay(data) {
     countryIndex++;
   }
 
-  svgOverlay.appendChild(frag);
+  const overlayEl = document.getElementById('overlay-group');
+  overlayEl.innerHTML = '';
+  overlayEl.appendChild(frag);
 }
 
+buildForm();
+// updateConfigFromForm();
+
 fetchData().then(data => {
-  let interpolatedData = interpolateData(data);
-  let processedData = processData(interpolatedData);
+  processedData = interpolateData(data);
+  processData();
   resizeSVG();
-  drawChart(processedData);
-  drawOverlay(processedData);
+  drawChart();
+  drawOverlay();
 })
 </script>
 
