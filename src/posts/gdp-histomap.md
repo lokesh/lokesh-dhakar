@@ -58,6 +58,10 @@ layout: post.njk
 <script src="/js/axios.min.js"></script>
 
 <script>
+// --------------
+// UTIL FUNCTIONS
+// --------------
+
 // Color function for use in generating our hover color changes
 // https://stackoverflow.com/a/13542669/400407
 function shadeBlend(p,c0,c1) {
@@ -145,7 +149,6 @@ function buildForm() {
 
 
 function refresh() {
-  
   // Countries
   countryList = [];
   document.querySelectorAll('input[name=country]:checked').forEach(input => {
@@ -157,35 +160,11 @@ function refresh() {
   drawOverlay();
 }
 
-// $("input:checkbox[name=type]:checked").each(function(){
-//     yourArray.push($(this).val());
-// });
-// 
-// debugger;
-
-// var myDiv = document.getElementById("myDiv");
-
-// //Create array of options to be added
-// var array = ["Volvo","Saab","Mercades","Audi"];
-
-// //Create and append select list
-// var selectList = document.createElement("select");
-// selectList.id = "mySelect";
-// myDiv.appendChild(selectList);
-
-// //Create and append the options
-// for (var i = 0; i < array.length; i++) {
-//     var option = document.createElement("option");
-//     option.value = array[i];
-//     option.text = array[i];
-//     selectList.appendChild(option);
-// }
-
 // ----------
 // GLOBALS
 // ----------
 
-let interpolatedData;
+let rawData;
 let processedData;
 
 // Set in the resizeSVG function
@@ -209,9 +188,6 @@ let seriesCoords = [];
 
 // years `map` stores total GDP for the year across countries
 const gdpTotalsByYear = new Map();
-for (let year = startYear; year >= endYear; year -= yearInterval) {
-  gdpTotalsByYear.set(year, 0);
-}
 
 
 // --------------------
@@ -249,7 +225,7 @@ document.head.appendChild(styleTag);
 // ----------
 
 function fetchData() {
-  return axios.get('/data/gdp-by-country.json')
+  return axios.get('/data/gdp-by-country-interpolated.json')
     .then((response) => {
       return response.data;
     })
@@ -260,12 +236,36 @@ function fetchData() {
 // PROCESS DATA
 // ------------
 
+/*
+  interpolateData();
+  This function is not actively called. It was used to process the JSON in gdp-by-country.json. The 
+  output of which is stored in gdp-by-country-interpolated.json.
+
+  The function replaces the zero values in each country's gdp data with an interpolated value. One 
+  exception, if the data start with a zero value or a string of zero values, these initial zero 
+  values will not be interpolated.
+
+  Example INPUT:
+   "Brazil": {
+    "1800": 0,
+    "1810": 200,
+    "1820": 0,
+    "1830": 0,
+    "1840": 300
+   }
+
+  Example OUTPUT:
+   "Brazil": {
+    "1800": 0,
+    "1810": 200,
+    "1820": 233.333,
+    "1830": 266.666,
+    "1840": 300
+   }
+ */
 function interpolateData(data) {
-  let interpolatedData = data;
-  
   let countryIndex = 0;
-  for (let country in data){
-    
+  for (let country in data){    
     let countryObj = data[country];
     
     let firstZeroIndex;
@@ -276,7 +276,6 @@ function interpolateData(data) {
     let zeroYears = [];
     
     _.forEach(countryObj, function(gdp, year) {
-        
         if (gdp === 0) { 
           zeroYears.push(year);
           isZeroSequence = true;
@@ -292,11 +291,9 @@ function interpolateData(data) {
                 interpolatedData[country][zeroYear] = ((zeroYear - lastNonZeroYear) * gdpPerYearDiff) + lastNonZeroGDP;
               })
             }
-
             isZeroSequence = false;
             zeroYears = [];
           } 
-
           lastNonZeroGDP = gdp;
           lastNonZeroYear = year;
         }        
@@ -306,7 +303,12 @@ function interpolateData(data) {
 }
 
 function processData() {
-  let data = processedData;
+  let data = rawData;
+
+  for (let year = startYear; year >= endYear; year -= yearInterval) {
+    gdpTotalsByYear.set(year, 0);
+  }
+
 
   const filteredData = {};
   let yearsArray = Array.from(gdpTotalsByYear.keys());
@@ -318,8 +320,6 @@ function processData() {
         filteredData[country] = _.pick(countryObj, yearsArray);
       }
   }
-
-  // console.log(countryList.lengt)
 
   // If maxCountriesPerRow is set. We want to set the data for the countries not
   // in the top X for each year to zero.
@@ -342,7 +342,6 @@ function processData() {
       // For countries not in top maxCountriesPerRow, set their gdp value to 0 in filteredData
       allValuesForYearSorted.forEach((yearVal, index) => {
         if (index >= maxCountriesPerRow) {
-          console.log(yearVal);
           filteredData[yearVal.country][year] = 0;
         }
       });
@@ -387,16 +386,14 @@ function resizeSVG() {
 }
 
 function drawChart() {  
-  let data = processedData;
-
   let countryIndex = 0;
   let polys = [];
   let points;
 
   let rowHeight = canvasHeight / (gdpTotalsByYear.size - 1); 
  
-  for (let country in data) {
-    let countryObj = data[country];
+  for (let country in processedData) {
+    let countryObj = processedData[country];
 
     seriesCoords[countryIndex] = [];
 
@@ -414,12 +411,11 @@ function drawChart() {
 
       let width = ((countryObj[year] / gdpTotalForYear) * chartWidth);
       let xOffset = (countryIndex === 0) ? 0 : seriesCoords[countryIndex - 1][yearIndex].x;
-
+      // if (yearIndex === 0 && countryIndex === 0) debugger;
 
       x = width + xOffset;
       y = yearIndex * rowHeight;
       seriesCoords[countryIndex].push({x, y});
-
       yearIndex++;
     }
 
@@ -464,8 +460,6 @@ function drawChart() {
 
 
 function drawOverlay() {  
-  let data = processedData;
-    
   let yearIndex = 0;
   let height = 0;
   let polys = [];
@@ -500,12 +494,12 @@ function drawOverlay() {
 
   // Draw country labels
   let countryIndex = 0;
-  for (let country in data) {
+  for (let country in processedData) {
     let seriesLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
     seriesLabel.setAttribute('text-anchor', 'middle');    
     seriesLabel.textContent = country;
 
-    let countryObj = data[country];
+    let countryObj = processedData[country];
     let widestArea = 0;
     let widestAreaIndex = 0;
     let countryCoords = seriesCoords[countryIndex];
@@ -544,10 +538,9 @@ function drawOverlay() {
 }
 
 buildForm();
-// updateConfigFromForm();
 
 fetchData().then(data => {
-  processedData = interpolateData(data);
+  rawData = data;
   processData();
   resizeSVG();
   drawChart();
