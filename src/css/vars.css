@@ -2,6 +2,9 @@
   --primary-color: #fc4c02;
   --secondary-color: #f68727;
   --muted-color: #777;
+  --link-color: #05f;
+
+  --border-color: #ccc;
 
   --nav-width: 140px;
   --gutter: 12px;
