@@ -1,10 +1,10 @@
 ---
 title: "The GDP Histomap"
-date: 2018-09-04
+date: 2018-09-20
 layout: post.njk
 ---
 
-## Relative power as told by _Real GDP_
+<button class="button-text" id="histomap-customize-button">Customize chart&hellip;</button>
 
 <div id="histomap-form" class="center">
 
@@ -40,6 +40,13 @@ layout: post.njk
 
 </div>
 
+
+<h2 class="histomap-title">
+  <span class="histomap-title-line-1">200 Years of Economic History</span><br>
+  <span class="histomap-title-line-2">Relative Power as told by Real GDP</span>
+</h2>
+
+
 <div class="center--720">
 
 <svg id="histomap">
@@ -57,33 +64,56 @@ layout: post.njk
 
 This chart is inspired by John B. Sparks work, [The Histomap](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~200375~3001080:The-Histomap-), 
 published in 1931. The original work was an attempt to visualize 4000 years of civilization into a
-set of colorful flows on a five foot tall chart. It was ambitious... but flawed. Daniel Brownstein 
-does a thorough critique of John B. Spark's Histomap on his blog, [Musings on Maps](https://dabrownstein.com/2013/08/13/reading-the-histomap/).
+set of colorful flows on a five foot (1.5m) tall chart. It was ambitious... but flawed. Daniel Brownstein 
+does a thorough critique of John B. Spark's _Histomap_ on his blog, [Musings on Maps](https://dabrownstein.com/2013/08/13/reading-the-histomap/).
 
 ## The GDP Histomap
 
-My chart is less abmitious. Where the original tried to show and explain
+This chart is less abmitious. Where the original tried to show and explain
 the march of civilization over millennia, the goal of this new chart is to map out the relative 
-economic power of countries in the past century and a half. And rather
+economic power of countries in the past two centuries. And rather than an 
+undefined _power_ measure for the x-axis, the new chart uses Real GDP.
 
-In the back-of-my-mind, I've always thought I'd like to run a marathon someday. And in the past couple years, I've started to get into a regular cadence with my morning runs. So this seemed like a good time to start thinking about those back-of-the-mind marathon plans.
+**What is GDP?** aka Nominal GDP. The sum of the prices of all finished goods and services a 
+country produces. Inflation and the cost of good will increase GDP, though the number of goods is
+not icnreasing.
 
+**How is Real GDP different?** aka GDP PPP (Purchasing Power Parity). This measure controls for 
+inflation and uses the same set of prices for goods and services over time. This measure is better 
+than nominal GDP for comparing countries and is the metric used in the chart.
 
 ---
 
 ## 🛠 Behind the scenes
 
-The data for my runs in this post are pulled from [Strava](//strava.com). I run a script manually thats hits the API, does some processing, and then saves the parsed data as JSON in a file.
+The chart is generated on-the-fly with vanilla Javascript used to create SVG shapes and text.
 
-- [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/posts/boston-marathon-qualifying.md)
-- [Data fetching script](https://github.com/lokesh/lokesh-dhakar/blob/master/refresh-data.js#L8)
-- [Processed data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/strava-activities-edited-runs.json)
+- [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/posts/gdp-histomap.md) - All the chart generation code lives here.
+- [Processed and interpolated data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/gdp-by-country-interpolated.json)
 
 
 
 <link rel="stylesheet" href="/css/forms.css">
 
 <style>
+.histomap-title {
+  margin-bottom: 8px;
+ /* Offset a bit to make it optically centered with the chart, excluding y-axis label column. */
+  margin-left: 8px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.histomap-title-line-1 {
+  font-size: 16px;
+}
+
+.histomap-title-line-2 {
+  font-size: 12px;
+}
+
 #histomap {
   overflow: visible;
 }
@@ -105,8 +135,33 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 }
 
 #histomap-form {
+  display: none;
   font-size: 13px;
 }
+
+#histomap-form.open {
+  display: block;
+}
+
+#histomap-customize-button {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #eee;
+}
+
+@media (min-width: 480px) {
+  #histomap-form {
+    display: block;
+  }
+  #histomap-customize-button {
+    display: none;
+  }
+}
+
+
 
 .histomap-form-row {
   display: flex;
@@ -236,6 +291,11 @@ function buildForm() {
   endYearInputEl.insertAdjacentHTML('beforeend', endYearOptionsHTML);
 
   // Add event handlers
+  document.getElementById('histomap-customize-button').addEventListener('click', (event) => {
+    document.getElementById('histomap-form').classList.add('open');
+    event.target.style.display = 'none';
+  });
+
   document.querySelectorAll('input[name=country]').forEach(input => {
     input.addEventListener('change', event => {
       refresh();
