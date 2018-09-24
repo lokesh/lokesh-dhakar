@@ -145,6 +145,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 .comment-text {
   font-size: 13px;
+  line-height: 1.5em;
 }
 
 .comment-text em {
@@ -224,16 +225,16 @@ var app = new Vue({
     return {
       runs: [],
       comments: {
-        1830959635: `<em>Sep 21, 2018</em> I'm having some pain on the back of my left ankle.
-          This started the day after a hard effort up a steep hill. The ankle pain goes in and out,
-          but has lingered for over a week now. I don't want to take any chances, so I'll be pausing
-          my running for a couple of weeks.`,     
+        1830959635: `<em>Sep 21, 2018</em> I'm having some pain in my left ankle which
+           started the day after a hard effort up a steep hill. The ankle pain goes in and out,
+          but has lingered for over a week now. I'm pausing my running for a couple of weeks to 
+          recover.`,
         1735738378: `<em>Jul 29, 2018</em> I attemped my first half-marathon, the SF Half. Unfortunately I had knee pain
           that started just a mile in. The likelihood of me finishing was slim, and injury high, 
           so I cut my losses after finishing five miles.
           <br><br>
           Over the next couple weeks I focused on strenghtening the muscles around 
-          the IT Band. It seems to have worked as the knee pains did not come back.
+          the IT Band. It seems to have worked as the knee pain did not come back.
           `
       }
     };
