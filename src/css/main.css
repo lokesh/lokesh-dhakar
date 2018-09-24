@@ -1,18 +1,4 @@
-:root {
-  --primary-color: #fc4c02;
-  --secondary-color: #f68727;
-  --muted-color: #777;
-
-  --nav-width: 140px;
-  --gutter: 12px;
-  --post-max-width: 960px;
-  --text-max-width: 480px;
-  --code-max-width: 480px;
-
-  --border-radius: 4px;
-
-  --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
-}
+@import "vars.css";
 
 body,
 input,
@@ -173,6 +159,10 @@ pre {
 .post__content > ol,
 .post__content > hr {
   max-width: var(--text-max-width);
+}
+
+.post__content > .center {
+ max-width: var(--text-max-width);
 }
 
 .post__content > .center--720 {
