@@ -4,18 +4,43 @@ date: 2018-09-04
 layout: post.njk
 ---
 
-<div class="center">
-
-
-<div id="histomap-form">
-</div>
-
-</div>
-
-
 ## Relative power as told by _Real GDP_
 
-<div class="center">
+<div id="histomap-form" class="center">
+
+  <div class="histomap-form-row">
+    <div class="histomap-form-row-label">
+      Timeline:
+    </div>
+    <div class="histomap-form-row-controls">
+      <select id="histomap-start-year-input"></select>
+      to 
+      <select id="histomap-end-year-input">
+        <option>2015</option>
+      </select>
+      with data every 
+      <select id="histomap-interval-input">
+        <option value="1">1 year</option>
+        <option value="2">2 years</option>
+        <option value="5" selected>5 years</option>
+        <option value="10">10 years</option>
+        <option value="20">20 years</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="histomap-form-row">
+    <div class="histomap-form-row-label">
+      Countries:
+    </div>
+    <div id="histomap-form-countries" class="histomap-form-row-controls">
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="center--720">
 
 <svg id="histomap">
   <g id="chart-group"></g>
@@ -24,11 +49,37 @@ layout: post.njk
 
 </div>
 
----
-
 <p class="citation">Data provided by Maddison Project Database, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zanden (2018), “Rebasing ‘Maddison’: new income comparisons and the shape of long-run economic development”, [Maddison Project Working paper 10](https://www.rug.nl/ggdc/historicaldevelopment/maddison/research)
 </p>
-<p class="citation">For the references to the original research on individual countries, see Appendix A of Bolt et al. (2018).</p>
+
+
+## The original _Histomap_
+
+This chart is inspired by John B. Sparks work, [The Histomap](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~200375~3001080:The-Histomap-), 
+published in 1931. The original work was an attempt to visualize 4000 years of civilization into a
+set of colorful flows on a five foot tall chart. It was ambitious... but flawed. Daniel Brownstein 
+does a thorough critique of John B. Spark's Histomap on his blog, [Musings on Maps](https://dabrownstein.com/2013/08/13/reading-the-histomap/).
+
+## The GDP Histomap
+
+My chart is less abmitious. Where the original tried to show and explain
+the march of civilization over millennia, the goal of this new chart is to map out the relative 
+economic power of countries in the past century and a half. And rather
+
+In the back-of-my-mind, I've always thought I'd like to run a marathon someday. And in the past couple years, I've started to get into a regular cadence with my morning runs. So this seemed like a good time to start thinking about those back-of-the-mind marathon plans.
+
+
+---
+
+## 🛠 Behind the scenes
+
+The data for my runs in this post are pulled from [Strava](//strava.com). I run a script manually thats hits the API, does some processing, and then saves the parsed data as JSON in a file.
+
+- [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/posts/boston-marathon-qualifying.md)
+- [Data fetching script](https://github.com/lokesh/lokesh-dhakar/blob/master/refresh-data.js#L8)
+- [Processed data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/strava-activities-edited-runs.json)
+
+
 
 <link rel="stylesheet" href="/css/forms.css">
 
@@ -51,6 +102,27 @@ layout: post.njk
 
 .citation {
   font-size: 12px;
+}
+
+#histomap-form {
+  font-size: 13px;
+}
+
+.histomap-form-row {
+  display: flex;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.histomap-form-row:first-of-type {
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+}
+
+.histomap-form-row-label {
+  font-weight: 700;
+  flex: 0 0 6em;
 }
 </style>
 
@@ -97,13 +169,17 @@ const colorList = [
 ]
 
 /* Timeline */
-const startYear = 2015;
-const endYear = 1820;
-const yearInterval = 5;
+
+/* The range of data available. */
+const yearMax = 2015;
+const yearMin = 1820;
+
+/* The current range shown in the chart */
+let startYear = 2015;
+let endYear = 1820;
+let yearInterval = 5;
 
 /* Countries */
-let maxCountriesPerRow = false;
-
 let countryList = [
   'Brazil',
   'Canada',
@@ -126,18 +202,38 @@ let countryList = [
 // ----------
 
 function buildForm() {
-  let formEl = document.getElementById('histomap-form');
    
   // Build country inputs 
   let countriesHTML = '';
   countryList.forEach(country => {
     countriesHTML += `
-      <div>
-        <input type="checkbox" name="country" value="${country}" checked>
-        <label for="coding">${country}</label>
-      </div>`;
+      <label class="checkbox-label">
+        <input class="checkbox" type="checkbox" name="country" value="${country}" checked>
+        ${country}
+      </label>`;
   });
-  formEl.insertAdjacentHTML('beforeend', countriesHTML);
+
+  // Build start and end year inputs
+  let startYearOptionsHTML = '';
+  for (let i = yearMax; i >= yearMin; i--) {
+    let selected = (startYear === i) ? 'selected': '';
+    startYearOptionsHTML += `<option ${selected}>${i}</option>`
+  }
+
+  let endYearOptionsHTML = '';
+  for (let i = yearMax; i >= yearMin; i--) {
+    let selected = (endYear === i) ? 'selected': '';
+    endYearOptionsHTML += `<option ${selected}>${i}</option>`
+  }
+
+  // Apend to DOM
+  const countriesEl = document.getElementById('histomap-form-countries');
+  const startYearInputEl = document.getElementById('histomap-start-year-input');
+  const endYearInputEl = document.getElementById('histomap-end-year-input');
+
+  countriesEl.insertAdjacentHTML('beforeend', countriesHTML);
+  startYearInputEl.insertAdjacentHTML('beforeend', startYearOptionsHTML);
+  endYearInputEl.insertAdjacentHTML('beforeend', endYearOptionsHTML);
 
   // Add event handlers
   document.querySelectorAll('input[name=country]').forEach(input => {
@@ -145,6 +241,21 @@ function buildForm() {
       refresh();
     })
   });
+
+  document.getElementById('histomap-start-year-input').addEventListener('input', (event) => {
+    startYear = event.target.value;
+    refresh();
+  })
+  document.getElementById('histomap-end-year-input').addEventListener('input', (event) => {
+    endYear = event.target.value;
+    refresh();
+  })
+  document.getElementById('histomap-interval-input').addEventListener('input', (event) => {
+    yearInterval = event.target.value;
+    refresh();
+  })
+
+
 }
 
 
@@ -262,7 +373,7 @@ function fetchData() {
     "1830": 266.666,
     "1840": 300
    }
- */
+
 function interpolateData(data) {
   let countryIndex = 0;
   for (let country in data){    
@@ -301,51 +412,24 @@ function interpolateData(data) {
   }
   return interpolatedData;
 }
+*/
 
 function processData() {
-  let data = rawData;
-
+  // Reset gdp totals
+  gdpTotalsByYear.clear();
   for (let year = startYear; year >= endYear; year -= yearInterval) {
     gdpTotalsByYear.set(year, 0);
   }
-
 
   const filteredData = {};
   let yearsArray = Array.from(gdpTotalsByYear.keys());
 
   /* Filter out unneeded countries and years data */
-  for (let country in data){
+  for (let country in rawData){
       if (countryList.indexOf(country) !== -1) {
-        let countryObj = data[country];
+        let countryObj = rawData[country];
         filteredData[country] = _.pick(countryObj, yearsArray);
       }
-  }
-
-  // If maxCountriesPerRow is set. We want to set the data for the countries not
-  // in the top X for each year to zero.
-  if (maxCountriesPerRow > 0) {
-    for (let year of gdpTotalsByYear.keys()) {       
-      
-      // Put all data for that year in a new object      
-      let allValuesForYear = [];
-      
-      for (let country in filteredData){
-        allValuesForYear.push({
-          'country': country,
-          'gdp': filteredData[country][year]
-        });
-      }
-
-       // Sort
-      let allValuesForYearSorted = allValuesForYear.sort((a, b) => b.gdp - a.gdp);
-
-      // For countries not in top maxCountriesPerRow, set their gdp value to 0 in filteredData
-      allValuesForYearSorted.forEach((yearVal, index) => {
-        if (index >= maxCountriesPerRow) {
-          filteredData[yearVal.country][year] = 0;
-        }
-      });
-    }
   }
 
   // Sum up GDP totals for the year and store in years map
@@ -385,6 +469,7 @@ function resizeSVG() {
   chartGroup.style.transform = `translateX(${labelColumnWidth}px)`
 }
 
+
 function drawChart() {  
   let countryIndex = 0;
   let polys = [];
@@ -399,7 +484,6 @@ function drawChart() {
 
     let poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
     poly.classList.add(`series-color-${countryIndex % colorList.length}`);
-    // poly.setAttribute('fill', colorList[countryIndex % colorList.length]);
     poly.setAttribute('data-name', country);
 
     let yearIndex = 0;
@@ -411,7 +495,6 @@ function drawChart() {
 
       let width = ((countryObj[year] / gdpTotalForYear) * chartWidth);
       let xOffset = (countryIndex === 0) ? 0 : seriesCoords[countryIndex - 1][yearIndex].x;
-      // if (yearIndex === 0 && countryIndex === 0) debugger;
 
       x = width + xOffset;
       y = yearIndex * rowHeight;
@@ -458,7 +541,6 @@ function drawChart() {
 }
 
 
-
 function drawOverlay() {  
   let yearIndex = 0;
   let height = 0;
@@ -480,14 +562,16 @@ function drawOverlay() {
     yAxisLabel.textContent = year;
     frag.appendChild(yAxisLabel);
     
-    // Draw year lines    
-    let line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    line.setAttribute('x1', labelColumnWidth);
-    line.setAttribute('y1', yearIndex  * rowHeight);
-    line.setAttribute('x2', canvasWidth);
-    line.setAttribute('y2', yearIndex  * rowHeight);
-    line.classList.add('year-line');
-    frag.appendChild(line);
+    // Draw year lines (except for first and last years)    
+    if (yearIndex !== 0 && yearIndex !== gdpTotalsByYear.size - 1) {
+      let line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+      line.setAttribute('x1', labelColumnWidth);
+      line.setAttribute('y1', yearIndex  * rowHeight);
+      line.setAttribute('x2', canvasWidth);
+      line.setAttribute('y2', yearIndex  * rowHeight);
+      line.classList.add('year-line');
+      frag.appendChild(line);
+    }
 
     yearIndex++;
   }
@@ -536,6 +620,11 @@ function drawOverlay() {
   overlayEl.innerHTML = '';
   overlayEl.appendChild(frag);
 }
+
+
+// ----
+// INIT
+// ----
 
 buildForm();
 
