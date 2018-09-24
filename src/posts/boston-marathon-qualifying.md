@@ -29,18 +29,18 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
         {{ run.year }}
       </h3>
 
-      <div 
-        v-if="hasComment(run.id)"
-        class="comment
-      ">
-        <div class="comment-icon">🤕</div>
-        <div class="comment-text" v-html="comments[run.id]"></div>
-      </div>
       <transition
         appear
         appear-class="slide-start"
         appear-to-class="slide-end"
       >
+        <div 
+          v-if="hasComment(run.id)"
+          class="comment
+        ">
+          <div class="comment-icon">🤕</div>
+          <div class="comment-text" v-html="comments[run.id]"></div>
+        </div>
         <div class="run" :style="getTransition(index)">
           <div class="run-name">
             <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
@@ -136,6 +136,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   display: flex;
   padding: 8px 8px 20px 8px;
   max-width: 32em;
+  transition: all 0.5s;
 }
 
 .comment-icon {
