@@ -62,7 +62,7 @@ layout: post.njk
 
 ## The original _Histomap_
 
-This chart is inspired by John B. Sparks work, [The Histomap](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~200375~3001080:The-Histomap-), 
+This chart is inspired by John B. Sparks' work, [The Histomap](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~200375~3001080:The-Histomap-), 
 published in 1931. The original work was an attempt to visualize 4000 years of civilization into a
 set of colorful flows on a five foot (1.5m) tall chart. It was ambitious... but flawed. Daniel Brownstein 
 does a thorough critique of John B. Spark's _Histomap_ on his blog, [Musings on Maps](https://dabrownstein.com/2013/08/13/reading-the-histomap/).
