@@ -34,24 +34,26 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
         appear-class="slide-start"
         appear-to-class="slide-end"
       >
-        <div 
-          v-if="hasComment(run.id)"
-          class="comment
-        ">
-          <div class="comment-icon">🤕</div>
-          <div class="comment-text" v-html="comments[run.id]"></div>
-        </div>
-        <div class="run" :style="getTransition(index)">
-          <div class="run-name">
-            <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
+        <div>
+          <div 
+            v-if="hasComment(run.id)"
+            class="comment
+          ">
+            <div class="comment-icon">🤕</div>
+            <div class="comment-text" v-html="comments[run.id]"></div>
           </div>
-          <div class="run-metrics">
-            {{ run.paceFormatted }}/mi • {{ run.distance }}mi
-          </div>
-          <div class="distance-bar" :style="`
-            width: ${run.distancePercent}%;
-            background-color: ${getPaceColor(run.pace)};
-          `">
+          <div class="run" :style="getTransition(index)">
+            <div class="run-name">
+              <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
+            </div>
+            <div class="run-metrics">
+              {{ run.paceFormatted }}/mi • {{ run.distance }}mi
+            </div>
+            <div class="distance-bar" :style="`
+              width: ${run.distancePercent}%;
+              background-color: ${getPaceColor(run.pace)};
+            `">
+            </div>
           </div>
         </div>
       </transition>
@@ -86,11 +88,13 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 
 <style>
-.slide-start {
+.slide-start .run,
+.slide-start .comment {
   opacity: 0;
   transform: translateX(-40px);
 }
-.slide-end {
+.slide-end .run,
+.slide-end .comment {
   opacity: 1;
   transform: translateX(0);
 }
