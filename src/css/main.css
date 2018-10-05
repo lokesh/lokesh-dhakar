@@ -41,6 +41,7 @@ hr {
 
 
 h1 {
+  margin-top: 24px;
   font-size: 32px;
 }
 
@@ -126,6 +127,7 @@ pre {
 .post,
 .page {
   position: relative;
+  margin-top: 24px;
   margin-bottom: 64px;
 }
 

@@ -32,7 +32,7 @@ each page. You can add to `base.njk`.
 
 Run a script to fefresh data for the Boston Marathon blog post which hits the Strava API:
 ```
-npm run fetch-data
+npm run refresh-data
 ``` 
 
 ```
