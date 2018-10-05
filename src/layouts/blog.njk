@@ -1,30 +1,28 @@
 {% extends 'base.njk' %}
 
 {% block main %}
-  <article class="post">
+  <div class="page">
     <header>
-      <h1 class="post__title">Blog posts</h1>
+      <h1>Blog posts</h1>
     </header>
-    <main class="post__content">
-      <ul class="archive">
-        {% for post in collections.posts %}
 
-          {% if not post.draft %}
-          <li class="archive__post">
-            {% if post.draft %}
-              <span class="archive__draft-label">DRAFT</span>
-            {% endif %}
-
-            <a href="/{{ post.path }}/" class="archive__post-title">
-              {{ post.title }}
-            </a>
-            <!-- <span class="archive__post-date">{{ post.date | date }}</span> -->
-
-          </li>
+    <ul class="archive">
+      {% for post in collections.posts %}
+        {% if not post.draft %}
+        <li class="archive__post">
+          {% if post.draft %}
+            <span class="archive__draft-label">DRAFT</span>
           {% endif %}
 
-        {% endfor %}
-      </ul>
-    </main>
-  </article>
+          <a href="/{{ post.path }}/" class="archive__post-title">
+            {{ post.title }}
+          </a>
+          <span class="archive__post-date">{{ post.date | date }}</span>
+
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+  </div>
 {% endblock %}

@@ -1,5 +1,3 @@
-@import "vars.css";
-
 .button-text {
   color: var(--link-color);
   background: none;
