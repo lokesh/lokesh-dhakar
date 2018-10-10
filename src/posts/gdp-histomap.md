@@ -76,7 +76,7 @@ undefined _power_ measure for the x-axis, the new chart uses Real GDP.
 
 **What is GDP?** aka Nominal GDP. The sum of the prices of all finished goods and services a 
 country produces. Inflation and the cost of good will increase GDP, though the number of goods is
-not icnreasing.
+not increasing.
 
 **How is Real GDP different?** aka GDP PPP (Purchasing Power Parity). This measure controls for 
 inflation and uses the same set of prices for goods and services over time. This measure is better 
