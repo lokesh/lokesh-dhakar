@@ -103,8 +103,10 @@ pre {
 .nav__item {
   display: inline-block;
   padding: 4px 4px;
-  color: #000;
-  font-weight: 700;
+  color: var(--muted-color);
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 @media (min-width: 700px) {

@@ -91,10 +91,6 @@ layout: page.njk
   margin: 0;
 }
 
-.title {
-  /*margin: 0;*/
-}
-
 .meta {
   font-weight: bold;
   color: var(--muted-color);
