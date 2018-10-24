@@ -25,7 +25,7 @@ layout: page.njk
 </div>
 
 
-<div class="note movie rough">
+<div class="note movie">
   <div class="tag">Movie</div>
   <h2 class="title">Blade Runner</h2>
   <div class="meta">1982 | Directed by Ridley Scott</div>
@@ -62,7 +62,6 @@ layout: page.njk
   width: 320px;
   padding: 16px;
   margin-bottom: 16px;
-  border-bottom: 2px solid var(--border-color);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   font-size: 14px;
