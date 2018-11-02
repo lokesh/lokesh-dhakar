@@ -1,6 +1,6 @@
 ---
 date: 2018-07-08
-layout: post.njk
+layout: page.njk
 ---
  
 <h1 class="name">Lokesh Dhakar</h1>
@@ -20,8 +20,9 @@ I take photos on [Instagram](https://instagram.com/lokesh), post designs on [Dri
   font-weight: 800;
   text-transform: uppercase;
 }
-.post {
+.page {
   font-weight: 700;
+  max-width: var(--text-max-width);
 }
 </style>
 

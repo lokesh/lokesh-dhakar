@@ -109,6 +109,13 @@ pre {
   text-transform: uppercase;
 }
 
+.nav__item:hover {
+  color: #666;
+  background: #eee;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+}
+
 @media (min-width: 700px) {
   .nav {
     position: fixed;
