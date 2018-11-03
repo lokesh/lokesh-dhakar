@@ -37,8 +37,9 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
         <div>
           <div 
             v-if="hasComment(run.id)"
-            class="comment
-          ">
+            class="comment"
+            :style="getTransition(index)"
+          >
             <div class="comment-icon">🤕</div>
             <div class="comment-text" v-html="comments[run.id]"></div>
           </div>
@@ -140,7 +141,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   display: flex;
   padding: 8px 8px 20px 8px;
   max-width: 32em;
-  transition: all 0.5s;
 }
 
 .comment-icon {

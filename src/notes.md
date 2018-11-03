@@ -10,7 +10,7 @@ layout: page.njk
   <h2 class="title">Slacker</h2>
   <div class="meta">1990 | Directed by Richard Linklater</div>
 
-  <p>This is the classic Gen-X indie film from Richard Linklater.</p>
+  <p>The classic Gen-X indie film from <a href="https://en.wikipedia.org/wiki/Richard_Linklater">Richard Linklater</a>.</p>
 
   <p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It's a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>
 
@@ -30,7 +30,7 @@ layout: page.njk
   <h2 class="title">Blade Runner</h2>
   <div class="meta">1982 | Directed by Ridley Scott</div>
 
-  <p>When I was first watched this movie, the visuals are what left a mark. Now after seeing _Blade Runnner 2049_ and reading _Do Androids Dream of Electric Sheep?_, I've come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>
+  <p>When I first watched the movie, the visuals were what left a mark. Now after seeing _Blade Runnner 2049_ and reading <a href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">_Do Androids Dream of Electric Sheep?_</a>, I've come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>
 
   <p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>
 
@@ -43,13 +43,19 @@ layout: page.njk
 
 
 
-<div class="note article rough">
+<div class="note article rough" style="display: none;">
   <div class="tag">Article</div>
   <h2 class="title">Big Budget Items: The starchitectural landscape of Frank Gehry</h2>
 
   <div class="meta">2019 | the weekly Standard | <a href="https://www.weeklystandard.com/andrew-ferguson/big-budget-items">Link</a></div>
 
-  <p>This article brings up the question which I have googled many times: What are the differences between Modernism and Post-Modernism?</p>
+  <p>The article highlights Frank Gehry's architectural career, with a focus on his early Santa Monica residence and his later <a href="https://www.google.com/search?q=8+spruce+street+new+york+gehry&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSq-qSpLfeAhWcFTQIHXqeBAQQ_AUIFCgC&biw=1386&bih=978">8 Spruce Street skycraper</a>.</p>
+
+  <p>The <a href="https://en.wikipedia.org/wiki/Gehry_Residence">Gehry Residence</a>, which is built atop an existing bungalow, uses unconventional materials like corrugated steel and most infamously, chain-link fences. It is a statement. "the architect's chief purpose in his breakthrough work was mockery and satire, rooted in a contempt for the "hypocrisy" that his golden neighborhood represented."</p>
+
+  <p>Gehry's later work received mostly positive reviews and his projects and budgets grew in scale. There was some criticism of his later work</p>
+
+  brings up the question which I have googled many times: What are the differences between Modernism and Post-Modernism?</p>
 
   <p class="date">- Oct. 21, 2018</p> 
 </div>
@@ -65,6 +71,11 @@ layout: page.njk
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   font-size: 14px;
+}
+
+.note a {
+  text-decoration: underline;
+  color: var(--color);
 }
 
 .image {
