@@ -150,7 +150,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 .comment-text {
   font-size: 13px;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .comment-text em {

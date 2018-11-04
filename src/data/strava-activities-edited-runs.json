@@ -1,5 +1,17 @@
 [
   {
+    "id": 1943744418,
+    "name": "Hopper’s Hands Half",
+    "distance": "13.2",
+    "distancePercent": 50.485207927480914,
+    "elevation": 975.393732,
+    "pace": 8.298603892141074,
+    "paceFormatted": "8:17",
+    "date": "Nov 3",
+    "year": 2018,
+    "startDate": "2018-11-03T08:30:27Z"
+  },
+  {
     "id": 1926766709,
     "name": "Kezar with Strawberry Hill",
     "distance": "7.6",
