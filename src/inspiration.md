@@ -12,14 +12,13 @@ layout: page.njk
 </section>
 
 
-
 <script type="text/x-template" id="tpl-vid">
   <article class="vid">
-     <a
+     <img
        ref="thumb"
        :href="`https://www.youtube.com/watch?v=${video.id}`"
        class="thumb"
-       :style="`background-image: url(/media/inspiration/videos/${img})`"
+       :src="`/media/inspiration/videos/${img}`"
        @mouseenter="onMouseenter"
        @mouseleave="onMouseleave"
        @mousemove="onMousemove"
@@ -41,14 +40,14 @@ layout: page.njk
 <style>
 
 .vid {
-  width: 240px;
+  width: 320px;
   margin-bottom: 32px;
 }
 
 .thumb {
   display: block;
-  width: 240px;
-  height: 160px;
+  width: 320px;
+  height: 200px;
   margin-bottom: 4px;
   background-size: cover;
   border-radius: var(--border-radius);
@@ -103,8 +102,8 @@ Vue.component('vid', {
     img() {
       if (this.isScrubbing) {
         let scrubPercent = (this.mouseX - this.thumbX) / this.thumbWidth;
-        // 5 assumes we want to display 20 frames
-        return this.video.filename + '-' + (Math.floor((scrubPercent * 100) / 5) + 1) + '.jpg';
+        // 5 assumes we want to display 100 frames
+        return this.video.filename + '-' + (Math.floor((scrubPercent * 100) / 4) + 1) + '.jpg';
       } else {
         return this.video.filename + '.jpg';  
       }
@@ -113,10 +112,18 @@ Vue.component('vid', {
   },
 
   mounted() {
-    this.saveThumbDims()
+    this.saveThumbDims();
+    // this.preloadPreviewImages();
   },
   
   methods: {
+    preloadPreviewImages() {
+      for (let i = 1; i <= 20; i++) {
+        let foo = new Image();
+        foo.src = `/media/inspiration/videos/${this.video.filename}-${i}.jpg`;
+      }
+    },
+
     // Save thumbnail x position and width to data obj
     saveThumbDims() {
       const domRect = this.$refs.thumb.getBoundingClientRect();
