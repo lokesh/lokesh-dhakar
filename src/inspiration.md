@@ -14,7 +14,7 @@ layout: page.njk
 
 <script type="text/x-template" id="tpl-vid">
   <article class="vid">
-     <img
+    <img
        ref="thumb"
        :href="`https://www.youtube.com/watch?v=${video.id}`"
        class="thumb"
@@ -22,32 +22,45 @@ layout: page.njk
        @mouseenter="onMouseenter"
        @mouseleave="onMouseleave"
        @mousemove="onMousemove"
-     >
-     </a>
-     <div class="details">
-       <div class="length">{{ video.length }}min</div>
-       <h2 class="title">{{ video.customName }}</h2>
-       img: {{ img }}<br>
-       isScrubbing: {{ isScrubbing }}<br>
-       thumbX: {{ thumbX }}<br>
-       thumbWidth: {{ thumbWidth }}<br>
-       mouseX: {{ mouseX }}<br>
-       mouseThumbX: {{ mouseThumbX }}<br>
-     </div>
-   </article>
+    >
+    </a>
+    <div class="details">
+      <div class="length">{{ video.length }}min</div>
+      <h2 class="title">{{ video.customName }}</h2>
+
+      <div v-if="debug">
+        img: {{ img }}<br>
+        isScrubbing: {{ isScrubbing }}<br>
+        thumbX: {{ thumbX }}<br>
+        thumbWidth: {{ thumbWidth }}<br>
+        mouseX: {{ mouseX }}<br>
+        mouseThumbX: {{ mouseThumbX }}<br>
+      </div>
+    </div>
+  </article>
 </script>
 
 <style>
 
+:root {
+  /*
+   320 x 200
+   240 x 180
+  */
+  --vid-aspect-ratio: 1.75;
+  --vid-width: 240px;
+  --vid-height: calc( var(--vid-width) / var(--vid-aspect-ratio));
+}
+
 .vid {
-  width: 320px;
+  width: var(--vid-width);
   margin-bottom: 32px;
 }
 
 .thumb {
   display: block;
-  width: 320px;
-  height: 200px;
+  width: var(--vid-width);
+  height: var(--vid-height);
   margin-bottom: 4px;
   background-size: cover;
   border-radius: var(--border-radius);
@@ -66,7 +79,6 @@ layout: page.njk
   font-size: 14px;
 }
 
-
 .author {
   margin: 0;
   color: var(--muted-color);
@@ -80,6 +92,8 @@ layout: page.njk
 <script>
 
 
+const previewFrameCount = 20;
+
 Vue.component('vid', {
   template: '#tpl-vid',  
   
@@ -89,6 +103,7 @@ Vue.component('vid', {
   
   data() {
     return {
+      debug: false,
       isScrubbing: false,
       thumbX: null,
       thumbWidth: null,
@@ -103,17 +118,21 @@ Vue.component('vid', {
       if (this.isScrubbing) {
         let scrubPercent = (this.mouseX - this.thumbX) / this.thumbWidth;
         // 5 assumes we want to display 100 frames
-        return this.video.filename + '-' + (Math.floor((scrubPercent * 100) / 4) + 1) + '.jpg';
+        return this.video.filename + '-' + (Math.floor(
+          (scrubPercent * 100) /
+          (100 / previewFrameCount) + 1)) + '.jpg';
       } else {
         return this.video.filename + '.jpg';  
       }
-      
+    },
+    imgCount() {
+      return  previewFrameCount;
     },
   },
 
   mounted() {
     this.saveThumbDims();
-    // this.preloadPreviewImages();
+    this.preloadPreviewImages();
   },
   
   methods: {
