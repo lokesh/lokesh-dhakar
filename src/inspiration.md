@@ -14,19 +14,23 @@ layout: page.njk
 
 <script type="text/x-template" id="tpl-vid">
   <article class="vid">
-    <img
-       ref="thumb"
-       :href="`https://www.youtube.com/watch?v=${video.id}`"
-       class="thumb"
-       :src="`/media/inspiration/videos/${img}`"
-       @mouseenter="onMouseenter"
-       @mouseleave="onMouseleave"
-       @mousemove="onMousemove"
-    >
+    <a :href="`https://www.youtube.com/watch?v=${video.id}`">
+      <img
+         ref="thumb"
+         class="thumb"
+         :src="`/media/inspiration/videos/${img}`"
+         @mouseenter="onMouseenter"
+         @mouseleave="onMouseleave"
+         @mousemove="onMousemove"
+      >
     </a>
     <div class="details">
       <div class="length">{{ video.length }}min</div>
-      <h2 class="title">{{ video.customName }}</h2>
+      <a :href="`https://www.youtube.com/watch?v=${video.id}`">
+        <h2 class="title">
+          {{ video.customName }}
+        </h2>
+      </a>
 
       <div v-if="debug">
         img: {{ img }}<br>
@@ -76,6 +80,7 @@ layout: page.njk
 
 .title {
   margin: 0;
+  color: var(--color);
   font-size: 14px;
 }
 
