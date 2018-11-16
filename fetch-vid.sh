@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+
 # ------------
 # REQUIREMENTS
 # ------------
-# ffmpeg:     brew install ffmpeg
-# youtube-dl: brew install youtube-dl
+# brew install youtube-dl
+# brew install ffmpeg
+# sips (built-in to OSX)
 
 # ------
 # CONFIG
@@ -22,18 +24,18 @@ YELLOW=$(tput setaf 190)
 BLUE=$(tput setaf 153)
 
 echo "${BLUE}Enter video id (ex. ybb-HhSrtxA):${NORMAL}"
-id="8dGuXne80tE"
-# read id
+# id="8dGuXne80tE"
+read id
 
 echo "${BLUE}Enter file name to use (ex. clay-teapot):${NORMAL}"
-filename="tester"
-# read filename
+# filename="tester"
+read filename
 
 
 # Download youtube video and thumbnail with
 # ---
 
-# youtube-dl https://www.youtube.com/watch?v=${id} --write-thumbnail -o "${folder}/${filename}.%(ext)s" --restrict-filenames -f 243
+youtube-dl https://www.youtube.com/watch?v=${id} --write-thumbnail -o "${folder}/${filename}.%(ext)s" --restrict-filenames -f 243
 
 # List of available video file formats
 # ---
@@ -45,9 +47,16 @@ filename="tester"
 
 # Extract keyframes as jpegs
 # ---
+ffmpeg -i "${folder}/${filename}.webm" -vf "select=eq(pict_type\,I)" -vsync vfr ${folder}/${filename}-%d.jpg -hide_banner
 
-# ffmpeg -i "${folder}/${filename}.webm" -vf "select=eq(pict_type\,I)" -vsync vfr ${folder}/${filename}-%d.jpg -hide_banner
+# Delete unneeded files. Frames after 50 and the video file.
+# ---
+rm ${folder}/${filename}-{51..500}*
+rm ${folder}/${filename}.webm
 
+# Resize preview images down to 320
+# ---
+# Using the built in OSX sips util. Alternative to imagemagick.
+sips --resampleWidth 320x  ${folder}/${filename}-*.jpg
 
-# Resize images?
 node test.js "really" "that would be cool"
