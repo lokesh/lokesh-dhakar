@@ -52,7 +52,7 @@ layout: page.njk
    240 x 180
   */
   --vid-aspect-ratio: 1.75;
-  --vid-width: 240px;
+  --vid-width: 320px;
   --vid-height: calc( var(--vid-width) / var(--vid-aspect-ratio));
 }
 
@@ -97,7 +97,7 @@ layout: page.njk
 <script>
 
 
-const previewFrameCount = 20;
+const previewFrameCount = 50;
 
 Vue.component('vid', {
   template: '#tpl-vid',  
@@ -108,6 +108,11 @@ Vue.component('vid', {
   
   data() {
     return {
+      preloadTriggered: false,
+      counter: 0,
+
+      frameQueued: false,
+
       debug: false,
       isScrubbing: false,
       thumbX: null,
@@ -131,17 +136,16 @@ Vue.component('vid', {
       }
     },
     imgCount() {
-      return  previewFrameCount;
+      return previewFrameCount;
     },
   },
 
   mounted() {
     this.saveThumbDims();
-    this.preloadPreviewImages();
   },
   
   methods: {
-    preloadPreviewImages() {
+    preloadImages() {
       for (let i = 1; i <= 20; i++) {
         let foo = new Image();
         foo.src = `/media/inspiration/videos/${this.video.filename}-${i}.jpg`;
@@ -155,6 +159,10 @@ Vue.component('vid', {
       this.thumbWidth = domRect.width;
     },
     onMouseenter(e) {
+      if (!this.preloadTriggered) {
+        this.preloadImages();
+      }
+      this.saveThumbDims();
       this.mouseX = e.pageX;
       this.isScrubbing = true;
     },
@@ -162,9 +170,15 @@ Vue.component('vid', {
       this.isScrubbing = false;
     },
     onMousemove(e) {
-      this.mouseX = e.pageX;
-      this.saveThumbDims();
+      if (!this.frameQueued) {
+        this.frameQueued = true;
+        requestAnimationFrame(this.updateMouseX.bind(this,e))
+      }
     },
+    updateMouseX(e) {
+      this.frameQueued = false;
+      this.mouseX = e.pageX;
+    }
   },
 
 });
