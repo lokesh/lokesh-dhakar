@@ -32,7 +32,7 @@ layout: page.njk
       <div class="length">{{ video.length }}min</div>
       <a :href="`https://www.youtube.com/watch?v=${video.id}`">
         <h2 class="title">
-          {{ video.customName }}
+          {{ video.customTitle }}
         </h2>
       </a>
 
