@@ -4,7 +4,7 @@ layout: page.njk
 ---
 
 
-<section id="videos">
+<section id="videos" class="videos">
     <vid
       v-for="(video, index) in videos"
       :video="video"
@@ -35,15 +35,6 @@ layout: page.njk
           {{ video.customTitle }}
         </h2>
       </a>
-
-      <div v-if="debug">
-        img: {{ img }}<br>
-        isScrubbing: {{ isScrubbing }}<br>
-        thumbX: {{ thumbX }}<br>
-        thumbWidth: {{ thumbWidth }}<br>
-        mouseX: {{ mouseX }}<br>
-        mouseThumbX: {{ mouseThumbX }}<br>
-      </div>
     </div>
   </article>
 </script>
@@ -51,21 +42,19 @@ layout: page.njk
 <style>
 
 :root {
-  /*
-   320 x 200
-   240 x 135
-  */
-  --vid-aspect-ratio: 1.75;
   --vid-width: 240px;
   --vid-height: 135px;
 }
 
-.vid {
-  float: left;
-  margin-right: 16px;
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--vid-width));
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
 
+.vid {
   width: var(--vid-width);
-  margin-bottom: 32px;
 }
 
 .thumb {
@@ -114,12 +103,8 @@ Vue.component('vid', {
   
   data() {
     return {
-      // preloadTriggered: false,
-      // counter: 0,
-
       frameQueued: false,
 
-      debug: false,
       isScrubbing: false,
       thumbX: null,
       thumbWidth: null,
@@ -135,7 +120,6 @@ Vue.component('vid', {
     imgNum() {
       if (this.isScrubbing) {
         let scrubPercent = (this.mouseX - this.thumbX) / this.thumbWidth;
-        // 5 assumes we want to display 100 frames
         return (Math.floor(
           (scrubPercent * 100) /
           (100 / previewFrameCount) + 1)
@@ -143,9 +127,6 @@ Vue.component('vid', {
       } else {
         return 0;
       }
-      // } else {
-      //   return this.video.filename + '.jpg';  
-      // }
     },
     imgCount() {
       return previewFrameCount;
@@ -157,13 +138,6 @@ Vue.component('vid', {
   },
   
   methods: {
-    preloadImages() {
-      for (let i = 1; i <= 20; i++) {
-        let foo = new Image();
-        foo.src = `/media/inspiration/videos/${this.video.filename}-${i}.jpg`;
-      }
-    },
-
     // Save thumbnail x position and width to data obj
     saveThumbDims() {
       const domRect = this.$refs.thumb.getBoundingClientRect();
@@ -171,9 +145,6 @@ Vue.component('vid', {
       this.thumbWidth = domRect.width;
     },
     onMouseenter(e) {
-      // if (!this.preloadTriggered) {
-      //   this.preloadImages();
-      // }
       this.saveThumbDims();
       this.mouseX = e.pageX;
       this.isScrubbing = true;

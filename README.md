@@ -16,6 +16,25 @@ Duplicate an existing post's md file.
 The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](https://github.com/segmentio/metalsmith-permalinks/issues/81) in the master branch of the project's main repo that prevents this feature from being utilized. I've patched the project files and pointed to my fork in `package.json`.
 
 
+## Updating data used on pages and posts
+
+### Update Running page data
+
+Run the `refresh-data` npm task. This will fetch the latest data from Strava and parse it.
+
+```
+npm run refresh-data
+``` 
+
+
+### Adding a video to Inspiration page
+
+Run the fetch-vid shell script and specify the Youtube video id and the title you would 
+like to show below the video thumb.
+```
+./fetch-vid.sh
+```
+
 ## Developing
 
 ```
@@ -29,11 +48,6 @@ each page. You can add to `base.njk`.
 - To add custom string formatters, edit the `engineOptions` object in `build.js`.
 
 ## Deploying
-
-Run a script to fefresh data for the Boston Marathon blog post which hits the Strava API:
-```
-npm run refresh-data
-``` 
 
 ```
 npm run deploy
