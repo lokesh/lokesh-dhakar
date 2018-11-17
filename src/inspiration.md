@@ -15,14 +15,18 @@ layout: page.njk
 <script type="text/x-template" id="tpl-vid">
   <article class="vid">
     <a :href="`https://www.youtube.com/watch?v=${video.id}`">
-      <img
-         ref="thumb"
-         class="thumb"
-         :src="`/media/inspiration/videos/${img}`"
-         @mouseenter="onMouseenter"
-         @mouseleave="onMouseleave"
-         @mousemove="onMousemove"
-      >
+      <div
+        ref="thumb"
+        class="thumb"
+        :style="`
+          background-image: url(/media/inspiration/${filename});
+          background-size: cover;
+          background-position: ${imgNum * 240}px 0;
+        `"
+        @mouseenter="onMouseenter"
+        @mouseleave="onMouseleave"
+        @mousemove="onMousemove"
+      />
     </a>
     <div class="details">
       <div class="length">{{ video.length }}min</div>
@@ -49,14 +53,17 @@ layout: page.njk
 :root {
   /*
    320 x 200
-   240 x 180
+   240 x 135
   */
   --vid-aspect-ratio: 1.75;
-  --vid-width: 320px;
-  --vid-height: calc( var(--vid-width) / var(--vid-aspect-ratio));
+  --vid-width: 240px;
+  --vid-height: 135px;
 }
 
 .vid {
+  float: left;
+  margin-right: 16px;
+
   width: var(--vid-width);
   margin-bottom: 32px;
 }
@@ -66,7 +73,6 @@ layout: page.njk
   width: var(--vid-width);
   height: var(--vid-height);
   margin-bottom: 4px;
-  background-size: cover;
   border-radius: var(--border-radius);
 }
 
@@ -97,7 +103,7 @@ layout: page.njk
 <script>
 
 
-const previewFrameCount = 50;
+const previewFrameCount = 20;
 
 Vue.component('vid', {
   template: '#tpl-vid',  
@@ -108,8 +114,8 @@ Vue.component('vid', {
   
   data() {
     return {
-      preloadTriggered: false,
-      counter: 0,
+      // preloadTriggered: false,
+      // counter: 0,
 
       frameQueued: false,
 
@@ -122,18 +128,24 @@ Vue.component('vid', {
     };
   },
 
-  //:style="`background-image: url(/media/inspiration/videos/${video.filename}.jpg)`"
   computed: {
-    img() {
+    filename() {
+      return (this.isScrubbing) ? `${this.video.filename}-sprite.jpg` : `${this.video.filename}.jpg`;
+    },
+    imgNum() {
       if (this.isScrubbing) {
         let scrubPercent = (this.mouseX - this.thumbX) / this.thumbWidth;
         // 5 assumes we want to display 100 frames
-        return this.video.filename + '-' + (Math.floor(
+        return (Math.floor(
           (scrubPercent * 100) /
-          (100 / previewFrameCount) + 1)) + '.jpg';
+          (100 / previewFrameCount) + 1)
+        );
       } else {
-        return this.video.filename + '.jpg';  
+        return 0;
       }
+      // } else {
+      //   return this.video.filename + '.jpg';  
+      // }
     },
     imgCount() {
       return previewFrameCount;
@@ -159,9 +171,9 @@ Vue.component('vid', {
       this.thumbWidth = domRect.width;
     },
     onMouseenter(e) {
-      if (!this.preloadTriggered) {
-        this.preloadImages();
-      }
+      // if (!this.preloadTriggered) {
+      //   this.preloadImages();
+      // }
       this.saveThumbDims();
       this.mouseX = e.pageX;
       this.isScrubbing = true;

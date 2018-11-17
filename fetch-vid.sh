@@ -6,36 +6,41 @@
 # ------------
 # brew install youtube-dl
 # brew install ffmpeg
+# pip install glue
 # sips (built-in to OSX)
 
 # ------
 # CONFIG
 # ------
 
-folder="/Users/lokesh/git/lokesh-dhakar/src/media/inspiration/videos"
+folder="/Users/lokesh/git/lokesh-dhakar/src/media/inspiration"
 
 # ---
-
-# Stops the script if a command has an error
-set -e
 
 NORMAL=$(tput sgr0)
 YELLOW=$(tput setaf 190)
 BLUE=$(tput setaf 153)
 
 echo "${BLUE}Enter video id (ex. ybb-HhSrtxA):${NORMAL}"
-# id="8dGuXne80tE"
+# id="ybb-HhSrtxA"
 read id
 
 echo "${BLUE}Enter file name to use (ex. clay-teapot):${NORMAL}"
-# filename="tester"
+# filename="clay-teapot"
 read filename
 
+# Remove old versions
+rm ${folder}/${filename}*
 
 # Download youtube video and thumbnail with
 # ---
-
+# set -e Stops the script if a command has an error
+set -e
 youtube-dl https://www.youtube.com/watch?v=${id} --write-thumbnail -o "${folder}/${filename}.%(ext)s" --restrict-filenames -f 243
+set +e
+
+
+sips --resampleWidth 480x --setProperty formatOptions 80 ${folder}/${filename}.jpg
 
 # List of available video file formats
 # ---
@@ -47,16 +52,26 @@ youtube-dl https://www.youtube.com/watch?v=${id} --write-thumbnail -o "${folder}
 
 # Extract keyframes as jpegs
 # ---
-ffmpeg -i "${folder}/${filename}.webm" -vf "select=eq(pict_type\,I)" -vsync vfr ${folder}/${filename}-%d.jpg -hide_banner
+# We need is 20 keyframes. We parse 200 seconds of the video file which  usually
+# gets us about 40, so a nice buffer.
+ffmpeg -t 200 -i "${folder}/${filename}.webm" -vf "select=eq(pict_type\,I)" -vsync vfr ${folder}/${filename}-%d.jpg -hide_banner
 
 # Delete unneeded files. Frames after 50 and the video file.
 # ---
-rm ${folder}/${filename}-{51..500}*
+
+rm ${folder}/${filename}-{21..500}*
 rm ${folder}/${filename}.webm
 
 # Resize preview images down to 320
 # ---
 # Using the built in OSX sips util. Alternative to imagemagick.
-sips --resampleWidth 320x  ${folder}/${filename}-*.jpg
+sips --resampleWidth 240x ${folder}/${filename}-*.jpg
+
+
+# Combine preview images into one horizontal image
+# ---
+convert -quality 50% +append ${folder}/${filename}-* ${folder}/${filename}-sprite.jpg
+
+rm ${folder}/${filename}-{1..20}*
 
 node test.js "really" "that would be cool"
