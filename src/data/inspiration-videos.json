@@ -1,37 +1,42 @@
 [
   {
-    "id": "zoY0q4qaJeA",
-    "filename": "woodblock-print",
-    "title": "Ukiyoe Heroes Portraits (#1) : Proof printing 'The Wolf Goddess'",
-    "customTitle": "Woodblock printing",
-    "length": 9
-  },
-  {
     "id": "2aXqNaDIaPY",
-    "filename": "band-lighting",
-    "title": "Umphrey's McGee: 'Der Bluten Kat' w/Jefferson Waful LD Commentary",
+    "filename": "lighting-a-musical-performance",
+    "title": "Umphrey's McGee: \"Der Bluten Kat\" w/Jefferson Waful LD Commentary",
     "customTitle": "Lighting a musical performance",
-    "length": 17
+    "duration": "17:28",
+    "dateAdded": "2018-11-17T22:31:39.579Z"
   },
   {
     "id": "ybb-HhSrtxA",
     "filename": "clay-teapot",
-    "title": "Tokoname Master Craftsman - Hokujo (Genji Shimizu)",
+    "title": "Tokoname Master Craftsman - Hokujo (Genji Shimizu)　伝統工芸士　清水源二",
     "customTitle": "Clay teapot",
-    "length": 14
+    "duration": "13:58",
+    "dateAdded": "2018-11-17T22:33:54.643Z"
   },
   {
     "id": "8dGuXne80tE",
-    "filename": "forging-hunting-knife",
-    "title": "The Forging of a Hunting Knife in Tosa, Japan",
+    "filename": "forging-a-hunting-knife",
+    "title": "The Forging of a Hunting Knife in Tosa, Japan - 2013-3-7",
     "customTitle": "Forging a hunting knife",
-    "length": 10
+    "duration": "10:24",
+    "dateAdded": "2018-11-17T22:34:28.468Z"
   },
   {
     "id": "nuNfdHNTv9o",
     "filename": "illuminated-manuscript",
-    "title": "Illuminated manuscript",
-    "customTitle": "Making an  illuminated manuscript",
-    "length": 6
+    "title": "Making Manuscripts",
+    "customTitle": "Illuminated manuscript",
+    "duration": "6:19",
+    "dateAdded": "2018-11-17T22:34:50.709Z"
+  },
+  {
+    "id": "zoY0q4qaJeA",
+    "filename": "woodblock-printing",
+    "title": "Ukiyoe Heroes Portraits (#1) : Proof printing 'The Wolf Goddess'",
+    "customTitle": "Woodblock printing",
+    "duration": "9:05",
+    "dateAdded": "2018-11-17T22:36:15.334Z"
   }
 ]

@@ -20,18 +20,15 @@ YELLOW=$(tput setaf 190)
 BLUE=$(tput setaf 153)
 
 echo "${BLUE}Enter video id (ex. ybb-HhSrtxA):${NORMAL}"
-# id="ybb-HhSrtxA"
 read id
 
 echo "${BLUE}Enter the title you want to display under the thumbnail (ex. Forging a knife):${NORMAL}"
-# filename="clay-teapot"
 read customTitle
 
 filename="${customTitle// /-}"
 filename=$(echo "$filename" | tr '[:upper:]' '[:lower:]')
 
-
-# Clean up old files
+# Clean up
 rm ${folder}/${filename}*
 
 # Download youtube video and thumbnail.
@@ -44,11 +41,11 @@ rm ${folder}/${filename}*
 # set -e Stops the script if a command has an error
 set -e
 youtube-dl https://www.youtube.com/watch?v=${id} --write-thumbnail -o "${folder}/${filename}.%(ext)s" --restrict-filenames -f 243
-
-title=$(youtube-dl --get-title 8dGuXne80tE>&1)
-duration=$(youtube-dl --get-duration 8dGuXne80tE>&1)
-
 set +e
+
+title=$(youtube-dl --get-title ${id}>&1)
+duration=$(youtube-dl --get-duration ${id}>&1)
+
 sips --resampleWidth 480x --setProperty formatOptions 80 ${folder}/${filename}.jpg
 
 
@@ -69,4 +66,4 @@ convert -quality 70% +append ${folder}/${filename}-* ${folder}/${filename}-sprit
 
 rm ${folder}/${filename}-{1..20}*
 
-node test.js ${id} ${filename} ${title} ${customTitle} ${duration}
+node add-vid-to-json.js "${id}" "${filename}" "${title}" "${customTitle}" "${duration}"

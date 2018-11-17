@@ -29,7 +29,7 @@ layout: page.njk
       />
     </a>
     <div class="details">
-      <div class="length">{{ video.length }}min</div>
+      <div class="duration">{{ video.duration }}</div>
       <a :href="`https://www.youtube.com/watch?v=${video.id}`">
         <h2 class="title">
           {{ video.customTitle }}
@@ -76,7 +76,7 @@ layout: page.njk
   border-radius: var(--border-radius);
 }
 
-.length {
+.duration {
   float: right;
   margin-left: 4px;
   color: var(--primary-color);
