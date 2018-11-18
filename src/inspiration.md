@@ -5,6 +5,11 @@ layout: page.njk
 
 
 <section id="videos" class="videos">
+    <div>
+      <div class="page-tag">Inspiration</div>
+      <h2 class="page-title">Other people making things</h2>
+      <p class="page-desc">Process videos of creatives at work that I've enjoyed.</p>
+    </div>
     <vid
       v-for="(video, index) in videos"
       :video="video"
@@ -18,15 +23,20 @@ layout: page.njk
       <div
         ref="thumb"
         class="thumb"
-        :style="`
-          background-image: url(/media/inspiration/${filename});
-          background-size: cover;
-          background-position: ${imgNum * 240}px 0;
-        `"
+        :style="`background-image: url(/media/inspiration/${this.video.filename}.jpg)`""
         @mouseenter="onMouseenter"
         @mouseleave="onMouseleave"
         @mousemove="onMousemove"
-      />
+      >
+        <div
+          v-if="isScrubbing"
+          class="thumb-preview"
+          :style="`
+            background-image: url(/media/inspiration/${this.video.filename}-sprite.jpg);
+            background-position: ${imgNum * 240}px 0;
+          `"
+        />
+      </div>
     </a>
     <div class="details">
       <div class="duration">{{ video.duration }}</div>
@@ -63,6 +73,18 @@ layout: page.njk
   height: var(--vid-height);
   margin-bottom: 4px;
   border-radius: var(--border-radius);
+  background-size: cover;
+}
+
+.thumb-preview {
+  width: var(--vid-width);
+  height: var(--vid-height);
+  border-radius: var(--border-radius);
+  background-size: cover;
+}
+
+.details a {
+  color: var(--color);
 }
 
 .duration {
@@ -75,15 +97,17 @@ layout: page.njk
 
 .title {
   margin: 0;
-  color: var(--color);
   font-size: 14px;
 }
 
-.author {
+.page-title {
   margin: 0;
-  color: var(--muted-color);
-  font-size: 14px;    
 }
+
+.page-desc {
+  font-size: 14px;
+}
+
 </style>
 
 <script src="/js/axios.min.js"></script>
@@ -114,9 +138,6 @@ Vue.component('vid', {
   },
 
   computed: {
-    filename() {
-      return (this.isScrubbing) ? `${this.video.filename}-sprite.jpg` : `${this.video.filename}.jpg`;
-    },
     imgNum() {
       if (this.isScrubbing) {
         let scrubPercent = (this.mouseX - this.thumbX) / this.thumbWidth;
@@ -125,11 +146,8 @@ Vue.component('vid', {
           (100 / previewFrameCount) + 1)
         );
       } else {
-        return 0;
+        return 1;
       }
-    },
-    imgCount() {
-      return previewFrameCount;
     },
   },
 

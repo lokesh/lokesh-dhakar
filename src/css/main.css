@@ -140,6 +140,19 @@ pre {
   margin-bottom: 64px;
 }
 
+/* Page ------------ */
+.page-tag {
+  display: inline-block;
+  padding: 1px 4px 2px;
+  margin-bottom: 4px;
+  color: #fff;
+  background-color: #000;
+  border-radius: var(--border-radius);
+  font-weight: 800;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
 /* Posts ------------ */
 
 .post,

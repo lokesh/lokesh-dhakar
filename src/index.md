@@ -2,8 +2,10 @@
 date: 2018-07-08
 layout: page.njk
 ---
- 
-<h1 class="name">Lokesh Dhakar</h1>
+
+<div class="page-tag">Home</div> 
+
+<h1 class="page-title">Lokesh Dhakar</h1>
 
 I work on the Design Engineering team at [Weebly](//weebly.com) in San Francisco. We are now a part of <a href="//square.com">Square</a>.
 
@@ -14,14 +16,14 @@ I created the original [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) s
 I take photos on [Instagram](https://instagram.com/lokesh), post designs on [Dribbble](https://dribbble.com/lokesh), and track my runs and bike rides on [Strava](https://www.strava.com/athletes/1136437).
 
 <style>
-.name {
+.page-title {
   margin-top: 0;
-  font-size: 22px;
+/*  font-size: 22px;
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: uppercase;*/
 }
 .page {
-  font-weight: 700;
+  font-weight: 600;
   max-width: var(--text-max-width);
 }
 </style>
