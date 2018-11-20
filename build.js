@@ -37,7 +37,9 @@ var siteBuild = metalsmith(__dirname)
 
   .use(markdown())
   .use(permalinks({
-    'pattern': ':title'
+    'pattern': ':title',
+    // https://github.com/segmentio/metalsmith-permalinks/issues/39#issuecomment-166571578
+    'relative': false,
   }))
   .use(layouts({
     directory: 'src/layouts',
