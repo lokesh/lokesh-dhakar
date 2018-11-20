@@ -1,5 +1,17 @@
 [
   {
+    "id": 1951512028,
+    "name": "💪Fort Mason workout",
+    "distance": "8.0",
+    "distancePercent": 30.656358092366414,
+    "elevation": 704.396348,
+    "pace": 8.030412659100922,
+    "paceFormatted": "8:01",
+    "date": "Nov 6",
+    "year": 2018,
+    "startDate": "2018-11-07T06:56:31Z"
+  },
+  {
     "id": 1943744418,
     "name": "Hopper’s Hands Half",
     "distance": "13.2",

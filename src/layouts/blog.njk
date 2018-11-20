@@ -2,9 +2,8 @@
 
 {% block main %}
   <div class="page">
-    <header>
-      <h1>Blog posts</h1>
-    </header>
+
+    {{ contents | safe }}
 
     <ul class="archive">
       {% for post in collections.posts %}
@@ -24,7 +23,5 @@
       {% endfor %}
     </ul>
   </div>
-
-  {{ contents | safe }}
 
 {% endblock %}

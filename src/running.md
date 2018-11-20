@@ -1,14 +1,16 @@
 ---
-title: "Boston Marathon qualifying" 
 date: 2018-09-03
-layout: post.njk
-permalink: 'boston-marathon-qualifying'
+layout: page.njk
 ---
 
-## Tracking my progress
+<div class="page-tag">Running</div>
+
+<h1 class="page-title">Boston Marathon qualifying</h1>
+
+<h2 class="page-subtitle">Tracking my progress</h2>
 
 In the chart below, you can see all my recent runs. The goal is to complete a marathon distance (26.2mi) run at a 7:15/mi pace.
-  
+
 <div class="legend">
   <div class="color-info">
       <div class="swatch" style="background-color: #58DF82"></div>7:15/mi or faster pace
@@ -35,7 +37,7 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
         appear-to-class="slide-end"
       >
         <div>
-          <div 
+          <div
             v-if="hasComment(run.id)"
             class="comment"
             :style="getTransition(index)"
@@ -72,7 +74,7 @@ In the back-of-my-mind, I've always thought I'd like to run a marathon someday. 
 **Learning about qualifying.** For a race, I assumed you would register on a website, pay a fee, and then show up at the race. I was unaware that you had to qualify. I was also unaware about how difficult qualifying would be.
 
 For my age group, 35-39 years old, qualifying for the Boston Marathon requires a sub 3hr 10min time. This means
-keeping a 7:15/mi pace for 26.2 miles. 
+keeping a 7:15/mi pace for 26.2 miles.
 
 I'm not there yet. A little slow. And having some knee and hip pain when I ramp up the miles. But I'll get there. And having this lofty goal has helped me focus.
 
@@ -89,6 +91,14 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 
 <style>
+.page-title {
+  margin-bottom: 0;
+}
+
+.page-subtitle {
+  margin-top: 0;
+}
+
 .slide-start .run,
 .slide-start .comment {
   opacity: 0;
@@ -225,26 +235,26 @@ let MAX_ELEVATION_PER_MILE = 100;
 
 var app = new Vue({
   el: '#runs',
-  
+
   data() {
     return {
       runs: [],
       comments: {
         1830959635: `<em>Sep 21, 2018</em> I'm having some pain in my left ankle which
            started the day after a hard effort up a steep hill. The ankle pain goes in and out,
-          but has lingered for over a week now. I'm pausing my running for a couple of weeks to 
+          but has lingered for over a week now. I'm pausing my running for a couple of weeks to
           recover.`,
         1735738378: `<em>Jul 29, 2018</em> I attemped my first half-marathon, the SF Half. Unfortunately I had knee pain
-          that started just a mile in. The likelihood of me finishing was slim, and injury high, 
+          that started just a mile in. The likelihood of me finishing was slim, and injury high,
           so I cut my losses after finishing five miles.
           <br><br>
-          Over the next couple weeks I focused on strenghtening the muscles around 
+          Over the next couple weeks I focused on strenghtening the muscles around
           the IT Band. It seems to have worked as the knee pain did not come back.
           `
       }
     };
   },
-  
+
   computed: {
     flatRuns() {
       return this.runs.filter(run => {
@@ -268,7 +278,7 @@ var app = new Vue({
       let paceColor;
       if (pace > 8) {
         paceColor = '#FCA469';
-      } else if (pace > 7.25) {
+      } else if (pace > 7.27) {
         paceColor = '#F6DC58';
       } else {
         paceColor = '#58DF82';

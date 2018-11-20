@@ -3,7 +3,7 @@ date: 2018-10-03
 layout: page.njk
 ---
 
-<div class="page-tag" style="margin-bottom: 8px;">Notes</div> 
+<div class="page-tag" style="margin-bottom: 12px;">Notes</div> 
 
 <div class="notes">
 

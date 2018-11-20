@@ -39,12 +39,12 @@ layout: page.njk
       </div>
     </a>
     <div class="details">
-      <div class="duration">{{ video.duration }}</div>
       <a :href="`https://www.youtube.com/watch?v=${video.id}`">
         <h2 class="title">
           {{ video.customTitle }}
         </h2>
       </a>
+      <div class="duration">{{ video.duration }}</div>
     </div>
   </article>
 </script>
@@ -88,11 +88,9 @@ layout: page.njk
 }
 
 .duration {
-  float: right;
-  margin-left: 4px;
-  color: var(--primary-color);
-  font-weight: 600;
-  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .title {
@@ -101,7 +99,7 @@ layout: page.njk
 }
 
 .page-title {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .page-desc {

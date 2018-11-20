@@ -16,12 +16,6 @@ I created the original [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) s
 I take photos on [Instagram](https://instagram.com/lokesh), post designs on [Dribbble](https://dribbble.com/lokesh), and track my runs and bike rides on [Strava](https://www.strava.com/athletes/1136437).
 
 <style>
-.page-title {
-  margin-top: 0;
-/*  font-size: 22px;
-  font-weight: 800;
-  text-transform: uppercase;*/
-}
 .page {
   font-weight: 600;
   max-width: var(--text-max-width);
