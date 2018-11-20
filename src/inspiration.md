@@ -8,7 +8,7 @@ layout: page.njk
     <div>
       <div class="page-tag">Inspiration</div>
       <h2 class="page-title">Other people making things</h2>
-      <p class="page-desc">Process videos of creatives at work that I've enjoyed.</p>
+      <p class="page-desc">Videos of creatives at work. The process is the focus, and the backstory optional.</p>
     </div>
     <vid
       v-for="(video, index) in videos"

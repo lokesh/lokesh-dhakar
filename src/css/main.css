@@ -116,6 +116,10 @@ pre {
   border-radius: var(--border-radius);
 }
 
+.nav__divider {
+  display: none;
+}
+
 @media (min-width: 700px) {
   .nav {
     position: fixed;
@@ -126,6 +130,13 @@ pre {
 
   .nav__item {
     display: block;
+  }
+
+  .nav__divider {
+    display: block;
+    width: 24px;
+    margin: 6px 4px;
+    border-bottom: 1px solid var(--border-color);
   }
 }
 
