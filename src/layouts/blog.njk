@@ -5,19 +5,64 @@
 
     {{ contents | safe }}
 
+
+    {# Show recent posts #}
+
+    <h2>Newest</h2>
+
+    <div class="postcards">
+      {% for post in collections.posts %}
+        {% if post.date | isLessThanYearOld %}
+          <a href="/{{ post.path }}/" class="postcard">
+            {% if post.draft %}
+              <div class="postcard__draft-label">DRAFT</div>
+            {% endif %}
+            <h3 class="postcard__title">
+              {{ post.title }}
+            </h3>
+            <div class="postcard__date">{{ post.date | date }}</div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <h2>Highlights from the past</h2>
+
+    <div class="postcards">
+      {% for post in collections.posts %}
+        {% if post.highlight %}
+          <a href="/{{ post.path }}/" class="postcard">
+            {% if post.draft %}
+              <div class="postcard__draft-label">DRAFT</div>
+            {% endif %}
+            <h3 class="postcard__title">
+              {{ post.title }}
+            </h3>
+            <div class="postcard__date">{{ post.date | date }}</div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <h2>The full archives</h2>
+
     <ul class="archive">
+
       {% for post in collections.posts %}
         {% if not post.draft %}
         <li class="archive__post">
+
           {% if post.draft %}
             <span class="archive__draft-label">DRAFT</span>
           {% endif %}
 
-          <a href="/{{ post.path }}/" class="archive__post-title">
+          <a href="/{{ post.path }}/" class="postcard__title">
             {{ post.title }}
           </a>
-<!--           <span class="archive__post-date">{{ post.date | date }}</span> -->
 
+           {{ post.highlight }}
+
+          <span class="postcard__date">{{ post.date | date }}</span>
         </li>
         {% endif %}
       {% endfor %}

@@ -4,6 +4,7 @@ date: 2007-09-20
 comments: true
 sharing: true
 layout: post.njk
+highlight: true
 ---
 
 <style>

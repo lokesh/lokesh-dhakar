@@ -9,24 +9,44 @@ layout: blog.njk
 
 
 <style>
-.archive {
-  padding-left: 4px ;
+
+.postcards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  margin-bottom: 48px;
 }
 
-.archive__post {
-
+.postcard {
+  display: block;
+  padding: 16px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
 }
 
-.archive__draft-label {
-  font-weight: bold;
+.postcard:hover {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+
+.postcard__draft-label {
+  float: right;
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: 700;
   color: var(--secondary-color);
 }
 
-.archive__post-title {
-  font-weight: bold;
+.postcard__title {
+  margin: 0 0 4px 0;
+  color: var(--color);
+  font-weight: 700;
 }
 
-.archive__post-date {
+.postcard__date {
   color: var(--muted-color);
+  font-weight: 600;
 }
 </style>

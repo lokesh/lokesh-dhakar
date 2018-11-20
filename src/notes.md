@@ -67,12 +67,17 @@ layout: page.njk
 <style>
 
 .note {
-  width: 320px;
   padding: 16px;
   margin-bottom: 16px;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   font-size: 14px;
+}
+
+@media (min-width: 480px) {
+  .note {
+    width: 320px;
+  }
 }
 
 .note a {

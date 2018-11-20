@@ -47,8 +47,14 @@ var siteBuild = metalsmith(__dirname)
       filters: {
         date: function(date) {
           return new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-        }
-      }
+        },
+        isLessThanYearOld: function(date) {
+          const now = new Date();
+          let diff = now.getTime() - date.getTime();
+          let diffDays = Math.ceil(diff / (1000 * 3600 * 24));
+          return (diffDays <= 365)
+        },
+      },
     }
   }))
   .use(serve())

@@ -3,6 +3,7 @@ title: "Coffee drinks illustrated"
 date: 2007-08-20
 comments: true
 layout: post.njk
+highlight: true
 ---
 ## Side-by-side diagrams of a few common espresso drinks ##
 
