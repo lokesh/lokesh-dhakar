@@ -3,9 +3,24 @@ date: 2018-10-03
 layout: page.njk
 ---
 
+<!--
+Italicize names of books, movies, and other long form works.
+-->
+
 <div class="page-tag" style="margin-bottom: 12px;">Notes</div> 
 
 <div class="notes">
+
+
+<div class="note movie">
+  <div class="tag">Movie</div>
+  <h2 class="title">Salad Days: A Decade Of Punk In Washington, DC (1980-90)</h2>
+  <div class="meta">2015 | Directed by Scott Crawford</div>
+  <p>A look at the people and the city from which which sprung out <a href="https://www.youtube.com/watch?v=SGJFWirQ3ks">Fugazi</a>, <a href="https://www.youtube.com/watch?v=thnb3UlH2zE">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin' to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.</p>
+
+  <p class="date">- Nov. 21, 2018</p> 
+</div>
+
 
 <div class="note movie">
   <div class="tag">Movie</div>
@@ -21,7 +36,7 @@ layout: page.njk
  <p>Though the term _slacker_ has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn't helping them, and they don't see what it offers.</i>
   </p>
 
-  <p>"Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost." - Eleanor Capaldi</p> 
+  <p>_"Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost." - Eleanor Capaldi_</p> 
 
   <p class="date">- Oct. 4, 2018</p> 
 </div>
@@ -37,8 +52,6 @@ layout: page.njk
   <p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>
 
   <p>_What does it mean to be human?_ This is the overarching question in the movie. It plays out between humans and replicants. Replicants are 'robots' created by humans that are virtually identical to humans, but treated as property. Through out the movie, it's not clear if Deckard, Harrison Ford's character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard's humanity doesn't matter. If as viewers, we can't tell if he is a replicant or not, does it matter if he is or not?</p>
-
-  <p><i><i>_More Human than human._ With AI getting more advanced, the question of 'What does it mean to be human?' will become important. If Siri is able to emote, show empathy, and collect memories, how does that change how we think about her?</i></i></p>
 
   <p class="date">- Oct. 19, 2018</p> 
 </div>
@@ -74,7 +87,7 @@ layout: page.njk
   font-size: 14px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 880px) {
   .note {
     width: 320px;
   }
@@ -93,13 +106,10 @@ layout: page.njk
 }
 
 .tag {
-  display: none;
-  padding: 1px 4px 2px 4px;
-  margin-bottom:  4px;
-  color: var(--muted-colo);
-  background-color: #f3f3f3;
+  margin-bottom: 2px;
+  color: var(--secondary-color);
   font-size: 11px;
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   border-radius: var(--border-radius);
 }
@@ -127,12 +137,12 @@ layout: page.njk
 
 
 i {
-  background: #ffb;
+  /*background: #ffb;*/
   font-style: normal;
 }
 
 i i {
-  background: #ffb;
+  /*background: #ffb;*/
 }
 </style>
 
