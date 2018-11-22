@@ -41,15 +41,15 @@ hr {
 
 
 h1 {
-  margin-top: 24px;
+  margin-top: 8px;
   margin-bottom: 20px;
   font-size: 32px;
 }
 
 h2 {
   font-size: 20px;
-  line-height: 1.3em;
-  margin-top: 20px;
+  line-height: 1.2em;
+  margin-top: 8px;
 }
 
 h3 {
@@ -149,6 +149,15 @@ pre {
   position: relative;
   margin-top: 24px;
   margin-bottom: 64px;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+@media (min-width: 700px) {
+  .post,
+  .page {
+    margin-left: var(--nav-width);
+  }
 }
 
 /* Page ------------ */
@@ -170,20 +179,9 @@ pre {
 
 /* Posts ------------ */
 
-.post,
-.page {
-  padding-left: var(--gutter);
-  padding-right: var(--gutter);
+.post__title {
+  margin-bottom: 8px;
 }
-
-
-@media (min-width: 700px) {
-  .post,
-  .page {
-    margin-left: var(--nav-width);
-  }
-}
-
 
 .post__content > p,
 .post__content > h2,
