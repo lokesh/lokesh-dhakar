@@ -15,7 +15,7 @@ let videos = JSON.parse(fs.readFileSync(videosFilePath, 'utf-8'))
 // Add video obj to JSON file if it doesn't exist
 let index = videos.findIndex(video => video.id == id);
 if (index === -1) {
-  videos.push(
+  videos.unshift(
   {
     id,
     filename,

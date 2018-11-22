@@ -8,7 +8,8 @@ layout: page.njk
     <div>
       <div class="page-tag">Inspiration</div>
       <h2 class="page-title">Other people making things</h2>
-      <p class="page-desc">Videos of creatives at work. The process is the focus, and the backstory optional.</p>
+      <p class="page-desc">Videos of creatives at work. With a focus on process, not backstory. Simple shooting and editing preferred.</p>
+      <div class="sort-options">Sort by: <a href="#">Date added</a> or <a href="#">Duration</a></div>
     </div>
     <vid
       v-for="(video, index) in videos"
@@ -103,7 +104,15 @@ layout: page.njk
 }
 
 .page-desc {
+  margin-top: 4px;
   font-size: 14px;
+}
+
+.sort-options {
+  font-size: 14px;
+  font-weight: 600;
+  font-size: 12px;
+
 }
 
 </style>
