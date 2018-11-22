@@ -12,7 +12,7 @@ layout: blog.njk
 
 .postcards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 400px));
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   margin-bottom: 48px;
