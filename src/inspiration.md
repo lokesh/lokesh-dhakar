@@ -9,7 +9,23 @@ layout: page.njk
       <div class="page-tag">Inspiration</div>
       <h2 class="page-title">Other people making things</h2>
       <p class="page-desc">Videos of creatives at work. With a focus on process, not backstory. Simple shooting and editing preferred.</p>
-      <div class="sort-options">Sort by: <a href="#">Date added</a> or <a href="#">Duration</a></div>
+      <div class="sort-options">
+        Sort by:
+        <button
+          class="sort-option first"
+          :class="{'active': sortedBy === 'date'}"
+          @click="sortBy('date')"
+        >
+          Date added
+        </button><!-- Keep comments here to remove space between buttons.
+        --><button
+          class="sort-option last"
+          :class="{'active': sortedBy === 'duration'}"
+          @click="sortBy('duration')"
+        >
+          Duration
+        </button>
+      </div>
     </div>
     <vid
       v-for="(video, index) in videos"
@@ -109,10 +125,37 @@ layout: page.njk
 }
 
 .sort-options {
-  font-size: 14px;
   font-weight: 600;
   font-size: 12px;
+}
 
+.sort-option {
+/*  padding: 0;*/
+  /*border: none;*/
+  /*color: var(--link-color);*/
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: var(--border-radius);
+}
+
+.sort-option.first {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.sort-option.last {
+  position: relative;
+  left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.sort-option:hover {
+  background-color: #f3f3f3;
+}
+
+.sort-option.active {
+  background-color: #e3e3e3;
 }
 
 </style>
@@ -191,15 +234,42 @@ Vue.component('vid', {
 
 });
 
+function strToSeconds(str) {
+  let seconds = 0;
+  const splits = str.split(':');
+  const splitsLen = splits.length;
+  seconds = parseInt(splits[splitsLen - 1]);
+  // Minutes
+  if (splitsLen >= 2) {
+    seconds += parseInt(splits[splitsLen - 2], 10) * 60;
+  }
+  // Hours
+  if (splitsLen >= 3) {
+    seconds += parseInt(splits[splitsLen - 3], 10) * 3600;
+  }
+  return seconds;
+}
+
 new Vue({
   el: '#videos',
   
   data() {
     return {
       videos: [],
+      sortedBy: 'date',
     };
   },
   
+  watch: {
+    sortedBy(newVal, oldVal) {
+      // "21:14".split(':').length
+
+      this.videos.sort((a, b) => {
+        return (strToSeconds(b.duration) > strToSeconds(a.duration) ? -1 : 1);
+      })
+    },
+  },
+
   created() {
     axios.get('/data/inspiration-videos.json')
     .then((response) => {
@@ -209,5 +279,11 @@ new Vue({
       console.log(error);
     })
   },
+
+  methods: {
+    sortBy(field) {
+      this.sortedBy = field;
+    },
+  }
 });
 </script>

@@ -57,15 +57,17 @@ h3 {
   margin-top: 24px;
 }
 
-
 a {
   color: var(--link-color);
   text-decoration: none;
 }
 
-
 a:hover {
   text-decoration: underline;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 p {
