@@ -84,12 +84,12 @@ Italicize names of books, movies, and other long form works.
   margin-bottom: 16px;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  font-size: 14px;
 }
 
 @media (min-width: 880px) {
   .note {
     width: 320px;
+    font-size: 14px;
   }
 }
 
