@@ -8,7 +8,7 @@ layout: page.njk
     <div>
       <div class="page-tag">Inspiration</div>
       <h2 class="page-title">Other people making things</h2>
-      <p class="page-desc">Videos of creatives at work. With a focus on process, not backstory. Simple shooting and editing preferred.</p>
+      <p class="page-desc">Videos of creatives at work.<br>With a focus on process, not backstory. Simple shooting and editing preferred.</p>
       <div class="sort-options">
         Sort by:
         <button
@@ -130,10 +130,25 @@ layout: page.njk
 }
 
 .sort-option {
+  padding: 6px 12px;
+  margin: 0;
   font-weight: 600;
   font-size: 12px;
+  border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
+  background-color: transparent;
+  text-decoration: none; /* Removes underlines on <a> buttons */
+  cursor: pointer;
+  appearance: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
   outline: none;
+}
+
+@media (min-width: 700px) {
+  .sort-option {
+    padding: 4px 8px;
+  }
 }
 
 .sort-option.first {
@@ -150,12 +165,16 @@ layout: page.njk
 
 .sort-option:hover,
 .sort-option:focus {
-  background-color: #f3f3f3;
+  background-color: #eee;
+}
+
+.sort-option:active {
+  color: var(--color);
 }
 
 .sort-option.active,
 .sort-option.active:focus {
-  background-color: #e3e3e3;
+  background-color: #ddd;
 }
 
 </style>
@@ -274,7 +293,7 @@ new Vue({
     },
   },
 
-  created() {
+  mounted() {
     axios.get('/data/inspiration-videos.json')
     .then((response) => {
       this.videos = response.data;
