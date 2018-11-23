@@ -130,12 +130,10 @@ layout: page.njk
 }
 
 .sort-option {
-/*  padding: 0;*/
-  /*border: none;*/
-  /*color: var(--link-color);*/
   font-weight: 600;
   font-size: 12px;
   border-radius: var(--border-radius);
+  outline: none;
 }
 
 .sort-option.first {
@@ -150,11 +148,13 @@ layout: page.njk
   border-bottom-left-radius: 0;
 }
 
-.sort-option:hover {
+.sort-option:hover,
+.sort-option:focus {
   background-color: #f3f3f3;
 }
 
-.sort-option.active {
+.sort-option.active,
+.sort-option.active:focus {
   background-color: #e3e3e3;
 }
 
@@ -261,12 +261,16 @@ new Vue({
   },
   
   watch: {
-    sortedBy(newVal, oldVal) {
-      // "21:14".split(':').length
-
-      this.videos.sort((a, b) => {
-        return (strToSeconds(b.duration) > strToSeconds(a.duration) ? -1 : 1);
-      })
+    sortedBy(newVal) {
+      if (newVal === 'date') {
+        this.videos.sort((a, b) => {
+          return (new Date(a.dateAdded).getTime() > new Date(b.dateAdded).getTime() ? -1 : 1);
+        })
+      } else if (newVal === 'duration') {
+        this.videos.sort((a, b) => {
+          return (strToSeconds(b.duration) > strToSeconds(a.duration) ? -1 : 1);
+        })
+      }
     },
   },
 
