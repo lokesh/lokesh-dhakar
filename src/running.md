@@ -23,44 +23,42 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
   </div>
 </div>
 
-<div class="center center--960">
-  <div id="runs" class="runs">
-    <div class="distance-goal">26.2mi</div>
-    <div v-for="(run, index) in flatRuns">
-      <h3 v-if="index === 0 || (index > 0 && run.year !== flatRuns[index - 1].year)">
-        {{ run.year }}
-      </h3>
+<div id="runs" class="runs">
+  <div class="distance-goal">26.2mi</div>
+  <div v-for="(run, index) in flatRuns">
+    <h3 v-if="index === 0 || (index > 0 && run.year !== flatRuns[index - 1].year)">
+      {{ run.year }}
+    </h3>
 
-      <transition
-        appear
-        appear-class="slide-start"
-        appear-to-class="slide-end"
-      >
-        <div>
-          <div
-            v-if="hasComment(run.id)"
-            class="comment"
-            :style="getTransition(index)"
-          >
-            <div class="comment-icon">🤕</div>
-            <div class="comment-text" v-html="comments[run.id]"></div>
+    <transition
+      appear
+      appear-class="slide-start"
+      appear-to-class="slide-end"
+    >
+      <div>
+        <div
+          v-if="hasComment(run.id)"
+          class="comment"
+          :style="getTransition(index)"
+        >
+          <div class="comment-icon">🤕</div>
+          <div class="comment-text" v-html="comments[run.id]"></div>
+        </div>
+        <div class="run" :style="getTransition(index)">
+          <div class="run-name">
+            <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
           </div>
-          <div class="run" :style="getTransition(index)">
-            <div class="run-name">
-              <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
-            </div>
-            <div class="run-metrics">
-              {{ run.paceFormatted }}/mi • {{ run.distance }}mi
-            </div>
-            <div class="distance-bar" :style="`
-              width: ${run.distancePercent}%;
-              background-color: ${getPaceColor(run.pace)};
-            `">
-            </div>
+          <div class="run-metrics">
+            {{ run.paceFormatted }}/mi • {{ run.distance }}mi
+          </div>
+          <div class="distance-bar" :style="`
+            width: ${run.distancePercent}%;
+            background-color: ${getPaceColor(run.pace)};
+          `">
           </div>
         </div>
-      </transition>
-    </div>
+      </div>
+    </transition>
   </div>
 
 </div>

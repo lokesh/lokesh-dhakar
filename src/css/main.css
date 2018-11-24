@@ -194,15 +194,15 @@ pre {
   max-width: var(--text-max-width);
 }
 
-.post__content > .center {
+.post__content > .col {
  max-width: var(--text-max-width);
 }
 
-.post__content > .center--720 {
+.col--720 {
   max-width: 720px;
 }
 
-.post__content > .center--960 {
+.col--960 {
   max-width: 960px;
 }
 
