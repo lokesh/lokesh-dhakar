@@ -16,55 +16,71 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
 <section class="drinks">
 
   <figure class="drink">
-    <img src="/media/posts/coffee-drinks-illustrated/espresso.svg" alt="Espresso" />
+    <div class="img-wrapper">
+      <img src="/media/posts/coffee-drinks-illustrated/espresso.svg" alt="Espresso" />
+    </div>
     <figcaption><h2>Espresso</h2></figcaption>
   </figure>
 
   <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_macchiato.svg" alt="Americano " />
+    <div class="img-wrapper">
+      <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_macchiato.svg?2" alt="Espresso Macchiato ingredients" />
+    </div>
     <figcaption><h2>Espresso Macchiato</h2></figcaption>
     <p class="ingredients">Milk foam, Espresso</p>
   </figure>
 
   <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_con_panna.svg" alt="Americano " />
+    <div class="img-wrapper">
+      <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_con_panna.svg?2" alt="Espresso con Panna ingredients" />
+    </div>
     <figcaption><h2>Espresso con Panna</h2></figcaption>
     <p class="ingredients">Whipped Cream, Espresso</p>
   </figure>
 
 
   <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_latte.svg" alt="Americano " />
+    <div class="img-wrapper">
+      <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_latte.svg?2" alt="Caffé Latte ingredients " />
+    </div>
     <figcaption><h2>Caffé Latte</h2></figcaption>
     <p class="ingredients">Milk Foam, Steamed Milk, Espresso</p>
   </figure>
 
   <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/flat_white.svg" alt="Americano " />
+    <div class="img-wrapper">
+      <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/flat_white.svg?2" alt="Flat White ingredients" />
+    </div>
     <figcaption><h2>Flat White</h2></figcaption>
     <p class="ingredients">Steamed Milk, Espresso</p>
   </figure>
 
   <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cafe_breve.svg" alt="Americano " />
+    <div class="img-wrapper">
+      <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cafe_breve.svg?2" alt="Cafe Breve ingredients" />
+    </div>
     <figcaption><h2>Cafe Breve</h2></figcaption>
     <p class="ingredients">Milk Foam, Steamed Half-and-half, Espresso</p>
   </figure>
 
  <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cappuccino.svg" alt="Americano " />
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cappuccino.svg?2" alt="Cappuccino ingredients" />
     <figcaption><h2>Cappuccino</h2></figcaption>
     <p class="ingredients">Milk Foam, Steamed Milk, Espresso</p>
   </figure>
 
   <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_mocha.svg" alt="Americano " />
+    <div class="img-wrapper">
+      <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_mocha.svg?2" alt="Caffe Mocha ingredients " />
+    </div>
     <figcaption><h2>Caffé Mocha</h2></figcaption>
     <p class="ingredients">Steamed Milk, Espresso</p>
   </figure>
 
   <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/americano.svg" alt="Americano " />
+    <div class="img-wrapper">
+      <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/americano.svg?2" alt="Americano ingredients" />
+    </div>
     <figcaption><h2>Americano</h2></figcaption>
     <p class="ingredients">Water, Espresso</p>
   </figure>
@@ -82,7 +98,7 @@ I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and
 <style>
 .drinks {
   display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 1fr));
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
   grid-column-gap: 8px;
   grid-row-gap: 16px;
 }
@@ -97,9 +113,12 @@ I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and
   text-align: center;
 }
 
+.img-wrapper {
+  padding: 0 16px;
+}
+
 .drink img {
   width: 100%;
-  padding: 0 16px;
 }
 
 .drink h2 {
