@@ -12,6 +12,11 @@ highlight: true
   float: right;
 }
 
+.intro-illustration img {
+  width: 100px;
+  margin: 0 0 8px 8px;
+}
+
 @media (min-width: 800px) {
   .intro-illustration {
     position: absolute;
@@ -34,6 +39,7 @@ highlight: true
 }
 
 .pitch__figure {
+  /*width: 160px;*/
   margin-right: 16px;
 }
 
@@ -51,7 +57,7 @@ highlight: true
 </style>
 
 <figure class="intro-illustration">
-  <img src="/media/posts/baseball-pitches-illustrated/spitball.png" alt="spitball" />
+  <img src="/media/posts/baseball-pitches-illustrated/bloop_curve.svg" alt="Arc of a bloop curve pitch" />
 </figure>
 
 ## A fan's guide to identifying pitches.
@@ -82,7 +88,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 
 
 <div class="pitch" id="fourseam">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/four_seam_fastball.png" alt="four seam fastball pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/four_seam_fastball.svg" alt="four seam fastball pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Four-seam Fastball</h3>
     <h4 class="pitch__speed" style="color:#ef4029;">
@@ -95,7 +101,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="twoseam">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/two_seam_fastball.png" alt="two seam fastball pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/two_seam_fastball.svg" alt="two seam fastball pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Two-seam Fastball</h3>
     <h4 class="pitch__speed" style="color:#f1572a;">80-90 mph</h4>
@@ -107,7 +113,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="cutter">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/cutter.png" alt="cutter pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/cutter.svg" alt="cutter pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Cutter</h3>
     <h4 class="pitch__speed" style="color:#ef4029;">85-95 mph</h4>
@@ -117,7 +123,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="splitter">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/splitter.png" alt="splitter pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/splitter.svg" alt="splitter pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Splitter</h3>
     <h4 class="pitch__speed" style="color:#f1572a;">80-90 mph</h4>
@@ -128,7 +134,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="forkball">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/forkball.png" alt="forkball pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/forkball.svg" alt="forkball pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Forkball</h3>
     <h4 class="pitch__speed" style="color: #f36e27;">75-85 mph</h4>
@@ -139,7 +145,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="curveball">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/curveball.png" alt="curveball pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/curveball.svg" alt="curveball pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Curveball</h3>
     <h4 class="pitch__speed" style="color: #f68727;">70-80 mph</h4>
@@ -150,7 +156,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="slider">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/slider.png" alt="slider pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/slider.svg" alt="slider pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Slider</h3>
     <h4 class="pitch__speed" style="color: #f1572a;">80-90 mph</h4>
@@ -161,7 +167,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="slurve">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/slurve.png" alt="slurve pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/slurve.svg" alt="slurve pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Slurve</h3>
     <h4 class="pitch__speed" style="color: #f68727;">70-80 mph</h4>
@@ -172,7 +178,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="screwball">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/screwball.png" alt="screwball pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/screwball.svg" alt="screwball pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">Screwball</h3>
     <h4 class="pitch__speed" style="color: #f9a024;">
@@ -185,7 +191,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="changeup">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/changeup.png" alt="changeup pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/changeup.svg" alt="changeup pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">
       Changeup
@@ -200,7 +206,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="palmball">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/palmball.png" alt="palmball pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/palmball.svg" alt="palmball pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">
       Palmball
@@ -215,7 +221,7 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 </div>
 
 <div class="pitch" id="circle">
-  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/circle_change.png" alt="circle changeup pitch diagram" />
+  <img class="pitch__figure" src="/media/posts/baseball-pitches-illustrated/circle_change.svg" alt="circle changeup pitch diagram" />
   <div class="pitch__body">
     <h3 class="pitch__title">
     Circle Changeup
