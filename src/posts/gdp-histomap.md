@@ -6,7 +6,7 @@ layout: post.njk
 
 <button class="button-text" id="histomap-customize-button">Customize chart&hellip;</button>
 
-<div id="histomap-form" class="center">
+<div id="histomap-form" class="col--720">
 
   <div class="histomap-form-row">
     <div class="histomap-form-row-label">
@@ -47,7 +47,7 @@ layout: post.njk
 </h2>
 
 
-<div class="center--720">
+<div class="col--720">
 
 <svg id="histomap">
   <g id="chart-group"></g>

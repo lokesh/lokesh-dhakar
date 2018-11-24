@@ -88,7 +88,7 @@ Italicize names of books, movies, and other long form works.
 
 @media (min-width: 880px) {
   .note {
-    width: 320px;
+    width: 352px;
     font-size: 14px;
   }
 }

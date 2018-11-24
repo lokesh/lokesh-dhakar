@@ -39,7 +39,6 @@ highlight: true
 }
 
 .pitch__figure {
-  /*width: 160px;*/
   margin-right: 16px;
 }
 
@@ -237,13 +236,6 @@ Take note of the speed, movement, and break of the ball. Don't worry about where
 
 ### PDF Download
 
-I've collected all twelve of the pitch diagrams, minus the text notes, onto a single-page PDF:
-
-<figure class="figure">
-  <a href="/media/posts/baseball-pitches-illustrated/baseball_pitches.pdf" class="big-icon">
-    <img src="/media/posts/baseball-pitches-illustrated/baseball-pitches-pdf-icon.png" alt="thumbnail of baseball pitches pdf"  />
-  </a>
-</figure>
-
+All twelve pitch diagrams, minus the text notes, are collected onto a <a href="/media/posts/baseball-pitches-illustrated/baseball_pitches.pdf" class="big-icon">single page PDF</a>.
 
  [1]: #fourseam

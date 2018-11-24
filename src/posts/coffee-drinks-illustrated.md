@@ -12,15 +12,115 @@ I'm new to the world of fancy coffee drinks. With the vast number of ordering op
 ### About espresso ###
 Espresso is prepared by forcing pressurized steam through finely ground dark-roast coffee beans. Think of it is strong, concentrated coffee. You can add extra 'shots' of espresso to make your drink stronger.
 
-<figure class="figure--coffee-drinks">
+
+<section class="drinks">
+
+  <figure class="drink">
+    <img src="/media/posts/coffee-drinks-illustrated/espresso.svg" alt="Espresso" />
+    <figcaption><h2>Espresso</h2></figcaption>
+  </figure>
+
+  <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_macchiato.svg" alt="Americano " />
+    <figcaption><h2>Espresso Macchiato</h2></figcaption>
+    <p class="ingredients">Milk foam, Espresso</p>
+  </figure>
+
+  <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_con_panna.svg" alt="Americano " />
+    <figcaption><h2>Espresso con Panna</h2></figcaption>
+    <p class="ingredients">Whipped Cream, Espresso</p>
+  </figure>
+
+
+  <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_latte.svg" alt="Americano " />
+    <figcaption><h2>Caffé Latte</h2></figcaption>
+    <p class="ingredients">Milk Foam, Steamed Milk, Espresso</p>
+  </figure>
+
+  <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/flat_white.svg" alt="Americano " />
+    <figcaption><h2>Flat White</h2></figcaption>
+    <p class="ingredients">Steamed Milk, Espresso</p>
+  </figure>
+
+  <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cafe_breve.svg" alt="Americano " />
+    <figcaption><h2>Cafe Breve</h2></figcaption>
+    <p class="ingredients">Milk Foam, Steamed Half-and-half, Espresso</p>
+  </figure>
+
+ <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cappuccino.svg" alt="Americano " />
+    <figcaption><h2>Cappuccino</h2></figcaption>
+    <p class="ingredients">Milk Foam, Steamed Milk, Espresso</p>
+  </figure>
+
+  <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_mocha.svg" alt="Americano " />
+    <figcaption><h2>Caffé Mocha</h2></figcaption>
+    <p class="ingredients">Steamed Milk, Espresso</p>
+  </figure>
+
+  <figure class="drink">
+    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/americano.svg" alt="Americano " />
+    <figcaption><h2>Americano</h2></figcaption>
+    <p class="ingredients">Water, Espresso</p>
+  </figure>
+
+</section>
+
+<!-- <figure class="figure--coffee-drinks">
   <img src="/media/posts/coffee-drinks-illustrated/coffee drinks.png" alt="Diagram of ingredients of nine popular espresso based coffee drinks including cappuccino and latte." />
 </figure>
-
+ -->
 ### About the diagrams ###
 I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and tidbits from other online sources. Know that drinks might be prepared a bit differently coffee shop to coffee shop, and especially country to country.
 
 
 <style>
+.drinks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 1fr));
+  grid-column-gap: 8px;
+  grid-row-gap: 16px;
+}
+
+@media (min-width: 600px) {
+  .drinks {
+    grid-template-columns: repeat(3, minmax(140px, 240px));
+  }
+}
+
+.drink {
+  text-align: center;
+}
+
+.drink img {
+  width: 100%;
+  padding: 0 16px;
+}
+
+.drink h2 {
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+@media (min-width: 600px) {
+  .drink h2 {
+    font-size: 18px;
+  }
+}
+
+.ingredients {
+  margin-top: 0;
+  color: var(--muted-color);
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .figure--coffee-drinks {
   display: table;
   max-width: 640px;
