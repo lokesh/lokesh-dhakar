@@ -45,6 +45,7 @@ layout: page.njk
         @mouseleave="onMouseleave"
         @mousemove="onMousemove"
       >
+        <div class="duration">{{ video.duration }}</div>
         <div
           v-if="isScrubbing"
           class="thumb-preview"
@@ -61,7 +62,6 @@ layout: page.njk
           {{ video.customTitle }}
         </h2>
       </a>
-      <div class="duration">{{ video.duration }}</div>
     </div>
   </article>
 </script>
@@ -85,6 +85,7 @@ layout: page.njk
 }
 
 .thumb {
+  position: relative;
   display: block;
   width: var(--vid-width);
   height: var(--vid-height);
@@ -105,9 +106,15 @@ layout: page.njk
 }
 
 .duration {
-  color: var(--secondary-color);
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  padding: 1px 4px 2px;
+  color: white;
+  background-color: #000;
   font-weight: 700;
   font-size: 12px;
+  border-radius: var(--border-radius);
 }
 
 .title {
