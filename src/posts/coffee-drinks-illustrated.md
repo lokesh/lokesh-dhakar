@@ -64,7 +64,9 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
   </figure>
 
  <figure class="drink">
-    <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cappuccino.svg?2" alt="Cappuccino ingredients" />
+    <div class="img-wrapper">
+        <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cappuccino.svg?2" alt="Cappuccino ingredients" />
+    </div>
     <figcaption><h2>Cappuccino</h2></figcaption>
     <p class="ingredients">Milk Foam, Steamed Milk, Espresso</p>
   </figure>
