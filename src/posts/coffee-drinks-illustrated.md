@@ -97,16 +97,17 @@ Each drink above is an individual image. I've also created a single image that c
 
 I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and tidbits from other online sources. Be aware that drinks might be prepared a bit differently coffee shop to coffee shop, and especially country to country.
 
-
-
-
 <style>
 .drinks {
+  /* Offset left to optically center */
+  position: relative;
+  left: -6px;
+
   display: grid;
   grid-template-columns: repeat(2, minmax(120px, 1fr));
   grid-column-gap: 8px;
   grid-row-gap: 16px;
-  margin: 24px;
+  margin: 24px 0;
 }
 
 @media (min-width: 600px) {
