@@ -9,7 +9,6 @@ layout: blog.njk
 
 
 <style>
-
 .postcards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 400px));

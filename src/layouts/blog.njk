@@ -8,8 +8,6 @@
 
     {# Show recent posts #}
 
-    <h2>Newest</h2>
-
     <div class="postcards">
       {% for post in collections.posts %}
         {% if post.date | isLessThanYearOld %}

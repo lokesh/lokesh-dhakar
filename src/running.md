@@ -90,11 +90,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 <style>
 .page-title {
-  margin-bottom: 0;
-}
-
-.page-subtitle {
-  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .slide-start .run,
