@@ -19,14 +19,14 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
       <img src="/media/posts/coffee-drinks-illustrated/espresso.svg" alt="Espresso" />
     </div>
-    <figcaption><h2>Espresso</h2></figcaption>
+    <h2>Espresso</h2>
   </figure>
 
   <figure class="drink">
     <div class="img-wrapper">
       <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_macchiato.svg?2" alt="Espresso Macchiato ingredients" />
     </div>
-    <figcaption><h2>Espresso Macchiato</h2></figcaption>
+    <h2>Espresso Macchiato</h2>
     <p class="ingredients">Milk foam, Espresso</p>
   </figure>
 
@@ -34,7 +34,7 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
       <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/espresso_con_panna.svg?2" alt="Espresso con Panna ingredients" />
     </div>
-    <figcaption><h2>Espresso con Panna</h2></figcaption>
+    <h2>Espresso con Panna</h2>
     <p class="ingredients">Whipped Cream, Espresso</p>
   </figure>
 
@@ -43,7 +43,7 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
       <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_latte.svg?2" alt="Caffé Latte ingredients " />
     </div>
-    <figcaption><h2>Caffé Latte</h2></figcaption>
+    <h2>Caffé Latte</h2>
     <p class="ingredients">Milk Foam, Steamed Milk, Espresso</p>
   </figure>
 
@@ -51,7 +51,7 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
       <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/flat_white.svg?2" alt="Flat White ingredients" />
     </div>
-    <figcaption><h2>Flat White</h2></figcaption>
+    <h2>Flat White</h2>
     <p class="ingredients">Steamed Milk, Espresso</p>
   </figure>
 
@@ -59,7 +59,7 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
       <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cafe_breve.svg?2" alt="Cafe Breve ingredients" />
     </div>
-    <figcaption><h2>Cafe Breve</h2></figcaption>
+    <h2>Cafe Breve</h2>
     <p class="ingredients">Milk Foam, Steamed Half-and-half, Espresso</p>
   </figure>
 
@@ -67,7 +67,7 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
         <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/cappuccino.svg?2" alt="Cappuccino ingredients" />
     </div>
-    <figcaption><h2>Cappuccino</h2></figcaption>
+    <h2>Cappuccino</h2>
     <p class="ingredients">Milk Foam, Steamed Milk, Espresso</p>
   </figure>
 
@@ -75,7 +75,7 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
       <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/caffe_mocha.svg?2" alt="Caffe Mocha ingredients " />
     </div>
-    <figcaption><h2>Caffé Mocha</h2></figcaption>
+    <h2>Caffé Mocha</h2>
     <p class="ingredients">Steamed Milk, Espresso</p>
   </figure>
 
@@ -83,18 +83,21 @@ Espresso is prepared by forcing pressurized steam through finely ground dark-roa
     <div class="img-wrapper">
       <img class="drink-img" src="/media/posts/coffee-drinks-illustrated/americano.svg?2" alt="Americano ingredients" />
     </div>
-    <figcaption><h2>Americano</h2></figcaption>
+    <h2>Americano</h2>
     <p class="ingredients">Water, Espresso</p>
   </figure>
 
 </section>
 
-<!-- <figure class="figure--coffee-drinks">
-  <img src="/media/posts/coffee-drinks-illustrated/coffee drinks.png" alt="Diagram of ingredients of nine popular espresso based coffee drinks including cappuccino and latte." />
-</figure>
- -->
+
+Each drink above is an individual image. I've also created a single image that contains all [nine coffee drinks](/media/posts/coffee-drinks-illustrated/9_coffee_drinks_illustrated.png) for convenient saving/sharing.
+
+
 ### About the diagrams ###
-I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and tidbits from other online sources. Know that drinks might be prepared a bit differently coffee shop to coffee shop, and especially country to country.
+
+I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and tidbits from other online sources. Be aware that drinks might be prepared a bit differently coffee shop to coffee shop, and especially country to country.
+
+
 
 
 <style>
@@ -103,6 +106,7 @@ I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and
   grid-template-columns: repeat(2, minmax(120px, 1fr));
   grid-column-gap: 8px;
   grid-row-gap: 16px;
+  margin: 24px;
 }
 
 @media (min-width: 600px) {
