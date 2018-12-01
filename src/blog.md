@@ -21,7 +21,7 @@ layout: blog.njk
   display: block;
   padding: 16px;
   border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-xl);
 }
 
 .postcard:hover {

@@ -18,7 +18,7 @@ Italicize names of books, movies, and other long form works.
   <div class="meta">2015 | Directed by Scott Crawford</div>
   <p>A look at the people and the city from which which sprung out <a href="https://www.youtube.com/watch?v=SGJFWirQ3ks">Fugazi</a>, <a href="https://www.youtube.com/watch?v=thnb3UlH2zE">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin' to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.</p>
 
-  <p class="date">- Nov. 21, 2018</p> 
+  <div class="date">- Nov. 21, 2018</div> 
 </div>
 
 
@@ -38,7 +38,7 @@ Italicize names of books, movies, and other long form works.
 
   <p>_"Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost." - Eleanor Capaldi_</p> 
 
-  <p class="date">- Oct. 4, 2018</p> 
+  <div class="date">- Oct. 4, 2018</div> 
 </div>
 
 
@@ -53,7 +53,7 @@ Italicize names of books, movies, and other long form works.
 
   <p>_What does it mean to be human?_ This is the overarching question in the movie. It plays out between humans and replicants. Replicants are 'robots' created by humans that are virtually identical to humans, but treated as property. Through out the movie, it's not clear if Deckard, Harrison Ford's character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard's humanity doesn't matter. If as viewers, we can't tell if he is a replicant or not, does it matter if he is or not?</p>
 
-  <p class="date">- Oct. 19, 2018</p> 
+  <div class="date">- Oct. 19, 2018</div> 
 </div>
 
 
@@ -72,7 +72,7 @@ Italicize names of books, movies, and other long form works.
 
   brings up the question which I have googled many times: What are the differences between Modernism and Post-Modernism?</p>
 
-  <p class="date">- Oct. 21, 2018</p> 
+  <div class="date">- Oct. 21, 2018</div> 
 </div>
 
 </div>
@@ -83,7 +83,7 @@ Italicize names of books, movies, and other long form works.
   padding: 16px;
   margin-bottom: 16px;
   border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-xl);
 }
 
 @media (min-width: 880px) {
@@ -98,6 +98,10 @@ Italicize names of books, movies, and other long form works.
   color: var(--color);
 }
 
+.note p:last-of-type{
+  margin-bottom: 8px;
+}
+
 .image {
   float: left;
   width: 120px;
@@ -106,6 +110,7 @@ Italicize names of books, movies, and other long form works.
 }
 
 .tag {
+  margin-top: -2px;
   margin-bottom: 2px;
   color: var(--secondary-color);
   font-size: 11px;

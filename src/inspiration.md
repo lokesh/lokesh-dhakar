@@ -74,30 +74,34 @@ layout: page.njk
 }
 
 .videos {
-  display: grid;
+/*  display: grid;
   grid-template-columns: repeat(auto-fill, var(--vid-width));
   grid-column-gap: 24px;
-  grid-row-gap: 24px;
+  grid-row-gap: 24px;*/
 }
 
 .vid {
-  width: var(--vid-width);
+  margin-bottom: 64px;
 }
+
+.thumb {
+  height: 220px;
+}
+
+
 
 .thumb {
   position: relative;
   display: block;
-  width: var(--vid-width);
-  height: var(--vid-height);
   margin-bottom: 4px;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-large);
   background-size: cover;
 }
 
 .thumb-preview {
   width: var(--vid-width);
   height: var(--vid-height);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-large);
   background-size: cover;
 }
 
@@ -113,13 +117,13 @@ layout: page.njk
   color: white;
   background-color: #000;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 16px;
   border-radius: var(--border-radius);
 }
 
 .title {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .page-title {
@@ -184,6 +188,34 @@ layout: page.njk
   background-color: #ddd;
 }
 
+
+@media (min-width: 520px) {
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--vid-width));
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+
+  .vid {
+    width: var(--vid-width);
+    height: var(--vid-height);
+    margin-bottom: 16px;
+  }
+
+  .thumb {
+    width: var(--vid-width);
+    height: var(--vid-height);
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .duration {
+      font-size: 12px;
+  }
+}
 </style>
 
 <script src="/js/axios.min.js"></script>
