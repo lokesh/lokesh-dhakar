@@ -5,10 +5,11 @@ layout: page.njk
 
 
 <section id="videos" class="videos">
-    <div>
+    <div class="intro">
       <div class="page-tag">Inspiration</div>
-      <h2 class="page-title">Other people making things</h2>
-      <p class="page-desc">Videos of creatives at work.<br>With a focus on process, not backstory. Simple shooting and editing preferred.</p>
+      <h1 class="page-title">Other people making things</h1>
+      <h2 class="page-subtitle">Videos of creatives at work.</h2>
+      <p class="page-desc">With a focus on process, not backstory. Simple shooting and editing preferred.</p>
       <div class="sort-options">
         Sort by:
         <button
@@ -58,9 +59,9 @@ layout: page.njk
     </a>
     <div class="details">
       <a :href="`https://www.youtube.com/watch?v=${video.id}`">
-        <h2 class="title">
+        <h3 class="title">
           {{ video.customTitle }}
-        </h2>
+        </h3>
       </a>
     </div>
   </article>
@@ -73,6 +74,10 @@ layout: page.njk
   --vid-height: 135px;
 }
 
+.intro {
+  margin-bottom: 16px;
+}
+
 .videos {
 /*  display: grid;
   grid-template-columns: repeat(auto-fill, var(--vid-width));
@@ -81,20 +86,19 @@ layout: page.njk
 }
 
 .vid {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 
 .thumb {
-  height: 220px;
+  height: 240px;
 }
-
-
 
 .thumb {
   position: relative;
   display: block;
   margin-bottom: 4px;
-  border-radius: var(--border-radius-large);
+  margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1);
   background-size: cover;
 }
 
@@ -123,28 +127,20 @@ layout: page.njk
 
 .title {
   margin: 0;
-  font-size: 16px;
 }
 
 .page-title {
   margin-bottom: 0;
 }
 
-.page-desc {
-  margin-top: 4px;
-  font-size: 14px;
-}
-
 .sort-options {
   font-weight: 600;
-  font-size: 12px;
 }
 
 .sort-option {
   padding: 6px 12px;
   margin: 0;
   font-weight: 600;
-  font-size: 12px;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   background-color: transparent;
@@ -154,12 +150,6 @@ layout: page.njk
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   outline: none;
-}
-
-@media (min-width: 700px) {
-  .sort-option {
-    padding: 4px 8px;
-  }
 }
 
 .sort-option.first {
@@ -190,6 +180,35 @@ layout: page.njk
 
 
 @media (min-width: 520px) {
+  .intro {
+    margin-bottom: 0;
+  }
+
+  .page-title {
+    font-size: 20px;
+  }
+
+  .page-subtitle {
+    margin-top: 4px;
+    margin-bottom: 1px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .page-desc {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  .sort-options {
+    font-size: 12px;
+  }
+
+  .sort-option {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
   .videos {
     display: grid;
     grid-template-columns: repeat(auto-fill, var(--vid-width));
@@ -206,6 +225,7 @@ layout: page.njk
   .thumb {
     width: var(--vid-width);
     height: var(--vid-height);
+    border-radius: var(--border-radius-large);
   }
 
   .title {
