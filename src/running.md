@@ -39,10 +39,11 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
         <div
           v-if="hasComment(run.id)"
           class="comment"
+          :class="`comment-${comments[run.id].type}`"
           :style="getTransition(index)"
         >
-          <div class="comment-icon">🤕</div>
-          <div class="comment-text" v-html="comments[run.id]"></div>
+          <div class="comment-icon"></div>
+          <div class="comment-text" v-html="comments[run.id].text"></div>
         </div>
         <div class="run" :style="getTransition(index)">
           <div class="run-name">
@@ -166,6 +167,33 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   content: ' -';
 }
 
+.comment-injury .comment-icon::after {
+  content: '🤕';
+}
+
+
+.comment.comment-achievement,
+.comment.comment-race {
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 12px;
+}
+.comment-achievement .comment-text,
+.comment-race .comment-text {
+  position: relative;
+  top: -1px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.comment-achievement .comment-icon::after {
+  content: '🏆';
+}
+
+.comment-race .comment-icon::after {
+  content: '🏁';
+}
+
 .run {
   position: relative;
   display: flex;
@@ -234,17 +262,43 @@ var app = new Vue({
     return {
       runs: [],
       comments: {
-        1830959635: `<em>Sep 21, 2018</em> I'm having some pain in my left ankle which
+        1774076006: {
+          type: 'achievement',
+          text: 'First mile under 5:30'
+        },
+        1798971397:{
+          type: 'race',
+          text: 'Race • Bridge to Bridge 5k'
+        },
+        1173566338: {
+          type: 'race',
+          text: 'Race • JP Morgan Corporate Challenge 5k'
+        },
+        657497518: {
+          type: 'achievement',
+          text: 'First mile under 6 minutes'
+        },
+        2018994853: {
+          type: 'injury',
+          text: `Arch pain on the bottom of my feet after the last run. Likely another overuse injury.`,
+        },
+        1830959635: {
+          type: 'injury',
+          text: `I'm having some pain in my left ankle which,
            started the day after a hard effort up a steep hill. The ankle pain goes in and out,
           but has lingered for over a week now. I'm pausing my running for a couple of weeks to
           recover.`,
-        1735738378: `<em>Jul 29, 2018</em> I attemped my first half-marathon, the SF Half. Unfortunately I had knee pain
+        },
+        1830959635: {
+          type: 'achievement',
+          text: `10 miles at 7:15/mi pace`,
+        },
+        1735738378: {
+          type: 'injury',
+          text: `I attemped my first half-marathon, the SF Half. Unfortunately I had knee pain
           that started just a mile in. The likelihood of me finishing was slim, and injury high,
-          so I cut my losses after finishing five miles.
-          <br><br>
-          Over the next couple weeks I focused on strenghtening the muscles around
-          the IT Band. It seems to have worked as the knee pain did not come back.
-          `
+          so I cut my losses after finishing five miles.`
+        },
       }
     };
   },
