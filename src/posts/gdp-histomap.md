@@ -86,10 +86,11 @@ than nominal GDP for comparing countries and is the metric used in the chart.
 
 ## 🛠 Behind the scenes
 
-The chart is generated on-the-fly with vanilla Javascript used to create SVG shapes and text.
+The chart is generated on-the-fly, with vanilla Javascript used to create SVG shapes and text.
 
 - [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/posts/gdp-histomap.md) - All the chart generation code lives here.
-- [Processed and interpolated data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/gdp-by-country-interpolated.json)
+- [GDP Data from Maddison Project Database ](https://www.rug.nl/ggdc/historicaldevelopment/maddison/research) - Source dataset.
+- [Processed GDP data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/gdp-by-country-interpolated.json) - Subset of the source dataset with gaps interpolated.
 
 
 
