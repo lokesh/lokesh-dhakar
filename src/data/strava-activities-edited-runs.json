@@ -1,5 +1,29 @@
 [
   {
+    "id": 2030430030,
+    "name": "Marina dash with Nathan and Dan",
+    "distance": "6.3",
+    "distancePercent": 24.21805330725191,
+    "elevation": 18.372704,
+    "pace": 7.065786448825663,
+    "paceFormatted": "7:03",
+    "date": "Dec 22",
+    "year": 2018,
+    "startDate": "2018-12-22T13:46:45Z"
+  },
+  {
+    "id": 2025255318,
+    "name": "Push around the corner to Sutro Heights and back",
+    "distance": "9.3",
+    "distancePercent": 35.58155334312977,
+    "elevation": 572.834664,
+    "pace": 7.229923491988801,
+    "paceFormatted": "7:13",
+    "date": "Dec 18",
+    "year": 2018,
+    "startDate": "2018-12-19T07:54:09Z"
+  },
+  {
     "id": 2018994853,
     "name": "9-miler post-fever",
     "distance": "9.0",

@@ -278,10 +278,6 @@ var app = new Vue({
           type: 'achievement',
           text: 'First mile under 6 minutes'
         },
-        2018994853: {
-          type: 'injury',
-          text: `Arch pain on the bottom of my feet after the last run. Likely another overuse injury.`,
-        },
         1830959635: {
           type: 'injury',
           text: `I'm having some pain in my left ankle which,
