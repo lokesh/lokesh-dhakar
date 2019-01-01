@@ -1,5 +1,29 @@
 [
   {
+    "id": 2047181835,
+    "name": "Distance up, pace down",
+    "distance": "13.2",
+    "distancePercent": 50.45058190992366,
+    "elevation": 646.653564,
+    "pace": 7.80876509424469,
+    "paceFormatted": "7:48",
+    "date": "Dec 31",
+    "year": 2018,
+    "startDate": "2018-12-31T09:49:24Z"
+  },
+  {
+    "id": 2035228399,
+    "name": "Heron's Head to Hopper's Hands (HHHH)",
+    "distance": "12.0",
+    "distancePercent": 45.77251207213741,
+    "elevation": 144.35696,
+    "pace": 7.130906221177953,
+    "paceFormatted": "7:07",
+    "date": "Dec 25",
+    "year": 2018,
+    "startDate": "2018-12-25T10:56:45Z"
+  },
+  {
     "id": 2030430030,
     "name": "Marina dash with Nathan and Dan",
     "distance": "6.3",
