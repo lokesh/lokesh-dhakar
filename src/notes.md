@@ -14,6 +14,23 @@ layout: page.njk
 
 
 <div class="note movie">
+  <div class="tag">Movie</div>
+  <h2 class="title">[Stranger Than Paradise](https://www.youtube.com/watch?v=MwefGellnhk)</h2>
+  <div class="meta">1984 | Directed by Jim Jarmusch</div>
+
+  <p>This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>
+
+  <p>I followed up the movie by watching an excellent commentary that discussed the movie's themes of [identity and multiculturalism](https://www.youtube.com/watch?v=0tbenS0F7j4). I didn't latch on to these themes when I was watching the movie, but the additional context helped my appreciate some of the specific dialogue and plot choices.</p>
+
+  <div class="rating rating-3"></div>
+
+  <div class="revisit"></div>
+
+  <div class="date">Jan. 4, 2019</div>
+</div>
+
+
+<div class="note book">
   <div class="tag">Book</div>
   <h2 class="title">[The Jungle](https://en.wikipedia.org/wiki/The_Jungle)</h2>
   <div class="meta">1904 | Written by Upton Sinclair</div>
@@ -30,7 +47,7 @@ layout: page.njk
 
   <div class="rating rating-4"></div>
 
-  <div class="date">- Dec. 31, 2018</div>
+  <div class="date">Dec. 31, 2018</div>
 </div>
 
 <div class="note movie">
@@ -43,7 +60,7 @@ layout: page.njk
 
   <div class="rating rating-2"></div>
 
-  <div class="date">- Nov. 21, 2018</div>
+  <div class="date">Nov. 21, 2018</div>
 </div>
 
 
@@ -66,8 +83,9 @@ layout: page.njk
   <p>Recommended for those who say "film" rather than "movie". You know who you are. You probably enjoy other 'films' like [Breathless](https://www.youtube.com/watch?v=eHQ2Q-_bl8k) and [Buffalo 66](https://www.youtube.com/watch?v=A5FzzN20-60).</p>
 
   <div class="rating rating-5"></div>
+  <div class="revisit"></div>
 
-  <div class="date">- Oct. 4, 2018</div>
+  <div class="date">Oct. 4, 2018</div>
 </div>
 
 
@@ -84,7 +102,7 @@ layout: page.njk
 
   <div class="rating rating-4"></div>
 
-  <div class="date">- Oct. 19, 2018</div>
+  <div class="date">Oct. 19, 2018</div>
 </div>
 
 
@@ -103,7 +121,7 @@ layout: page.njk
 
   brings up the question which I have googled many times: What are the differences between Modernism and Post-Modernism?</p>
 
-  <div class="date">- Oct. 21, 2018</div>
+  <div class="date">Oct. 21, 2018</div>
 </div>
 
 </div>
@@ -199,6 +217,27 @@ layout: page.njk
 
 .rating-5::before {
   content: '★★★★★';
+}
+
+.revisit {
+  display: none;
+}
+
+.revisit::before {
+  display: inline-block;
+  padding: 1px 4px 2px;
+  margin-bottom: 4px;
+  color: #fff;
+  background-color: #000;
+  border-radius: var(--border-radius);
+  font-weight: 800;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+
+.movie .revisit::before {
+  content: 'Worth rewatching';
 }
 
 .date {
