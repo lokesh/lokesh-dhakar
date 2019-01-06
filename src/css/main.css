@@ -88,15 +88,25 @@ li {
   line-height: 1.3em;
 }
 
+pre,
+code {
+  font-family: Menlo, Monaco, Consolas, Courier, monospace;
+}
+
 pre {
   overflow: auto;
   padding: 16px var(--gutter);
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   font-size: 13px;
-  font-family: Menlo, Monaco, Consolas, Courier, monospace;
   line-height: 1.6em;
-  color: #fff;
-  background-color: #000;
+  /* color: #fff; */
+  background-color: #eee;
+}
+
+p code {
+  background-color: #eee;
+  font-size: 12px;
+  border-radius: var(--border-radius);
 }
 
 

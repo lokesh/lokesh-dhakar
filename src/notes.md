@@ -37,7 +37,7 @@ layout: page.njk
 
   <p>The book has become infamous for its description of Chicago's meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA. </p>
 
-  <p>But this is a small part of the book. The majority of which is a an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>
+  <p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>
 
   <p>The latter half half of the book slumps a bit as we follow Jugris's solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>
 
