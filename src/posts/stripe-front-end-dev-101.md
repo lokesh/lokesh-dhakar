@@ -102,7 +102,7 @@ Stripe on the left, our version on the right.
   <img style="max-width: 480px;" src="/media/posts/stripe/101/code-card-color-comparison.jpg" alt="Side-by-side view of the original Stripe design and our design so far. Stripe colors are more subdued.">
 </div>
 
-We used the same hex values as Stripe, but our versions is rendering differently. We'll come back to this in the next part...
+We used the same hex values as Stripe, but our version is rendering differently. We'll come back to this in the next part...
 
 ## Part 2: Styling the card
 
@@ -215,6 +215,7 @@ Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next pos
 :root {
   --debug-color: #7795f8;
   --design-color: #7ec699;
+  --design-text-color: #62b17c;
 
   /* Override for this page */
   /* --text-max-width: 650px; */
@@ -279,7 +280,7 @@ Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next pos
 }
 
 .note-design .note-tag {
-  color: var(--design-color);
+  color: var(--design-text-color);
   border-color: var(--design-color);
 }
 
