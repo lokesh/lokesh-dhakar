@@ -107,6 +107,7 @@ p code {
   background-color: #eee;
   font-size: 12px;
   border-radius: var(--border-radius);
+  line-height: 12px;
 }
 
 
