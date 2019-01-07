@@ -78,9 +78,13 @@ p {
   line-height: 1.4em;
 }
 
+ul,
+ol {
+  padding-left: 12px;
+}
+
 ul {
   list-style: square;
-  padding-left: 12px;
 }
 
 li {

@@ -6,7 +6,7 @@ layout: post.njk
 <h2 class="page-subtitle">Reverse engineering the _tilted code card_</h2>
 
 <div class="figure">
-  <img style="max-width: 650px;" src="/media/posts/stripe/101/code-card.jpg" alt="Source code snippet for how to use Stripe Terminal in card that is tilted and floating with shadow.">
+  <img style="max-width: 480px;" src="/media/posts/stripe/101/code-card.jpg" alt="Source code snippet for how to use Stripe Terminal in card that is tilted and floating with shadow.">
 </div>
 
 
@@ -44,7 +44,7 @@ Let's get our fonts aligned before digging into the colors. The code snippet use
 
 Source Code Pro is an open source font made available by Adobe. Stripe is hosting it themselves, but we'll load it from [Google Fonts](https://fonts.google.com/specimen/Source+Code+Pro) and pull in the Medium and Bold weights. We've specified monospace fallbacks just in case there is a problem loading the font, _Consolas_ for Windows and _Menlo_ for MacOS.
 
-In this step, we also went ahead and reduced the font-size to 14px and the line height to 1.3.
+In this step, we also went ahead and updated the font-size and line-height to match.
 
 <p data-height="400" data-theme-id="minimal" data-slug-hash="jXxyOx" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Code Card 1.2 - Font update" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/jXxyOx/">Stripe - Code Card 1.2 - Font update</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -56,7 +56,7 @@ There are two font weight updates we need to make:
 1. **Use a heavier weight for keywords and functions.**
 
   <div class="figure no-border">
-    <img style="max-width: 535px;" src="/media/posts/stripe/101/code-card-font-weights.jpg" alt="3 lines of code showing different font weights applied to different code tokens.">
+    <img style="max-width: 535px;" src="/media/posts/stripe/101/code-card-font-weights.png" alt="3 lines of code showing different font weights applied to different code tokens.">
   </div>
 
   <div class="note note-design">
@@ -124,7 +124,11 @@ Add a wrapper element around our code snippet to use as our card. We'll give it 
 
 ### Adding a shine
 
-Remember those mismatching colors from the end of part 1? By inspecting the DOM we found the translucent overlay that is giving the card a directional lighting effect and making text colors subdued. Let's recreate it:
+Remember those mismatching colors from the end of part 1? By inspecting the DOM we find that there is a translucent overlay on top of the card. It's a div with a subtle gradient that fades from white to transparent, starting from the top right. This is what makes the text colors a bit more subdued and also provides us that nice shine to the card.
+
+<div class="figure">
+  <img style="max-width: 480px;" src="/media/posts/stripe/101/code-card-shine-equation.jpg" alt="Purple rectangle plus transparent gradient rectangle equals purple rectangle with shine">
+</div>
 
 1. **Add a block element for the shine.**
 
@@ -183,7 +187,7 @@ We're going to rush through this section and save the more in-depth discussion o
     -16.2px 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);```
 
 
-2. **Tilt in 3d.** Enable 3d space by adding a parent element with <code>perspective: 1500px</code> set. Then add a transform to the card.
+2. **Tilt in 3d.** Enable 3d space by adding a parent element with <code>perspective: 1500px</code>. Then add a transform to the card.
 
   ```
   .card {
@@ -203,7 +207,7 @@ _🥁 Drum roll please..._
 
 I hope you enjoyed this post and learned something new. I'm planning on doing at least one more which will focus on motion.
 
-I'd love to hear your feedback on this post. What parts did you enjoy? What parts were confusing? What would you like to learn about next?
+I'd love to hear your thoughts on this post. What parts did you enjoy? What parts were confusing? What would you like to learn about next?
 
 Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next post is up.
 
@@ -211,6 +215,9 @@ Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next pos
 :root {
   --debug-color: #7795f8;
   --design-color: #7ec699;
+
+  /* Override for this page */
+  /* --text-max-width: 650px; */
 }
 .note {
   display: flex;
@@ -303,6 +310,19 @@ Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next pos
 .cp_embed_wrapper,
 iframe {
   margin-bottom: 48px;
+}
+
+
+@media (max-width: 400px) {
+  iframe[src*="codepen.io"] {
+    width: 360px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  iframe[src*="codepen.io"] {
+    width: 320px !important;
+  }
 }
 
 </style>
