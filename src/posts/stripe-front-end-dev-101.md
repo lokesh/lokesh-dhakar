@@ -156,7 +156,13 @@ Remember those mismatching colors from the end of part 1? By inspecting the DOM 
 
   ```
   .card-shine {
-    background: linear-gradient(to top right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 70%, #fff);
+    background: linear-gradient(
+      to top right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 0.5) 70%,
+      #fff
+    );
     opacity: 0.2;
   }```
 
@@ -193,7 +199,7 @@ _🥁 Drum roll please..._
 <p data-height="600" data-theme-id="minimal" data-slug-hash="wRjeJy" data-default-tab="result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.3 - Add shadows and tilt" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/wRjeJy/">Stripe - Code Card 2.3 - Add shadows and tilt</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-## Then end of Stripe front-end dev 101
+## The end of Stripe front-end dev 101
 
 I hope you enjoyed this post and learned something new. I'm planning on doing at least one more which will focus on motion.
 
