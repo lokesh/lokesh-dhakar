@@ -78,13 +78,6 @@ layout: page.njk
   margin-bottom: 16px;
 }
 
-.videos {
-/*  display: grid;
-  grid-template-columns: repeat(auto-fill, var(--vid-width));
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;*/
-}
-
 .vid {
   margin-bottom: 32px;
 }
@@ -94,8 +87,8 @@ layout: page.njk
   display: block;
   height: 240px;
   margin-bottom: 4px;
-  /* margin-left: calc(var(--gutter) * -1);
-  margin-right: calc(var(--gutter) * -1); */
+  margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1);
   background-size: cover;
 }
 
@@ -223,6 +216,8 @@ layout: page.njk
     width: var(--vid-width);
     height: var(--vid-height);
     border-radius: var(--border-radius);
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .title {
