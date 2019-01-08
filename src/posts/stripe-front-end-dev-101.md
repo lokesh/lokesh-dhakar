@@ -60,7 +60,9 @@ There are two font weight tweaks we need to make:
     <img style="max-width: 535px;" src="/media/posts/stripe/101/code-card-font-weights.png" alt="3 lines of code showing different font weights applied to different code tokens.">
   </div>
 
-  <div class="note note-design">
+  This design decision seems to be less about highlighting certain elements of the code because they have elevated importance, but rather to introduce some dynamism to the visuals. This works great in this scenario, but you might reconsider this styling if you needed to show a large number of code samples.
+
+  <div class="note note-design" style="display: none">
     <svg class="note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
     <div class="note-text">
       <div class="note-tag">Design</div>
@@ -176,16 +178,18 @@ We're going to rush through this section and save the more in-depth discussion o
 1. **Add shadows.**
 
   ```
-  box-shadow:
-    -27.1px 62.5px 125px -25px rgba(50, 50, 93, 0.5),
-    -16.2px 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);```
+  .card {
+     box-shadow:
+       -27.1px 62.5px 125px -25px rgba(50, 50, 93, 0.5),
+       -16.2px 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
+  }```
 
 
-2. **Tilt in 3d.** Enable 3d space by adding a parent element with <code>perspective: 1500px</code>. Then add a transform to the card.
+2. **Tilt in 3d.** Enable 3d space by adding a parent element with <code>perspective: 1500px</code>. Then add a transform to the card:
 
   ```
   .card {
-     transform: rotate3d(.5,.866,0,15deg) rotate(-1deg);
+     transform: rotate3d(0.5, 0.866, 0, 15deg) rotate(-1deg);
   }
   ```
 
