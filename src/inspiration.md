@@ -90,22 +90,19 @@ layout: page.njk
 }
 
 .thumb {
-  height: 240px;
-}
-
-.thumb {
   position: relative;
   display: block;
+  height: 240px;
   margin-bottom: 4px;
-  margin-left: calc(var(--gutter) * -1);
-  margin-right: calc(var(--gutter) * -1);
+  /* margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1); */
   background-size: cover;
 }
 
 .thumb-preview {
   width: var(--vid-width);
   height: var(--vid-height);
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius);
   background-size: cover;
 }
 
@@ -199,7 +196,7 @@ layout: page.njk
     margin-top: 0;
     font-size: 14px;
   }
-  
+
   .sort-options {
     font-size: 12px;
   }
@@ -225,7 +222,7 @@ layout: page.njk
   .thumb {
     width: var(--vid-width);
     height: var(--vid-height);
-    border-radius: var(--border-radius-large);
+    border-radius: var(--border-radius);
   }
 
   .title {
@@ -247,12 +244,12 @@ layout: page.njk
 const previewFrameCount = 20;
 
 Vue.component('vid', {
-  template: '#tpl-vid',  
-  
+  template: '#tpl-vid',
+
   props: {
     video: Object,
   },
-  
+
   data() {
     return {
       frameQueued: false,
@@ -282,7 +279,7 @@ Vue.component('vid', {
   mounted() {
     this.saveThumbDims();
   },
-  
+
   methods: {
     // Save thumbnail x position and width to data obj
     saveThumbDims() {
@@ -330,14 +327,14 @@ function strToSeconds(str) {
 
 new Vue({
   el: '#videos',
-  
+
   data() {
     return {
       videos: [],
       sortedBy: 'date',
     };
   },
-  
+
   watch: {
     sortedBy(newVal) {
       if (newVal === 'date') {
