@@ -6,7 +6,7 @@ layout: post.njk
 <h2 class="page-subtitle">Reverse engineering the _tilted code card_</h2>
 
 <div class="figure">
-  <img style="max-width: 480px;" src="/media/posts/stripe/101/code-card.jpg" alt="Source code snippet for how to use Stripe Terminal in card that is tilted and floating with shadow.">
+  <img style="max-width: 650px;" src="/media/posts/stripe/101/code-card.jpg" alt="Source code snippet for how to use Stripe Terminal in card that is tilted and floating with shadow.">
 </div>
 
 
@@ -51,9 +51,9 @@ In this step, we also went ahead and updated the font-size and line-height to ma
 
 ### Finessing the font weights
 
-There are two font weight updates we need to make:
+There are two font weight tweaks we need to make:
 
-1. **Use a heavier weight for keywords and functions.**
+1. **Use a heavier weight for keywords and functions in the code snippet.**
 
   <div class="figure no-border">
     <img style="max-width: 535px;" src="/media/posts/stripe/101/code-card-font-weights.png" alt="3 lines of code showing different font weights applied to different code tokens.">
@@ -66,13 +66,6 @@ There are two font weight updates we need to make:
       <p>This decision seems to be less about highlighting certain elements of the code because they have elevated importance, but rather to introduce some dynamism to the visuals.</p>
     </div>
   </div>
-
-  <pre><code>.token.function,
-  .token.keyword {
-    font-weight: 600;
-  }
-  </code></pre>
-
 
 2. **Update font-smoothing rules.** This will make the fonts render a little thinner and crisper, especially light text on dark backgrounds.
 
@@ -172,7 +165,7 @@ Remember those mismatching colors from the end of part 1? By inspecting the DOM 
 
 4. **Keep content below the overlay interactive.** Set <code>pointer-events: none</code> on the card shine overlay to make sure it doesn't block clicks and taps from getting through.
 
-<p data-height="600" data-theme-id="minimal" data-slug-hash="xmjdMe" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.1 - Add shine" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/xmjdMe/">Stripe - Code Card 2.1 - Add shine</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="520" data-theme-id="minimal" data-slug-hash="xmjdMe" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.1 - Add shine" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/xmjdMe/">Stripe - Code Card 2.1 - Add shine</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Make it pop off the page
@@ -200,7 +193,7 @@ We're going to rush through this section and save the more in-depth discussion o
 _🥁 Drum roll please..._
 
 <a id="final-example"></a>
-<p data-height="600" data-theme-id="minimal" data-slug-hash="wRjeJy" data-default-tab="result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.3 - Add shadows and tilt" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/wRjeJy/">Stripe - Code Card 2.3 - Add shadows and tilt</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="560" data-theme-id="minimal" data-slug-hash="wRjeJy" data-default-tab="result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.3 - Add shadows and tilt" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/wRjeJy/">Stripe - Code Card 2.3 - Add shadows and tilt</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ## The end of Stripe front-end dev 101
@@ -310,7 +303,7 @@ Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next pos
 /* Codepen Embeds */
 .cp_embed_wrapper,
 iframe {
-  margin-bottom: 48px;
+  margin: 48px 0;
 }
 
 
