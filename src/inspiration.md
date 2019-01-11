@@ -86,7 +86,7 @@ layout: page.njk
   position: relative;
   display: block;
   height: 240px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   margin-left: calc(var(--gutter) * -1);
   margin-right: calc(var(--gutter) * -1);
   background-size: cover;
@@ -209,7 +209,6 @@ layout: page.njk
   .vid {
     width: var(--vid-width);
     height: var(--vid-height);
-    margin-bottom: 16px;
   }
 
   .thumb {

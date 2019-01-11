@@ -15,7 +15,7 @@ layout: post.njk
 
 The Stripe front-end team pays a tremendous amount of attention to the construction and polish of their work. This is most visible to the outside world through Stripe's landing pages. In this series, we'll attempt to reverse engineer a few elements from [Stripe.com](https://stripe.com/) and see if we can up our front-end game.
 
-Let's tackle something on the simpler end of the spectrum first, the tilted code card (see image above) from the [Stripe Terminal landing page](https://stripe.com/terminal).
+Let's tackle something on the simpler end of the spectrum first, the tilted code card (see image above) from the [Stripe Terminal page](https://stripe.com/terminal).
 
 Our strategy for this will be to work on the inner components and then move outwards. Let's work on getting the code snippet styled.
 
@@ -168,7 +168,7 @@ Remember those mismatching colors from the end of part 1? By inspecting the DOM 
 
 4. **Keep content below the overlay interactive.** Set <code>pointer-events: none</code> on the card shine overlay to make sure it doesn't block clicks and taps from getting through.
 
-<p data-height="520" data-theme-id="minimal" data-slug-hash="xmjdMe" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.1 - Add shine" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/xmjdMe/">Stripe - Code Card 2.1 - Add shine</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="520" data-theme-id="35696" data-slug-hash="xmjdMe" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.1 - Add shine" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/xmjdMe/">Stripe - Code Card 2.1 - Add shine</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Make it pop off the page

@@ -83,7 +83,7 @@ I'm not there yet. A little slow. And having some knee and hip pain when I ramp 
 
 The data for my runs in this post are pulled from [Strava](//strava.com). I run a script manually thats hits the API, does some processing, and then saves the parsed data as JSON in a file.
 
-- [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/posts/boston-marathon-qualifying.md)
+- [Blog post source code](https://raw.githubusercontent.com/lokesh/lokesh-dhakar/master/src/running.md)
 - [Data fetching script](https://github.com/lokesh/lokesh-dhakar/blob/master/refresh-data.js#L8)
 - [Processed data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/strava-activities-edited-runs.json)
 

@@ -20,7 +20,7 @@ layout: page.njk
 
   <p>This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>
 
-  <p>I followed up the movie by watching an excellent commentary that discussed the movie's themes of [identity and multiculturalism](https://www.youtube.com/watch?v=0tbenS0F7j4). I didn't latch on to these themes when I was watching the movie, but the additional context helped my appreciate some of the specific dialogue and plot choices.</p>
+  <p>I followed up the movie by watching an excellent commentary that discussed the movie's themes of [identity and multiculturalism](https://www.youtube.com/watch?v=0tbenS0F7j4). I didn't latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>
 
   <div class="rating rating-3"></div>
 

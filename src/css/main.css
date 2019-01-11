@@ -53,7 +53,7 @@ h1 {
 h2 {
   font-size: 20px;
   line-height: 1.2em;
-  margin-top: 8px;
+  margin-top: 24px;
 }
 
 h3 {
@@ -233,6 +233,7 @@ p code {
 .figure--right img {
   max-width: 100%;
   margin-bottom: 8px;
+  border-radius: var(--border-radius-xl);
 }
 
 .figure__caption {
