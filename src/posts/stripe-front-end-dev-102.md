@@ -1,6 +1,6 @@
 ---
 title: "Stripe front-end dev 102"
-date: 2019-01-07
+date: 2019-01-13
 layout: post.njk
 ---
 <h2 class="page-subtitle">Reverse engineering the _logo bubbles_</h2>
@@ -10,6 +10,8 @@ layout: post.njk
         <source src="/media/posts/stripe/102/logo-bubbles.mp4" type="video/mp4" />
     </video>
 </div>
+
+<a href="#final-example">↓ Skip to the finished result</a>
 
 This is the second article in the series where we reverse engineer elements from <em>Stripe.com</em>. In the [first article](stripe-front-end-dev-101/) we focused on static elements. In this one, we'll make things <em>move</em>!
 
@@ -38,7 +40,7 @@ Stripe combines all the logos into a single image file, which is called a sprite
   <img src="/media/posts/stripe/102/logo-spritesheet.png" alt="A grid of company logos.">
 </div>
 
-Using a spritesheet is a handy technique to reduce the number of HTTP requests the browser has to make. In this case, 1 file vs 43 files, a big performance win.
+Using a **spritesheet** is a handy technique to reduce the number of HTTP requests the browser has to make. In this case, 1 file vs 43 files, a big performance win.
 
 Now back to our code&hellip; we'll take the logo spritesheet and set it as the background for each of the bubbles. We'll then adjust the size the spritesheet with the `background-size` CSS property so that one logo in the image is the size of one bubble.
 
@@ -164,9 +166,10 @@ class Bubble {
 
 We have movement, but it feels stale. How do we get that organic bobbing and weaving that the Stripe page has? My first thought is to use perlin noise to randomize the movement.
 
-<p data-height="640" data-theme-id="35671" data-slug-hash="GPPKGQ" data-default-tab="js,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 3.1 - Perlin noise" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/GPPKGQ/">Stripe - Logo Bubble 3.1 - Perlin noise</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+---
+
+<a id="final-example"></a>
+<p data-height="640" data-theme-id="35671" data-slug-hash="GPPKGQ" data-default-tab="result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 3.1 - Perlin noise" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/GPPKGQ/">Stripe - Logo Bubble 3.1 - Perlin noise</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
-
 
 <link rel="stylesheet" href="/css/stripe.css">
