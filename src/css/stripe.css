@@ -80,20 +80,29 @@
 
 .figure {
   display: inline-block;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
-  margin-bottom: 8px;
-}
-
-.figure.no-border {
-  border: 0;
 }
 
 .figure img {
-  width: 100%;
   margin-bottom: 0;
-  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
 }
+
+.figure.no-border img {
+  border: 0;
+}
+
+.figure.max-width img {
+  max-width: var(--text-max-width);
+}
+
+.figure__video {
+  border: 1px solid var(--border-color);
+}
+
+.figure__video video {
+  border-radius: var(--border-radius-xl);
+}
+
 
 /* CODEPEN EMBEDS ------------------------------------ */
 

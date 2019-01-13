@@ -14,11 +14,11 @@ layout: post.njk
     </div>
     <div class="histomap-form-row-controls">
       <select id="histomap-start-year-input"></select>
-      to 
+      to
       <select id="histomap-end-year-input">
         <option>2015</option>
       </select>
-      with data every 
+      with data every
       <select id="histomap-interval-input">
         <option value="1">1 year</option>
         <option value="2">2 years</option>
@@ -62,24 +62,24 @@ layout: post.njk
 
 ## The original _Histomap_
 
-This chart is inspired by John B. Sparks' work, [The Histomap](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~200375~3001080:The-Histomap-), 
+This chart is inspired by John B. Sparks' work, [The Histomap](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~200375~3001080:The-Histomap-),
 published in 1931. The original work was an attempt to visualize 4000 years of civilization into a
-set of colorful flows on a five foot (1.5m) tall chart. It was ambitious... but flawed. Daniel Brownstein 
+set of colorful flows on a five foot (1.5m) tall chart. It was ambitious... but flawed. Daniel Brownstein
 does a thorough critique of John B. Spark's _Histomap_ on his blog, [Musings on Maps](https://dabrownstein.com/2013/08/13/reading-the-histomap/).
 
 ## The GDP Histomap
 
 This chart is less abmitious. Where the original tried to show and explain
-the march of civilization over millennia, the goal of this new chart is to map out the relative 
-economic power of countries in the past two centuries. And rather than an 
+the march of civilization over millennia, the goal of this new chart is to map out the relative
+economic power of countries in the past two centuries. And rather than an
 undefined _power_ measure for the x-axis, the new chart uses Real GDP.
 
-**What is GDP?** aka Nominal GDP. The sum of the prices of all finished goods and services a 
+**What is GDP?** aka Nominal GDP. The sum of the prices of all finished goods and services a
 country produces. Inflation and the cost of good will increase GDP, though the number of goods is
 not increasing.
 
-**How is Real GDP different?** aka GDP PPP (Purchasing Power Parity). This measure controls for 
-inflation and uses the same set of prices for goods and services over time. This measure is better 
+**How is Real GDP different?** aka GDP PPP (Purchasing Power Parity). This measure controls for
+inflation and uses the same set of prices for goods and services over time. This measure is better
 than nominal GDP for comparing countries and is the metric used in the chart.
 
 ---
@@ -208,7 +208,7 @@ function shadeBlend(p,c0,c1) {
 // ------
 
 /* SVG sizing and colors */
-const canvasMaxWidth = 480;
+const canvasMaxWidth = 540;
 const canvasAspectRatio = 2; // height / width
 
 const labelColumnWidth = 34;
@@ -258,8 +258,8 @@ let countryList = [
 // ----------
 
 function buildForm() {
-   
-  // Build country inputs 
+
+  // Build country inputs
   let countriesHTML = '';
   countryList.forEach(country => {
     countriesHTML += `
@@ -348,9 +348,9 @@ let chartHeigh;
 
 
 /*
-  Each child array in seriesCoords contains all the x & y positions for the 
+  Each child array in seriesCoords contains all the x & y positions for the
   country series data from top to bottom.
-  
+
   Ex. seriesCoords = [
     [{x: 200, y: 0}, {x: 120, y: 50}],
     [{x: 230, y: 0}, {x: 180, y: 50}],
@@ -410,11 +410,11 @@ function fetchData() {
 
 /*
   interpolateData();
-  This function is not actively called. It was used to process the JSON in gdp-by-country.json. The 
+  This function is not actively called. It was used to process the JSON in gdp-by-country.json. The
   output of which is stored in gdp-by-country-interpolated.json.
 
-  The function replaces the zero values in each country's gdp data with an interpolated value. One 
-  exception, if the data start with a zero value or a string of zero values, these initial zero 
+  The function replaces the zero values in each country's gdp data with an interpolated value. One
+  exception, if the data start with a zero value or a string of zero values, these initial zero
   values will not be interpolated.
 
   Example INPUT:
@@ -437,38 +437,38 @@ function fetchData() {
 
 function interpolateData(data) {
   let countryIndex = 0;
-  for (let country in data){    
+  for (let country in data){
     let countryObj = data[country];
-    
+
     let firstZeroIndex;
     let isZeroSequence = false;
     let lastNonZeroYear;
     let lastNonZeroGDP;
 
     let zeroYears = [];
-    
+
     _.forEach(countryObj, function(gdp, year) {
-        if (gdp === 0) { 
+        if (gdp === 0) {
           zeroYears.push(year);
           isZeroSequence = true;
         } else {
-                  
+
           if (isZeroSequence) {
             if (lastNonZeroGDP) {
               let gdpDiff = gdp - lastNonZeroGDP;
               let yearsDiff = year - lastNonZeroYear;
               let gdpPerYearDiff = gdpDiff / yearsDiff;
-              
+
               zeroYears.forEach(zeroYear => {
                 interpolatedData[country][zeroYear] = ((zeroYear - lastNonZeroYear) * gdpPerYearDiff) + lastNonZeroGDP;
               })
             }
             isZeroSequence = false;
             zeroYears = [];
-          } 
+          }
           lastNonZeroGDP = gdp;
           lastNonZeroYear = year;
-        }        
+        }
       })
   }
   return interpolatedData;
@@ -499,7 +499,7 @@ function processData() {
       let countryObj = filteredData[country];
       if (!countryObj.hasOwnProperty(year)) {
         filteredData[country][year] = 0;
-      } 
+      }
       gdpTotalsByYear.set(year, gdpTotalsByYear.get(year) + countryObj[year]);
     }
   }
@@ -516,7 +516,7 @@ function resizeSVG() {
   let width = Math.min( (window.innerWidth - 24), canvasMaxWidth)
 
   canvasWidth = width;
-  canvasHeight = canvasAspectRatio * canvasWidth; 
+  canvasHeight = canvasAspectRatio * canvasWidth;
 
   chartWidth = canvasWidth - labelColumnWidth;
   chartHeight = canvasHeight;
@@ -531,13 +531,13 @@ function resizeSVG() {
 }
 
 
-function drawChart() {  
+function drawChart() {
   let countryIndex = 0;
   let polys = [];
   let points;
 
-  let rowHeight = canvasHeight / (gdpTotalsByYear.size - 1); 
- 
+  let rowHeight = canvasHeight / (gdpTotalsByYear.size - 1);
+
   for (let country in processedData) {
     let countryObj = processedData[country];
 
@@ -551,7 +551,7 @@ function drawChart() {
     let x = 0;
     let y = 0;
 
-    for (let year of gdpTotalsByYear.keys()) { 
+    for (let year of gdpTotalsByYear.keys()) {
       let gdpTotalForYear = gdpTotalsByYear.get(year);
 
       let width = ((countryObj[year] / gdpTotalForYear) * chartWidth);
@@ -570,7 +570,7 @@ function drawChart() {
 
     /* So far we've created points for the right edge of the shape. Now we need to work on the left
     side. To do this, we use the previous items right edge. */
-    for (let i = gdpTotalsByYear.size - 1; i >= 0; i--) { 
+    for (let i = gdpTotalsByYear.size - 1; i >= 0; i--) {
       if (countryIndex === 0) {
         let coord = seriesCoords[countryIndex][i];
         points += `0,  ${coord.y},`;
@@ -579,7 +579,7 @@ function drawChart() {
         points += `${coord.x},  ${coord.y},`;
       }
     }
-    
+
     // Remove comma at end
     points = points.slice(0, -1);
 
@@ -587,13 +587,13 @@ function drawChart() {
     polys.push(poly);
 
     countryIndex++;
-  }    
+  }
 
 
   // Append chart polys to DOM
   let frag = document.createDocumentFragment()
   for (let i = polys.length - 1; i >= 0; i--) {
-    frag.appendChild(polys[i]);  
+    frag.appendChild(polys[i]);
   }
 
   let chartEl = document.getElementById('chart-group');
@@ -602,15 +602,15 @@ function drawChart() {
 }
 
 
-function drawOverlay() {  
+function drawOverlay() {
   let yearIndex = 0;
   let height = 0;
   let polys = [];
   let frag = document.createDocumentFragment();
 
-  let rowHeight = canvasHeight / (gdpTotalsByYear.size - 1); 
+  let rowHeight = canvasHeight / (gdpTotalsByYear.size - 1);
 
-  for (let year of gdpTotalsByYear.keys()) {        
+  for (let year of gdpTotalsByYear.keys()) {
     let yAxisLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
     // Hardcoded y pos for first year label and finessed others to get them to
     // line up with year lines
@@ -622,8 +622,8 @@ function drawOverlay() {
     yAxisLabel.setAttribute('text-anchor', 'right');
     yAxisLabel.textContent = year;
     frag.appendChild(yAxisLabel);
-    
-    // Draw year lines (except for first and last years)    
+
+    // Draw year lines (except for first and last years)
     if (yearIndex !== 0 && yearIndex !== gdpTotalsByYear.size - 1) {
       let line = document.createElementNS("http://www.w3.org/2000/svg", "line");
       line.setAttribute('x1', labelColumnWidth);
@@ -641,7 +641,7 @@ function drawOverlay() {
   let countryIndex = 0;
   for (let country in processedData) {
     let seriesLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    seriesLabel.setAttribute('text-anchor', 'middle');    
+    seriesLabel.setAttribute('text-anchor', 'middle');
     seriesLabel.textContent = country;
 
     let countryObj = processedData[country];
@@ -652,12 +652,12 @@ function drawOverlay() {
 
     countryCoords.forEach((coord, index) => {
       if (index === 0 || index === countryCoords.length - 1) return;
-      
+
       let areaWidth;
       if (countryIndex === 0) {
         areaWidth = coord.x;
       } else {
-        areaWidth = coord.x - prevCountryCoords[index].x;  
+        areaWidth = coord.x - prevCountryCoords[index].x;
       }
 
       if (areaWidth > widestArea) {
@@ -665,7 +665,7 @@ function drawOverlay() {
         widestAreaIndex = index;
       }
     })
-    
+
     // The labels can overlap the year labels on the left. To avoid this issue,
     // set a min.  55 works for most cases.
     let seriesLabelX = Math.max(countryCoords[widestAreaIndex].x - (widestArea / 2) + labelColumnWidth, 57)

@@ -2,11 +2,10 @@
 title: "Stripe front-end dev 102"
 date: 2019-01-07
 layout: post.njk
-draft: true
 ---
 <h2 class="page-subtitle">Reverse engineering the _logo bubbles_</h2>
 
-<div class="figure">
+<div class="figure figure__video">
     <video style="width: 100%; max-width: 720px" autoplay loop muted playsinline>
         <source src="/media/posts/stripe/102/logo-bubbles.mp4" type="video/mp4" />
     </video>
@@ -22,7 +21,7 @@ Let's see if we can recreate the logo bubbles (see movie above) from the [Stripe
 
 Our strategy for this will be to work on the atomic elements (the bubbles), then on placing them, and finally animating them.
 
-## Part 1: Creating the bubbles
+## Part 1: Creating the bubble
 
 ### Set up an empty bubble
 
@@ -31,137 +30,143 @@ Create an element with equal width and height, and then turn this square into a 
 <p data-height="270" data-theme-id="minimal" data-slug-hash="WLKEJP" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.0" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/WLKEJP/">Stripe - Logo Bubble 1.0</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-### Add the logos
+### Add the logo
 
-Stripe uses a spritesheet for all the logos. A spritesheet is an image file, in this case a PNG, that has all the different assets stitched together.
+Stripe combines all the logos into a single image file, which is called a spritesheet. You can see it here:
+
+<div class="figure max-width">
+  <img src="/media/posts/stripe/102/logo-spritesheet.png" alt="A grid of company logos.">
+</div>
+
+Using a spritesheet is a handy technique to reduce the number of HTTP requests the browser has to make. In this case, 1 file vs 43 files, a big performance win.
+
+Now back to our code&hellip; we'll take the logo spritesheet and set it as the background for each of the bubbles. We'll then adjust the size the spritesheet with the `background-size` CSS property so that one logo in the image is the size of one bubble.
+
+
+```
+.bubble {
+  background-image: url(stripe-logo-bubbles-spritesheet.png);
+  background-size: 1076px 1076px;
+}
+```
+
+ And then we can use the `background-position` property to shift the image's position in each bubble and reveal different logos.
+
+ ```
+.logo1 {
+  background-position: 0 0;
+}
+
+.logo2 {
+  background-position: 0 -154px;
+}
+
+.logo3 {
+  background-position: 0 -308px;
+}
+```
+
+<p data-height="300" data-theme-id="35671" data-slug-hash="Ydjrad" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.1 - Add logos" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/Ydjrad/">Stripe - Logo Bubble 1.1 - Add logos</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+We'll create the rest of the bubbles in the next section, and we'll do it dynamically with Javascript.
+
+## Part 2: Placing and sizing the bubbles
+
+To better understand the placement and sizing logic used, let's take a bird's eye view of the entire header. To do this, open your browser's dev tools and apply <code>transform: scale(0.2)</code> to the header area. This is what we see:
 
 <div class="figure">
-  <img style="max-width: 480px;" src="/media/posts/stripe/102/logo-spritesheet.png" alt="A grid of company logos.">
+  <img src="/media/posts/stripe/102/logo-bubbles-panoramic.png" alt="A wide image of company logos in circles.">
 </div>
 
-Why not save each logo as a separate image file? Because each image file would require a new HTTP request.  And browsers limit the numbe of HTTP connnections from the same domain.
+There isn't a quickly discernable pattern. But one thing we notice is that the general placement and sizing of the bubbles is the same on every page load, it's just the logos that are randomized.
 
+Let's peek at the original code to see if we can get to the bottom of this:
 
-
-<div class="note note-design" style="display: none">
-  <svg class="note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
-  <div class="note-text">
-    <div class="note-tag">Design</div>
-    <p>This decision seems to be less about highlighting certain elements of the code because they have elevated importance, but rather to introduce some dynamism to the visuals.</p>
-  </div>
+<div class="figure max-width">
+  <img src="/media/posts/stripe/102/bubbles-array.gif" alt="A wide image of company logos in circles.">
 </div>
 
+Found it! The positions and sizes are hard coded into an array called <code>bubbles</code>. Let's copy and paste the array in our code and use it to generate all the bubbles on the fly. We won't worry about randomizing the logos for this exercise.
 
-<style>
-:root {
-  --debug-color: #7795f8;
-  --design-color: #7ec699;
-  --design-text-color: #62b17c;
+```
+const bubbles = [{
+    s: .6,
+    x: 1134,
+    y: 45
+}, {
+    s: .6,
+    x: 1620,
+    y: 271
+},
+    ...
+];
+
+bubbles.forEach((bubble, index) => {
+  let el = document.createElement("div");
+
+  el.className = `bubble logo${index + 1}`;
+  el.style.transform = `translate(${bubble.x}px, ${bubble.y}px) scale(${bubble.s})`;
+
+  bubblesEl.appendChild(el);
+})
+```
+
+<p data-height="640" data-theme-id="35671" data-slug-hash="gZQJBz" data-default-tab="js,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.2 - Place and size logos" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/gZQJBz/">Stripe - Logo Bubble 1.2 - Place and size logos</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+## Part 3: Animating and looping
+
+### Structuring our code
+
+Before we start animating, let's add some structure to our code so we can support new features and keep things tidy. We'll create two new classes: <code>Bubbles</code> and <code>Bubble</code>.
+
+```
+class Bubbles {
+  constructor() { } // For creating the individual bubbles.
+  update() { } // Will be called every frame.
 }
 
-.note {
-  display: flex;
-  align-items: flex-start;
-  max-width: var(--text-max-width);
-  border: 2px solid var(--border-color);
-  border-radius: var(--border-radius-large);
-  padding: 8px;
-  margin-bottom: 16px;
+class Bubble {
+  constructor() { }
+  update() { } // Will be called every frame.
 }
+```
 
-.note-icon {
-  flex: 0 0 auto;
-}
+### Adding performant animations
 
-.note svg {
-  stroke: currentColor;
-}
+1. **Use transforms.**  There are two layout related properties that browsers can animate cheaply, thanks to support from the GPU, and these are: `opacity` and `transform`. It is tempting to use the `top` and `left` CSS values to move elements around, but modifying them triggers expensive layout calculations that can cause slowdown/jank. Stick to `transform` and `opacity`. In our case, we'll use transforms to move the bubbles around.
 
-.note-text {
-  margin-left: 12px;
-  font-size: 14px;
-}
-
-.note-text p {
-  margin-top: 0;
-}
-
-.note-text p:last-child {
-  margin-bottom: 0;
-}
-
-.note-text ol {
-  padding-left: 0;
-}
-
-.note-tag {
-  margin-top: -2px;
-  margin-bottom: 2px;
-  color: var(--secondary-color);
-  font-size: 11px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.note-debug {
-  color: var(--debug-color);
-  border-color: var(--debug-color);
-}
-
-.note-debug .note-tag {
-  color: var(--debug-color);
-  border-color: var(--debug-color);
-}
-
-.note-design {
-  color: var(--design-color);
-  border-color: var(--design-color);
-}
-
-.note-design .note-tag {
-  color: var(--design-text-color);
-  border-color: var(--design-color);
-}
-
-.note-debug .note-text,
-.note-design .note-text {
-  color: var(--color);
-}
-
-.figure {
-  display: inline-block;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-large);
-  margin-bottom: 8px;
-}
-
-.figure.no-border {
-  border: 0;
-}
-
-.figure img {
-  width: 100%;
-  margin-bottom: 0;
-  border-radius: var(--border-radius-large);
-}
-
-/* Codepen Embeds */
-.cp_embed_wrapper,
-iframe {
-  margin: 48px 0;
-}
-
-
-@media (max-width: 400px) {
-  iframe[src*="codepen.io"] {
-    width: 360px !important;
+  ```
+  this.x = this.x - SCROLL_SPEED;
+  if (this.x <  -200) {
+      this.x = CANVAS_WIDTH;
   }
-}
+  style.transform = `translate(${this.x}px, ${this.y}px)`;
+  ```
 
-@media (max-width: 360px) {
-  iframe[src*="codepen.io"] {
-    width: 320px !important;
+2. **Use requestAnimationFrame.** If you ever catch yourself using `setInterval` to build out an animation, stop what you're doing, and go read about [requestAnimationFrame](https://flaviocopes.com/requestanimationframe/).
+
+  ```
+  class Bubbles {
+      update() {
+          this.bubbles.forEach(bubble => bubble.update());
+          requestAnimationFrame(this.update.bind(this))
+      }
   }
-}
+  ```
 
-</style>
+<p data-height="640" data-theme-id="35671" data-slug-hash="NeEZyP" data-default-tab="js,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.3 - Animating and looping" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/NeEZyP/">Stripe - Logo Bubble 1.3 - Animating and looping</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+### Let's give the animation some life
+
+We have movement, but it feels stale. How do we get that organic bobbing and weaving that the Stripe page has? My first thought is to use perlin noise to randomize the movement.
+
+<p data-height="640" data-theme-id="35671" data-slug-hash="GPPKGQ" data-default-tab="js,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 3.1 - Perlin noise" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/GPPKGQ/">Stripe - Logo Bubble 3.1 - Perlin noise</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+
+<link rel="stylesheet" href="/css/stripe.css">

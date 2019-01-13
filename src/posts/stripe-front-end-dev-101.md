@@ -25,8 +25,8 @@ Our strategy for this will be to work on the inner components and then move outw
 
 Let's figure out how we want to apply syntax highlighting. We could manually insert DOM elements in to the code snippet to use as styling hooks, but this would be tedious to set up and a pain to maintain. Fortunately, there are many syntax highlighting libraries available. If we peek at the DOM on the Stripe page, we can see a class called `prism`:
 
-<div class="figure">
-  <img style="max-width: 480px;" src="/media/posts/stripe/101/code-card-inspect-prism.png" alt="Chrome dev tools showing prism class applied to code tag.">
+<div class="figure max-width">
+  <img src="/media/posts/stripe/101/code-card-inspect-prism.png" alt="Chrome dev tools showing prism class applied to code tag.">
 </div>
 
 Google for "prism syntax highlighting" and bingo: [PrismJS](https://prismjs.com/). Spend five minutes to play around with the examples, read the basic usage instructions, check the Readme on Github for any warnings, and see if the project is actively being maintained. In this case, no red flags, let's go!
@@ -94,8 +94,8 @@ We can use dev tools to inspect the color values used by Stripe and move them in
 
 Stripe on the left, our version on the right.
 
-<div class="figure">
-  <img style="max-width: 480px;" src="/media/posts/stripe/101/code-card-color-comparison.jpg" alt="Side-by-side view of the original Stripe design and our design so far. Stripe colors are more subdued.">
+<div class="figure max-width">
+  <img src="/media/posts/stripe/101/code-card-color-comparison.jpg" alt="Side-by-side view of the original Stripe design and our design so far. Stripe colors are more subdued.">
 </div>
 
 We used the same hex values as Stripe, but our version is rendering differently. We'll come back to this in the next part...
@@ -122,8 +122,8 @@ Add a wrapper element around our code snippet to use as our card. We'll give it 
 
 Remember those mismatching colors from the end of part 1? By inspecting the DOM we find that there is a translucent overlay on top of the card. It's a div with a subtle gradient that fades from white to transparent, starting from the top right. This is what makes the text colors a bit more subdued and also provides us that nice shine to the card.
 
-<div class="figure">
-  <img style="max-width: 480px;" src="/media/posts/stripe/101/code-card-shine-equation.jpg" alt="Purple rectangle plus transparent gradient rectangle equals purple rectangle with shine">
+<div class="figure max-width">
+  <img src="/media/posts/stripe/101/code-card-shine-equation.jpg" alt="Purple rectangle plus transparent gradient rectangle equals purple rectangle with shine">
 </div>
 
 1. **Add a block element for the shine.**

@@ -10,7 +10,7 @@ https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript
 
 ```
 
-forEach works with Array, Map, Set
+forEach works with Array, Map, Set  [NOTE: and objects!]
 for of works with Array, Map, Set, String, Object
 
 // ARRAY
@@ -26,7 +26,7 @@ Keys and values  | for (let [key, value] of Object.entries(veggies)) { ... }
                  | for (const prop in obj) { if (obj.hasOwnProperty(prop)) { ... } }
 Just the keys    | for (let val of Object.keys(veggies)) { ... }
 Just the values  | for (let val of Object.values(veggies)) { ... }
-                 
+
 // MAP
 Keys and values | myMap.forEach((value, key) => { ... })
                 | for (const [key, value] of myMap) { ... })
@@ -41,7 +41,7 @@ Values | for (let char of str) { ... }
 
 Loop through all props, | for (const prop in obj) {}
 incl. from  prototypes
-                   
+
 ```
 
 

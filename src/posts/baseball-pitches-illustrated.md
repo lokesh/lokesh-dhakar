@@ -26,7 +26,7 @@ highlight: true
 
 .pitch {
   display: flex;
-  max-width: 480px;
+  max-width: var(--text-max-width);
   padding-top: 32px;
   margin-top: 32px;
   border-top: 1px solid #ddd;
@@ -59,7 +59,8 @@ highlight: true
   <img src="/media/posts/baseball-pitches-illustrated/bloop_curve.svg" alt="Arc of a bloop curve pitch" />
 </figure>
 
-## A fan's guide to identifying pitches.
+
+<h2 class="page-subtitle">A fan's guide to identifying pitches</h2>
 
 I'm a baseball fan. I've watched my share of televised games and attended a few handful. After all this, I was still in the dark about the difference between pitches. I knew a curveball broke downwards, but what exactly was a circle changeup?
 
