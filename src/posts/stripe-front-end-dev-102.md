@@ -171,7 +171,7 @@ The easiest way to understand the difference is to plot the values out. In the d
 <div class="figure" style="width: 100%">
   <canvas id="canvas-perlin"></canvas>
   <figcaption>
-    <button class="button" id="perlin-replay-btn">Replay animation</button>
+    <button class="button" id="perlin-replay-btn">Generate new values</button>
   </figcaption>
 </div>
 
@@ -189,7 +189,7 @@ Here is our Bubble class's `update()` method before:
 And here it is after introucing _perlin noise_:
 
 <pre><code class="prism language-js line-numbers">const NOISE_SPEED = 0.004; // The frequency. Smaller for flat slopes, higher for jagged spikes.
-const NOISE_AMOUNT = 5;    // The amplitude. How big are the movements.
+const NOISE_AMOUNT = 5;    // The amplitude. The amount the noise affects the movement.
 
 update() {
   this.noiseSeedX += NOISE_SPEED;
