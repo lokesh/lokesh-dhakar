@@ -26,26 +26,27 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
 <div id="runs" class="runs">
   <div class="distance-goal">26.2mi</div>
   <div v-for="(run, index) in flatRuns">
-    <h3 v-if="index === 0 || (index > 0 && run.year !== flatRuns[index - 1].year)">
-      {{ run.year }}
-    </h3>
-
     <transition
       appear
       appear-class="slide-start"
       appear-to-class="slide-end"
     >
-      <div>
+      <div class="row" :style="getTransition(index)">
+        <h3
+          v-if="index === 0 || (index > 0 && run.year !== flatRuns[index - 1].year)"
+          class="year"
+        >
+          {{ run.year }}
+        </h3>
         <div
           v-if="hasComment(run.id)"
           class="comment"
           :class="`comment-${comments[run.id].type}`"
-          :style="getTransition(index)"
         >
           <div class="comment-icon"></div>
           <div class="comment-text" v-html="comments[run.id].text"></div>
         </div>
-        <div class="run" :style="getTransition(index)">
+        <div class="run">
           <div class="run-name">
             <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
           </div>
@@ -94,13 +95,12 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   margin-bottom: 4px;
 }
 
-.slide-start .run,
-.slide-start .comment {
+.slide-start.row {
   opacity: 0;
   transform: translateX(-40px);
 }
-.slide-end .run,
-.slide-end .comment {
+
+.slide-end.row {
   opacity: 1;
   transform: translateX(0);
 }
@@ -146,6 +146,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   display: flex;
   padding: 8px 8px 20px 8px;
   max-width: 32em;
+  text-align: center;
 }
 
 .comment-icon {
@@ -171,9 +172,13 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   content: '🤕';
 }
 
+.comment-injury  .comment-text {
+  text-align: left;
+}
 
 .comment.comment-achievement,
 .comment.comment-race {
+  justify-content: center;
   align-items: center;
   padding-top: 4px;
   padding-bottom: 12px;
@@ -266,13 +271,17 @@ var app = new Vue({
           type: 'achievement',
           text: 'First mile under 5:30'
         },
+        1426144555: {
+          type: 'race',
+          text: 'Race • 2018 Bay to Breakers',
+        },
         1798971397:{
           type: 'race',
-          text: 'Race • Bridge to Bridge 5k'
+          text: 'Race • 2018 Bridge to Bridge 5k'
         },
         1173566338: {
           type: 'race',
-          text: 'Race • JP Morgan Corporate Challenge 5k'
+          text: 'Race • 2017 JP Morgan Corporate Challenge 5k'
         },
         657497518: {
           type: 'achievement',
@@ -330,7 +339,7 @@ var app = new Vue({
       return paceColor;
     },
     getTransition(index) {
-      return (index < 40) ? `transition: all 0.5s ${index * 0.05}s`: '';
+      return (index < 40) ? `transition: all 0.5s ${(index + 5) * 0.05}s`: '';
     },
     hasComment(id) {
       return this.comments.hasOwnProperty(id);
