@@ -40,22 +40,19 @@ Stripe combines all the logos into a single image file, which is called a sprite
   <img src="/media/posts/stripe/102/logo-spritesheet.png" alt="A grid of company logos.">
 </div>
 
-Using a **spritesheet** is a handy technique to reduce the number of HTTP requests the browser has to make. In this case, 1 file vs 43 files, a big performance win.
+Using a spritesheet is a handy technique to reduce the number of HTTP requests the browser has to make. In this case, 1 file vs 43 files, a big performance win.
 
 Now back to our code&hellip; we'll take the logo spritesheet and set it as the background for each of the bubbles. We'll then adjust the size the spritesheet with the `background-size` CSS property so that one logo in the image is the size of one bubble.
 
 
-```
-.bubble {
+<pre><code class="prism language-css line-numbers">.bubble {
   background-image: url(stripe-logo-bubbles-spritesheet.png);
   background-size: 1076px 1076px;
-}
-```
+}</code></pre>
 
  And then we can use the `background-position` property to shift the image's position in each bubble and reveal different logos.
 
- ```
-.logo1 {
+<pre><code class="prism language-css line-numbers">.logo1 {
   background-position: 0 0;
 }
 
@@ -65,8 +62,7 @@ Now back to our code&hellip; we'll take the logo spritesheet and set it as the b
 
 .logo3 {
   background-position: 0 -308px;
-}
-```
+}</code></pre>
 
 <p data-height="300" data-theme-id="35671" data-slug-hash="Ydjrad" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.1 - Add logos" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/Ydjrad/">Stripe - Logo Bubble 1.1 - Add logos</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -91,17 +87,16 @@ Let's peek at the original code to see if we can get to the bottom of this:
 
 Found it! The positions and sizes are hard coded into an array called <code>bubbles</code>. Let's copy and paste the array in our code and use it to generate all the bubbles on the fly. We won't worry about randomizing the logos for this exercise.
 
-```
-const bubbles = [{
-    s: .6,
-    x: 1134,
-    y: 45
+<pre><code class="prism language-js line-numbers">const bubbles = [{
+  s: .6,
+  x: 1134,
+  y: 45
 }, {
-    s: .6,
-    x: 1620,
-    y: 271
+  s: .6,
+  x: 1620,
+  y: 271
 },
-    ...
+  ...
 ];
 
 bubbles.forEach((bubble, index) => {
@@ -111,8 +106,7 @@ bubbles.forEach((bubble, index) => {
   el.style.transform = `translate(${bubble.x}px, ${bubble.y}px) scale(${bubble.s})`;
 
   bubblesEl.appendChild(el);
-})
-```
+})</code></pre>
 
 <p data-height="640" data-theme-id="35671" data-slug-hash="gZQJBz" data-default-tab="js,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.2 - Place and size logos" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/gZQJBz/">Stripe - Logo Bubble 1.2 - Place and size logos</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -124,52 +118,213 @@ bubbles.forEach((bubble, index) => {
 
 Before we start animating, let's add some structure to our code so we can support new features and keep things tidy. We'll create two new classes: <code>Bubbles</code> and <code>Bubble</code>.
 
-```
-class Bubbles {
+<pre><code class="prism language-js line-numbers">class Bubbles {
   constructor() { } // For creating the individual bubbles.
-  update() { } // Will be called every frame.
+  update() { }      // Will be called every frame.
 }
 
 class Bubble {
   constructor() { }
-  update() { } // Will be called every frame.
+  update() { }      // Will be called every frame and update the bubble positionn.
+}</code></pre>
+
+### Adding scrolling (and keeping it performant)
+
+1. **Use transforms**
+
+  There are two layout related properties that browsers can animate cheaply, thanks to support from the GPU, and these are: `opacity` and `transform`. It is tempting to use the `top` and `left` CSS values to move elements around, but modifying them triggers expensive layout calculations that can cause slowdown. Stick to `transform` and `opacity`. In our case, we'll use transforms to move the bubbles around.
+
+<pre><code class="prism language-js line-numbers">this.x = this.x - SCROLL_SPEED;
+if (this.x <  -200) {
+  this.x = CANVAS_WIDTH;
 }
-```
+style.transform = `translate(${this.x}px, ${this.y}px)`;
+</code></pre>
 
-### Adding performant animations
+2. **Use requestAnimationFrame**
 
-1. **Use transforms.**  There are two layout related properties that browsers can animate cheaply, thanks to support from the GPU, and these are: `opacity` and `transform`. It is tempting to use the `top` and `left` CSS values to move elements around, but modifying them triggers expensive layout calculations that can cause slowdown/jank. Stick to `transform` and `opacity`. In our case, we'll use transforms to move the bubbles around.
+  If you ever catch yourself using `setInterval` to build out an animation, stop what you're doing, and go read about [requestAnimationFrame](https://flaviocopes.com/requestanimationframe/).
 
-  ```
-  this.x = this.x - SCROLL_SPEED;
-  if (this.x <  -200) {
-      this.x = CANVAS_WIDTH;
+<pre><code class="prism language-js line-numbers">class Bubbles {
+  update() {
+    // Call each individual bubble's update method
+    this.bubbles.forEach(bubble => bubble.update());
+
+    // Queue up another update() method call on the next frame
+    requestAnimationFrame(this.update.bind(this))
   }
-  style.transform = `translate(${this.x}px, ${this.y}px)`;
-  ```
-
-2. **Use requestAnimationFrame.** If you ever catch yourself using `setInterval` to build out an animation, stop what you're doing, and go read about [requestAnimationFrame](https://flaviocopes.com/requestanimationframe/).
-
-  ```
-  class Bubbles {
-      update() {
-          this.bubbles.forEach(bubble => bubble.update());
-          requestAnimationFrame(this.update.bind(this))
-      }
-  }
-  ```
+}</code></pre>
 
 <p data-height="640" data-theme-id="35671" data-slug-hash="NeEZyP" data-default-tab="js,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.3 - Animating and looping" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/NeEZyP/">Stripe - Logo Bubble 1.3 - Animating and looping</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-### Let's give the animation some life
+### Make the animation feel organic
 
-We have movement, but it feels stale. How do we get that organic bobbing and weaving that the Stripe page has? My first thought is to use perlin noise to randomize the movement.
+We have movement, but it feels stale. How do we get that organic bobbing and weaving that the [Stripe page](https://stripe.com/us/customers) has? We could create three or four predefined CSS animations and apply them with random delays to the bubbles. That world probably work, but there is a  more elegant solution... inject some noise, _perlin noise_ to be specific.
+
+**Perlin noise** is an algorithm for generating 'randomness'. But unlike your normal `Math.random()` output which produces random values that have no relationship with the previously generated values, perlin noise allows us to create a sequence of 'random' values that have some order and create a smooth, organic appearance.
+
+The easiest way to understand the difference is to plot the values out. In the diagram below, we plot the output of `Math.random()` on top and the output of `noise.simplex2()`, a 2d perlin noise function, on the bottom.
+
+<div class="figure" style="width: 100%">
+  <canvas id="canvas-perlin"></canvas>
+  <figcaption>
+    <button class="button" id="perlin-replay-btn">Replay animation</button>
+  </figcaption>
+</div>
+
+<br>
+Here is our Bubble class's `update()` method currently:
+
+<pre><code class="prism language-js line-numbers">update() {
+  this.x = this.x - SCROLL_SPEED;
+  if (this.x <  -200) {
+    this.x = CANVAS_WIDTH;
+  }
+  this.el.style.transform = `translate(${this.x}px, ${this.y}px) scale(${this.scale})`;
+}</code></pre>
+
+And here it is after the _perlin noise_ is introduced:
+
+<pre><code class="prism language-js line-numbers">const NOISE_SPEED = 0.004; // The frequency. Smaller for flat slopes, higher for jagged spikes.
+const NOISE_AMOUNT = 5;    // The amplitude. How big are the movements.
+
+update() {
+  this.noiseSeedX += NOISE_SPEED;
+  this.noiseSeedY += NOISE_SPEED;
+
+  // The noise library we're using: https://github.com/josephg/noisejs
+  let randomX = noise.simplex2(this.noiseSeedX, 0);
+  let randomY = noise.simplex2(this.noiseSeedY, 0);
+
+  this.x -= SCROLL_SPEED;
+  this.xWithNoise = this.x + (randomX * NOISE_AMOUNT);
+  this.yWithNoise = this.y + (randomY * NOISE_AMOUNT)
+
+  if (this.x <  -200) {
+    this.x = CANVAS_WIDTH;
+  }
+
+  this.el.style.transform = `translate(${this.xWithNoise}px, ${this.yWithNoise}px) scale(${this.scale})`;
+}</code></pre>
+
+I'm keeping the perlin noise implementation discussion brief in this article, so if you have questions or want to learn more, I'd recommend checking out the following chapter in [Nature of Code](https://natureofcode.com/book/introduction/). With the perlin noise added and the noise parameters finetuned...
+
 
 ---
+
+## 🏁 Logo bubbles
 
 <a id="final-example"></a>
 <p data-height="640" data-theme-id="35671" data-slug-hash="GPPKGQ" data-default-tab="result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 3.1 - Perlin noise" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/GPPKGQ/">Stripe - Logo Bubble 3.1 - Perlin noise</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+This is the second in the series, so make sure to check out the first one: [101: Tilted code card](https://lokeshdhakar.com/stripe-front-end-dev-101/).
+
+I'd love to hear your thoughts on this post. What parts did you enjoy? What parts were confusing? What would you like to learn about next? <a href="#" class="js-email-link">Send a note</a>.
+
+Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next post is up.
+
 <link rel="stylesheet" href="/css/stripe.css">
+<link rel="stylesheet" href="/css/prism.css">
+
+<script src="/js/prism.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/css/stripe.css">
+<link rel="stylesheet" href="/css/prism.css">
+
+<script src="/js/prism.min.js"></script>
+<script src="https://cdn.rawgit.com/josephg/noisejs/master/perlin.js"></script>
+
+<script>
+noise.seed(Math.floor(Math.random() * 64000));
+
+const canvas = document.getElementById('canvas-perlin');
+const ctx = canvas.getContext('2d');
+
+// Set display size (css pixels).
+let width = canvas.parentElement.offsetWidth;
+let height = 400;
+
+// setInterval
+let plotting;
+
+function setupCanvas() {
+  canvas.style.width = width + 'px';
+  canvas.style.height = height + 'px';
+
+  // Set actual size in memory (scaled to account for extra pixel density).
+  let scale = window.devicePixelRatio; // <--- Change to 1 on retina screens to see blurry canvas.
+  canvas.width = width * scale;
+  canvas.height = height * scale;
+
+  // Normalize coordinate system to use css pixels.
+  ctx.scale(scale, scale);
+}
+
+function clearCanvas() {
+  ctx.fillStyle = '#eee';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+function startPlotting() {
+  let x = 0;
+  let noiseSeed = 0;
+  let noiseSpeed = 0.02;
+
+  plotting = setInterval(() => {
+    x += 4;
+
+    /* Random noise */
+    ctx.beginPath();
+    ctx.arc(x, Math.random() * (height / 2),  2, 0, 2 * Math.PI, false)
+    ctx.fillStyle = '#f96a38';
+    ctx.fill();
+
+    /* Perlin noise */
+    let noisey = (noise.simplex2(noiseSeed, 0));
+    noiseSeed += noiseSpeed;
+    ctx.beginPath();
+    ctx.arc(x, (noisey * (height / 4)) + (height * 0.75),  2, 0, 2 * Math.PI, false)
+    ctx.fillStyle = '#f96a38';
+    ctx.fill();
+
+    if (x > canvas.width) {
+      stopPlotting();
+    }
+  }, 50)
+}
+
+function stopPlotting() {
+  clearInterval(plotting);
+}
+
+setupCanvas();
+clearCanvas();
+startPlotting();
+
+document.getElementById('perlin-replay-btn').addEventListener('click', () => {
+  stopPlotting();
+  clearCanvas();
+  startPlotting();
+})
+</script>
+
+
+<style>
+figcaption {
+  margin-top: 8px;
+}
+
+.button {
+  color: white;
+  font-weight: 600;
+  background: var(--primary-color);
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+  border: 0;
+}
+</style>

@@ -104,6 +104,12 @@
 }
 
 
+/* CANVAS ------------------------------------ */
+
+canvas {
+  border-radius: var(--border-radius-xl);
+}
+
 /* CODEPEN EMBEDS ------------------------------------ */
 
 .cp_embed_wrapper,

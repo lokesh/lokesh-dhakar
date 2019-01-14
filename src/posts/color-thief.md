@@ -33,9 +33,10 @@ A recent example of a color adapting UI is seen on Google Chrome's new home tab.
 
 Include jquery, quantize.js, and color-thief.js on your page. Using the script is as simple as this:
 
-    myImage = $('#myImage');
-    dominantColor = getDominantColor(myImage);
-    paletteArray = createPalette(myImage, 10); // 2nd argument sets # of colors in palette
+<pre><code class="prism language-js line-numbers">myImage = $('#myImage');
+dominantColor = getDominantColor(myImage);
+paletteArray = createPalette(myImage, 10); // 2nd argument sets # of colors in palette
+</code></pre>
 
 Grab the code and read more on usage on [Github][4]. Dig through the code as well.
 
@@ -49,3 +50,7 @@ In the short term I'm not planning on doing any more work on the script. But if 
  [2]: http://www.etsy.com/color.php
  [3]: http://dribbble.com/colors/
  [4]: https://github.com/lokesh/color-thief
+
+<link rel="stylesheet" href="/css/prism.css">
+
+<script src="/js/prism.min.js"></script>

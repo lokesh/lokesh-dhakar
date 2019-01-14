@@ -11,23 +11,24 @@ I thought I'd share a little bit of what I've learned from noodling around with 
 
 Group your styles into categories (ex. layout, typography, forms, so on) and visually seperate them in your css file. A title and table of contents doesn't hurt either:
 
-    /*
-    	HuddleTogether.com Screen Styles
+<pre><code class="prism language-css line-numbers">/*
+    HuddleTogether.com Screen Styles
 
-    	Table of Contents:
-    		layout
-    		typography
-    		forms
-    */
+    Table of Contents:
+        layout
+        typography
+        forms
+*/
 
-    /* layout
-    ----------------------------------------------- */
+/* layout
+----------------------------------------------- */
 
-    /* typography
-    ----------------------------------------------- */
+/* typography
+----------------------------------------------- */
 
-    /* forms
-    ----------------------------------------------- */
+/* forms
+----------------------------------------------- */
+</code></pre>
 
 ### Choosing your categories
 
@@ -43,52 +44,59 @@ Another method is to categorize the styles and place them in seperate CSS files 
 
  [1]: http://www.stuffandnonsense.co.uk/archives/css_specificity_wars.html
 
-    @import url("layout.css");
-    @import url("typography.css");
-    @import url("forms.css");
+<pre><code class="prism language-css line-numbers">@import url("layout.css");
+@import url("typography.css");
+@import url("forms.css");
+</code></pre>
 
 ### Linebreaks and indenting
 
 When styling multiple tags, ids, or classes with common attributes, display each on its own line. Also, indent closing braces. Both these actions keep the left column clean so you can quickly skim your stylesheet:
 
-    h2,
-    h3,
-    h4 {
-    	font-weight: bold;
-    	padding-bottom: 1.5em;
-    	}
-    h5 {
-    	font-weight: normal;
-    	font-size: 1.5em;
-    	padding-bottom: 0;
-    	}
+<pre><code class="prism language-css line-numbers">h2,
+h3,
+h4 {
+    font-weight: bold;
+    padding-bottom: 1.5em;
+    }
+h5 {
+    font-weight: normal;
+    font-size: 1.5em;
+    padding-bottom: 0;
+    }
+</code></pre>
 
 ### Descendant selectors
 
 Use descendant selectors generously and consistently to keep your styles grouped neatly and [CSS specificity][1] in check:
 
-    #header {}
-    #header .logo {}
-    #header .logo img {}
-
+<pre><code class="prism language-css line-numbers">#header {}
+#header .logo {}
+#header .logo img {}
+</code></pre>
 
 ### Quick disable
 
 A trick I use all the time to temporarily disable a style attribute involves simply adding an 'x' in front of the attribute name. It's safer then cutting and quicker then commenting out:
 
-    #footer{
-    	border-top: 1px solid #e5e5e5;
-    	xborder-bottom: 1px solid #e5e5e5;
-    	}
+<pre><code class="prism language-css line-numbers">#footer{
+    border-top: 1px solid #e5e5e5;
+    xborder-bottom: 1px solid #e5e5e5;
+    }
+</code></pre>
 
 ### Keeping track of divs
 
 Quick HTML pointer. For div tags that stay open for a number of lines, add a small comment after the closing tag about the opening div's id or class:
 
-    <div id="content">
-    	<h2></h2>
-    	<p></p>
-    	<p></p>
-    	<p></p>
-    	<p></p>
-    </div><!-- end #content-->
+<pre><code class="prism language-html line-numbers">&#x3C;div id=&#x22;content&#x22;&#x3E;
+    &#x3C;h2&#x3E;&#x3C;/h2&#x3E;
+    &#x3C;p&#x3E;&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;/p&#x3E;
+&#x3C;/div&#x3E;<!-- end #content--></code></pre>
+
+<link rel="stylesheet" href="/css/prism.css">
+
+<script src="/js/prism.min.js"></script>

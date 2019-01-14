@@ -62,19 +62,11 @@ There are two font weight tweaks we need to make:
 
   This design decision seems to be less about highlighting certain elements of the code because they have elevated importance, but rather to introduce some dynamism to the visuals. This works great in this scenario, but you might reconsider this styling if you needed to show a large number of code samples.
 
-  <div class="note note-design" style="display: none">
-    <svg class="note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
-    <div class="note-text">
-      <div class="note-tag">Design</div>
-      <p>This decision seems to be less about highlighting certain elements of the code because they have elevated importance, but rather to introduce some dynamism to the visuals.</p>
-    </div>
-  </div>
-
 2. **Update font-smoothing rules.** This will make the fonts render a little thinner and crisper, especially light text on dark backgrounds.
 
-   <pre><code>-webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;</pre></code>
+  <pre><code class="prism language-css line-numbers">-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;</code></pre>
 
   Font-smoothing adjustments were originally intended to resolve device specific rendering issues. Fix the blurry bits, with a small performance trade-off. But now days they are used as a way to finesse type rendering for aesthetics, similar to Photoshops's sharp, crisp, strong, & smooth options.
 
@@ -128,47 +120,45 @@ Remember those mismatching colors from the end of part 1? By inspecting the DOM 
 
 1. **Add a block element for the shine.**
 
-  <pre><code>&lt;div class=&quot;card&quot;&gt;
-    &lt;div class=&quot;card-shine&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;code-snippet&quot;&gt;
-      ...
-    &lt;/div&gt;
+  <pre><code class="prism language-html line-numbers">&lt;div class=&quot;card&quot;&gt;
+     &lt;div class=&quot;card-shine&quot;&gt;&lt;/div&gt;
+     &lt;div class=&quot;code-snippet&quot;&gt;
+       ...
+     &lt;/div&gt;
   &lt;/div&gt;
   </div></code></pre>
 
 2. **Stretch the element to edges.** There are multiple ways to have an element stretch to fit the width and height of its parent. We'll use an absolute positioning technique in which we set all of the directional values to <code>0</code>. Make sure to set the parent element to <code>position: relative</code>.
 
-  ```
-  .card {
-    position: relative;
+  <pre><code class="prism language-css line-numbers">.card {
+     position: relative;
   }
 
   .card-shine {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }```
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+  }</code></pre>
 
 
 3. **Add gradient and set opacity.** Our shine element should now be sized and in position. Let's add the shine effect with a gradient.
 
-  ```
-  .card-shine {
-    background: linear-gradient(
-      to top right,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0) 20%,
-      rgba(255, 255, 255, 0.5) 70%,
-      #fff
-    );
-    opacity: 0.2;
-  }```
+  <pre><code class="prism language-css line-numbers">.card-shine {
+     background: linear-gradient(
+       to top right,
+       rgba(255, 255, 255, 0),
+       rgba(255, 255, 255, 0) 20%,
+       rgba(255, 255, 255, 0.5) 70%,
+       #fff
+     );
+     opacity: 0.2;
+  }</code></pre>
 
 4. **Keep content below the overlay interactive.** Set <code>pointer-events: none</code> on the card shine overlay to make sure it doesn't block clicks and taps from getting through.
 
-<p data-height="520" data-theme-id="35696" data-slug-hash="xmjdMe" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.1 - Add shine" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/xmjdMe/">Stripe - Code Card 2.1 - Add shine</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="520" data-theme-id="minimal" data-slug-hash="xmjdMe" data-default-tab="css,result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.1 - Add shine" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/xmjdMe/">Stripe - Code Card 2.1 - Add shine</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Make it pop off the page
@@ -177,36 +167,35 @@ We're going to rush through this section and save the more in-depth discussion o
 
 1. **Add shadows.**
 
-  ```
-  .card {
-     box-shadow:
-       -27.1px 62.5px 125px -25px rgba(50, 50, 93, 0.5),
-       -16.2px 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
-  }```
+  <pre><code class="prism language-css line-numbers">.card {
+    box-shadow:
+      -27.1px 62.5px 125px -25px rgba(50, 50, 93, 0.5),
+      -16.2px 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
+  }</code></pre>
 
 
 2. **Tilt in 3d.** Enable 3d space by adding a parent element with <code>perspective: 1500px</code>. Then add a transform to the card:
 
-  ```
-  .card {
-     transform: rotate3d(0.5, 0.866, 0, 15deg) rotate(-1deg);
-  }
-  ```
+  <pre><code class="prism language-css line-numbers">.card {
+    transform: rotate3d(0.5, 0.866, 0, 15deg) rotate(-1deg);
+  }</code></pre>
 
 ---
 
-_🥁 Drum roll please..._
+## 🏁 Tilted code card
 
 <a id="final-example"></a>
 <p data-height="560" data-theme-id="minimal" data-slug-hash="wRjeJy" data-default-tab="result" data-user="lokesh" data-pen-title="Stripe - Code Card 2.3 - Add shadows and tilt" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/wRjeJy/">Stripe - Code Card 2.3 - Add shadows and tilt</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-## The end of Stripe front-end dev 101
-
-I hope you enjoyed this post and learned something new. I'm planning on doing at least one more which will focus on motion.
+I hope you enjoyed this post and learned something new. I'm planning on doing at least one more which will focus on _motion_.
 
 I'd love to hear your thoughts on this post. What parts did you enjoy? What parts were confusing? What would you like to learn about next?
 
 Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next post is up.
 
 <link rel="stylesheet" href="/css/stripe.css">
+<link rel="stylesheet" href="/css/prism.css">
+
+<script src="/js/prism.min.js"></script>
+

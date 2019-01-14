@@ -11,17 +11,6 @@ textarea {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Reduce font size on desktop. Counter-intuitive, but it looks better and we
-tend to keep our phones closer to our eyes. */
-@media (min-width: 700px) {
-  body,
-  input,
-  button,
-  textarea {
-    /* font-size: 15px; */
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -109,7 +98,8 @@ pre {
 
 p code {
   padding: 2px 6px;
-  background-color: #eee;
+  color: #198844;
+  border: 1px solid var(--border-color);
   font-size: 13px;
   border-radius: var(--border-radius);
   line-height: 12px;
@@ -237,6 +227,7 @@ p code {
 
 .figure img,
 .figure--right img {
+  width: 100%;
   max-width: 100%;
   margin-bottom: 8px;
   border-radius: var(--border-radius-xl);

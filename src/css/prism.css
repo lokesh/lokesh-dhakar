@@ -1,0 +1,261 @@
+/*
+
+Name:       Base16 Google Light
+Author:     Seth Wright (http://sethawright.com)
+
+Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-size: 12px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  background: #ffffff;
+  color: #373b41;
+}
+
+@media (min-width: 700px)  {
+    code[class*="language-"],
+    pre[class*="language-"] {
+        font-size: 13px;
+    }
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #e0e0e0;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #e0e0e0;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  border: 1px solid var(--border-color);
+
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #b4b7b4;
+}
+
+.token.punctuation {
+  color: #373b41;
+}
+
+.token.namespace {
+  opacity: .7;
+}
+
+.token.operator,
+.token.boolean,
+.token.number {
+  color: #F96A38;
+}
+
+.token.property {
+  color: #FBA922;
+}
+
+.token.tag {
+  color: #3971ED;
+}
+
+.token.string {
+  color: #3971ED;
+}
+
+.token.selector {
+  color: #A36AC7;
+}
+
+.token.attr-name {
+  color: #F96A38;
+}
+
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #3971ED;
+}
+
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit {
+  color: #198844;
+}
+
+.token.statement,
+.token.regex,
+.token.atrule {
+  color: #3971ED;
+}
+
+.token.placeholder,
+.token.variable {
+  color: #3971ED;
+}
+
+.token.deleted {
+  text-decoration: line-through;
+}
+
+.token.inserted {
+  border-bottom: 1px dotted #1d1f21;
+  text-decoration: none;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.important {
+  color: #CC342B;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+pre > code.highlight {
+  outline: 0.4em solid #CC342B;
+  outline-offset: .4em;
+}
+
+.line-numbers .line-numbers-rows {
+  border-right-color: #e0e0e0 !important;
+}
+
+.line-numbers-rows > span:before {
+  color: #c5c8c6 !important;
+}
+
+.line-highlight {
+  background: rgba(29, 31, 33, 0.2) !important;
+  background: -webkit-linear-gradient(left, rgba(29, 31, 33, 0.2) 70%, rgba(29, 31, 33, 0)) !important;
+  background: linear-gradient(to right, rgba(29, 31, 33, 0.2) 70%, rgba(29, 31, 33, 0)) !important;
+}
+
+
+
+
+/* Plugin styles */
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before {
+	color: #e0d7d1;
+}
+
+/* Plugin styles: Line Numbers */
+
+pre[class*="language-"].line-numbers {
+	position: relative;
+	counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+	position: relative;
+	white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+    display: none; /* Hide on mobile to save space. */
+    position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.line-numbers-rows > span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+    content: counter(linenumber);
+    color: #999;
+    display: block;
+    padding-right: 0.8em;
+    text-align: right;
+}
+
+@media (min-width: 700px) {
+    pre[class*="language-"].line-numbers {
+        padding-left: 3.8em;
+    }
+
+    .line-numbers .line-numbers-rows {
+        display: inline;
+    }
+}
+
+
+/* Plugin styles: Show Language */
+.code-toolbar  {
+    position: relative;
+}
+
+.toolbar {
+    display: none;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.toolbar-item {
+  padding: 1px 4px 2px;
+  margin-bottom: 4px;
+  color: #fff;
+  background-color: var(--muted-color);
+  border-radius: var(--border-radius);
+  font-weight: 800;
+  font-size: 11px;
+  text-transform: uppercase;
+}
