@@ -42,7 +42,7 @@ Stripe combines all the logos into a single image file, which is called a sprite
 
 Using a spritesheet is a handy technique to reduce the number of HTTP requests the browser has to make. In this case, 1 file vs 43 files, a big performance win.
 
-Now back to our code&hellip; we'll take the logo spritesheet and set it as the background for each of the bubbles. We'll then adjust the size the spritesheet with the `background-size` CSS property so that one logo in the image is the size of one bubble.
+Now back to our code&hellip; we'll take the logo spritesheet and set it as the background for each of the bubbles. We'll then adjust the size of the spritesheet with the `background-size` CSS property so that one logo in the image is the size of one bubble.
 
 
 <pre><code class="prism language-css line-numbers">.bubble {
@@ -85,7 +85,7 @@ Let's peek at the original code to see if we can get to the bottom of this:
   <img src="/media/posts/stripe/102/bubbles-array.gif" alt="A wide image of company logos in circles.">
 </div>
 
-Found it! The positions and sizes are hard coded into an array called <code>bubbles</code>. Let's copy and paste the array in our code and use it to generate all the bubbles on the fly. We won't worry about randomizing the logos for this exercise.
+Found it! The positions and sizes are hard coded. Let's copy and paste the values in our code and use it to generate all the bubbles on the fly. We won't worry about randomizing the logos for this exercise.
 
 <pre><code class="prism language-js line-numbers">const bubbles = [{
   s: .6,
@@ -134,7 +134,9 @@ class Bubble {
 
   There are two layout related properties that browsers can animate cheaply, thanks to support from the GPU, and these are: `opacity` and `transform`. It is tempting to use the `top` and `left` CSS values to move elements around, but modifying them triggers expensive layout calculations that can cause slowdown. Stick to `transform` and `opacity`. In our case, we'll use transforms to move the bubbles around.
 
-<pre><code class="prism language-js line-numbers">this.x = this.x - SCROLL_SPEED;
+<pre><code class="prism language-js line-numbers">const SCROLL_SPEED = 0.3; // Pixels to move per frame. At 60fps, this would be 18px a sec.
+
+this.x = this.x - SCROLL_SPEED;
 if (this.x <  -200) {
   this.x = CANVAS_WIDTH;
 }
@@ -158,7 +160,7 @@ style.transform = `translate(${this.x}px, ${this.y}px)`;
 <p data-height="640" data-theme-id="35671" data-slug-hash="NeEZyP" data-default-tab="js,result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 1.3 - Animating and looping" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/NeEZyP/">Stripe - Logo Bubble 1.3 - Animating and looping</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-### Make the animation feel organic
+### Making the animation feel organic
 
 We have movement, but it feels stale. How do we get that organic bobbing and weaving that the [Stripe page](https://stripe.com/us/customers) has? We could create three or four predefined CSS animations and apply them with random delays to the bubbles. That world probably work, but there is a  more elegant solution... inject some noise, _perlin noise_ to be specific.
 
@@ -174,7 +176,7 @@ The easiest way to understand the difference is to plot the values out. In the d
 </div>
 
 <br>
-Here is our Bubble class's `update()` method currently:
+Here is our Bubble class's `update()` method before:
 
 <pre><code class="prism language-js line-numbers">update() {
   this.x = this.x - SCROLL_SPEED;
@@ -184,7 +186,7 @@ Here is our Bubble class's `update()` method currently:
   this.el.style.transform = `translate(${this.x}px, ${this.y}px) scale(${this.scale})`;
 }</code></pre>
 
-And here it is after the _perlin noise_ is introduced:
+And here it is after introucing _perlin noise_:
 
 <pre><code class="prism language-js line-numbers">const NOISE_SPEED = 0.004; // The frequency. Smaller for flat slopes, higher for jagged spikes.
 const NOISE_AMOUNT = 5;    // The amplitude. How big are the movements.
@@ -219,9 +221,9 @@ I'm keeping the perlin noise implementation discussion brief in this article, so
 <p data-height="640" data-theme-id="35671" data-slug-hash="GPPKGQ" data-default-tab="result" data-user="lokesh" data-pen-title="Stripe - Logo Bubble 3.1 - Perlin noise" class="codepen">See the Pen <a href="https://codepen.io/lokesh/pen/GPPKGQ/">Stripe - Logo Bubble 3.1 - Perlin noise</a> by Lokesh Dhakar (<a href="https://codepen.io/lokesh">@lokesh</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-This is the second in the series, so make sure to check out the first one: [101: Tilted code card](https://lokeshdhakar.com/stripe-front-end-dev-101/).
-
 I'd love to hear your thoughts on this post. What parts did you enjoy? What parts were confusing? What would you like to learn about next? <a href="#" class="js-email-link">Send a note</a>.
+
+This is the second in the series, so make sure to check out the first one: [101: Tilted code card](https://lokeshdhakar.com/stripe-front-end-dev-101/).
 
 Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next post is up.
 
@@ -240,7 +242,6 @@ Follow me on [Twitter](https://twitter.com/lokesh) to find out when the next pos
 <script src="https://cdn.rawgit.com/josephg/noisejs/master/perlin.js"></script>
 
 <script>
-noise.seed(Math.floor(Math.random() * 64000));
 
 const canvas = document.getElementById('canvas-perlin');
 const ctx = canvas.getContext('2d');
@@ -272,7 +273,6 @@ function clearCanvas() {
 
 function startPlotting() {
   let x = 0;
-  let noiseSeed = 0;
   let noiseSpeed = 0.02;
 
   plotting = setInterval(() => {
@@ -301,6 +301,9 @@ function startPlotting() {
 function stopPlotting() {
   clearInterval(plotting);
 }
+
+noise.seed(Math.floor(Math.random() * 64000));
+let noiseSeed = 0;
 
 setupCanvas();
 clearCanvas();
