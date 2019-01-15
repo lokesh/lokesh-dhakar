@@ -210,8 +210,9 @@ update() {
   this.el.style.transform = `translate(${this.xWithNoise}px, ${this.yWithNoise}px) scale(${this.scale})`;
 }</code></pre>
 
-I'm keeping the perlin noise implementation discussion brief in this article, so if you have questions or want to learn more, I'd recommend checking out the following chapter in [Nature of Code](https://natureofcode.com/book/introduction/). With the perlin noise added and the noise parameters finetuned...
+I'm keeping the perlin noise implementation discussion brief in this article, so if you have questions or want to learn more, I'd recommend checking out the [Introduction](https://natureofcode.com/book/introduction/) from _The Nature of Code_.
 
+With the perlin noise added and the noise parameters finetuned...
 
 ---
 
