@@ -64,7 +64,7 @@ button:hover {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: var(--line-height);
 }
 
 ul,
@@ -225,18 +225,12 @@ p code {
   border-radius: var(--border-radius-xl);
 }
 
-.figure img,
-.figure--right img {
-  width: 100%;
+.figure img {
   max-width: 100%;
   margin-bottom: 8px;
   border-radius: var(--border-radius-xl);
 }
 
-.figure__caption {
-  display: table-caption;
-  caption-side: bottom;
-  margin-bottom: 16px;
-  padding-left: 8px;
-  padding-right: 8px;
+.figure.full-width img {
+  width: 100%;
 }

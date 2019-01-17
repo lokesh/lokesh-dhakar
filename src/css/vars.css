@@ -13,9 +13,13 @@
   --text-max-width: 540px;
   --code-max-width: 540px;
 
+  /* Body text line height */
+  --line-height: 1.5em;
+
   --border-radius: 4px;
   --border-radius-large: 6px;
   --border-radius-xl: 8px;
+
 
   --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
 }
