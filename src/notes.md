@@ -12,6 +12,25 @@ layout: page.njk
 
 <div class="notes">
 
+<div class="note movie">
+  <div class="tag">Movie</div>
+  <h2 class="title">[Cold War](https://www.youtube.com/watch?v=8ImvkXgGVWw)</h2>
+  <div class="meta">2018 | Directed by 	Paweł Pawlikowski</div>
+
+  <p>This <em>love conquers all</em> tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>
+
+  <p>The movie is stunning. It is filmed in black and white, made up of beautifully framed, stark compositions and a camera that treads lightly. These solemn scenes are occasionally contrasted with something more frenetic, and these dynamic scenes are where the director and crew really show off: the choreography, the lighting, the sound. Jaw-dropping.</p>
+
+  <p>I don't talk about the characters, plot, or themes here. But I want to note that the movie doesn't miss the mark in any of these categories. It's a moving, unique story, edited together in an unexpected way. I plan on rewatching and digging a little deeper. I also plan on  checking  out Pawlikowski's previous film, [Ida](https://www.youtube.com/watch?v=ELIMeemx-FI).</p>
+
+  <div class="rating rating-5"></div>
+
+  <div class="revisit"></div>
+
+  <div class="date">Jan. 21, 2019</div>
+</div>
+
+
 
 <div class="note movie">
   <div class="tag">Movie</div>
