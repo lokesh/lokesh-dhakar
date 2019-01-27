@@ -3,7 +3,7 @@ date: 2018-07-08
 layout: page.njk
 ---
 
-<div class="page-tag">Home</div> 
+<div class="page-tag">Home</div>
 
 <h1 class="page-title">Lokesh Dhakar</h1>
 
@@ -17,7 +17,6 @@ I take photos on [Instagram](https://instagram.com/lokesh), post designs on [Dri
 
 <style>
 .page {
-  font-weight: 600;
   max-width: var(--text-max-width);
 }
 </style>

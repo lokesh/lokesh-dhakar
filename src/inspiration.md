@@ -221,6 +221,7 @@ layout: page.njk
 
   .title {
     font-size: 14px;
+    font-weight: 700;
   }
 
   .duration {

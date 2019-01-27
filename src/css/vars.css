@@ -5,21 +5,26 @@
   --muted-color: #777;
   --link-color: #05f;
 
+  /* Body text line height */
+  --line-height: 1.5em;
+
+  /* Borders and corners */
   --border-color: #ccc;
 
+  --border-radius: 4px;
+  --border-radius-large: 6px;
+  --border-radius-xl: 8px;
+
+  /* Typography */
+  --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
+  --bold: 700;
+  --x-bold: 800;
+
+  /* Layout */
   --nav-width: 140px;
   --gutter: 12px;
   --post-max-width: 960px;
   --text-max-width: 540px;
   --code-max-width: 540px;
 
-  /* Body text line height */
-  --line-height: 1.5em;
-
-  --border-radius: 4px;
-  --border-radius-large: 6px;
-  --border-radius-xl: 8px;
-
-
-  --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
 }
