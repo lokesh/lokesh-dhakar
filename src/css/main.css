@@ -97,7 +97,6 @@ pre {
   border-radius: var(--border-radius);
   font-size: 13px;
   line-height: 1.6em;
-  /* color: #fff; */
   background-color: #eee;
 }
 
@@ -231,7 +230,8 @@ p code {
 }
 
 .figure img {
-  max-width: 100%;
+  width: 100%;
+  max-width: var(--post-max-width);
   margin-bottom: 8px;
   border-radius: var(--border-radius-xl);
 }

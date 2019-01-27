@@ -5,7 +5,7 @@ comments: true
 layout: post.njk
 ---
 
-## Mugs, t-shirts, and source files now available
+<h2 class="page-subtitle">Mugs, t-shirts, and source files now available</h2>
 
  [1]: http://www.cafepress.com/lokesh
  [2]: http://cafepress.com/lokesh
@@ -13,21 +13,17 @@ layout: post.njk
 
 If you're simply looking to print up a copy to fold up in your wallet, I've created a PDF file which contains all nine images.
 
-<figure class="figure">
-  <a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.pdf">
-    <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-pdf-icon.png" alt="thumbnail of coffee drinks pdf"  />
-  </a>
-</figure>
+<a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.pdf">
+  <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-pdf-icon.png" alt="thumbnail of coffee drinks pdf"  />
+</a>
 
 ### Source file
 
 If you'd like to extend or localize the illustrations you can grab the Adobe Illustrator source file. You can also open up this file in Adobe Photoshop, without the vector data, as a bitmap..
 
-<figure class="figure">
-  <a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.ai">
-    <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-ai-icon.png" alt="thumbnail of coffee drinks pdf" />
-  </a>
-</figure>
+<a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.ai">
+  <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-ai-icon.png" alt="thumbnail of coffee drinks pdf" />
+</a>
 
 ### License information
 
