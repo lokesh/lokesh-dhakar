@@ -95,11 +95,8 @@
   max-width: var(--text-max-width);
 }
 
-.figure__video {
-  border: 1px solid var(--border-color);
-}
-
 .figure__video video {
+  border: 1px solid var(--border-color);
   border-radius: var(--border-radius-xl);
 }
 
