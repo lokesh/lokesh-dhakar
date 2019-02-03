@@ -1,5 +1,29 @@
 [
   {
+    "id": 2094941381,
+    "name": "Beach run: Venice to Santa Monica and back",
+    "distance": "6.4",
+    "distancePercent": 24.406124758778624,
+    "elevation": 56.430448,
+    "pace": 6.886228740609982,
+    "paceFormatted": "6:53",
+    "date": "Jan 21",
+    "year": 2019,
+    "startDate": "2019-01-21T14:50:06Z"
+  },
+  {
+    "id": 2087118804,
+    "name": "Reverse Headlands Loop on foot",
+    "distance": "8.8",
+    "distancePercent": 33.767244888931295,
+    "elevation": 1713.9108159999998,
+    "pace": 10.031628553927547,
+    "paceFormatted": "10:01",
+    "date": "Jan 17",
+    "year": 2019,
+    "startDate": "2019-01-18T06:56:10Z"
+  },
+  {
     "id": 2074003197,
     "name": "Running into Trouble in the Sunset",
     "distance": "7.5",
