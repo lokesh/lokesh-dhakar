@@ -1,7 +1,7 @@
 # lokeshdhakar.com
 
 - Built with [Metalsmith](http://www.metalsmith.io/), a simple, plugin driven static site generator.
-- [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) for templating. 
+- [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) for templating.
 
 Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-metalsmith-nunjucks).
 
@@ -15,6 +15,9 @@ Duplicate an existing post's md file.
 
 The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](https://github.com/segmentio/metalsmith-permalinks/issues/81) in the master branch of the project's main repo that prevents this feature from being utilized. I've patched the project files and pointed to my fork in `package.json`.
 
+### Dev 101 posts
+
+Use Giphy to capture videos.
 
 ## Updating data used on pages and posts
 
@@ -24,12 +27,12 @@ Run the `refresh-data` npm task. This will fetch the latest data from Strava and
 
 ```
 npm run refresh-data
-``` 
+```
 
 
 ### Adding a video to Inspiration page
 
-Run the fetch-vid shell script and specify the Youtube video id and the title you would 
+Run the fetch-vid shell script and specify the Youtube video id and the title you would
 like to show below the video thumb.
 ```
 ./fetch-vid.sh
@@ -41,7 +44,7 @@ like to show below the video thumb.
 npm run dev  // Builds, sets up watchers, and serves at http://localhost:8080.
 ```
 
-**Enable live reloading.** Add `<script src="http://localhost:35729/livereload.js"></script>` to 
+**Enable live reloading.** Add `<script src="http://localhost:35729/livereload.js"></script>` to
 each page. You can add to `base.njk`.
 
 **Templates.** Using [Nunjuks] for templating.
