@@ -13,6 +13,41 @@ layout: page.njk
 
 <div class="notes">
 
+
+<div class="note movie" style="display: none;">
+  <div class="tag">Movie</div>
+  <h2 class="title">[Isle of Dogs](https://www.youtube.com/watch?v=dt__kig8PVU)</h2>
+  <div class="meta">2018 | Directed by 	Wes Anderson</div>
+
+  stop motion and wes anderson. Framing and set production are a perfect fit.
+  details are everywhere
+
+  stilted acting
+
+  dogs didn't feel like dogs, Jeff Goldblum
+
+  Oracle though
+
+  Amazing music.
+
+  --
+  Side discussion about the representation of Japanese I read about after the fact. Two big areas of content
+  were around not subtitling the Japanese characters and the Greta Gerwig's white foreign-exchange
+  character coming in to save the day while Japanese palyed a passive stereotype.
+
+  I think the directoral decisions were justified, but maybe there could be some adjustments. Wes
+  did not want to have the bulk of the movie subtitled, especially the action scenes as this would
+  distract from the scene. And the foreign-exchange student was a plot addition to help articulate
+  the story.
+
+
+
+  <div class="rating rating-4"></div>
+
+  <div class="date">Feb. 9, 2019</div>
+</div>
+
+
 <div class="note movie">
   <div class="tag">Movie</div>
   <h2 class="title">[Cold War](https://www.youtube.com/watch?v=8ImvkXgGVWw)</h2>
@@ -30,7 +65,6 @@ layout: page.njk
 
   <div class="date">Jan. 21, 2019</div>
 </div>
-
 
 
 <div class="note movie">
