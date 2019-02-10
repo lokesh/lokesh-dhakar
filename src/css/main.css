@@ -100,7 +100,9 @@ pre {
   background-color: #eee;
 }
 
-p code {
+
+p > code,
+li > code {
   padding: 2px 6px;
   color: #198844;
   border: 1px solid var(--border-color);
