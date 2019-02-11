@@ -9,53 +9,53 @@ layout: page.njk
 - Italicize names of books, movies, and other long form works.
 -->
 
-<div class="note movie" style="display: none;">
+<div class="page-tag" style="margin-bottom: 12px;">Notes</div>
+
+<div class="notes">
+
+
+<div class="note movie">
   <div class="tag">Movie</div>
   <h2 class="title">[Isle of Dogs](https://www.youtube.com/watch?v=dt__kig8PVU)</h2>
   <div class="meta">2018 | Directed by 	Wes Anderson</div>
 
-  stop motion and wes anderson. Framing and set production are a perfect fit.
-  details are everywhere
+  Wes Anderson movies always have wonderful production design. But with the absolute control you get
+  with stop motion animation, he is really on a different level here. I recommend clicking around
+  the [10 min extended preview](https://www.youtube.com/watch?v=rTfSg77jrJw) to see for yourself.
 
-  stilted acting
+  I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson
+  movies. And second, partly because of the first reason, the dogs don't _feel_ like dogs. They seem
+  like human Wes Anderson characters voicing dogs.
 
-  dogs didn't feel like dogs, Jeff Goldblum
+  These complaints could take down other movies. But they don't here. The movie is beautiful. The plot
+  is playful. The music is incredible. All together, it's a super fun movie.
 
-  Oracle though
+  I do want to mention the discussion around cultural appropriation and the representation of
+  Japanese in this movie. I didn't note any issues while watching the movie and read about the
+  concerns after. Justin Chang's [review in the LA Times](https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html) is worth a read. It's a nuanced issue and after
+  reading some more, including interviews from Wes, I'm staying in the _cultural appreciation_,
+  not _appropriaton_, camp.
 
-  Amazing music.
-
-  --
-  Side discussion about the representation of Japanese I read about after the fact. Two big areas of content
-  were around not subtitling the Japanese characters and the Greta Gerwig's white foreign-exchange
-  character coming in to save the day while Japanese palyed a passive stereotype.
-
-  I think the directoral decisions were justified, but maybe there could be some adjustments. Wes
-  did not want to have the bulk of the movie subtitled, especially the action scenes as this would
-  distract from the scene. And the foreign-exchange student was a plot addition to help articulate
-  the story.
-
-
+  ---
 
   <div class="rating rating-4"></div>
 
   <div class="date">Feb. 9, 2019</div>
 </div>
 
-<div class="page-tag" style="margin-bottom: 12px;">Notes</div>
-
-<div class="notes">
 
 <div class="note movie">
   <div class="tag">Movie</div>
   <h2 class="title">[Cold War](https://www.youtube.com/watch?v=8ImvkXgGVWw)</h2>
   <div class="meta">2018 | Directed by 	Paweł Pawlikowski</div>
 
-  <p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>
+  This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.
 
-  <p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed ([Clip: In the field](https://www.youtube.com/watch?v=BI4IOkjPrcQ)). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([[Clip: Dancing](https://www.youtube.com/watch?v=kCuEXWMh5Vo)).</p>
+  The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed ([Clip: In the field](https://www.youtube.com/watch?v=BI4IOkjPrcQ)). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([[Clip: Dancing](https://www.youtube.com/watch?v=kCuEXWMh5Vo)).
 
-  <p>I don't talk about the characters, plot, or themes here. But I want to note that the movie doesn't miss the mark in any of these categories. It's an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski's previous film, [Ida](https://www.youtube.com/watch?v=ELIMeemx-FI).</p>
+  I don't talk about the characters, plot, or themes here. But I want to note that the movie doesn't miss the mark in any of these categories. It's an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski's previous film, [Ida](https://www.youtube.com/watch?v=ELIMeemx-FI).
+
+  ---
 
   <div class="rating rating-5"></div>
 
@@ -70,14 +70,14 @@ layout: page.njk
   <h2 class="title">[Stranger Than Paradise](https://www.youtube.com/watch?v=MwefGellnhk)</h2>
   <div class="meta">1984 | Directed by Jim Jarmusch</div>
 
-  <p>This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>
+  This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.
 
-  <p>I followed up the movie by watching an excellent commentary that discussed the movie's themes of [identity and multiculturalism](https://www.youtube.com/watch?v=0tbenS0F7j4). I didn't latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>
+  I followed up the movie by watching an excellent commentary that discussed the movie's themes of [identity and multiculturalism](https://www.youtube.com/watch?v=0tbenS0F7j4). I didn't latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.
+
+  ---
 
   <div class="rating rating-3"></div>
-
   <div class="revisit"></div>
-
   <div class="date">Jan. 4, 2019</div>
 </div>
 
@@ -87,18 +87,19 @@ layout: page.njk
   <h2 class="title">[The Jungle](https://en.wikipedia.org/wiki/The_Jungle)</h2>
   <div class="meta">1904 | Written by Upton Sinclair</div>
 
-  <p>The book has become infamous for its description of Chicago's meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA. </p>
+  The book has become infamous for its description of Chicago's meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.
 
-  <p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>
+  But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.
 
-  <p>The latter half half of the book slumps a bit as we follow Jugris's solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>
+  The latter half half of the book slumps a bit as we follow Jugris's solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.
 
-  <p>_"I aimed at the public's heart, and by accident I hit it in the stomach." - Upton Sinclair on the reaction to his book_</p>
+  _"I aimed at the public's heart, and by accident I hit it in the stomach." - Upton Sinclair on the reaction to his book_
 
-  <p>As a companion to this book, I highly recommend [Frontline's Trafficked in America](https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/) documentary to see what similar exploitation looks like in modern America.</p>
+  As a companion to this book, I highly recommend [Frontline's Trafficked in America](https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/) documentary to see what similar exploitation looks like in modern America.
+
+  ---
 
   <div class="rating rating-4"></div>
-
   <div class="date">Dec. 31, 2018</div>
 </div>
 
@@ -106,12 +107,14 @@ layout: page.njk
   <div class="tag">Movie</div>
   <h2 class="title">[Salad Days: A Decade Of Punk In Washington, DC (1980-90)](https://www.youtube.com/watch?v=lF3uSPyrQyQ)</h2>
   <div class="meta">2015 | Directed by Scott Crawford</div>
-  <p>A look at the people and the city from which which sprung out <a href="https://www.youtube.com/watch?v=SGJFWirQ3ks">Fugazi</a>, <a href="https://www.youtube.com/watch?v=thnb3UlH2zE">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin' to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.</p>
 
-  <p>Recommended for those who like punk rock and also like niche musical documentaries.</p>
+  A look at the people and the city from which which sprung out <a href="https://www.youtube.com/watch?v=SGJFWirQ3ks">Fugazi</a>, <a href="https://www.youtube.com/watch?v=thnb3UlH2zE">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin' to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.
+
+  Recommended for those who like punk rock and also like niche musical documentaries.
+
+  ---
 
   <div class="rating rating-2"></div>
-
   <div class="date">Nov. 21, 2018</div>
 </div>
 
@@ -121,18 +124,19 @@ layout: page.njk
   <h2 class="title">[Slacker](https://www.youtube.com/watch?v=KlmfRuXxuXo)</h2>
   <div class="meta">1990 | Directed by Richard Linklater</div>
 
-  <p>The classic Gen-X indie film from <a href="https://en.wikipedia.org/wiki/Richard_Linklater">Richard Linklater</a>.</p>
+  The classic Gen-X indie film from <a href="https://en.wikipedia.org/wiki/Richard_Linklater">Richard Linklater</a>.
 
-  <p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It's a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>
+  The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It's a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.
 
-  <p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>
+  The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.
 
- <p>Though the term _slacker_ has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn't helping them, and they don't see what it offers.</i>
-  </p>
+ Though the term _slacker_ has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn't helping them, and they don't see what it offers.</i>
 
-  <p>_"Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost." - Eleanor Capaldi_</p>
+  _"Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost." - Eleanor Capaldi_
 
-  <p>Recommended for those who say "film" rather than "movie". You know who you are. You probably enjoy other 'films' like [Breathless](https://www.youtube.com/watch?v=eHQ2Q-_bl8k) and [Buffalo 66](https://www.youtube.com/watch?v=A5FzzN20-60).</p>
+  Recommended for those who say "film" rather than "movie". You know who you are. You probably enjoy other 'films' like [Breathless](https://www.youtube.com/watch?v=eHQ2Q-_bl8k) and [Buffalo 66](https://www.youtube.com/watch?v=A5FzzN20-60).
+
+  ---
 
   <div class="rating rating-5"></div>
   <div class="revisit"></div>
@@ -146,11 +150,13 @@ layout: page.njk
   <h2 class="title">[Blade Runner](https://www.youtube.com/watch?v=eogpIG53Cis)</h2>
   <div class="meta">1982 | Directed by Ridley Scott</div>
 
-  <p>When I first watched the movie, the visuals were what left a mark. Now after seeing _Blade Runnner 2049_ and reading <a href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">_Do Androids Dream of Electric Sheep?_</a>, I've come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>
+  When I first watched the movie, the visuals were what left a mark. Now after seeing _Blade Runnner 2049_ and reading <a href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">_Do Androids Dream of Electric Sheep?_</a>, I've come to appreciate the themes the movie explores. The plot is fine, but less remarkable.
 
-  <p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>
+  Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.
 
-  <p>_What does it mean to be human?_ This is the overarching question in the movie. It plays out between humans and replicants. Replicants are 'robots' created by humans that are virtually identical to humans, but treated as property. Through out the movie, it's not clear if Deckard, Harrison Ford's character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard's humanity doesn't matter. If as viewers, we can't tell if he is a replicant or not, does it matter if he is or not?</p>
+  _What does it mean to be human?_ This is the overarching question in the movie. It plays out between humans and replicants. Replicants are 'robots' created by humans that are virtually identical to humans, but treated as property. Through out the movie, it's not clear if Deckard, Harrison Ford's character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard's humanity doesn't matter. If as viewers, we can't tell if he is a replicant or not, does it matter if he is or not?
+
+  ---
 
   <div class="rating rating-4"></div>
 
@@ -250,6 +256,7 @@ layout: page.njk
 }
 
 .rating {
+  font-size: 20px;
   /* color: var(--secondary-color); */
 }
 
@@ -293,9 +300,9 @@ layout: page.njk
 }
 
 .date {
-  display: none;
+  margin-top: 4px;
+  font-size: 12px;
   font-weight: bold;
-  color: var(--muted-color);
 }
 
 
