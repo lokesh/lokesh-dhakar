@@ -60,7 +60,7 @@ highlight: true
 </figure>
 
 
-<h2 class="page-subtitle">A fan's guide to identifying pitches</h2>
+<h2 class="post-subtitle">A fan's guide to identifying pitches</h2>
 
 I'm a baseball fan. I've watched my share of televised games and attended a few handful. After all this, I was still in the dark about the difference between pitches. I knew a curveball broke downwards, but what exactly was a circle changeup?
 

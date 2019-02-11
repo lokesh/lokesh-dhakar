@@ -17,7 +17,8 @@ The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](http
 
 ### Dev 101 posts
 
-Use Giphy to capture videos.
+- Use Giphy to capture videos.
+- For the reading time, I am using [WordCounter's](https://wordcounter.net/) estimate and multiplying by 1.5 to account for code and examples.
 
 ## Updating data used on pages and posts
 

@@ -5,7 +5,7 @@ comments: true
 layout: post.njk
 ---
 
-<h2 class="page-subtitle">Mugs, t-shirts, and source files now available</h2>
+<h2 class="post-subtitle">Mugs, t-shirts, and source files now available</h2>
 
  [1]: http://www.cafepress.com/lokesh
  [2]: http://cafepress.com/lokesh

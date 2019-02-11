@@ -9,11 +9,6 @@ layout: page.njk
 - Italicize names of books, movies, and other long form works.
 -->
 
-<div class="page-tag" style="margin-bottom: 12px;">Notes</div>
-
-<div class="notes">
-
-
 <div class="note movie" style="display: none;">
   <div class="tag">Movie</div>
   <h2 class="title">[Isle of Dogs](https://www.youtube.com/watch?v=dt__kig8PVU)</h2>
@@ -47,6 +42,9 @@ layout: page.njk
   <div class="date">Feb. 9, 2019</div>
 </div>
 
+<div class="page-tag" style="margin-bottom: 12px;">Notes</div>
+
+<div class="notes">
 
 <div class="note movie">
   <div class="tag">Movie</div>

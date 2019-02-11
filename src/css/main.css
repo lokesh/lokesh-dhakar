@@ -171,6 +171,11 @@ li > code {
   padding-right: var(--gutter);
 }
 
+.page-subtitle,
+.post-subtitle {
+  margin-top: 0;
+}
+
 @media (min-width: 700px) {
   .post,
   .page {
@@ -180,10 +185,6 @@ li > code {
 
 /* Page ------------ */
 .page-title {
-  margin-top: 0;
-}
-
-.page-subtitle {
   margin-top: 0;
 }
 
@@ -203,6 +204,27 @@ li > code {
 
 .post__title {
   margin-bottom: 8px;
+}
+
+.post-subtitle + .post-summary {
+  margin-top: -10px;
+}
+
+.post-summary {
+  /* max-width: var(--text-max-width); */
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--muted-color);
+}
+
+.post-time {
+  color: var(--secondary-color);
+}
+
+.post-time::after {
+  display: inline;
+  content: '. ';
 }
 
 .post__content > p,

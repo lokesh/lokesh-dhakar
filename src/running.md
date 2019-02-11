@@ -272,7 +272,7 @@ var app = new Vue({
           type: 'achievement',
           text: 'First mile under 5:30'
         },
-        1426144555: {
+        1584701112: {
           type: 'race',
           text: 'Race • 2018 Bay to Breakers',
         },
