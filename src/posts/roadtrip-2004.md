@@ -100,7 +100,7 @@ If you add it all up, the grand total comes to: **8700 miles over 25 days**.
   caption-side: bottom;
   margin-top: 8px;
   line-height: var(--line-height);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .photo img {

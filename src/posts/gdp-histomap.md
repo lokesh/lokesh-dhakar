@@ -108,11 +108,11 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 }
 
 .histomap-title-line-1 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .histomap-title-line-2 {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 #histomap {
@@ -121,7 +121,7 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 
 #overlay-group {
   font-weight: 700;
-  font-size: 10px;
+  font-size: 0.625rem;
   text-transform: uppercase;
 }
 
@@ -132,12 +132,12 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 }
 
 .citation {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 #histomap-form {
   display: none;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 #histomap-form.open {

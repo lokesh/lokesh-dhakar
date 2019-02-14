@@ -17,7 +17,7 @@
   padding: 2px 4px 2px 0;
   margin-right: 4px;
   border-radius: var(--border-radius);
-  font-size: 14px;
+  font-size: 0.875rem;
   cursor: pointer;
 }
 

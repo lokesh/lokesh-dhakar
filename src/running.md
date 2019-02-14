@@ -110,7 +110,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   display: flex;
   align-items: center;
   margin-bottom: 8px;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
 }
 
@@ -137,7 +137,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   width: 54px;
   text-align: center;
   color: white;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 800;
   background-color: #000;
   border-radius: 4px 0 0 4px;
@@ -151,12 +151,12 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 }
 
 .comment-icon {
-  font-size: 24px;
+  font-size: 2rem;
   margin-right: 8px;
 }
 
 .comment-text {
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.4em;
 }
 
@@ -189,7 +189,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   position: relative;
   top: -1px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .comment-achievement .comment-icon::after {
@@ -205,7 +205,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   display: flex;
   justify-content: space-between;
   background-color: #EDEDED;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 12px;
   border-radius: var(--border-radius) 0 0 var(--border-radius);
@@ -219,6 +219,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   z-index: 1;
   opacity: 0.8;
   padding: 8px;
+  line-height: 1.1em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

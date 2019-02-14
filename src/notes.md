@@ -195,8 +195,8 @@ layout: page.njk
 
 @media (min-width: 880px) {
   .note {
-    width: 352px;
-    font-size: 14px;
+    width: 19rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -227,7 +227,7 @@ layout: page.njk
   margin-top: -2px;
   margin-bottom: 2px;
   color: var(--secondary-color);
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 800;
   text-transform: uppercase;
   border-radius: var(--border-radius);
@@ -256,8 +256,7 @@ layout: page.njk
 }
 
 .rating {
-  font-size: 20px;
-  /* color: var(--secondary-color); */
+  font-size: 1.25rem;
 }
 
 .rating-1::before {
@@ -290,7 +289,7 @@ layout: page.njk
   background-color: #000;
   border-radius: var(--border-radius);
   font-weight: 800;
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-transform: uppercase;
 }
 
@@ -301,7 +300,7 @@ layout: page.njk
 
 .date {
   margin-top: 4px;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 

@@ -10,7 +10,7 @@ Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/b
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
@@ -30,7 +30,7 @@ pre[class*="language-"] {
 @media (min-width: 700px)  {
     code[class*="language-"],
     pre[class*="language-"] {
-        font-size: 13px;
+        font-size: 0.8125rem;
     }
 }
 
@@ -256,6 +256,6 @@ pre[class*="language-"].line-numbers > code {
   background-color: var(--muted-color);
   border-radius: var(--border-radius);
   font-weight: 800;
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-transform: uppercase;
 }

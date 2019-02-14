@@ -104,7 +104,7 @@ I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and
   left: -6px;
 
   display: grid;
-  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  grid-template-columns: repeat(2, minmax(7.5rem, 1fr));
   grid-column-gap: 8px;
   grid-row-gap: 16px;
   margin: 24px 0;
@@ -112,7 +112,7 @@ I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and
 
 @media (min-width: 600px) {
   .drinks {
-    grid-template-columns: repeat(3, minmax(140px, 240px));
+    grid-template-columns: repeat(3, minmax(8.75rem, 15rem));
   }
 }
 
@@ -131,19 +131,19 @@ I gathered most of my information from [Wikipedia](http://www.wikipedia.org) and
 .drink h2 {
   margin-top: 2px;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 @media (min-width: 600px) {
   .drink h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
 .ingredients {
   margin-top: 0;
   color: var(--muted-color);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 

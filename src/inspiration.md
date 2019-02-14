@@ -112,7 +112,7 @@ layout: page.njk
   color: white;
   background-color: #000;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: var(--border-radius);
 }
 
@@ -176,28 +176,28 @@ layout: page.njk
   }
 
   .page-title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .page-subtitle {
     margin-top: 4px;
     margin-bottom: 1px;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .page-desc {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .sort-options {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .sort-option {
     padding: 4px 8px;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .videos {
@@ -221,12 +221,12 @@ layout: page.njk
   }
 
   .title {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
   }
 
   .duration {
-      font-size: 12px;
+      font-size: 0.75rem;
   }
 }
 </style>

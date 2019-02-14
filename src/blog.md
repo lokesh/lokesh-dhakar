@@ -17,7 +17,7 @@ layout: blog.njk
   display: flex;
   list-style: none;
   margin-left: 0;
-  max-width: 460px;
+  max-width: 30rem;
 }
 
 .archive__title {
@@ -27,7 +27,7 @@ layout: blog.njk
 }
 
 .archive__date {
-  flex: 0 0 100px;
+  flex: 0 0 6.5rem;
   text-align: right;
 }
 </style>
