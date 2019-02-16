@@ -27,7 +27,7 @@ pre[class*="language-"] {
   color: #373b41;
 }
 
-@media (min-width: 700px)  {
+@media (min-width: 800px)  {
     code[class*="language-"],
     pre[class*="language-"] {
         font-size: 0.8125rem;
@@ -226,7 +226,7 @@ pre[class*="language-"].line-numbers > code {
     text-align: right;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     pre[class*="language-"].line-numbers {
         padding-left: 3.8em;
     }

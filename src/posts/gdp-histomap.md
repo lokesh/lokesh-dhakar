@@ -98,11 +98,11 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 
 <style>
 .histomap-title {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
  /* Offset a bit to make it optically centered with the chart, excluding y-axis label column. */
   margin-left: 8px;
   font-weight: 700;
-  line-height: 15px;
+  line-height: 1rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -137,6 +137,9 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 
 #histomap-form {
   display: none;
+  font-size: 0.8125rem;
+}
+#histomap-form select {
   font-size: 0.8125rem;
 }
 
@@ -208,7 +211,7 @@ function shadeBlend(p,c0,c1) {
 // ------
 
 /* SVG sizing and colors */
-const canvasMaxWidth = 540;
+const canvasMaxWidth = 720;
 const canvasAspectRatio = 2; // height / width
 
 const labelColumnWidth = 34;

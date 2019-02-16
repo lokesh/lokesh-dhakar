@@ -53,7 +53,7 @@ layout: page.njk
           class="thumb-preview"
           :style="`
             background-image: url(/media/inspiration/${this.video.filename}-sprite.jpg);
-            background-position: ${imgNum * 240}px 0;
+            background-position: ${imgNum * 300}px 0;
           `"
         />
       </div>
@@ -71,8 +71,8 @@ layout: page.njk
 <style>
 
 :root {
-  --vid-width: 240px;
-  --vid-height: 135px;
+  --vid-width: 300px;
+  --vid-height: 168.75px;
 }
 
 .intro {
@@ -86,18 +86,26 @@ layout: page.njk
 .thumb {
   position: relative;
   display: block;
-  height: 240px;
+  height: 300px;
   margin-bottom: 8px;
   margin-left: calc(var(--gutter) * -1);
   margin-right: calc(var(--gutter) * -1);
   background-size: cover;
 }
 
+/* Hide scurbbable previews on mobile */
 .thumb-preview {
+  display: none;
   width: var(--vid-width);
   height: var(--vid-height);
   border-radius: var(--border-radius);
   background-size: cover;
+}
+
+@media (min-width: 800px) {
+  .thumb-preview {
+    display: block;
+  }
 }
 
 .details a {
@@ -170,7 +178,7 @@ layout: page.njk
 }
 
 
-@media (min-width: 520px) {
+@media (min-width: 800px) {
   .intro {
     margin-bottom: 0;
   }
@@ -182,7 +190,6 @@ layout: page.njk
   .page-subtitle {
     margin-top: 4px;
     margin-bottom: 1px;
-    font-weight: normal;
     font-size: 0.875rem;
   }
 

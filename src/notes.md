@@ -208,6 +208,7 @@ layout: page.njk
 .note {
   padding: 16px;
   margin-bottom: 16px;
+  background: white;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-xl);
 }

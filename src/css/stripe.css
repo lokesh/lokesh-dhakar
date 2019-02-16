@@ -32,8 +32,9 @@
 
 /* CANVAS ------------------------------------ */
 
-canvas {
+.canvas {
   border-radius: var(--border-radius-xl);
+  border: 1px solid var(--border-color);
 }
 
 /* CODEPEN EMBEDS ------------------------------------ */
