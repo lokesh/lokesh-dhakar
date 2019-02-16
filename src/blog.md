@@ -17,7 +17,10 @@ layout: blog.njk
   display: flex;
   list-style: none;
   margin-left: 0;
-  max-width: 30rem;
+  max-width: 36rem;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .archive__title {

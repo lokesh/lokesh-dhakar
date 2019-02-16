@@ -179,7 +179,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 .comment.comment-achievement,
 .comment.comment-race {
-  justify-content: center;
   align-items: center;
   padding-top: 4px;
   padding-bottom: 12px;

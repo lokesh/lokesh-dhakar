@@ -171,24 +171,20 @@ li > code {
 /* Nav ------------ */
 .nav {
   position: relative;
-  left: -4px;
   max-width: var(--post-max-width);
   padding: 8px var(--gutter) 16px;
 }
 
 .nav__item {
   display: inline-block;
-  padding: 4px 4px;
-  color: var(--muted-color);
-  font-weight: 800;
+  padding: 0.25em;
+  color: var(--color);
+  font-weight: 700;
   font-size: 0.75rem;
-  text-transform: uppercase;
+  transition: color 0.4s;
 }
 
 .nav__item:hover {
-  color: #666;
-  background: #eee;
-  text-decoration: none;
   border-radius: var(--border-radius);
 }
 

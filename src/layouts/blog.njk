@@ -5,23 +5,15 @@
 
     {{ contents | safe }}
 
-
     <ul class="archive">
 
       {% for post in collections.posts %}
         {% if not post.draft %}
         <li class="archive__post">
-
-
           <a href="/{{ post.path }}/" class="archive__title">
             {{ post.title }}
           </a>
-
-           <!-- {{ post.highlight }}-->
-
           <div class="archive__date">{{ post.date | date }}</div>
-
-
         </li>
         {% endif %}
       {% endfor %}
