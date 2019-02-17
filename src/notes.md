@@ -19,13 +19,8 @@ layout: page.njk
   <h2 class="title">[Hatching Twitter](https://www.goodreads.com/book/show/18656827-hatching-twitter)</h2>
   <div class="meta">2013 | Written by Nick Bilton</div>
 
-  I picked this book up in hoping to get a little background about Jack Dorsey, who became our
-  CEO after Weebly was acquired by Square.
-
-  Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero
-  first-hand information and am not implying any inaccuricies to the events in the book, but it seemed
-  like the people who gave time to the author came off well, and those who didn't were maligned and
-  their motivations not articulated.
+  I picked this book up hoping to get a little background about Jack Dorsey, who became our
+  CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn't were maligned, and their motivations not articulated.
 
   ---
 
