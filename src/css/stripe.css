@@ -13,7 +13,7 @@
 
 .figure img {
   margin-bottom: 0;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-light);
 }
 
 .figure.no-border img {
@@ -25,7 +25,7 @@
 }
 
 .figure__video video {
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-light);
   border-radius: var(--border-radius-xl);
 }
 
@@ -34,7 +34,7 @@
 
 .canvas {
   border-radius: var(--border-radius-xl);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-light);
 }
 
 /* CODEPEN EMBEDS ------------------------------------ */

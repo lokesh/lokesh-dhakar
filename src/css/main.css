@@ -9,11 +9,12 @@
   --line-height: 1.5em;
 
   /* Borders and corners */
-  --border-color: #ddd;
+  --border-color: #000;
+  --border-color-light: #ccc; /* Used for inline content  */
 
-  --border-radius: 4px;
-  --border-radius-large: 6px;
-  --border-radius-xl: 8px;
+  --border-radius: 0; /* Prev 4px */
+  --border-radius-large: 0; /* Prev 6px */
+  --border-radius-xl: 0; /* Prev 8px */
 
   /* Typography */
   --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
@@ -86,7 +87,7 @@ hr {
   margin: 2rem 0;
   height: 2px;
   border: none;
-  border-bottom: 2px dashed var(--border-color);
+  border-bottom: 2px solid var(--border-color);
 }
 
 h1,
@@ -164,7 +165,8 @@ p > code,
 li > code {
   padding: 2px 6px;
   color: #198844;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-light);
+  /* background-color: #ddd; */
   font-size: 0.8125rem;
   border-radius: var(--border-radius);
   line-height: 12px;

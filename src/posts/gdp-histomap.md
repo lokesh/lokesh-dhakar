@@ -84,7 +84,7 @@ than nominal GDP for comparing countries and is the metric used in the chart.
 
 ---
 
-## 🛠 Behind the scenes
+## Behind the scenes
 
 The chart is generated on-the-fly, with vanilla Javascript used to create SVG shapes and text.
 
