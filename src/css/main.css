@@ -9,7 +9,7 @@
   --line-height: 1.5em;
 
   /* Borders and corners */
-  --border-color: #ccc;
+  --border-color: #ddd;
 
   --border-radius: 4px;
   --border-radius-large: 6px;
@@ -92,7 +92,8 @@ hr {
 h1,
 h2,
 h3 {
-  font-weight: 800;
+  font-weight: var(--x-bold);
+  letter-spacing: -0.005em;
 }
 
 h1 {

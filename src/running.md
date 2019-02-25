@@ -134,7 +134,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   top: -18px;
   right: -2px;
   padding: 2px 0;
-  width: 54px;
+  width: 5em;
   text-align: center;
   color: white;
   font-size: 0.75rem;
