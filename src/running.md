@@ -111,7 +111,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   align-items: center;
   margin-bottom: 8px;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: var(--bold);
 }
 
 .swatch {
@@ -138,7 +138,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   text-align: center;
   color: white;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: var(--x-bold);
   background-color: #000;
   border-radius: 4px 0 0 4px;
 }
@@ -162,7 +162,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 
 .comment-text em {
   font-style: normal;
-  font-weight: 600;
+  font-weight: var(--bold);
 }
 
 .comment-text em::after {
@@ -187,7 +187,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 .comment-race .comment-text {
   position: relative;
   top: -1px;
-  font-weight: 600;
+  font-weight: var(--bold);
   font-size: 0.875rem;
 }
 
@@ -205,7 +205,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   justify-content: space-between;
   background-color: #EDEDED;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: var(--bold);
   margin-bottom: 12px;
   border-radius: var(--border-radius) 0 0 var(--border-radius);
 }

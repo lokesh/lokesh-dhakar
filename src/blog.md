@@ -20,13 +20,13 @@ layout: blog.njk
   max-width: 36rem;
   margin-bottom: 0.6em;
   padding-bottom: 0.6rem;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color-light);
 }
 
 .archive__title {
   flex: 1 1 auto;
   color: var(--color);
-  font-weight: 700;
+  font-weight: var(--x-bold);
 }
 
 .archive__date {

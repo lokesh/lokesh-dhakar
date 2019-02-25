@@ -204,7 +204,7 @@ layout: page.njk
   padding: 16px;
   margin-bottom: 16px;
   background: white;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-light);
   border-radius: var(--border-radius-xl);
 }
 
@@ -243,7 +243,7 @@ layout: page.njk
   margin-bottom: 2px;
   color: var(--secondary-color);
   font-size: 0.6875rem;
-  font-weight: 800;
+  font-weight: var(--x-bold);
   text-transform: uppercase;
   border-radius: var(--border-radius);
 }
@@ -261,7 +261,7 @@ layout: page.njk
 }
 
 .meta {
-  font-weight: bold;
+  font-weight: var(--bold);
   color: var(--muted-color);
 }
 
@@ -303,7 +303,7 @@ layout: page.njk
   color: #fff;
   background-color: #000;
   border-radius: var(--border-radius);
-  font-weight: 800;
+  font-weight: var(--x-bold);
   font-size: 0.6875rem;
   text-transform: uppercase;
 }
@@ -316,7 +316,7 @@ layout: page.njk
 .date {
   margin-top: 4px;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: var(--bold);
 }
 
 

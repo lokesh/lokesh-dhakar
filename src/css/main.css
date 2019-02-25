@@ -18,8 +18,8 @@
 
   /* Typography */
   --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
-  --bold: 700;
-  --x-bold: 800;
+  --bold: 600;
+  --x-bold: 700;
 
   /* Layout
      All px estimates of rem values assume 16px font-size.
@@ -175,21 +175,39 @@ li > code {
 
 /* Nav ------------ */
 .nav {
-  position: relative;
-  max-width: var(--post-max-width);
-  padding: 8px var(--gutter) 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: var(--gutter);
+}
+.nav__list {
+  display: flex;
+  border: 1px solid var(--border-color);
+  margin-bottom: var(--gutter);
+  margin-right: var(--gutter);
+}
+
+.nav__list:last-of-type {
+  margin-bottom:  0;
 }
 
 .nav__item {
   display: inline-block;
-  padding: 0.25em;
+  padding: 0.3em 0.5em 0.4em 0.5em;
   color: var(--color);
-  font-weight: 700;
-  font-size: 0.8rem;
+  border-right: 1px solid var(--border-color);
+  /* font-weight: 600; */
+  font-size: 0.7rem;
+}
+
+.nav__item:last-of-type {
+  border-right: none;
 }
 
 .nav__item:hover {
-  border-radius: var(--border-radius);
+  /* border-radius: var(--border-radius); */
+  text-decoration:  none;
+  background-color: #e3e3e3;
 }
 
 .nav__divider {
@@ -198,15 +216,28 @@ li > code {
 
 @media (min-width: 800px) {
   .nav {
+    display: block;
     position: fixed;
     left: 0;
-    margin-left: 0;
-    padding-top: 0;
+    padding-top: 6px; /* Help line it up with top of the page/post title  */
+    margin: 0 0 0 var(--gutter);
   }
-
+  .nav__list  {
+    display: block;
+    margin-right: 0;
+    margin-bottom: var(--gutter);
+  }
   .nav__item {
     display: block;
+    padding: 0.3em 1em 0.4em 0.5em;
+    border-right: 0;
+    border-bottom: 1px solid var(--border-color);
   }
+
+  .nav__item:last-of-type {
+    border-bottom: none;
+  }
+
 
   .nav__divider {
     display: block;
@@ -251,7 +282,7 @@ li > code {
   color: #fff;
   background-color: #000;
   border-radius: var(--border-radius);
-  font-weight: 800;
+  font-weight: var(--x-bold);
   font-size: 0.6875rem;
   text-transform: uppercase;
 }
@@ -268,7 +299,7 @@ li > code {
 
 .post-summary {
   margin-bottom: 16px;
-  font-weight: bold;
+  font-weight: var(--bold);
   color: var(--muted-color);
   line-height: var(--line-height);
 }
