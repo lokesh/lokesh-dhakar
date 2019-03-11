@@ -1,4 +1,7 @@
 :root {
+  --bg-color: #f9f9f9;
+  --hover-bg-color: #e9e9e9;
+
   --color: #000;
   --primary-color: #fc4c02;
   --secondary-color: #f68727;
@@ -72,7 +75,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  color: var(--color);
+  background: var(--bg-color);
+}
+
+/* DARK MODE */
+
+body.dark-mode {
+  --bg-color: #000;
+  --color: #fff;
+  --hover-bg-color: #444;
 }
 
 img {
@@ -205,9 +217,8 @@ li > code {
 }
 
 .nav__item:hover {
-  /* border-radius: var(--border-radius); */
   text-decoration:  none;
-  background-color: #e3e3e3;
+  background-color: var(--hover-bg-color);
 }
 
 .nav__divider {

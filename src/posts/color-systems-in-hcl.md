@@ -6,6 +6,7 @@ layout: post.njk
 
 <b>This post is a work-in-progress.</b>
 
+
 <!-- However, their luminance variation does not match the way humans perceive color.
       Perceptually uniform color spaces outperform RFB in cases such as high noise environments. The
       Lab color space does correspond to the three channels of human perceptions, but it has poor
@@ -18,7 +19,7 @@ layout: post.njk
 
 
   <section class="app-controls">
-    Hues (Columns): <input type="range" min="1" max="20" step="1" v-model.number="hues">{{ hues }}<br>
+    Hues (Columns): <input type="range" min="1" max="18" step="1" v-model.number="hues">{{ hues }}<br>
     Steps (Rows): <input type="range" min="1" max="20" step="1" v-model.number="steps">{{ steps }}<br>
     Start Chroma: <input type="range" min="1" max="150" v-model.number="startChroma">{{ startChroma }}<br>
     End Chroma: <input type="range" min="1" max="150" v-model.number="endChroma">{{ endChroma }}<br>
@@ -59,34 +60,37 @@ layout: post.njk
     </div>
   </section>
 
+  <div style="display: none;">
 
-  <h2>HSL</h2>
+    <h2>HSL</h2>
 
-  <section class="notices">
+    <section class="notices">
 
-    <notice
-      v-for="n in 8"
-      :style="`background: hsl(${(n - 1) * 40}, 100%, 90%)`"
-    >
-      HCL is designed to have characteristics of oth culinrical transslations of the
-      RGB color space, asuch as HSL and HSC, and the Lab color space. hsl
+      <notice
+        v-for="n in 8"
+        :style="`background: hsl(${(n - 1) * 40}, 100%, 90%)`"
+      >
+        HCL is designed to have characteristics of oth culinrical transslations of the
+        RGB color space, asuch as HSL and HSC, and the Lab color space. hsl
 
-    </notice>
-  </section>
+      </notice>
+    </section>
 
-  <h2>HCL</h2>
+    <h2>HCL</h2>
 
-  <section class="notices">
-    <notice
-      v-for="n in 8"
-      :style="`background: ${getHCL(n)}`"
-    >
-      The HSL and HSC color spaces ar emore intuitive translations of the RGB color space, because
-      they provide a single hue number. hcl
-    </notice>
-  </section>
+    <section class="notices">
+      <notice
+        v-for="n in 8"
+        :style="`background: ${getHCL(n)}`"
+      >
+        The HSL and HSC color spaces ar emore intuitive translations of the RGB color space, because
+        they provide a single hue number. hcl
+      </notice>
+    </section>
 
-  <p>HSL vs HCL. Hue adjustments maintain more consistent perceptual lightness with HCL.</p>
+    <p>HSL vs HCL. Hue adjustments maintain more consistent perceptual lightness with HCL.</p>
+  </div>
+
 </div>
 
 
@@ -102,9 +106,12 @@ layout: post.njk
       color: ${color}
     `"
   >
-    <div class="swatch-label">{{ name }}</div>
-    <div class="swatch-wcag" v-if="!aaCompliant">
-      WCAG {{ Math.round(wcag * 100) / 100 }}
+    <div class="swatch-label">
+      <div class="swatch-name">{{ name }}</div>
+      <div class="swatch-hex">{{ backgroundColor }}</div>
+      <div class="swatch-wcag" v-if="!aaCompliant">
+        WCAG {{ Math.round(wcag * 100) / 100 }}
+      </div>
     </div>
   </div>
 </script>
@@ -116,6 +123,7 @@ layout: post.njk
       :h="hue"
       :c="startChroma + ((endChroma - startChroma)  * ((step - 1) / (steps - 1)))"
       :l="startLuma + ((endLuma - startLuma) * ((step - 1) / (steps - 1)))"
+      :palette-size="steps"
     >
     </swatch>
   </div>
@@ -144,6 +152,7 @@ Vue.component('swatch', {
     h: { type: Number, required: true },
     c: { type: Number, required: true },
     l: { type: Number, required: true },
+    paletteSize: { type: Number },
   },
   data() {
     return {
@@ -159,10 +168,55 @@ Vue.component('swatch', {
       let c = chroma.hcl(this.h, this.c, this.l);
       // this.superClipped = c._rgb._unclipped.some((val) => val > 500 || val < -500);
       this.clipped =  c.clipped();
-      return c;
+      return c.hex();
     },
     name() {
-      return `C:${Math.round(this.c)} L:${Math.round(this.l)}`;
+      // 0 = red, 120 = green, blue = 240,
+      let label;
+      if (this.c === 0) {
+        label = 'gray';
+      } else if (this.h < 20) {
+        label = 'pink';
+      } else if (this.h < 40) {
+        label = 'rose';
+      } else if (this.h < 60) {
+        label = 'red';
+      } else if (this.h < 80) {
+        label = 'orange';
+      } else if (this.h < 100) {
+        label = 'brown';
+      } else if (this.h < 120) {
+        label = 'olive';
+      } else if (this.h < 140) {
+        label =  'forest';
+      } else if (this.h < 160) {
+        label =  'green';
+      } else if (this.h < 180) {
+        label =  'teal';
+      } else if (this.h < 200) {
+        label =  'mint';
+      } else if (this.h < 220) {
+        label =  'turqouise';
+      } else if (this.h < 240) {
+        label =  'baby-blue';
+      } else if (this.h < 260) {
+        label =  'powder-blue';
+      } else if (this.h < 280) {
+        label =  'blue';
+      } else if (this.h < 300) {
+        label =  'cobalt';
+      } else if (this.h < 320) {
+        label =  'indigo';
+      } else if (this.h < 340) {
+        label =  'purple';
+      } else if (this.h < 360) {
+        label =  'plum';
+      }
+
+      label += `-${100 - Math.ceil(this.l / 5) *  5}`;
+
+      return label;
+      // return this.backgroundColor;
     },
     wcag() {
         return chroma.contrast(this.color, this.backgroundColor);
@@ -192,10 +246,10 @@ new Vue({
   data() {
     return {
       darkMode: false,
-      showLabels: false,
+      showLabels: true,
 
-      hues: 6,
-      steps: 10,
+      hues: 18,
+      steps: 5,
       startChroma: 30,
       endChroma: 120,
       startLuma: 90,
@@ -208,6 +262,13 @@ new Vue({
       let c = chroma.hcl(((n - 1) * 40), 20, 90);
       return c;
     },
+  },
+
+  watch: {
+    darkMode(val) {
+      const body = document.querySelector('body');
+      body.classList.toggle('dark-mode');
+    }
   }
 });
 </script>
@@ -223,8 +284,6 @@ new Vue({
 .palettes {
   display: flex;
   flex-wrap: wrap;
-  /* background: black;
-  padding: 16px; */
 }
 
 .palette {
@@ -234,15 +293,18 @@ new Vue({
 .swatch {
   position: relative;
   width: 6rem;
-  height: 2rem;
+  height: 2.5rem;
   padding: 8px;
   border-radius: var(--border-radius);
   font-size: 11px;
   font-family: var(--monospace);
 }
 
-.hide-labels .swatch-label,
-.hide-labels .swatch-wcag {
+.swatch-name {
+  font-weight: 600;
+}
+
+.hide-labels .swatch-label {
   display: none;
 }
 
@@ -258,9 +320,6 @@ new Vue({
   border-radius: 2px;
   text-decoration: line-through;
 }
-/* .clipped {
-  opacity: 0.2;
-} */
 
 .notices {
   display: flex;
@@ -270,6 +329,7 @@ new Vue({
 
 .notice {
   width: 18rem;
+  color: black;
   font-size: 0.75rem;
   padding: 16px;
   margin: 0 16px 16px 0;
