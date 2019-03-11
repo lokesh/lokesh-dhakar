@@ -45,13 +45,13 @@ iframe {
 }
 
 @media (max-width: 400px) {
-  iframe[src*="codepen.io"] {
+  /* iframe[src*="codepen.io"] {
     width: 360px !important;
-  }
+  } */
 }
 
 @media (max-width: 360px) {
-  iframe[src*="codepen.io"] {
+  /* iframe[src*="codepen.io"] {
     width: 320px !important;
-  }
+  } */
 }

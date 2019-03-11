@@ -140,7 +140,7 @@ layout: page.njk
   padding: 6px 12px;
   margin: 0;
   font-weight: 600;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-light);
   border-radius: var(--border-radius);
   background-color: transparent;
   text-decoration: none; /* Removes underlines on <a> buttons */
@@ -242,8 +242,6 @@ layout: page.njk
 <script src="/js/vue.min.js"></script>
 
 <script>
-
-
 const previewFrameCount = 20;
 
 Vue.component('vid', {

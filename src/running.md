@@ -140,7 +140,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   font-size: 0.75rem;
   font-weight: var(--x-bold);
   background-color: #000;
-  border-radius: 4px 0 0 4px;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
 }
 
 .comment {

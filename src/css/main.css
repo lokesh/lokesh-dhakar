@@ -178,7 +178,7 @@ li > code {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: var(--gutter);
+  margin: var(--gutter) var(--gutter) calc(var(--gutter) * 4);
 }
 .nav__list {
   display: flex;
@@ -197,7 +197,7 @@ li > code {
   color: var(--color);
   border-right: 1px solid var(--border-color);
   /* font-weight: 600; */
-  font-size: 0.7rem;
+  font-size: 0.85rem;
 }
 
 .nav__item:last-of-type {
@@ -232,6 +232,7 @@ li > code {
     padding: 0.3em 1em 0.4em 0.5em;
     border-right: 0;
     border-bottom: 1px solid var(--border-color);
+    font-size: 0.7rem;
   }
 
   .nav__item:last-of-type {
