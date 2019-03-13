@@ -13,14 +13,28 @@ layout: page.njk
 
 <div class="notes">
 
+<div class="note book">
+  <div class="tag">Book</div>
+  <h2 class="title">[The Blue Bottle Craft of Coffee](https://www.amazon.com/Blue-Bottle-Craft-Coffee-Roasting/dp/1607741180/ref=sr_1_1?ih=2_3_1_2_1_0_0_1_0_1.69_30&keywords=blue+bottle&qid=1552452836&rnid=2941120011&s=books&sr=1-1&x=0&y=0)</h2>
+  <div class="meta">2012 | Written by James and Caitlin Freeman</div>
+
+  I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, a good half of the book went into the weeds with technical brewing instructions and pastry recipes.
+
+  This book is not for the casual coffee drinker looking for a Bill Bryson-esque tour through the coffee industry.
+
+  ---
+
+  <div class="rating rating-2"></div>
+  <div class="date">Mar. 7, 2019</div>
+</div>
+
 
 <div class="note book">
   <div class="tag">Book</div>
   <h2 class="title">[Hatching Twitter](https://www.goodreads.com/book/show/18656827-hatching-twitter)</h2>
   <div class="meta">2013 | Written by Nick Bilton</div>
 
-  I picked this book up hoping to get a little background about Jack Dorsey, who became our
-  CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn't were maligned, and their motivations not articulated.
+  I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn't were maligned, and their motivations not articulated.
 
   ---
 
@@ -228,7 +242,7 @@ layout: page.njk
   margin: 8px 0;
   height: 1px;
   border: none;
-  border-bottom: 1px dashed var(--border-color);
+  /* border-bottom: 1px dashed var(--border-color); */
 }
 
 .image {
