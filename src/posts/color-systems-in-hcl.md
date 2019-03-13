@@ -60,7 +60,7 @@ layout: post.njk
     </div>
   </section>
 
-  <div style="display: none;">
+  <div>
 
     <h2>HSL</h2>
 
@@ -213,7 +213,8 @@ Vue.component('swatch', {
         label =  'plum';
       }
 
-      label += `-${100 - Math.ceil(this.l / 5) *  5}`;
+
+      label += `-${100 - Math.ceil(((this.l / 150) * 100) / 5) *  5}`;
 
       return label;
       // return this.backgroundColor;
