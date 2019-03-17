@@ -203,7 +203,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   position: relative;
   display: flex;
   justify-content: space-between;
-  background-color: #EDEDED;
+  background-color: #fff;
   font-size: 0.75rem;
   font-weight: var(--bold);
   margin-bottom: 12px;
