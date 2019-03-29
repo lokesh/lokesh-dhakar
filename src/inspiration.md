@@ -215,8 +215,7 @@ layout: page.njk
   }
 
   .vid {
-    width: var(--vid-width);
-    height: var(--vid-height);
+    margin-bottom: 16px;
   }
 
   .thumb {

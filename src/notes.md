@@ -13,14 +13,32 @@ layout: page.njk
 
 <div class="notes">
 
+<div class="note movie">
+  <div class="tag">Movie</div>
+  <h2 class="title">[Of Fathers and Sons](https://www.youtube.com/watch?v=Zd0bRdYb8AI&t=1s)</h2>
+  <div class="meta">2017 | Directed by Talal Derki</div>
+
+  This was eye-opening.
+
+  The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children's early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.
+
+  It's shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn't sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.
+
+  ---
+
+  <div class="rating rating-4"></div>
+  <div class="date">Mar. 19, 2019</div>
+</div>
+
+
 <div class="note book">
   <div class="tag">Book</div>
   <h2 class="title">[The Blue Bottle Craft of Coffee](https://www.amazon.com/Blue-Bottle-Craft-Coffee-Roasting/dp/1607741180/ref=sr_1_1?ih=2_3_1_2_1_0_0_1_0_1.69_30&keywords=blue+bottle&qid=1552452836&rnid=2941120011&s=books&sr=1-1&x=0&y=0)</h2>
   <div class="meta">2012 | Written by James and Caitlin Freeman</div>
 
-  I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, a good half of the book went into the weeds with technical brewing instructions and pastry recipes.
+  I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.
 
-  This book is not for the casual coffee drinker looking for a Bill Bryson-esque tour through the coffee industry.
+  I'd recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.
 
   ---
 
@@ -34,11 +52,13 @@ layout: page.njk
   <h2 class="title">[Hatching Twitter](https://www.goodreads.com/book/show/18656827-hatching-twitter)</h2>
   <div class="meta">2013 | Written by Nick Bilton</div>
 
-  I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn't were maligned, and their motivations not articulated.
+  I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn't were maligned, and their motivations unarticulated.
+
+  The book gave me a bit of history on the company, but not much else to takeaway.
 
   ---
 
-  <div class="rating rating-2"></div>
+  <div class="rating rating-1"></div>
   <div class="date">Feb. 15, 2019</div>
 </div>
 
