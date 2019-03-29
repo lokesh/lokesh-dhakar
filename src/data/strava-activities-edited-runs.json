@@ -1,5 +1,29 @@
 [
   {
+    "id": 2238401139,
+    "name": "Feeling the bern! 🔥",
+    "distance": "5.5",
+    "distancePercent": 21.079655428244276,
+    "elevation": 28.871392000000004,
+    "pace": 6.732610980097786,
+    "paceFormatted": "6:43",
+    "date": "Mar 24",
+    "year": 2019,
+    "startDate": "2019-03-24T12:54:43Z"
+  },
+  {
+    "id": 2217779914,
+    "name": "Oceania",
+    "distance": "4.7",
+    "distancePercent": 18.036360515267173,
+    "elevation": 106.95538400000001,
+    "pace": 7.082103335017023,
+    "paceFormatted": "7:04",
+    "date": "Mar 16",
+    "year": 2019,
+    "startDate": "2019-03-16T10:39:22Z"
+  },
+  {
     "id": 2204994172,
     "name": "Basic",
     "distance": "4.7",
