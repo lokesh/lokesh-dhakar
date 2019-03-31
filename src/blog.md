@@ -30,7 +30,7 @@ layout: blog.njk
 }
 
 .archive__date {
-  flex: 0 0 6.5rem;
+  flex: 0 0 7rem;
   text-align: right;
   font-weight: var(--bold);
   color: var(--muted-color);

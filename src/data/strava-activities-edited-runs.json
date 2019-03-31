@@ -1,5 +1,17 @@
 [
   {
+    "id": 2249416295,
+    "name": "Kezar quickstep",
+    "distance": "4.8",
+    "distancePercent": 18.253840365267177,
+    "elevation": 134.186356,
+    "pace": 7.084848840445865,
+    "paceFormatted": "7:05",
+    "date": "Mar 29",
+    "year": 2019,
+    "startDate": "2019-03-29T07:20:03Z"
+  },
+  {
     "id": 2238401139,
     "name": "Feeling the bern! 🔥",
     "distance": "5.5",

@@ -13,6 +13,12 @@ layout: page.njk
 
 <div class="notes">
 
+<div class="note note--intro">
+  <h1 class="page-title">Notes on media</h1>
+
+  <h2 class="page-subtitle">My thoughts on books, movies, and other long form work that I've recently finished.</h2>
+</div>
+
 <div class="note movie">
   <div class="tag">Movie</div>
   <h2 class="title">[Of Fathers and Sons](https://www.youtube.com/watch?v=Zd0bRdYb8AI&t=1s)</h2>
@@ -233,6 +239,19 @@ layout: page.njk
 </div>
 
 <style>
+.page-title {
+  margin-bottom: 4px;
+}
+
+@media (min-width: 800px) {
+  .page-title {
+    font-size: 1.25rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.875rem;
+  }
+}
 
 .note {
   padding: 16px;
@@ -248,6 +267,13 @@ layout: page.njk
     font-size: 0.875rem;
   }
 }
+
+.note--intro {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
 
 .note a {
   text-decoration: underline;

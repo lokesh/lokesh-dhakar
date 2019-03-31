@@ -15,8 +15,6 @@ I take photos on [Instagram](https://instagram.com/lokesh), post designs on [Dri
 
 <style>
 .page {
-  font-size: 1.2rem;
-  font-weight: var(--bold);
   max-width: var(--text-max-width);
 }
 </style>
