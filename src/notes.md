@@ -21,7 +21,24 @@ layout: page.njk
 
 <div class="note movie">
   <div class="tag">Movie</div>
-  <h2 class="title">[Of Fathers and Sons](https://www.youtube.com/watch?v=Zd0bRdYb8AI&t=1s)</h2>
+  <h2 class="title">[Tokyo Story](https://www.youtube.com/watch?v=R65wTHVUCGk)</h2>
+  <div class="meta">1953 | Directed by Yasujiro Ozu</div>
+
+  It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.
+
+  Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational diffferences and familial relatoinships it tackles are still present.
+
+  This goes straight into my favorite movies of all-time list! Which is rare from a first viewing.
+
+  ---
+
+  <div class="rating rating-5"></div>
+  <div class="date">Apr. 2, 2019</div>
+</div>
+
+<div class="note movie">
+  <div class="tag">Movie</div>
+  <h2 class="title">[Of Fathers and Sons](https://www.youtube.com/watch?v=Zd0bRdYb8AI)</h2>
   <div class="meta">2017 | Directed by Talal Derki</div>
 
   This was eye-opening.
