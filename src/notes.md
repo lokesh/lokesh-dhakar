@@ -13,31 +13,52 @@ layout: page.njk
 
 <div class="notes">
 
+<!-- Start intro -->
+
 <div class="note note--intro">
   <h1 class="page-title">Notes on media</h1>
 
   <h2 class="page-subtitle">My thoughts on books, movies, and other long form work that I've recently finished.</h2>
 </div>
 
-<div class="note movie">
-  <div class="tag">Movie</div>
-  <h2 class="title">[Tokyo Story](https://www.youtube.com/watch?v=R65wTHVUCGk)</h2>
-  <div class="meta">1953 | Directed by Yasujiro Ozu</div>
+<!-- End of intro -->
 
-  It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.
 
-  Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational diffferences and familial relatoinships it tackles are still present.
+<div class="note book">
+  <div class="tag">Book</div>
+  <div class="rating rating-4"></div>
+  <h2 class="title">[Neither Wolf Nor Dog](https://www.goodreads.com/book/show/72662.Neither_Wolf_Nor_Dog)</h2>
+  <div class="meta">1994 | Written by Kent Nerburn</div>
 
-  This goes straight into my favorite movies of all-time list! Which is rare from a first viewing.
+  A conversation with a Lakota elder.
 
-  ---
+  Seeing the world from a different culture. Opening eyes.
 
-  <div class="rating rating-5"></div>
-  <div class="date">Apr. 2, 2019</div>
+  Concepts of land ownership.
+
+  Name: Indian vs Native American. No consensus on which they prefer. They don't love either. Imagine if America was renamed to Greenland, and then they called current inhabitants Native Greenlanders. Just as made up as Indian. Most dislike usage of 'Indians' in sports teams though.
+
+
+  <div class="date">Apr. 16, 2019</div>
 </div>
 
 <div class="note movie">
   <div class="tag">Movie</div>
+  <div class="rating rating-5"></div>
+  <h2 class="title">[Tokyo Story](https://www.youtube.com/watch?v=R65wTHVUCGk)</h2>
+  <div class="meta">1953 | Directed by Yasujiro Ozu</div>
+
+  It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.
+
+  Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relatoinships it tackles are still present.
+
+  This goes straight into my favorite movies of all-time list! Which is rare from a first viewing.
+
+  <div class="date">Apr. 2, 2019</div>
+</div>
+
+<div class="note movie">
+  <div class="rating rating-3"></div>
   <h2 class="title">[Of Fathers and Sons](https://www.youtube.com/watch?v=Zd0bRdYb8AI)</h2>
   <div class="meta">2017 | Directed by Talal Derki</div>
 
@@ -47,15 +68,13 @@ layout: page.njk
 
   It's shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn't sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.
 
-  ---
-
-  <div class="rating rating-4"></div>
   <div class="date">Mar. 19, 2019</div>
 </div>
 
 
 <div class="note book">
   <div class="tag">Book</div>
+  <div class="rating rating-2"></div>
   <h2 class="title">[The Blue Bottle Craft of Coffee](https://www.amazon.com/Blue-Bottle-Craft-Coffee-Roasting/dp/1607741180/ref=sr_1_1?ih=2_3_1_2_1_0_0_1_0_1.69_30&keywords=blue+bottle&qid=1552452836&rnid=2941120011&s=books&sr=1-1&x=0&y=0)</h2>
   <div class="meta">2012 | Written by James and Caitlin Freeman</div>
 
@@ -63,15 +82,13 @@ layout: page.njk
 
   I'd recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.
 
-  ---
-
-  <div class="rating rating-2"></div>
   <div class="date">Mar. 7, 2019</div>
 </div>
 
 
 <div class="note book">
   <div class="tag">Book</div>
+  <div class="rating rating-1"></div>
   <h2 class="title">[Hatching Twitter](https://www.goodreads.com/book/show/18656827-hatching-twitter)</h2>
   <div class="meta">2013 | Written by Nick Bilton</div>
 
@@ -79,13 +96,11 @@ layout: page.njk
 
   The book gave me a bit of history on the company, but not much else to takeaway.
 
-  ---
-
-  <div class="rating rating-1"></div>
   <div class="date">Feb. 15, 2019</div>
 </div>
 
 <div class="note movie">
+  <div class="rating rating-3"></div>
   <div class="tag">Movie</div>
   <h2 class="title">[Isle of Dogs](https://www.youtube.com/watch?v=dt__kig8PVU)</h2>
   <div class="meta">2018 | Directed by 	Wes Anderson</div>
@@ -107,15 +122,12 @@ layout: page.njk
   reading some more, including interviews from Wes, I'm staying in the _cultural appreciation_,
   not _appropriaton_, camp.
 
-  ---
-
-  <div class="rating rating-4"></div>
-
   <div class="date">Feb. 9, 2019</div>
 </div>
 
 
 <div class="note movie">
+  <div class="rating rating-5"></div>
   <div class="tag">Movie</div>
   <h2 class="title">[Cold War](https://www.youtube.com/watch?v=8ImvkXgGVWw)</h2>
   <div class="meta">2018 | Directed by 	Paweł Pawlikowski</div>
@@ -126,10 +138,6 @@ layout: page.njk
 
   I don't talk about the characters, plot, or themes here. But I want to note that the movie doesn't miss the mark in any of these categories. It's an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski's previous film, [Ida](https://www.youtube.com/watch?v=ELIMeemx-FI).
 
-  ---
-
-  <div class="rating rating-5"></div>
-
   <div class="revisit"></div>
 
   <div class="date">Jan. 21, 2019</div>
@@ -137,6 +145,7 @@ layout: page.njk
 
 
 <div class="note movie">
+  <div class="rating rating-3"></div>
   <div class="tag">Movie</div>
   <h2 class="title">[Stranger Than Paradise](https://www.youtube.com/watch?v=MwefGellnhk)</h2>
   <div class="meta">1984 | Directed by Jim Jarmusch</div>
@@ -145,15 +154,13 @@ layout: page.njk
 
   I followed up the movie by watching an excellent commentary that discussed the movie's themes of [identity and multiculturalism](https://www.youtube.com/watch?v=0tbenS0F7j4). I didn't latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.
 
-  ---
-
-  <div class="rating rating-3"></div>
   <div class="revisit"></div>
   <div class="date">Jan. 4, 2019</div>
 </div>
 
 
 <div class="note book">
+  <div class="rating rating-4"></div>
   <div class="tag">Book</div>
   <h2 class="title">[The Jungle](https://en.wikipedia.org/wiki/The_Jungle)</h2>
   <div class="meta">1904 | Written by Upton Sinclair</div>
@@ -168,13 +175,11 @@ layout: page.njk
 
   As a companion to this book, I highly recommend [Frontline's Trafficked in America](https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/) documentary to see what similar exploitation looks like in modern America.
 
-  ---
-
-  <div class="rating rating-4"></div>
   <div class="date">Dec. 31, 2018</div>
 </div>
 
 <div class="note movie">
+  <div class="rating rating-1"></div>
   <div class="tag">Movie</div>
   <h2 class="title">[Salad Days: A Decade Of Punk In Washington, DC (1980-90)](https://www.youtube.com/watch?v=lF3uSPyrQyQ)</h2>
   <div class="meta">2015 | Directed by Scott Crawford</div>
@@ -183,14 +188,12 @@ layout: page.njk
 
   Recommended for those who like punk rock and also like niche musical documentaries.
 
-  ---
-
-  <div class="rating rating-2"></div>
   <div class="date">Nov. 21, 2018</div>
 </div>
 
 
 <div class="note movie">
+  <div class="rating rating-5"></div>
   <div class="tag">Movie</div>
   <h2 class="title">[Slacker](https://www.youtube.com/watch?v=KlmfRuXxuXo)</h2>
   <div class="meta">1990 | Directed by Richard Linklater</div>
@@ -207,9 +210,6 @@ layout: page.njk
 
   Recommended for those who say "film" rather than "movie". You know who you are. You probably enjoy other 'films' like [Breathless](https://www.youtube.com/watch?v=eHQ2Q-_bl8k) and [Buffalo 66](https://www.youtube.com/watch?v=A5FzzN20-60).
 
-  ---
-
-  <div class="rating rating-5"></div>
   <div class="revisit"></div>
 
   <div class="date">Oct. 4, 2018</div>
@@ -217,6 +217,7 @@ layout: page.njk
 
 
 <div class="note movie">
+  <div class="rating rating-4"></div>
   <div class="tag">Movie</div>
   <h2 class="title">[Blade Runner](https://www.youtube.com/watch?v=eogpIG53Cis)</h2>
   <div class="meta">1982 | Directed by Ridley Scott</div>
@@ -227,31 +228,9 @@ layout: page.njk
 
   _What does it mean to be human?_ This is the overarching question in the movie. It plays out between humans and replicants. Replicants are 'robots' created by humans that are virtually identical to humans, but treated as property. Through out the movie, it's not clear if Deckard, Harrison Ford's character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard's humanity doesn't matter. If as viewers, we can't tell if he is a replicant or not, does it matter if he is or not?
 
-  ---
-
-  <div class="rating rating-4"></div>
-
   <div class="date">Oct. 19, 2018</div>
 </div>
 
-
-
-<div class="note article rough" style="display: none;">
-  <div class="tag">Article</div>
-  <h2 class="title">Big Budget Items: The starchitectural landscape of Frank Gehry</h2>
-
-  <div class="meta">2019 | the weekly Standard | <a href="https://www.weeklystandard.com/andrew-ferguson/big-budget-items">Link</a></div>
-
-  <p>The article highlights Frank Gehry's architectural career, with a focus on his early Santa Monica residence and his later <a href="https://www.google.com/search?q=8+spruce+street+new+york+gehry&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSq-qSpLfeAhWcFTQIHXqeBAQQ_AUIFCgC&biw=1386&bih=978">8 Spruce Street skycraper</a>.</p>
-
-  <p>The <a href="https://en.wikipedia.org/wiki/Gehry_Residence">Gehry Residence</a>, which is built atop an existing bungalow, uses unconventional materials like corrugated steel and most infamously, chain-link fences. It is a statement. "the architect's chief purpose in his breakthrough work was mockery and satire, rooted in a contempt for the "hypocrisy" that his golden neighborhood represented."</p>
-
-  <p>Gehry's later work received mostly positive reviews and his projects and budgets grew in scale. There was some criticism of his later work</p>
-
-  brings up the question which I have googled many times: What are the differences between Modernism and Post-Modernism?</p>
-
-  <div class="date">Oct. 21, 2018</div>
-</div>
 
 </div>
 
@@ -316,6 +295,7 @@ layout: page.njk
 }
 
 .tag {
+  display: none;
   margin-top: -2px;
   margin-bottom: 2px;
   color: var(--secondary-color);
@@ -327,6 +307,7 @@ layout: page.njk
 
 .title {
   margin: 0;
+  margin-bottom: 2px;
 }
 
 .title a {
@@ -348,7 +329,8 @@ layout: page.njk
 }
 
 .rating {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  color: var(--secondary-color);
 }
 
 .rating-1::before {
@@ -394,7 +376,12 @@ layout: page.njk
   margin-top: 4px;
   font-size: 0.75rem;
   font-weight: var(--bold);
+  color: var(--muted-color);
 }
+
+/* .date:before {
+  content: '- ';
+} */
 
 
 i {
