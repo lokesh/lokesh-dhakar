@@ -18,7 +18,7 @@ layout: page.njk
 <div class="note note--intro">
   <h1 class="page-title">Notes on media</h1>
 
-  <h2 class="page-subtitle">My thoughts on books, movies, and other long form work that I've recently finished.</h2>
+  <h2 class="page-subtitle">My thoughts on books, movies, and other long form work.</h2>
 </div>
 
 <!-- End of intro -->
@@ -30,14 +30,9 @@ layout: page.njk
   <h2 class="title">[Neither Wolf Nor Dog](https://www.goodreads.com/book/show/72662.Neither_Wolf_Nor_Dog)</h2>
   <div class="meta">1994 | Written by Kent Nerburn</div>
 
-  A conversation with a Lakota elder.
+  This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.
 
-  Seeing the world from a different culture. Opening eyes.
-
-  Concepts of land ownership.
-
-  Name: Indian vs Native American. No consensus on which they prefer. They don't love either. Imagine if America was renamed to Greenland, and then they called current inhabitants Native Greenlanders. Just as made up as Indian. Most dislike usage of 'Indians' in sports teams though.
-
+  The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan's thoughts on topics, which are eloquently stated and deeply personal.
 
   <div class="date">Apr. 16, 2019</div>
 </div>
@@ -50,7 +45,7 @@ layout: page.njk
 
   It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.
 
-  Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relatoinships it tackles are still present.
+  Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.
 
   This goes straight into my favorite movies of all-time list! Which is rare from a first viewing.
 
@@ -257,10 +252,17 @@ layout: page.njk
   border-radius: var(--border-radius-xl);
 }
 
-@media (min-width: 880px) {
+@media (min-width: 800px) {
   .note {
-    width: 19rem;
+    width: 16rem;
     font-size: 0.875rem;
+  }
+}
+
+
+@media (min-width: 100px) {
+  .note {
+    width: 20rem;
   }
 }
 
