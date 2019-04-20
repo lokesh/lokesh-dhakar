@@ -8,11 +8,9 @@ layout: page.njk
 <ul class="project-list">
   <li><span class="project-title">[Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)</span> - The sequel.</li>
   <li><span class="project-title">[Color Thief](https://lokeshdhakar.com/projects/color-thief/)</span> - Generate color palettes from an image.</li>
-  <li><span class="project-title">[Lightbox](https://lokeshdhakar.com/projects/lightbox/)</span> - The original Lightbox library.</
+  <li><span class="project-title">[Lightbox](https://lokeshdhakar.com/projects/lightbox/)</span> - The original Lightbox library.</li>
   <li><span class="project-title">[Flexitem](/projects/flexitem/)</span> - CSS flexbox quick reference.</li>
   <li><span class="project-title">[Ascii Today](https://ascii.today)</span> - A super-fast ASCII title generator.</li>
-
-li>
 </ul>
 
 <style>
