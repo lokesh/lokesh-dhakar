@@ -248,7 +248,6 @@ li > code {
     padding: 0.25em 1em 0.25em 0.5em;
     border-right: 0;
     color: var(--color);
-    font-size: 0.7rem;
   }
 
   .nav__item:last-of-type {

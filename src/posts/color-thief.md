@@ -26,7 +26,7 @@ With this script you can build a UI that adapts to the colors of an image. For e
 A recent example of a color adapting UI is seen on Google Chrome's new home tab. The dominant color of the favicon is used as the bottom border color on the screenshot:
 
 <div class="figure">
-  <img src="/media/posts/color-thief/chrome-home-tab.png" alt="size screenshots of websites with favicons on top and bottom borders colored with the favicon dominant color" title="chrome_home_tab" />
+  <img style="max-width: 665px" src="/media/posts/color-thief/chrome-home-tab.png" alt="size screenshots of websites with favicons on top and bottom borders colored with the favicon dominant color" title="chrome_home_tab" />
 </div>
 
 ## Usage
