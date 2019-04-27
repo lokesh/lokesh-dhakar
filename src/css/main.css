@@ -11,6 +11,7 @@
 
   /* Body text line height */
   --line-height: 1.5em;
+  --line-height-heading: 1.3em;
 
   /* Borders and corners */
   --border-color: #000;
@@ -118,12 +119,13 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
-  line-height: 1.2em;
+  line-height: var(--line-height-heading);
   margin-top: 24px;
 }
 
 h3 {
   font-size: 1.06rem;
+  line-height: var(--line-height-heading);
   margin-top: 2rem;
 }
 

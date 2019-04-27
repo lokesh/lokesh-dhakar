@@ -24,6 +24,15 @@ layout: page.njk
 <!-- End of intro -->
 
 
+<div class="note wip book">
+  <div class="tag show">Reading Now</div>
+  <h2 class="title">[The Three-Body Problem](https://www.goodreads.com/book/show/20518872-the-three-body-problem)</h2>
+  <div class="meta">2014 | Written by Liu Cizin</div>
+
+
+</div>
+
+
 <div class="note book">
   <div class="tag">Book</div>
   <div class="rating rating-4"></div>
@@ -252,6 +261,10 @@ layout: page.njk
   border-radius: var(--border-radius-xl);
 }
 
+.note.wip {
+  border-style: dashed;
+}
+
 @media (min-width: 800px) {
   .note {
     width: 16rem;
@@ -260,9 +273,9 @@ layout: page.njk
 }
 
 
-@media (min-width: 100px) {
+@media (min-width: 1000px) {
   .note {
-    width: 20rem;
+    width: 18rem;
   }
 }
 
@@ -305,6 +318,10 @@ layout: page.njk
   font-weight: var(--x-bold);
   text-transform: uppercase;
   border-radius: var(--border-radius);
+}
+
+.tag.show {
+  display: inline-block;
 }
 
 .title {
@@ -398,9 +415,10 @@ i i {
 
 <script src="/js/masonry.pkgd.min.js"></script>
 <script>
-const msnry = new Masonry( '.notes', {
-  gutter: 16,
-  transitionDuration: '0.2s'
-});
-
+if (window.innerWidth >= 800) {
+  const msnry = new Masonry( '.notes', {
+    gutter: 16,
+    transitionDuration: '0.2s'
+  });
+}
 </script>
