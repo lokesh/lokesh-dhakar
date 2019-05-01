@@ -126,6 +126,7 @@ layout: page.njk
 
 .title {
   margin: 0;
+  text-transform: none;
 }
 
 .page-title {

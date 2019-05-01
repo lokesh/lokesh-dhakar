@@ -66,7 +66,6 @@ html {
   }
 }
 
-
 @media (min-width: 1600px) {
   html {
     font-size: 22px;
@@ -107,7 +106,9 @@ h1,
 h2,
 h3 {
   font-weight: var(--x-bold);
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
+  word-spacing: 0.01em;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -286,6 +287,7 @@ li > code {
 .page-subtitle,
 .post-subtitle {
   margin-top: 0;
+  text-transform: none;
 }
 
 @media (min-width: 800px) {
