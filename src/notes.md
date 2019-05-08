@@ -254,22 +254,25 @@ layout: page.njk
 }
 
 .note {
-  padding: 16px;
   margin-bottom: 16px;
-  background: white;
-  border: 1px solid var(--border-color-light);
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color-light);
   border-radius: var(--border-radius-xl);
-}
-
-.note.wip {
-  border-style: dashed;
 }
 
 @media (min-width: 800px) {
   .note {
     width: 16rem;
+    padding: 16px;
+    border: 1px solid var(--border-color-light);
+    background: white;
     font-size: 0.875rem;
   }
+
+  .note.wip {
+    border-style: dashed;
+  }
+
 }
 
 
