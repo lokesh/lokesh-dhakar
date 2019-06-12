@@ -1,5 +1,77 @@
 [
   {
+    "id": 2441939639,
+    "name": "Cougar Mt Park: Up to $1M View 🌈",
+    "distance": "5.5",
+    "distancePercent": 20.853400491603054,
+    "elevation": 937.007904,
+    "pace": 8.681713904183415,
+    "paceFormatted": "8:40",
+    "date": "Jun 11",
+    "year": 2019,
+    "startDate": "2019-06-11T08:47:37Z"
+  },
+  {
+    "id": 2436895895,
+    "name": "Bellevue burbs",
+    "distance": "5.1",
+    "distancePercent": 19.42234987557252,
+    "elevation": 786.089264,
+    "pace": 8.253653370391929,
+    "paceFormatted": "8:15",
+    "date": "Jun 9",
+    "year": 2019,
+    "startDate": "2019-06-09T08:26:26Z"
+  },
+  {
+    "id": 2427439498,
+    "name": "GGP after hours",
+    "distance": "7.1",
+    "distancePercent": 27.167668241221378,
+    "elevation": 288.057752,
+    "pace": 7.204810944688027,
+    "paceFormatted": "7:12",
+    "date": "Jun 5",
+    "year": 2019,
+    "startDate": "2019-06-05T21:34:27Z"
+  },
+  {
+    "id": 2414781824,
+    "name": "Fast one to Kezar",
+    "distance": "6.9",
+    "distancePercent": 26.15165550687023,
+    "elevation": 282.15224,
+    "pace": 6.7501163553824375,
+    "paceFormatted": "6:45",
+    "date": "Jun 1",
+    "year": 2019,
+    "startDate": "2019-06-01T07:44:28Z"
+  },
+  {
+    "id": 2411834665,
+    "name": "🍓Hill",
+    "distance": "6.1",
+    "distancePercent": 23.22907732633588,
+    "elevation": 374.671928,
+    "pace": 9.806630671896249,
+    "paceFormatted": "9:48",
+    "date": "May 30",
+    "year": 2019,
+    "startDate": "2019-05-31T06:59:58Z"
+  },
+  {
+    "id": 2399800772,
+    "name": "First run with GGRC",
+    "distance": "7.8",
+    "distancePercent": 29.741377436641226,
+    "elevation": 936.0236520000001,
+    "pace": 8.251798285101897,
+    "paceFormatted": "8:15",
+    "date": "May 26",
+    "year": 2019,
+    "startDate": "2019-05-26T10:12:44Z"
+  },
+  {
     "id": 2392324187,
     "name": "🐶Pup pick-up",
     "distance": "1.4",
