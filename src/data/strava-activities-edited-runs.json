@@ -1,5 +1,65 @@
 [
   {
+    "id": 2475155817,
+    "name": "To Fort Mason and then bobbing and weaving around tourists on Embarcadero",
+    "distance": "5.9",
+    "distancePercent": 22.473471217175575,
+    "elevation": 398.95014399999997,
+    "pace": 6.903814290920408,
+    "paceFormatted": "6:54",
+    "date": "Jun 23",
+    "year": 2019,
+    "startDate": "2019-06-23T10:41:01Z"
+  },
+  {
+    "id": 2471906094,
+    "name": "Hawk And Slacker Hills on foot",
+    "distance": "4.5",
+    "distancePercent": 17.25205750114504,
+    "elevation": 1031.168012,
+    "pace": 8.521312782970444,
+    "paceFormatted": "8:31",
+    "date": "Jun 22",
+    "year": 2019,
+    "startDate": "2019-06-22T11:16:50Z"
+  },
+  {
+    "id": 2463192135,
+    "name": "Appropriately Lynchian atmosphere at Twin Peaks",
+    "distance": "5.7",
+    "distancePercent": 21.945068702671758,
+    "elevation": 842.8477959999999,
+    "pace": 10.719571374650476,
+    "paceFormatted": "10:43",
+    "date": "Jun 19",
+    "year": 2019,
+    "startDate": "2019-06-19T07:00:30Z"
+  },
+  {
+    "id": 2459088632,
+    "name": "Another fast one through GGP 🤸‍♀️💨",
+    "distance": "6.0",
+    "distancePercent": 22.944717086259544,
+    "elevation": 229.33071600000002,
+    "pace": 6.576266975725369,
+    "paceFormatted": "6:34",
+    "date": "Jun 17",
+    "year": 2019,
+    "startDate": "2019-06-17T18:41:46Z"
+  },
+  {
+    "id": 2447106555,
+    "name": "Rings around Bellevue ",
+    "distance": "6.8",
+    "distancePercent": 25.849270764503817,
+    "elevation": 701.115508,
+    "pace": 7.459077147328054,
+    "paceFormatted": "7:27",
+    "date": "Jun 13",
+    "year": 2019,
+    "startDate": "2019-06-13T08:33:21Z"
+  },
+  {
     "id": 2441939639,
     "name": "Cougar Mt Park: Up to $1M View 🌈",
     "distance": "5.5",
