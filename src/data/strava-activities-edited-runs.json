@@ -1,5 +1,41 @@
 [
   {
+    "id": 2502466677,
+    "name": "Weekly long run",
+    "distance": "11.1",
+    "distancePercent": 42.37655354198473,
+    "elevation": 350.065628,
+    "pace": 7.044860205031155,
+    "paceFormatted": "7:02",
+    "date": "Jul 3",
+    "year": 2019,
+    "startDate": "2019-07-03T18:53:47Z"
+  },
+  {
+    "id": 2493414983,
+    "name": "Hoppers hands to Fort Mason Farmer's Market",
+    "distance": "7.8",
+    "distancePercent": 29.80232871412214,
+    "elevation": 293.307096,
+    "pace": 7.844307342446702,
+    "paceFormatted": "7:50",
+    "date": "Jun 30",
+    "year": 2019,
+    "startDate": "2019-06-30T10:33:34Z"
+  },
+  {
+    "id": 2487519074,
+    "name": "Morning Run",
+    "distance": "6.2",
+    "distancePercent": 23.534308042748094,
+    "elevation": 848.4252240000001,
+    "pace": 9.579431535074782,
+    "paceFormatted": "9:34",
+    "date": "Jun 27",
+    "year": 2019,
+    "startDate": "2019-06-28T06:56:06Z"
+  },
+  {
     "id": 2481005284,
     "name": "GGP 10miler",
     "distance": "10.0",
