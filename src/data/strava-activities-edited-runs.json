@@ -1,5 +1,29 @@
 [
   {
+    "id": 2529293797,
+    "name": "Office -> Embarcadero -> GGB",
+    "distance": "10.2",
+    "distancePercent": 38.90754834465648,
+    "elevation": 99.409452,
+    "pace": 7.1219917067655025,
+    "paceFormatted": "7:07",
+    "date": "Jul 13",
+    "year": 2019,
+    "startDate": "2019-07-13T10:13:33Z"
+  },
+  {
+    "id": 2520675392,
+    "name": "Roll tide roll 🐘🏈",
+    "distance": "9.4",
+    "distancePercent": 35.842434297328246,
+    "elevation": 570.209992,
+    "pace": 9.142006176450355,
+    "paceFormatted": "9:08",
+    "date": "Jul 9",
+    "year": 2019,
+    "startDate": "2019-07-10T06:55:59Z"
+  },
+  {
     "id": 2502466677,
     "name": "Weekly long run",
     "distance": "11.1",
