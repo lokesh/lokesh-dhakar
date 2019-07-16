@@ -4,8 +4,6 @@ date: 2018-07-08
 layout: blog.njk
 ---
 
-<div class="page-tag">Blog</div>
-
 <h1 class="page-title">Posts</h1>
 
 <style>

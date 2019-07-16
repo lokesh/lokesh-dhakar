@@ -9,8 +9,6 @@ layout: page.njk
 - Italicize names of books, movies, and other long form works.
 -->
 
-<div class="page-tag" style="margin-bottom: 12px;">Notes</div>
-
 <div class="notes">
 
 <!-- Start intro -->
@@ -262,7 +260,7 @@ layout: page.njk
 
 @media (min-width: 800px) {
   .note {
-    width: 16rem;
+    width: 15rem;
     padding: 16px;
     border: 1px solid var(--border-color-light);
     background: white;
@@ -278,7 +276,7 @@ layout: page.njk
 
 @media (min-width: 1000px) {
   .note {
-    width: 18rem;
+    width: 20rem;
   }
 }
 

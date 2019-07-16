@@ -17,14 +17,15 @@
   --border-color: #000;
   --border-color-light: #ccc; /* Used for inline content  */
 
-  --border-radius: 0; /* Prev 4px */
-  --border-radius-large: 0; /* Prev 6px */
-  --border-radius-xl: 0; /* Prev 8px */
+  --border-radius: 4px; /* Prev 4px */
+  --border-radius-large: 8px; /* Prev 6px */
+  --border-radius-xl: 12px; /* Prev 8px */
 
   /* Typography */
   --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
   --bold: 700;
   --x-bold: 900;
+  --text-transform-heading: uppercase;
 
   /* Layout
      All px estimates of rem values assume 16px font-size.
@@ -51,24 +52,24 @@ textarea {
 }
 
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 @media (min-width: 800px) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 
 @media (min-width: 1600px) {
   html {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -108,7 +109,7 @@ h3 {
   font-weight: var(--x-bold);
   letter-spacing: -0.01em;
   word-spacing: 0.01em;
-  text-transform: uppercase;
+  text-transform: var(--text-transform-heading);
 }
 
 h1 {
@@ -174,7 +175,7 @@ code {
 pre {
   overflow: auto;
   padding: 16px var(--gutter);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-large);
   font-size: 0.8125rem;
   line-height: 1.6em;
   background-color: #eee;
@@ -216,6 +217,7 @@ li > code {
   border-right: 1px solid var(--border-color-light);
   font-weight: var(--bold);
   font-size: 0.85rem;
+  border-radius: var(--border-radius);
 }
 
 .nav__item:last-of-type {
@@ -300,18 +302,6 @@ li > code {
 /* Page ------------ */
 .page-title {
   margin-top: 0;
-}
-
-.page-tag {
-  display: none;
-  padding: 1px 4px 2px;
-  margin-bottom: 4px;
-  color: #fff;
-  background-color: #000;
-  border-radius: var(--border-radius);
-  font-weight: var(--x-bold);
-  font-size: 0.6875rem;
-  text-transform: uppercase;
 }
 
 /* Posts ------------ */

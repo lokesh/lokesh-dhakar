@@ -7,7 +7,6 @@ layout: page.njk
 
 <section id="videos" class="videos">
     <div class="intro">
-      <div class="page-tag">Inspiration</div>
       <h1 class="page-title">Other people making things</h1>
       <h2 class="page-subtitle">Videos of creatives at work.</h2>
       <p class="page-desc">With a focus on process, not backstory. Simple shooting and editing preferred.</p>
@@ -98,7 +97,7 @@ layout: page.njk
   display: none;
   width: var(--vid-width);
   height: var(--vid-height);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-large);
   background-size: cover;
 }
 
@@ -222,7 +221,7 @@ layout: page.njk
   .thumb {
     width: var(--vid-width);
     height: var(--vid-height);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-large);
     margin-left: 0;
     margin-right: 0;
   }

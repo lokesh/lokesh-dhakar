@@ -3,8 +3,6 @@ date: 2018-07-08
 layout: page.njk
 ---
 
-<div class="page-tag">Home</div>
-
 <h1 class="page-title">Lokesh Dhakar</h1>
 
 I work on the Design Engineering team at [Square](//square.com) in San Francisco. Previously I worked at [Getaround](https://www.getaround.com/) as the Engineering Lead of the Web Team. See my full work history at [LinkedIn](https://www.linkedin.com/in/lokeshdhakar).

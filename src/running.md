@@ -4,8 +4,6 @@ date: 2018-09-03
 layout: page.njk
 ---
 
-<div class="page-tag">Running</div>
-
 <h1 class="page-title">Boston Marathon qualifying</h1>
 
 <h2 class="page-subtitle">Tracking my progress</h2>
@@ -119,7 +117,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-large);
 }
 
 .runs {
@@ -241,7 +239,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  border-radius: var(--border-radius-large) 0 0 var(--border-radius-large);
 }
 </style>
 
