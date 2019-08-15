@@ -8,6 +8,7 @@
   --secondary-color: #f68727;
   --muted-color: #999;
   --link-color: #05f;
+  --action-color: var(--primary-color); /* For buttons and other non-link controls */
 
   /* Body text line height */
   --line-height: 1.5em;

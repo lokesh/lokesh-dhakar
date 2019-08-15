@@ -9,17 +9,70 @@ layout: page.njk
 - Italicize names of books, movies, and other long form works.
 -->
 
+
+<template id="tpl-note">
+  <article class="note">
+    <div v-if="rating" :class="`rating rating-${rating}`"></div>
+    <h2 class="title">{{ title }}</h2>
+    <div class="meta">{{ date }} | {{ creatorLabel }}</div>
+    <slot />
+  </article>
+</template>
+
+<template id="tpl-filters">
+  <div>
+    <filter-button>All</filter-button>
+    <filter-button>Movies</filter-button>
+    <filter-button>Books</filter-button>
+    <filter-button>TV</filter-button>
+    <filter-button>Music</filter-button>
+
+    Sort by: Rating, date, etc
+  </div>
+</template>
+
+<template id="tpl-filter-button">
+  <button>
+    <slot />
+  </button>
+</template>
+
+<div id="app">
+  <div>
+    <filters></filters>
+    <note
+      title="Tokyo Story"
+      type="movie"
+      rating="5"
+      date="1953"
+      creator="Yasujiro Ozu"
+      noteDate="April 2, 2019"
+    >
+      <p>It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>
+
+      <p>Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.</p>
+
+      <p>This goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>
+    </note>
+
+  </div>
+</div>
+
+
 <div class="notes">
 
 <!-- Start intro -->
 
-<div class="note note--intro">
+<!-- <div class="note note--intro">
   <h1 class="page-title">Notes on media</h1>
 
   <h2 class="page-subtitle">My thoughts on books, movies, and other long form work.</h2>
 </div>
-
+ -->
 <!-- End of intro -->
+
+
+
 
 
 <div class="note wip book">
@@ -260,11 +313,10 @@ layout: page.njk
 
 @media (min-width: 800px) {
   .note {
-    width: 15rem;
-    padding: 16px;
+    padding: 1rem;
     border: 1px solid var(--border-color-light);
     background: white;
-    font-size: 0.875rem;
+    /*font-size: 0.875rem;*/
   }
 
   .note.wip {
@@ -414,12 +466,87 @@ i i {
 }
 </style>
 
-<script src="/js/masonry.pkgd.min.js"></script>
+
+<script src="/js/vue.min.js"></script>
 <script>
-if (window.innerWidth >= 800) {
-  const msnry = new Masonry( '.notes', {
-    gutter: 16,
-    transitionDuration: '0.2s'
-  });
-}
+
+
+Vue.component('filter-button', {
+  template: '#tpl-filter-button',
+})
+
+Vue.component('filters', {
+  template: '#tpl-filters',
+})
+
+Vue.component('note', {
+  template: '#tpl-note',
+  props: {
+    title: String,
+    type: String,
+    rating: Number,
+    date: String,
+    creator: String,
+    noteDate: String,
+  },
+  computed: {
+    creatorLabel() {
+      switch (this.type) {
+        case 'book':
+          return `Written by ${this.creator}`;
+        break;
+        case 'movie':
+        case 'tv show':
+          return `Directed by ${this.creator}`;
+        break;
+        case 'music':
+          return `by ${this.creator}`;
+        break;
+      }
+    }
+  }
+})
+
+
+new Vue({
+  el: '#app',
+
+  // data() {
+  //   return {
+  //     videos: [],
+  //     sortedBy: 'date',
+  //   };
+  // },
+
+  // watch: {
+  //   sortedBy(newVal) {
+  //     if (newVal === 'date') {
+  //       this.videos.sort((a, b) => {
+  //         return (new Date(a.dateAdded).getTime() > new Date(b.dateAdded).getTime() ? -1 : 1);
+  //       })
+  //     } else if (newVal === 'duration') {
+  //       this.videos.sort((a, b) => {
+  //         return (strToSeconds(b.duration) > strToSeconds(a.duration) ? -1 : 1);
+  //       })
+  //     }
+  //   },
+  // },
+
+  // mounted() {
+  //   fetch('/data/inspiration-videos.json')
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       this.videos = data;
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     })
+  // },
+
+  // methods: {
+  //   sortBy(field) {
+  //     this.sortedBy = field;
+  //   },
+  // }
+});
 </script>

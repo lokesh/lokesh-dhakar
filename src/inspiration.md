@@ -34,7 +34,6 @@ layout: page.njk
     />
 </section>
 
-
 <script type="text/x-template" id="tpl-vid">
   <article class="vid">
     <a :href="`https://www.youtube.com/watch?v=${video.id}`">
