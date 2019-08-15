@@ -4,7 +4,7 @@ date: 2008-11-18
 comments: true
 layout: post.njk
 ---
-## Places that are memorable for one reason or another.
+<h2 class="post-subtitle">Places that are memorable for one reason or another.</h2>
 
 It was made this year, though it collects a few places I've visited on trips to Baltimore in the past three years. *It's a log*: a list of places I want to remember and maybe revisit. *And a map*: showing me where things are relative to each other. It's not for driving directions. There is a 'to-do' list in the left column, which I've discontinued using.
 

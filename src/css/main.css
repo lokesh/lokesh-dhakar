@@ -32,9 +32,8 @@
   */
   --nav-width: 8.75rem; /* 140px */
   --gutter: 12px;
-  --post-max-width: 60rem; /* 960px */
+  --post-max-width: 45rem; /* 720px */
   --text-max-width: 33.75rem; /* 540px */
-  --code-max-width: 33.75rem;
 }
 
 * {
@@ -57,19 +56,19 @@ html {
 
 @media (min-width: 800px) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 1600px) {
   html {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -284,6 +283,10 @@ li > code {
   margin-bottom: 64px;
   padding-left: var(--gutter);
   padding-right: var(--gutter);
+}
+
+.post {
+  max-width: var(--post-max-width);
 }
 
 .page-subtitle,

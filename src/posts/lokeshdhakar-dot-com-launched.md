@@ -5,7 +5,7 @@ comments: false
 sharing: false
 layout: post.njk
 ---
-## I'm consolidating my blog, projects, and other 'internet things' to this new domain.
+<h2 class="post-subtitle">I'm consolidating my blog, projects, and other 'internet things' to this new domain.</h2>
 
 <div class="figure">
   [<img src="/media/posts/lokeshdhakar-dot-com-launched/huddletogether_screenshot.png" alt="LokeshDhakar.com and HuddleTogether.com screenshots" class="diagram-alt" />][1]

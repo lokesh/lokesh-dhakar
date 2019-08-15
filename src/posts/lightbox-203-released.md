@@ -4,7 +4,7 @@ date: 2007-04-06
 comments: true
 layout: post.njk
 ---
-### A minor update with a couple of bug fixes, a handful of tweaks, and some small niceties added.
+<h2 class="post-subtitle">A minor update with a couple of bug fixes, a handful of tweaks, and some small niceties added.</h2>
 
 After much delay comes the new update. I'm not extending the functionality at this point but making some tweaks and fixing some of the small bugs. You can grab it from the main page: [Lightbox JS v2.03][1]
 

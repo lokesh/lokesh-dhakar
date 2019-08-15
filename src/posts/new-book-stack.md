@@ -4,7 +4,7 @@ date: 2008-07-24
 comments: true
 layout: post.njk
 ---
-## An updated list of the books I'm currently reading.
+<h2 class="post-subtitle">An updated list of the books I'm currently reading.</h2>
 
 More importantly, I'm back from my blogging hiatus. I'm hoping to average a few posts a month. Sounds reasonable. To start, here are the books on my shelf right now, all recommended:
 
