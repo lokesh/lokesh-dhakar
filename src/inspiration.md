@@ -237,7 +237,6 @@ layout: page.njk
 }
 </style>
 
-<script src="/js/axios.min.js"></script>
 <script src="/js/vue.min.js"></script>
 
 <script>
@@ -350,13 +349,14 @@ new Vue({
   },
 
   mounted() {
-    axios.get('/data/inspiration-videos.json')
-    .then((response) => {
-      this.videos = response.data;
-    })
-    .catch((error) => {
-      console.log(error);
-    })
+    fetch('/data/inspiration-videos.json')
+      .then(res => res.json())
+      .then(data => {
+        this.videos = data;
+      })
+      .catch((error) => {
+        console.log(error);
+      })
   },
 
   methods: {

@@ -243,11 +243,9 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 }
 </style>
 
-<script src="/js/axios.min.js"></script>
 <script src="/js/vue.min.js"></script>
 
 <script>
-
 // ------
 // CONFIG
 // ------
@@ -316,13 +314,14 @@ var app = new Vue({
   },
 
   created() {
-    axios.get('/data/strava-activities-edited-runs.json')
-    .then((response) => {
-      this.runs = response.data;
-    })
-    .catch((error) => {
-      console.log(error);
-    })
+    fetch('/data/strava-activities-edited-runs.json')
+      .then(res => res.json())
+      .then(data => {
+        this.runs = data;
+      })
+      .catch((error) => {
+        console.log(error);
+      })
   },
 
   methods: {

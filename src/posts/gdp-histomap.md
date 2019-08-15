@@ -186,7 +186,6 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 </style>
 
 <script src="/js/lodash-core.min.js"></script>
-<script src="/js/axios.min.js"></script>
 
 <script>
 // --------------
@@ -400,9 +399,9 @@ document.head.appendChild(styleTag);
 // ----------
 
 function fetchData() {
-  return axios.get('/data/gdp-by-country-interpolated.json')
+  return fetch('/data/gdp-by-country-interpolated.json')
     .then((response) => {
-      return response.data;
+      return response.json();
     })
 }
 
