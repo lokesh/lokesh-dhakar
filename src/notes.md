@@ -11,12 +11,16 @@ layout: page.njk
 
 
 <template id="tpl-note">
-  <article class="note">
+  <article class="note" :class="{'note--open': open}" @click="open = !open">
     <img :src="`/media/notes/${image}`" class="note-image" />
-    <div v-if="rating" :class="`rating rating-${rating}`"></div>
+    <div class="note-date">{{ noteDate }}</div>
+    <div class="note-type">{{ type }}</div>
     <h2 class="note-title">{{ title }}</h2>
     <div class="note-meta">{{ date }} | {{ creatorLabel }}</div>
-    <slot />
+    <div v-if="rating" :class="`rating rating-${rating}`"></div>
+    <div class="note-body">
+      <slot></slot>
+    </div>
   </article>
 </template>
 
@@ -48,7 +52,7 @@ layout: page.njk
       date="1953"
       image="tokyo-story.jpg"
       rating="5"
-      noteDate="April 2, 2019"
+      note-date="April 2, 2019"
     >
       <p>It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>
       <p>Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.</p>
@@ -61,15 +65,40 @@ layout: page.njk
       date="1994"
       image="neither-wolf-nor-dog.jpg"
       rating="4"
-      noteDate="April 16, 2019"
+      note-date="April 16, 2019"
     >
       <p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>
-
       <p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan's thoughts on topics, which are eloquently stated and deeply personal.</p>
+    </note>
+    <note
+      type="movie"
+      title="Of Fathers and Sons"
+      creator="Talal Derki"
+      date="2017"
+      image="of-fathers-and-sons.jpg"
+      rating="4"
+      note-date="March 19, 2019"
+    >
+      <p>This was eye-opening.</p>
+      <p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children's early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>
+      <p>It's shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn't sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>
+    </note>
+    <note
+      type="book"
+      title="The Blue Bottle Craft of Coffee"
+      creator="James & Caitlin Freeman"
+      date="2012"
+      image="blue-bottle.jpg"
+      rating="2"
+      note-date="March 7, 2019"
+    >
+      <p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>
+      <p>I'd recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>
     </note>
 
   </div>
 </div>
+
 
 
 <div class="notes">
@@ -83,49 +112,6 @@ layout: page.njk
 
 </div>
 
-
-<div class="note movie">
-  <div class="tag">Movie</div>
-  <div class="rating rating-5"></div>
-  <h2 class="title">[Tokyo Story](https://www.youtube.com/watch?v=R65wTHVUCGk)</h2>
-  <div class="meta">1953 | Directed by Yasujiro Ozu</div>
-
-  It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.
-
-  Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.
-
-  This goes straight into my favorite movies of all-time list! Which is rare from a first viewing.
-
-  <div class="date">Apr. 2, 2019</div>
-</div>
-
-<div class="note movie">
-  <div class="rating rating-3"></div>
-  <h2 class="title">[Of Fathers and Sons](https://www.youtube.com/watch?v=Zd0bRdYb8AI)</h2>
-  <div class="meta">2017 | Directed by Talal Derki</div>
-
-  This was eye-opening.
-
-  The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children's early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.
-
-  It's shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn't sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.
-
-  <div class="date">Mar. 19, 2019</div>
-</div>
-
-
-<div class="note book">
-  <div class="tag">Book</div>
-  <div class="rating rating-2"></div>
-  <h2 class="title">[The Blue Bottle Craft of Coffee](https://www.amazon.com/Blue-Bottle-Craft-Coffee-Roasting/dp/1607741180/ref=sr_1_1?ih=2_3_1_2_1_0_0_1_0_1.69_30&keywords=blue+bottle&qid=1552452836&rnid=2941120011&s=books&sr=1-1&x=0&y=0)</h2>
-  <div class="meta">2012 | Written by James and Caitlin Freeman</div>
-
-  I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.
-
-  I'd recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.
-
-  <div class="date">Mar. 7, 2019</div>
-</div>
 
 
 <div class="note book">
@@ -286,10 +272,12 @@ layout: page.njk
 .note {
   position: relative;
   overflow: hidden;
-  height: 15rem;
+  max-height: 14rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
+  font-size: 0.9375rem;
+  cursor: pointer;
 }
 
 .note::after {
@@ -299,7 +287,14 @@ layout: page.njk
   bottom: 0;
   width: 100%;
   height: 4rem;
+}
 
+.note--open {
+  max-height: none;
+}
+
+.note--open::after {
+  display: none;
 }
 
 .note a {
@@ -313,31 +308,38 @@ layout: page.njk
 
 .note-image {
   float: left;
-  width: 8rem;
+  width: 6rem;
   margin: 0 1rem 0.25rem 0;
   border-radius: var(--border-radius);
 }
 
-/*.tag {
+@media (min-width: 800px) {
+  .note-image {
+    width: 8rem;
+  }
+}
+
+.note-date {
   display: none;
-  margin-top: -2px;
-  margin-bottom: 2px;
+  float: right;
+  text-align: right;
+  font-weight: var(--bold);
+/*  color: var(--muted-color);*/
+  margin-bottom: 4px;
+  font-size: 0.6875rem;
+  font-weight: var(--x-bold);
+  text-transform: uppercase;
+}
+
+.note-type {
   color: var(--secondary-color);
   font-size: 0.6875rem;
   font-weight: var(--x-bold);
   text-transform: uppercase;
-  border-radius: var(--border-radius);
 }
-
-.tag.show {
-  display: inline-block;
-}
-
-*/
 
 .note-title {
   margin: 0;
-  margin-bottom: 2px;
 }
 
 .note-title a {
@@ -348,20 +350,16 @@ layout: page.njk
   text-decoration: underline;
 }
 
-.meta {
+.note-meta {
   font-weight: var(--bold);
   color: var(--muted-color);
-}
-
-.meta a {
-  text-decoration: underline;
-  color: var(--muted-color);
+  margin-bottom: 2px;
 }
 
 .rating {
-  display: none;
-  font-size: 1rem;
-  color: var(--secondary-color);
+  /*display: none;*/
+  font-size: 1.125rem;
+  color: var(--muted-color);
 }
 
 .rating-1::before {
@@ -448,6 +446,11 @@ Vue.component('note', {
     image: String,
     rating: Number,
     noteDate: String,
+  },
+  data() {
+    return {
+      open: false,
+    };
   },
   computed: {
     creatorLabel() {
