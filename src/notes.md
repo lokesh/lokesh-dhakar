@@ -12,15 +12,16 @@ layout: page.njk
 
 <template id="tpl-note">
   <article class="note">
+    <img :src="`/media/notes/${image}`" class="note-image" />
     <div v-if="rating" :class="`rating rating-${rating}`"></div>
-    <h2 class="title">{{ title }}</h2>
-    <div class="meta">{{ date }} | {{ creatorLabel }}</div>
+    <h2 class="note-title">{{ title }}</h2>
+    <div class="note-meta">{{ date }} | {{ creatorLabel }}</div>
     <slot />
   </article>
 </template>
 
 <template id="tpl-filters">
-  <div>
+  <div class="note-filters">
     <filter-button>All</filter-button>
     <filter-button>Movies</filter-button>
     <filter-button>Books</filter-button>
@@ -41,18 +42,30 @@ layout: page.njk
   <div>
     <filters></filters>
     <note
-      title="Tokyo Story"
       type="movie"
-      rating="5"
-      date="1953"
+      title="Tokyo Story"
       creator="Yasujiro Ozu"
+      date="1953"
+      image="tokyo-story.jpg"
+      rating="5"
       noteDate="April 2, 2019"
     >
       <p>It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>
-
       <p>Ozu captures the relationship between parents and their children in a way I've never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.</p>
-
       <p>This goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>
+    </note>
+    <note
+      type="book"
+      title="Neighter Wolf Nor Dog"
+      creator="Kent Nerburn"
+      date="1994"
+      image="neither-wolf-nor-dog.jpg"
+      rating="4"
+      noteDate="April 16, 2019"
+    >
+      <p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>
+
+      <p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan's thoughts on topics, which are eloquently stated and deeply personal.</p>
     </note>
 
   </div>
@@ -60,19 +73,6 @@ layout: page.njk
 
 
 <div class="notes">
-
-<!-- Start intro -->
-
-<!-- <div class="note note--intro">
-  <h1 class="page-title">Notes on media</h1>
-
-  <h2 class="page-subtitle">My thoughts on books, movies, and other long form work.</h2>
-</div>
- -->
-<!-- End of intro -->
-
-
-
 
 
 <div class="note wip book">
@@ -83,19 +83,6 @@ layout: page.njk
 
 </div>
 
-
-<div class="note book">
-  <div class="tag">Book</div>
-  <div class="rating rating-4"></div>
-  <h2 class="title">[Neither Wolf Nor Dog](https://www.goodreads.com/book/show/72662.Neither_Wolf_Nor_Dog)</h2>
-  <div class="meta">1994 | Written by Kent Nerburn</div>
-
-  This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.
-
-  The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan's thoughts on topics, which are eloquently stated and deeply personal.
-
-  <div class="date">Apr. 16, 2019</div>
-</div>
 
 <div class="note movie">
   <div class="tag">Movie</div>
@@ -290,54 +277,30 @@ layout: page.njk
 </div>
 
 <style>
-.page-title {
-  margin-bottom: 4px;
-}
-
-@media (min-width: 800px) {
-  .page-title {
-    font-size: 1.25rem;
-  }
-
-  .page-subtitle {
-    font-size: 0.875rem;
-  }
+.note-filters {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color-light);
 }
 
 .note {
-  margin-bottom: 16px;
-  padding-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+  height: 15rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
-  border-radius: var(--border-radius-xl);
 }
 
-@media (min-width: 800px) {
-  .note {
-    padding: 1rem;
-    border: 1px solid var(--border-color-light);
-    background: white;
-    /*font-size: 0.875rem;*/
-  }
-
-  .note.wip {
-    border-style: dashed;
-  }
+.note::after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(transparent, var(--bg-color) 80%, var(--bg-color));
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
 
 }
-
-
-@media (min-width: 1000px) {
-  .note {
-    width: 20rem;
-  }
-}
-
-.note--intro {
-  background: none;
-  border: none;
-  padding: 0;
-}
-
 
 .note a {
   text-decoration: underline;
@@ -348,21 +311,14 @@ layout: page.njk
   margin-bottom: 8px;
 }
 
-.note hr {
-  margin: 8px 0;
-  height: 1px;
-  border: none;
-  /* border-bottom: 1px dashed var(--border-color); */
-}
-
-.image {
+.note-image {
   float: left;
-  width: 120px;
-  margin: 0 16px 8px 0;
-  border-radius: 4px;
+  width: 8rem;
+  margin: 0 1rem 0.25rem 0;
+  border-radius: var(--border-radius);
 }
 
-.tag {
+/*.tag {
   display: none;
   margin-top: -2px;
   margin-bottom: 2px;
@@ -377,16 +333,18 @@ layout: page.njk
   display: inline-block;
 }
 
-.title {
+*/
+
+.note-title {
   margin: 0;
   margin-bottom: 2px;
 }
 
-.title a {
+.note-title a {
   text-decoration: none;
 }
 
-.title a:hover {
+.note-title a:hover {
   text-decoration: underline;
 }
 
@@ -401,6 +359,7 @@ layout: page.njk
 }
 
 .rating {
+  display: none;
   font-size: 1rem;
   color: var(--secondary-color);
 }
@@ -424,7 +383,7 @@ layout: page.njk
 }
 
 .revisit {
-  display: none;
+  /*display: none;*/
 }
 
 .revisit::before {
@@ -482,11 +441,12 @@ Vue.component('filters', {
 Vue.component('note', {
   template: '#tpl-note',
   props: {
-    title: String,
     type: String,
-    rating: Number,
-    date: String,
+    title: String,
     creator: String,
+    date: String,
+    image: String,
+    rating: Number,
     noteDate: String,
   },
   computed: {

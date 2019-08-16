@@ -34,6 +34,7 @@
   --nav-width: 8.75rem; /* 140px */
   --gutter: 12px;
   --post-max-width: 45rem; /* 720px */
+  --page-max-width: 45rem; /* 720px */
   --text-max-width: 33.75rem; /* 540px */
 }
 
@@ -217,7 +218,6 @@ li > code {
   border-right: 1px solid var(--border-color-light);
   font-weight: var(--bold);
   font-size: 0.85rem;
-  border-radius: var(--border-radius);
 }
 
 .nav__item:last-of-type {
@@ -253,6 +253,7 @@ li > code {
     padding: 0.25em 1em 0.25em 0.5em;
     border-right: 0;
     color: var(--color);
+    border-radius: var(--border-radius);
   }
 
   .nav__item:last-of-type {
@@ -288,6 +289,15 @@ li > code {
 
 .post {
   max-width: var(--post-max-width);
+}
+
+.page {
+  max-width: var(--page-max-width);
+}
+
+.post.post--full-width,
+.page.page--full-width {
+  max-width: none;
 }
 
 .page-subtitle,

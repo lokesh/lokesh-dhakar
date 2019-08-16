@@ -1,7 +1,7 @@
 {% extends 'base.njk' %}
 
 {% block main %}
-  <div class="page">
+  <div class="page {% if fullWidth %}page--full-width{% endif %}">
     {{ contents | safe }}
   </div>
 {% endblock %}
