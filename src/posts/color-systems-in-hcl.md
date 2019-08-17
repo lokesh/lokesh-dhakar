@@ -4,7 +4,7 @@ date: 2019-03-09
 layout: post.njk
 ---
 
-<b>This post is a work-in-progress.</b>
+<div class="notice">This post is a work-in-progress.</div>
 
 
 <!-- However, their luminance variation does not match the way humans perceive color.
@@ -131,7 +131,7 @@ layout: post.njk
 
 
 <script type="text/x-template" id="tpl-notice">
-  <div class="notice">
+  <div class="notice-example">
     <slot />
   </div>
 </script>
@@ -327,7 +327,7 @@ new Vue({
   margin-bottom: 48px;
 }
 
-.notice {
+.notice-example {
   width: 18rem;
   color: black;
   font-size: 0.75rem;
