@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "notes-json",
+    "cwd": "./",
+    "src": "./src",
+    "filePattern": "notes/*.md",
+    "ignore": "*(icon|input)*",
+    "dist": "./src/data/notes.json",
+    "server": false,
+    "port": 3001,
+    "version": "1.4.0"
+  },
+  "data": [
+    {
+      "type": "book",
+      "title": "Neither Wolf Nor Dog",
+      "creator": "Kent Nerburn",
+      "date": 1994,
+      "image": "neither-wolf-nor-dog.jpg",
+      "rating": 4,
+      "note-date": "April 16, 2019",
+      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
+      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
+      "id": "notes__neither-wolf-nor-dog"
+    },
+    {
+      "type": "movie",
+      "title": "Tokyo Story",
+      "creator": "Yasujiro Ozu",
+      "date": 1953,
+      "image": "tokyo-story.jpg",
+      "rating": 5,
+      "note-date": "April 2, 2019",
+      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
+      "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
+      "id": "notes__tokyo-story"
+    }
+  ]
+}
