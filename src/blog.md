@@ -4,7 +4,7 @@ date: 2018-07-08
 layout: blog.njk
 ---
 
-<h1 class="page-title">Posts</h1>
+<h1 class="page-title">Blog</h1>
 
 <style>
 .archive {

@@ -5,34 +5,38 @@ layout: page.njk
 fullWidth: true
 ---
 
+<h1 class="page-title">Inspiration</h1>
 
-<section id="videos" class="videos">
-    <div class="intro">
-      <h1 class="page-title">Other people making things</h1>
-      <h2 class="page-subtitle">Videos of creatives at work.</h2>
-      <p class="page-desc">With a focus on process, not backstory. Simple shooting and editing preferred.</p>
-      <div class="sort-options">
-        Sort by:
-        <button
-          class="sort-option first"
-          :class="{'active': sortedBy === 'date'}"
-          @click="sortBy('date')"
-        >
-          Date added
-        </button><!-- Keep comments here to remove space between buttons.
-        --><button
-          class="sort-option last"
-          :class="{'active': sortedBy === 'duration'}"
-          @click="sortBy('duration')"
-        >
-          Duration
-        </button>
-      </div>
+<h2 class="page-subtitle">Videos of creatives at work</h2>
+
+<p style="display: none">With a focus on process, not backstory. Simple shooting and editing preferred.</p>
+
+
+<section id="videos">
+    <div class="sort-options">
+      Sort by:
+      <button
+        class="sort-option first"
+        :class="{'active': sortedBy === 'date'}"
+        @click="sortBy('date')"
+      >
+        Date added
+      </button><!-- Keep comments here to remove space between buttons.
+      --><button
+        class="sort-option last"
+        :class="{'active': sortedBy === 'duration'}"
+        @click="sortBy('duration')"
+      >
+        Duration
+      </button>
     </div>
-    <vid
-      v-for="(video, index) in videos"
-      :video="video"
-    />
+
+    <div class="videos">
+      <vid
+        v-for="(video, index) in videos"
+        :video="video"
+      />
+    </div>
 </section>
 
 <script type="text/x-template" id="tpl-vid">
@@ -129,18 +133,20 @@ fullWidth: true
 }
 
 .page-title {
-  margin-bottom: 0;
+  margin-bottom: 4px;
 }
 
 .sort-options {
-  font-weight: 600;
+  font-weight: var(--bold);
+  margin-bottom: 2rem;
 }
 
 .sort-option {
-  padding: 6px 12px;
+  padding: 0.2em 0.6em 0.3em;
   margin: 0;
-  font-weight: 600;
-  border: 1px solid var(--border-color-light);
+  font-size: 0.8125rem;
+  font-weight: var(--bold);
+  border: 1px solid var(--color);
   border-radius: var(--border-radius);
   background-color: transparent;
   text-decoration: none; /* Removes underlines on <a> buttons */
@@ -165,16 +171,19 @@ fullWidth: true
 
 .sort-option:hover,
 .sort-option:focus {
-  background-color: #eee;
+  color: white;
+  background-color: var(--muted-color);
 }
 
 .sort-option:active {
-  color: var(--color);
+  color: white;
+  background-color: var(--color);
 }
 
 .sort-option.active,
 .sort-option.active:focus {
-  background-color: #ddd;
+  color: white;
+  background-color: var(--color);
 }
 
 
@@ -183,7 +192,7 @@ fullWidth: true
     margin-bottom: 0;
   }
 
-  .page-title {
+/*  .page-title {
     font-size: 1.25rem;
   }
 
@@ -193,7 +202,7 @@ fullWidth: true
     font-size: 0.875rem;
   }
 
-  .page-desc {
+*/  .page-desc {
     margin-top: 0;
     font-size: 0.875rem;
   }
