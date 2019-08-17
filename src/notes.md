@@ -263,6 +263,12 @@ layout: page.njk
 </div>
 
 <style>
+:root {
+  --book-color: #fff;
+  --movie-color: #fff;
+  --music-color: #fff;
+}
+
 .note-filters {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
@@ -276,7 +282,7 @@ layout: page.njk
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   cursor: pointer;
 }
 
@@ -324,7 +330,6 @@ layout: page.njk
   float: right;
   text-align: right;
   font-weight: var(--bold);
-/*  color: var(--muted-color);*/
   margin-bottom: 4px;
   font-size: 0.6875rem;
   font-weight: var(--x-bold);
@@ -355,6 +360,9 @@ layout: page.njk
   color: var(--muted-color);
   margin-bottom: 2px;
 }
+
+
+.note-body {}
 
 .rating {
   /*display: none;*/
