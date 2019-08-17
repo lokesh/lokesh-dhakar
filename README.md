@@ -20,14 +20,24 @@ The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](http
 - Use Giphy to capture videos.
 - For the reading time, I am using [WordCounter's](https://wordcounter.net/) estimate and multiplying by 1.5 to account for code and examples.
 
+
+## Adding a Note
+
+(Icons for note types from Feather Icons.)
+
+- Add markdown file to `src/notes`. 
+- Add an image in `media/notes`. Check Amazon. The image should have a tall aspect ratio and height between 400 and 600px. Save with compression to get the filesize to 35kb or lower.
+- `npm run notes`
+
 ## Updating data used on pages and posts
+
 
 ### Update Running page data
 
-Run the `refresh-data` npm task. This will fetch the latest data from Strava and parse it.
+Fetch the latest data from Strava and parse it.
 
 ```
-npm run refresh-data
+npm run strava
 ```
 
 

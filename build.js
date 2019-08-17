@@ -11,12 +11,19 @@ var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
 var siteBuild = metalsmith(__dirname)
+  // Have Metalsmith ignore our Notes markdown files.
+  // We convert them to JSON and load them into our Vue app in notes.md
+  .ignore([
+    '**/notes/*.md'
+  ])
+
   .metadata({
     site: {
       title: 'Lokesh Dhakar',
       url: 'https://lokeshdhakar.com'
     }
   })
+
 
   .source('./src')
   .destination('./dist')
@@ -62,8 +69,7 @@ var siteBuild = metalsmith(__dirname)
     watch({
       paths: {
         '${source}/**/*': true,
-        // When a SASS or JS file is edited, force a complete rebuild. I was not able to get
-        // metalsmith-watch to rebuild just the CSS on a SASS edit or just the JS.
+        '${source}/data/**/*': '**/*',
         '${source}/css/**/*': '**/*',
         '${source}/js/**/*': '**/*',
         '${source}/layouts/**/*': '**/*'

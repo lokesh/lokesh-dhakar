@@ -3,7 +3,7 @@ const markdownJson = require('markdown-json');
 const settings = {
         name: 'notes-json',
       	cwd: './',
-      	src: './src',
+      	src: './src/',
         filePattern: 'notes/*.md',
         ignore: "*(icon|input)*",
         dist: './src/data/notes.json',
@@ -12,7 +12,7 @@ const settings = {
       };
 
 markdownJson(settings).then((data) => {
-  console.log('data:', data);
+  console.log('✅ Notes JSON generated');
 }).catch((err) => {
   console.log('error:', err);
 })
