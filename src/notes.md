@@ -9,12 +9,27 @@ layout: page.njk
 - Italicize names of books, movies, and other long form works.
 -->
 
+<h1 class="page-title">Notes</h1>
+
+<svg style="display: none">
+  <symbol id="svg-all" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></symbol>
+  <symbol id="svg-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+  </symbol>
+  <symbol id="svg-movie" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-film"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line>
+  </symbol>
+  <symbol id="svg-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-music"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle>
+  </symbol>
+</svg>
+
+
+<!-- NOTE TEMPLATE -->
+
 <template id="tpl-note">
   <article class="note" :class="{'note--open': open}" @click="open = true">
     <img :src="`/media/notes/${image}`" class="note-image" />
     <div class="note-date">{{ noteDate }}</div>
     <div class="note-type" :class="`note-type--${type}`">
-      <img :src="`/media/icons/${type}.svg`" />
+      <svg><use :href="`#svg-${type}`" /></svg>
     </div>
     <h2 class="note-title">{{ title }}</h2>
     <div v-if="rating" :class="`rating rating-${rating}`"></div>
@@ -29,28 +44,27 @@ layout: page.njk
   </article>
 </template>
 
-<template id="tpl-filters">
-  <div class="note-filters">
-    <filter-button>All</filter-button>
-    <filter-button type="movie">Movies</filter-button>
-    <filter-button type="book">Books</filter-button>
-    <filter-button type="music">Music</filter-button>
-
-    <!-- Sort by: Rating, date, etc -->
+<template id="tpl-note-filter">
+  <div :class="['note-filter', `note-filter--${type}`, { 'note-filter--checked': type === value }]">
+      <input type="radio" name="note-filter" class="note-filter-radio" :value="type" :id="`filter-${type}`" @change="onChange" />
+      <label class="note-filter-label" :for="`filter-${type}`">
+        <svg class="note-filter-label-icon"><use :href="`#svg-${type}`" /></svg>
+        <slot />
+      </label>
   </div>
-</template>
-
-<template id="tpl-filter-button">
-  <button class="filter-button" :class="`filter-button--${type}`">
-    <slot />
-  </button>
 </template>
 
 <div id="app">
   <div>
-    <!-- <filters></filters> -->
+    <div class="note-filters">
+      <note-filter type="all" v-model="filter">All</note-filter>
+      <note-filter type="movie" v-model="filter">Movies</note-filter>
+      <note-filter type="book" v-model="filter">Books</note-filter>
+      <note-filter type="music" v-model="filter">Music</note-filter>
+      <!-- Sort by: Rating, date, etc -->
+    </div>
     <note
-      v-for="note in notes"
+      v-for="note in filteredNotes"
       :type="note.type"
       :title="note.title"
       :creator="note.creator"
@@ -74,23 +88,78 @@ layout: page.njk
   --music-color: #FB84E2;
 }
 
+/* FILTERS ------------------------------------- */
+
 .note-filters {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
 }
 
-.filter-button {
+.note-filter {
+  display: inline-block;
+}
+
+.note-filter-radio {
+  display: none;
+}
+
+.note-filter-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2em 0.6em 0.3em;
+  margin-right: 0.25em;
+  font-size: 0.8125rem;
   font-weight: var(--bold);
   border-radius: var(--border-radius);
-  border: none;
+  border: 2px solid var(--color);
+  cursor: pointer;
 }
 
-.filter-button--book {
+.note-filter-label-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.note-filter--checked .note-filter-label {
+  color: white;
+  background: var(--color);
+}
+
+.note-filter--movie .note-filter-label {
+  color: var(--movie-color);
+  border-color: var(--movie-color);
+}
+
+.note-filter--movie.note-filter--checked .note-filter-label {
+  color: white;
+  background: var(--movie-color);
+}
+
+.note-filter--book .note-filter-label {
+  color: var(--book-color);
+  border-color: var(--book-color);
+}
+
+.note-filter--book.note-filter--checked .note-filter-label {
   color: white;
   background: var(--book-color);
-
 }
+
+.note-filter--music .note-filter-label {
+  color: var(--music-color);
+  border-color: var(--music-color);
+}
+
+.note-filter--music.note-filter--checked .note-filter-label {
+  color: white;
+  background: var(--music-color);
+}
+
+
+/* NOTE -----------------------------------------*/
 
 .note {
   position: relative;
@@ -184,7 +253,7 @@ layout: page.njk
   }
 }
 
-.note-type img {
+.note-type svg {
   width: 16px;
   height: 16px;
 }
@@ -221,6 +290,9 @@ layout: page.njk
 
 .note-body {}
 
+
+/* STAR RATING -----------------------------------------*/
+
 .rating {
   font-size: 1.125rem;
   margin-bottom: 2px;
@@ -243,48 +315,30 @@ layout: page.njk
 .rating-5::before {
   content: '★★★★★';
 }
-
-.revisit {
-  /*display: none;*/
-}
-
-.revisit::before {
-  display: inline-block;
-  padding: 1px 4px 2px;
-  margin-bottom: 4px;
-  color: #fff;
-  background-color: #000;
-  border-radius: var(--border-radius);
-  font-weight: var(--x-bold);
-  font-size: 0.6875rem;
-  text-transform: uppercase;
-}
-
-
-.movie .revisit::before {
-  content: 'Worth rewatching';
-}
-
-/*.date {
-  margin-top: 4px;
-  font-size: 0.75rem;
-  font-weight: var(--bold);
-  color: var(--muted-color);
-}
-*/
 </style>
-
 
 <script src="/js/vue.min.js"></script>
 <script>
 
 
-Vue.component('filter-button', {
-  template: '#tpl-filter-button',
+Vue.component('note-filter', {
+  template: '#tpl-note-filter',
+  
+  model: {
+    event: 'change'
+  },
+
   props: {
     type: String,
+    value: String,
   },
-})
+
+  methods: {
+    onChange(event) {
+      this.$emit('change', event.target.value);
+    }
+  },
+});
 
 Vue.component('filters', {
   template: '#tpl-filters',
@@ -322,7 +376,7 @@ Vue.component('note', {
           return `by ${this.creator}`;
         break;
       }
-    }
+    },
   }
 })
 
@@ -331,7 +385,8 @@ new Vue({
   el: '#app',
   data() {
     return { 
-      notes: []
+      notes: [],
+      filter: 'all',
     };
   },
   mounted() {
@@ -343,6 +398,13 @@ new Vue({
       .catch((error) => {
         console.log(error);
       })
+  },
+  computed: {
+    filteredNotes() {
+      return (this.filter === 'all')
+                ? this.notes
+                : this.notes.filter(note => note.type === this.filter)
+    },
   },
   // data() {
   //   return {

@@ -126,7 +126,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  line-height: var(--line-height-heading);
+  line-height: 1.2em;
 }
 
 h3 {
@@ -335,7 +335,7 @@ li > code {
 
 .page-subtitle,
 .post-subtitle {
-  margin-top: 0.4em;
+  margin-top: 0.2em;
   text-transform: none;
   color: var(--muted-color);
 }
@@ -355,7 +355,7 @@ li > code {
 /* Posts ------------ */
 
 .post__title {
-  margin-bottom: 8px;
+  margin-bottom: 0.1em;
 }
 
 /*.post-subtitle + .post-summary {
