@@ -81,7 +81,6 @@ layout: page.njk
 }
 
 .filter-button {
-  
   font-weight: var(--bold);
   border-radius: var(--border-radius);
   border: none;
@@ -107,7 +106,7 @@ layout: page.njk
 .note::after {
   content: '';
   position: absolute;
-  background: linear-gradient(transparent, var(--bg-color) 80%, var(--bg-color));
+  background: linear-gradient( rgba(255, 255, 255, 0), var(--bg-color) 80%, var(--bg-color));
   bottom: 0;
   width: 100%;
   height: 4rem;
@@ -166,6 +165,8 @@ layout: page.njk
 
 .note-type {
   display: flex;
+  float: right;
+  margin-left: 8px;
   width: 28px;
   height: 28px;
   justify-content: center;
@@ -174,6 +175,13 @@ layout: page.njk
   line-height: 24px;
   color: #fff;
   background-color: #7c72f5;
+}
+
+@media (min-width: 800px) {
+  .note-type {
+    float: none;
+    margin-left: 0;
+  }
 }
 
 .note-type img {

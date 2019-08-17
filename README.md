@@ -27,7 +27,7 @@ The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](http
 
 - Add markdown file to `src/notes`. 
 - Add an image in `media/notes`. Check Amazon. The image should have a tall aspect ratio and height between 400 and 600px. Save with compression to get the filesize to 35kb or lower.
-- `npm run notes`
+- `npm run notes` - This uses markdown-json to create a `notes.json` file from the markdown files in the `src/notes` folder. This JSON is read by the Vue app in `notes.md`.
 
 ## Updating data used on pages and posts
 

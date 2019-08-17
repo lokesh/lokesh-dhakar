@@ -1,4 +1,5 @@
-:root {--bg-color: #fff; /* prev: #f9f9f9 */;
+:root {
+  --bg-color: #fff; /* prev: #f9f9f9 */;
   --recessed-bg-color: #e3e3e3;
   --hover-bg-color: #e9e9e9;
 
