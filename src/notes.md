@@ -12,6 +12,9 @@ layout: page.njk
 <h1 class="page-title">Notes</h1>
 
 <svg style="display: none">
+  <symbol id="svg-star" viewBox="0 0 512 512"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"/></symbol>
+  <symbol id="svg-star-half" viewBox="0 0 512 512"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16zm-47.4 35.2l-79.8 57.3c-10 7.2-14.2 20.2-10.2 31.8l30.1 87.7c1.3 3.7-2.9 6.8-6.1 4.6l-77.4-55.2-.1-.1c-10-7-16.1-18.3-16.1-30.5V113.3c0-2.2 3.1-2.7 3.8-.6l29.6 88.2c3.8 11.4 14.5 19.1 26.5 19.1h97.3c3.9 0 5.5 5 2.4 7.2z"/></symbol>
+  <symbol id="svg-star-outline" viewBox="0 0 512 512"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16zm-127.2 92.5c-10 7.2-14.2 20.2-10.2 31.8l30.1 87.7c1.3 3.7-2.9 6.8-6.1 4.6l-77.4-55.2c-4.9-3.5-10.6-5.2-16.3-5.2-5.7 0-11.4 1.7-16.2 5.2l-77.4 55.1c-3.2 2.3-7.4-.9-6.1-4.6l30.1-87.7c4-11.8-.2-24.8-10.3-32l-81-57.1c-3.2-2.2-1.6-7.3 2.3-7.3H196c12 0 22.7-7.7 26.5-19.1l29.6-88.2c1.2-3.6 6.4-3.6 7.6 0l29.6 88.2c3.8 11.4 14.5 19.1 26.5 19.1h97.3c3.9 0 5.5 5 2.3 7.2l-79.6 57.5z"/></symbol>
   <symbol id="svg-all" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></symbol>
   <symbol id="svg-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
   </symbol>
@@ -32,7 +35,7 @@ layout: page.njk
       <svg><use :href="`#svg-${type}`" /></svg>
     </div>
     <h2 class="note-title">{{ title }}</h2>
-    <div v-if="rating" :class="`rating rating-${rating}`"></div>
+    <note-rating v-if="rating" :stars="rating"></note-rating>
     <div class="note-meta">
       <span class="note-date">{{ date }}</span> | <span class="note-creator">{{ creatorLabel }}</span>
     </div>
@@ -44,6 +47,14 @@ layout: page.njk
       <div v-if="open" v-html="contents"></div>
     </div>
   </article>
+</template>
+
+<template id="tpl-note-rating">
+  <div class="note-rating">
+    <svg v-for="n in fullStars" class="note-rating-star"><use href="#svg-star"></use></svg>
+    <svg v-if="halfStar" class="note-rating-star"><use href="#svg-star-half"></svg>
+    <svg v-for="n in emptyStars" class="note-rating-star"><use href="#svg-star-outline"></svg>
+  </div>
 </template>
 
 <template id="tpl-note-filter">
@@ -211,12 +222,12 @@ layout: page.njk
 
 .notes-sort-date-desc .note-date,
 .notes-sort-date-asc .note-date {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
-.notes-sort-rating-desc .rating,
-.notes-sort-rating-asc .rating {
-  color: var(--secondary-color);
+.notes-sort-rating-desc .note-rating svg,
+.notes-sort-rating-asc .note-rating svg{
+  fill: var(--primary-color);
 }
 
 @media (min-width: 800px) {
@@ -337,7 +348,7 @@ layout: page.njk
 }
 
 .note-title {
-  margin: 0;
+  margin: 0 0 0.1em 0;
 }
 
 .note-title a {
@@ -349,6 +360,7 @@ layout: page.njk
 }
 
 .note-meta {
+  font-size: 1rem;
   font-weight: var(--bold);
   color: var(--muted-color);
   margin-bottom: 2px;
@@ -359,28 +371,15 @@ layout: page.njk
 
 /* STAR RATING -----------------------------------------*/
 
-.rating {
-  font-size: 1.125rem;
-  margin-bottom: 2px;
+.note-rating {
+  display: flex;
+  margin-bottom: 4px;
+}
+.note-rating svg {
+  width: 24px;
+  height: 24px;
 }
 
-.rating-1::before {
-  content: '★☆☆☆☆';
-}
-.rating-2::before {
-  content: '★★☆☆☆';
-}
-.rating-3::before {
-  content: '★★★☆☆';
-}
-
-.rating-4::before {
-  content: '★★★★☆';
-}
-
-.rating-5::before {
-  content: '★★★★★';
-}
 </style>
 
 <script src="/js/vue.min.js"></script>
@@ -406,9 +405,23 @@ Vue.component('note-filter', {
   },
 });
 
-Vue.component('filters', {
-  template: '#tpl-filters',
-})
+Vue.component('note-rating', {
+  template: '#tpl-note-rating',
+  props: {
+    stars: Number,
+  },
+  computed: {
+    fullStars() {
+      return Math.floor(this.stars);
+    },
+    halfStar() {
+      return !Number.isInteger(this.stars);
+    },
+    emptyStars() {
+      return Math.floor(5 - this.stars);
+    }
+  }
+});
 
 Vue.component('note', {
   template: '#tpl-note',

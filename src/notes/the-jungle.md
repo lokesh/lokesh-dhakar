@@ -4,7 +4,7 @@ title: The Jungle
 creator: Upton Sinclair
 date: 1904
 image: the-jungle.jpg
-rating: 4
+rating: 4.5
 noteDate: Dec 31, 2018
 ---
 

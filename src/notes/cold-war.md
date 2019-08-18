@@ -4,7 +4,7 @@ title: Cold War
 creator: Paweł Pawlikowski
 date: 2018
 image: cold-war.jpg
-rating: 5
+rating: 4.5
 noteDate: January 21, 2019
 ---
 

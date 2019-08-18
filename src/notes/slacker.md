@@ -4,7 +4,7 @@ title: Slacker
 creator: Richard Linklater
 date: 1990
 image: slacker.jpg
-rating: 5
+rating: 4.5
 noteDate: Oct 4, 2018
 ---
 

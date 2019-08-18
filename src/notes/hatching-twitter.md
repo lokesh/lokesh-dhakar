@@ -4,7 +4,7 @@ title: Hatching Twitter
 creator: Nick Bilton
 date: 2013
 image: hatching-twitter.jpg
-rating: 1
+rating: 1.5
 noteDate: Feb 15, 2019
 ---
 
