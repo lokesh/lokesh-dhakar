@@ -28,7 +28,7 @@ layout: page.njk
 <!-- NOTE TEMPLATE -->
 
 <template id="tpl-note">
-  <article class="note" :class="{'note--open': open}" @click="open = true">
+  <article class="note" :class="{'note--open': open}">
     <img :src="`/media/notes/${image}`" class="note-image" />
     <div class="noteDate">{{ noteDate }}</div>
     <div class="note-type" :class="`note-type--${type}`">
@@ -39,9 +39,9 @@ layout: page.njk
     <div class="note-meta">
       <span class="note-date">{{ date }}</span> | <span class="note-creator">{{ creatorLabel }}</span>
     </div>
-    <div class="note-body">
+    <div v-if="contents" class="note-body">
        <div v-if="!open">
-        <span v-html="excerpt" class="note-excerpt"></span>
+        <span v-html="excerpt" class="note-excerpt" @click="open = true"></span>
         <span class="note-read-more">Read more…</span>
       </div>
       <div v-if="open" v-html="contents"></div>
@@ -246,7 +246,6 @@ layout: page.njk
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
   font-size: 0.875rem;
-  cursor: pointer;
 }
 
 .note::after {
@@ -267,13 +266,16 @@ layout: page.njk
   display: none;
 }
 
+.note-excerpt {
+  cursor: pointer;
+}
+
 .note-excerpt p {
   display: inline;
 }
 
 .note-read-more {
   font-weight: var(--bold);
- /*color: var(--secondary-color);*/
 }
 
 .note a {
@@ -484,11 +486,9 @@ new Vue({
  
   watch: {
     filter: function(val) {
-      console.log('filter');
       this.filterAndSort();
     },
     sort: function(val) {
-      console.log('sort');
       this.filterAndSort();
     },
   },
@@ -501,7 +501,6 @@ new Vue({
         : this.notes.filter(note => note.type === this.filter)
 
       // and Sort
-      console.log(this.sort);
       switch (this.sort) {
         case 'rating-desc':
           this.displayNotes = filteredNotes.sort((a, b) => {

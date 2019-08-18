@@ -171,8 +171,7 @@ fullWidth: true
 
 .sort-option:hover,
 .sort-option:focus {
-  color: white;
-  background-color: var(--muted-color);
+  background-color: var(--hover-bg-color);
 }
 
 .sort-option:active {

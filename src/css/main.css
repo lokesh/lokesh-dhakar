@@ -2,10 +2,8 @@
   --bg-color: #fff; /* prev: #f9f9f9 */;
   --recessed-bg-color: #e3e3e3;
   --hover-bg-color: #e9e9e9;
-
   --color: #000;
-  --primary-color: #fc4c02;
-  --secondary-color: #f68727;
+  --primary-color: #e66622;
   --muted-color: #999;
   --link-color: #05f;
   --action-color: var(--primary-color); /* For buttons and other non-link controls */
@@ -141,7 +139,7 @@ h3 {
   }
 
   h2 {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 }
 
@@ -344,19 +342,8 @@ li > code {
   margin-bottom: 0.1em;
 }
 
-/*.post-subtitle + .post-summary {
-  margin-top: -10px;
-}
-
-.post-summary {
-  margin-bottom: 16px;
-  font-weight: var(--bold);
-  color: var(--muted-color);
-  line-height: var(--line-height);
-}
-*/
 .post-time {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .post-time::after {
