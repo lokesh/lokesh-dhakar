@@ -5,7 +5,7 @@ creator: Talal Derki
 date: 2017
 image: of-fathers-and-sons.jpg
 rating: 4
-note-date: March 19, 2019
+noteDate: March 19, 2019
 ---
 This was eye-opening.
 

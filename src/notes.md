@@ -27,13 +27,15 @@ layout: page.njk
 <template id="tpl-note">
   <article class="note" :class="{'note--open': open}" @click="open = true">
     <img :src="`/media/notes/${image}`" class="note-image" />
-    <div class="note-date">{{ noteDate }}</div>
+    <div class="noteDate">{{ noteDate }}</div>
     <div class="note-type" :class="`note-type--${type}`">
       <svg><use :href="`#svg-${type}`" /></svg>
     </div>
     <h2 class="note-title">{{ title }}</h2>
     <div v-if="rating" :class="`rating rating-${rating}`"></div>
-    <div class="note-meta">{{ date }} | {{ creatorLabel }}</div>
+    <div class="note-meta">
+      <span class="note-date">{{ date }}</span> | <span class="note-creator">{{ creatorLabel }}</span>
+    </div>
     <div class="note-body">
        <div v-if="!open">
         <span v-html="excerpt" class="note-excerpt"></span>
@@ -56,28 +58,39 @@ layout: page.njk
 
 <div id="app">
   <div>
-    <div class="note-filters">
-      <note-filter type="all" v-model="filter">All</note-filter>
-      <note-filter type="movie" v-model="filter">Movies</note-filter>
-      <note-filter type="book" v-model="filter">Books</note-filter>
-      <note-filter type="music" v-model="filter">Music</note-filter>
-      <!-- Sort by: Rating, date, etc -->
-    </div>
-    <note
-      v-for="note in filteredNotes"
-      :type="note.type"
-      :title="note.title"
-      :creator="note.creator"
-      :date="note.date"
-      :image="note.image"
-      :rating="note.rating"
-      :note-date="note.noteDate"
-      :excerpt="note.excerpt"
-      :contents="note.contents"
-    >
-      <!-- <span v-html="note.excerpt"></span> -->
-      <!-- <span v-html="note.contents"></span> -->
-    </note>    
+    <section class="note-controls">
+      <div class="note-filters">
+        <note-filter type="all" v-model="filter">All</note-filter>
+        <note-filter type="movie" v-model="filter">Movies</note-filter>
+        <note-filter type="book" v-model="filter">Books</note-filter>
+        <note-filter type="music" v-model="filter">Music</note-filter>
+      </div>
+      <div class="note-sort">
+        <span class="note-sort-label">Sort by:</span>
+        <select class="note-sort-select" v-model="sort">
+          <option value="noteDate-desc">Review date</option>
+          <option value="rating-desc">Rating: High to low</option>
+          <option value="rating-asc">Rating: Low to high</option>
+          <option value="date-desc">Publish date: New to old</option>
+          <option value="date-asc">Publish date: Old to new</option>
+        </select>
+      </div>
+    </section>
+    <section :class="`notes-sort-${sort}`">
+      <note
+        v-for="note in displayNotes"
+        :type="note.type"
+        :title="note.title"
+        :creator="note.creator"
+        :date="note.date"
+        :image="note.image"
+        :rating="note.rating"
+        :noteDate="note.noteDate"
+        :excerpt="note.excerpt"
+        :contents="note.contents"
+      >
+      </note>    
+    </section>
   </div>
 </div>
 
@@ -90,14 +103,15 @@ layout: page.njk
 
 /* FILTERS ------------------------------------- */
 
-.note-filters {
-  padding-bottom: 2rem;
+.note-controls {
+  padding-bottom: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
 }
 
 .note-filter {
   display: inline-block;
+  margin-bottom: 8px;
 }
 
 .note-filter-radio {
@@ -117,7 +131,6 @@ layout: page.njk
 }
 
 .note-filter-label-icon {
-  display: inline-block;
   width: 16px;
   height: 16px;
   margin-right: 4px;
@@ -158,6 +171,59 @@ layout: page.njk
   background: var(--music-color);
 }
 
+@media (min-width: 800px) {
+  .note-controls {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+/* SORT -----------------------------------------*/
+
+.note-sort {
+  font-size: 0.8125rem;
+  font-weight: var(--bold);
+  color: var(--muted-color);
+}
+
+.note-sort-label {
+  display: none;
+  margin-right: 4px;
+}
+
+.note-sort-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0.25em 1.6em 0.25em 0.6em;
+  font-size: 0.8125rem;
+  font-weight: var(--bold);  
+  border-radius: var(--border-radius);
+  border: 2px solid var(--color);
+  cursor: pointer;  
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: right .7em top 50%;
+  background-size: .65em auto;
+  outline: none;
+}
+
+.notes-sort-date-desc .note-date,
+.notes-sort-date-asc .note-date {
+  color: var(--secondary-color);
+}
+
+.notes-sort-rating-desc .rating,
+.notes-sort-rating-asc .rating {
+  color: var(--secondary-color);
+}
+
+@media (min-width: 800px) {
+  .note-sort-label {
+    display: inline;
+  }
+}
 
 /* NOTE -----------------------------------------*/
 
@@ -221,7 +287,7 @@ layout: page.njk
   }
 }
 
-.note-date {
+.noteDate {
   display: none;
   float: right;
   text-align: right;
@@ -386,7 +452,9 @@ new Vue({
   data() {
     return { 
       notes: [],
+      displayNotes: [],
       filter: 'all',
+      sort: 'noteDate-desc',
     };
   },
   mounted() {
@@ -394,54 +462,61 @@ new Vue({
       .then(res => res.json())
       .then(json => {
         this.notes = json.data
+        this.filterAndSort();
       })
       .catch((error) => {
         console.log(error);
       })
   },
-  computed: {
-    filteredNotes() {
-      return (this.filter === 'all')
-                ? this.notes
-                : this.notes.filter(note => note.type === this.filter)
+ 
+  watch: {
+    filter: function(val) {
+      console.log('filter');
+      this.filterAndSort();
+    },
+    sort: function(val) {
+      console.log('sort');
+      this.filterAndSort();
     },
   },
-  // data() {
-  //   return {
-  //     videos: [],
-  //     sortedBy: 'date',
-  //   };
-  // },
 
-  // watch: {
-  //   sortedBy(newVal) {
-  //     if (newVal === 'date') {
-  //       this.videos.sort((a, b) => {
-  //         return (new Date(a.dateAdded).getTime() > new Date(b.dateAdded).getTime() ? -1 : 1);
-  //       })
-  //     } else if (newVal === 'duration') {
-  //       this.videos.sort((a, b) => {
-  //         return (strToSeconds(b.duration) > strToSeconds(a.duration) ? -1 : 1);
-  //       })
-  //     }
-  //   },
-  // },
+  methods: {
+    filterAndSort() {
+      // Filter
+      const filteredNotes = (this.filter === 'all')
+        ? this.notes
+        : this.notes.filter(note => note.type === this.filter)
 
-  // mounted() {
-  //   fetch('/data/inspiration-videos.json')
-  //     .then(res => res.json())
-  //     .then(data => {
-  //       this.videos = data;
-  //     })
-  //     .catch((error) => {
-  //       console.log(error);
-  //     })
-  // },
-
-  // methods: {
-  //   sortBy(field) {
-  //     this.sortedBy = field;
-  //   },
-  // }
+      // and Sort
+      console.log(this.sort);
+      switch (this.sort) {
+        case 'rating-desc':
+          this.displayNotes = filteredNotes.sort((a, b) => {
+            return b.rating - a.rating;
+          });
+          break;
+        case 'rating-asc':
+          this.displayNotes = filteredNotes.sort((a, b) => {
+            return a.rating - b.rating;
+          });
+          break;
+        case 'date-desc':
+          this.displayNotes = filteredNotes.sort((a, b) => {
+            return (new Date(a.date) > new Date(b.date)) ? -1 : 1;
+          });
+          break;
+        case 'date-asc':
+          this.displayNotes = filteredNotes.sort((a, b) => {
+            return (new Date(a.date) > new Date(b.date)) ? 1 : -1;
+          });
+          break;
+        case 'noteDate-desc':
+        default:
+          this.displayNotes = filteredNotes.sort((a, b) => {
+            return (new Date(a.noteDate) > new Date(b.noteDate)) ? -1 : 1;
+          });
+      }
+    },
+  },
 });
 </script>

@@ -118,35 +118,21 @@ h3 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 8px;
   margin-bottom: 20px;
   line-height: 1.0em;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.2em;
 }
 
 h3 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: var(--line-height-heading);
   margin-top: 1.1em;
-}
-
-@media (min-width: 800px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.25rem;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -155,7 +141,7 @@ h3 {
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
   }
 }
 

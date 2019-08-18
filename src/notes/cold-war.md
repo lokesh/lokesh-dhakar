@@ -5,7 +5,7 @@ creator: Paweł Pawlikowski
 date: 2018
 image: cold-war.jpg
 rating: 5
-note-date: January 21, 2019
+noteDate: January 21, 2019
 ---
 
 This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.

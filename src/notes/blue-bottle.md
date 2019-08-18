@@ -5,7 +5,7 @@ creator: James & Caitlin Freeman
 date: 2012
 image: blue-bottle.jpg
 rating: 2
-note-date: March 7, 2019
+noteDate: March 7, 2019
 ---
 
 I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.

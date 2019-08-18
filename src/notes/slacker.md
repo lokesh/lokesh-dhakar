@@ -5,7 +5,7 @@ creator: Richard Linklater
 date: 1990
 image: slacker.jpg
 rating: 5
-note-date: Oct 4, 2018
+noteDate: Oct 4, 2018
 ---
 
 The classic Gen-X indie film from <a href="https://en.wikipedia.org/wiki/Richard_Linklater">Richard Linklater</a>.

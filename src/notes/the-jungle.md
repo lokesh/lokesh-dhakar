@@ -5,7 +5,7 @@ creator: Upton Sinclair
 date: 1904
 image: the-jungle.jpg
 rating: 4
-note-date: Dec 31, 2018
+noteDate: Dec 31, 2018
 ---
 
 The book has become infamous for its description of Chicago's meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.

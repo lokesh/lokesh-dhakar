@@ -5,7 +5,7 @@ creator: Yasujiro Ozu
 date: 1953
 image: tokyo-story.jpg
 rating: 5
-note-date: April 2, 2019
+noteDate : April 2, 2019
 ---
 
 It's a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.

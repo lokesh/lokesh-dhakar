@@ -5,7 +5,7 @@ creator: Wes Anderson
 date: 2018
 image: isle-of-dogs.jpg
 rating: 3
-note-date: Feb 9, 2019
+noteDate: Feb 9, 2019
 ---
 
 Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the [10 min extended preview](https://www.youtube.com/watch?v=rTfSg77jrJw) to see for yourself.
