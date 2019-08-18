@@ -2,10 +2,10 @@
 type: movie
 title: Stranger Than Paradise
 creator: Jim Jarmusch
-date: 1984
+publishDate: 1984
 image: stranger-than-paradise.jpg
 rating: 3
-noteDate: Jan 4, 2019
+reviewDate: Jan 4, 2019
 ---
 
  This indie film has a lot g  oing for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.

@@ -2,10 +2,10 @@
 type: movie
 title: Slacker
 creator: Richard Linklater
-date: 1990
+publishDate: 1990
 image: slacker.jpg
 rating: 4.5
-noteDate: Oct 4, 2018
+reviewDate: Oct 4, 2018
 ---
 
 The classic Gen-X indie film from <a href="https://en.wikipedia.org/wiki/Richard_Linklater">Richard Linklater</a>.

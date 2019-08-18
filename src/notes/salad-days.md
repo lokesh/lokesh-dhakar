@@ -2,10 +2,10 @@
 type: movie
 title: "Salad Days: A Decade Of Punk In Washington, DC (1980-90)"
 creator: Scott Crawford
-date: 2015
+publishDate: 2015
 image: salad-days.jpg
 rating: 1
-noteDate: Nov 21, 2018
+reviewDate: Nov 21, 2018
 ---
 
 

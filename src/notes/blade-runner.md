@@ -2,10 +2,10 @@
 type: movie
 title: Blade Runner
 creator: Ridley Scott
-date: 1982
+publishDate: 1982
 image: blade-runner.jpg
 rating: 4
-noteDate: Oct 19, 2018
+reviewDate: Oct 19, 2018
 ---
 
 When I first watched the movie, the visuals were what left a mark. Now after seeing _Blade Runnner 2049_ and reading <a href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">_Do Androids Dream of Electric Sheep?_</a>, I've come to appreciate the themes the movie explores. The plot is fine, but less remarkable.

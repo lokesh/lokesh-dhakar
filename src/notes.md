@@ -30,21 +30,18 @@ layout: page.njk
 <template id="tpl-note">
   <article class="note" :class="{'note--open': open}">
     <img :src="`/media/notes/${image}`" class="note-image" />
-    <div class="noteDate">{{ noteDate }}</div>
+    <div class="note-review-date">{{ formattedReviewDate }}</div>
     <div class="note-type" :class="`note-type--${type}`">
       <svg><use :href="`#svg-${type}`" /></svg>
     </div>
     <h2 class="note-title">{{ title }}</h2>
     <note-rating v-if="rating" :stars="rating"></note-rating>
     <div class="note-meta">
-      <span class="note-date">{{ date }}</span> | <span class="note-creator">{{ creatorLabel }}</span>
+      <span class="note-publish-date">{{ publishDate }}</span> | <span class="note-creator">{{ creatorLabel }}</span>
     </div>
-    <div v-if="contents" class="note-body">
-       <div v-if="!open">
-        <span v-html="excerpt" class="note-excerpt" @click="open = true"></span>
-        <span class="note-read-more">Read more…</span>
-      </div>
+    <div v-if="contents" class="note-body" @click="open = true">
       <div v-if="open" v-html="contents"></div>
+      <div v-else v-html="excerpt" class="note-excerpt"></div>      
     </div>
   </article>
 </template>
@@ -79,11 +76,11 @@ layout: page.njk
       <div class="note-sort">
         <span class="note-sort-label">Sort by:</span>
         <select class="note-sort-select" v-model="sort">
-          <option value="noteDate-desc">Review date</option>
+          <option value="review-date-desc">Review date</option>
           <option value="rating-desc">Rating: High to low</option>
           <option value="rating-asc">Rating: Low to high</option>
-          <option value="date-desc">Publish date: New to old</option>
-          <option value="date-asc">Publish date: Old to new</option>
+          <option value="publish-date-desc">Publish date: New to old</option>
+          <option value="publish-date-asc">Publish date: Old to new</option>
         </select>
       </div>
     </section>
@@ -93,10 +90,10 @@ layout: page.njk
         :type="note.type"
         :title="note.title"
         :creator="note.creator"
-        :date="note.date"
+        :publish-date="note.publishDate"
         :image="note.image"
         :rating="note.rating"
-        :noteDate="note.noteDate"
+        :review-date="note.reviewDate"
         :excerpt="note.excerpt"
         :contents="note.contents"
       >
@@ -220,14 +217,18 @@ layout: page.njk
   outline: none;
 }
 
-.notes-sort-date-desc .note-date,
-.notes-sort-date-asc .note-date {
+.notes-sort-publish-date-desc .note-publish-date,
+.notes-sort-publish-date-asc .note-publish-date {
   color: var(--primary-color);
 }
 
 .notes-sort-rating-desc .note-rating svg,
 .notes-sort-rating-asc .note-rating svg{
   fill: var(--primary-color);
+}
+
+.notes-sort-review-date-desc .note-review-date {
+  color: var(--primary-color);
 }
 
 @media (min-width: 800px) {
@@ -255,23 +256,22 @@ layout: page.njk
   bottom: 0;
   width: 100%;
   height: 4rem;
+  pointer-events: none;
 }
 
 .note--open {
   max-height: none;
-  cursor: auto;
 }
 
 .note--open::after {
   display: none;
 }
 
-.note-excerpt {
-  cursor: pointer;
-}
-
 .note-excerpt p {
-  display: inline;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .note-read-more {
@@ -294,16 +294,8 @@ layout: page.njk
   border-radius: var(--border-radius);
 }
 
-@media (min-width: 800px) {
-  .note-image {
-    width: 8rem;
-  }
-}
-
-.noteDate {
-  display: none;
-  float: right;
-  text-align: right;
+.note-review-date {
+  color: var(--muted-color);
   font-weight: var(--bold);
   margin-bottom: 4px;
   font-size: 0.6875rem;
@@ -326,9 +318,17 @@ layout: page.njk
 }
 
 @media (min-width: 800px) {
+  .note-review-date {
+    float: right;
+    text-align: right;
+  }
   .note-type {
     float: none;
     margin-left: 0;
+  }
+
+  .note-image {
+    width: 8rem;
   }
 }
 
@@ -368,7 +368,13 @@ layout: page.njk
   margin-bottom: 2px;
 }
 
-.note-body {}
+.note-body { 
+  cursor: pointer;
+}
+
+.note--open {
+  cursor: auto;
+}
 
 
 /* STAR RATING -----------------------------------------*/
@@ -386,8 +392,6 @@ layout: page.njk
 
 <script src="/js/vue.min.js"></script>
 <script>
-
-
 Vue.component('note-filter', {
   template: '#tpl-note-filter',
   
@@ -425,16 +429,19 @@ Vue.component('note-rating', {
   }
 });
 
+const MS_IN_DAY = 1000 * 60 * 60 * 24;
+const MS_IN_MONTH = MS_IN_DAY * 30;
+
 Vue.component('note', {
   template: '#tpl-note',
   props: {
     type: String,
     title: String,
     creator: String,
-    date: String,
+    publishDate: String,
     image: String,
     rating: Number,
-    noteDate: String,
+    reviewDate: String,
     excerpt: String,
     contents: String,
   },
@@ -458,6 +465,22 @@ Vue.component('note', {
         break;
       }
     },
+    formattedReviewDate() {
+      const diff = new Date() - new Date(this.reviewDate);
+      if (diff < MS_IN_DAY) {
+        return 'Today';
+      } else if (diff < MS_IN_DAY * 2) {
+        return 'Yesterday';
+      } else if (diff < MS_IN_DAY * 7) {
+        return 'This week';
+      } else if (diff < MS_IN_DAY * 30) { 
+        return 'This month';
+      } else if (diff < MS_IN_DAY * 180) {
+        return `${Math.floor(diff / MS_IN_MONTH)} months ago`;
+      } else {
+        return this.reviewDate;
+      }
+    }
   }
 })
 
@@ -469,7 +492,7 @@ new Vue({
       notes: [],
       displayNotes: [],
       filter: 'all',
-      sort: 'noteDate-desc',
+      sort: 'review-date-desc',
     };
   },
   mounted() {
@@ -512,20 +535,20 @@ new Vue({
             return a.rating - b.rating;
           });
           break;
-        case 'date-desc':
+        case 'publish-date-desc':
           this.displayNotes = filteredNotes.sort((a, b) => {
-            return (new Date(a.date) > new Date(b.date)) ? -1 : 1;
+            return (new Date(a.publishDate) > new Date(b.publishDate)) ? -1 : 1;
           });
           break;
-        case 'date-asc':
+        case 'publish-date-asc':
           this.displayNotes = filteredNotes.sort((a, b) => {
-            return (new Date(a.date) > new Date(b.date)) ? 1 : -1;
+            return (new Date(a.publishDate) > new Date(b.publishDate)) ? 1 : -1;
           });
           break;
-        case 'noteDate-desc':
+        case 'review-date-desc':
         default:
           this.displayNotes = filteredNotes.sort((a, b) => {
-            return (new Date(a.noteDate) > new Date(b.noteDate)) ? -1 : 1;
+            return (new Date(a.reviewDate) > new Date(b.reviewDate)) ? -1 : 1;
           });
       }
     },

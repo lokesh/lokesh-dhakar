@@ -2,10 +2,10 @@
 type: book
 title: The Three-Body Problem
 creator: Cixin Liu
-date: 2013
+publishDate: 2013
 image: three-body-problem.jpg
 rating: 1.5
-noteDate: aug 17, 2019
+reviewDate: aug 17, 2019
 ---
 
 It didn't live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as _deus ex machina_. 
