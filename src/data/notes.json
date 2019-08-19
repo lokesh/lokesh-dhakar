@@ -25,27 +25,27 @@
     },
     {
       "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
+      "title": "Hatching Twitter",
+      "creator": "Nick Bilton",
+      "publishDate": 2013,
+      "image": "hatching-twitter.jpg",
+      "rating": 1.5,
+      "reviewDate": "Feb 15, 2019",
+      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
+      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
+      "id": "notes__hatching-twitter"
     },
     {
       "type": "movie",
-      "title": "Blade Runner",
-      "creator": "Ridley Scott",
-      "publishDate": 1982,
-      "image": "blade-runner.jpg",
-      "rating": 4,
-      "reviewDate": "Oct 19, 2018",
-      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
-      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
-      "id": "notes__blade-runner"
+      "title": "Isle of Dogs",
+      "creator": "Wes Anderson",
+      "publishDate": 2018,
+      "image": "isle-of-dogs.jpg",
+      "rating": 3.5,
+      "reviewDate": "Feb 9, 2019",
+      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
+      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
+      "id": "notes__isle-of-dogs"
     },
     {
       "type": "book",
@@ -61,43 +61,31 @@
     },
     {
       "type": "movie",
-      "title": "Isle of Dogs",
-      "creator": "Wes Anderson",
-      "publishDate": 2018,
-      "image": "isle-of-dogs.jpg",
-      "rating": 3.5,
-      "reviewDate": "Feb 9, 2019",
-      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
-      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
-      "id": "notes__isle-of-dogs"
-    },
-    {
-      "type": "movie",
-      "title": "Of Fathers And Sons",
-      "creator": "Talal Derki",
-      "publishDate": 2017,
-      "image": "of-fathers-and-sons.jpg",
-      "rating": 3.5,
-      "reviewDate": "March 19, 2019",
-      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
-      "excerpt": "<p>This was eye-opening.</p>",
-      "id": "notes__of-fathers-and-sons"
+      "title": "Blade Runner",
+      "creator": "Ridley Scott",
+      "publishDate": 1982,
+      "image": "blade-runner.jpg",
+      "rating": 4,
+      "reviewDate": "Oct 19, 2018",
+      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
+      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
+      "id": "notes__blade-runner"
     },
     {
       "type": "book",
-      "title": "Hatching Twitter",
-      "creator": "Nick Bilton",
-      "publishDate": 2013,
-      "image": "hatching-twitter.jpg",
-      "rating": 1.5,
-      "reviewDate": "Feb 15, 2019",
-      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
-      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
-      "id": "notes__hatching-twitter"
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
     },
     {
       "type": "movie",
-      "title": "Salad Days: A Decade Of Punk In Washington, DC (1980-90)",
+      "title": "Salad Days: A Decade Of Punk In Washington, DC",
       "creator": "Scott Crawford",
       "publishDate": 2015,
       "image": "salad-days.jpg",
@@ -108,18 +96,6 @@
       "id": "notes__salad-days"
     },
     {
-      "type": "music",
-      "title": "Purple Mountains",
-      "creator": "Purple Mountains",
-      "publishDate": 2019,
-      "image": "purple-mountains.jpg",
-      "rating": 4,
-      "reviewDate": "Aug 17, 2019",
-      "contents": "",
-      "excerpt": "",
-      "id": "notes__purple-mountains"
-    },
-    {
       "type": "movie",
       "title": "Stranger Than Paradise",
       "creator": "Jim Jarmusch",
@@ -127,8 +103,8 @@
       "image": "stranger-than-paradise.jpg",
       "rating": 3,
       "reviewDate": "Jan 4, 2019",
-      "contents": "<p> This indie film has a lot g  oing for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
-      "excerpt": "<p> This indie film has a lot g  oing for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
+      "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
+      "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
       "id": "notes__stranger-than-paradise"
     },
     {
@@ -144,6 +120,18 @@
       "id": "notes__slacker"
     },
     {
+      "type": "movie",
+      "title": "Of Fathers And Sons",
+      "creator": "Talal Derki",
+      "publishDate": 2017,
+      "image": "of-fathers-and-sons.jpg",
+      "rating": 3.5,
+      "reviewDate": "March 19, 2019",
+      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
+      "excerpt": "<p>This was eye-opening.</p>",
+      "id": "notes__of-fathers-and-sons"
+    },
+    {
       "type": "book",
       "title": "The Jungle",
       "creator": "Upton Sinclair",
@@ -156,18 +144,6 @@
       "id": "notes__the-jungle"
     },
     {
-      "type": "book",
-      "title": "The Three-Body Problem",
-      "creator": "Cixin Liu",
-      "publishDate": 2013,
-      "image": "three-body-problem.jpg",
-      "rating": 1.5,
-      "reviewDate": "aug 17, 2019",
-      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
-      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
-      "id": "notes__three-body-problem"
-    },
-    {
       "type": "movie",
       "title": "Tokyo Story",
       "creator": "Yasujiro Ozu",
@@ -178,6 +154,30 @@
       "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
       "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
       "id": "notes__tokyo-story"
+    },
+    {
+      "type": "music",
+      "title": "Purple Mountains",
+      "creator": "Purple Mountains",
+      "publishDate": 2019,
+      "image": "purple-mountains.jpg",
+      "rating": 4,
+      "reviewDate": "Aug 17, 2019",
+      "contents": "",
+      "excerpt": "",
+      "id": "notes__purple-mountains"
+    },
+    {
+      "type": "book",
+      "title": "The Three-Body Problem",
+      "creator": "Cixin Liu",
+      "publishDate": 2013,
+      "image": "three-body-problem.jpg",
+      "rating": 1.5,
+      "reviewDate": "aug 17, 2019",
+      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
+      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
+      "id": "notes__three-body-problem"
     }
   ]
 }
