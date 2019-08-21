@@ -12,16 +12,16 @@
   },
   "data": [
     {
-      "type": "movie",
-      "title": "Cold War",
-      "creator": "Paweł Pawlikowski",
-      "publishDate": 2018,
-      "image": "cold-war.jpg",
-      "rating": 4.5,
-      "reviewDate": "January 21, 2019",
-      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
-      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
-      "id": "notes__cold-war"
+      "type": "book",
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
     },
     {
       "type": "movie",
@@ -37,18 +37,6 @@
     },
     {
       "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
-    },
-    {
-      "type": "book",
       "title": "Hatching Twitter",
       "creator": "Nick Bilton",
       "publishDate": 2013,
@@ -58,6 +46,42 @@
       "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
       "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
       "id": "notes__hatching-twitter"
+    },
+    {
+      "type": "movie",
+      "title": "Cold War",
+      "creator": "Paweł Pawlikowski",
+      "publishDate": 2018,
+      "image": "cold-war.jpg",
+      "rating": 4.5,
+      "reviewDate": "January 21, 2019",
+      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
+      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
+      "id": "notes__cold-war"
+    },
+    {
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 4,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
+    },
+    {
+      "type": "book",
+      "title": "Neither Wolf Nor Dog",
+      "creator": "Kent Nerburn",
+      "publishDate": 1994,
+      "image": "neither-wolf-nor-dog.jpg",
+      "rating": 4,
+      "reviewDate": "April 16, 2019",
+      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
+      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
+      "id": "notes__neither-wolf-nor-dog"
     },
     {
       "type": "movie",
@@ -72,28 +96,16 @@
       "id": "notes__isle-of-dogs"
     },
     {
-      "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
+      "type": "music",
+      "title": "Purple Mountains",
+      "creator": "Purple Mountains",
+      "publishDate": 2019,
+      "image": "purple-mountains.jpg",
       "rating": 4,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin, so far. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin, so far. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
-    },
-    {
-      "type": "book",
-      "title": "Neither Wolf Nor Dog",
-      "creator": "Kent Nerburn",
-      "publishDate": 1994,
-      "image": "neither-wolf-nor-dog.jpg",
-      "rating": 4,
-      "reviewDate": "April 16, 2019",
-      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
-      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
-      "id": "notes__neither-wolf-nor-dog"
+      "reviewDate": "Aug 17, 2019",
+      "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
+      "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
+      "id": "notes__purple-mountains"
     },
     {
       "type": "movie",
@@ -132,18 +144,6 @@
       "id": "notes__slacker"
     },
     {
-      "type": "music",
-      "title": "Purple Mountains",
-      "creator": "Purple Mountains",
-      "publishDate": 2019,
-      "image": "purple-mountains.jpg",
-      "rating": 4,
-      "reviewDate": "Aug 17, 2019",
-      "contents": "",
-      "excerpt": "",
-      "id": "notes__purple-mountains"
-    },
-    {
       "type": "movie",
       "title": "Stranger Than Paradise",
       "creator": "Jim Jarmusch",
@@ -154,6 +154,18 @@
       "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
       "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
       "id": "notes__stranger-than-paradise"
+    },
+    {
+      "type": "book",
+      "title": "The Three-Body Problem",
+      "creator": "Cixin Liu",
+      "publishDate": 2013,
+      "image": "three-body-problem.jpg",
+      "rating": 1.5,
+      "reviewDate": "aug 17, 2019",
+      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
+      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
+      "id": "notes__three-body-problem"
     },
     {
       "type": "book",
@@ -178,18 +190,6 @@
       "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
       "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
       "id": "notes__tokyo-story"
-    },
-    {
-      "type": "book",
-      "title": "The Three-Body Problem",
-      "creator": "Cixin Liu",
-      "publishDate": 2013,
-      "image": "three-body-problem.jpg",
-      "rating": 1.5,
-      "reviewDate": "aug 17, 2019",
-      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
-      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
-      "id": "notes__three-body-problem"
     }
   ]
 }

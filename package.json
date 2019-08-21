@@ -12,7 +12,6 @@
     "metalsmith-layouts": "^2.1.0",
     "metalsmith-markdown": "^0.2.2",
     "metalsmith-permalinks": "https://github.com/lokesh/metalsmith-permalinks.git",
-    "metalsmith-sass": "^1.5.1",
     "metalsmith-serve": "0.0.7",
     "metalsmith-watch": "^1.0.3",
     "node-fetch": "^2.2.0"

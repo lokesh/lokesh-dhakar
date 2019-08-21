@@ -6,7 +6,6 @@ var layouts = require('metalsmith-layouts');
 var markdown = require('metalsmith-markdown');
 var permalinks = require('metalsmith-permalinks');
 var collections = require('metalsmith-collections');
-var sass = require('metalsmith-sass');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
@@ -29,10 +28,6 @@ var siteBuild = metalsmith(__dirname)
   .destination('./dist')
 
   .clean(true) // Clean destination dir on build
-  .use(sass({
-    outputDir: 'css/',
-    outputStyle: 'expanded'
-  }))
 
   .use(collections({
      posts: {
