@@ -107,6 +107,10 @@ layout: page.njk
   --book-color: #F5914A;
   --movie-color: #3DAFD1;
   --music-color: #FB84E2;
+
+  --note-control-height-xs: 2.5em;
+  --note-control-height: 2.25em;
+
 }
 
 /* FILTERS ------------------------------------- */
@@ -129,7 +133,8 @@ layout: page.njk
 .note-filter-label {
   display: inline-flex;
   align-items: center;
-  padding: 0.2em 0.6em 0.3em;
+  padding: 0 0.6em 0;
+  height: var(--note-control-height-xs);
   margin-right: 0.25em;
   font-size: 0.8125rem;
   font-weight: var(--bold);
@@ -184,6 +189,10 @@ layout: page.njk
     display: flex;
     justify-content: space-between;
   }
+
+  .note-filter-label {
+    height: var(--note-control-height);
+  }
 }
 
 
@@ -204,7 +213,8 @@ layout: page.njk
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0.25em 1.6em 0.25em 0.6em;
+  padding: 0 1.6em 0 0.6em;
+  height: var(--note-control-height-xs);
   font-size: 0.8125rem;
   font-weight: var(--bold);  
   border-radius: var(--border-radius);
@@ -234,6 +244,10 @@ layout: page.njk
 @media (min-width: 800px) {
   .note-sort-label {
     display: inline;
+  }
+
+  .note-sort-select {
+    height: var(--note-control-height);
   }
 }
 

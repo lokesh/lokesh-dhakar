@@ -4,7 +4,7 @@ title: Digital Gold
 creator: Nathaniel Popper
 publishDate: 2016
 image: digital-gold.jpg
-rating: 4
+rating: 3.5
 reviewDate: Aug 20, 2019
 ---
 

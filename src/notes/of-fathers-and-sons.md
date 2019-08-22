@@ -4,7 +4,7 @@ title: Of Fathers And Sons
 creator: Talal Derki
 publishDate: 2017
 image: of-fathers-and-sons.jpg
-rating: 3.5
+rating: 4
 reviewDate: March 19, 2019
 ---
 This was eye-opening.

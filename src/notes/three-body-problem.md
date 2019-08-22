@@ -4,7 +4,7 @@ title: The Three-Body Problem
 creator: Cixin Liu
 publishDate: 2013
 image: three-body-problem.jpg
-rating: 1.5
+rating: 1
 reviewDate: aug 17, 2019
 ---
 

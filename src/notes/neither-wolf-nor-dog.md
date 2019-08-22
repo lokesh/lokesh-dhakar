@@ -4,7 +4,7 @@ title: Neither Wolf Nor Dog
 creator: Kent Nerburn
 publishDate: 1994
 image: neither-wolf-nor-dog.jpg
-rating: 4
+rating: 4.5
 reviewDate: April 16, 2019
 ---
 
