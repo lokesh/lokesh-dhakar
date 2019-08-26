@@ -11,7 +11,7 @@
 # CONFIG
 # ------
 
-folder="/Users/lokesh/git/lokesh-dhakar/src/media/inspiration"
+folder="/Users/lokesh/Projects/lokesh-dhakar/src/media/inspiration"
 
 # ---
 

@@ -45,6 +45,9 @@ npm run strava
 
 Run the fetch-vid shell script and specify the Youtube video id and the title you would
 like to show below the video thumb.
+
+Before running the script, check the requirements listed at the top of the file.
+
 ```
 ./fetch-vid.sh
 ```
