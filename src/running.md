@@ -264,6 +264,10 @@ var app = new Vue({
     return {
       runs: [],
       comments: {
+        2650727758:{
+          type: 'race',
+          text: 'Race • 2019 Bridge to Bridge 12k'
+        },
         1774076006: {
           type: 'achievement',
           text: 'First mile under 5:30'

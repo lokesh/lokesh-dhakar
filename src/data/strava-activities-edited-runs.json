@@ -1,5 +1,53 @@
 [
   {
+    "id": 2650727758,
+    "name": "2019 Bridge to Bridge 12k",
+    "distance": "7.5",
+    "distancePercent": 28.798174204961835,
+    "elevation": 80.05249599999999,
+    "pace": 6.584828673767958,
+    "paceFormatted": "6:35",
+    "date": "Aug 25",
+    "year": 2019,
+    "startDate": "2019-08-25T08:00:11Z"
+  },
+  {
+    "id": 2650483361,
+    "name": "Jog to Race",
+    "distance": "3.1",
+    "distancePercent": 11.726598891221375,
+    "elevation": 50.85302,
+    "pace": 8.164167153161113,
+    "paceFormatted": "8:09",
+    "date": "Aug 25",
+    "year": 2019,
+    "startDate": "2019-08-25T07:12:22Z"
+  },
+  {
+    "id": 2644498272,
+    "name": "Leg warmer",
+    "distance": "3.8",
+    "distancePercent": 14.50664120496183,
+    "elevation": 227.69029600000002,
+    "pace": 7.423992879962806,
+    "paceFormatted": "7:25",
+    "date": "Aug 23",
+    "year": 2019,
+    "startDate": "2019-08-23T07:53:37Z"
+  },
+  {
+    "id": 2638595849,
+    "name": "Morning Run",
+    "distance": "6.9",
+    "distancePercent": 26.430086634351145,
+    "elevation": 424.540696,
+    "pace": 11.182221151224926,
+    "paceFormatted": "11:10",
+    "date": "Aug 20",
+    "year": 2019,
+    "startDate": "2019-08-21T06:59:08Z"
+  },
+  {
     "id": 2627623218,
     "name": "GGP 7.5mi",
     "distance": "7.5",
