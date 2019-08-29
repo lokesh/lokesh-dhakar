@@ -2,7 +2,7 @@
 title: "Inspiration"
 date: 2018-10-03
 layout: page.njk
-fullWidth: true
+pageWidth: "full"
 ---
 
 <h1 class="page-title">Inspiration</h1>
