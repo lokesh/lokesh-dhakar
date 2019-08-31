@@ -36,6 +36,18 @@
       "id": "notes__blue-bottle"
     },
     {
+      "type": "movie",
+      "title": "Cold War",
+      "creator": "Paweł Pawlikowski",
+      "publishDate": 2018,
+      "image": "cold-war.jpg",
+      "rating": 4.5,
+      "reviewDate": "January 21, 2019",
+      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
+      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
+      "id": "notes__cold-war"
+    },
+    {
       "type": "book",
       "title": "Hatching Twitter",
       "creator": "Nick Bilton",
@@ -48,28 +60,16 @@
       "id": "notes__hatching-twitter"
     },
     {
-      "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3.5,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
-    },
-    {
       "type": "movie",
-      "title": "Cold War",
-      "creator": "Paweł Pawlikowski",
+      "title": "Isle of Dogs",
+      "creator": "Wes Anderson",
       "publishDate": 2018,
-      "image": "cold-war.jpg",
-      "rating": 4.5,
-      "reviewDate": "January 21, 2019",
-      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
-      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
-      "id": "notes__cold-war"
+      "image": "isle-of-dogs.jpg",
+      "rating": 3.5,
+      "reviewDate": "Feb 9, 2019",
+      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
+      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
+      "id": "notes__isle-of-dogs"
     },
     {
       "type": "book",
@@ -85,6 +85,30 @@
     },
     {
       "type": "movie",
+      "title": "American Factory",
+      "creator": "Steven Bognar & Julia Reichert",
+      "publishDate": 2019,
+      "image": "american-factory.jpg",
+      "rating": 3.5,
+      "reviewDate": "August 21, 2019",
+      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced docs I&#39;ve watched, I found it overly polished. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. My preference would have been for a more <em>Direct Cinema</em> approach. This fly-on-the-wall approach often does a better job capturing the ambiguity and nuances of these complex situations, but you do risk muddling your narrative.</p>\n",
+      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
+      "id": "notes__american-factory"
+    },
+    {
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3.5,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
+    },
+    {
+      "type": "movie",
       "title": "Of Fathers And Sons",
       "creator": "Talal Derki",
       "publishDate": 2017,
@@ -94,18 +118,6 @@
       "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
       "excerpt": "<p>This was eye-opening.</p>",
       "id": "notes__of-fathers-and-sons"
-    },
-    {
-      "type": "movie",
-      "title": "Isle of Dogs",
-      "creator": "Wes Anderson",
-      "publishDate": 2018,
-      "image": "isle-of-dogs.jpg",
-      "rating": 3.5,
-      "reviewDate": "Feb 9, 2019",
-      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
-      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
-      "id": "notes__isle-of-dogs"
     },
     {
       "type": "music",
@@ -120,16 +132,16 @@
       "id": "notes__purple-mountains"
     },
     {
-      "type": "book",
-      "title": "The Jungle",
-      "creator": "Upton Sinclair",
-      "publishDate": 1904,
-      "image": "the-jungle.jpg",
-      "rating": 5,
-      "reviewDate": "Dec 31, 2018",
-      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
-      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
-      "id": "notes__the-jungle"
+      "type": "movie",
+      "title": "Salad Days: A Decade Of Punk In Washington, DC",
+      "creator": "Scott Crawford",
+      "publishDate": 2015,
+      "image": "salad-days.jpg",
+      "rating": 1,
+      "reviewDate": "Nov 21, 2018",
+      "contents": "<p>A look at the people and the city from which which sprung out <a href=\"https://www.youtube.com/watch?v=SGJFWirQ3ks\">Fugazi</a>, <a href=\"https://www.youtube.com/watch?v=thnb3UlH2zE\">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin&#39; to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.</p>\n<p>Recommended for those who like punk rock and also like niche musical documentaries.</p>\n",
+      "excerpt": "<p>A look at the people and the city from which which sprung out <a href=\"https://www.youtube.com/watch?v=SGJFWirQ3ks\">Fugazi</a>, <a href=\"https://www.youtube.com/watch?v=thnb3UlH2zE\">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin&#39; to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.</p>",
+      "id": "notes__salad-days"
     },
     {
       "type": "movie",
@@ -145,15 +157,27 @@
     },
     {
       "type": "movie",
-      "title": "Salad Days: A Decade Of Punk In Washington, DC",
-      "creator": "Scott Crawford",
-      "publishDate": 2015,
-      "image": "salad-days.jpg",
-      "rating": 1,
-      "reviewDate": "Nov 21, 2018",
-      "contents": "<p>A look at the people and the city from which which sprung out <a href=\"https://www.youtube.com/watch?v=SGJFWirQ3ks\">Fugazi</a>, <a href=\"https://www.youtube.com/watch?v=thnb3UlH2zE\">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin&#39; to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.</p>\n<p>Recommended for those who like punk rock and also like niche musical documentaries.</p>\n",
-      "excerpt": "<p>A look at the people and the city from which which sprung out <a href=\"https://www.youtube.com/watch?v=SGJFWirQ3ks\">Fugazi</a>, <a href=\"https://www.youtube.com/watch?v=thnb3UlH2zE\">Bad Brains</a>, and many other influential hardcore/punk bands. And the record label in the middle of it all, Dischord Records, which is still kickin&#39; to this day. Along the way we learn about the origin of the straight edge movement and emo(core), both of which I was familiar with, but not their roots. Fun documentary, but a little long, even for someone who likes the music.</p>",
-      "id": "notes__salad-days"
+      "title": "Slacker",
+      "creator": "Richard Linklater",
+      "publishDate": 1990,
+      "image": "slacker.jpg",
+      "rating": 4.5,
+      "reviewDate": "Oct 4, 2018",
+      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
+      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
+      "id": "notes__slacker"
+    },
+    {
+      "type": "book",
+      "title": "The Jungle",
+      "creator": "Upton Sinclair",
+      "publishDate": 1904,
+      "image": "the-jungle.jpg",
+      "rating": 5,
+      "reviewDate": "Dec 31, 2018",
+      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
+      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
+      "id": "notes__the-jungle"
     },
     {
       "type": "book",
@@ -166,18 +190,6 @@
       "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
       "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
       "id": "notes__three-body-problem"
-    },
-    {
-      "type": "movie",
-      "title": "Slacker",
-      "creator": "Richard Linklater",
-      "publishDate": 1990,
-      "image": "slacker.jpg",
-      "rating": 4.5,
-      "reviewDate": "Oct 4, 2018",
-      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
-      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
-      "id": "notes__slacker"
     },
     {
       "type": "movie",
