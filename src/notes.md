@@ -488,8 +488,12 @@ Vue.component('note', {
         return 'Yesterday';
       } else if (diff < MS_IN_DAY * 7) {
         return 'This week';
+      } else if (diff < MS_IN_DAY * 14) {
+        return 'Last week';
       } else if (diff < MS_IN_DAY * 30) { 
         return 'This month';
+      } else if (diff < MS_IN_DAY * 60) { 
+        return 'Last month';
       } else if (diff < MS_IN_DAY * 180) {
         return `${Math.floor(diff / MS_IN_MONTH)} months ago`;
       } else {
