@@ -261,7 +261,6 @@ pageWidth: "narrow"
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
-  font-size: 0.9375rem;
 }
 
 .note::after {
