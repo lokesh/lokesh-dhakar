@@ -364,7 +364,7 @@ pageWidth: "narrow"
 }
 
 .note-title {
-  margin: 0 0 0.1em 0;
+  margin: 0 0 0.05em 0;
 }
 
 .note-title a {
@@ -398,8 +398,8 @@ pageWidth: "narrow"
   margin-bottom: 4px;
 }
 .note-rating svg {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 </style>

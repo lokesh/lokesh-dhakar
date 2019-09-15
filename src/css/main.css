@@ -171,6 +171,10 @@ p {
   hyphenate-limit-zone: 8%;
 }
 
+p:first-of-type {
+  margin-top: 0;
+}
+
 ul,
 ol {
   padding-left: 12px;
@@ -325,6 +329,7 @@ li > code {
 .page-subtitle,
 .post-subtitle {
   margin-top: 0.2em;
+  margin-left: -0.04em;
   text-transform: none;
   color: var(--muted-color);
 }
@@ -337,14 +342,17 @@ li > code {
 }
 
 /* Page ------------ */
+
 .page-title {
   margin-top: 0;
+  margin-left: -0.03em;
 }
 
 /* Posts ------------ */
 
 .post__title {
   margin-bottom: 0.1em;
+  margin-left: -0.03em;
 }
 
 .post-time {

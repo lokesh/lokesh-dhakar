@@ -13,18 +13,6 @@
   "data": [
     {
       "type": "movie",
-      "title": "American Factory",
-      "creator": "Steven Bognar & Julia Reichert",
-      "publishDate": 2019,
-      "image": "american-factory.jpg",
-      "rating": 3.5,
-      "reviewDate": "August 31, 2019",
-      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
-      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
-      "id": "notes__american-factory"
-    },
-    {
-      "type": "movie",
       "title": "Blade Runner",
       "creator": "Ridley Scott",
       "publishDate": 1982,
@@ -34,6 +22,18 @@
       "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
       "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
       "id": "notes__blade-runner"
+    },
+    {
+      "type": "movie",
+      "title": "American Factory",
+      "creator": "Steven Bognar & Julia Reichert",
+      "publishDate": 2019,
+      "image": "american-factory.jpg",
+      "rating": 3.5,
+      "reviewDate": "August 31, 2019",
+      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
+      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
+      "id": "notes__american-factory"
     },
     {
       "type": "book",
@@ -60,24 +60,12 @@
       "id": "notes__cold-war"
     },
     {
-      "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3.5,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
-    },
-    {
       "type": "movie",
       "title": "Isle of Dogs",
       "creator": "Wes Anderson",
       "publishDate": 2018,
       "image": "isle-of-dogs.jpg",
-      "rating": 3.5,
+      "rating": 4,
       "reviewDate": "Feb 9, 2019",
       "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
       "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
@@ -97,6 +85,18 @@
     },
     {
       "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3.5,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
+    },
+    {
+      "type": "book",
       "title": "Neither Wolf Nor Dog",
       "creator": "Kent Nerburn",
       "publishDate": 1994,
@@ -106,6 +106,18 @@
       "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
       "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
       "id": "notes__neither-wolf-nor-dog"
+    },
+    {
+      "type": "movie",
+      "title": "La Jetée",
+      "creator": "Chris Marker",
+      "publishDate": 1962,
+      "image": "la-jetee.jpg",
+      "rating": 4,
+      "reviewDate": "September 13, 2019",
+      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time in between for you to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
+      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time in between for you to fill in the gaps with your imagination. </p>",
+      "id": "notes__la-jetee"
     },
     {
       "type": "movie",
@@ -137,7 +149,7 @@
       "creator": "Purple Mountains",
       "publishDate": 2019,
       "image": "purple-mountains.jpg",
-      "rating": 4.5,
+      "rating": 5,
       "reviewDate": "Aug 17, 2019",
       "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
       "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
@@ -157,18 +169,6 @@
     },
     {
       "type": "movie",
-      "title": "Slacker",
-      "creator": "Richard Linklater",
-      "publishDate": 1990,
-      "image": "slacker.jpg",
-      "rating": 4.5,
-      "reviewDate": "Oct 4, 2018",
-      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
-      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
-      "id": "notes__slacker"
-    },
-    {
-      "type": "movie",
       "title": "Stranger Than Paradise",
       "creator": "Jim Jarmusch",
       "publishDate": 1984,
@@ -178,6 +178,18 @@
       "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
       "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
       "id": "notes__stranger-than-paradise"
+    },
+    {
+      "type": "movie",
+      "title": "Slacker",
+      "creator": "Richard Linklater",
+      "publishDate": 1990,
+      "image": "slacker.jpg",
+      "rating": 4.5,
+      "reviewDate": "Oct 4, 2018",
+      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
+      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
+      "id": "notes__slacker"
     },
     {
       "type": "book",
@@ -192,18 +204,6 @@
       "id": "notes__the-jungle"
     },
     {
-      "type": "book",
-      "title": "The Three-Body Problem",
-      "creator": "Cixin Liu",
-      "publishDate": 2013,
-      "image": "three-body-problem.jpg",
-      "rating": 1,
-      "reviewDate": "aug 17, 2019",
-      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
-      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
-      "id": "notes__three-body-problem"
-    },
-    {
       "type": "movie",
       "title": "Tokyo Story",
       "creator": "Yasujiro Ozu",
@@ -214,6 +214,18 @@
       "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
       "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
       "id": "notes__tokyo-story"
+    },
+    {
+      "type": "book",
+      "title": "The Three-Body Problem",
+      "creator": "Cixin Liu",
+      "publishDate": 2013,
+      "image": "three-body-problem.jpg",
+      "rating": 1,
+      "reviewDate": "aug 17, 2019",
+      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
+      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
+      "id": "notes__three-body-problem"
     }
   ]
 }

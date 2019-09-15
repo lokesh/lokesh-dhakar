@@ -4,7 +4,7 @@ title: Isle of Dogs
 creator: Wes Anderson
 publishDate: 2018
 image: isle-of-dogs.jpg
-rating: 3.5
+rating: 4
 reviewDate: Feb 9, 2019
 ---
 
