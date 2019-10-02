@@ -51,6 +51,6 @@ In the short term I'm not planning on doing any more work on the script. But if 
  [3]: http://dribbble.com/colors/
  [4]: https://github.com/lokesh/color-thief
 
-<link rel="stylesheet" href="/css/prism.css">
+<link rel="stylesheet" href="/css/prism-syntax-highlighting.css">
 
 <script src="/js/prism.min.js"></script>

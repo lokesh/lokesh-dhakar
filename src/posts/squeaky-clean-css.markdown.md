@@ -97,6 +97,6 @@ Quick HTML pointer. For div tags that stay open for a number of lines, add a sma
     &#x3C;p&#x3E;&#x3C;/p&#x3E;
 &#x3C;/div&#x3E;<!-- end #content--></code></pre>
 
-<link rel="stylesheet" href="/css/prism.css">
+<link rel="stylesheet" href="/css/prism-syntax-highlighting.css">
 
 <script src="/js/prism.min.js"></script>
