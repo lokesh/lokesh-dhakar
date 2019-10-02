@@ -38,7 +38,7 @@
   --gutter: 12px;
   --post-max-width: 60rem; /* 960px */
   --page-max-width: 60rem; /* 960px */
-  --text-max-width: 45rem; /* 720px */
+  --text-max-width: 40rem; /* 720px */
 }
 
 * {
@@ -186,7 +186,7 @@ ul {
 
 li {
   margin: 0 0 0.5em 1em;
-  line-height: 1.3em;
+  line-height: var(--line-height);
 }
 
 pre,
