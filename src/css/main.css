@@ -38,7 +38,7 @@
   --gutter: 12px;
   --post-max-width: 60rem; /* 960px */
   --page-max-width: 60rem; /* 960px */
-  --text-max-width: 40rem; /* 720px */
+  --text-max-width: 35rem;
 }
 
 * {
