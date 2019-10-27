@@ -9,35 +9,78 @@ STRAVA
  */
 console.log('🕐 [Strava] Refreshing data');
 
-const credentials = JSON.parse(fs.readFileSync(resolve(process.cwd(), '.private'), 'utf-8'));
+// Read credentials
+const credentialsFilePath = resolve(process.cwd(), '.private');
+const credentials = JSON.parse(fs.readFileSync(credentialsFilePath), 'utf-8');
+
+// Read existing activities
 const activitiesFilePath = resolve(process.cwd(), 'src/data/strava-activities.json');
 const editedRunsFilePath = resolve(process.cwd(), 'src/data/strava-activities-edited-runs.json');
-
-const accessToken = credentials.strava.accessToken;
 let activities = JSON.parse(fs.readFileSync(activitiesFilePath, 'utf-8'))
 
-let fetchPromise = fetch(`https://www.strava.com/api/v3/athlete/activities?per_page=200&access_token=${accessToken}`)
-  .then(res => res.json())
-  .then(json => {
-    // We fetch the last 200 activities from the Strava API. We then check our local activites data
-    // and see what the id is for the most recent acitivity we have already saved. We slice the new
-    // API data and just take the new activities that we don't have saved locally.
-    let overlapIndex = json.findIndex(activity => activity.id == activities[0].id);
-    let newActivities = json.slice(0, overlapIndex);
-    let updatedActivities= newActivities.concat(activities);
+// --------
 
-    // Update the raw activities json file
-    fs.writeFileSync(activitiesFilePath, JSON.stringify(updatedActivities, null, 2));
-    console.log('- [Strava] API data loaded and saved');
+async function refreshTokens() {
+  const URL = `https://www.strava.com/api/v3/oauth/token?client_id=${credentials.strava.client_id}&client_secret=${credentials.strava.client_secret}&grant_type=refresh_token&refresh_token=${credentials.strava.refresh_token}`;
+  const response = await fetch(URL, { method: 'POST' });
+  const data = await response.json()
+  return data;
+}
 
-    // Prep data for the blog post and save into a separate file.
-    const runs = updatedActivities.filter(activity => activity.type === 'Run');
-    const formattedRuns = formatRunData(runs);
-    fs.writeFileSync(editedRunsFilePath, JSON.stringify(formattedRuns, null, 2));
-    console.log('- [Strava] Edited Runs data saved');
-    console.log('✅ [Strava] Data refreshed');
+function saveTokens(credentials, newTokens) {
+  let newCredentials = {
+    ...credentials,
+    strava: {
+      ...credentials.strava,
+      ...newTokens,
+    },
+  };
+  fs.writeFileSync(credentialsFilePath, JSON.stringify(newCredentials, null, 2));
+}
+
+  // .then(data => console.log(data));
+
+
+async function main() {
+
+  // Auth tokens expire every 6 hours
+  // We use our previously received refresh token to get a new auth roken.
+  // https://developers.strava.com/docs/authentication/#refreshingexpiredaccesstokens
+  let newTokens = await refreshTokens();
+  saveTokens(credentials, newTokens);
+
+  fetchData(newTokens.access_token);
+}
+
+main();
+
+function fetchData(accessToken) {
+  return fetch('https://www.strava.com/api/v3/athlete/activities?per_page=200', {
+    headers: {
+      'Authorization': `Bearer ${accessToken}`,
+    },
   })
+    .then(res => res.json())
+    .then(json => {
+      // We fetch the last 200 activities from the Strava API. We then check our local activites data
+      // and see what the id is for the most recent acitivity we have already saved. We slice the new
+      // API data and just take the new activities that we don't have saved locally.
+      let overlapIndex = json.findIndex(activity => activity.id == activities[0].id);
+      let newActivities = json.slice(0, overlapIndex);
+      let updatedActivities= newActivities.concat(activities);
 
+      // Update the raw activities json file
+      fs.writeFileSync(activitiesFilePath, JSON.stringify(updatedActivities, null, 2));
+      console.log('- [Strava] API data loaded and saved');
+
+      // Prep data for the blog post and save into a separate file.
+      const runs = updatedActivities.filter(activity => activity.type === 'Run');
+      const formattedRuns = formatRunData(runs);
+      fs.writeFileSync(editedRunsFilePath, JSON.stringify(formattedRuns, null, 2));
+      console.log('- [Strava] Edited Runs data saved');
+      console.log('✅ [Strava] Data refreshed');
+    })
+}
 
 function formatRunData(runs) {
   let formattedRuns = [];
