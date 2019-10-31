@@ -13,18 +13,6 @@
   "data": [
     {
       "type": "movie",
-      "title": "Blade Runner",
-      "creator": "Ridley Scott",
-      "publishDate": 1982,
-      "image": "blade-runner.jpg",
-      "rating": 4,
-      "reviewDate": "Oct 19, 2018",
-      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
-      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
-      "id": "notes__blade-runner"
-    },
-    {
-      "type": "movie",
       "title": "American Factory",
       "creator": "Steven Bognar & Julia Reichert",
       "publishDate": 2019,
@@ -49,15 +37,15 @@
     },
     {
       "type": "movie",
-      "title": "Cold War",
-      "creator": "Paweł Pawlikowski",
-      "publishDate": 2018,
-      "image": "cold-war.jpg",
-      "rating": 4.5,
-      "reviewDate": "January 21, 2019",
-      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
-      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
-      "id": "notes__cold-war"
+      "title": "Blade Runner",
+      "creator": "Ridley Scott",
+      "publishDate": 1982,
+      "image": "blade-runner.jpg",
+      "rating": 4,
+      "reviewDate": "Oct 19, 2018",
+      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
+      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
+      "id": "notes__blade-runner"
     },
     {
       "type": "book",
@@ -72,6 +60,18 @@
       "id": "notes__digital-gold"
     },
     {
+      "type": "movie",
+      "title": "Cold War",
+      "creator": "Paweł Pawlikowski",
+      "publishDate": 2018,
+      "image": "cold-war.jpg",
+      "rating": 4.5,
+      "reviewDate": "January 21, 2019",
+      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
+      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
+      "id": "notes__cold-war"
+    },
+    {
       "type": "book",
       "title": "Hatching Twitter",
       "creator": "Nick Bilton",
@@ -82,18 +82,6 @@
       "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
       "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
       "id": "notes__hatching-twitter"
-    },
-    {
-      "type": "movie",
-      "title": "Isle of Dogs",
-      "creator": "Wes Anderson",
-      "publishDate": 2018,
-      "image": "isle-of-dogs.jpg",
-      "rating": 4,
-      "reviewDate": "Feb 9, 2019",
-      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
-      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
-      "id": "notes__isle-of-dogs"
     },
     {
       "type": "movie",
@@ -133,6 +121,42 @@
     },
     {
       "type": "movie",
+      "title": "Pather Panchali",
+      "creator": "Satyajit Ray",
+      "publishDate": 1955,
+      "image": "pather-panchali.jpg",
+      "rating": 3,
+      "reviewDate": "October 29, 2019",
+      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
+      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
+      "id": "notes__pather-panchali"
+    },
+    {
+      "type": "movie",
+      "title": "Isle of Dogs",
+      "creator": "Wes Anderson",
+      "publishDate": 2018,
+      "image": "isle-of-dogs.jpg",
+      "rating": 4,
+      "reviewDate": "Feb 9, 2019",
+      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
+      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
+      "id": "notes__isle-of-dogs"
+    },
+    {
+      "type": "music",
+      "title": "Purple Mountains",
+      "creator": "Purple Mountains",
+      "publishDate": 2019,
+      "image": "purple-mountains.jpg",
+      "rating": 4.5,
+      "reviewDate": "Aug 17, 2019",
+      "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
+      "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
+      "id": "notes__purple-mountains"
+    },
+    {
+      "type": "movie",
       "title": "Primary",
       "creator": "Robert Drew",
       "publishDate": 1960,
@@ -142,18 +166,6 @@
       "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
       "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
       "id": "notes__primary"
-    },
-    {
-      "type": "music",
-      "title": "Purple Mountains",
-      "creator": "Purple Mountains",
-      "publishDate": 2019,
-      "image": "purple-mountains.jpg",
-      "rating": 5,
-      "reviewDate": "Aug 17, 2019",
-      "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
-      "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
-      "id": "notes__purple-mountains"
     },
     {
       "type": "movie",
@@ -169,6 +181,18 @@
     },
     {
       "type": "movie",
+      "title": "Slacker",
+      "creator": "Richard Linklater",
+      "publishDate": 1990,
+      "image": "slacker.jpg",
+      "rating": 4.5,
+      "reviewDate": "Oct 4, 2018",
+      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
+      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
+      "id": "notes__slacker"
+    },
+    {
+      "type": "movie",
       "title": "Stranger Than Paradise",
       "creator": "Jim Jarmusch",
       "publishDate": 1984,
@@ -180,16 +204,16 @@
       "id": "notes__stranger-than-paradise"
     },
     {
-      "type": "movie",
-      "title": "Slacker",
-      "creator": "Richard Linklater",
-      "publishDate": 1990,
-      "image": "slacker.jpg",
-      "rating": 4.5,
-      "reviewDate": "Oct 4, 2018",
-      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
-      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
-      "id": "notes__slacker"
+      "type": "book",
+      "title": "The Three-Body Problem",
+      "creator": "Cixin Liu",
+      "publishDate": 2013,
+      "image": "three-body-problem.jpg",
+      "rating": 1,
+      "reviewDate": "aug 17, 2019",
+      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
+      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
+      "id": "notes__three-body-problem"
     },
     {
       "type": "book",
@@ -214,18 +238,6 @@
       "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
       "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
       "id": "notes__tokyo-story"
-    },
-    {
-      "type": "book",
-      "title": "The Three-Body Problem",
-      "creator": "Cixin Liu",
-      "publishDate": 2013,
-      "image": "three-body-problem.jpg",
-      "rating": 1,
-      "reviewDate": "aug 17, 2019",
-      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
-      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
-      "id": "notes__three-body-problem"
     }
   ]
 }
