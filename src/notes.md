@@ -24,7 +24,6 @@ layout: page.njk
   </symbol>
 </svg>
 
-
 <!-- NOTE TEMPLATE -->
 
 <template id="tpl-note">
@@ -383,6 +382,7 @@ layout: page.njk
 
 .note-body { 
   cursor: pointer;
+  font-size: 0.9375rem;
 }
 
 .note--open {
