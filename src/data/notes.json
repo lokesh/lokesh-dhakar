@@ -24,18 +24,6 @@
       "id": "notes__american-factory"
     },
     {
-      "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
-    },
-    {
       "type": "movie",
       "title": "Blade Runner",
       "creator": "Ridley Scott",
@@ -49,15 +37,15 @@
     },
     {
       "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3.5,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
     },
     {
       "type": "movie",
@@ -84,6 +72,30 @@
       "id": "notes__hatching-twitter"
     },
     {
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3.5,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
+    },
+    {
+      "type": "movie",
+      "title": "Isle of Dogs",
+      "creator": "Wes Anderson",
+      "publishDate": 2018,
+      "image": "isle-of-dogs.jpg",
+      "rating": 4,
+      "reviewDate": "Feb 9, 2019",
+      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
+      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
+      "id": "notes__isle-of-dogs"
+    },
+    {
       "type": "movie",
       "title": "La Jetée",
       "creator": "Chris Marker",
@@ -108,6 +120,18 @@
       "id": "notes__neither-wolf-nor-dog"
     },
     {
+      "type": "book",
+      "title": "Neuromancer",
+      "creator": "William Gibson",
+      "publishDate": 1984,
+      "image": "neuromancer.jpg",
+      "rating": 2,
+      "reviewDate": "Dec 27, 2019",
+      "contents": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&#39;t enjoy the reading experience.</p>\n<p>The problem for me was the style of the prose. The writing is frenetic and jumpy. I found it challenging to follow the plot as we bounced from scene to scene. It didn&#39;t help that the world, as conceptually interesting as it is, wasn&#39;t fleshed out. And lastly, and this one isn&#39;t the fault of Gibson, is that I listened to it as an audiobook. This made going back to &#39;re-read&#39; sections to get clarification tedius.</p>\n<p>I still love the genre and am excited to read more books that focus on the combination of &quot;high tech, low life&quot;.</p>\n",
+      "excerpt": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&#39;t enjoy the reading experience.</p>",
+      "id": "notes__neuromancer"
+    },
+    {
       "type": "movie",
       "title": "Of Fathers And Sons",
       "creator": "Talal Derki",
@@ -118,6 +142,30 @@
       "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
       "excerpt": "<p>This was eye-opening.</p>",
       "id": "notes__of-fathers-and-sons"
+    },
+    {
+      "type": "movie",
+      "title": "Okja",
+      "creator": "Bong Joon Ho",
+      "publishDate": 2017,
+      "image": "okja.jpg",
+      "rating": 4,
+      "reviewDate": "Dec 27, 2019",
+      "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
+      "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
+      "id": "notes__okja"
+    },
+    {
+      "type": "movie",
+      "title": "Primary",
+      "creator": "Robert Drew",
+      "publishDate": 1960,
+      "image": "primary.jpg",
+      "rating": 3.5,
+      "reviewDate": "Sept 1, 2019",
+      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
+      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
+      "id": "notes__primary"
     },
     {
       "type": "movie",
@@ -132,18 +180,6 @@
       "id": "notes__pather-panchali"
     },
     {
-      "type": "movie",
-      "title": "Isle of Dogs",
-      "creator": "Wes Anderson",
-      "publishDate": 2018,
-      "image": "isle-of-dogs.jpg",
-      "rating": 4,
-      "reviewDate": "Feb 9, 2019",
-      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
-      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
-      "id": "notes__isle-of-dogs"
-    },
-    {
       "type": "music",
       "title": "Purple Mountains",
       "creator": "Purple Mountains",
@@ -156,16 +192,16 @@
       "id": "notes__purple-mountains"
     },
     {
-      "type": "movie",
-      "title": "Primary",
-      "creator": "Robert Drew",
-      "publishDate": 1960,
-      "image": "primary.jpg",
-      "rating": 3.5,
-      "reviewDate": "Sept 1, 2019",
-      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
-      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
-      "id": "notes__primary"
+      "type": "book",
+      "title": "The Jungle",
+      "creator": "Upton Sinclair",
+      "publishDate": 1904,
+      "image": "the-jungle.jpg",
+      "rating": 5,
+      "reviewDate": "Dec 31, 2018",
+      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
+      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
+      "id": "notes__the-jungle"
     },
     {
       "type": "movie",
@@ -214,18 +250,6 @@
       "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
       "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
       "id": "notes__three-body-problem"
-    },
-    {
-      "type": "book",
-      "title": "The Jungle",
-      "creator": "Upton Sinclair",
-      "publishDate": 1904,
-      "image": "the-jungle.jpg",
-      "rating": 5,
-      "reviewDate": "Dec 31, 2018",
-      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
-      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
-      "id": "notes__the-jungle"
     },
     {
       "type": "movie",
