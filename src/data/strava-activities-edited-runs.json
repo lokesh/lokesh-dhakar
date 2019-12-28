@@ -1,5 +1,41 @@
 [
   {
+    "id": 2958598031,
+    "name": "8 miles through GGP at half-marathon pace",
+    "distance": "8.0",
+    "distancePercent": 30.668453482061064,
+    "elevation": 364.50132399999995,
+    "pace": 6.396905739691892,
+    "paceFormatted": "6:23",
+    "date": "Dec 26",
+    "year": 2019,
+    "startDate": "2019-12-26T13:02:25Z"
+  },
+  {
+    "id": 2950240183,
+    "name": "👑🦝 Hill St and Buena Vista East",
+    "distance": "8.8",
+    "distancePercent": 33.59198032061069,
+    "elevation": 1124.0157840000002,
+    "pace": 7.228264083187323,
+    "paceFormatted": "7:13",
+    "date": "Dec 22",
+    "year": 2019,
+    "startDate": "2019-12-22T13:40:26Z"
+  },
+  {
+    "id": 2945047402,
+    "name": "NPSF: Hill St and 21st repeats",
+    "distance": "5.0",
+    "distancePercent": 19.009209309923662,
+    "elevation": 1502.952804,
+    "pace": 10.835781773330924,
+    "paceFormatted": "10:50",
+    "date": "Dec 19",
+    "year": 2019,
+    "startDate": "2019-12-20T06:18:05Z"
+  },
+  {
     "id": 2935557216,
     "name": "Presidio to Fort Mason then Divis hill sprint",
     "distance": "9.5",
