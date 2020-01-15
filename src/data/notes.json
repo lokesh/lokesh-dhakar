@@ -61,18 +61,6 @@
     },
     {
       "type": "book",
-      "title": "Hatching Twitter",
-      "creator": "Nick Bilton",
-      "publishDate": 2013,
-      "image": "hatching-twitter.jpg",
-      "rating": 1.5,
-      "reviewDate": "Feb 15, 2019",
-      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
-      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
-      "id": "notes__hatching-twitter"
-    },
-    {
-      "type": "book",
       "title": "Digital Gold",
       "creator": "Nathaniel Popper",
       "publishDate": 2016,
@@ -82,6 +70,18 @@
       "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
       "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
       "id": "notes__digital-gold"
+    },
+    {
+      "type": "book",
+      "title": "Hatching Twitter",
+      "creator": "Nick Bilton",
+      "publishDate": 2013,
+      "image": "hatching-twitter.jpg",
+      "rating": 1.5,
+      "reviewDate": "Feb 15, 2019",
+      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
+      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
+      "id": "notes__hatching-twitter"
     },
     {
       "type": "movie",
@@ -106,6 +106,18 @@
       "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
       "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
       "id": "notes__la-jetee"
+    },
+    {
+      "type": "movie",
+      "title": "The Last Black Man in San Francisco",
+      "creator": "Joe Talbot",
+      "publishDate": 2019,
+      "image": "last-black-man-in-san-francisco.jpg",
+      "rating": 3.5,
+      "reviewDate": "Jan 13, 2020",
+      "contents": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly. This made it feel like a bit of a mish-mash. To me, the movie worked better as a mood piece, then a statement piece.</p>\n<p>But there is so much to love about this movie. Seeing SF from a different set of eyes was refreshing and welcome. In terms of the craft, the <a href=\"https://www.youtube.com/watch?v=9Oy_HiDFfVo\">opening scene</a> is an instant classic, the score and the re-envisioning of classic tunes is great, and the way it captures the SF cityscape is gorgeous and not like anything I&#39;ve seen before. It is a very impressive debut film, and I&#39;m excited to what Talbot and crew do next.</p>\n",
+      "excerpt": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly. This made it feel like a bit of a mish-mash. To me, the movie worked better as a mood piece, then a statement piece.</p>",
+      "id": "notes__last-black-man-in-san-francisco"
     },
     {
       "type": "book",
@@ -133,18 +145,6 @@
     },
     {
       "type": "movie",
-      "title": "Of Fathers And Sons",
-      "creator": "Talal Derki",
-      "publishDate": 2017,
-      "image": "of-fathers-and-sons.jpg",
-      "rating": 4,
-      "reviewDate": "March 19, 2019",
-      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
-      "excerpt": "<p>This was eye-opening.</p>",
-      "id": "notes__of-fathers-and-sons"
-    },
-    {
-      "type": "movie",
       "title": "Okja",
       "creator": "Bong Joon Ho",
       "publishDate": 2017,
@@ -157,15 +157,15 @@
     },
     {
       "type": "movie",
-      "title": "Primary",
-      "creator": "Robert Drew",
-      "publishDate": 1960,
-      "image": "primary.jpg",
-      "rating": 3.5,
-      "reviewDate": "Sept 1, 2019",
-      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
-      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
-      "id": "notes__primary"
+      "title": "Of Fathers And Sons",
+      "creator": "Talal Derki",
+      "publishDate": 2017,
+      "image": "of-fathers-and-sons.jpg",
+      "rating": 4,
+      "reviewDate": "March 19, 2019",
+      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
+      "excerpt": "<p>This was eye-opening.</p>",
+      "id": "notes__of-fathers-and-sons"
     },
     {
       "type": "movie",
@@ -180,6 +180,18 @@
       "id": "notes__pather-panchali"
     },
     {
+      "type": "movie",
+      "title": "Primary",
+      "creator": "Robert Drew",
+      "publishDate": 1960,
+      "image": "primary.jpg",
+      "rating": 3.5,
+      "reviewDate": "Sept 1, 2019",
+      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
+      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
+      "id": "notes__primary"
+    },
+    {
       "type": "music",
       "title": "Purple Mountains",
       "creator": "Purple Mountains",
@@ -190,18 +202,6 @@
       "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
       "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
       "id": "notes__purple-mountains"
-    },
-    {
-      "type": "book",
-      "title": "The Jungle",
-      "creator": "Upton Sinclair",
-      "publishDate": 1904,
-      "image": "the-jungle.jpg",
-      "rating": 5,
-      "reviewDate": "Dec 31, 2018",
-      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
-      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
-      "id": "notes__the-jungle"
     },
     {
       "type": "movie",
@@ -238,6 +238,18 @@
       "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
       "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
       "id": "notes__stranger-than-paradise"
+    },
+    {
+      "type": "book",
+      "title": "The Jungle",
+      "creator": "Upton Sinclair",
+      "publishDate": 1904,
+      "image": "the-jungle.jpg",
+      "rating": 5,
+      "reviewDate": "Dec 31, 2018",
+      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
+      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
+      "id": "notes__the-jungle"
     },
     {
       "type": "book",
