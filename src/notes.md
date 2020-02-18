@@ -148,6 +148,7 @@ layout: page.njk
   margin-right: 4px;
 }
 
+.note-filter--all:hover .note-filter-label,
 .note-filter--checked .note-filter-label {
   color: white;
   background: var(--color);
@@ -158,6 +159,7 @@ layout: page.njk
   border-color: var(--movie-color);
 }
 
+.note-filter--movie:hover .note-filter-label,
 .note-filter--movie.note-filter--checked .note-filter-label {
   color: white;
   background: var(--movie-color);
@@ -168,6 +170,7 @@ layout: page.njk
   border-color: var(--book-color);
 }
 
+.note-filter--book:hover .note-filter-label,
 .note-filter--book.note-filter--checked .note-filter-label {
   color: white;
   background: var(--book-color);
@@ -178,6 +181,7 @@ layout: page.njk
   border-color: var(--music-color);
 }
 
+.note-filter--music:hover .note-filter-label,
 .note-filter--music.note-filter--checked .note-filter-label {
   color: white;
   background: var(--music-color);
@@ -279,6 +283,21 @@ layout: page.njk
   display: none;
 }
 
+/*
+margin = img width + margin 
+On hover, we change the bg color of the excerpt. This left margin makes the
+container start to the right of the image. W/o it the container goes under
+the floated image.
+*/
+.note-excerpt {
+  margin-left: 7rem;
+}
+
+.note-excerpt:hover {
+  background-color: var(--hover-bg-color);
+  border-radius: var(--border-radius);
+}
+
 .note-excerpt p {
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -341,6 +360,11 @@ layout: page.njk
 
   .note-image {
     width: 8rem;
+  }
+
+  .note-excerpt {
+    /* Img width and margin */
+    margin-left: 9rem;
   }
 }
 
