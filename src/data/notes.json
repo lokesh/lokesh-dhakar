@@ -24,18 +24,6 @@
       "id": "notes__american-factory"
     },
     {
-      "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
-    },
-    {
       "type": "movie",
       "title": "Blade Runner",
       "creator": "Ridley Scott",
@@ -46,6 +34,18 @@
       "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
       "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
       "id": "notes__blade-runner"
+    },
+    {
+      "type": "book",
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
     },
     {
       "type": "movie",
@@ -60,16 +60,16 @@
       "id": "notes__cold-war"
     },
     {
-      "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3.5,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
+      "type": "movie",
+      "title": "Isle of Dogs",
+      "creator": "Wes Anderson",
+      "publishDate": 2018,
+      "image": "isle-of-dogs.jpg",
+      "rating": 4,
+      "reviewDate": "Feb 9, 2019",
+      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
+      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
+      "id": "notes__isle-of-dogs"
     },
     {
       "type": "book",
@@ -82,6 +82,30 @@
       "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
       "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
       "id": "notes__hatching-twitter"
+    },
+    {
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3.5,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
+    },
+    {
+      "type": "movie",
+      "title": "La Jetée",
+      "creator": "Chris Marker",
+      "publishDate": 1962,
+      "image": "la-jetee.jpg",
+      "rating": 4,
+      "reviewDate": "September 13, 2019",
+      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
+      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
+      "id": "notes__la-jetee"
     },
     {
       "type": "movie",
@@ -97,39 +121,15 @@
     },
     {
       "type": "movie",
-      "title": "Isle of Dogs",
-      "creator": "Wes Anderson",
-      "publishDate": 2018,
-      "image": "isle-of-dogs.jpg",
-      "rating": 4,
-      "reviewDate": "Feb 9, 2019",
-      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
-      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
-      "id": "notes__isle-of-dogs"
-    },
-    {
-      "type": "movie",
-      "title": "La Jetée",
-      "creator": "Chris Marker",
-      "publishDate": 1962,
-      "image": "la-jetee.jpg",
-      "rating": 4,
-      "reviewDate": "September 13, 2019",
-      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
-      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
-      "id": "notes__la-jetee"
-    },
-    {
-      "type": "book",
-      "title": "Neither Wolf Nor Dog",
-      "creator": "Kent Nerburn",
-      "publishDate": 1994,
-      "image": "neither-wolf-nor-dog.jpg",
-      "rating": 4.5,
-      "reviewDate": "April 16, 2019",
-      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
-      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
-      "id": "notes__neither-wolf-nor-dog"
+      "title": "Obey Giant",
+      "creator": "James Moll",
+      "publishDate": 2019,
+      "image": "obey-giant.jpg",
+      "rating": 1.5,
+      "reviewDate": "Mar 24, 2020",
+      "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
+      "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>",
+      "id": "notes__obey-giant"
     },
     {
       "type": "book",
@@ -144,16 +144,16 @@
       "id": "notes__neuromancer"
     },
     {
-      "type": "movie",
-      "title": "Of Fathers And Sons",
-      "creator": "Talal Derki",
-      "publishDate": 2017,
-      "image": "of-fathers-and-sons.jpg",
-      "rating": 4,
-      "reviewDate": "March 19, 2019",
-      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
-      "excerpt": "<p>This was eye-opening.</p>",
-      "id": "notes__of-fathers-and-sons"
+      "type": "book",
+      "title": "Neither Wolf Nor Dog",
+      "creator": "Kent Nerburn",
+      "publishDate": 1994,
+      "image": "neither-wolf-nor-dog.jpg",
+      "rating": 4.5,
+      "reviewDate": "April 16, 2019",
+      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
+      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
+      "id": "notes__neither-wolf-nor-dog"
     },
     {
       "type": "movie",
@@ -166,6 +166,18 @@
       "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
       "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
       "id": "notes__okja"
+    },
+    {
+      "type": "movie",
+      "title": "Of Fathers And Sons",
+      "creator": "Talal Derki",
+      "publishDate": 2017,
+      "image": "of-fathers-and-sons.jpg",
+      "rating": 4,
+      "reviewDate": "March 19, 2019",
+      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
+      "excerpt": "<p>This was eye-opening.</p>",
+      "id": "notes__of-fathers-and-sons"
     },
     {
       "type": "movie",
@@ -216,16 +228,16 @@
       "id": "notes__purple-mountains"
     },
     {
-      "type": "book",
-      "title": "Snow Crash",
-      "creator": "Neal Stephenson",
-      "publishDate": 1992,
-      "image": "snow-crash.jpg",
-      "rating": 3.5,
-      "reviewDate": "Feb 17, 2020",
-      "contents": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>\n<p><em>Snow Crash</em> was my intro into the cyberpunk genre and it&#39;s on the very short list of books I&#39;ve read more than twice. I love the world building; the sovereign zones run by big business franchises, the self-policing gated community &#39;burbclaves&#39;, the Second World-esque metaverse, and so much more. The set pieces are also fast-paced and a fun ride, especially the intially pizza delivery.</p>\n<p>But there are a few things that don&#39;t hold up as well. Neal Stephenson does this thing where he info dumps on a topic, and these excursions span many, many pages. In this case, we get an education on Sumerian myths and language. The problem is that these segments break up the flow of the story and cause a huge tonal shift. I found these sections tedius. Another issue with he book is the character YT&#39;s age, 15. It&#39;s problematic in many scenes.</p>\n<p>Overall, I did enjoy the book on this revisit. I&#39;d like to read other Stephenson books that take place in this or a similar world.</p>\n",
-      "excerpt": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>",
-      "id": "notes__snow-crash"
+      "type": "movie",
+      "title": "Slacker",
+      "creator": "Richard Linklater",
+      "publishDate": 1990,
+      "image": "slacker.jpg",
+      "rating": 4.5,
+      "reviewDate": "Oct 4, 2018",
+      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
+      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
+      "id": "notes__slacker"
     },
     {
       "type": "movie",
@@ -241,6 +253,30 @@
     },
     {
       "type": "book",
+      "title": "The Goldfinch",
+      "creator": "Donna Tartt",
+      "publishDate": 2013,
+      "image": "the-goldfinch.jpg",
+      "rating": 3,
+      "reviewDate": "Mar 24, 2020",
+      "contents": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>\n<p>The writing wasn&#39;t without flaw though. I had issue with the pacing and tonal shifts. They might have been done for effect, but they left me enjoying certain sections of the book, New York, much more than others, Las Vegas.</p>\n<p>I listened to the audiobook, which has excellent narration and is easy-to-follow. This is a perfect book to listen to.</p>\n<blockquote>\n<p>&quot;if you care for a thing enough, it takes on a life of its own, doesn&#39;t it? And isn&#39;t the whole point of things—beautiful things—that they connect you to some larger beauty? Those first images that crack your heart wide open and you spend the rest of your life chasing, or trying to recapture, in one way or another?”&quot; - Donna Tartt</p>\n</blockquote>\n",
+      "excerpt": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>",
+      "id": "notes__the-goldfinch"
+    },
+    {
+      "type": "book",
+      "title": "Snow Crash",
+      "creator": "Neal Stephenson",
+      "publishDate": 1992,
+      "image": "snow-crash.jpg",
+      "rating": 3.5,
+      "reviewDate": "Feb 17, 2020",
+      "contents": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>\n<p><em>Snow Crash</em> was my intro into the cyberpunk genre and it&#39;s on the very short list of books I&#39;ve read more than twice. I love the world building; the sovereign zones run by big business franchises, the self-policing gated community &#39;burbclaves&#39;, the Second World-esque metaverse, and so much more. The set pieces are also fast-paced and a fun ride, especially the intially pizza delivery.</p>\n<p>But there are a few things that don&#39;t hold up as well. Neal Stephenson does this thing where he info dumps on a topic, and these excursions span many, many pages. In this case, we get an education on Sumerian myths and language. The problem is that these segments break up the flow of the story and cause a huge tonal shift. I found these sections tedius. Another issue with he book is the character YT&#39;s age, 15. It&#39;s problematic in many scenes.</p>\n<p>Overall, I did enjoy the book on this revisit. I&#39;d like to read other Stephenson books that take place in this or a similar world.</p>\n",
+      "excerpt": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>",
+      "id": "notes__snow-crash"
+    },
+    {
+      "type": "book",
       "title": "The Jungle",
       "creator": "Upton Sinclair",
       "publishDate": 1904,
@@ -250,18 +286,6 @@
       "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
       "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
       "id": "notes__the-jungle"
-    },
-    {
-      "type": "movie",
-      "title": "Slacker",
-      "creator": "Richard Linklater",
-      "publishDate": 1990,
-      "image": "slacker.jpg",
-      "rating": 4.5,
-      "reviewDate": "Oct 4, 2018",
-      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
-      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
-      "id": "notes__slacker"
     },
     {
       "type": "book",
