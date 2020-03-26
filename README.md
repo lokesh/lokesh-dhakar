@@ -20,18 +20,20 @@ The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](http
 - Use Giphy to capture videos.
 - For the reading time, I am using [WordCounter's](https://wordcounter.net/) estimate and multiplying by 1.5 to account for code and examples.
 
-
 ## Adding a Note
 
-- Add markdown file to `src/notes`. 
+- Add markdown file to `src/notes`.
 - Add an image in `media/notes`. Check Amazon. The image should have a tall aspect ratio.
 - Using Jimp to reize the height to 480px and save as a jpeg w/65 quality. Run `node resize.js FILE_NAME` and it will get sized and placed into the media/notes folder.
 - `npm run notes` - This uses markdown-json to create a `notes.json` file from the markdown files in the `src/notes` folder. This JSON is read by the Vue app in `notes.md`.
 
 Icons for note types from Feather Icons.
 
-## Updating data used on pages and posts
+## Adding a Sketch
 
+Use dimensions that are multiples of 240. (480, 640, 960, 1280, 1440, etc)
+
+## Updating data used on pages and posts
 
 ### Update Running page data
 
@@ -40,7 +42,6 @@ Fetch the latest data from Strava and parse it.
 ```
 npm run strava
 ```
-
 
 ### Adding a video to Inspiration page
 
@@ -63,6 +64,7 @@ npm run dev  // Builds, sets up watchers, and serves at http://localhost:8080.
 each page. You can add to `base.njk`.
 
 **Templates.** Using [Nunjuks] for templating.
+
 - To add custom string formatters, edit the `engineOptions` object in `build.js`.
 
 ## Deploying

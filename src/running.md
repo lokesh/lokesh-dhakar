@@ -87,8 +87,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 - [Data fetching script](https://github.com/lokesh/lokesh-dhakar/blob/master/refresh-data.js#L8)
 - [Processed data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/strava-activities-edited-runs.json)
 
-
-
 <style>
 .page-title {
   margin-bottom: 4px;
@@ -349,4 +347,3 @@ var app = new Vue({
   }
 });
 </script>
-

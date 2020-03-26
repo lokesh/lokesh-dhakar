@@ -21,6 +21,7 @@
     "build": "node ./build.js",
     "deploy": "node ./deploy.js",
     "dev": "node ./build.js",
+    "watch": "node ./build.js",
     "strava": "node ./build/strava.js",
     "notes": "sh build/notes.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
