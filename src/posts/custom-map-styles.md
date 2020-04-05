@@ -295,6 +295,5 @@ let styledMapType = new google.maps.StyledMapType([
   map.mapTypes.set('styled_map', styledMapType);
   map.setMapTypeId('styled_map');
 };
-</script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMsqvZQt-8KPR4T6fKxqfZsHkV_RBFyH4&callback=initMap"></script>
+</script>
