@@ -41,7 +41,7 @@ layout: page.njk
     </div>
     <div v-if="contents" class="note-body" @click="open = true">
       <div v-if="open" v-html="contents"></div>
-      <div v-else v-html="excerpt" class="note-excerpt"></div>      
+      <div v-else v-html="excerpt" class="note-excerpt"></div>
     </div>
   </article>
 </template>
@@ -110,22 +110,27 @@ layout: page.njk
   --music-color: #FB84E2;
   --tv-color: #C6B848;
 
-  --note-control-height-xs: 2.5em;
-  --note-control-height: 2.25em;
+  --note-control-height-xs: 2.75em;
+  --note-control-height: 2.5em;
 
 }
 
 /* FILTERS ------------------------------------- */
 
 .note-controls {
+  font-family: var(--font-ui);
   padding-bottom: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--border-color-light);
 }
 
+.note-filters {
+  display: flex;
+  overflow-x: auto;
+}
+
 .note-filter {
-  display: inline-block;
-  margin-bottom: 8px;
+  margin: 0 4px 12px 0;
 }
 
 .note-filter-radio {
@@ -138,8 +143,8 @@ layout: page.njk
   padding: 0 0.6em 0;
   height: var(--note-control-height-xs);
   margin-right: 0.25em;
-  font-size: 0.8125rem;
-  font-weight: var(--bold);
+  font-size: 0.9375rem;
+  font-weight: var(--weight-bold);
   border-radius: var(--border-radius);
   border: 2px solid var(--color);
   cursor: pointer;
@@ -207,7 +212,12 @@ layout: page.njk
     justify-content: space-between;
   }
 
+  .note-filter {
+    margin: 0 2px 6px 0;
+  }
+
   .note-filter-label {
+    font-size: 0.8125rem;
     height: var(--note-control-height);
   }
 }
@@ -216,8 +226,7 @@ layout: page.njk
 /* SORT -----------------------------------------*/
 
 .note-sort {
-  font-size: 0.8125rem;
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
   color: var(--muted-color);
 }
 
@@ -232,8 +241,8 @@ layout: page.njk
   appearance: none;
   padding: 0 1.6em 0 0.6em;
   height: var(--note-control-height-xs);
-  font-size: 0.8125rem;
-  font-weight: var(--bold);  
+  font-size: 0.9375rem;
+  font-weight: var(--weight-bold);  
   border-radius: var(--border-radius);
   border: 2px solid var(--color);
   cursor: pointer;  
@@ -264,6 +273,7 @@ layout: page.njk
   }
 
   .note-sort-select {
+    font-size: 0.8125rem;
     height: var(--note-control-height);
   }
 }
@@ -274,8 +284,8 @@ layout: page.njk
   position: relative;
   overflow: hidden;
   max-height: 14rem;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--border-color-light);
 }
 
@@ -285,7 +295,7 @@ layout: page.njk
   background: linear-gradient( rgba(255, 255, 255, 0), var(--bg-color) 80%, var(--bg-color));
   bottom: 0;
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   pointer-events: none;
 }
 
@@ -320,7 +330,7 @@ the floated image.
 }
 
 .note-read-more {
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
 }
 
 .note a {
@@ -341,28 +351,33 @@ the floated image.
 
 .note-review-date {
   color: var(--muted-color);
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
   margin-bottom: 4px;
   font-size: 0.6875rem;
-  font-weight: var(--x-bold);
+  font-weight: var(--weight-x-bold);
   text-transform: uppercase;
 }
 
 .note-type {
   display: flex;
   float: right;
-  margin-left: 8px;
+  margin: 0 0 4px 8px;
   width: 28px;
   height: 28px;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: var(--border-radius);
   line-height: 24px;
   color: #fff;
   background-color: #7c72f5;
 }
 
 @media (min-width: 800px) {
+  .note {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .note-review-date {
     float: right;
     text-align: right;
@@ -399,6 +414,10 @@ the floated image.
   background-color: var(--music-color);
 }
 
+.note-type.note-type--tv {
+  background-color: var(--tv-color);
+}
+
 .note-title {
   margin: 0 0 0.05em 0;
 }
@@ -413,7 +432,7 @@ the floated image.
 
 .note-meta {
   font-size: 1rem;
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
   color: var(--muted-color);
   margin-bottom: 2px;
 }

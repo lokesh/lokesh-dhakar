@@ -137,7 +137,7 @@ pageWidth: "full"
 }
 
 .sort-options {
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
   margin-bottom: 2rem;
 }
 
@@ -145,7 +145,7 @@ pageWidth: "full"
   padding: 0.2em 0.6em 0.3em;
   margin: 0;
   font-size: 0.8125rem;
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
   border: 1px solid var(--color);
   border-radius: var(--border-radius);
   background-color: transparent;

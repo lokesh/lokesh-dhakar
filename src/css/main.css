@@ -1,3 +1,50 @@
+/*
+100 Thin (Hairline)
+200 Extra Light (Ultra Light)
+300 Light
+400 Normal (Regular)
+500 Medium
+600 Semi Bold (Demi Bold)
+700 Bold
+800 Extra Bold (Ultra Bold)
+900 Black (Heavy)
+950 Extra Black (Ultra Black)
+*/
+
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  src: url("/fonts/SpaceGrotesk-SemiBold.woff2") format('woff2')
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 600;
+  src: url('/fonts/SpaceGrotesk-Bold.woff2') format('woff2');
+}
+
+/*@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+/*@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+*/
+
 :root {
   --bg-color: #fff; /* prev: #f9f9f9 */
   --recessed-bg-color: #e3e3e3;
@@ -6,9 +53,7 @@
   --primary-color: #e66622;
   --muted-color: #999;
   --link-color: #05f;
-  --action-color: var(
-    --primary-color
-  ); /* For buttons and other non-link controls */
+  --action-color: var(--primary-color); /* For buttons and other non-link controls */
 
   /* Misc colors */
   --green: #58df82;
@@ -28,12 +73,14 @@
   --border-radius-xl: 12px;
 
   /* Typography */
-  --font: "IBM Plex Sans", sans-serif;
-  --font-heading: "IBM Plex Sans", sans-serif;
+  --font: "Inter", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-ui: "Space Grotesk", sans-serif;
+
   --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
-  --regular: 400;
-  --bold: 600;
-  --x-bold: 700;
+  --weight-regular: 400;
+  --weight-bold: 600;
+  --weight-x-bold: 700;
   --text-transform-heading: uppercase;
 
   /* Layout
@@ -56,13 +103,13 @@ button,
 select,
 textarea {
   font-family: var(--font);
-  font-weight: var(--regular);
+  font-weight: var(--weight-regular);
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
 }
 
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 @media (min-width: 1600px) {
@@ -105,7 +152,7 @@ h1,
 h2,
 h3 {
   font-family: var(--font-heading);
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
   letter-spacing: -0.01em;
   word-spacing: 0.01em;
 }
@@ -229,7 +276,8 @@ li > code {
   padding: 0.3em 0.5em 0.4em 0.5em;
   color: var(--muted-color);
   border-right: 1px solid var(--border-color-light);
-  font-weight: var(--bold);
+  font-family: var(--font-ui);
+  /*font-weight: var(--weight-bold);*/
   font-size: 0.85rem;
 }
 
@@ -399,5 +447,5 @@ li > code {
   border: 1px solid #ebe38f;
   padding: 1rem;
   border-radius: var(--border-radius-large);
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
 }

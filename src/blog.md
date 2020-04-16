@@ -24,13 +24,13 @@ layout: blog.njk
 .archive__title {
   flex: 1 1 auto;
   color: var(--color);
-  font-weight: var(--x-bold);
+  font-weight: var(--weight-x-bold);
 }
 
 .archive__date {
   flex: 0 0 7rem;
   text-align: right;
-  font-weight: var(--bold);
+  font-weight: var(--weight-bold);
   color: var(--muted-color);
 }
 </style>

@@ -101,7 +101,7 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
   margin-bottom: 0.5rem;
  /* Offset a bit to make it optically centered with the chart, excluding y-axis label column. */
   margin-left: 8px;
-  font-weight: var(--x-bold);
+  font-weight: var(--weight-x-bold);
   line-height: 1rem;
   text-transform: uppercase;
   text-align: center;
@@ -120,7 +120,7 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 }
 
 #overlay-group {
-  font-weight: var(--x-bold);
+  font-weight: var(--weight-x-bold);
   font-size: 0.625rem;
   text-transform: uppercase;
 }
@@ -180,7 +180,7 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 }
 
 .histomap-form-row-label {
-  font-weight: var(--x-bold);
+  font-weight: var(--weight-x-bold);
   flex: 0 0 6em;
 }
 </style>
