@@ -22,6 +22,7 @@ layout: page.njk
   </symbol>
   <symbol id="svg-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-music"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle>
   </symbol>
+  <symbol id="svg-tv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tv"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></symbol>
 </svg>
 
 <!-- NOTE TEMPLATE -->
@@ -69,6 +70,7 @@ layout: page.njk
       <div class="note-filters">
         <note-filter type="all" v-model="filter">All</note-filter>
         <note-filter type="movie" v-model="filter">Movies</note-filter>
+        <note-filter type="tv" v-model="filter">TV</note-filter>
         <note-filter type="book" v-model="filter">Books</note-filter>
         <note-filter type="music" v-model="filter">Music</note-filter>
       </div>
@@ -106,6 +108,7 @@ layout: page.njk
   --book-color: #F5914A;
   --movie-color: #3DAFD1;
   --music-color: #FB84E2;
+  --tv-color: #C6B848;
 
   --note-control-height-xs: 2.5em;
   --note-control-height: 2.25em;
@@ -163,6 +166,17 @@ layout: page.njk
 .note-filter--movie.note-filter--checked .note-filter-label {
   color: white;
   background: var(--movie-color);
+}
+
+.note-filter--tv .note-filter-label {
+  color: var(--tv-color);
+  border-color: var(--tv-color);
+}
+
+.note-filter--tv:hover .note-filter-label,
+.note-filter--tv.note-filter--checked .note-filter-label {
+  color: white;
+  background: var(--tv-color);
 }
 
 .note-filter--book .note-filter-label {
@@ -494,7 +508,7 @@ Vue.component('note', {
           return `Written by ${this.creator}`;
         break;
         case 'movie':
-        case 'tv show':
+        case 'tv':
           return `Directed by ${this.creator}`;
         break;
         case 'music':

@@ -1,11 +1,15 @@
 ---
 type: movie
 title: Minding the Gap
-creator: James Moll
-publishDate: 2019
-image: obey-giant.jpg
-rating: 1.5
-reviewDate: Mar 24, 2020
+creator: Bing Lu
+publishDate: 2018
+image: minding-the-gap.jpg
+rating: 4
+reviewDate: Apr 15, 2020
 ---
 
-Not necessarily a bad documentary, but one that plays it safe in it's structure and doesn't go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn't uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.
+An insightful, depressing, and powerful documentary that follows three close friends connected by skateboarding in the small city of Rockford, Illinois There is amazing flowy skate footage interspersed throughout the film, but the focus is on their lives outside of skateboarding as the grow into adults. The characters and subjects get dark, but the framing stays honest. 
+
+One of the three friends is also the director of the documentary. They all grew up together and he had been filming for years, and with his close relationship with the other two, we get an intimacy in the footage which is rare.
+
+The documentary provides a lot to think about. And with the town and attitudes mirroring much of what I saw growing up in Manchester, New Hampshire, gave me pause to reflect on my past.
