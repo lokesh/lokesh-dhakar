@@ -6,7 +6,7 @@ layout: page.njk
 
 <h1 class="page-title">Running</h1>
 
-<h2 class="page-subtitle">Tracking my progress towards Boston Marathon qualifying</h2>
+<h2 class="subtitle">Tracking my progress towards Boston Marathon qualifying</h2>
 
 In the chart below, you can see all my recent runs. The goal is to complete a marathon distance (26.2mi) run at a 7:15/mi pace.
 

@@ -6,7 +6,7 @@ sharing: true
 layout: post.njk
 ---
 
-<h2 class="page-subtitle">DC's bike lanes and routes drawn on a Google Map.</h2>
+<h2 class="subtitle">DC's bike lanes and routes drawn on a Google Map.</h2>
 
 <div class="notice">
   Update: This project is not live any more.

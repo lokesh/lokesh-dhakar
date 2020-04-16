@@ -7,7 +7,7 @@ pageWidth: "full"
 
 <h1 class="page-title">Inspiration</h1>
 
-<h2 class="page-subtitle">Videos of creatives at work</h2>
+<h2 class="subtitle">Videos of creatives at work</h2>
 
 <p style="display: none">With a focus on process, not backstory. Simple shooting and editing preferred.</p>
 
@@ -195,7 +195,7 @@ pageWidth: "full"
     font-size: 1.25rem;
   }
 
-  .page-subtitle {
+  .subtitle {
     margin-top: 4px;
     margin-bottom: 1px;
     font-size: 0.875rem;

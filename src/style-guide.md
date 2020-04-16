@@ -3,12 +3,29 @@ date: 2020-04-15
 layout: page.njk
 ---
 
+# Style guide
+
+## To-do
+
+- colors
+- Three diff widths
+- forms.css
+- dev-posts.css
+- How to handle image widths
+
+---
+
+
+## Color
+
 
 ---
 
 # H1 Typography
 
 Dicant lobortis at pro, at qui scaevola officiis. No ridens docendi theophrastus pro, cu quo cibo suavitate suscipiantur. Clita altera postea nec cu, in <a href="#">lobortis iracundia has</a>. An magna tempor facilisis eam, eum alia decore iudicabit id, eos ut detracto partiendo consetetur. Mazim ubique abhorreant no eam.
+
+<i>Redo link styling. Blue is harsh.</i>
 
 - Unordered list
 - Heading and UI font: Space Grotesk
@@ -59,7 +76,7 @@ Outputs
 
 ## Forms
 
-<i>TODO: Style form controls</i>
+<i>TODO: Style form controls. See forms.css. Continue to style classes only, giving freedom for one-off experiments?</i>
 
 <button>Button</button>  
 <input type="input" value="input" />  
@@ -102,7 +119,7 @@ Outputs
 
 
 <h1 class="post__title">H1 post_title Typography</h1>
-<h2 class="post-subtitle"><span class="post-time">9 min read</span> H2 post-subtitle Mel eu labitur deleniti iracundia, ad nam vocent cotidieque</h2>
+<h2 class="subtitle"><span class="post-time">9 min read</span> H2 subtitle Mel eu labitur deleniti iracundia, ad nam vocent cotidieque</h2>
 
 <p>Setting post__title on the H1 reducing the bottom margin and gives the large heading a small negative left margin to help it better align with the body text. <i>TODO: Make the left margins part of the headers styles</i>. Dicant lobortis at pro, at qui scaevola officiis. No ridens docendi theophrastus pro, cu quo cibo suavitate suscipiantur. Clita altera postea nec cu, in <a href="#">lobortis iracundia has</a>. An magna tempor facilisis eam, eum alia decore iudicabit id, eos ut detracto partiendo consetetur. Mazim ubique abhorreant no eam.</p>
 
@@ -135,7 +152,7 @@ Outputs
 
 
 <h1>H1 Narrow Post/Page</h1>
-<h2 class="post-subtitle">H2 Mel eu labitur deleniti iracundia, ad nam vocent cotidieque</h2>
+<h2 class="subtitle">H2 subtitle Mel eu labitur deleniti iracundia, ad nam vocent cotidieque</h2>
 
 <p>Dicant lobortis at pro, at qui scaevola officiis. No ridens docendi theophrastus pro, cu quo cibo suavitate suscipiantur. Clita altera postea nec cu, in <a href="#">lobortis iracundia has</a>. An magna tempor facilisis eam, eum alia decore iudicabit id, eos ut detracto partiendo consetetur. Mazim ubique abhorreant no eam.</p>
 
@@ -163,6 +180,8 @@ Outputs
 
   <p>Vim suas adhuc virtute at, fierent repudiandae te per. Et aeterno perpetua ullamcorper cum, eros referrentur et sit, nam an dicat suavitate.</p>
 </div>
+
+<link rel="stylesheet" href="/css/forms.css">
 
 <style>
 i {

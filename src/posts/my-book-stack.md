@@ -4,7 +4,7 @@ date: 2007-11-08
 comments: true
 layout: post.njk
 ---
-<h2 class="post-subtitle">A list of the books I'm currently reading</h2>
+<h2 class="subtitle">A list of the books I'm currently reading</h2>
 
 <div class="figure">
   <img src="/media/posts/my-book-stack/bookstack.jpg" alt="a pile of six books on a desk" title="bookstack" />

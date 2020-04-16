@@ -5,7 +5,7 @@ comments: true
 layout: post.njk
 highlight: true
 ---
-<h2 class="post-subtitle">Side-by-side diagrams of a few common espresso drinks</h2>
+<h2 class="subtitle">Side-by-side diagrams of a few common espresso drinks</h2>
 
 I'm new to the world of fancy coffee drinks. With the vast number of ordering options and new words with accented characters to pronounce the coffee shop ordering experience can be intimidating. I've created a few small illustrations to help myself and others wrap their head around some of the small differences.
 

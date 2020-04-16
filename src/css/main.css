@@ -1,27 +1,3 @@
-/*
-100 Thin (Hairline)
-200 Extra Light (Ultra Light)
-300 Light
-400 Normal (Regular)
-500 Medium
-600 Semi Bold (Demi Bold)
-700 Bold
-800 Extra Bold (Ultra Bold)
-900 Black (Heavy)
-950 Extra Black (Ultra Black)
-*/
-
-@font-face {
-  font-family: "Space Grotesk";
-  font-weight: 400;
-  src: url("/fonts/SpaceGrotesk-SemiBold.woff2") format('woff2')
-}
-
-@font-face {
-  font-family: 'Space Grotesk';
-  font-weight: 600;
-  src: url('/fonts/SpaceGrotesk-Bold.woff2') format('woff2');
-}
 
 :root {
   --bg-color: #fff; /* prev: #f9f9f9 */
@@ -59,7 +35,6 @@
   --weight-regular: 400;
   --weight-bold: 600;
   --weight-x-bold: 700;
-  --text-transform-heading: uppercase;
 
   /* Layout
      All px estimates of rem values assume 16px font-size.
@@ -70,6 +45,36 @@
   --page-max-width: 60rem; /* 960px */
   --text-max-width: 35rem;
 }
+
+/* FONTS -------------------------------------------------------------------- */
+
+/*
+100 Thin (Hairline)
+200 Extra Light (Ultra Light)
+300 Light
+400 Normal (Regular)
+500 Medium
+600 Semi Bold (Demi Bold)
+700 Bold
+800 Extra Bold (Ultra Bold)
+900 Black (Heavy)
+950 Extra Black (Ultra Black)
+*/
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  src: url("/fonts/SpaceGrotesk-SemiBold.woff2") format('woff2')
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 600;
+  src: url('/fonts/SpaceGrotesk-Bold.woff2') format('woff2');
+}
+
+
+/* BASE -------------------------------------------------------------------- */
 
 * {
   box-sizing: border-box;
@@ -128,15 +133,21 @@ h3 {
 }
 
 h1 {
+  margin: 8px 0 20px -0.05em;
   font-size: 3.5rem;
-  margin-top: 8px;
-  margin-bottom: 20px;
   line-height: 1em;
 }
 
 h2 {
+  margin-left: -0.03em;
   font-size: 1.5rem;
   line-height: 1.2em;
+}
+
+/* Used when h2 directly follows h1 */
+h2.subtitle {
+  margin-top: 0;
+  color: var(--muted-color);
 }
 
 h3 {
@@ -333,13 +344,6 @@ li > code {
 .post.post--full-width,
 .page.page--full-width {
   max-width: none;
-}
-
-.page-subtitle,
-.post-subtitle {
-  margin-top: 0.2em;
-  margin-left: -0.04em;
-  color: var(--muted-color);
 }
 
 @media (min-width: 800px) {
