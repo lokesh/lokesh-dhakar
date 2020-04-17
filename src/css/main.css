@@ -178,7 +178,6 @@ h3 {
 
 a {
   text-decoration: none;
-  padding: 0 5px;
   color: var(--color);
   background-color: var(--link-bg-color);
   border-radius: var(--border-radius-sm);
@@ -193,6 +192,12 @@ a:hover {
   background-color: var(--link-bg-hover-color);
   text-decoration: none;
 }
+
+p a,
+li a {
+  padding: 0 5px;
+}
+
 
 a.reset {
   background-color: transparent;
