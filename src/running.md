@@ -47,7 +47,7 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
         </div>
         <div class="run">
           <div class="run-name">
-            <a :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
+            <a class="reset" :href="`//strava.com/activities/${run.id}`">{{ run.date }} • {{ run.name }}</a>
           </div>
           <div class="run-metrics">
             {{ run.paceFormatted }}/mi • {{ run.distance }}mi
@@ -204,10 +204,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   font-weight: var(--weight-bold);
   margin-bottom: 12px;
   border-radius: var(--border-radius) 0 0 var(--border-radius);
-}
-
-.run a {
-  color: #000;
 }
 
 .run-name {
