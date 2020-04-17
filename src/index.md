@@ -10,10 +10,3 @@ I work on the Design Engineering team at [Square](//square.com) in San Francisco
 I created the original [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) script many years ago. More recently I created [Color Thief](http://lokeshdhakar.com/projects/color-thief/). See all my open source projects on [Github](https://github.com/lokesh).
 
 I take photos on [Instagram](https://instagram.com/lokesh), post designs on [Dribbble](https://dribbble.com/lokesh), and track my runs and bike rides on [Strava](https://www.strava.com/athletes/1136437).
-
-<style>
-.page {
-  max-width: var(--text-max-width);
-}
-</style>
-

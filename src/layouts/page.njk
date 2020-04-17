@@ -1,10 +1,5 @@
 {% extends 'base.njk' %}
 
 {% block main %}
-  <div class="page
-    {% if pageWidth == "full" %}page--full-width{% endif %}
-    {% if pageWidth == "narrow" %}page--narrow{% endif %}
-  ">
-    {{ contents | safe }}
-  </div>
+  {{ contents | safe }}
 {% endblock %}

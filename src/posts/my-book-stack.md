@@ -6,9 +6,9 @@ layout: post.njk
 ---
 <h2 class="subtitle">A list of the books I'm currently reading</h2>
 
-<div class="figure">
+<figure class="border">
   <img src="/media/posts/my-book-stack/bookstack.jpg" alt="a pile of six books on a desk" title="bookstack" />
-</div>
+</figure>
 
 *   [Homicide][1] *by David Simon*
 *   [How to Conquer The New York Times Crossword Puzzle][2] *by Amy Reynaldo*

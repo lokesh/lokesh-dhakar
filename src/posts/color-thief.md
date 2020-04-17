@@ -6,11 +6,11 @@ layout: post.njk
 ---
 Ever wanted to grab the dominant color or color palette from an image? Probably not. But now you can! Take a look at the <a href="http://lokeshdhakar.com/projects/color-thief" class="loadPageInline">Color Thief Demo Page</a> to see it in action.
 
-<div class="figure">
+<figure>
   <a href="http://lokeshdhakar.com/projects/color-thief/">
     <img src="/media/posts/color-thief/color-thief-pixels.png" alt="pixelated image" title="color thief example" />
   </a>
-</div>
+</figure>
 
 ## Usecase #1: Color search
 
@@ -25,9 +25,9 @@ With this script you can build a UI that adapts to the colors of an image. For e
 
 A recent example of a color adapting UI is seen on Google Chrome's new home tab. The dominant color of the favicon is used as the bottom border color on the screenshot:
 
-<div class="figure">
-  <img style="max-width: 665px" src="/media/posts/color-thief/chrome-home-tab.png" alt="size screenshots of websites with favicons on top and bottom borders colored with the favicon dominant color" title="chrome_home_tab" />
-</div>
+<figure>
+  <img src="/media/posts/color-thief/chrome-home-tab.png" alt="size screenshots of websites with favicons on top and bottom borders colored with the favicon dominant color" title="chrome_home_tab" />
+</figure>
 
 ## Usage
 
@@ -35,7 +35,9 @@ Include jquery, quantize.js, and color-thief.js on your page. Using the script i
 
 <pre><code class="prism language-js line-numbers">myImage = $('#myImage');
 dominantColor = getDominantColor(myImage);
-paletteArray = createPalette(myImage, 10); // 2nd argument sets # of colors in palette
+
+// 2nd argument sets num of colors in palette
+paletteArray = createPalette(myImage, 10); 
 </code></pre>
 
 Grab the code and read more on usage on [Github][4]. Dig through the code as well.

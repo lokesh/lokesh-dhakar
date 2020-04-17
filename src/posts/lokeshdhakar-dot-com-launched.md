@@ -7,9 +7,9 @@ layout: post.njk
 ---
 <h2 class="subtitle">I'm consolidating my blog, projects, and other 'internet things' to this new domain.</h2>
 
-<div class="figure">
+<figure class="border original-width">
   [<img src="/media/posts/lokeshdhakar-dot-com-launched/huddletogether_screenshot.png" alt="LokeshDhakar.com and HuddleTogether.com screenshots" class="diagram-alt" />][1]
-</div>
+</figure>
 
 The biggest and most delicate item, the blog, has been moved here from [huddletogether.com][1]. Over the next week I will be moving the rest of the content and adding some nice new things.
 

@@ -6,6 +6,6 @@ layout: post.njk
 ---
 Once in a while I will jump off the computer and paint or craft something up. Here is something I finished last night.
 
-<div class="figure">
+<figure>
   <img src="/media/posts/computer-break/water_drops_big.jpg" alt="water drops painting" />
-</div>
+</figure>

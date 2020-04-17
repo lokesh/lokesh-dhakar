@@ -18,7 +18,7 @@ Inspired by the [Apps for Democracy][2] contest which encouraged developers to b
  [2]: http://www.appsfordemocracy.org/
  [3]: http://data.octo.dc.gov/
 
-<figure class="figure">
+<figure class="border">
   <img src="/media/posts/biking-dc-mashup/biking-dc-map.png" />
 </figure>
 

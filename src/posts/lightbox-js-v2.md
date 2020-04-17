@@ -5,7 +5,9 @@ comments: true
 layout: post.njk
 ---
 
-## <a href="http://www.lokeshdhakar.com/projects/lightbox2/">Lightbox JS v2.0</a> - Go check it out!
+<h2 class="subtitle">
+  <a href="http://www.lokeshdhakar.com/projects/lightbox2/">Lightbox JS v2.0</a> - Go check it out!
+</h2>
 
 Use the comments on this entry to post and discuss bugs, questions, and troubleshoot the script. I'll be in and out of here.
 

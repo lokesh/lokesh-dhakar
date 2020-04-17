@@ -1,4 +1,4 @@
-<!doctype html lang="en">
+<!DOCTYPE html lang="en">
 <html>
   <head>
     <meta charset="utf-8">
@@ -31,10 +31,11 @@
       </div>
     </nav>
 
-    {% block main %}
-      {{ contents | safe }}
-    {% endblock %}
-
+    <div class="page {% if pageWidth == "full" %}page--full-width{% endif %}">
+      {% block main %}
+        {{ contents | safe }}
+      {% endblock %}
+    </div>
 
     <script src="/js/activate-email-links.js"></script>
 

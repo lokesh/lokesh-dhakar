@@ -17,13 +17,6 @@ highlight: true
   margin: 0 0 8px 8px;
 }
 
-@media (min-width: 800px) {
-  .intro-illustration {
-    position: absolute;
-    left: calc(var(--text-max-width) + 48px);
-  }
-}
-
 .pitch {
   display: flex;
   max-width: var(--text-max-width);

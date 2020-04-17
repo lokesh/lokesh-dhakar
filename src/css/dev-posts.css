@@ -7,27 +7,27 @@
 
 /* FIGURE ------------------------------------ */
 
-.figure {
+/*.figure {
   display: inline-block;
 }
-
-.figure img {
+*/
+/*.figure img {
   margin-bottom: 0;
   border: 1px solid var(--border-color-light);
 }
-
-.figure.no-border img {
+*/
+/*.figure.no-border img {
   border: 0;
-}
-
+}*/
+/*
 .figure.max-width img {
   max-width: var(--text-max-width);
 }
-
-.figure__video video {
+*/
+/*.figure__video video {
   border: 1px solid var(--border-color-light);
   border-radius: var(--border-radius-xl);
-}
+}*/
 
 
 /* CANVAS ------------------------------------ */

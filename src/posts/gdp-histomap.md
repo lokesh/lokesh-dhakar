@@ -38,8 +38,6 @@ layout: post.njk
   </div>
 </div>
 
-</div>
-
 
 <h2 class="histomap-title">
   <span class="histomap-title-line-1">200 Years of Economic History</span><br>
@@ -97,6 +95,10 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 <link rel="stylesheet" href="/css/forms.css">
 
 <style>
+.col--720 {
+/*  max-width: 720px;*/
+}
+
 .histomap-title {
   margin-bottom: 0.5rem;
  /* Offset a bit to make it optically centered with the chart, excluding y-axis label column. */

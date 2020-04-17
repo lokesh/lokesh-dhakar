@@ -1,12 +1,17 @@
 
 :root {
+
+
   --bg-color: #fff; /* prev: #f9f9f9 */
   --recessed-bg-color: #e3e3e3;
   --hover-bg-color: #e9e9e9;
-  --color: #000;
+  --color: #333;
   --primary-color: #e66622;
   --muted-color: #999;
-  --link-color: #05f;
+  --link-color: #55A3CA;
+  /*  */
+  --link-bg-color: #F5Eabc;
+  --link-bg-hover-color: #e5daac;
   --action-color: var(--primary-color); /* For buttons and other non-link controls */
 
   /* Misc colors */
@@ -22,9 +27,10 @@
   --border-color: #000;
   --border-color-light: #ccc; /* Used for inline content  */
 
-  --border-radius: 6px;
-  --border-radius-large: 8px;
-  --border-radius-xl: 12px;
+  --border-radius-sm: 3px;
+  --border-radius: 4px;
+  --border-radius-lg: 6px;
+  --border-radius-xl: 6px;
 
   /* Typography */
   --font: "Inter", sans-serif;
@@ -36,14 +42,15 @@
   --weight-bold: 600;
   --weight-x-bold: 700;
 
-  /* Layout
-     All px estimates of rem values assume 16px font-size.
+  /*
+    Layout
+
+    All px estimates of rem values assume 16px font-size.
   */
   --nav-width: 8.75rem; /* 140px */
   --gutter: 12px;
-  --post-max-width: 60rem; /* 960px */
-  --page-max-width: 60rem; /* 960px */
-  --text-max-width: 35rem;
+  --page-max-width: 40rem;
+  /*--text-max-width: 35rem;*/
 }
 
 /* FONTS -------------------------------------------------------------------- */
@@ -113,7 +120,7 @@ img {
 }
 
 figure {
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 
 hr {
@@ -220,7 +227,7 @@ code {
 pre {
   overflow: auto;
   padding: 16px var(--gutter);
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-lg);
   font-size: 0.8125rem;
   line-height: 1.6em;
   background-color: #eee;
@@ -317,96 +324,104 @@ li > code {
   }
 }
 
-/* Posts & Pages ------------ */
+/* Page layout ------------ */
 
-.post,
 .page {
   position: relative;
+  max-width: var(--page-max-width);
   margin-top: 24px;
   margin-bottom: 64px;
   padding-left: var(--gutter);
   padding-right: var(--gutter);
 }
 
-.post {
-  max-width: var(--post-max-width);
-}
-
-.page {
-  max-width: var(--page-max-width);
-}
-
-.post.post--narrow,
-.page.page--narrow {
-  max-width: var(--text-max-width);
-}
-
-.post.post--full-width,
 .page.page--full-width {
   max-width: none;
 }
 
 @media (min-width: 800px) {
-  .post,
   .page {
     margin-left: var(--nav-width);
   }
 }
 
-/* Posts ------------ */
 
-.post-time {
-  color: var(--primary-color);
+/* Page & Post content ---------- */
+
+.page p a:empty {
+  display: none;
 }
+
+.page p a,
+.page ul a,
+.page ol a {
+  padding: 0 5px;
+  color: var(--color);
+  background-color: var(--link-bg-color);
+  border-radius: var(--border-radius-sm);
+  text-decoration: none;
+  /* If link wraps to new line, have border radius close and restart */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.page p a:hover,
+.page ul a:hover,
+.page ol a:hover {
+  background-color: var(--link-bg-hover-color);
+  text-decoration: none;
+}
+
+/* Posts ------------ */
 
 .post-time::after {
   display: inline;
   content: ". ";
 }
 
-.post__content > p,
-.post__content > h2,
-.post__content > h3,
-.post__content > ul,
-.post__content > ol,
-.post__content > hr {
-  max-width: var(--text-max-width);
+figure img,
+figure video {
+  width: calc(100% + var(--gutter) * 2);
+  margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1);
+  border-radius: 0;
 }
 
-.post__content > .col {
-  max-width: var(--text-max-width);
+figure.border img,
+figure.border video {
+    border: 1px solid var(--border-color-light);
+    border-width: 1px 0;
 }
 
-.col--720 {
-  max-width: 720px;
-}
 
-.col--960 {
-  max-width: 960px;
-}
+@media (min-width: 800px) {
+  figure img,
+  figure video {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: var(--border-radius-lg);
+  }
 
-.figure {
-  border-radius: var(--border-radius-xl);
-}
+  figure.original-width img {
+    width: auto;
+    /* Some fuzzy math but this prevents xlarge images from extending past
+    viewport's right edge. */
+    max-width: calc(100vw - var(--nav-width) - 100px);
+  }
 
-.figure img {
-  width: 100%;
-  max-width: var(--post-max-width);
-  margin-bottom: 8px;
-  border-radius: var(--border-radius-xl);
-}
-
-.figure.full-width img {
-  width: 100%;
+  figure.border img,
+  figure.border video {
+    border-width: 1px;
+  }
 }
 
 /* Notice ------------ */
 .notice {
   margin-top: 1rem;
   margin-bottom: 2rem;
-  background: #fdf5cf;
-  border: 1px solid #ebe38f;
-  padding: 1rem;
-  border-radius: var(--border-radius-large);
+  padding: 1em;
+  background: var(--recessed-bg-color);
+  border-radius: var(--border-radius-lg);
   font-weight: var(--weight-bold);
 }

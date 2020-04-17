@@ -8,7 +8,7 @@ layout: post.njk
 
 More importantly, I'm back from my blogging hiatus. I'm hoping to average a few posts a month. Sounds reasonable. To start, here are the books on my shelf right now, all recommended:
 
-<figure class="figure">
+<figure class="border">
   <img src="/media/posts/new-book-stack/bookstack2.jpg" alt="list of four books stacked" title="bookstack2" />
 </figure>
 

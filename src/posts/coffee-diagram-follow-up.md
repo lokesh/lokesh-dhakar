@@ -13,17 +13,21 @@ layout: post.njk
 
 If you're simply looking to print up a copy to fold up in your wallet, I've created a PDF file which contains all nine images.
 
-<a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.pdf">
-  <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-pdf-icon.png" alt="thumbnail of coffee drinks pdf"  />
-</a>
+<figure class="original-width">
+  <a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.pdf">
+    <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-pdf-icon.png" alt="thumbnail of coffee drinks pdf"  />
+  </a>
+</figure>
 
 ### Source file
 
 If you'd like to extend or localize the illustrations you can grab the Adobe Illustrator source file. You can also open up this file in Adobe Photoshop, without the vector data, as a bitmap..
 
-<a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.ai">
-  <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-ai-icon.png" alt="thumbnail of coffee drinks pdf" />
-</a>
+<figure class="original-width">
+  <a href="/media/posts/coffee-diagram-follow-up/9_cups_of_coffee_diagram.ai">
+    <img src="/media/posts/coffee-diagram-follow-up/coffee-drinks-ai-icon.png" alt="thumbnail of coffee drinks pdf" />
+  </a>
+</figure>
 
 ### License information
 

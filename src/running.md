@@ -115,7 +115,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-lg);
 }
 
 .runs {
@@ -237,7 +237,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-large) 0 0 var(--border-radius-large);
+  border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
 }
 </style>
 

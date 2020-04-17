@@ -101,7 +101,7 @@ pageWidth: "full"
   display: none;
   width: var(--vid-width);
   height: var(--vid-height);
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-lg);
   background-size: cover;
 }
 
@@ -229,7 +229,7 @@ pageWidth: "full"
   .thumb {
     width: var(--vid-width);
     height: var(--vid-height);
-    border-radius: var(--border-radius-large);
+    border-radius: var(--border-radius-lg);
     margin-left: 0;
     margin-right: 0;
   }

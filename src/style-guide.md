@@ -8,7 +8,7 @@ layout: page.njk
 ## To-do
 
 - colors
-- Three diff widths
+- Three diff widths - Allow images to break out of narrow cols?
 - forms.css
 - dev-posts.css
 - How to handle image widths
@@ -166,6 +166,19 @@ Outputs
 
 <p>Te recteque hendrerit cum, pri id partem lucilius pertinacia. Audire inciderint in vis, vim et dicam prompta. Dolore inciderint nam ea, putent tamquam per ea, usu errem scriptorem in. </p>
 
+
+<img src="https://via.placeholder.com/400x300" />
+
+
+
+<img src="https://via.placeholder.com/800x600" />
+
+
+
+<img src="https://via.placeholder.com/1200x900" />
+
+
+
 </div>
 
 
@@ -185,6 +198,11 @@ Outputs
 
 <style>
 i {
-  background: #F6eabF;
+  background: #fff3c7;
 }
+
+a {
+/*  color: var(--color);
+  background: #F0E3A4;
+*/}
 </style>

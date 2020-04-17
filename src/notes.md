@@ -2,6 +2,7 @@
 title: "Notes"
 date: 2018-10-03
 layout: page.njk
+pageWidth: "full"
 ---
 
 <!--

@@ -8,11 +8,11 @@ The soon to be retired, MobileMe service from Apple, has a [beautiful login page
 
 Inspired by the login page and a wanting to tinker with canvas and particles I set out to recreate the wispy particle effect. You can see the progress I made at the following page: [mobileme-particles][2]
 
-<div class="figure">
+<figure>
   <a href="http://lokeshdhakar.com/projects/mobileme-particles/">
     <img src="/media/posts/mobileme-particles/mobileme_particles.jpg" alt="Cloud iamge with particles flowing out from behind" title="mobileme_particles" />
   </a>
-</div>
+</figure>
 
 I'm happy with how it turned out but there are a few things that could be improved. For one, the movement in the original is less rigid with more twists and turns. Is a flocking algorithm being used? Also, the mouse interaction with the particles in the original is livelier and has a nice bounce back effect when the mouse moves away from the particles.
 
