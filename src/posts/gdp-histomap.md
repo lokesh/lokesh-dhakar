@@ -39,7 +39,7 @@ layout: post.njk
 </div>
 
 
-<h2 class="histomap-title">
+<h2 class="histomap-title col--720">
   <span class="histomap-title-line-1">200 Years of Economic History</span><br>
   <span class="histomap-title-line-2">Relative Power as told by Real GDP</span>
 </h2>
@@ -95,8 +95,14 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 <link rel="stylesheet" href="/css/forms.css">
 
 <style>
-.col--720 {
-/*  max-width: 720px;*/
+/*.col--720 {
+  width: 720px;
+}
+*/
+@media (min-width: 748px) {
+/*  .col--720 {
+    width: 720px;
+  }*/
 }
 
 .histomap-title {

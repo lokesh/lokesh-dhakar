@@ -30,6 +30,11 @@
 }*/
 
 
+.post-time {
+  display: inline;
+  content: ". ";
+}
+
 /* CANVAS ------------------------------------ */
 
 .canvas {

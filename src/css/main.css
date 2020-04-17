@@ -8,8 +8,7 @@
   --color: #333;
   --primary-color: #e66622;
   --muted-color: #999;
-  --link-color: #55A3CA;
-  /*  */
+  --link-color: #55A3CA; /* Not used */
   --link-bg-color: #F5Eabc;
   --link-bg-hover-color: #e5daac;
   --action-color: var(--primary-color); /* For buttons and other non-link controls */
@@ -180,12 +179,21 @@ h3 {
 }
 
 a {
-  color: var(--link-color);
   text-decoration: none;
+  padding: 0 5px;
+  color: var(--color);
+  background-color: var(--link-bg-color);
+  border-radius: var(--border-radius-sm);
+  text-decoration: none;
+
+  /* If link wraps to new line, have border radius close and restart */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 a:hover {
-  text-decoration: underline;
+  background-color: var(--link-bg-hover-color);
+  text-decoration: none;
 }
 
 button:hover {
@@ -267,6 +275,7 @@ li > code {
   font-family: var(--font-ui);
   /*font-weight: var(--weight-bold);*/
   font-size: 0.85rem;
+  background-color: transparent;
 }
 
 .nav__item:last-of-type {
@@ -347,37 +356,6 @@ li > code {
 
 
 /* Page & Post content ---------- */
-
-.page p a:empty {
-  display: none;
-}
-
-.page p a,
-.page ul a,
-.page ol a {
-  padding: 0 5px;
-  color: var(--color);
-  background-color: var(--link-bg-color);
-  border-radius: var(--border-radius-sm);
-  text-decoration: none;
-  /* If link wraps to new line, have border radius close and restart */
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-}
-
-.page p a:hover,
-.page ul a:hover,
-.page ol a:hover {
-  background-color: var(--link-bg-hover-color);
-  text-decoration: none;
-}
-
-/* Posts ------------ */
-
-.post-time::after {
-  display: inline;
-  content: ". ";
-}
 
 figure img,
 figure video {
