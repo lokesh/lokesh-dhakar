@@ -292,7 +292,6 @@ pageWidth: "full"
 .note {
   position: relative;
   overflow: hidden;
-  max-height: 14rem;
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border-color-light);
@@ -340,11 +339,6 @@ the floated image.
 
 .note-read-more {
   font-weight: var(--weight-bold);
-}
-
-.note a {
-  text-decoration: underline;
-  color: var(--color);
 }
 
 .note p:last-of-type{
