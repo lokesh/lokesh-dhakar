@@ -31,11 +31,12 @@ pageWidth: "full"
 <template id="tpl-note">
   <article class="note" :class="{'note--open': open}">
     <img :src="`/media/notes/${image}`" class="note-image" />
-    <div class="note-review-date">{{ formattedReviewDate }}</div>
-    <div class="note-type" :class="`note-type--${type}`">
-      <svg><use :href="`#svg-${type}`" /></svg>
-    </div>
     <h2 class="note-title">{{ title }}</h2>
+    <div class="note-top-bar">
+      <span class="note-type" :class="`note-type--${type}`">{{ type }}</span>
+      ·
+      <span class="note-review-date">{{ formattedReviewDate }}</span>
+    </div>
     <note-rating v-if="rating" :stars="rating"></note-rating>
     <div class="note-meta">
       <span class="note-publish-date">{{ publishDate }}</span> | <span class="note-creator">{{ creatorLabel }}</span>
@@ -86,7 +87,7 @@ pageWidth: "full"
         </select>
       </div>
     </section>
-    <section :class="`notes-sort-${sort}`">
+    <section class="notes-grid" :class="`notes-sort-${sort}`">
       <note
         v-for="note in displayNotes"
         :type="note.type"
@@ -279,7 +280,14 @@ pageWidth: "full"
   }
 }
 
+/* NOTES GRID -----------------------------------------*/
+
+.notes-grid {
+  display: grid;
+}
+
 /* NOTE -----------------------------------------*/
+
 
 .note {
   position: relative;
@@ -350,41 +358,22 @@ the floated image.
   border-radius: var(--border-radius);
 }
 
-.note-review-date {
-  color: var(--muted-color);
+.note-top-bar {
   font-weight: var(--weight-bold);
   margin-bottom: 4px;
-  font-size: 0.6875rem;
+  font-size: 0.8125rem;
   font-weight: var(--weight-x-bold);
   text-transform: uppercase;
 }
 
-.note-type {
-  display: flex;
-  float: right;
-  margin: 0 0 4px 8px;
-  width: 28px;
-  height: 28px;
-  justify-content: center;
-  align-items: center;
-  border-radius: var(--border-radius);
-  line-height: 24px;
-  color: #fff;
-  background-color: #7c72f5;
-}
-
 @media (min-width: 800px) {
-  .note {
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
+  .notes-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    grid-column-gap: 32px;
   }
 
-  .note-review-date {
-    float: right;
-    text-align: right;
-  }
   .note-type {
-    float: none;
     margin-left: 0;
   }
 
@@ -396,27 +385,6 @@ the floated image.
     /* Img width and margin */
     margin-left: 9rem;
   }
-}
-
-.note-type svg {
-  width: 16px;
-  height: 16px;
-}
-
-.note-type.note-type--book {
-  background-color: var(--book-color);
-}
-
-.note-type.note-type--movie {
-  background-color: var(--movie-color);  
-}
-
-.note-type.note-type--music {
-  background-color: var(--music-color);
-}
-
-.note-type.note-type--tv {
-  background-color: var(--tv-color);
 }
 
 .note-title {

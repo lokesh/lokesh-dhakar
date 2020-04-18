@@ -22,7 +22,7 @@
 
   /* Borders and corners */
   --border-color: #000;
-  --border-color-light: #ccc; /* Used for inline content  */
+  --border-color-light: #d5d5d5; /* Used for inline content  */
 
   --border-radius-sm: 3px;
   --border-radius: 4px;
@@ -193,6 +193,10 @@ a:hover {
   text-decoration: none;
 }
 
+/*
+For links inline, add some padding on the left and right for the bg color.
+We don't want this for images that are linked.
+*/
 p a,
 li a {
   padding: 0 5px;
