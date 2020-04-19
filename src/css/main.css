@@ -373,6 +373,16 @@ figure.border video {
     border-width: 1px 0;
 }
 
+figure.small img {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure.small.border img {
+  border-radius: var(--border-radius-lg);
+  border-width: 1px;
+}
 
 @media (min-width: 800px) {
   figure img,
@@ -383,7 +393,7 @@ figure.border video {
     border-radius: var(--border-radius-lg);
   }
 
-  figure.original-width img {
+  figure.large img {
     width: auto;
     /* Some fuzzy math but this prevents xlarge images from extending past
     viewport's right edge. */

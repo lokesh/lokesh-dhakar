@@ -11,7 +11,44 @@ layout: page.njk
 - Three diff widths - Allow images to break out of narrow cols?
 - forms.css
 - dev-posts.css
-- How to handle image widths
+
+---
+
+
+## Images
+
+<figure>
+  <img src="https://via.placeholder.com/400x100" />
+</figure>
+
+```
+<figure>
+  <img src="https://via.placeholder.com/400x100" />
+</figure>
+```
+
+### `class="small"`
+
+For images 300px or less wide, use the _small_ class. This prevents them from being stretched to 100% width on mobile.
+
+<figure class="small">
+  <img src="https://via.placeholder.com/300x100" />
+</figure>
+
+### `class="large"`
+
+For images over 800px that you don't want to have scaled down to fit the text column, use class _large_.
+
+<figure class="large">
+  <img src="https://via.placeholder.com/800x100" />
+</figure>
+
+Without the _large_ class:
+
+<figure>
+  <img src="https://via.placeholder.com/800x100" />
+</figure>
+
 
 ---
 

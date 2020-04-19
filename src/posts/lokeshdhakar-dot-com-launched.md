@@ -7,7 +7,7 @@ layout: post.njk
 ---
 <h2 class="subtitle">I'm consolidating my blog, projects, and other 'internet things' to this new domain.</h2>
 
-<figure class="border original-width">
+<figure class="border small">
   [<img src="/media/posts/lokeshdhakar-dot-com-launched/huddletogether_screenshot.png" alt="LokeshDhakar.com and HuddleTogether.com screenshots" class="diagram-alt" />][1]
 </figure>
 

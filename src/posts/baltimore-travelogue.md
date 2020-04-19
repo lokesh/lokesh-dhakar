@@ -8,7 +8,7 @@ layout: post.njk
 
 It was made this year, though it collects a few places I've visited on trips to Baltimore in the past three years. *It's a log*: a list of places I want to remember and maybe revisit. *And a map*: showing me where things are relative to each other. It's not for driving directions. There is a 'to-do' list in the left column, which I've discontinued using.
 
-<figure class="border original-width">
+<figure class="border large">
   [<img src="/media/posts/baltimore-travelogue/baltimore_travelogue.jpg" alt="hand drawn map of baltimore showing different locations as small rectangles" title="Baltimore travel log map" />][1]
 </figure>
 
