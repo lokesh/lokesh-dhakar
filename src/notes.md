@@ -153,6 +153,8 @@ pageWidth: "full"
 .note-filters {
   display: flex;
   overflow-x: auto;
+  padding: 0 calc(var(--gutter));
+  margin: 0 calc(var(--gutter) * -1);
 }
 
 .note-filter {
