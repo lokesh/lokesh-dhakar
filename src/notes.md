@@ -30,11 +30,14 @@ pageWidth: "full"
 
 <template id="tpl-note">
   <article class="note" :class="{'note--open': open}">
-    <img :src="`/media/notes/${image}`" class="note-image" />
+    <div class="note-image-wrapper">
+      <span class="note-type" :class="`type-${type}`">
+        <svg class="note-type-icon"><use :href="`#svg-${type}`" /></svg>
+      </span>
+      <img :src="`/media/notes/${image}`" class="note-image" />
+    </div>
     <h2 class="note-title">{{ title }}</h2>
     <div class="note-top-bar">
-      <span class="note-type" :class="`note-type--${type}`">{{ type }}</span>
-      ·
       <span class="note-review-date">{{ formattedReviewDate }}</span>
     </div>
     <note-rating v-if="rating" :stars="rating"></note-rating>
@@ -57,7 +60,7 @@ pageWidth: "full"
 </template>
 
 <template id="tpl-note-filter">
-  <div :class="['note-filter', `note-filter--${type}`, { 'note-filter--checked': type === value }]">
+  <div :class="['note-filter', `type-${type}`, { 'note-filter--checked': type === value }]">
       <input type="radio" name="note-filter" class="note-filter-radio" :value="type" :id="`filter-${type}`" @change="onChange" />
       <label class="note-filter-label" :for="`filter-${type}`">
         <svg class="note-filter-label-icon"><use :href="`#svg-${type}`" /></svg>
@@ -114,7 +117,28 @@ pageWidth: "full"
 
   --note-control-height-xs: 2.75em;
   --note-control-height: 2.5em;
+}
 
+/* COLOR CLASSES ------------------------------------- */
+
+.type-all {
+  --type-color: var(--color);
+}
+
+.type-book {
+  --type-color: var(--book-color);
+}
+
+.type-movie {
+  --type-color: var(--movie-color);
+}
+
+.type-music {
+  --type-color: var(--music-color);
+}
+
+.type-tv {
+  --type-color: var(--tv-color);
 }
 
 /* FILTERS ------------------------------------- */
@@ -147,9 +171,10 @@ pageWidth: "full"
   margin-right: 0.25em;
   font-size: 0.9375rem;
   font-weight: var(--weight-bold);
-  border-radius: var(--border-radius);
-  border: 2px solid var(--color);
+  border-radius: var(--radius);
+  border: 2px solid var(--type-color);
   cursor: pointer;
+  color: var(--type-color);
 }
 
 .note-filter-label-icon {
@@ -158,54 +183,10 @@ pageWidth: "full"
   margin-right: 4px;
 }
 
-.note-filter--all:hover .note-filter-label,
+.note-filter:hover .note-filter-label,
 .note-filter--checked .note-filter-label {
   color: white;
-  background: var(--color);
-}
-
-.note-filter--movie .note-filter-label {
-  color: var(--movie-color);
-  border-color: var(--movie-color);
-}
-
-.note-filter--movie:hover .note-filter-label,
-.note-filter--movie.note-filter--checked .note-filter-label {
-  color: white;
-  background: var(--movie-color);
-}
-
-.note-filter--tv .note-filter-label {
-  color: var(--tv-color);
-  border-color: var(--tv-color);
-}
-
-.note-filter--tv:hover .note-filter-label,
-.note-filter--tv.note-filter--checked .note-filter-label {
-  color: white;
-  background: var(--tv-color);
-}
-
-.note-filter--book .note-filter-label {
-  color: var(--book-color);
-  border-color: var(--book-color);
-}
-
-.note-filter--book:hover .note-filter-label,
-.note-filter--book.note-filter--checked .note-filter-label {
-  color: white;
-  background: var(--book-color);
-}
-
-.note-filter--music .note-filter-label {
-  color: var(--music-color);
-  border-color: var(--music-color);
-}
-
-.note-filter--music:hover .note-filter-label,
-.note-filter--music.note-filter--checked .note-filter-label {
-  color: white;
-  background: var(--music-color);
+  background: var(--type-color);
 }
 
 @media (min-width: 800px) {
@@ -245,7 +226,7 @@ pageWidth: "full"
   height: var(--note-control-height-xs);
   font-size: 0.9375rem;
   font-weight: var(--weight-bold);  
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
   border: 2px solid var(--color);
   cursor: pointer;  
   background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
@@ -327,7 +308,7 @@ the floated image.
 
 .note-excerpt:hover {
   background-color: var(--hover-bg-color);
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
 }
 
 .note-excerpt p {
@@ -345,15 +326,37 @@ the floated image.
   margin-bottom: 8px;
 }
 
-.note-image {
+.note-image-wrapper {
+  position: relative;
   float: left;
   width: 6rem;
   margin: 0 1rem 0.5rem 0;
-  border-radius: var(--border-radius);
+}
+
+.note-type {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: flex;
+  padding: 6px;
+  color: white;
+  background: var(--type-color);
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.note-type-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+.note-image {
+  width: 100%;
+  border-radius: var(--radius);
 }
 
 .note-top-bar {
-  font-weight: var(--weight-bold);
   margin-bottom: 4px;
   font-size: 0.8125rem;
   font-weight: var(--weight-x-bold);
@@ -367,11 +370,7 @@ the floated image.
     grid-column-gap: 32px;
   }
 
-  .note-type {
-    margin-left: 0;
-  }
-
-  .note-image {
+  .note-image-wrapper {
     width: 8rem;
   }
 

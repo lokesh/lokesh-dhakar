@@ -254,7 +254,7 @@ pre[class*="language-"].line-numbers > code {
   margin-bottom: 4px;
   color: #fff;
   background-color: var(--muted-color);
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
   font-weight: 800;
   font-size: 0.6875rem;
   text-transform: uppercase;

@@ -115,7 +115,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-lg);
 }
 
 .runs {
@@ -136,7 +136,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   font-size: 0.75rem;
   font-weight: var(--weight-x-bold);
   background-color: #000;
-  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  border-radius: var(--radius) 0 0 var(--radius);
 }
 
 .comment {
@@ -203,7 +203,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   font-size: 0.875rem;
   font-weight: var(--weight-bold);
   margin-bottom: 12px;
-  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  border-radius: var(--radius) 0 0 var(--radius);
 }
 
 .run-name {
@@ -233,7 +233,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
 }
 </style>
 

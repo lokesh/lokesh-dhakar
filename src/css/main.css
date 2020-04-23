@@ -24,10 +24,10 @@
   --border-color: #000;
   --border-color-light: #d5d5d5; /* Used for inline content  */
 
-  --border-radius-sm: 3px;
-  --border-radius: 4px;
-  --border-radius-lg: 6px;
-  --border-radius-xl: 6px;
+  --radius-sm: 3px; /* Small tags */
+  --radius: 4px;    /* Form controls */
+  --radius-lg: 6px; /* Media */
+  --radius-xl: 6px; /* Large media */
 
   /* Typography */
   --font: "Inter", sans-serif;
@@ -180,7 +180,7 @@ a {
   text-decoration: none;
   color: var(--color);
   background-color: var(--link-bg-color);
-  border-radius: var(--border-radius-sm);
+  border-radius: var(--radius-sm);
   text-decoration: none;
 
   /* If link wraps to new line, have border radius close and restart */
@@ -251,7 +251,7 @@ code {
 pre {
   overflow: auto;
   padding: 16px var(--gutter);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-lg);
   font-size: 0.8125rem;
   line-height: 1.6em;
   background-color: #eee;
@@ -264,7 +264,7 @@ li > code {
   border: 1px solid var(--border-color-light);
   /* background-color: #ddd; */
   font-size: 0.8125rem;
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
   line-height: 12px;
 }
 
@@ -289,7 +289,7 @@ li > code {
   margin-right: 0.5em;
   color: var(--muted-color);
   border: 2px solid var(--border-color-light);
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
   font-family: var(--font-ui);
   font-size: 0.9375rem;
   font-weight: var(--weight-bold);
@@ -331,7 +331,7 @@ li > code {
     margin-right: 0;
     border: 0;
     color: var(--color);
-    border-radius: var(--border-radius);
+    border-radius: var(--radius);
   }
 }
 
@@ -380,7 +380,7 @@ figure.small img {
 }
 
 figure.small.border img {
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-lg);
   border-width: 1px;
 }
 
@@ -390,7 +390,7 @@ figure.small.border img {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    border-radius: var(--border-radius-lg);
+    border-radius: var(--radius-lg);
   }
 
   figure.large img {
@@ -412,6 +412,6 @@ figure.small.border img {
   margin-bottom: 2rem;
   padding: 1em;
   background: var(--recessed-bg-color);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-lg);
   font-weight: var(--weight-bold);
 }

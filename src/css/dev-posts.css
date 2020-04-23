@@ -26,7 +26,7 @@
 */
 /*.figure__video video {
   border: 1px solid var(--border-color-light);
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-xl);
 }*/
 
 
@@ -38,7 +38,7 @@
 /* CANVAS ------------------------------------ */
 
 .canvas {
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-xl);
   border: 1px solid var(--border-color-light);
 }
 

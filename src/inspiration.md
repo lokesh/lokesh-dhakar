@@ -101,7 +101,7 @@ pageWidth: "full"
   display: none;
   width: var(--vid-width);
   height: var(--vid-height);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-lg);
   background-size: cover;
 }
 
@@ -124,7 +124,7 @@ pageWidth: "full"
   background-color: #000;
   font-weight: 700;
   font-size: 1rem;
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
 }
 
 .title {
@@ -147,7 +147,7 @@ pageWidth: "full"
   font-size: 0.8125rem;
   font-weight: var(--weight-bold);
   border: 1px solid var(--color);
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
   background-color: transparent;
   text-decoration: none; /* Removes underlines on <a> buttons */
   cursor: pointer;
@@ -229,7 +229,7 @@ pageWidth: "full"
   .thumb {
     width: var(--vid-width);
     height: var(--vid-height);
-    border-radius: var(--border-radius-lg);
+    border-radius: var(--radius-lg);
     margin-left: 0;
     margin-right: 0;
   }
