@@ -30,14 +30,11 @@ pageWidth: "full"
 
 <template id="tpl-note">
   <article class="note" :class="{'note--open': open}">
-    <div class="note-image-wrapper">
-      <span class="note-type" :class="`type-${type}`">
-        <svg class="note-type-icon"><use :href="`#svg-${type}`" /></svg>
-      </span>
-      <img :src="`/media/notes/${image}`" class="note-image" />
-    </div>
+    <img :src="`/media/notes/${image}`" class="note-image" />
     <h2 class="note-title">{{ title }}</h2>
     <div class="note-top-bar">
+      <span class="note-type" :class="`note-type--${type}`">{{ type }}</span>
+      ·
       <span class="note-review-date">{{ formattedReviewDate }}</span>
     </div>
     <note-rating v-if="rating" :stars="rating"></note-rating>
@@ -328,33 +325,10 @@ the floated image.
   margin-bottom: 8px;
 }
 
-.note-image-wrapper {
-  position: relative;
+.note-image {
   float: left;
   width: 6rem;
   margin: 0 1rem 0.5rem 0;
-}
-
-.note-type {
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  display: flex;
-  padding: 6px;
-  color: white;
-  background: var(--type-color);
-  border-radius: 50%;
-  border: 1px solid white;
-}
-
-.note-type-icon {
-  width: 16px;
-  height: 16px;
-}
-
-
-.note-image {
-  width: 100%;
   border-radius: var(--radius);
 }
 
@@ -372,7 +346,11 @@ the floated image.
     grid-column-gap: 32px;
   }
 
-  .note-image-wrapper {
+  .note-type {
+    margin-left: 0;
+  }
+
+  .note-image {
     width: 8rem;
   }
 
