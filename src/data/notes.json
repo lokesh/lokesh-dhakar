@@ -12,16 +12,28 @@
   },
   "data": [
     {
-      "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
+      "type": "movie",
+      "title": "American Factory",
+      "creator": "Steven Bognar & Julia Reichert",
+      "publishDate": 2019,
+      "image": "american-factory.jpg",
+      "rating": 3.5,
+      "reviewDate": "August 31, 2019",
+      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
+      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
+      "id": "notes__american-factory"
+    },
+    {
+      "type": "movie",
+      "title": "Apollo 11",
+      "creator": "Todd Douglas Miller",
+      "publishDate": 2019,
+      "image": "apollo-11.jpg",
+      "rating": 4.5,
+      "reviewDate": "May 3, 2020",
+      "contents": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>\n<p>The restored 70mm NASA footage is gorgeous and worth the price of admission. The score is stellar too. </p>\n<p>I finished this movie marvelling at the accomplishment, and inspired to take on more ambitious challenges myself.</p>\n",
+      "excerpt": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>",
+      "id": "notes__apollo-11"
     },
     {
       "type": "movie",
@@ -34,6 +46,30 @@
       "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
       "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
       "id": "notes__blade-runner"
+    },
+    {
+      "type": "book",
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
+    },
+    {
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3.5,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
     },
     {
       "type": "movie",
@@ -72,16 +108,16 @@
       "id": "notes__isle-of-dogs"
     },
     {
-      "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3.5,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
+      "type": "movie",
+      "title": "La Jetée",
+      "creator": "Chris Marker",
+      "publishDate": 1962,
+      "image": "la-jetee.jpg",
+      "rating": 4,
+      "reviewDate": "September 13, 2019",
+      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
+      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
+      "id": "notes__la-jetee"
     },
     {
       "type": "movie",
@@ -108,18 +144,6 @@
       "id": "notes__minding-the-gap"
     },
     {
-      "type": "movie",
-      "title": "La Jetée",
-      "creator": "Chris Marker",
-      "publishDate": 1962,
-      "image": "la-jetee.jpg",
-      "rating": 4,
-      "reviewDate": "September 13, 2019",
-      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
-      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
-      "id": "notes__la-jetee"
-    },
-    {
       "type": "book",
       "title": "Neither Wolf Nor Dog",
       "creator": "Kent Nerburn",
@@ -142,6 +166,18 @@
       "contents": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&#39;t enjoy the reading experience.</p>\n<p>The problem for me was the style of the prose. The writing is frenetic and jumpy. I found it challenging to follow the plot as we bounced from scene to scene. It didn&#39;t help that the world, as conceptually interesting as it is, wasn&#39;t fleshed out. And lastly, and this one isn&#39;t the fault of Gibson, is that I listened to it as an audiobook. This made going back to &#39;re-read&#39; sections to get clarification tedius.</p>\n<p>I still love the genre and am excited to read more books that focus on the combination of &quot;high tech, low life&quot;.</p>\n",
       "excerpt": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&#39;t enjoy the reading experience.</p>",
       "id": "notes__neuromancer"
+    },
+    {
+      "type": "movie",
+      "title": "Pather Panchali",
+      "creator": "Satyajit Ray",
+      "publishDate": 1955,
+      "image": "pather-panchali.jpg",
+      "rating": 3,
+      "reviewDate": "October 29, 2019",
+      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
+      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
+      "id": "notes__pather-panchali"
     },
     {
       "type": "movie",
@@ -178,18 +214,6 @@
       "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
       "excerpt": "<p>This was eye-opening.</p>",
       "id": "notes__of-fathers-and-sons"
-    },
-    {
-      "type": "movie",
-      "title": "Pather Panchali",
-      "creator": "Satyajit Ray",
-      "publishDate": 1955,
-      "image": "pather-panchali.jpg",
-      "rating": 3,
-      "reviewDate": "October 29, 2019",
-      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
-      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
-      "id": "notes__pather-panchali"
     },
     {
       "type": "music",
@@ -252,18 +276,6 @@
       "id": "notes__snow-crash"
     },
     {
-      "type": "book",
-      "title": "The Goldfinch",
-      "creator": "Donna Tartt",
-      "publishDate": 2013,
-      "image": "the-goldfinch.jpg",
-      "rating": 3,
-      "reviewDate": "Mar 24, 2020",
-      "contents": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>\n<p>The writing wasn&#39;t flawless though. I had issue with the pacing and tonal shifts. They might have been done for effect, but they left me enjoying certain sections of the book, New York, much more than others, Las Vegas.</p>\n<p>I listened to the audiobook, which has excellent narration and was incredibly easy-to-follow. This is a perfect book to listen to.</p>\n<blockquote>\n<p>&quot;If you care for a thing enough, it takes on a life of its own, doesn&#39;t it? And isn&#39;t the whole point of things—beautiful things—that they connect you to some larger beauty? Those first images that crack your heart wide open and you spend the rest of your life chasing, or trying to recapture, in one way or another?”&quot; - Donna Tartt</p>\n</blockquote>\n",
-      "excerpt": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>",
-      "id": "notes__the-goldfinch"
-    },
-    {
       "type": "movie",
       "title": "Stranger Than Paradise",
       "creator": "Jim Jarmusch",
@@ -274,6 +286,18 @@
       "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
       "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
       "id": "notes__stranger-than-paradise"
+    },
+    {
+      "type": "book",
+      "title": "The Goldfinch",
+      "creator": "Donna Tartt",
+      "publishDate": 2013,
+      "image": "the-goldfinch.jpg",
+      "rating": 3,
+      "reviewDate": "Mar 24, 2020",
+      "contents": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>\n<p>The writing wasn&#39;t flawless though. I had issue with the pacing and tonal shifts. They might have been done for effect, but they left me enjoying certain sections of the book, New York, much more than others, Las Vegas.</p>\n<p>I listened to the audiobook, which has excellent narration and was incredibly easy-to-follow. This is a perfect book to listen to.</p>\n<blockquote>\n<p>&quot;If you care for a thing enough, it takes on a life of its own, doesn&#39;t it? And isn&#39;t the whole point of things—beautiful things—that they connect you to some larger beauty? Those first images that crack your heart wide open and you spend the rest of your life chasing, or trying to recapture, in one way or another?”&quot; - Donna Tartt</p>\n</blockquote>\n",
+      "excerpt": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>",
+      "id": "notes__the-goldfinch"
     },
     {
       "type": "book",
@@ -322,18 +346,6 @@
       "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
       "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
       "id": "notes__tokyo-story"
-    },
-    {
-      "type": "movie",
-      "title": "American Factory",
-      "creator": "Steven Bognar & Julia Reichert",
-      "publishDate": 2019,
-      "image": "american-factory.jpg",
-      "rating": 3.5,
-      "reviewDate": "August 31, 2019",
-      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
-      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
-      "id": "notes__american-factory"
     }
   ]
 }
