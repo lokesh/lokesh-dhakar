@@ -29,30 +29,30 @@ pageWidth: "full"
 <!-- NOTE TEMPLATE -->
 
 <template id="tpl-note">
-  <article class="note" :class="{'note--open': open}">
-    <img :src="`/media/notes/${image}`" class="note-image" onload="" />
-    <h2 class="note-title">{{ title }}</h2>
-    <div class="note-top-bar">
-      <span class="note-type" :class="`note-type--${type}`">{{ type }}</span>
+  <article class="item" :class="{'item--open': open}">
+    <img :src="`/media/notes/${image}`" class="item-image" onload="" />
+    <h2 class="item-title">{{ title }}</h2>
+    <div class="item-meta">
+      <span>{{ type }}</span>
       ·
-      <span class="note-review-date">{{ formattedReviewDate }}</span>
+      <span class="item-review-date">{{ formattedReviewDate }}</span>
     </div>
     <note-rating v-if="rating" :stars="rating"></note-rating>
-    <div class="note-meta">
-      <span class="note-publish-date">{{ publishDate }}</span> | <span class="note-creator">{{ creatorLabel }}</span>
+    <div class="item-credits">
+      <span class="item-publish-date">{{ publishDate }}</span> | <span>{{ creatorLabel }}</span>
     </div>
-    <div v-if="contents" class="note-body" @click="open = true">
+    <div v-if="contents" class="item-body" @click="open = true">
       <div v-if="open" v-html="contents"></div>
-      <div v-else v-html="excerpt" class="note-excerpt"></div>
+      <div v-else v-html="excerpt" class="item-excerpt"></div>
     </div>
   </article>
 </template>
 
 <template id="tpl-note-rating">
-  <div class="note-rating">
-    <svg v-for="n in fullStars" class="note-rating-star"><use href="#svg-star"></use></svg>
-    <svg v-if="halfStar" class="note-rating-star"><use href="#svg-star-half"></svg>
-    <svg v-for="n in emptyStars" class="note-rating-star"><use href="#svg-star-outline"></svg>
+  <div class="item-rating">
+    <svg v-for="n in fullStars"><use href="#svg-star"></use></svg>
+    <svg v-if="halfStar"><use href="#svg-star-half"></svg>
+    <svg v-for="n in emptyStars"><use href="#svg-star-outline"></svg>
   </div>
 </template>
 
@@ -87,7 +87,7 @@ pageWidth: "full"
         </select>
       </div>
     </section>
-    <section class="notes-grid" :class="`notes-sort-${sort}`">
+    <section class="item-grid" :class="`notes-sort-${sort}`">
       <note
         v-for="note in displayNotes"
         :type="note.type"
@@ -235,17 +235,17 @@ pageWidth: "full"
   outline: none;
 }
 
-.notes-sort-publish-date-desc .note-publish-date,
-.notes-sort-publish-date-asc .note-publish-date {
+.notes-sort-publish-date-desc .item-publish-date,
+.notes-sort-publish-date-asc .item-publish-date {
   color: var(--primary-color);
 }
 
-.notes-sort-rating-desc .note-rating svg,
-.notes-sort-rating-asc .note-rating svg{
+.notes-sort-rating-desc .item-rating svg,
+.notes-sort-rating-asc .item-rating svg{
   fill: var(--primary-color);
 }
 
-.notes-sort-review-date-desc .note-review-date {
+.notes-sort-review-date-desc .item-review-date {
   color: var(--primary-color);
 }
 
@@ -260,24 +260,23 @@ pageWidth: "full"
   }
 }
 
-/* NOTES GRID -----------------------------------------*/
+/* ITEMS -----------------------------------------*/
 
-.notes-grid {
-  display: grid;
-}
-
-/* NOTE -----------------------------------------*/
-
-
-.note {
+.item {
   position: relative;
   overflow: hidden;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border-color-light);
 }
 
-.note::after {
+.item-image {
+  float: left;
+  width: 6rem;
+  min-height: 6rem;
+  margin: 0 1rem 0.5rem 0;
+  background: var(--recessed-bg-color);
+  border-radius: var(--radius);
+}
+
+.item::after {
   content: '';
   position: absolute;
   background: linear-gradient( rgba(255, 255, 255, 0), var(--bg-color) 80%, var(--bg-color));
@@ -287,11 +286,11 @@ pageWidth: "full"
   pointer-events: none;
 }
 
-.note--open {
+.item--open {
   max-height: none;
 }
 
-.note--open::after {
+.item--open::after {
   display: none;
 }
 
@@ -301,103 +300,55 @@ On hover, we change the bg color of the excerpt. This left margin makes the
 container start to the right of the image. W/o it the container goes under
 the floated image.
 */
-.note-excerpt {
+.item-excerpt {
   margin-left: 7rem;
 }
 
-.note-excerpt:hover {
+.item-excerpt:hover {
   background-color: var(--hover-bg-color);
   border-radius: var(--radius);
 }
 
-.note-excerpt p {
+.item-excerpt p {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.note-read-more {
-  font-weight: var(--weight-bold);
+.item-body { 
+  cursor: pointer;
 }
 
-.note p:last-of-type{
-  margin-bottom: 8px;
-}
-
-.note-image {
-  float: left;
-  width: 6rem;
-  min-height: 6rem;
-  margin: 0 1rem 0.5rem 0;
-  background: var(--recessed-bg-color);
-  border-radius: var(--radius);
-}
-
-.note-top-bar {
-  margin-bottom: 4px;
-  font-size: 0.8125rem;
-  font-weight: var(--weight-x-bold);
-  text-transform: uppercase;
+.item--open .item-body {
+  cursor: auto;
 }
 
 @media (min-width: 800px) {
-  .notes-grid {
+  .item-grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
     grid-column-gap: 32px;
   }
 
-  .note-type {
-    margin-left: 0;
-  }
-
-  .note-image {
+  .item-image {
     width: 8rem;
   }
 
-  .note-excerpt {
+  .item-excerpt {
     /* Img width and margin */
     margin-left: 9rem;
   }
 }
 
-.note-title {
-  margin: 0 0 0.05em 0;
-}
-
-.note-title a {
-  text-decoration: none;
-}
-
-.note-title a:hover {
-  text-decoration: underline;
-}
-
-.note-meta {
-  font-size: 1rem;
-  font-weight: var(--weight-bold);
-  color: var(--muted-color);
-  margin-bottom: 2px;
-}
-
-.note-body { 
-  cursor: pointer;
-  font-size: 0.9375rem;
-}
-
-.note--open .note-body {
-  cursor: auto;
-}
-
 
 /* STAR RATING -----------------------------------------*/
 
-.note-rating {
+.item-rating {
   display: flex;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
-.note-rating svg {
+.item-rating svg {
   width: 18px;
   height: 18px;
 }
