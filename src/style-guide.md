@@ -8,12 +8,48 @@ layout: page.njk
 ## To-do
 
 - colors
-- Three diff widths - Allow images to break out of narrow cols?
 - forms.css
 - dev-posts.css
 
 ---
 
+## Collections
+
+<section class="item-grid">
+  <article class="item">
+    <h2 class="item-title">Title</h2>
+    <div class="item-meta">
+      Meta
+    </div>
+    <div class="item-credits">
+      Credits
+    </div>
+    <div class="note-body">
+      Body
+    </div>
+  </article>
+  <article class="item">
+    <h2 class="item-title">Title</h2>
+    <div class="item-meta">
+      Meta
+    </div>
+    <div class="item-credits">
+      Credits
+    </div>
+    <div class="note-body">
+      Body
+    </div>
+  </article>
+</section>
+---
+
+
+## Layout
+
+- **Default width**:Content column is set to a max-width of 40rem (--page-max-width) by default.
+- **Full-width**: To have the content column span the full-width of a page, set `pageWidth: "full"` to in the Markdown front matter.
+
+---
 
 ## Images
 
@@ -27,7 +63,7 @@ layout: page.njk
 </figure>
 ```
 
-### `class="small"`
+### Width 300px or less
 
 For images 300px or less wide, use the _small_ class. This prevents them from being stretched to 100% width on mobile.
 
@@ -35,7 +71,14 @@ For images 300px or less wide, use the _small_ class. This prevents them from be
   <img src="https://via.placeholder.com/300x100" />
 </figure>
 
-### `class="large"`
+```
+<figure class="small">
+  <img src="https://via.placeholder.com/300x100" />
+</figure>
+```
+
+
+### Width 800px or greater
 
 For images over 800px that you don't want to have scaled down to fit the text column, use class _large_.
 
@@ -43,12 +86,11 @@ For images over 800px that you don't want to have scaled down to fit the text co
   <img src="https://via.placeholder.com/800x100" />
 </figure>
 
-Without the _large_ class:
-
-<figure>
+```
+<figure class="large">
   <img src="https://via.placeholder.com/800x100" />
 </figure>
-
+```
 
 ---
 
@@ -58,7 +100,9 @@ Without the _large_ class:
 
 ---
 
-# H1 Typography
+## Typography
+
+# H1
 
 Dicant lobortis at pro, at qui scaevola officiis. No ridens docendi theophrastus pro, cu quo cibo suavitate suscipiantur. Clita altera postea nec cu, in <a href="#">lobortis iracundia has</a>. An magna tempor facilisis eam, eum alia decore iudicabit id, eos ut detracto partiendo consetetur. Mazim ubique abhorreant no eam.
 
@@ -121,103 +165,6 @@ Outputs
   <option>Select...</option>
 </select>
 <textarea></textarea>
-
----
-
-## Images
-
-<img src="https://via.placeholder.com/400x300" />
-
-<img src="https://via.placeholder.com/800x600" />
-
-<img src="https://via.placeholder.com/1200x900" />
-
-### Wrapped in `<div class="figure">`
-
-<div class="figure">
-  <img src="https://via.placeholder.com/400x300" />
-</div>
-
-<div class="figure">
-  <img src="https://via.placeholder.com/800x600" />
-</div>
-
-<div class="figure">
-  <img src="https://via.placeholder.com/1200x900" />
-</div>
-
----
-
-## Posts
-
-<i>REVIEW: .post & .page classes do the sam thing? Set max widths and add padding/margins</i>
-
-<div class="post">
-
-
-<h1 class="post__title">H1 post_title Typography</h1>
-<h2 class="subtitle"><span class="post-time">9 min read</span> H2 subtitle Mel eu labitur deleniti iracundia, ad nam vocent cotidieque</h2>
-
-<p>Setting post__title on the H1 reducing the bottom margin and gives the large heading a small negative left margin to help it better align with the body text. <i>TODO: Make the left margins part of the headers styles</i>. Dicant lobortis at pro, at qui scaevola officiis. No ridens docendi theophrastus pro, cu quo cibo suavitate suscipiantur. Clita altera postea nec cu, in <a href="#">lobortis iracundia has</a>. An magna tempor facilisis eam, eum alia decore iudicabit id, eos ut detracto partiendo consetetur. Mazim ubique abhorreant no eam.</p>
-
-<ul>
-  <li>Unordered list</li>
-  <li>Heading and UI font: Space Grotesk</li>
-  <li>Body font: Inter</li>
-</ul>
-
-<h3>H3 Te cum veri prima</h3>
-
-<p>Te recteque hendrerit cum, pri id partem lucilius pertinacia. Audire inciderint in vis, vim et dicam prompta. Dolore inciderint nam ea, putent tamquam per ea, usu errem scriptorem in. </p>
-
-```
-Pre code using triple tilde
-
-Outputs 
-<pre>
-  <code>
-       ...
-  </code>
-</pre>
-```
-
-</div>
-
-
-
-<div class="post post--narrow">
-
-
-<h1>H1 Narrow Post/Page</h1>
-<h2 class="subtitle">H2 subtitle Mel eu labitur deleniti iracundia, ad nam vocent cotidieque</h2>
-
-<p>Dicant lobortis at pro, at qui scaevola officiis. No ridens docendi theophrastus pro, cu quo cibo suavitate suscipiantur. Clita altera postea nec cu, in <a href="#">lobortis iracundia has</a>. An magna tempor facilisis eam, eum alia decore iudicabit id, eos ut detracto partiendo consetetur. Mazim ubique abhorreant no eam.</p>
-
-<ul>
-  <li>Unordered list</li>
-  <li>Heading and UI font: Space Grotesk</li>
-  <li>Body font: Inter</li>
-</ul>
-
-<h3>H3 Te cum veri prima</h3>
-
-<p>Te recteque hendrerit cum, pri id partem lucilius pertinacia. Audire inciderint in vis, vim et dicam prompta. Dolore inciderint nam ea, putent tamquam per ea, usu errem scriptorem in. </p>
-
-
-<img src="https://via.placeholder.com/400x300" />
-
-
-
-<img src="https://via.placeholder.com/800x600" />
-
-
-
-<img src="https://via.placeholder.com/1200x900" />
-
-
-
-</div>
-
 
 ---
 
