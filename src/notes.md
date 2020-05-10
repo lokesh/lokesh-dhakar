@@ -30,7 +30,7 @@ pageWidth: "full"
 
 <template id="tpl-note">
   <article class="note" :class="{'note--open': open}">
-    <img :src="`/media/notes/${image}`" class="note-image" />
+    <img :src="`/media/notes/${image}`" class="note-image" onload="" />
     <h2 class="note-title">{{ title }}</h2>
     <div class="note-top-bar">
       <span class="note-type" :class="`note-type--${type}`">{{ type }}</span>
@@ -328,7 +328,9 @@ the floated image.
 .note-image {
   float: left;
   width: 6rem;
+  min-height: 6rem;
   margin: 0 1rem 0.5rem 0;
+  background: var(--recessed-bg-color);
   border-radius: var(--radius);
 }
 
