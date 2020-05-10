@@ -60,18 +60,6 @@
       "id": "notes__blue-bottle"
     },
     {
-      "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3.5,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
-    },
-    {
       "type": "movie",
       "title": "Cold War",
       "creator": "Paweł Pawlikowski",
@@ -82,6 +70,18 @@
       "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
       "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
       "id": "notes__cold-war"
+    },
+    {
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3.5,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
     },
     {
       "type": "book",
@@ -169,18 +169,6 @@
     },
     {
       "type": "movie",
-      "title": "Pather Panchali",
-      "creator": "Satyajit Ray",
-      "publishDate": 1955,
-      "image": "pather-panchali.jpg",
-      "rating": 3,
-      "reviewDate": "October 29, 2019",
-      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
-      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
-      "id": "notes__pather-panchali"
-    },
-    {
-      "type": "movie",
       "title": "Obey Giant",
       "creator": "James Moll",
       "publishDate": 2019,
@@ -190,6 +178,18 @@
       "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
       "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>",
       "id": "notes__obey-giant"
+    },
+    {
+      "type": "movie",
+      "title": "Of Fathers And Sons",
+      "creator": "Talal Derki",
+      "publishDate": 2017,
+      "image": "of-fathers-and-sons.jpg",
+      "rating": 4,
+      "reviewDate": "March 19, 2019",
+      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
+      "excerpt": "<p>This was eye-opening.</p>",
+      "id": "notes__of-fathers-and-sons"
     },
     {
       "type": "movie",
@@ -205,15 +205,27 @@
     },
     {
       "type": "movie",
-      "title": "Of Fathers And Sons",
-      "creator": "Talal Derki",
-      "publishDate": 2017,
-      "image": "of-fathers-and-sons.jpg",
-      "rating": 4,
-      "reviewDate": "March 19, 2019",
-      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
-      "excerpt": "<p>This was eye-opening.</p>",
-      "id": "notes__of-fathers-and-sons"
+      "title": "Pather Panchali",
+      "creator": "Satyajit Ray",
+      "publishDate": 1955,
+      "image": "pather-panchali.jpg",
+      "rating": 3,
+      "reviewDate": "October 29, 2019",
+      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
+      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
+      "id": "notes__pather-panchali"
+    },
+    {
+      "type": "book",
+      "title": "Pride of Baghdad",
+      "creator": "Brian K. Vaughan",
+      "publishDate": 2006,
+      "image": "pride-of-baghdad.jpg",
+      "rating": 4.5,
+      "reviewDate": "May 9, 2020",
+      "contents": "<p>A short, page-turner of a graphic novel that follows four lions who escape from the Baghdad zoo during the US bombing. The story is a fable in the vain of <a href=\"https://www.goodreads.com/book/show/7613.Animal_Farm?from_search=true&amp;from_srp=true&amp;qid=8NojKB1OYo&amp;rank=1\">Animal Farm</a> or <a href=\"https://www.goodreads.com/book/show/15195.The_Complete_Maus\">Maus</a>, that asks questions about liberation and self-determination. It packs a lot on in a sub one-hour read and ends with a punch to the gut. I couldn&#39;t put it down once I stared.</p>\n<p>The writing is paired with amazing artwork by Niko Henrichon. His renderings of the lions, which are naturalistic, and never overly anthropomorphized, are incredible. If these weren&#39;t done well it could have been a big distraction.</p>\n<p>This was my first time reading a comic through the Hoopla Digital service, which is kindly provided for free by my local [San Francisco Public Library. The comic viewer has an interested mode called, <em>action view</em>. When enabled, it incrementally reveals the content of each page and slides you between panels. It&#39;s jarring at first, but the focus it provides, and the dramatic effect it can achieve when it shifts you from a small panel to a double page spread, made the reading experience more engaging and dynamic for me.</p>\n",
+      "excerpt": "<p>A short, page-turner of a graphic novel that follows four lions who escape from the Baghdad zoo during the US bombing. The story is a fable in the vain of <a href=\"https://www.goodreads.com/book/show/7613.Animal_Farm?from_search=true&amp;from_srp=true&amp;qid=8NojKB1OYo&amp;rank=1\">Animal Farm</a> or <a href=\"https://www.goodreads.com/book/show/15195.The_Complete_Maus\">Maus</a>, that asks questions about liberation and self-determination. It packs a lot on in a sub one-hour read and ends with a punch to the gut. I couldn&#39;t put it down once I stared.</p>",
+      "id": "notes__pride-of-baghdad"
     },
     {
       "type": "music",
@@ -312,18 +324,6 @@
       "id": "notes__the-jungle"
     },
     {
-      "type": "book",
-      "title": "The Three-Body Problem",
-      "creator": "Cixin Liu",
-      "publishDate": 2013,
-      "image": "three-body-problem.jpg",
-      "rating": 1,
-      "reviewDate": "aug 17, 2019",
-      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
-      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
-      "id": "notes__three-body-problem"
-    },
-    {
       "type": "tv",
       "title": "Tiger King",
       "creator": "Eric Goode & Rebecca Chaiklin",
@@ -346,6 +346,18 @@
       "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
       "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
       "id": "notes__tokyo-story"
+    },
+    {
+      "type": "book",
+      "title": "The Three-Body Problem",
+      "creator": "Cixin Liu",
+      "publishDate": 2013,
+      "image": "three-body-problem.jpg",
+      "rating": 1,
+      "reviewDate": "aug 17, 2019",
+      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
+      "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
+      "id": "notes__three-body-problem"
     }
   ]
 }

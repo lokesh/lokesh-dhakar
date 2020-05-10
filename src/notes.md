@@ -384,7 +384,7 @@ the floated image.
   font-size: 0.9375rem;
 }
 
-.note--open {
+.note--open .note-body {
   cursor: auto;
 }
 
