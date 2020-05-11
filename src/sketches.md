@@ -41,11 +41,11 @@ pageWidth: "full"
 
 @media (min-width: 800px) {
   .item-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px;
     grid-column-gap: 32px;
   }
-
+  
   /* 16:9 aspect ratio on desktop */
   .item-image {
     padding-top: 56.25%;
@@ -53,6 +53,12 @@ pageWidth: "full"
 
   .item-body {
     display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 

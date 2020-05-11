@@ -1,34 +1,4 @@
-/* CSS for the Front-end dev series of posts */
-:root {
-  --debug-color: #7795f8;
-  --design-color: #7ec699;
-  --design-text-color: #62b17c;
-}
-
 /* FIGURE ------------------------------------ */
-
-/*.figure {
-  display: inline-block;
-}
-*/
-/*.figure img {
-  margin-bottom: 0;
-  border: 1px solid var(--border-color-light);
-}
-*/
-/*.figure.no-border img {
-  border: 0;
-}*/
-/*
-.figure.max-width img {
-  max-width: var(--text-max-width);
-}
-*/
-/*.figure__video video {
-  border: 1px solid var(--border-color-light);
-  border-radius: var(--radius-xl);
-}*/
-
 
 .post-time {
   display: inline;
@@ -47,16 +17,4 @@
 .cp_embed_wrapper,
 iframe {
   margin: 48px 0;
-}
-
-@media (max-width: 400px) {
-  /* iframe[src*="codepen.io"] {
-    width: 360px !important;
-  } */
-}
-
-@media (max-width: 360px) {
-  /* iframe[src*="codepen.io"] {
-    width: 320px !important;
-  } */
 }

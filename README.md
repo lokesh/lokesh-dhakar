@@ -32,7 +32,7 @@ Icons for note types from Feather Icons.
 ## Adding a Sketch
 
 - Update `src/data/sketches.json`.
-- Thumbnails: Codepen thumbs are auto-generated. For other formats, use an image with max size of 480px.
+- Thumbnails: Codepen thumbs are auto-generated at 640 x 360px. For manual creation, use an image with max size of 480px. 16:9 aspect ratio is used on desktop, and is recommended for the source image. Mobile will be displayed a bit taller.
 
 ## Updating data used on pages and posts
 
