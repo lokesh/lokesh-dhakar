@@ -145,7 +145,7 @@ h1 {
 h2 {
   margin-left: -0.03em;
   font-size: 1.5rem;
-  line-height: 1.2em;
+  line-height: 1.1em;
 }
 
 /* Used when h2 directly follows h1 */
@@ -434,6 +434,7 @@ figure.small.border img {
 
 .item-title a {
   text-decoration: none;
+  background: none;
 }
 
 .item-title a:hover {
@@ -460,12 +461,3 @@ figure.small.border img {
 .item-body p:last-of-type{
   margin-bottom: 8px;
 }
-
-@media (min-width: 800px) {
-  .item-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
-    grid-column-gap: 32px;
-  }
-}
-

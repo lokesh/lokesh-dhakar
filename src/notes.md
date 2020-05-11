@@ -30,7 +30,7 @@ pageWidth: "full"
 
 <template id="tpl-note">
   <article class="item" :class="{'item--open': open}">
-    <img :src="`/media/notes/${image}`" class="item-image" onload="" />
+    <img :src="`/media/notes/${image}`" class="item-image" />
     <h2 class="item-title">{{ title }}</h2>
     <div class="item-meta">
       <span>{{ type }}</span>
@@ -261,6 +261,14 @@ pageWidth: "full"
 }
 
 /* ITEMS -----------------------------------------*/
+
+@media (min-width: 800px) {
+  .item-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    grid-column-gap: 32px;
+  }
+}
 
 .item {
   position: relative;

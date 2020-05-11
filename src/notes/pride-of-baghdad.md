@@ -8,7 +8,7 @@ rating: 4.5
 reviewDate: May 9, 2020
 ---
 
-A short, page-turner of a graphic novel that follows four lions who escape from the Baghdad zoo during the US bombing. The story is a fable in the vain of [Animal Farm](https://www.goodreads.com/book/show/7613.Animal_Farm?from_search=true&from_srp=true&qid=8NojKB1OYo&rank=1) or [Maus](https://www.goodreads.com/book/show/15195.The_Complete_Maus), that asks questions about liberation and self-determination. It packs a lot on in a sub one-hour read and ends with a punch to the gut. I couldn't put it down once I stared.
+A short, page-turner of a graphic novel that follows four lions who escape from the Baghdad zoo during the US bombing. The story is a fable in the vain of [Animal Farm](https://www.goodreads.com/book/show/7613.Animal_Farm?from_search=true&from_srp=true&qid=8NojKB1OYo&rank=1) or [Maus](https://www.goodreads.com/book/show/15195.The_Complete_Maus), that asks questions about liberation and self-determination. It packs a lot on in a sub one-hour read and ends with a punch to the gut. I couldn't put it down once I started.
 
 The writing is paired with amazing artwork by Niko Henrichon. His renderings of the lions, which are naturalistic, and never overly anthropomorphized, are incredible. If these weren't done well it could have been a big distraction.
 

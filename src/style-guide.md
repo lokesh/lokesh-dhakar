@@ -18,29 +18,30 @@ layout: page.njk
 <section class="item-grid">
   <article class="item">
     <h2 class="item-title">Title</h2>
-    <div class="item-meta">
-      Meta
-    </div>
-    <div class="item-credits">
-      Credits
-    </div>
-    <div class="note-body">
-      Body
-    </div>
+    <div class="item-meta">Meta</div>
+    <div class="item-credits">Credits</div>
+    <div class="note-body">Body</div>
   </article>
   <article class="item">
     <h2 class="item-title">Title</h2>
-    <div class="item-meta">
-      Meta
-    </div>
-    <div class="item-credits">
-      Credits
-    </div>
-    <div class="note-body">
-      Body
-    </div>
+    <div class="item-meta">Meta</div>
+    <div class="item-credits">Credits</div>
+    <div class="note-body">Body</div>
+  </article>
+  <article class="item">
+    <h2 class="item-title">Title</h2>
+    <div class="item-meta">Meta</div>
+    <div class="item-credits">Credits</div>
+    <div class="note-body">Body</div>
+  </article>
+  <article class="item">
+    <h2 class="item-title">Title</h2>
+    <div class="item-meta">Meta</div>
+    <div class="item-credits">Credits</div>
+    <div class="note-body">Body</div>
   </article>
 </section>
+
 ---
 
 
