@@ -15,7 +15,7 @@ Duplicate an existing post's md file.
 
 The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](https://github.com/segmentio/metalsmith-permalinks/issues/81) in the master branch of the project's main repo that prevents this feature from being utilized. I've patched the project files and pointed to my fork in `package.json`.
 
-### Dev 101 posts
+### Tutorial posts
 
 - Use Giphy to capture videos.
 - For the reading time, I am using [WordCounter's](https://wordcounter.net/) estimate and multiplying by 1.5 to account for code and examples.
@@ -31,7 +31,8 @@ Icons for note types from Feather Icons.
 
 ## Adding a Sketch
 
-Use dimensions that are multiples of 240. (480, 640, 960, 1280, 1440, etc)
+- Update `src/data/sketches.json`.
+- Thumbnails: Codepen thumbs are auto-generated. For other formats, use an image with max size of 480px.
 
 ## Updating data used on pages and posts
 
