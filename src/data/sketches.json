@@ -54,13 +54,15 @@
       "title": "Image to ANSI",
       "date": "May 4, 2020",
       "tags": "Javascript",
-      "codepen": "vYNpmVW"
+      "codepen": "vYNpmVW",
+      "desc": "RGB to grayscale conversion."
     },
     {
       "title": "Image to ASCII",
       "date": "May 7, 2020",
       "tags": "Javascript",
-      "codepen": "zYvWNbZ"
+      "codepen": "zYvWNbZ",
+      "desc": "Aspect ratio trick when going from pixels to chars, skip every other pixel row."
     },
     {
       "title": "Dancing beads",
