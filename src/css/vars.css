@@ -1,0 +1,54 @@
+:root {
+  --bg-color: #fff; /* prev: #f9f9f9 */
+  --recessed-bg-color: #e3e3e3;
+  --hover-bg-color: #e9e9e9;
+  --color: #333;
+  --primary-color: #e66622;
+  --muted-color: #999;
+  --link-color: #55A3CA; /* Not used */
+  --link-bg-color: #F5Eabc;
+  --link-bg-hover-color: #e5daac;
+  --action-color: var(--primary-color); /* For buttons and other non-link controls */
+
+  /* Misc colors */
+  --green: #58df82;
+  --yellow: #f6dc58; /* FDF5CF*/
+  --orange: #fca469;
+
+  /* Body text line height */
+  --line-height: 1.5em;
+  --line-height-heading: 1.25em;
+
+  /* Borders and corners */
+  --border-color: #000;
+  --border-color-light: #d5d5d5; /* Used for inline content  */
+
+  --radius-sm: 3px; /* Small tags */
+  --radius: 4px;    /* Form controls */
+  --radius-lg: 6px; /* Media */
+  --radius-xl: 6px; /* Large media */
+
+  /* Typography */
+  --font: "Inter", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-ui: "Space Grotesk", sans-serif;
+
+  --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
+  --weight-regular: 400;
+  --weight-bold: 600;
+  --weight-x-bold: 700;
+
+  /* Forms */
+  --form-control-height-xs: 2.75em;
+  --form-control-height: 2.5em;
+
+  /*
+    Layout
+
+    All px estimates of rem values assume 16px font-size.
+  */
+  --nav-width: 8.75rem; /* 140px */
+  --gutter: 12px;
+  --page-max-width: 40rem;
+  /*--text-max-width: 35rem;*/
+}

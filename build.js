@@ -66,6 +66,7 @@ var siteBuild = metalsmith(__dirname)
         '${source}/**/*': true,
         '${source}/data/**/*': '**/*',
         '${source}/css/**/*': '**/*',
+        '${source}/components/**/*': '**/*',
         '${source}/js/**/*': '**/*',
         '${source}/layouts/**/*': '**/*'
       },
