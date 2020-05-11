@@ -5,7 +5,29 @@ layout: page.njk
 pageWidth: "full"
 ---
 
+<!-- Once I get to 20 sketches, I'll implement sorting and filter -->
+
 <h1 class="page-title">Sketches</h1>
+
+<section style="display: none;" class="collection-controls">
+  <div class="collection-filters">
+    <note-filter data-type="all">All</note-filter>
+    <note-filter data-type="movie">Movies</note-filter>
+    <note-filter data-type="tv">TV</note-filter>
+    <note-filter data-type="book">Books</note-filter>
+    <note-filter data-type="music">Music</note-filter>
+  </div>
+  <div class="collection-sort">
+    <span class="collection-sort-label">Sort by:</span>
+    <select class="select" v-model="sort">
+      <option value="review-date-desc">Review date</option>
+      <option value="rating-desc">Rating: High to low</option>
+      <option value="rating-asc">Rating: Low to high</option>
+      <option value="publish-date-desc">Publish date: New to old</option>
+      <option value="publish-date-asc">Publish date: Old to new</option>
+    </select>
+  </div>
+</section>
 
 <section class="item-grid"></section>
 
@@ -82,8 +104,14 @@ const grid = document.getElementsByClassName('item-grid')[0];
 
 function render(sketches) {
   let html = '';
+
+  // Sort
+  sketches = sketches.sort((a, b) => {
+    return (new Date(a.date) > new Date(b.date)) ? -1 : 1;
+  });
+
+  // Format an render
   sketches.forEach(sketch => {
-    
     // CODEPEN
     if (sketch.codepen) {
       if (!sketch.thumb) {

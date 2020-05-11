@@ -78,7 +78,7 @@ pageWidth: "full"
       </div>
       <div class="note-sort">
         <span class="note-sort-label">Sort by:</span>
-        <select class="note-sort-select" v-model="sort">
+        <select class="select" v-model="sort">
           <option value="review-date-desc">Review date</option>
           <option value="rating-desc">Rating: High to low</option>
           <option value="rating-asc">Rating: Low to high</option>
