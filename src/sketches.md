@@ -21,11 +21,12 @@ pageWidth: "full"
 }
 
 .item-image {
-  width: 100%;
-  padding-top: 56.25%;
+  width: 100%;  
+  padding-top: 75%;
   margin-bottom: 6px;
   background-color: var(--recessed-bg-color);
   background-size: cover;
+  /*background-position: center;*/
   border-radius: var(--radius);
 }
 
@@ -45,6 +46,11 @@ pageWidth: "full"
     grid-column-gap: 32px;
   }
 
+  /* 16:9 aspect ratio on desktop */
+  .item-image {
+    padding-top: 56.25%;
+  }
+
   .item-body {
     display: block;
   }
@@ -57,115 +63,18 @@ figcaption {
 
 
 <script>
-
-// TYPE
-const CODEPEN = 'codepen';
-
-// Tags
-const P5 = 'p5.js';
-const JS = 'Javascript';
-const PROCESSING = 'Processing';
-const PROCREATE = 'Procreate';
-
-// Categories
-const CODE = [
-  P5,
-  PROCESSING,
-];
-const DRAWING = [
-  PROCREATE,
-];
-
- // String (image or link) OR Array (images)
-
-// Load array of objects
-const sketches = [
-{
-  title: 'Joy Division equalizer',
-  date: 'Apr 4, 2020',
-  tags: P5,
-  desc: 'Spectrum analysis with <a href="https://p5js.org/reference/#/p5.FFT">p5.FFT</a>',
-  codepen: 'WNvqpbj'
-},
-{
-  title: 'Particle network',
-  date: 'Apr 8, 2020',
-  tags: P5,
-  codepen: 'wvKwdOX',
-},
-{
-  title: 'Gravitational attraction',
-  date: 'Apr 12, 2020',
-  tags: P5,
-  desc: 'Vector math with support for forces.',
-  codepen: 'RwWPjqg',
-},
-{
-  title: 'Solitare win screen',
-  date: 'Mar 28, 2020',
-  tags: P5,
-  codepen: 'OJyNzYZ',
-},
-{
-  title: 'Narwhal and jellyfish',
-  date: 'Apr 21, 2020',
-  tags: PROCREATE,
-  desc: 'Based of my nephew\'s drawing.'
-},
-{
-  title: 'Circle bursts',
-  date: 'Mar 29, 2020',
-  tags: P5,
-  codepen: 'BaoxEme',
-},
-{
-  title: 'Quadtree',
-  date: 'Apr 18, 2020',
-  tags: P5,
-  codepen: 'abvZgQG',
-},
-{
-  title: 'Mondrian quadtree',
-  date: 'Apr 19, 2020',
-  tags: P5,
-  codepen: 'rNOmrbB',
-},
-{
-  title: 'Image to ANSI',
-  date: 'May 4, 2020',
-  tags: JS,
-  codepen: 'vYNpmVW',
-},
-{
-  title: 'Image to ASCII',
-  date: 'May 7, 2020',
-  tags: JS,
-  codepen: 'zYvWNbZ',
-},
-{
-  title: 'Dancing beads',
-  date: 'Mar 27, 2020',
-  tags: P5,
-  codepen: 'ExVLJQv',
-},
-{
-  title: 'Jumpman',
-  date: 'Jun 16, 2018',
-  tags: P5,
-  desc: 'Beginnings of a platformer.',
-  codepen: 'GRpdLXe',
-},
-{
-  title: 'Lokesh Mama and fish',
-  date: 'May 7, 2020',
-  tags: PROCREATE,
-  desc: 'Based of my niece\'s drawing.'
-}
-]
+// // Categories
+// const CODE = [
+//   P5,
+//   PROCESSING,
+// ];
+// const DRAWING = [
+//   PROCREATE,
+// ];
 
 const grid = document.getElementsByClassName('item-grid')[0];
 
-function render() {
+function render(sketches) {
   let html = '';
   sketches.forEach(sketch => {
     
@@ -209,14 +118,12 @@ function render() {
   grid.innerHTML = html;
 }
 
-render()
+async function main() {
+  const response = await fetch('/data/sketches.json');
+  const json = await response.json();    
+  const sketches = json.data;
+  render(sketches);
+}
 
-// Filter
-
-// For each, html string w/template literal
-
-// Append
-
-
-
+main();
 </script>
