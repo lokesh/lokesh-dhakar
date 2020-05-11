@@ -22,17 +22,15 @@ The custom slugs are a feature of `metalsmith-permalinks`. There is a [bug](http
 
 ## Adding a Note
 
-- Add markdown file to `src/notes`.
-- Add an image in `media/notes`. Check Amazon. The image should have a tall aspect ratio.
-- Using Jimp to reize the height to 480px and save as a jpeg w/65 quality. Run `node resize.js FILE_NAME` and it will get sized and placed into the media/notes folder.
-- `npm run notes` - This uses markdown-json to create a `notes.json` file from the markdown files in the `src/notes` folder. This JSON is read by the Vue app in `notes.md`.
-
+- **Markdown**: Add a markdown file to `src/notes`. Duplicate an existing one as a starting point. Then run `npm run notes`, which uses markdown-json to create a `notes.json`. This JSON is read by the Vue app in `notes.md`.
+- **Thumbnail**: Grab an image from Google Images or Amazon. The image should have a tall aspect ratio. Then run `npm run img <FILENAME>` which will resize and place it in the media folder.
 Icons for note types from Feather Icons.
 
 ## Adding a Sketch
 
 - Update `src/data/sketches.json`.
-- Thumbnails: Codepen thumbs are auto-generated at 640 x 360px. For manual creation, use an image with max size of 480px. 16:9 aspect ratio is used on desktop, and is recommended for the source image. Mobile will be displayed a bit taller.
+- **Thumbnail**: Codepen thumbs are auto-generated at 640 x 360px. For manual creation, run `npm run img <FILENAME>` which will resize your image, generate a thumbnail, and place it in the media folder.
+  - Thumbnails are rendered at a 16:9 aspect ratio on desktop and slightly taller on mobile. For best results, use an image with a 16:9 or similar aspect ratio.
 
 ## Updating data used on pages and posts
 
