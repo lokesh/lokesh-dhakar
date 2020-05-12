@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 6px;
+  border: 1px solid var(--border-color-light);
+}
+
+tr th:first-of-type,
+tr td:first-of-type {
+  border-left: none;
+}
+
+tr th:last-of-type,
+tr td:last-of-type {
+  border-right: none;
+}
