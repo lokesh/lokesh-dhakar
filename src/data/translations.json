@@ -1,0 +1,2032 @@
+{
+  "data": {
+    "about": {
+      "en": {
+        "translation": "about",
+        "chars": 5,
+        "pixelWidth": 42
+      },
+      "zh-CN": {
+        "translation": "关于",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "acerca de",
+        "chars": 9,
+        "pixelWidth": 71
+      },
+      "ar": {
+        "translation": "حول",
+        "chars": 3,
+        "pixelWidth": 29
+      },
+      "id": {
+        "translation": "tentang",
+        "chars": 7,
+        "pixelWidth": 56
+      },
+      "pt": {
+        "translation": "sobre",
+        "chars": 5,
+        "pixelWidth": 41
+      },
+      "fr": {
+        "translation": "à propos",
+        "chars": 8,
+        "pixelWidth": 63
+      },
+      "ja": {
+        "translation": "約",
+        "chars": 1,
+        "pixelWidth": 16
+      },
+      "ru": {
+        "translation": "около",
+        "chars": 5,
+        "pixelWidth": 45
+      },
+      "de": {
+        "translation": "Über",
+        "chars": 4,
+        "pixelWidth": 36
+      }
+    },
+    "accessibility": {
+      "en": {
+        "translation": "accessibility",
+        "chars": 13,
+        "pixelWidth": 89
+      },
+      "zh-CN": {
+        "translation": "可及性",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "es": {
+        "translation": "accesibilidad",
+        "chars": 13,
+        "pixelWidth": 94
+      },
+      "ar": {
+        "translation": "إمكانية الوصول",
+        "chars": 14,
+        "pixelWidth": 95
+      },
+      "id": {
+        "translation": "aksesibilitas",
+        "chars": 13,
+        "pixelWidth": 88
+      },
+      "pt": {
+        "translation": "acessibilidade",
+        "chars": 14,
+        "pixelWidth": 102
+      },
+      "fr": {
+        "translation": "accessibilité",
+        "chars": 13,
+        "pixelWidth": 89
+      },
+      "ja": {
+        "translation": "アクセシビリティ",
+        "chars": 8,
+        "pixelWidth": 128
+      },
+      "ru": {
+        "translation": "доступность",
+        "chars": 11,
+        "pixelWidth": 95
+      },
+      "de": {
+        "translation": "Barrierefreiheit",
+        "chars": 16,
+        "pixelWidth": 108
+      }
+    },
+    "account": {
+      "en": {
+        "translation": "account",
+        "chars": 7,
+        "pixelWidth": 59
+      },
+      "zh-CN": {
+        "translation": "帐户",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "cuenta",
+        "chars": 6,
+        "pixelWidth": 50
+      },
+      "ar": {
+        "translation": "الحساب",
+        "chars": 6,
+        "pixelWidth": 51
+      },
+      "id": {
+        "translation": "Akun",
+        "chars": 4,
+        "pixelWidth": 37
+      },
+      "pt": {
+        "translation": "conta",
+        "chars": 5,
+        "pixelWidth": 41
+      },
+      "fr": {
+        "translation": "Compte",
+        "chars": 6,
+        "pixelWidth": 58
+      },
+      "ja": {
+        "translation": "アカウント",
+        "chars": 5,
+        "pixelWidth": 80
+      },
+      "ru": {
+        "translation": "Счет",
+        "chars": 4,
+        "pixelWidth": 36
+      },
+      "de": {
+        "translation": "Konto",
+        "chars": 5,
+        "pixelWidth": 42
+      }
+    },
+    "back to top": {
+      "en": {
+        "translation": "back to top",
+        "chars": 11,
+        "pixelWidth": 82
+      },
+      "zh-CN": {
+        "translation": "回到顶部",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "volver arriba",
+        "chars": 13,
+        "pixelWidth": 90
+      },
+      "ar": {
+        "translation": "عد إلى الأعلى",
+        "chars": 13,
+        "pixelWidth": 85
+      },
+      "id": {
+        "translation": "kembali ke atas",
+        "chars": 15,
+        "pixelWidth": 112
+      },
+      "pt": {
+        "translation": "de volta ao topo",
+        "chars": 16,
+        "pixelWidth": 117
+      },
+      "fr": {
+        "translation": "retour au sommet",
+        "chars": 16,
+        "pixelWidth": 128
+      },
+      "ja": {
+        "translation": "トップに戻る",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "вернуться к началу",
+        "chars": 18,
+        "pixelWidth": 147
+      },
+      "de": {
+        "translation": "Zurück nach oben",
+        "chars": 16,
+        "pixelWidth": 131
+      }
+    },
+    "careers": {
+      "en": {
+        "translation": "careers",
+        "chars": 7,
+        "pixelWidth": 54
+      },
+      "zh-CN": {
+        "translation": "事业",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "carreras",
+        "chars": 8,
+        "pixelWidth": 60
+      },
+      "ar": {
+        "translation": "وظائف",
+        "chars": 5,
+        "pixelWidth": 43
+      },
+      "id": {
+        "translation": "karier",
+        "chars": 6,
+        "pixelWidth": 41
+      },
+      "pt": {
+        "translation": "carreiras",
+        "chars": 9,
+        "pixelWidth": 63
+      },
+      "fr": {
+        "translation": "carrières",
+        "chars": 9,
+        "pixelWidth": 64
+      },
+      "ja": {
+        "translation": "キャリア",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "ru": {
+        "translation": "карьера",
+        "chars": 7,
+        "pixelWidth": 62
+      },
+      "de": {
+        "translation": "Karriere",
+        "chars": 8,
+        "pixelWidth": 57
+      }
+    },
+    "chat": {
+      "en": {
+        "translation": "chat",
+        "chars": 4,
+        "pixelWidth": 32
+      },
+      "zh-CN": {
+        "translation": "闲聊",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "charla",
+        "chars": 6,
+        "pixelWidth": 44
+      },
+      "ar": {
+        "translation": "دردشة",
+        "chars": 5,
+        "pixelWidth": 41
+      },
+      "id": {
+        "translation": "obrolan",
+        "chars": 7,
+        "pixelWidth": 55
+      },
+      "pt": {
+        "translation": "bate-papo",
+        "chars": 9,
+        "pixelWidth": 76
+      },
+      "fr": {
+        "translation": "bavarder",
+        "chars": 8,
+        "pixelWidth": 64
+      },
+      "ja": {
+        "translation": "チャット",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "ru": {
+        "translation": "чат",
+        "chars": 3,
+        "pixelWidth": 25
+      },
+      "de": {
+        "translation": "Plaudern",
+        "chars": 8,
+        "pixelWidth": 64
+      }
+    },
+    "contact": {
+      "en": {
+        "translation": "contact",
+        "chars": 7,
+        "pixelWidth": 55
+      },
+      "zh-CN": {
+        "translation": "联系",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "contacto",
+        "chars": 8,
+        "pixelWidth": 64
+      },
+      "ar": {
+        "translation": "اتصل",
+        "chars": 4,
+        "pixelWidth": 34
+      },
+      "id": {
+        "translation": "kontak",
+        "chars": 6,
+        "pixelWidth": 49
+      },
+      "pt": {
+        "translation": "contato",
+        "chars": 7,
+        "pixelWidth": 55
+      },
+      "fr": {
+        "translation": "contact",
+        "chars": 7,
+        "pixelWidth": 55
+      },
+      "ja": {
+        "translation": "連絡先",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "ru": {
+        "translation": "контакт",
+        "chars": 7,
+        "pixelWidth": 59
+      },
+      "de": {
+        "translation": "Kontakt",
+        "chars": 7,
+        "pixelWidth": 56
+      }
+    },
+    "contact us": {
+      "en": {
+        "translation": "contact us",
+        "chars": 10,
+        "pixelWidth": 76
+      },
+      "zh-CN": {
+        "translation": "联系我们",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "Contáctenos",
+        "chars": 11,
+        "pixelWidth": 93
+      },
+      "ar": {
+        "translation": "اتصل بنا",
+        "chars": 8,
+        "pixelWidth": 53
+      },
+      "id": {
+        "translation": "hubungi kami",
+        "chars": 12,
+        "pixelWidth": 97
+      },
+      "pt": {
+        "translation": "Contate-Nos",
+        "chars": 11,
+        "pixelWidth": 94
+      },
+      "fr": {
+        "translation": "Nous contacter",
+        "chars": 14,
+        "pixelWidth": 112
+      },
+      "ja": {
+        "translation": "お問い合わせ",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "связаться с нами",
+        "chars": 16,
+        "pixelWidth": 131
+      },
+      "de": {
+        "translation": "kontaktiere uns",
+        "chars": 15,
+        "pixelWidth": 111
+      }
+    },
+    "customers": {
+      "en": {
+        "translation": "customers",
+        "chars": 9,
+        "pixelWidth": 76
+      },
+      "zh-CN": {
+        "translation": "顾客",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "clientes",
+        "chars": 8,
+        "pixelWidth": 56
+      },
+      "ar": {
+        "translation": "الزبائن",
+        "chars": 7,
+        "pixelWidth": 40
+      },
+      "id": {
+        "translation": "pelanggan",
+        "chars": 9,
+        "pixelWidth": 76
+      },
+      "pt": {
+        "translation": "clientes",
+        "chars": 8,
+        "pixelWidth": 56
+      },
+      "fr": {
+        "translation": "les clients",
+        "chars": 11,
+        "pixelWidth": 72
+      },
+      "ja": {
+        "translation": "お客様",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "ru": {
+        "translation": "клиенты",
+        "chars": 7,
+        "pixelWidth": 64
+      },
+      "de": {
+        "translation": "Kunden",
+        "chars": 6,
+        "pixelWidth": 55
+      }
+    },
+    "education": {
+      "en": {
+        "translation": "education",
+        "chars": 9,
+        "pixelWidth": 72
+      },
+      "zh-CN": {
+        "translation": "教育",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "educación",
+        "chars": 9,
+        "pixelWidth": 75
+      },
+      "ar": {
+        "translation": "التعليم",
+        "chars": 7,
+        "pixelWidth": 44
+      },
+      "id": {
+        "translation": "pendidikan",
+        "chars": 10,
+        "pixelWidth": 79
+      },
+      "pt": {
+        "translation": "Educação",
+        "chars": 8,
+        "pixelWidth": 71
+      },
+      "fr": {
+        "translation": "éducation",
+        "chars": 9,
+        "pixelWidth": 72
+      },
+      "ja": {
+        "translation": "教育",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "образование",
+        "chars": 11,
+        "pixelWidth": 99
+      },
+      "de": {
+        "translation": "Bildung",
+        "chars": 7,
+        "pixelWidth": 55
+      }
+    },
+    "english": {
+      "en": {
+        "translation": "english",
+        "chars": 7,
+        "pixelWidth": 52
+      },
+      "zh-CN": {
+        "translation": "英语",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "Inglés",
+        "chars": 6,
+        "pixelWidth": 43
+      },
+      "ar": {
+        "translation": "الإنجليزية",
+        "chars": 10,
+        "pixelWidth": 59
+      },
+      "id": {
+        "translation": "Inggris",
+        "chars": 7,
+        "pixelWidth": 49
+      },
+      "pt": {
+        "translation": "Inglês",
+        "chars": 6,
+        "pixelWidth": 43
+      },
+      "fr": {
+        "translation": "Anglais",
+        "chars": 7,
+        "pixelWidth": 53
+      },
+      "ja": {
+        "translation": "英語",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "английский",
+        "chars": 10,
+        "pixelWidth": 88
+      },
+      "de": {
+        "translation": "Englisch",
+        "chars": 8,
+        "pixelWidth": 61
+      }
+    },
+    "features": {
+      "en": {
+        "translation": "features",
+        "chars": 8,
+        "pixelWidth": 59
+      },
+      "zh-CN": {
+        "translation": "特征",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "caracteristicas",
+        "chars": 15,
+        "pixelWidth": 106
+      },
+      "ar": {
+        "translation": "الميزات",
+        "chars": 7,
+        "pixelWidth": 48
+      },
+      "id": {
+        "translation": "fitur",
+        "chars": 5,
+        "pixelWidth": 29
+      },
+      "pt": {
+        "translation": "recursos",
+        "chars": 8,
+        "pixelWidth": 63
+      },
+      "fr": {
+        "translation": "traits",
+        "chars": 6,
+        "pixelWidth": 37
+      },
+      "ja": {
+        "translation": "特徴",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "функции",
+        "chars": 7,
+        "pixelWidth": 66
+      },
+      "de": {
+        "translation": "Eigenschaften",
+        "chars": 13,
+        "pixelWidth": 103
+      }
+    },
+    "guidelines": {
+      "en": {
+        "translation": "guidelines",
+        "chars": 10,
+        "pixelWidth": 74
+      },
+      "zh-CN": {
+        "translation": "指导方针",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "pautas",
+        "chars": 6,
+        "pixelWidth": 49
+      },
+      "ar": {
+        "translation": "القواعد الارشادية",
+        "chars": 17,
+        "pixelWidth": 105
+      },
+      "id": {
+        "translation": "pedoman",
+        "chars": 7,
+        "pixelWidth": 68
+      },
+      "pt": {
+        "translation": "orientações",
+        "chars": 11,
+        "pixelWidth": 85
+      },
+      "fr": {
+        "translation": "des lignes directrices",
+        "chars": 22,
+        "pixelWidth": 154
+      },
+      "ja": {
+        "translation": "ガイドライン",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "методические рекомендации",
+        "chars": 25,
+        "pixelWidth": 225
+      },
+      "de": {
+        "translation": "Richtlinien",
+        "chars": 11,
+        "pixelWidth": 75
+      }
+    },
+    "help": {
+      "en": {
+        "translation": "help",
+        "chars": 4,
+        "pixelWidth": 31
+      },
+      "zh-CN": {
+        "translation": "帮帮我",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "es": {
+        "translation": "ayuda",
+        "chars": 5,
+        "pixelWidth": 44
+      },
+      "ar": {
+        "translation": "مساعدة",
+        "chars": 6,
+        "pixelWidth": 51
+      },
+      "id": {
+        "translation": "Tolong",
+        "chars": 6,
+        "pixelWidth": 49
+      },
+      "pt": {
+        "translation": "Socorro",
+        "chars": 7,
+        "pixelWidth": 57
+      },
+      "fr": {
+        "translation": "Aidez-moi",
+        "chars": 9,
+        "pixelWidth": 73
+      },
+      "ja": {
+        "translation": "助けて",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "ru": {
+        "translation": "Помогите",
+        "chars": 8,
+        "pixelWidth": 75
+      },
+      "de": {
+        "translation": "Hilfe",
+        "chars": 5,
+        "pixelWidth": 33
+      }
+    },
+    "home": {
+      "en": {
+        "translation": "home",
+        "chars": 4,
+        "pixelWidth": 41
+      },
+      "zh-CN": {
+        "translation": "家",
+        "chars": 1,
+        "pixelWidth": 16
+      },
+      "es": {
+        "translation": "casa",
+        "chars": 4,
+        "pixelWidth": 34
+      },
+      "ar": {
+        "translation": "الصفحة الرئيسية",
+        "chars": 15,
+        "pixelWidth": 105
+      },
+      "id": {
+        "translation": "rumah",
+        "chars": 5,
+        "pixelWidth": 46
+      },
+      "pt": {
+        "translation": "casa",
+        "chars": 4,
+        "pixelWidth": 34
+      },
+      "fr": {
+        "translation": "maison",
+        "chars": 6,
+        "pixelWidth": 52
+      },
+      "ja": {
+        "translation": "家",
+        "chars": 1,
+        "pixelWidth": 16
+      },
+      "ru": {
+        "translation": "дом",
+        "chars": 3,
+        "pixelWidth": 31
+      },
+      "de": {
+        "translation": "Zuhause",
+        "chars": 7,
+        "pixelWidth": 63
+      }
+    },
+    "investors": {
+      "en": {
+        "translation": "investors",
+        "chars": 9,
+        "pixelWidth": 65
+      },
+      "zh-CN": {
+        "translation": "投资人",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "es": {
+        "translation": "inversionistas",
+        "chars": 14,
+        "pixelWidth": 98
+      },
+      "ar": {
+        "translation": "المستثمرين",
+        "chars": 10,
+        "pixelWidth": 74
+      },
+      "id": {
+        "translation": "investor",
+        "chars": 8,
+        "pixelWidth": 58
+      },
+      "pt": {
+        "translation": "investidores",
+        "chars": 12,
+        "pixelWidth": 87
+      },
+      "fr": {
+        "translation": "les investisseurs",
+        "chars": 17,
+        "pixelWidth": 119
+      },
+      "ja": {
+        "translation": "投資家",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "ru": {
+        "translation": "инвесторы",
+        "chars": 9,
+        "pixelWidth": 82
+      },
+      "de": {
+        "translation": "Investoren",
+        "chars": 10,
+        "pixelWidth": 75
+      }
+    },
+    "jobs": {
+      "en": {
+        "translation": "jobs",
+        "chars": 4,
+        "pixelWidth": 30
+      },
+      "zh-CN": {
+        "translation": "职位",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "trabajos",
+        "chars": 8,
+        "pixelWidth": 59
+      },
+      "ar": {
+        "translation": "وظائف",
+        "chars": 5,
+        "pixelWidth": 43
+      },
+      "id": {
+        "translation": "pekerjaan",
+        "chars": 9,
+        "pixelWidth": 71
+      },
+      "pt": {
+        "translation": "empregos",
+        "chars": 8,
+        "pixelWidth": 73
+      },
+      "fr": {
+        "translation": "travaux",
+        "chars": 7,
+        "pixelWidth": 53
+      },
+      "ja": {
+        "translation": "仕事",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "работы",
+        "chars": 6,
+        "pixelWidth": 55
+      },
+      "de": {
+        "translation": "Arbeitsplätze",
+        "chars": 13,
+        "pixelWidth": 96
+      }
+    },
+    "learn more": {
+      "en": {
+        "translation": "learn more",
+        "chars": 10,
+        "pixelWidth": 77
+      },
+      "zh-CN": {
+        "translation": "学到更多",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "aprende más",
+        "chars": 11,
+        "pixelWidth": 94
+      },
+      "ar": {
+        "translation": "أعرف أكثر",
+        "chars": 9,
+        "pixelWidth": 61
+      },
+      "id": {
+        "translation": "Belajarlah lagi",
+        "chars": 15,
+        "pixelWidth": 100
+      },
+      "pt": {
+        "translation": "Saber mais",
+        "chars": 10,
+        "pixelWidth": 81
+      },
+      "fr": {
+        "translation": "apprendre encore plus",
+        "chars": 21,
+        "pixelWidth": 163
+      },
+      "ja": {
+        "translation": "もっと詳しく知る",
+        "chars": 8,
+        "pixelWidth": 128
+      },
+      "ru": {
+        "translation": "учить больше",
+        "chars": 12,
+        "pixelWidth": 104
+      },
+      "de": {
+        "translation": "erfahren Sie mehr",
+        "chars": 17,
+        "pixelWidth": 130
+      }
+    },
+    "log in": {
+      "en": {
+        "translation": "log in",
+        "chars": 6,
+        "pixelWidth": 39
+      },
+      "zh-CN": {
+        "translation": "登录",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "iniciar sesión",
+        "chars": 14,
+        "pixelWidth": 94
+      },
+      "ar": {
+        "translation": "تسجيل الدخول",
+        "chars": 12,
+        "pixelWidth": 96
+      },
+      "id": {
+        "translation": "Gabung",
+        "chars": 6,
+        "pixelWidth": 57
+      },
+      "pt": {
+        "translation": "Conecte-se",
+        "chars": 10,
+        "pixelWidth": 85
+      },
+      "fr": {
+        "translation": "s'identifier",
+        "chars": 12,
+        "pixelWidth": 76
+      },
+      "ja": {
+        "translation": "ログインする",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "авторизоваться",
+        "chars": 14,
+        "pixelWidth": 119
+      },
+      "de": {
+        "translation": "Anmeldung",
+        "chars": 9,
+        "pixelWidth": 83
+      }
+    },
+    "media kit": {
+      "en": {
+        "translation": "media kit",
+        "chars": 9,
+        "pixelWidth": 66
+      },
+      "zh-CN": {
+        "translation": "媒体工具包",
+        "chars": 5,
+        "pixelWidth": 80
+      },
+      "es": {
+        "translation": "kit de medios",
+        "chars": 13,
+        "pixelWidth": 97
+      },
+      "ar": {
+        "translation": "عدة وسائط",
+        "chars": 9,
+        "pixelWidth": 70
+      },
+      "id": {
+        "translation": "kit media",
+        "chars": 9,
+        "pixelWidth": 66
+      },
+      "pt": {
+        "translation": "kit de mídia",
+        "chars": 12,
+        "pixelWidth": 83
+      },
+      "fr": {
+        "translation": "dossier de presse",
+        "chars": 17,
+        "pixelWidth": 128
+      },
+      "ja": {
+        "translation": "メディアキット",
+        "chars": 7,
+        "pixelWidth": 112
+      },
+      "ru": {
+        "translation": "медиа комплект",
+        "chars": 14,
+        "pixelWidth": 124
+      },
+      "de": {
+        "translation": "Werbemöglichkeiten",
+        "chars": 18,
+        "pixelWidth": 148
+      }
+    },
+    "more": {
+      "en": {
+        "translation": "more",
+        "chars": 4,
+        "pixelWidth": 37
+      },
+      "zh-CN": {
+        "translation": "更多",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "más",
+        "chars": 3,
+        "pixelWidth": 30
+      },
+      "ar": {
+        "translation": "أكثر",
+        "chars": 4,
+        "pixelWidth": 24
+      },
+      "id": {
+        "translation": "lebih",
+        "chars": 5,
+        "pixelWidth": 35
+      },
+      "pt": {
+        "translation": "Mais",
+        "chars": 4,
+        "pixelWidth": 34
+      },
+      "fr": {
+        "translation": "plus",
+        "chars": 4,
+        "pixelWidth": 30
+      },
+      "ja": {
+        "translation": "もっと",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "ru": {
+        "translation": "Больше",
+        "chars": 6,
+        "pixelWidth": 58
+      },
+      "de": {
+        "translation": "Mehr",
+        "chars": 4,
+        "pixelWidth": 37
+      }
+    },
+    "new & noteworthy": {
+      "en": {
+        "translation": "new & noteworthy",
+        "chars": 16,
+        "pixelWidth": 132
+      },
+      "zh-CN": {
+        "translation": "新的和值得注意的",
+        "chars": 8,
+        "pixelWidth": 128
+      },
+      "es": {
+        "translation": "nuevo y digno de mención",
+        "chars": 24,
+        "pixelWidth": 190
+      },
+      "ar": {
+        "translation": "جديد وجدير بالملاحظة",
+        "chars": 20,
+        "pixelWidth": 144
+      },
+      "id": {
+        "translation": "baru & patut diperhatikan",
+        "chars": 25,
+        "pixelWidth": 184
+      },
+      "pt": {
+        "translation": "novo e digno de nota",
+        "chars": 20,
+        "pixelWidth": 152
+      },
+      "fr": {
+        "translation": "nouveau et remarquable",
+        "chars": 22,
+        "pixelWidth": 175
+      },
+      "ja": {
+        "translation": "新しくて注目すべき",
+        "chars": 9,
+        "pixelWidth": 144
+      },
+      "ru": {
+        "translation": "новый и достойный внимания",
+        "chars": 26,
+        "pixelWidth": 227
+      },
+      "de": {
+        "translation": "neu & bemerkenswert",
+        "chars": 19,
+        "pixelWidth": 159
+      }
+    },
+    "play video": {
+      "en": {
+        "translation": "play video",
+        "chars": 10,
+        "pixelWidth": 73
+      },
+      "zh-CN": {
+        "translation": "播放视频",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "reproduce el video",
+        "chars": 18,
+        "pixelWidth": 135
+      },
+      "ar": {
+        "translation": "شغل الفيديو",
+        "chars": 11,
+        "pixelWidth": 78
+      },
+      "id": {
+        "translation": "mainkan video",
+        "chars": 13,
+        "pixelWidth": 104
+      },
+      "pt": {
+        "translation": "reproduzir vídeo",
+        "chars": 16,
+        "pixelWidth": 118
+      },
+      "fr": {
+        "translation": "lire la vidéo",
+        "chars": 13,
+        "pixelWidth": 82
+      },
+      "ja": {
+        "translation": "動画を再生します",
+        "chars": 8,
+        "pixelWidth": 128
+      },
+      "ru": {
+        "translation": "проиграть видео",
+        "chars": 15,
+        "pixelWidth": 128
+      },
+      "de": {
+        "translation": "Video abspielen",
+        "chars": 15,
+        "pixelWidth": 115
+      }
+    },
+    "point of Sale": {
+      "en": {
+        "translation": "point of Sale",
+        "chars": 13,
+        "pixelWidth": 91
+      },
+      "zh-CN": {
+        "translation": "销售点",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "es": {
+        "translation": "punto de venta",
+        "chars": 14,
+        "pixelWidth": 109
+      },
+      "ar": {
+        "translation": "نقطة البيع",
+        "chars": 10,
+        "pixelWidth": 66
+      },
+      "id": {
+        "translation": "titik penjualan",
+        "chars": 15,
+        "pixelWidth": 101
+      },
+      "pt": {
+        "translation": "ponto de venda",
+        "chars": 14,
+        "pixelWidth": 113
+      },
+      "fr": {
+        "translation": "point de vente",
+        "chars": 14,
+        "pixelWidth": 104
+      },
+      "ja": {
+        "translation": "POS",
+        "chars": 3,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "торговая точка",
+        "chars": 14,
+        "pixelWidth": 114
+      },
+      "de": {
+        "translation": "Kasse",
+        "chars": 5,
+        "pixelWidth": 43
+      }
+    },
+    "privacy policy": {
+      "en": {
+        "translation": "privacy policy",
+        "chars": 14,
+        "pixelWidth": 100
+      },
+      "zh-CN": {
+        "translation": "隐私政策",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "política de privacidad",
+        "chars": 22,
+        "pixelWidth": 154
+      },
+      "ar": {
+        "translation": "سياسة الخصوصية",
+        "chars": 14,
+        "pixelWidth": 113
+      },
+      "id": {
+        "translation": "rahasia pribadi",
+        "chars": 15,
+        "pixelWidth": 106
+      },
+      "pt": {
+        "translation": "política de Privacidade",
+        "chars": 23,
+        "pixelWidth": 163
+      },
+      "fr": {
+        "translation": "politique de confidentialité",
+        "chars": 28,
+        "pixelWidth": 192
+      },
+      "ja": {
+        "translation": "個人情報保護方針",
+        "chars": 8,
+        "pixelWidth": 128
+      },
+      "ru": {
+        "translation": "политика конфиденциальности",
+        "chars": 27,
+        "pixelWidth": 239
+      },
+      "de": {
+        "translation": "Datenschutz-Bestimmungen",
+        "chars": 24,
+        "pixelWidth": 207
+      }
+    },
+    "privacy and security": {
+      "en": {
+        "translation": "privacy and security",
+        "chars": 20,
+        "pixelWidth": 146
+      },
+      "zh-CN": {
+        "translation": "隐私与安全",
+        "chars": 5,
+        "pixelWidth": 80
+      },
+      "es": {
+        "translation": "privacidad y seguridad",
+        "chars": 22,
+        "pixelWidth": 164
+      },
+      "ar": {
+        "translation": "الخصوصية والأمن",
+        "chars": 15,
+        "pixelWidth": 112
+      },
+      "id": {
+        "translation": "privasi dan keamanan",
+        "chars": 20,
+        "pixelWidth": 157
+      },
+      "pt": {
+        "translation": "privacidade e segurança",
+        "chars": 23,
+        "pixelWidth": 177
+      },
+      "fr": {
+        "translation": "confidentialité et sécurité",
+        "chars": 27,
+        "pixelWidth": 183
+      },
+      "ja": {
+        "translation": "プライバシーとセキュリティ",
+        "chars": 13,
+        "pixelWidth": 208
+      },
+      "ru": {
+        "translation": "конфиденциальность и безопасность",
+        "chars": 33,
+        "pixelWidth": 285
+      },
+      "de": {
+        "translation": "Privatsphäre und Sicherheit",
+        "chars": 27,
+        "pixelWidth": 200
+      }
+    },
+    "products": {
+      "en": {
+        "translation": "products",
+        "chars": 8,
+        "pixelWidth": 65
+      },
+      "zh-CN": {
+        "translation": "产品展示",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "productos",
+        "chars": 9,
+        "pixelWidth": 74
+      },
+      "ar": {
+        "translation": "منتجات",
+        "chars": 6,
+        "pixelWidth": 49
+      },
+      "id": {
+        "translation": "produk",
+        "chars": 6,
+        "pixelWidth": 51
+      },
+      "pt": {
+        "translation": "produtos",
+        "chars": 8,
+        "pixelWidth": 65
+      },
+      "fr": {
+        "translation": "des produits",
+        "chars": 12,
+        "pixelWidth": 90
+      },
+      "ja": {
+        "translation": "製品",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "товары",
+        "chars": 6,
+        "pixelWidth": 55
+      },
+      "de": {
+        "translation": "Produkte",
+        "chars": 8,
+        "pixelWidth": 66
+      }
+    },
+    "resources": {
+      "en": {
+        "translation": "resources",
+        "chars": 9,
+        "pixelWidth": 72
+      },
+      "zh-CN": {
+        "translation": "资源",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "recursos",
+        "chars": 8,
+        "pixelWidth": 63
+      },
+      "ar": {
+        "translation": "مصادر",
+        "chars": 5,
+        "pixelWidth": 40
+      },
+      "id": {
+        "translation": "sumber daya",
+        "chars": 11,
+        "pixelWidth": 93
+      },
+      "pt": {
+        "translation": "Recursos",
+        "chars": 8,
+        "pixelWidth": 67
+      },
+      "fr": {
+        "translation": "Ressources",
+        "chars": 10,
+        "pixelWidth": 84
+      },
+      "ja": {
+        "translation": "資源",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "Ресурсы",
+        "chars": 7,
+        "pixelWidth": 65
+      },
+      "de": {
+        "translation": "Ressourcen",
+        "chars": 10,
+        "pixelWidth": 85
+      }
+    },
+    "search": {
+      "en": {
+        "translation": "search",
+        "chars": 6,
+        "pixelWidth": 49
+      },
+      "zh-CN": {
+        "translation": "搜索",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "buscar",
+        "chars": 6,
+        "pixelWidth": 50
+      },
+      "ar": {
+        "translation": "بحث",
+        "chars": 3,
+        "pixelWidth": 31
+      },
+      "id": {
+        "translation": "Cari",
+        "chars": 4,
+        "pixelWidth": 29
+      },
+      "pt": {
+        "translation": "procurar",
+        "chars": 8,
+        "pixelWidth": 62
+      },
+      "fr": {
+        "translation": "chercher",
+        "chars": 8,
+        "pixelWidth": 65
+      },
+      "ja": {
+        "translation": "探す",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "поиск",
+        "chars": 5,
+        "pixelWidth": 45
+      },
+      "de": {
+        "translation": "Suche",
+        "chars": 5,
+        "pixelWidth": 46
+      }
+    },
+    "shop now": {
+      "en": {
+        "translation": "shop now",
+        "chars": 8,
+        "pixelWidth": 70
+      },
+      "zh-CN": {
+        "translation": "现在去购物",
+        "chars": 5,
+        "pixelWidth": 80
+      },
+      "es": {
+        "translation": "Compra ahora",
+        "chars": 12,
+        "pixelWidth": 103
+      },
+      "ar": {
+        "translation": "تسوق الآن",
+        "chars": 9,
+        "pixelWidth": 64
+      },
+      "id": {
+        "translation": "berbelanja sekarang",
+        "chars": 19,
+        "pixelWidth": 146
+      },
+      "pt": {
+        "translation": "Compre agora",
+        "chars": 12,
+        "pixelWidth": 103
+      },
+      "fr": {
+        "translation": "Achetez maintenant",
+        "chars": 18,
+        "pixelWidth": 144
+      },
+      "ja": {
+        "translation": "今すぐ買い物",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "магазин сейчас",
+        "chars": 14,
+        "pixelWidth": 120
+      },
+      "de": {
+        "translation": "Jetzt einkaufen",
+        "chars": 15,
+        "pixelWidth": 111
+      }
+    },
+    "sign in": {
+      "en": {
+        "translation": "sign in",
+        "chars": 7,
+        "pixelWidth": 47
+      },
+      "zh-CN": {
+        "translation": "登入",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "registrarse",
+        "chars": 11,
+        "pixelWidth": 78
+      },
+      "ar": {
+        "translation": "تسجيل الدخول",
+        "chars": 12,
+        "pixelWidth": 96
+      },
+      "id": {
+        "translation": "masuk",
+        "chars": 5,
+        "pixelWidth": 48
+      },
+      "pt": {
+        "translation": "assinar em",
+        "chars": 10,
+        "pixelWidth": 78
+      },
+      "fr": {
+        "translation": "se connecter",
+        "chars": 12,
+        "pixelWidth": 95
+      },
+      "ja": {
+        "translation": "サインイン",
+        "chars": 5,
+        "pixelWidth": 80
+      },
+      "ru": {
+        "translation": "войти в систему",
+        "chars": 15,
+        "pixelWidth": 124
+      },
+      "de": {
+        "translation": "anmelden",
+        "chars": 8,
+        "pixelWidth": 71
+      }
+    },
+    "sign up": {
+      "en": {
+        "translation": "sign up",
+        "chars": 7,
+        "pixelWidth": 53
+      },
+      "zh-CN": {
+        "translation": "注册",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "Regístrate",
+        "chars": 10,
+        "pixelWidth": 74
+      },
+      "ar": {
+        "translation": "سجل",
+        "chars": 3,
+        "pixelWidth": 33
+      },
+      "id": {
+        "translation": "Daftar",
+        "chars": 6,
+        "pixelWidth": 45
+      },
+      "pt": {
+        "translation": "inscrever-se",
+        "chars": 12,
+        "pixelWidth": 90
+      },
+      "fr": {
+        "translation": "s'inscrire",
+        "chars": 10,
+        "pixelWidth": 65
+      },
+      "ja": {
+        "translation": "サインアップ",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "Подписаться",
+        "chars": 11,
+        "pixelWidth": 99
+      },
+      "de": {
+        "translation": "Anmelden",
+        "chars": 8,
+        "pixelWidth": 73
+      }
+    },
+    "skip to main content": {
+      "en": {
+        "translation": "skip to main content",
+        "chars": 20,
+        "pixelWidth": 147
+      },
+      "zh-CN": {
+        "translation": "跳到主要内容",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "es": {
+        "translation": "Saltar al contenido principal",
+        "chars": 29,
+        "pixelWidth": 201
+      },
+      "ar": {
+        "translation": "تخطي إلى المحتوى الرئيسي",
+        "chars": 24,
+        "pixelWidth": 174
+      },
+      "id": {
+        "translation": "lewati ke konten utama",
+        "chars": 22,
+        "pixelWidth": 166
+      },
+      "pt": {
+        "translation": "Ir para o conteúdo principal",
+        "chars": 28,
+        "pixelWidth": 198
+      },
+      "fr": {
+        "translation": "passer au contenu principal",
+        "chars": 27,
+        "pixelWidth": 200
+      },
+      "ja": {
+        "translation": "メインコンテンツにスキップ",
+        "chars": 13,
+        "pixelWidth": 208
+      },
+      "ru": {
+        "translation": "перейти к основному содержанию",
+        "chars": 30,
+        "pixelWidth": 266
+      },
+      "de": {
+        "translation": "zum Hauptinhalt springen",
+        "chars": 24,
+        "pixelWidth": 186
+      }
+    },
+    "stories": {
+      "en": {
+        "translation": "stories",
+        "chars": 7,
+        "pixelWidth": 49
+      },
+      "zh-CN": {
+        "translation": "故事",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "cuentos",
+        "chars": 7,
+        "pixelWidth": 58
+      },
+      "ar": {
+        "translation": "قصص",
+        "chars": 3,
+        "pixelWidth": 40
+      },
+      "id": {
+        "translation": "cerita",
+        "chars": 6,
+        "pixelWidth": 41
+      },
+      "pt": {
+        "translation": "histórias",
+        "chars": 9,
+        "pixelWidth": 61
+      },
+      "fr": {
+        "translation": "histoires",
+        "chars": 9,
+        "pixelWidth": 61
+      },
+      "ja": {
+        "translation": "物語",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "рассказы",
+        "chars": 8,
+        "pixelWidth": 72
+      },
+      "de": {
+        "translation": "Geschichten",
+        "chars": 11,
+        "pixelWidth": 91
+      }
+    },
+    "support": {
+      "en": {
+        "translation": "support",
+        "chars": 7,
+        "pixelWidth": 57
+      },
+      "zh-CN": {
+        "translation": "支持",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "apoyo",
+        "chars": 5,
+        "pixelWidth": 44
+      },
+      "ar": {
+        "translation": "الدعم",
+        "chars": 5,
+        "pixelWidth": 37
+      },
+      "id": {
+        "translation": "dukung",
+        "chars": 6,
+        "pixelWidth": 54
+      },
+      "pt": {
+        "translation": "Apoio, suporte",
+        "chars": 14,
+        "pixelWidth": 106
+      },
+      "fr": {
+        "translation": "soutien",
+        "chars": 7,
+        "pixelWidth": 53
+      },
+      "ja": {
+        "translation": "サポート",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "ru": {
+        "translation": "служба поддержки",
+        "chars": 16,
+        "pixelWidth": 146
+      },
+      "de": {
+        "translation": "Unterstützung",
+        "chars": 13,
+        "pixelWidth": 104
+      }
+    },
+    "terms": {
+      "en": {
+        "translation": "terms",
+        "chars": 5,
+        "pixelWidth": 42
+      },
+      "zh-CN": {
+        "translation": "条款",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "condiciones",
+        "chars": 11,
+        "pixelWidth": 87
+      },
+      "ar": {
+        "translation": "شروط",
+        "chars": 4,
+        "pixelWidth": 37
+      },
+      "id": {
+        "translation": "ketentuan",
+        "chars": 9,
+        "pixelWidth": 72
+      },
+      "pt": {
+        "translation": "termos",
+        "chars": 6,
+        "pixelWidth": 51
+      },
+      "fr": {
+        "translation": "termes",
+        "chars": 6,
+        "pixelWidth": 51
+      },
+      "ja": {
+        "translation": "条項",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "ru": {
+        "translation": "сроки",
+        "chars": 5,
+        "pixelWidth": 45
+      },
+      "de": {
+        "translation": "Begriffe",
+        "chars": 8,
+        "pixelWidth": 57
+      }
+    },
+    "terms of service": {
+      "en": {
+        "translation": "terms of service",
+        "chars": 16,
+        "pixelWidth": 117
+      },
+      "zh-CN": {
+        "translation": "服务条款",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "términos de servicio",
+        "chars": 20,
+        "pixelWidth": 146
+      },
+      "ar": {
+        "translation": "شروط الخدمة",
+        "chars": 11,
+        "pixelWidth": 86
+      },
+      "id": {
+        "translation": "ketentuan layanan",
+        "chars": 17,
+        "pixelWidth": 131
+      },
+      "pt": {
+        "translation": "termos de serviço",
+        "chars": 17,
+        "pixelWidth": 130
+      },
+      "fr": {
+        "translation": "conditions d'utilisation",
+        "chars": 24,
+        "pixelWidth": 162
+      },
+      "ja": {
+        "translation": "利用規約",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "ru": {
+        "translation": "условия обслуживания",
+        "chars": 20,
+        "pixelWidth": 176
+      },
+      "de": {
+        "translation": "Nutzungsbedingungen",
+        "chars": 19,
+        "pixelWidth": 165
+      }
+    },
+    "timeline": {
+      "en": {
+        "translation": "timeline",
+        "chars": 8,
+        "pixelWidth": 57
+      },
+      "zh-CN": {
+        "translation": "时间线",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "es": {
+        "translation": "cronograma",
+        "chars": 10,
+        "pixelWidth": 87
+      },
+      "ar": {
+        "translation": "الجدول الزمني",
+        "chars": 13,
+        "pixelWidth": 90
+      },
+      "id": {
+        "translation": "linimasa",
+        "chars": 8,
+        "pixelWidth": 59
+      },
+      "pt": {
+        "translation": "Linha do tempo",
+        "chars": 14,
+        "pixelWidth": 113
+      },
+      "fr": {
+        "translation": "chronologie",
+        "chars": 11,
+        "pixelWidth": 85
+      },
+      "ja": {
+        "translation": "タイムライン",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "Лента новостей",
+        "chars": 14,
+        "pixelWidth": 120
+      },
+      "de": {
+        "translation": "Zeitleiste",
+        "chars": 10,
+        "pixelWidth": 66
+      }
+    },
+    "toggle navigation": {
+      "en": {
+        "translation": "toggle navigation",
+        "chars": 17,
+        "pixelWidth": 125
+      },
+      "zh-CN": {
+        "translation": "切换导航",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "navegación de palanca",
+        "chars": 21,
+        "pixelWidth": 166
+      },
+      "ar": {
+        "translation": "تبديل التنقل",
+        "chars": 12,
+        "pixelWidth": 78
+      },
+      "id": {
+        "translation": "beralih navigasi",
+        "chars": 16,
+        "pixelWidth": 112
+      },
+      "pt": {
+        "translation": "Alternar de navegação",
+        "chars": 21,
+        "pixelWidth": 163
+      },
+      "fr": {
+        "translation": "Basculer la navigation",
+        "chars": 22,
+        "pixelWidth": 158
+      },
+      "ja": {
+        "translation": "ナビゲーションを切り替え",
+        "chars": 12,
+        "pixelWidth": 192
+      },
+      "ru": {
+        "translation": "переключить навигацию",
+        "chars": 21,
+        "pixelWidth": 187
+      },
+      "de": {
+        "translation": "Navigation umschalten",
+        "chars": 21,
+        "pixelWidth": 165
+      }
+    }
+  }
+}
