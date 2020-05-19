@@ -37,7 +37,12 @@
       {% endblock %}
     </div>
 
-    <script src="/js/site.js"></script>
+    <script type="module">
+      import { enableEmail, enableHorizontalScrollCheck } from '/js/site.js';
+
+      enableEmail();
+      enableHorizontalScrollCheck();
+    </script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2196019-1"></script>

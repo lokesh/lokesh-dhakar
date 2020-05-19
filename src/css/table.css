@@ -3,6 +3,18 @@ table {
   border-collapse: collapse;
 }
 
+table.left-align {
+    text-align: left;
+}
+
+table.top-align {
+  vertical-align: top;
+}
+
+table.no-wrap {
+  white-space: nowrap;
+}
+
 th,
 td {
   padding: 6px;

@@ -217,11 +217,25 @@ li > code {
 }
 
 /* Nav ------------ */
+
+/*
+On the translation room post, there is horizontal scrolling. The content
+shifts to the left on scroll and overlaps the nav if we don't hide it.
+ */
+@media (min-width: 800px) {
+  .hide-desktop-nav .nav {
+    opacity: 0;
+    transform: translateX(calc(var(--nav-width) * -0.5));
+    pointer-events: none;
+  }
+}
+
 .nav {
   display: flex;
   overflow-x: auto;
   margin: var(--gutter) 0 calc(var(--gutter) * 4) 0;
   padding: 0 var(--gutter);
+  transition: opacity 0.2s, transform 0.2s;
 }
 
 .nav__list {
