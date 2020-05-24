@@ -83,7 +83,7 @@ layout: post.njk
     <input @input="onInput" type="range" min="0" max="9" value="4">
     <div class="stage">
       <div class="demo-alert" :class="{'rtl': language === 'Arabic'}">
-        <div class="demo-alert-title">{{ t[3] }}</div>
+        <div class="demo-alert-title">{{ t[2] }}</div>
         <p>{{ t[0] }}</p>
         <div
           class="demo-alert-footer"
@@ -92,7 +92,7 @@ layout: post.njk
             {{ t[1]}}
           </div>
           <div class="demo-alert-button demo-alert-button-primary">
-            {{ t[2] }}
+            {{ t[3] }}
           </div>
         </div>
       </div>
@@ -118,8 +118,6 @@ layout: post.njk
 
 
 <div id="app">
-  <!-- <h2 class="subtitle">A rule of thumb for product designers.</h2> -->
-
   <h2 class="subtitle">When you're designing a product that will be translated into multiple languages, there are a few things to consider...</h2>
   
   <h2>Translations shrink and expand</h2>
@@ -163,29 +161,27 @@ layout: post.njk
 
   <p>If you're designing a UI that is rigid and you want to avoid any wrapping (e.g. a horizontal main navigation), your best bet is to do the following:</p>
   <ul>
-    <li><strong>Leave about 100% extra space.</strong> This seems like a lot, and it's much more than the rule of thumb you might have heard in the past that mentions '50% extra space', but this is closer to what I saw in my test data.</li>
-    <li><strong>Test in Russian and German early.</strong> Russian and German translations run long and also include lengthy words that pose challenges with wrapping that need to be mitigated with hyphanting in tight spaces. Use <a href="https://translate.google.com/">Google Translate</a> or find a plugin for your design application that will let you preview your design in a different language.</li>
+    <li><strong>Leave about 100% extra space.</strong> This seems like a lot, and it's much more than the rule of thumb you might have heard in the past that mentions '50% extra space', but this is closer to what I saw in my test data (see Appendix below).</li>
+    <li><strong>Test in Russian and German early.</strong> Russian and German translations run long, and also include lengthy words that might require hyphenating in tight spaces. Use <a href="https://translate.google.com/">Google Translate</a> or find a plugin for your design application that will let you preview your design in a different language.</li>
   </ul>
 
-<h2>Testing translation length</h2>
+ <p>Use these as a starting point when you're designing your UI. But remember that translation lengths vary wildly. You need to work with your translators to communicate space constraints up front, and then once the translation are in place, there is no substitue for testing. Viel Glück!</p>
 
 
-<p>Other discussions on this topic use character counts to draw conclusions, but measuring the width of the text in pixels, which takes into account character widths is more accurate. You can see my test data in the table below.</p>
+<hr />
 
-
-<p>In each column of the table below, we take a word and translate it in to ten different languages. These are then sorted from shortest to longest. The green bar shows the difference between the length of the English translation and the longest translation.</p>
-
+<h2 id="appendix">Appendix</h2>
 
 
   <div class="table-wrapper">
       <table class="left-align top-align no-wrap">
         <tr>
-          <th v-for="word in words">
+          <th v-for="word in tableWords">
             {{ word }}
           </th>
         </tr>
         <tr>
-          <td v-for="word in words">
+          <td v-for="word in tableWords">
             <div
               v-for="(translation, i) in getTranslations(word)"
               class="word-wrap"
@@ -193,7 +189,7 @@ layout: post.njk
             >
               <div
                 v-if="translation.language === sourceLanguage && percentageVisible(word)"
-                style="float: right; font-size: 11px;"
+                class="word-percent-diff"
               >
                 {{ getLongestTranslationPercentage(word) - 100 }}%
               </div>
@@ -207,13 +203,11 @@ layout: post.njk
           </td>
         </tr>
       </table>
-      
   </div>
 
+<p>This table collects a sampling of words and phrases I found repeated across popular sites. In each column of the table below, we take the word and translate it in to ten different languages. These are then sorted from shortest to longest.
 
-<p>If you skim the table, you'll see that in most cases, the amount of space required is well over over 50%. A better rule of thumb would be to assume that your copy could _double in size, a full 100%_.</p>
-
-<p>In the end, this is just a rule of thumb. Use it as a starting point when your designing your UI. But as you see in the table, the translation lengths vary wildly. There is no way around it. You need to work with your translators to communicate space constraints up front, and then once the translation are in place, test them and work your translators to finesee the word choices. Viel Glück!</p>
+<p>The color bar shows the difference between the length of the English translation and the longest translation. The percentage is measured in pixels. Other discussions usually draw conclusions using character counts, but that doesn't take into the character widths and letter-spacing that affect the final rendering.</p>
 
 <!--
 
@@ -316,7 +310,6 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 }
 
 
-
 /* ----------------------- */
 /* Demo: Fixed and Stacked */
 /* ----------------------- */
@@ -372,15 +365,19 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 }
 
 .demo-alert-button-primary {
-/*  color: white;*/
   background: var(--yellow);
 }
+
+
+/* ----- */
+/* Table */
+/* -----*/
+
 
 .table-wrapper {
   overflow-x: scroll;
   margin-left: calc(var(--gutter) * -1);
   margin-right: calc(var(--gutter) * -1);
-  /*width: calc(100vw - var(--nav-width) - 100px);*/
 }
 
 @media (min-width: 800px) {
@@ -403,39 +400,24 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
     #bbb 3px,
     #bbb 6px
   );
-  background: var(--green);
-}
-/*
-.word-wrap:last-of-type,
-.word-wrap:last-of-type .word {
   background: var(--yellow);
 }
-*/
+
 .word {
   display: inline-block;
-/*  background: #eee;*/
 }
+
 .word-base {
   background: #eee;
 }
 
-.word-tag {
-  display: inline-block;
-/*  font-size: 12px;*/
-/*  font-weight: var(--weight-bold);*/
-  margin-left: 2px;
- /* border-radius: var(--radius-sm);*/
-
+.word-percent-diff {
+  position: relative;
+  top: 3px;
+  float: right;
+  font-size: 0.6875rem;
 }
-
-.word-tag-min {
-  background: var(--yellow);
-}
-
-.word-tag-max {
-  background: var(--yellow); 
-}
-</style>
+  </style>
 
 
 
@@ -678,6 +660,18 @@ new Vue({
   },
 
   computed: {
+    tableWords() {
+      return this.words.filter(word => {
+        return ![
+          'Alert component',
+          'This modal component has a fixed width of 280px.',
+          'This time we stack the buttons to give the labels plenty of room.',
+          'Cancel',
+          'In a horizontal grid',
+          'Save document',
+        ].includes(word)
+      })
+    },
     sorted() {      
       let sorted = {};
 
@@ -740,8 +734,11 @@ new Vue({
       return translations[translations.length - 1].percentageOfBase;
     },
     percentageVisible(word) {
-      let percent = this.getLongestTranslationPercentage(word);
-      return (percent > 150);
+      let translations = this.sorted[word];
+      const obj = translations[translations.length - 1];
+      const englishPixels = obj.pixelWidth / (obj.percentageOfBase * 0.01);
+      const barWidth = obj.pixelWidth - englishPixels;
+      return barWidth > 24;
     },    
   }
 })   
