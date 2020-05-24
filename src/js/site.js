@@ -15,23 +15,21 @@ export function enableEmail() {
   });
 }
 
-const MIN_SCROLLX_HIDE_NAV = 50;
+// const MIN_SCROLLX_HIDE_NAV = 50;
+// const body = document.querySelector('body');
 
-const body = document.querySelector('body');
+// function hideNavOnHorizontalScroll() {
+//   body.classList.toggle('hide-desktop-nav', window.scrollX > MIN_SCROLLX_HIDE_NAV);
+// }
 
-function hideNavOnHorizontalScroll() {
-  body.classList.toggle('hide-desktop-nav', window.scrollX > MIN_SCROLLX_HIDE_NAV);
-}
+// export function enableHorizontalScrollCheck() {
+//   window.addEventListener(
+//     'scroll',
+//     hideNavOnHorizontalScroll,
+//     { passive: true }
+//   );
 
-// TODO: DEBOUNCE
-export function enableHorizontalScrollCheck() {
-  window.addEventListener(
-    'scroll',
-    hideNavOnHorizontalScroll,
-    { passive: true }
-  );
-
-  hideNavOnHorizontalScroll();
-};
+//   hideNavOnHorizontalScroll();
+// };
 
 

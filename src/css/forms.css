@@ -1,6 +1,8 @@
 :root{
   --control-height-xs: 2.75em;
   --control-height: 2.5em;
+
+  --control-border: 2px solid var(--color);
 }
 
 .button-text {
@@ -11,15 +13,10 @@
   font-weight: 600;
 }
 
-.checkbox {
-  margin-right: 2px;
-  position: relative;
-  bottom: 1px;
-}
-
+/* wrapper <label> */
 .checkbox-label {
   display: inline-block;
-  padding: 2px 4px 2px 0;
+  padding: 4px 4px 4px 0;
   margin-right: 4px;
   border-radius: var(--radius);
   cursor: pointer;
@@ -27,6 +24,17 @@
 
 .checkbox-label:hover {
   background-color: var(--hover-bg-color);
+}
+
+/* <input> */
+.checkbox {
+  margin-right: 2px;
+}
+
+/* text node for label */
+.checkbox-label span {
+  position: relative;
+  top: -1px;
 }
 
 
@@ -42,7 +50,7 @@
   font-size: 0.9375rem;
   font-weight: var(--weight-bold);
   border-radius: var(--radius);
-  border: 2px solid var(--color);
+  border: var(--control-border);
   cursor: pointer;
   background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
   background-repeat: no-repeat;
@@ -58,21 +66,51 @@
   }
 }
 
-/* RADIO BUTTON ------------------------------------------------------------- */
+/* RANGE ------------------------------------------------------------------- */
 
-.radio-button {
+.range {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
 
+  --thumb-border: 2px solid ;
+}
+.range:focus {
+  outline: none;
 }
 
-.radio-button-control {
-
+.range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12px;
+  cursor: pointer;
+  background: var(--recessed-bg-color);
+  border-radius: var(--radius);
+}
+.range::-webkit-slider-thumb {
+  border: var(--control-border);
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
 }
 
-.radio-button-label {
-
+.range::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
 }
 
-.radio-button-icon {
-
+.range::-moz-range-thumb {
+  border: var(--control-border);
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
 }
-

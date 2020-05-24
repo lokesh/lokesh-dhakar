@@ -1,5 +1,161 @@
 {
   "data": {
+    "Alert component": {
+      "en": {
+        "translation": "Alert component",
+        "chars": 15,
+        "pixelWidth": 121
+      },
+      "zh-CN": {
+        "translation": "警报组件",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "Componente de alerta",
+        "chars": 20,
+        "pixelWidth": 162
+      },
+      "ar": {
+        "translation": "مكون التنبيه",
+        "chars": 12,
+        "pixelWidth": 77
+      },
+      "id": {
+        "translation": "Komponen peringatan",
+        "chars": 19,
+        "pixelWidth": 160
+      },
+      "pt": {
+        "translation": "Componente de alerta",
+        "chars": 20,
+        "pixelWidth": 162
+      },
+      "fr": {
+        "translation": "Composant d'alerte",
+        "chars": 18,
+        "pixelWidth": 143
+      },
+      "ja": {
+        "translation": "警告コンポーネント",
+        "chars": 9,
+        "pixelWidth": 144
+      },
+      "ru": {
+        "translation": "Компонент оповещения",
+        "chars": 20,
+        "pixelWidth": 183
+      },
+      "de": {
+        "translation": "Alarmkomponente",
+        "chars": 15,
+        "pixelWidth": 133
+      }
+    },
+    "This modal component has a fixed width of 280px.": {
+      "en": {
+        "translation": "This modal component has a fixed width of 280px.",
+        "chars": 48,
+        "pixelWidth": 366
+      },
+      "zh-CN": {
+        "translation": "此模式组件的固定宽度为280px。",
+        "chars": 17,
+        "pixelWidth": 238
+      },
+      "es": {
+        "translation": "Este componente modal tiene un ancho fijo de 280 px.",
+        "chars": 52,
+        "pixelWidth": 394
+      },
+      "ar": {
+        "translation": "يبلغ عرض هذا المكون المشروط 280 بكسل.",
+        "chars": 37,
+        "pixelWidth": 275
+      },
+      "id": {
+        "translation": "Komponen modal ini memiliki lebar tetap 280px.",
+        "chars": 46,
+        "pixelWidth": 347
+      },
+      "pt": {
+        "translation": "Este componente modal tem uma largura fixa de 280px.",
+        "chars": 52,
+        "pixelWidth": 405
+      },
+      "fr": {
+        "translation": "Ce composant modal a une largeur fixe de 280px.",
+        "chars": 47,
+        "pixelWidth": 360
+      },
+      "ja": {
+        "translation": "このモーダルコンポーネントの幅は280pxに固定されています。",
+        "chars": 31,
+        "pixelWidth": 462
+      },
+      "ru": {
+        "translation": "Этот модальный компонент имеет фиксированную ширину 280 пикселей.",
+        "chars": 65,
+        "pixelWidth": 565
+      },
+      "de": {
+        "translation": "Diese modale Komponente hat eine feste Breite von 280px.",
+        "chars": 56,
+        "pixelWidth": 429
+      }
+    },
+    "This time we stack the buttons to give the labels plenty of room.": {
+      "en": {
+        "translation": "This time we stack the buttons to give the labels plenty of room.",
+        "chars": 65,
+        "pixelWidth": 463
+      },
+      "zh-CN": {
+        "translation": "这次，我们堆叠按钮以给标签留出足够的空间。",
+        "chars": 21,
+        "pixelWidth": 336
+      },
+      "es": {
+        "translation": "Esta vez apilamos los botones para darles mucho espacio a las etiquetas.",
+        "chars": 72,
+        "pixelWidth": 530
+      },
+      "ar": {
+        "translation": "هذه المرة نقوم بتكديس الأزرار لإعطاء الملصقات مساحة كبيرة.",
+        "chars": 58,
+        "pixelWidth": 388
+      },
+      "id": {
+        "translation": "Kali ini kami menumpuk tombol untuk memberi label banyak ruang.",
+        "chars": 63,
+        "pixelWidth": 482
+      },
+      "pt": {
+        "translation": "Desta vez, empilhamos os botões para dar bastante espaço às etiquetas.",
+        "chars": 70,
+        "pixelWidth": 529
+      },
+      "fr": {
+        "translation": "Cette fois, nous empilons les boutons pour donner beaucoup d'espace aux étiquettes.",
+        "chars": 83,
+        "pixelWidth": 622
+      },
+      "ja": {
+        "translation": "今回はボタンを重ねて、ラベルに十分なスペースを与えます。",
+        "chars": 28,
+        "pixelWidth": 448
+      },
+      "ru": {
+        "translation": "На этот раз мы складываем кнопки, чтобы дать ярлыкам достаточно места.",
+        "chars": 70,
+        "pixelWidth": 579
+      },
+      "de": {
+        "translation": "Diesmal stapeln wir die Knöpfe, um den Etiketten viel Platz zu geben.",
+        "chars": 69,
+        "pixelWidth": 498
+      }
+    },
     "about": {
       "en": {
         "translation": "about",
@@ -206,6 +362,58 @@
         "translation": "Zurück nach oben",
         "chars": 16,
         "pixelWidth": 131
+      }
+    },
+    "Cancel": {
+      "en": {
+        "translation": "Cancel",
+        "chars": 6,
+        "pixelWidth": 50
+      },
+      "zh-CN": {
+        "translation": "取消",
+        "chars": 2,
+        "pixelWidth": 32
+      },
+      "es": {
+        "translation": "Cancelar",
+        "chars": 8,
+        "pixelWidth": 64
+      },
+      "ar": {
+        "translation": "إلغاء",
+        "chars": 5,
+        "pixelWidth": 29
+      },
+      "id": {
+        "translation": "Membatalkan",
+        "chars": 11,
+        "pixelWidth": 98
+      },
+      "pt": {
+        "translation": "Cancelar",
+        "chars": 8,
+        "pixelWidth": 64
+      },
+      "fr": {
+        "translation": "Annuler",
+        "chars": 7,
+        "pixelWidth": 56
+      },
+      "ja": {
+        "translation": "キャンセル",
+        "chars": 5,
+        "pixelWidth": 80
+      },
+      "ru": {
+        "translation": "Отмена",
+        "chars": 6,
+        "pixelWidth": 59
+      },
+      "de": {
+        "translation": "Stornieren",
+        "chars": 10,
+        "pixelWidth": 75
       }
     },
     "careers": {
@@ -778,6 +986,58 @@
         "translation": "Zuhause",
         "chars": 7,
         "pixelWidth": 63
+      }
+    },
+    "In a horizontal grid": {
+      "en": {
+        "translation": "In a horizontal grid",
+        "chars": 20,
+        "pixelWidth": 134
+      },
+      "zh-CN": {
+        "translation": "在水平网格中",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "es": {
+        "translation": "En una cuadrícula horizontal",
+        "chars": 28,
+        "pixelWidth": 204
+      },
+      "ar": {
+        "translation": "في شبكة أفقية",
+        "chars": 13,
+        "pixelWidth": 90
+      },
+      "id": {
+        "translation": "Dalam kotak horizontal",
+        "chars": 22,
+        "pixelWidth": 165
+      },
+      "pt": {
+        "translation": "Em uma grade horizontal",
+        "chars": 23,
+        "pixelWidth": 180
+      },
+      "fr": {
+        "translation": "Dans une grille horizontale",
+        "chars": 27,
+        "pixelWidth": 192
+      },
+      "ja": {
+        "translation": "水平グリッド",
+        "chars": 6,
+        "pixelWidth": 96
+      },
+      "ru": {
+        "translation": "В горизонтальной сетке",
+        "chars": 22,
+        "pixelWidth": 183
+      },
+      "de": {
+        "translation": "In einem horizontalen Raster",
+        "chars": 28,
+        "pixelWidth": 206
       }
     },
     "investors": {
@@ -1456,6 +1716,58 @@
         "pixelWidth": 85
       }
     },
+    "Save document": {
+      "en": {
+        "translation": "Save document",
+        "chars": 13,
+        "pixelWidth": 112
+      },
+      "zh-CN": {
+        "translation": "保存文件",
+        "chars": 4,
+        "pixelWidth": 64
+      },
+      "es": {
+        "translation": "Guardar documento",
+        "chars": 17,
+        "pixelWidth": 145
+      },
+      "ar": {
+        "translation": "حفظ المستند",
+        "chars": 11,
+        "pixelWidth": 86
+      },
+      "id": {
+        "translation": "Simpan dokumen",
+        "chars": 14,
+        "pixelWidth": 126
+      },
+      "pt": {
+        "translation": "Salvar documento",
+        "chars": 16,
+        "pixelWidth": 131
+      },
+      "fr": {
+        "translation": "Enregistrer le document",
+        "chars": 23,
+        "pixelWidth": 174
+      },
+      "ja": {
+        "translation": "ドキュメントを保存",
+        "chars": 9,
+        "pixelWidth": 144
+      },
+      "ru": {
+        "translation": "Сохранить документ",
+        "chars": 18,
+        "pixelWidth": 158
+      },
+      "de": {
+        "translation": "Dokument speichern",
+        "chars": 18,
+        "pixelWidth": 151
+      }
+    },
     "search": {
       "en": {
         "translation": "search",
@@ -2026,6 +2338,58 @@
         "translation": "Navigation umschalten",
         "chars": 21,
         "pixelWidth": 165
+      }
+    },
+    "Two cards": {
+      "en": {
+        "translation": "Two cards",
+        "chars": 9,
+        "pixelWidth": 74
+      },
+      "zh-CN": {
+        "translation": "两张卡",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "es": {
+        "translation": "Dos cartas",
+        "chars": 10,
+        "pixelWidth": 78
+      },
+      "ar": {
+        "translation": "بطاقتان",
+        "chars": 7,
+        "pixelWidth": 48
+      },
+      "id": {
+        "translation": "Dua kartu",
+        "chars": 9,
+        "pixelWidth": 71
+      },
+      "pt": {
+        "translation": "Dois cartões",
+        "chars": 12,
+        "pixelWidth": 91
+      },
+      "fr": {
+        "translation": "Deux cartes",
+        "chars": 11,
+        "pixelWidth": 87
+      },
+      "ja": {
+        "translation": "2枚のカード",
+        "chars": 6,
+        "pixelWidth": 89
+      },
+      "ru": {
+        "translation": "Две карты",
+        "chars": 9,
+        "pixelWidth": 78
+      },
+      "de": {
+        "translation": "Zwei Karten",
+        "chars": 11,
+        "pixelWidth": 87
       }
     }
   }

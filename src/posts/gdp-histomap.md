@@ -155,6 +155,10 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
   display: block;
 }
 
+#histomap-form .checkbox-label span {
+  top: -2px;
+}
+
 #histomap-customize-button {
   display: block;
   text-align: left;
@@ -275,7 +279,7 @@ function buildForm() {
     countriesHTML += `
       <label class="checkbox-label">
         <input class="checkbox" type="checkbox" name="country" value="${country}" checked>
-        ${country}
+        <span>${country}</span>
       </label>`;
   });
 

@@ -95,7 +95,7 @@ h1 {
 h2 {
   margin-left: -0.03em;
   font-size: 1.5rem;
-  line-height: 1.1em;
+  line-height: 1.15em;
 }
 
 /* Used when h2 directly follows h1 */
@@ -217,18 +217,6 @@ li > code {
 }
 
 /* Nav ------------ */
-
-/*
-On the translation room post, there is horizontal scrolling. The content
-shifts to the left on scroll and overlaps the nav if we don't hide it.
- */
-@media (min-width: 800px) {
-  .hide-desktop-nav .nav {
-    opacity: 0;
-    transform: translateX(calc(var(--nav-width) * -0.5));
-    pointer-events: none;
-  }
-}
 
 .nav {
   display: flex;
