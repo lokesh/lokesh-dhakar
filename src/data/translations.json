@@ -156,6 +156,58 @@
         "pixelWidth": 498
       }
     },
+    "Good luck": {
+      "en": {
+        "translation": "Good luck",
+        "chars": 9,
+        "pixelWidth": 73
+      },
+      "zh-CN": {
+        "translation": "祝好运",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "es": {
+        "translation": "Buena suerte",
+        "chars": 12,
+        "pixelWidth": 96
+      },
+      "ar": {
+        "translation": "حظا طيبا وفقك الله",
+        "chars": 18,
+        "pixelWidth": 120
+      },
+      "id": {
+        "translation": "Semoga berhasil",
+        "chars": 15,
+        "pixelWidth": 121
+      },
+      "pt": {
+        "translation": "Boa sorte",
+        "chars": 9,
+        "pixelWidth": 70
+      },
+      "fr": {
+        "translation": "Bonne chance",
+        "chars": 12,
+        "pixelWidth": 103
+      },
+      "ja": {
+        "translation": "幸運を",
+        "chars": 3,
+        "pixelWidth": 48
+      },
+      "ru": {
+        "translation": "Удачи",
+        "chars": 5,
+        "pixelWidth": 45
+      },
+      "de": {
+        "translation": "Viel Glück",
+        "chars": 10,
+        "pixelWidth": 72
+      }
+    },
     "about": {
       "en": {
         "translation": "about",

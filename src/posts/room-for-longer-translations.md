@@ -103,18 +103,19 @@ layout: post.njk
   </div>
 </template>
 
-
-<template id="translation-table">
-  <div>
-    Table
+<template id="good-luck">
+  <div class="good-luck">
+    <input @input="onInput" type="range" min="0" max="9" value="4">
+    <div class="stage">
+      <div class="word" v-for="n in 7">
+        {{ translation }}
+      </div>
+    </div>
   </div>
 </template>
 
-<template id="demo-nav">
-  <div>
-    Nav
-  </div>
-</template>
+
+
 
 
 <div id="app">
@@ -165,7 +166,14 @@ layout: post.njk
     <li><strong>Test in Russian and German early.</strong> Russian and German translations run long, and also include lengthy words that might require hyphenating in tight spaces. Use <a href="https://translate.google.com/">Google Translate</a> or find a plugin for your design application that will let you preview your design in a different language.</li>
   </ul>
 
- <p>Use these as a starting point when you're designing your UI. But remember that translation lengths vary wildly. You need to work with your translators to communicate space constraints up front, and then once the translation are in place, there is no substitue for testing. Viel Glück!</p>
+  <p>Use these as a starting point when you're designing your UI. But remember that translation lengths vary wildly. You need to work with your translators to communicate space constraints up front, and then once the translation are in place, there is no substitue for testing.</p>
+
+  <good-luck
+    v-if="loaded"
+    class="demo"
+    :translations="sorted"
+  >
+  </good-luck> 
 
 
 <hr />
@@ -228,6 +236,7 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 
 <link rel="stylesheet" href="/css/forms.css" />
 <link rel="stylesheet" href="/css/table.css" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 
 <style>
 .demo {
@@ -249,12 +258,6 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.language {
-/*  font-weight: var(--weight-bold);*/
-  /*font-size: 0.875rem;*/
-/*  color: var(--muted-color);*/
 }
 
 /* ----------------------- */
@@ -367,6 +370,29 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 .demo-alert-button-primary {
   background: var(--yellow);
 }
+
+
+/* --------- */
+/* Good luck */
+/* --------- */
+
+.good-luck .word {
+  display: block;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1em;
+  color: white;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px var(--color);
+}
+
+.good-luck .word:nth-child(4) {
+  color: var(--color); 
+}
+
+
+
+
 
 
 /* ----- */
@@ -552,9 +578,9 @@ Vue.component('demo-fixed', {
 })
 
 
-/* ---------- */
+/* ------------ */
 /* demo-stacked */
-/* ---------- */
+/* ------------ */
 
 Vue.component('demo-stacked', {
   template: '#demo-stacked',
@@ -593,44 +619,41 @@ Vue.component('demo-stacked', {
 })
 
 
-Vue.component('translation-table', {
-  template: '#translation-table',
+/* --------- */
+/* good-luck */
+/* --------- */
+
+Vue.component('good-luck', {
+  template: '#good-luck',
+  
   props: {
-    words: Array,
+    translations: Array,
+  },
+
+  data() {
+    return {
+      index: this.translations['Good luck'].findIndex(t => t.language === 'en'),
+    };
+  },
+
+  computed: {
+    translation() {
+      return this.translations['Good luck'][this.index].translation;
+    },
+  },
+
+  methods: {
+    onInput(e) {
+      this.index = e.target.value;
+    },
   },
 })
 
-Vue.component('demo-nav', {
-  template: '#demo-nav',
-  props: {
-    words: Array,
-  },
-})
-
-// Attach event handler
-
-  // Get preset array
-
-  // On change, update value of text
-
-
-// Create function to set value from array
 
 
 
-// Onload, set value
 
-/*
-{
-  about: {
-    de: {
-      translation: 'Über',
-      chars: 4
-      pixelWidth: 36,
-    }
-  }
-}
-*/
+
 
 const ENGLISH = 'en';
 
@@ -669,6 +692,7 @@ new Vue({
           'Cancel',
           'In a horizontal grid',
           'Save document',
+          'Good luck',
         ].includes(word)
       })
     },
