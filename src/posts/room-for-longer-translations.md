@@ -166,7 +166,7 @@ layout: post.njk
     <li><strong>Test in Russian and German early.</strong> Russian and German translations run long, and also include lengthy words that might require hyphenating in tight spaces. Use <a href="https://translate.google.com/">Google Translate</a> or find a plugin for your design application that will let you preview your design in a different language.</li>
   </ul>
 
-  <p>Use these as a starting point when you're designing your UI. But remember that translation lengths vary wildly. You need to work with your translators to communicate space constraints up front, and then once the translation are in place, there is no substitue for testing.</p>
+  <p>Use these as a starting point when you're designing your UI. But remember that translation lengths vary wildly. You need to work with your translators to communicate space constraints up front, and then once the translations are in place, there is no substitute for testing.</p>
 
   <good-luck
     v-if="loaded"
