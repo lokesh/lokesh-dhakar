@@ -378,7 +378,7 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 
 .good-luck .word {
   display: block;
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 1em;
   color: white;
