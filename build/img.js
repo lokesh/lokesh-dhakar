@@ -37,6 +37,9 @@ async function saveNoteImage(file) {
   img.quality(NOTE_QUALITY)
   await resizeImage(img, { maxHeight: NOTE_MAX_HEIGHT });
   await img.writeAsync(`${NOTE_PATH}/${fileNoExt}.jpg`);
+
+  // Clean up
+  fs.unlinkSync(file);
 }
 
 async function saveSketchImages(file) {

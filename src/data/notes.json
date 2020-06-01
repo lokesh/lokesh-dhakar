@@ -60,18 +60,6 @@
       "id": "notes__blade-runner"
     },
     {
-      "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3.5,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
-    },
-    {
       "type": "movie",
       "title": "Cold War",
       "creator": "Paweł Pawlikowski",
@@ -84,18 +72,6 @@
       "id": "notes__cold-war"
     },
     {
-      "type": "movie",
-      "title": "La Jetée",
-      "creator": "Chris Marker",
-      "publishDate": 1962,
-      "image": "la-jetee.jpg",
-      "rating": 4,
-      "reviewDate": "September 13, 2019",
-      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
-      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
-      "id": "notes__la-jetee"
-    },
-    {
       "type": "book",
       "title": "Hatching Twitter",
       "creator": "Nick Bilton",
@@ -106,6 +82,42 @@
       "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
       "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
       "id": "notes__hatching-twitter"
+    },
+    {
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3.5,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
+    },
+    {
+      "type": "book",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "creator": "Douglas Adams",
+      "publishDate": 1979,
+      "image": "hitchhikers-guide-to-the-galaxy.jpg",
+      "rating": 4,
+      "reviewDate": "May 31, 2020",
+      "contents": "<p>Still smart and funny 40-years later, the book entered the cultural zeitgeist for good reason.</p>\n<p>This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). Best enjoyed by letting yourself go and embracing the absurdity of it all.</p>\n<p>&quot;The ships hung in the sky in much the same way that bricks don&#39;t.&quot;</p>\n<!--\n  2.1 Arthur Dent\n  2.2 Ford Prefect\n  2.3 Zaphod Beeblebrox\n  2.4 Marvin the Paranoid Android\n-->\n",
+      "excerpt": "<p>Still smart and funny 40-years later, the book entered the cultural zeitgeist for good reason.</p>",
+      "id": "notes__hitchhikers-guide-to-the-galaxy"
+    },
+    {
+      "type": "movie",
+      "title": "La Jetée",
+      "creator": "Chris Marker",
+      "publishDate": 1962,
+      "image": "la-jetee.jpg",
+      "rating": 4,
+      "reviewDate": "September 13, 2019",
+      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
+      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
+      "id": "notes__la-jetee"
     },
     {
       "type": "movie",
@@ -193,18 +205,6 @@
     },
     {
       "type": "movie",
-      "title": "Pather Panchali",
-      "creator": "Satyajit Ray",
-      "publishDate": 1955,
-      "image": "pather-panchali.jpg",
-      "rating": 3,
-      "reviewDate": "October 29, 2019",
-      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
-      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
-      "id": "notes__pather-panchali"
-    },
-    {
-      "type": "movie",
       "title": "Okja",
       "creator": "Bong Joon Ho",
       "publishDate": 2017,
@@ -214,6 +214,30 @@
       "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
       "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
       "id": "notes__okja"
+    },
+    {
+      "type": "movie",
+      "title": "Only the Young",
+      "creator": "Jason Tippet & Elizabeth Mims",
+      "publishDate": 2012,
+      "image": "only-the-young.jpg",
+      "rating": 3.5,
+      "reviewDate": "May 31, 2020",
+      "contents": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&#39;s simple, but genuine, and more affecting than I expected – not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>\n",
+      "excerpt": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&#39;s simple, but genuine, and more affecting than I expected – not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>",
+      "id": "notes__only-the-young"
+    },
+    {
+      "type": "movie",
+      "title": "Pather Panchali",
+      "creator": "Satyajit Ray",
+      "publishDate": 1955,
+      "image": "pather-panchali.jpg",
+      "rating": 3,
+      "reviewDate": "October 29, 2019",
+      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
+      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
+      "id": "notes__pather-panchali"
     },
     {
       "type": "book",
@@ -228,18 +252,6 @@
       "id": "notes__pride-of-baghdad"
     },
     {
-      "type": "music",
-      "title": "Purple Mountains",
-      "creator": "Purple Mountains",
-      "publishDate": 2019,
-      "image": "purple-mountains.jpg",
-      "rating": 4.5,
-      "reviewDate": "Aug 17, 2019",
-      "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
-      "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
-      "id": "notes__purple-mountains"
-    },
-    {
       "type": "movie",
       "title": "Primary",
       "creator": "Robert Drew",
@@ -250,6 +262,18 @@
       "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
       "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
       "id": "notes__primary"
+    },
+    {
+      "type": "music",
+      "title": "Purple Mountains",
+      "creator": "Purple Mountains",
+      "publishDate": 2019,
+      "image": "purple-mountains.jpg",
+      "rating": 4.5,
+      "reviewDate": "Aug 17, 2019",
+      "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
+      "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
+      "id": "notes__purple-mountains"
     },
     {
       "type": "movie",
@@ -348,18 +372,6 @@
       "id": "notes__three-body-problem"
     },
     {
-      "type": "tv",
-      "title": "Tiger King",
-      "creator": "Eric Goode & Rebecca Chaiklin",
-      "publishDate": 2020,
-      "image": "tiger-king.jpg",
-      "rating": 1.5,
-      "reviewDate": "Apr 15, 2020",
-      "contents": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>\n<p>If you haven&#39;t seen it yet, skip it. The show has serious issues. The directors, who sound like they originally had good intentions to raise awareness about big cat captivity issues, lost their way. They plotted and edited their way into trashy tv to get ratings. They had a great opportunity, and a captive audience, but sadly, more people are discussing Joe Exotic and trolling Carole Bakin, instead of considering the welfare of the animals. Joe Exotic has become a folk hero and most viewers have a distorted view of the situation.</p>\n",
-      "excerpt": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>",
-      "id": "notes__tiger-king"
-    },
-    {
       "type": "movie",
       "title": "Tokyo Story",
       "creator": "Yasujiro Ozu",
@@ -370,6 +382,18 @@
       "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
       "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
       "id": "notes__tokyo-story"
+    },
+    {
+      "type": "tv",
+      "title": "Tiger King",
+      "creator": "Eric Goode & Rebecca Chaiklin",
+      "publishDate": 2020,
+      "image": "tiger-king.jpg",
+      "rating": 1.5,
+      "reviewDate": "Apr 15, 2020",
+      "contents": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>\n<p>If you haven&#39;t seen it yet, skip it. The show has serious issues. The directors, who sound like they originally had good intentions to raise awareness about big cat captivity issues, lost their way. They plotted and edited their way into trashy tv to get ratings. They had a great opportunity, and a captive audience, but sadly, more people are discussing Joe Exotic and trolling Carole Bakin, instead of considering the welfare of the animals. Joe Exotic has become a folk hero and most viewers have a distorted view of the situation.</p>\n",
+      "excerpt": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>",
+      "id": "notes__tiger-king"
     }
   ]
 }
