@@ -36,18 +36,6 @@
       "id": "notes__apollo-11"
     },
     {
-      "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
-    },
-    {
       "type": "movie",
       "title": "Blade Runner",
       "creator": "Ridley Scott",
@@ -58,6 +46,18 @@
       "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
       "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
       "id": "notes__blade-runner"
+    },
+    {
+      "type": "book",
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
     },
     {
       "type": "movie",
@@ -73,18 +73,6 @@
     },
     {
       "type": "book",
-      "title": "Hatching Twitter",
-      "creator": "Nick Bilton",
-      "publishDate": 2013,
-      "image": "hatching-twitter.jpg",
-      "rating": 1.5,
-      "reviewDate": "Feb 15, 2019",
-      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
-      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
-      "id": "notes__hatching-twitter"
-    },
-    {
-      "type": "book",
       "title": "Digital Gold",
       "creator": "Nathaniel Popper",
       "publishDate": 2016,
@@ -97,15 +85,39 @@
     },
     {
       "type": "book",
+      "title": "Hatching Twitter",
+      "creator": "Nick Bilton",
+      "publishDate": 2013,
+      "image": "hatching-twitter.jpg",
+      "rating": 1.5,
+      "reviewDate": "Feb 15, 2019",
+      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
+      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
+      "id": "notes__hatching-twitter"
+    },
+    {
+      "type": "book",
       "title": "The Hitchhiker's Guide to the Galaxy",
       "creator": "Douglas Adams",
       "publishDate": 1979,
       "image": "hitchhikers-guide-to-the-galaxy.jpg",
       "rating": 4,
       "reviewDate": "May 31, 2020",
-      "contents": "<p>Still smart and funny 40-years later, the book entered the cultural zeitgeist for good reason.</p>\n<p>This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). Best enjoyed by letting yourself go and embracing the absurdity of it all.</p>\n<p>&quot;The ships hung in the sky in much the same way that bricks don&#39;t.&quot;</p>\n<!--\n  2.1 Arthur Dent\n  2.2 Ford Prefect\n  2.3 Zaphod Beeblebrox\n  2.4 Marvin the Paranoid Android\n-->\n",
-      "excerpt": "<p>Still smart and funny 40-years later, the book entered the cultural zeitgeist for good reason.</p>",
+      "contents": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>\n<p>This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). It&#39;s best enjoyed by letting yourself go and embracing the absurdity of it all.</p>\n<p>Writing comedy is hard, and in this book, Douglas Adams somehow makes it look easy. It&#39;s packed with one-liners and gags, and Adams is fearless in trying wild ideas.</p>\n<p>&quot;The ships hung in the sky in much the same way that bricks don&#39;t.&quot;</p>\n<!--\n  2.1 Arthur Dent\n  2.2 Ford Prefect\n  2.3 Zaphod Beeblebrox\n  2.4 Marvin the Paranoid Android\n-->\n",
+      "excerpt": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>",
       "id": "notes__hitchhikers-guide-to-the-galaxy"
+    },
+    {
+      "type": "movie",
+      "title": "Isle of Dogs",
+      "creator": "Wes Anderson",
+      "publishDate": 2018,
+      "image": "isle-of-dogs.jpg",
+      "rating": 4,
+      "reviewDate": "Feb 9, 2019",
+      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
+      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
+      "id": "notes__isle-of-dogs"
     },
     {
       "type": "movie",
@@ -130,18 +142,6 @@
       "contents": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>\n<p>But there is so much to love about this movie. Seeing SF from a different set of eyes was refreshing and welcome. In terms of the craft, the <a href=\"https://www.youtube.com/watch?v=9Oy_HiDFfVo\">opening scene</a> is an instant classic, the score and the re-envisioning of classic tunes is great, and the way it captures the SF cityscape is gorgeous and not like anything I&#39;ve seen before. It is a very impressive debut film, and I&#39;m excited to what Talbot and crew do next.</p>\n",
       "excerpt": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>",
       "id": "notes__last-black-man-in-san-francisco"
-    },
-    {
-      "type": "movie",
-      "title": "Isle of Dogs",
-      "creator": "Wes Anderson",
-      "publishDate": 2018,
-      "image": "isle-of-dogs.jpg",
-      "rating": 4,
-      "reviewDate": "Feb 9, 2019",
-      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
-      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
-      "id": "notes__isle-of-dogs"
     },
     {
       "type": "movie",
@@ -372,18 +372,6 @@
       "id": "notes__three-body-problem"
     },
     {
-      "type": "movie",
-      "title": "Tokyo Story",
-      "creator": "Yasujiro Ozu",
-      "publishDate": 1953,
-      "image": "tokyo-story.jpg",
-      "rating": 5,
-      "reviewDate": "April 2, 2019",
-      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
-      "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
-      "id": "notes__tokyo-story"
-    },
-    {
       "type": "tv",
       "title": "Tiger King",
       "creator": "Eric Goode & Rebecca Chaiklin",
@@ -394,6 +382,18 @@
       "contents": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>\n<p>If you haven&#39;t seen it yet, skip it. The show has serious issues. The directors, who sound like they originally had good intentions to raise awareness about big cat captivity issues, lost their way. They plotted and edited their way into trashy tv to get ratings. They had a great opportunity, and a captive audience, but sadly, more people are discussing Joe Exotic and trolling Carole Bakin, instead of considering the welfare of the animals. Joe Exotic has become a folk hero and most viewers have a distorted view of the situation.</p>\n",
       "excerpt": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>",
       "id": "notes__tiger-king"
+    },
+    {
+      "type": "movie",
+      "title": "Tokyo Story",
+      "creator": "Yasujiro Ozu",
+      "publishDate": 1953,
+      "image": "tokyo-story.jpg",
+      "rating": 5,
+      "reviewDate": "April 2, 2019",
+      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
+      "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
+      "id": "notes__tokyo-story"
     }
   ]
 }

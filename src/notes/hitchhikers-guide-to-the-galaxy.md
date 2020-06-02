@@ -8,9 +8,12 @@ rating: 4
 reviewDate: May 31, 2020
 ---
 
-Still smart and funny 40-years later, the book entered the cultural zeitgeist for good reason.
+Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.
 
-This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). Best enjoyed by letting yourself go and embracing the absurdity of it all.
+This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). It's best enjoyed by letting yourself go and embracing the absurdity of it all.
+
+Writing comedy is hard, and in this book, Douglas Adams somehow makes it look easy. It's packed with one-liners and gags, and Adams is fearless in trying wild ideas.
+
 
 "The ships hung in the sky in much the same way that bricks don't."
 
