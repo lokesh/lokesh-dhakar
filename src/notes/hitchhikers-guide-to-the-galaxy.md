@@ -18,8 +18,13 @@ Writing comedy is hard, and in this book, Douglas Adams somehow makes it look ea
 "The ships hung in the sky in much the same way that bricks don't."
 
 <!--
-  2.1 Arthur Dent
-  2.2 Ford Prefect
-  2.3 Zaphod Beeblebrox
-  2.4 Marvin the Paranoid Android
+  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.
+
+  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.
+
+  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.
+
+  Trillian - w/Zaphod
+
+  Marvin the Paranoid Android
 -->
