@@ -130,7 +130,7 @@ layout: post.njk
   ></demo-shrink-expand>
 
   <h2>Stay flexible, let them wrap</h2>
-  <p>The best way to handle this variability is to accomodate text wrapping to multiple lines. Do this smartly, and you can preserve much of the aesthetics and symmetry you intended with your original design.</p>
+  <p>The best way to handle this variability is to accomodate text wrapping to multiple lines. Do this smartly, and you can preserve much of the aesthetics and symmetry you intended with your original design. In the following design, we keep the card heights the same.</p>
   <demo-fluid
     v-if="loaded"
     class="demo"
