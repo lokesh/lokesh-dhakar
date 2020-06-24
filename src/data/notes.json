@@ -13,18 +13,6 @@
   "data": [
     {
       "type": "movie",
-      "title": "American Factory",
-      "creator": "Steven Bognar & Julia Reichert",
-      "publishDate": 2019,
-      "image": "american-factory.jpg",
-      "rating": 3.5,
-      "reviewDate": "August 31, 2019",
-      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
-      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
-      "id": "notes__american-factory"
-    },
-    {
-      "type": "movie",
       "title": "Blade Runner",
       "creator": "Ridley Scott",
       "publishDate": 1982,
@@ -73,18 +61,6 @@
     },
     {
       "type": "book",
-      "title": "Hatching Twitter",
-      "creator": "Nick Bilton",
-      "publishDate": 2013,
-      "image": "hatching-twitter.jpg",
-      "rating": 1.5,
-      "reviewDate": "Feb 15, 2019",
-      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
-      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
-      "id": "notes__hatching-twitter"
-    },
-    {
-      "type": "book",
       "title": "Digital Gold",
       "creator": "Nathaniel Popper",
       "publishDate": 2016,
@@ -97,15 +73,27 @@
     },
     {
       "type": "book",
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "creator": "Douglas Adams",
-      "publishDate": 1979,
-      "image": "hitchhikers-guide-to-the-galaxy.jpg",
-      "rating": 4,
-      "reviewDate": "May 31, 2020",
-      "contents": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>\n<p>This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). It&#39;s best enjoyed by letting yourself go and embracing the absurdity of it all.</p>\n<p>Writing comedy is hard, and in this book, Douglas Adams somehow makes it look easy. It&#39;s packed with one-liners and gags, and Adams is fearless in trying wild ideas.</p>\n<p>&quot;The ships hung in the sky in much the same way that bricks don&#39;t.&quot;</p>\n<!--\n  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.\n\n  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.\n\n  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.\n\n  Trillian - w/Zaphod\n\n  Marvin the Paranoid Android\n-->\n",
-      "excerpt": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>",
-      "id": "notes__hitchhikers-guide-to-the-galaxy"
+      "title": "Hatching Twitter",
+      "creator": "Nick Bilton",
+      "publishDate": 2013,
+      "image": "hatching-twitter.jpg",
+      "rating": 1.5,
+      "reviewDate": "Feb 15, 2019",
+      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
+      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
+      "id": "notes__hatching-twitter"
+    },
+    {
+      "type": "movie",
+      "title": "American Factory",
+      "creator": "Steven Bognar & Julia Reichert",
+      "publishDate": 2019,
+      "image": "american-factory.jpg",
+      "rating": 3.5,
+      "reviewDate": "August 31, 2019",
+      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
+      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
+      "id": "notes__american-factory"
     },
     {
       "type": "movie",
@@ -118,6 +106,18 @@
       "contents": "<p>It&#39;s unclear who the audience for this movie is. Fans of the books will be disappointed by the changes, and those unfamiliar with the source material will be confused. There are still some funny moments to enjoy, but there are also many jokes that didn&#39;t translate well to the screen.</p>\n<p>As for the plot, the movie plucks material from the first book, throws in a couple of new side adventures, adds a love story, and switches to a happy ending. It all feels cobbled together. The absurdity is preserved, but the undercurrent of sadness and nihilism is lost. </p>\n<!--\n  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.\n\n  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.\n\n  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.\n\n  Trillian - w/Zaphod\n\n  Marvin the Paranoid Android\n-->\n",
       "excerpt": "<p>It&#39;s unclear who the audience for this movie is. Fans of the books will be disappointed by the changes, and those unfamiliar with the source material will be confused. There are still some funny moments to enjoy, but there are also many jokes that didn&#39;t translate well to the screen.</p>",
       "id": "notes__hitchihikers-guide-to-the-galaxy-movie"
+    },
+    {
+      "type": "book",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "creator": "Douglas Adams",
+      "publishDate": 1979,
+      "image": "hitchhikers-guide-to-the-galaxy.jpg",
+      "rating": 4,
+      "reviewDate": "May 31, 2020",
+      "contents": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>\n<p>This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). It&#39;s best enjoyed by letting yourself go and embracing the absurdity of it all.</p>\n<p>Writing comedy is hard, and in this book, Douglas Adams somehow makes it look easy. It&#39;s packed with one-liners and gags, and Adams is fearless in trying wild ideas.</p>\n<p>&quot;The ships hung in the sky in much the same way that bricks don&#39;t.&quot;</p>\n<!--\n  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.\n\n  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.\n\n  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.\n\n  Trillian - w/Zaphod\n\n  Marvin the Paranoid Android\n-->\n",
+      "excerpt": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>",
+      "id": "notes__hitchhikers-guide-to-the-galaxy"
     },
     {
       "type": "music",
@@ -149,7 +149,7 @@
       "creator": "Patti Smith",
       "publishDate": 2010,
       "image": "just-kids.jpg",
-      "rating": 4.5,
+      "rating": 4,
       "reviewDate": "June 22, 2020",
       "contents": "<p>This is a story of Patti Smith&#39;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&#39;t that. The focus is on Patti and Robert. It&#39;s about their life-long relationship, and how they support each other and their art, and how the art, in the end – is less important than the relationship they form.</p>\n<blockquote>\n<p>&quot;Make your interactions with people transformational, not just transactional.&quot;</p>\n</blockquote>\n<p>The book takes place in New York City in the late 60s and early 70s, and Patti eventually is in the thick of the scene. She runs in to Andy Warhol, William S Burroughs, John Cale, et al and spends time at The Chelsea Hotel, Max&#39;s Kansas City, and CBGB. Though not the main focus of the book, you&#39;ll witness the the art and punk scene develop in the periphery.</p>\n<blockquote>\n<p>&quot;..to be an artist is to see what others cannot.&quot;</p>\n</blockquote>\n<!--\nPatti's writing is lucid and simple. This is the different from a recent read, _The Goldfinch_, in which Donna Tartt's uses a literary style – long winding sentences and florid descriptions. Both manage to tell their stories without their word and grammar choices becoming distractions, though I am still in awe of Tartt's mastery of the craft.\n-->\n",
       "excerpt": "<p>This is a story of Patti Smith&#39;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&#39;t that. The focus is on Patti and Robert. It&#39;s about their life-long relationship, and how they support each other and their art, and how the art, in the end – is less important than the relationship they form.</p>",
@@ -241,6 +241,18 @@
     },
     {
       "type": "movie",
+      "title": "Okja",
+      "creator": "Bong Joon Ho",
+      "publishDate": 2017,
+      "image": "okja.jpg",
+      "rating": 4,
+      "reviewDate": "Dec 27, 2019",
+      "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
+      "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
+      "id": "notes__okja"
+    },
+    {
+      "type": "movie",
       "title": "Only the Young",
       "creator": "Jason Tippet & Elizabeth Mims",
       "publishDate": 2012,
@@ -264,18 +276,6 @@
       "id": "notes__pather-panchali"
     },
     {
-      "type": "movie",
-      "title": "Okja",
-      "creator": "Bong Joon Ho",
-      "publishDate": 2017,
-      "image": "okja.jpg",
-      "rating": 4,
-      "reviewDate": "Dec 27, 2019",
-      "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
-      "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
-      "id": "notes__okja"
-    },
-    {
       "type": "book",
       "title": "Pride of Baghdad",
       "creator": "Brian K. Vaughan",
@@ -288,18 +288,6 @@
       "id": "notes__pride-of-baghdad"
     },
     {
-      "type": "movie",
-      "title": "Primary",
-      "creator": "Robert Drew",
-      "publishDate": 1960,
-      "image": "primary.jpg",
-      "rating": 3.5,
-      "reviewDate": "Sept 1, 2019",
-      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
-      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
-      "id": "notes__primary"
-    },
-    {
       "type": "music",
       "title": "Purple Mountains",
       "creator": "Purple Mountains",
@@ -310,6 +298,18 @@
       "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
       "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
       "id": "notes__purple-mountains"
+    },
+    {
+      "type": "movie",
+      "title": "Primary",
+      "creator": "Robert Drew",
+      "publishDate": 1960,
+      "image": "primary.jpg",
+      "rating": 3.5,
+      "reviewDate": "Sept 1, 2019",
+      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
+      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
+      "id": "notes__primary"
     },
     {
       "type": "movie",

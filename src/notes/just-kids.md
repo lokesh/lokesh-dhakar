@@ -4,7 +4,7 @@ title: Just Kids
 creator: Patti Smith
 publishDate: 2010
 image: just-kids.jpg
-rating: 4.5
+rating: 4
 reviewDate: June 22, 2020
 ---
 
