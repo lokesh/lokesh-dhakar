@@ -139,7 +139,7 @@ layout: post.njk
 
   <h2>But in some UI, you might want to avoid text wrapping</h2>
   
-  <p>In this case, we want to keep our button labels uniform and on a single line. Unforuntately, our primary button in yellow wraps to two lines in a few languages.</p>
+  <p>In this case, we want to keep our button labels uniform and on a single line. Unfortunately, our primary button in yellow wraps to two lines in a few languages.</p>
 
   <demo-fixed
     v-if="loaded"

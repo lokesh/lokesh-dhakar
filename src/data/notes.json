@@ -13,15 +13,15 @@
   "data": [
     {
       "type": "movie",
-      "title": "Blade Runner",
-      "creator": "Ridley Scott",
-      "publishDate": 1982,
-      "image": "blade-runner.jpg",
-      "rating": 4,
-      "reviewDate": "Oct 19, 2018",
-      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
-      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
-      "id": "notes__blade-runner"
+      "title": "American Factory",
+      "creator": "Steven Bognar & Julia Reichert",
+      "publishDate": 2019,
+      "image": "american-factory.jpg",
+      "rating": 3.5,
+      "reviewDate": "August 31, 2019",
+      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
+      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
+      "id": "notes__american-factory"
     },
     {
       "type": "movie",
@@ -34,6 +34,18 @@
       "contents": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>\n<p>The restored 70mm NASA footage is gorgeous and worth the price of admission. The score is stellar too. </p>\n<p>I finished this movie marvelling at the accomplishment, and inspired to take on more ambitious challenges myself.</p>\n",
       "excerpt": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>",
       "id": "notes__apollo-11"
+    },
+    {
+      "type": "movie",
+      "title": "Blade Runner",
+      "creator": "Ridley Scott",
+      "publishDate": 1982,
+      "image": "blade-runner.jpg",
+      "rating": 4,
+      "reviewDate": "Oct 19, 2018",
+      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
+      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
+      "id": "notes__blade-runner"
     },
     {
       "type": "book",
@@ -61,18 +73,6 @@
     },
     {
       "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
-    },
-    {
-      "type": "book",
       "title": "Hatching Twitter",
       "creator": "Nick Bilton",
       "publishDate": 2013,
@@ -84,16 +84,16 @@
       "id": "notes__hatching-twitter"
     },
     {
-      "type": "movie",
-      "title": "American Factory",
-      "creator": "Steven Bognar & Julia Reichert",
-      "publishDate": 2019,
-      "image": "american-factory.jpg",
-      "rating": 3.5,
-      "reviewDate": "August 31, 2019",
-      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
-      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
-      "id": "notes__american-factory"
+      "type": "book",
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
     },
     {
       "type": "movie",
@@ -106,18 +106,6 @@
       "contents": "<p>It&#39;s unclear who the audience for this movie is. Fans of the books will be disappointed by the changes, and those unfamiliar with the source material will be confused. There are still some funny moments to enjoy, but there are also many jokes that didn&#39;t translate well to the screen.</p>\n<p>As for the plot, the movie plucks material from the first book, throws in a couple of new side adventures, adds a love story, and switches to a happy ending. It all feels cobbled together. The absurdity is preserved, but the undercurrent of sadness and nihilism is lost. </p>\n<!--\n  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.\n\n  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.\n\n  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.\n\n  Trillian - w/Zaphod\n\n  Marvin the Paranoid Android\n-->\n",
       "excerpt": "<p>It&#39;s unclear who the audience for this movie is. Fans of the books will be disappointed by the changes, and those unfamiliar with the source material will be confused. There are still some funny moments to enjoy, but there are also many jokes that didn&#39;t translate well to the screen.</p>",
       "id": "notes__hitchihikers-guide-to-the-galaxy-movie"
-    },
-    {
-      "type": "book",
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "creator": "Douglas Adams",
-      "publishDate": 1979,
-      "image": "hitchhikers-guide-to-the-galaxy.jpg",
-      "rating": 4,
-      "reviewDate": "May 31, 2020",
-      "contents": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>\n<p>This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). It&#39;s best enjoyed by letting yourself go and embracing the absurdity of it all.</p>\n<p>Writing comedy is hard, and in this book, Douglas Adams somehow makes it look easy. It&#39;s packed with one-liners and gags, and Adams is fearless in trying wild ideas.</p>\n<p>&quot;The ships hung in the sky in much the same way that bricks don&#39;t.&quot;</p>\n<!--\n  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.\n\n  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.\n\n  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.\n\n  Trillian - w/Zaphod\n\n  Marvin the Paranoid Android\n-->\n",
-      "excerpt": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>",
-      "id": "notes__hitchhikers-guide-to-the-galaxy"
     },
     {
       "type": "music",
@@ -133,15 +121,15 @@
     },
     {
       "type": "movie",
-      "title": "Isle of Dogs",
-      "creator": "Wes Anderson",
-      "publishDate": 2018,
-      "image": "isle-of-dogs.jpg",
+      "title": "La Jetée",
+      "creator": "Chris Marker",
+      "publishDate": 1962,
+      "image": "la-jetee.jpg",
       "rating": 4,
-      "reviewDate": "Feb 9, 2019",
-      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
-      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
-      "id": "notes__isle-of-dogs"
+      "reviewDate": "September 13, 2019",
+      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
+      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
+      "id": "notes__la-jetee"
     },
     {
       "type": "book",
@@ -156,16 +144,28 @@
       "id": "notes__just-kids"
     },
     {
-      "type": "movie",
-      "title": "La Jetée",
-      "creator": "Chris Marker",
-      "publishDate": 1962,
-      "image": "la-jetee.jpg",
+      "type": "book",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "creator": "Douglas Adams",
+      "publishDate": 1979,
+      "image": "hitchhikers-guide-to-the-galaxy.jpg",
       "rating": 4,
-      "reviewDate": "September 13, 2019",
-      "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
-      "excerpt": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
-      "id": "notes__la-jetee"
+      "reviewDate": "May 31, 2020",
+      "contents": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>\n<p>This was my first reading of the book in over 15 years and it was as enjoyable as ever. The humor is clever, offbeat, and quintessentially British (think Monty Python). It&#39;s best enjoyed by letting yourself go and embracing the absurdity of it all.</p>\n<p>Writing comedy is hard, and in this book, Douglas Adams somehow makes it look easy. It&#39;s packed with one-liners and gags, and Adams is fearless in trying wild ideas.</p>\n<p>&quot;The ships hung in the sky in much the same way that bricks don&#39;t.&quot;</p>\n<!--\n  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.\n\n  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.\n\n  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.\n\n  Trillian - w/Zaphod\n\n  Marvin the Paranoid Android\n-->\n",
+      "excerpt": "<p>Still smart and funny 40-years later – the book entered the cultural zeitgeist for good reason.</p>",
+      "id": "notes__hitchhikers-guide-to-the-galaxy"
+    },
+    {
+      "type": "movie",
+      "title": "Isle of Dogs",
+      "creator": "Wes Anderson",
+      "publishDate": 2018,
+      "image": "isle-of-dogs.jpg",
+      "rating": 4,
+      "reviewDate": "Feb 9, 2019",
+      "contents": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>\n<p>I do have two complaints. The acting is stilted and often stiff. This really goes for all Wes Anderson movies. And second, partly because of the first reason, the dogs don&#39;t <em>feel</em> like dogs. They seem like human Wes Anderson characters voicing dogs.</p>\n<p>These complaints could take down other movies. But they don&#39;t here. The movie is beautiful. The plot is playful. The music is incredible. All together, it&#39;s a super fun movie.</p>\n<p>I do want to mention the discussion around cultural appropriation and the representation of Japanese in this movie. I didn&#39;t note any issues while watching the movie and read about the concerns after. Justin Chang&#39;s <a href=\"https://www.latimes.com/entertainment/movies/la-et-mn-isle-of-dogs-review-20180321-story.html\">review in the LA Times</a> is worth a read. It&#39;s a nuanced issue and after reading some more, including interviews from Wes, I&#39;m staying in the <em>cultural appreciation</em>, not <em>appropriaton</em>, camp.</p>\n",
+      "excerpt": "<p>Wes Anderson movies always have wonderful production design. But with the absolute control you get with stop motion animation, he is really on a different level here. I recommend clicking around the <a href=\"https://www.youtube.com/watch?v=rTfSg77jrJw\">10 min extended preview</a> to see for yourself.</p>",
+      "id": "notes__isle-of-dogs"
     },
     {
       "type": "movie",
@@ -192,16 +192,16 @@
       "id": "notes__minding-the-gap"
     },
     {
-      "type": "book",
-      "title": "Neither Wolf Nor Dog",
-      "creator": "Kent Nerburn",
-      "publishDate": 1994,
-      "image": "neither-wolf-nor-dog.jpg",
-      "rating": 4.5,
-      "reviewDate": "April 16, 2019",
-      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
-      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
-      "id": "notes__neither-wolf-nor-dog"
+      "type": "movie",
+      "title": "Obey Giant",
+      "creator": "James Moll",
+      "publishDate": 2019,
+      "image": "obey-giant.jpg",
+      "rating": 1.5,
+      "reviewDate": "Mar 24, 2020",
+      "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
+      "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>",
+      "id": "notes__obey-giant"
     },
     {
       "type": "book",
@@ -216,28 +216,16 @@
       "id": "notes__neuromancer"
     },
     {
-      "type": "movie",
-      "title": "Obey Giant",
-      "creator": "James Moll",
-      "publishDate": 2019,
-      "image": "obey-giant.jpg",
-      "rating": 1.5,
-      "reviewDate": "Mar 24, 2020",
-      "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
-      "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>",
-      "id": "notes__obey-giant"
-    },
-    {
-      "type": "movie",
-      "title": "Of Fathers And Sons",
-      "creator": "Talal Derki",
-      "publishDate": 2017,
-      "image": "of-fathers-and-sons.jpg",
-      "rating": 4,
-      "reviewDate": "March 19, 2019",
-      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
-      "excerpt": "<p>This was eye-opening.</p>",
-      "id": "notes__of-fathers-and-sons"
+      "type": "book",
+      "title": "Neither Wolf Nor Dog",
+      "creator": "Kent Nerburn",
+      "publishDate": 1994,
+      "image": "neither-wolf-nor-dog.jpg",
+      "rating": 4.5,
+      "reviewDate": "April 16, 2019",
+      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
+      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
+      "id": "notes__neither-wolf-nor-dog"
     },
     {
       "type": "movie",
@@ -250,6 +238,18 @@
       "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
       "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
       "id": "notes__okja"
+    },
+    {
+      "type": "movie",
+      "title": "Of Fathers And Sons",
+      "creator": "Talal Derki",
+      "publishDate": 2017,
+      "image": "of-fathers-and-sons.jpg",
+      "rating": 4,
+      "reviewDate": "March 19, 2019",
+      "contents": "<p>This was eye-opening.</p>\n<p>The documentary captures the lives of a Jihadist family in Syria over the span of two years. You witness the children&#39;s early radicalization and desentization to violence, and even get to to see their routine at the militant training camps. The access the director was able to get under the guise of a sympathetic photojournalist is really astounding.</p>\n<p>It&#39;s shot in a fly-on-the-wall style. So no narration, a slow pace, and intimate, often-labored shots. The framing isn&#39;t sympathetic to their ideology, but it does give you time to see the subjects as people. We are all human beings after all.</p>\n",
+      "excerpt": "<p>This was eye-opening.</p>",
+      "id": "notes__of-fathers-and-sons"
     },
     {
       "type": "movie",
@@ -288,18 +288,6 @@
       "id": "notes__pride-of-baghdad"
     },
     {
-      "type": "music",
-      "title": "Purple Mountains",
-      "creator": "Purple Mountains",
-      "publishDate": 2019,
-      "image": "purple-mountains.jpg",
-      "rating": 4.5,
-      "reviewDate": "Aug 17, 2019",
-      "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
-      "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
-      "id": "notes__purple-mountains"
-    },
-    {
       "type": "movie",
       "title": "Primary",
       "creator": "Robert Drew",
@@ -310,6 +298,18 @@
       "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
       "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
       "id": "notes__primary"
+    },
+    {
+      "type": "music",
+      "title": "Purple Mountains",
+      "creator": "Purple Mountains",
+      "publishDate": 2019,
+      "image": "purple-mountains.jpg",
+      "rating": 4.5,
+      "reviewDate": "Aug 17, 2019",
+      "contents": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>\n<p>Time to dig into his back catalog with the Silver Jews.</p>\n",
+      "excerpt": "<p>A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.</p>",
+      "id": "notes__purple-mountains"
     },
     {
       "type": "movie",
@@ -360,18 +360,6 @@
       "id": "notes__stranger-than-paradise"
     },
     {
-      "type": "movie",
-      "title": "Tampopo",
-      "creator": "Juzo Itami",
-      "publishDate": 1985,
-      "image": "tampopo.jpg",
-      "rating": 2.5,
-      "reviewDate": "May 25, 2020",
-      "contents": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders – strangers coming to to town to help a homesteader.</p>\n<p>The main arc follows our posse as they work to develop the perfect ramen bowl. It&#39;s a fun watch and you will 100% crave noodles! Interspersed in the main arc are a set of vignettes that are a each a few minutes long. They have food themes, but the characters and plots are indpendent of the main arc. This is where the absurdist style comes in to play. It gets weird. Unforunately, these are hit or miss for me, and with more misses than hits. I commend the effort, as the movie wouldn&#39;t be as interesting or original if it was a straightfoward self-improvement story.</p>\n<p>My two favorite scenes: <a href=\"https://www.youtube.com/watch?v=6WrkdTrrwew\">eating with the ramen master</a> and <a href=\"https://www.youtube.com/watch?v=RRVLqUpHDJE\">ordering at the French restaurant</a>.</p>\n",
-      "excerpt": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders – strangers coming to to town to help a homesteader.</p>",
-      "id": "notes__tampopo"
-    },
-    {
       "type": "book",
       "title": "The Goldfinch",
       "creator": "Donna Tartt",
@@ -382,6 +370,18 @@
       "contents": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>\n<p>The writing wasn&#39;t flawless though. I had issue with the pacing and tonal shifts. They might have been done for effect, but they left me enjoying certain sections of the book, New York, much more than others, Las Vegas.</p>\n<p>I listened to the audiobook, which has excellent narration and was incredibly easy-to-follow. This is a perfect book to listen to.</p>\n<blockquote>\n<p>&quot;If you care for a thing enough, it takes on a life of its own, doesn&#39;t it? And isn&#39;t the whole point of things—beautiful things—that they connect you to some larger beauty? Those first images that crack your heart wide open and you spend the rest of your life chasing, or trying to recapture, in one way or another?”&quot; - Donna Tartt</p>\n</blockquote>\n",
       "excerpt": "<p>Wonderfully written. The language is beautiful and lush, and Donna Tartt manages to sustain it for over 700 pages. It&#39;s an impressive feat, and she is clearly a master of her craft. The subject matter is well-researched, and I love the small detours into the art world she takes us on, as well as her musing on philosophy and art.</p>",
       "id": "notes__the-goldfinch"
+    },
+    {
+      "type": "movie",
+      "title": "Tampopo",
+      "creator": "Juzo Itami",
+      "publishDate": 1985,
+      "image": "tampopo.jpg",
+      "rating": 2.5,
+      "reviewDate": "May 25, 2020",
+      "contents": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders – strangers coming to to town to help a homesteader.</p>\n<p>The main arc follows our posse as they work to develop the perfect ramen bowl. It&#39;s a fun watch and you will 100% crave noodles! Interspersed in the main arc are a set of vignettes that are a each a few minutes long. They have food themes, but the characters and plots are indpendent of the main arc. This is where the absurdist style comes in to play. It gets weird. Unforunately, these are hit or miss for me, and with more misses than hits. I commend the effort, as the movie wouldn&#39;t be as interesting or original if it was a straightfoward self-improvement story.</p>\n<p>My two favorite scenes: <a href=\"https://www.youtube.com/watch?v=6WrkdTrrwew\">eating with the ramen master</a> and <a href=\"https://www.youtube.com/watch?v=RRVLqUpHDJE\">ordering at the French restaurant</a>.</p>\n",
+      "excerpt": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders – strangers coming to to town to help a homesteader.</p>",
+      "id": "notes__tampopo"
     },
     {
       "type": "book",
