@@ -42,6 +42,7 @@ Fetch the latest data from Strava and parse it.
 npm run strava
 ```
 
+<!--
 ### Adding a video to Inspiration page
 
 Run the fetch-vid shell script and specify the Youtube video id and the title you would
@@ -52,6 +53,7 @@ Before running the script, check the requirements listed at the top of the file.
 ```
 ./fetch-vid.sh
 ```
+-->
 
 ## Developing
 
