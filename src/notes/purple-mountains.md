@@ -9,5 +9,3 @@ reviewDate: Aug 17, 2019
 ---
 
 A really beautiful listen all the way through. The poignant lyrics hit a little harder now. RIP David Berman.
-
-Time to dig into his back catalog with the Silver Jews.

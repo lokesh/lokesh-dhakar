@@ -30,20 +30,24 @@ pageWidth: "full"
 
 <template id="tpl-note">
   <article class="item" :class="{'item--open': open}">
-    <img :src="`/media/notes/${image}`" class="item-image" />
-    <h2 class="item-title">{{ title }}</h2>
-    <div class="item-meta">
-      <span>{{ type }}</span>
-      ·
-      <span class="item-review-date">{{ formattedReviewDate }}</span>
+    <div class="item-image-column">
+      <img :src="`/media/notes/${image}`" class="item-image" />
     </div>
-    <note-rating v-if="rating" :stars="rating"></note-rating>
-    <div class="item-credits">
-      <span class="item-publish-date">{{ publishDate }}</span> | <span>{{ creatorLabel }}</span>
-    </div>
-    <div v-if="contents" class="item-body" @click="open = true">
-      <div v-if="open" v-html="contents"></div>
-      <div v-else v-html="excerpt" class="item-excerpt"></div>
+    <div class="item-text-column">
+      <h2 class="item-title">{{ title }}</h2>
+      <div class="item-meta">
+        <span>{{ type }}</span>
+        ·
+        <span class="item-review-date">{{ formattedReviewDate }}</span>
+      </div>
+      <note-rating v-if="rating" :stars="rating"></note-rating>
+      <div class="item-credits">
+        <span class="item-publish-date">{{ publishDate }}</span> | <span>{{ creatorLabel }}</span>
+      </div>
+      <div v-if="contents" class="item-body" @click="open = true">
+        <div v-if="open" v-html="contents"></div>
+        <div v-else v-html="excerpt" class="item-excerpt"></div>
+      </div>
     </div>
   </article>
 </template>
@@ -90,15 +94,7 @@ pageWidth: "full"
     <section class="item-grid" :class="`notes-sort-${sort}`">
       <note
         v-for="note in displayNotes"
-        :type="note.type"
-        :title="note.title"
-        :creator="note.creator"
-        :publish-date="note.publishDate"
-        :image="note.image"
-        :rating="note.rating"
-        :review-date="note.reviewDate"
-        :excerpt="note.excerpt"
-        :contents="note.contents"
+        v-bind="note"
       >
       </note>    
     </section>
@@ -259,11 +255,14 @@ pageWidth: "full"
   overflow: hidden;
 }
 
-.item-image {
+.item-image-column {
   float: left;
   width: 6rem;
-  min-height: 6rem;
   margin: 0 1rem 0.5rem 0;
+}
+
+.item-image {
+  width: 100%;
   background: var(--recessed-bg-color);
   border-radius: var(--radius);
 }
@@ -284,16 +283,6 @@ pageWidth: "full"
 
 .item--open::after {
   display: none;
-}
-
-/*
-margin = img width + margin 
-On hover, we change the bg color of the excerpt. This left margin makes the
-container start to the right of the image. W/o it the container goes under
-the floated image.
-*/
-.item-excerpt {
-  margin-left: 7rem;
 }
 
 .item-excerpt:hover {
@@ -323,13 +312,18 @@ the floated image.
     grid-column-gap: 32px;
   }
 
-  .item-image {
-    width: 8rem;
+  .item {
+    display: flex;
   }
 
-  .item-excerpt {
-    /* Img width and margin */
-    margin-left: 9rem;
+  .item-image-column {
+    float: none;
+    width: auto;
+    flex: 0 0 8rem;  
+  }
+
+  .item-text-column {
+    flex: 1 1 auto;
   }
 }
 
@@ -401,6 +395,7 @@ Vue.component('note', {
     reviewDate: String,
     excerpt: String,
     contents: String,
+    revisit: [Boolean, String],
   },
   data() {
     return {
