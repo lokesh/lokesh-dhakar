@@ -60,6 +60,19 @@
       "id": "notes__blue-bottle"
     },
     {
+      "type": "movie",
+      "title": "Cold War",
+      "creator": "Paweł Pawlikowski",
+      "publishDate": 2018,
+      "image": "cold-war.jpg",
+      "rating": 4,
+      "reviewDate": "January 21, 2019",
+      "revisit": true,
+      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
+      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
+      "id": "notes__cold-war"
+    },
+    {
       "type": "book",
       "title": "Digital Gold",
       "creator": "Nathaniel Popper",
@@ -73,16 +86,15 @@
     },
     {
       "type": "movie",
-      "title": "Cold War",
-      "creator": "Paweł Pawlikowski",
-      "publishDate": 2018,
-      "image": "cold-war.jpg",
-      "rating": 4.5,
-      "reviewDate": "January 21, 2019",
-      "revisit": true,
-      "contents": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>\n<p>The movie is stunning. It is filmed in black and white, beautifully framed, lit, and art directed (<a href=\"https://www.youtube.com/watch?v=BI4IOkjPrcQ\">Clip: In the field</a>). The camera tends to pan and dolly slowly, and only as much as is required, but there are a couple of more frenetic scenes where we get to see the director and crew show off with some amazing choreography between the subjects and the camera ([<a href=\"https://www.youtube.com/watch?v=kCuEXWMh5Vo\">Clip: Dancing</a>).</p>\n<p>I don&#39;t talk about the characters, plot, or themes here. But I want to note that the movie doesn&#39;t miss the mark in any of these categories. It&#39;s an engaging story, composed together in a light-weight, but interesting way. I plan on rewatching and digging a little deeper. I also plan on checking  out Pawlikowski&#39;s previous film, <a href=\"https://www.youtube.com/watch?v=ELIMeemx-FI\">Ida</a>.</p>\n",
-      "excerpt": "<p>This love-conquers-all tale coming from Poland was not on my radar, but I happened across it by chance on a trip to LA.</p>",
-      "id": "notes__cold-war"
+      "title": "Do the Right Thing",
+      "creator": "Spike Lee",
+      "publishDate": 1989,
+      "image": "do-the-right-thing.jpg",
+      "rating": 4,
+      "reviewDate": "Jul 4, 2020",
+      "contents": "<p>This movie feels more relevant today than ever. It doesn&#39;t flinch when tackling racial issues or police violence. It shows what simmers underneath, and what happens when the pot boils over.</p>\n<p>There is a lot of discussion about the final scene, and whether Mookie &quot;does the right thing&quot; by destroying Sal&#39;s pizzeria. Two points:</p>\n<ol>\n<li><u>Love vs Hate</u>: You can attempt to resolve issues with peaceful protest (MLK) or violence in certain scenarios (Malcom X). In this case, Mookie yells &quot;Hate&quot; before throwing the trashcan in to the pizzeria. Spike Lee makes the case that the latter approach is now necessary to bring on change. And Mookie&#39;s action is a reaction to bigger societal issues, issues that trump his relationship w/Sal&#39;s. </li>\n<li><u>Police killing of Radio Raheem</u>: Raheem is killed a minute prior in the movie by a chokehold from the police. But suddenly, our concern has shifted to the destruction of Sal&#39;s pizzeria. A bit of this is how the movie carries you forward, but it also captures a lack of empathy we have for this black character. An uncomfortable, but important call-out.</li>\n</ol>\n<p>I highly recommend watching the movie. It&#39;s topical and challenging. It&#39;s also masterfully crafted – the energy, the heat, the uneasieness, and the build up of tension, all come through on screen through amazing camera work and acting.</p>\n",
+      "excerpt": "<p>This movie feels more relevant today than ever. It doesn&#39;t flinch when tackling racial issues or police violence. It shows what simmers underneath, and what happens when the pot boils over.</p>",
+      "id": "notes__do-the-right-thing"
     },
     {
       "type": "book",
@@ -95,18 +107,6 @@
       "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
       "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>",
       "id": "notes__hatching-twitter"
-    },
-    {
-      "type": "movie",
-      "title": "Do the Right Thing",
-      "creator": "Spike Lee",
-      "publishDate": 1989,
-      "image": "do-the-right-thing.jpg",
-      "rating": 4.5,
-      "reviewDate": "Jul 4, 2020",
-      "contents": "<p>This movie feels more relevant today than ever before. It doesn&#39;t flinch when tackling racial issues or police violence. It shows what simmers underneath, and what happens when the pot boils over.</p>\n<p>There is a lot of discussion about the final scene, and whether Mookie &quot;does the right thing&quot; by destroying Sal&#39;s pizzeria. Two points:</p>\n<ol>\n<li><u>Love vs Hate</u>: You can attempt to resolve issues with peaceful protest (MLK) or violence in certain scenarios (Malcom X). In this case, Mookie yells &quot;Hate&quot; before throwing the trashcan in to the pizzeria. Spike Lee makes the case that the latter approach is now necessary to brnig on change. And Mookie&#39;s action is a reaction to bigger societal issues, issues that trump his relationship w/Sal&#39;s. </li>\n<li><u>Police killing of Radio Raheem</u>: Raheem is killed a minute prior in the movie by a chokehold from the police. But suddenly, our concern has shifted to the destruction of Sal&#39;s pizzeria. A bit of this is how the movie carries you forward, but it also captures a lack of empathy we have for this black character. An uncomfortable, but important call-out.</li>\n</ol>\n<p>I highly recommend watching the movie. It&#39;s topical and challenging. It&#39;s also masterfully crafted – the energy, the heat, the uneasieness, and the build up of tension, all come through on screen through amazing camera work and acting.</p>\n",
-      "excerpt": "<p>This movie feels more relevant today than ever before. It doesn&#39;t flinch when tackling racial issues or police violence. It shows what simmers underneath, and what happens when the pot boils over.</p>",
-      "id": "notes__do-the-right-thing"
     },
     {
       "type": "book",
@@ -170,18 +170,6 @@
     },
     {
       "type": "movie",
-      "title": "The Last Black Man in San Francisco",
-      "creator": "Joe Talbot",
-      "publishDate": 2019,
-      "image": "last-black-man-in-san-francisco.jpg",
-      "rating": 3.5,
-      "reviewDate": "Jan 13, 2020",
-      "contents": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>\n<p>But there is so much to love about this movie. Seeing SF from a different set of eyes was refreshing and welcome. In terms of the craft, the <a href=\"https://www.youtube.com/watch?v=9Oy_HiDFfVo\">opening scene</a> is an instant classic, the score and the re-envisioning of classic tunes is great, and the way it captures the SF cityscape is gorgeous and not like anything I&#39;ve seen before. It is a very impressive debut film, and I&#39;m excited to what Talbot and crew do next.</p>\n",
-      "excerpt": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>",
-      "id": "notes__last-black-man-in-san-francisco"
-    },
-    {
-      "type": "movie",
       "title": "La Jetée",
       "creator": "Chris Marker",
       "publishDate": 1962,
@@ -195,14 +183,26 @@
     },
     {
       "type": "movie",
+      "title": "The Last Black Man in San Francisco",
+      "creator": "Joe Talbot",
+      "publishDate": 2019,
+      "image": "last-black-man-in-san-francisco.jpg",
+      "rating": 3.5,
+      "reviewDate": "Jan 13, 2020",
+      "contents": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>\n<p>But there is so much to love about this movie. Seeing SF from a different set of eyes was refreshing and welcome. In terms of the craft, the <a href=\"https://www.youtube.com/watch?v=9Oy_HiDFfVo\">opening scene</a> is an instant classic, the score and the re-envisioning of classic tunes is great, and the way it captures the SF cityscape is gorgeous and not like anything I&#39;ve seen before. It is a very impressive debut film, and I&#39;m excited to what Talbot and crew do next.</p>\n",
+      "excerpt": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>",
+      "id": "notes__last-black-man-in-san-francisco"
+    },
+    {
+      "type": "movie",
       "title": "Minding the Gap",
       "creator": "Bing Lu",
       "publishDate": 2018,
       "image": "minding-the-gap.jpg",
       "rating": 4,
       "reviewDate": "Apr 15, 2020",
-      "contents": "<p>An insightful, depressing, and powerful documentary that follows three close friends connected by skateboarding in the small city of Rockford, Illinois There is amazing flowy skate footage interspersed throughout the film, but the focus is on their lives outside of skateboarding as the grow into adults. The characters and subjects get dark, but the framing stays honest. </p>\n<p>One of the three friends is also the director of the documentary. They all grew up together and he had been filming for years, and with his close relationship with the other two, we get an intimacy in the footage which is rare.</p>\n<p>The documentary provides a lot to think about. And with the town and attitudes mirroring much of what I saw growing up in Manchester, New Hampshire, gave me pause to reflect on my past.</p>\n",
-      "excerpt": "<p>An insightful, depressing, and powerful documentary that follows three close friends connected by skateboarding in the small city of Rockford, Illinois There is amazing flowy skate footage interspersed throughout the film, but the focus is on their lives outside of skateboarding as the grow into adults. The characters and subjects get dark, but the framing stays honest. </p>",
+      "contents": "<p>An insightful, depressing, and powerful documentary that follows three close friends connected by skateboarding in the small city of Rockford, Illinois. There is amazing flowy skate footage interspersed throughout the film, but the focus is on their lives outside of skateboarding as the grow into adults. The characters and subjects get dark, but the framing stays honest. </p>\n<p>One of the three friends is also the director of the documentary. They all grew up together and he had been filming for years, and with his close relationship with the other two, we get an intimacy in the footage which is rare.</p>\n<p>The documentary provides a lot to think about. And with the town and attitudes mirroring much of what I saw growing up in Manchester, New Hampshire, gave me pause to reflect on my past.</p>\n",
+      "excerpt": "<p>An insightful, depressing, and powerful documentary that follows three close friends connected by skateboarding in the small city of Rockford, Illinois. There is amazing flowy skate footage interspersed throughout the film, but the focus is on their lives outside of skateboarding as the grow into adults. The characters and subjects get dark, but the framing stays honest. </p>",
       "id": "notes__minding-the-gap"
     },
     {
@@ -218,18 +218,6 @@
       "id": "notes__neither-wolf-nor-dog"
     },
     {
-      "type": "movie",
-      "title": "Obey Giant",
-      "creator": "James Moll",
-      "publishDate": 2019,
-      "image": "obey-giant.jpg",
-      "rating": 1.5,
-      "reviewDate": "Mar 24, 2020",
-      "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
-      "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>",
-      "id": "notes__obey-giant"
-    },
-    {
       "type": "book",
       "title": "Neuromancer",
       "creator": "William Gibson",
@@ -243,15 +231,15 @@
     },
     {
       "type": "movie",
-      "title": "Okja",
-      "creator": "Bong Joon Ho",
-      "publishDate": 2017,
-      "image": "okja.jpg",
-      "rating": 4,
-      "reviewDate": "Dec 27, 2019",
-      "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
-      "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
-      "id": "notes__okja"
+      "title": "Obey Giant",
+      "creator": "James Moll",
+      "publishDate": 2019,
+      "image": "obey-giant.jpg",
+      "rating": 1.5,
+      "reviewDate": "Mar 24, 2020",
+      "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
+      "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>",
+      "id": "notes__obey-giant"
     },
     {
       "type": "movie",
@@ -267,15 +255,15 @@
     },
     {
       "type": "movie",
-      "title": "Pather Panchali",
-      "creator": "Satyajit Ray",
-      "publishDate": 1955,
-      "image": "pather-panchali.jpg",
-      "rating": 3,
-      "reviewDate": "October 29, 2019",
-      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
-      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
-      "id": "notes__pather-panchali"
+      "title": "Okja",
+      "creator": "Bong Joon Ho",
+      "publishDate": 2017,
+      "image": "okja.jpg",
+      "rating": 4,
+      "reviewDate": "Dec 27, 2019",
+      "contents": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>\n<p>I was also very happy to see animal rights and factory farming as subjects in a movie. Usually these topics are limited to low-budget documentaries and PETA videos. There is a little nod to Upton Sinclair&#39;s <em>The Jungle</em> near the end that was a nice touch: &quot;They use everything about the hog except the squeal.&quot;</p>\n",
+      "excerpt": "<p>I went into this mostly blind, expecting a live-action Miyazaki-esque movie. And in a way, it is a bit of fairy-tale, but it&#39;s also a comedy, action movie, satire, and social commentary. What&#39;s impressive is how all these tonally different pieces come together. The pacing and plotting are excellent. Bong Joon Ho is clearly a master of his craft.</p>",
+      "id": "notes__okja"
     },
     {
       "type": "movie",
@@ -288,6 +276,18 @@
       "contents": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&#39;s simple, but genuine, and more affecting than I expected – not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>\n",
       "excerpt": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&#39;s simple, but genuine, and more affecting than I expected – not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>",
       "id": "notes__only-the-young"
+    },
+    {
+      "type": "movie",
+      "title": "Pather Panchali",
+      "creator": "Satyajit Ray",
+      "publishDate": 1955,
+      "image": "pather-panchali.jpg",
+      "rating": 3,
+      "reviewDate": "October 29, 2019",
+      "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
+      "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
+      "id": "notes__pather-panchali"
     },
     {
       "type": "book",
@@ -350,18 +350,6 @@
       "id": "notes__slacker"
     },
     {
-      "type": "movie",
-      "title": "Stranger Than Paradise",
-      "creator": "Jim Jarmusch",
-      "publishDate": 1984,
-      "image": "stranger-than-paradise.jpg",
-      "rating": 3,
-      "reviewDate": "Jan 4, 2019",
-      "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
-      "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
-      "id": "notes__stranger-than-paradise"
-    },
-    {
       "type": "book",
       "title": "Snow Crash",
       "creator": "Neal Stephenson",
@@ -372,6 +360,18 @@
       "contents": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>\n<p><em>Snow Crash</em> was my intro into the cyberpunk genre and it&#39;s on the very short list of books I&#39;ve read more than twice. I love the world building; the sovereign zones run by big business franchises, the self-policing gated community &#39;burbclaves&#39;, the Second World-esque metaverse, and so much more. The set pieces are also fast-paced and a fun ride, especially the intially pizza delivery.</p>\n<p>But there are a few things that don&#39;t hold up as well. Neal Stephenson does this thing where he info dumps on a topic, and these excursions span many, many pages. In this case, we get an education on Sumerian myths and language. The problem is that these segments break up the flow of the story and cause a huge tonal shift. I found these sections tedius. Another issue with he book is the character YT&#39;s age, 15. It&#39;s problematic in many scenes.</p>\n<p>Overall, I did enjoy the book on this revisit. I&#39;d like to read other Stephenson books that take place in this or a similar world.</p>\n",
       "excerpt": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>",
       "id": "notes__snow-crash"
+    },
+    {
+      "type": "movie",
+      "title": "Stranger Than Paradise",
+      "creator": "Jim Jarmusch",
+      "publishDate": 1984,
+      "image": "stranger-than-paradise.jpg",
+      "rating": 3,
+      "reviewDate": "Jan 4, 2019",
+      "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
+      "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
+      "id": "notes__stranger-than-paradise"
     },
     {
       "type": "movie",
@@ -398,17 +398,16 @@
       "id": "notes__the-goldfinch"
     },
     {
-      "type": "book",
-      "title": "The Jungle",
-      "creator": "Upton Sinclair",
-      "publishDate": 1904,
-      "image": "the-jungle.jpg",
-      "rating": 5,
-      "reviewDate": "Dec 31, 2018",
-      "revisit": true,
-      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
-      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
-      "id": "notes__the-jungle"
+      "type": "movie",
+      "title": "The Good, The Bad and the Ugly",
+      "creator": "Sergio Leone",
+      "publishDate": 1966,
+      "image": "the-good-the-bad-the-ugly.jpg",
+      "rating": 4.5,
+      "reviewDate": "Jul 22, 2020",
+      "contents": "<p>If you can only watch one Western, this is it. <a href=\"https://www.youtube.com/watch?v=enuOArEfqGo\">Ennio Morricone&#39;s score</a> is incredible. Eli Wallach (The Ugly) is a blast to watch. Clint Eastwood (The Good) plays the mysterious poncho-wearing, cowboy anti-hero with ease. The plot does fumble around a bit, but it really only serves to put our characters into interesting situations so we can see how it plays out. And it all comes together with the infamous <a href=\"https://www.youtube.com/watch?v=aJCSNIl2Pls\">final duel</a>, which I absolutely love.</p>\n<p>This is close to five-star movie for me. The things holding it back are the pacing, which is a little slow at times, and the awful overdubbing and sound effects which can be distracting. </p>\n",
+      "excerpt": "<p>If you can only watch one Western, this is it. <a href=\"https://www.youtube.com/watch?v=enuOArEfqGo\">Ennio Morricone&#39;s score</a> is incredible. Eli Wallach (The Ugly) is a blast to watch. Clint Eastwood (The Good) plays the mysterious poncho-wearing, cowboy anti-hero with ease. The plot does fumble around a bit, but it really only serves to put our characters into interesting situations so we can see how it plays out. And it all comes together with the infamous <a href=\"https://www.youtube.com/watch?v=aJCSNIl2Pls\">final duel</a>, which I absolutely love.</p>",
+      "id": "notes__the-good-the-bad-the-ugly"
     },
     {
       "type": "book",
@@ -421,6 +420,19 @@
       "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
       "excerpt": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
       "id": "notes__three-body-problem"
+    },
+    {
+      "type": "book",
+      "title": "The Jungle",
+      "creator": "Upton Sinclair",
+      "publishDate": 1904,
+      "image": "the-jungle.jpg",
+      "rating": 5,
+      "reviewDate": "Dec 31, 2018",
+      "revisit": true,
+      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
+      "excerpt": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
+      "id": "notes__the-jungle"
     },
     {
       "type": "tv",

@@ -4,7 +4,7 @@ title: Do the Right Thing
 creator: Spike Lee
 publishDate: 1989
 image: do-the-right-thing.jpg
-rating: 4.5
+rating: 4
 reviewDate: Jul 4, 2020
 ---
 
