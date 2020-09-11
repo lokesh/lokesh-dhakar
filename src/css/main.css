@@ -62,17 +62,33 @@ body {
   background: var(--bg-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+pre,
+code,
+hr,
+table {
+  margin-top: 0;
+  margin-bottom: var(--block-bottom);
+}
+
 img {
   display: block;
 }
 
 figure {
-  margin: 0 0 1rem 0;
+  margin: 0 0 var(--block-bottom) 0;
 }
 
 hr {
-  margin: 2rem 0;
   height: 2px;
+  margin: 3rem 0;
   border: none;
   border-bottom: 2px dashed var(--border-color);
 }
@@ -87,27 +103,30 @@ h3 {
 }
 
 h1 {
-  margin: 8px 0 20px -0.05em;
+  margin-left: -0.05em;
   font-size: 3.5rem;
   line-height: 1em;
 }
 
 h2 {
+  margin-top: calc(var(--block-bottom) * 2);
   margin-left: -0.03em;
   font-size: 1.5rem;
   line-height: 1.15em;
 }
 
-/* Used when h2 directly follows h1 */
 h2.subtitle {
-  margin-top: 0;
+  margin-top: var(--block-bottom);
   color: var(--muted-color);
+}
+
+h2.subtitle + h2 {
+  margin-top: var(--block-bottom);
 }
 
 h3 {
   font-size: 1.25rem;
   line-height: var(--line-height-heading);
-  margin-top: 1.1em;
 }
 
 @media (min-width: 1200px) {
@@ -353,8 +372,7 @@ figure.small.border img {
 /* Notice ------------ */
 
 .notice {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: var(--block-bottom);
   padding: 1em;
   background: var(--recessed-bg-color);
   border-radius: var(--radius-lg);
@@ -369,8 +387,8 @@ figure.small.border img {
 }
 
 .item {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
+  margin-bottom: var(--block-bottom);
+  padding-bottom: var(--block-bottom);
   border-bottom: 1px solid var(--border-color-light);
 }
 

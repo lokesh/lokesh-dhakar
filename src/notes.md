@@ -140,8 +140,8 @@ pageWidth: "full"
 
 .note-controls {
   font-family: var(--font-ui);
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
+  padding-bottom: var(--block-bottom);
+  margin-bottom: var(--block-bottom);
 }
 
 .note-filters {
@@ -152,7 +152,7 @@ pageWidth: "full"
 }
 
 .note-filter {
-  margin: 0 4px 12px 0;
+  margin: 0 4px var(--block-bottom) 0;
 }
 
 .note-filter-radio {

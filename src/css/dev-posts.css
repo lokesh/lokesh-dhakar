@@ -16,5 +16,5 @@
 
 .cp_embed_wrapper,
 iframe {
-  margin: 48px 0;
+  margin: var(--block-bottom) 0;
 }

@@ -19,6 +19,8 @@
   --line-height: 1.5em;
   --line-height-heading: 1.25em;
 
+  --block-bottom: 1.5rem;
+
   /* Borders and corners */
   --border-color: #999;
   --border-color-light: #d5d5d5; /* Used for inline content  */

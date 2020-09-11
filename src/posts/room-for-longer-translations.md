@@ -240,7 +240,7 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 
 <style>
 .demo {
-  margin-bottom: 48px;
+  margin-bottom: var(--block-bottom);
 }
 
 .stage {
