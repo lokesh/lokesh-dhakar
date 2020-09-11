@@ -228,27 +228,21 @@ li > code {
 
 .nav__list {
   display: flex;
-  /*border: 1px solid var(--border-color-light);*/
   margin-bottom: var(--gutter);
   margin-right: var(--gutter);
 }
 
 .nav__item {
   display: inline-block;
-  padding: 0.65em 0.75em;
+  padding: 0.65em 0.35em;
   margin-right: 0.5em;
   color: var(--muted-color);
-  border: 2px solid var(--border-color-light);
   border-radius: var(--radius);
   font-family: var(--font-ui);
-  font-size: 0.9375rem;
+  font-size: 1.125rem;
   font-weight: var(--weight-bold);
   background-color: transparent;
 }
-
-/*.nav__item:last-of-type {
-  border-right: none;
-}*/
 
 .nav__item:hover {
   text-decoration: none;

@@ -142,7 +142,6 @@ pageWidth: "full"
   font-family: var(--font-ui);
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--border-color-light);
 }
 
 .note-filters {
@@ -175,6 +174,8 @@ pageWidth: "full"
 }
 
 .note-filter-label-icon {
+  position: relative;
+  top: -1px;
   width: 16px;
   height: 16px;
   margin-right: 4px;
@@ -199,6 +200,10 @@ pageWidth: "full"
   .note-filter-label {
     font-size: 0.8125rem;
     height: var(--note-control-height);
+  }
+  
+  .note-filter-label-icon {
+    top: 0;
   }
 }
 
@@ -335,8 +340,8 @@ pageWidth: "full"
   margin-bottom: 6px;
 }
 .item-rating svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 
 </style>
