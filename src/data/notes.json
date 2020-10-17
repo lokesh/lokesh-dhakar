@@ -13,6 +13,18 @@
   "data": [
     {
       "type": "movie",
+      "title": "American Factory",
+      "creator": "Steven Bognar & Julia Reichert",
+      "publishDate": 2019,
+      "image": "american-factory.jpg",
+      "rating": 3.5,
+      "reviewDate": "August 31, 2019",
+      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
+      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
+      "id": "notes__american-factory"
+    },
+    {
+      "type": "movie",
       "title": "Apollo 11",
       "creator": "Todd Douglas Miller",
       "publishDate": 2019,
@@ -25,37 +37,13 @@
     },
     {
       "type": "movie",
-      "title": "American Factory",
-      "creator": "Steven Bognar & Julia Reichert",
-      "publishDate": 2019,
-      "image": "american-factory.jpg",
-      "rating": 3.5,
-      "reviewDate": "August 31, 2019",
-      "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
-      "excerpt": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>",
-      "id": "notes__american-factory"
-    },
-    {
-      "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
-    },
-    {
-      "type": "movie",
       "title": "Bicycle Thieves",
       "creator": "Vittorio De Sica",
       "publishDate": 1948,
       "image": "bicycle-thieves.jpg",
       "rating": 4.5,
       "reviewDate": "October 3, 2020",
-      "contents": "<p><em>Bicycle Thieves</em> (aka <em>The Bicyle Thief</em> in the US) is a stark Italian Neorealist film that follows an everyman and his son over a couple of days as they hunt for their stolen bicycle. The plot is simple, but it&#39;s absolutely riveting, and you&#39;re invested in the characters from the start, rooting for them through each challenge. The movie reflects the attitudes of the time, which was Italy post-World War 2, so the tone is dire, but honest. The movie believes that reality is rich, and to look at it is enough, so don&#39;t expect any contrived happy-endings.</p>\n<p>The character arc reminded me quite a bit of <em>The Jungle</em>, another favorite of mine. Both of these follow downtrodden characters and show that life isn&#39;t always fair.</p>\n",
+      "contents": "<p><em>Bicycle Thieves</em> (aka <em>The Bicyle Thief</em> in the US) is a stark Italian Neorealist film that follows an everyman and his son over a couple of days as they hunt for their stolen bicycle. The plot is simple, but it&#39;s absolutely riveting, and you&#39;re invested in the characters from the start, rooting for them through each challenge. The movie reflects the attitudes of the time, which was Italy post-World War 2, so the tone is dire, but honest. The movie believes that reality is rich, and to look at it is enough, so don&#39;t expect any contrived happy-endings.</p>\n<p>The character arc reminded me quite a bit of <em>The Jungle</em>, another favorite of mine. Both of these follow downtrodden characters and show that life isn&#39;t always fair, with bad things happening to good people, who in turn are put in siutations where their morality and integrity is put against their survival.</p>\n",
       "excerpt": "<p><em>Bicycle Thieves</em> (aka <em>The Bicyle Thief</em> in the US) is a stark Italian Neorealist film that follows an everyman and his son over a couple of days as they hunt for their stolen bicycle. The plot is simple, but it&#39;s absolutely riveting, and you&#39;re invested in the characters from the start, rooting for them through each challenge. The movie reflects the attitudes of the time, which was Italy post-World War 2, so the tone is dire, but honest. The movie believes that reality is rich, and to look at it is enough, so don&#39;t expect any contrived happy-endings.</p>",
       "id": "notes__bicycle-thieves"
     },
@@ -70,6 +58,18 @@
       "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
       "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
       "id": "notes__blade-runner"
+    },
+    {
+      "type": "book",
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
     },
     {
       "type": "movie",
@@ -182,18 +182,6 @@
       "id": "notes__la-jetee"
     },
     {
-      "type": "movie",
-      "title": "The Last Black Man in San Francisco",
-      "creator": "Joe Talbot",
-      "publishDate": 2019,
-      "image": "last-black-man-in-san-francisco.jpg",
-      "rating": 3.5,
-      "reviewDate": "Jan 13, 2020",
-      "contents": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>\n<p>But there is so much to love about this movie. Seeing SF from a different set of eyes was refreshing and welcome. In terms of the craft, the <a href=\"https://www.youtube.com/watch?v=9Oy_HiDFfVo\">opening scene</a> is an instant classic, the score and the re-envisioning of classic tunes is great, and the way it captures the SF cityscape is gorgeous and not like anything I&#39;ve seen before. It is a very impressive debut film, and I&#39;m excited to what Talbot and crew do next.</p>\n",
-      "excerpt": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>",
-      "id": "notes__last-black-man-in-san-francisco"
-    },
-    {
       "type": "book",
       "title": "Just Kids",
       "creator": "Patti Smith",
@@ -204,6 +192,18 @@
       "contents": "<p>This is a story of Patti Smith&#39;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&#39;t that. The focus is on Patti and Robert. It&#39;s about their life-long relationship, and how they support each other and their art, and how the art, in the end – is less important than the relationship they form.</p>\n<blockquote>\n<p>&quot;Make your interactions with people transformational, not just transactional.&quot;</p>\n</blockquote>\n<p>The book takes place in New York City in the late 60s and early 70s, and Patti eventually is in the thick of the scene. She runs in to Andy Warhol, William S Burroughs, John Cale, et al and spends time at The Chelsea Hotel, Max&#39;s Kansas City, and CBGB. Though not the main focus of the book, you&#39;ll witness the the art and punk scene develop in the periphery.</p>\n<blockquote>\n<p>&quot;..to be an artist is to see what others cannot.&quot;</p>\n</blockquote>\n<!--\nPatti's writing is lucid and simple. This is the different from a recent read, _The Goldfinch_, in which Donna Tartt's uses a literary style – long winding sentences and florid descriptions. Both manage to tell their stories without their word and grammar choices becoming distractions, though I am still in awe of Tartt's mastery of the craft.\n-->\n",
       "excerpt": "<p>This is a story of Patti Smith&#39;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&#39;t that. The focus is on Patti and Robert. It&#39;s about their life-long relationship, and how they support each other and their art, and how the art, in the end – is less important than the relationship they form.</p>",
       "id": "notes__just-kids"
+    },
+    {
+      "type": "movie",
+      "title": "The Last Black Man in San Francisco",
+      "creator": "Joe Talbot",
+      "publishDate": 2019,
+      "image": "last-black-man-in-san-francisco.jpg",
+      "rating": 3.5,
+      "reviewDate": "Jan 13, 2020",
+      "contents": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>\n<p>But there is so much to love about this movie. Seeing SF from a different set of eyes was refreshing and welcome. In terms of the craft, the <a href=\"https://www.youtube.com/watch?v=9Oy_HiDFfVo\">opening scene</a> is an instant classic, the score and the re-envisioning of classic tunes is great, and the way it captures the SF cityscape is gorgeous and not like anything I&#39;ve seen before. It is a very impressive debut film, and I&#39;m excited to what Talbot and crew do next.</p>\n",
+      "excerpt": "<p>Let me get my criticism out of the way, which is that there are a lot of ideas explored in the movie, and many didn&#39;t land cleanly for me. This made it feel muddled as I thought about what I had watched. To me, the movie worked better as a mood piece, then a statement piece.</p>",
+      "id": "notes__last-black-man-in-san-francisco"
     },
     {
       "type": "music",
@@ -231,18 +231,6 @@
     },
     {
       "type": "book",
-      "title": "Neither Wolf Nor Dog",
-      "creator": "Kent Nerburn",
-      "publishDate": 1994,
-      "image": "neither-wolf-nor-dog.jpg",
-      "rating": 4.5,
-      "reviewDate": "April 16, 2019",
-      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
-      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
-      "id": "notes__neither-wolf-nor-dog"
-    },
-    {
-      "type": "book",
       "title": "Neuromancer",
       "creator": "William Gibson",
       "publishDate": 1984,
@@ -252,6 +240,18 @@
       "contents": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&#39;t enjoy the reading experience.</p>\n<p>The problem for me was the style of the prose. The writing is frenetic and jumpy. I found it challenging to follow the plot as we bounced from scene to scene. It didn&#39;t help that the world, as conceptually interesting as it is, wasn&#39;t fleshed out. And lastly, and this one isn&#39;t the fault of Gibson, is that I listened to it as an audiobook. This made going back to &#39;re-read&#39; sections to get clarification tedius.</p>\n<p>I still love the genre and am excited to read more books that focus on the combination of &quot;high tech, low life&quot;.</p>\n",
       "excerpt": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&#39;t enjoy the reading experience.</p>",
       "id": "notes__neuromancer"
+    },
+    {
+      "type": "book",
+      "title": "Neither Wolf Nor Dog",
+      "creator": "Kent Nerburn",
+      "publishDate": 1994,
+      "image": "neither-wolf-nor-dog.jpg",
+      "rating": 4.5,
+      "reviewDate": "April 16, 2019",
+      "contents": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>\n<p>The story is told through a set of conversations between the author, Ken Nerburn, and a Lakota elder, named Dan. The stripped down format is a perfect vessel to capture Dan&#39;s thoughts on topics, which are eloquently stated and deeply personal.</p>\n",
+      "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>",
+      "id": "notes__neither-wolf-nor-dog"
     },
     {
       "type": "movie",
@@ -303,6 +303,18 @@
     },
     {
       "type": "movie",
+      "title": "Over the Limit",
+      "creator": "Marta Prus",
+      "publishDate": 2017,
+      "image": "over-the-limit.jpg",
+      "rating": 2.5,
+      "reviewDate": "August 3, 2020",
+      "contents": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>\n<p>But the movie feels shallows. Mamun puts up a wall for most of the movie — rarely talking, except in a few scenes with her boyfriend. We&#39;re left to speculate about her feelings. Does she still enjoy the sport? Is the verbal abuse from the coaches getting to her? It&#39;s unclear and I wish the movie was able to capture her opening up a bit more, but alas, this is <em>direct cinema</em>.</p>\n",
+      "excerpt": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>",
+      "id": "notes__over-the-limit"
+    },
+    {
+      "type": "movie",
       "title": "Pather Panchali",
       "creator": "Satyajit Ray",
       "publishDate": 1955,
@@ -327,15 +339,15 @@
     },
     {
       "type": "movie",
-      "title": "Over the Limit",
-      "creator": "Marta Prus",
-      "publishDate": 2017,
-      "image": "over-the-limit.jpg",
-      "rating": 2.5,
-      "reviewDate": "August 3, 2020",
-      "contents": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>\n<p>But the movie feels shallows. Mamun puts up a wall for most of the movie — rarely talking, except in a few scenes with her boyfriend. We&#39;re left to speculate about her feelings. Does she still enjoy the sport? Is the verbal abuse from the coaches getting to her? It&#39;s unclear and I wish the movie was able to capture her opening up a bit more, but alas, this is <em>direct cinema</em>.</p>\n",
-      "excerpt": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>",
-      "id": "notes__over-the-limit"
+      "title": "Primary",
+      "creator": "Robert Drew",
+      "publishDate": 1960,
+      "image": "primary.jpg",
+      "rating": 3.5,
+      "reviewDate": "Sept 1, 2019",
+      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
+      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
+      "id": "notes__primary"
     },
     {
       "type": "movie",
@@ -374,30 +386,6 @@
       "id": "notes__purple-mountains"
     },
     {
-      "type": "movie",
-      "title": "Slacker",
-      "creator": "Richard Linklater",
-      "publishDate": 1990,
-      "image": "slacker.jpg",
-      "rating": 4.5,
-      "reviewDate": "Oct 4, 2018",
-      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
-      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
-      "id": "notes__slacker"
-    },
-    {
-      "type": "movie",
-      "title": "Primary",
-      "creator": "Robert Drew",
-      "publishDate": 1960,
-      "image": "primary.jpg",
-      "rating": 3.5,
-      "reviewDate": "Sept 1, 2019",
-      "contents": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>\n<p>It&#39;s worth a watch. It&#39;s a nice time capsule of the period and an important milestone for documentary filmmaking. It&#39;s also just 53 minutes long.</p>\n",
-      "excerpt": "<p>A documentary that follows John F. Kennedy and Hubert Humphrey over a couple of day during the 1960 primary election. The reason I sought it out is that it&#39;s noted as one of the movies that helped develop the then nascent <em><a href=\"https://en.wikipedia.org/wiki/Direct_Cinema\">Direct Cinema</a></em> movement. This is a type of documentary filmmaking where the filmmakers don&#39;t participate in the action, instead they let the story play out and develop independently, rather than coming to the project with a narrative in mind or constructing one retroactively. There is something raw and honest about this process that makes this style of documentary very intimate.</p>",
-      "id": "notes__primary"
-    },
-    {
       "type": "book",
       "title": "Snow Crash",
       "creator": "Neal Stephenson",
@@ -420,6 +408,18 @@
       "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
       "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>",
       "id": "notes__stranger-than-paradise"
+    },
+    {
+      "type": "movie",
+      "title": "Slacker",
+      "creator": "Richard Linklater",
+      "publishDate": 1990,
+      "image": "slacker.jpg",
+      "rating": 4.5,
+      "reviewDate": "Oct 4, 2018",
+      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
+      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
+      "id": "notes__slacker"
     },
     {
       "type": "movie",
@@ -495,16 +495,16 @@
       "id": "notes__three-body-problem"
     },
     {
-      "type": "movie",
-      "title": "Tokyo Story",
-      "creator": "Yasujiro Ozu",
-      "publishDate": 1953,
-      "image": "tokyo-story.jpg",
-      "rating": 5,
-      "reviewDate": "April 2, 2019",
-      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
-      "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
-      "id": "notes__tokyo-story"
+      "type": "tv",
+      "title": "Tiger King",
+      "creator": "Eric Goode & Rebecca Chaiklin",
+      "publishDate": 2020,
+      "image": "tiger-king.jpg",
+      "rating": 1.5,
+      "reviewDate": "Apr 15, 2020",
+      "contents": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>\n<p>If you haven&#39;t seen it yet, skip it. The show has serious issues. The directors, who sound like they originally had good intentions to raise awareness about big cat captivity issues, lost their way. They plotted and edited their way into trashy tv to get ratings. They had a great opportunity, and a captive audience, but sadly, more people are discussing Joe Exotic and trolling Carole Bakin, instead of considering the welfare of the animals. Joe Exotic has become a folk hero and most viewers have a distorted view of the situation.</p>\n",
+      "excerpt": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>",
+      "id": "notes__tiger-king"
     },
     {
       "type": "music",
@@ -519,16 +519,16 @@
       "id": "notes__ziggy-stardust"
     },
     {
-      "type": "tv",
-      "title": "Tiger King",
-      "creator": "Eric Goode & Rebecca Chaiklin",
-      "publishDate": 2020,
-      "image": "tiger-king.jpg",
-      "rating": 1.5,
-      "reviewDate": "Apr 15, 2020",
-      "contents": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>\n<p>If you haven&#39;t seen it yet, skip it. The show has serious issues. The directors, who sound like they originally had good intentions to raise awareness about big cat captivity issues, lost their way. They plotted and edited their way into trashy tv to get ratings. They had a great opportunity, and a captive audience, but sadly, more people are discussing Joe Exotic and trolling Carole Bakin, instead of considering the welfare of the animals. Joe Exotic has become a folk hero and most viewers have a distorted view of the situation.</p>\n",
-      "excerpt": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>",
-      "id": "notes__tiger-king"
+      "type": "movie",
+      "title": "Tokyo Story",
+      "creator": "Yasujiro Ozu",
+      "publishDate": 1953,
+      "image": "tokyo-story.jpg",
+      "rating": 5,
+      "reviewDate": "April 2, 2019",
+      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
+      "excerpt": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
+      "id": "notes__tokyo-story"
     }
   ]
 }

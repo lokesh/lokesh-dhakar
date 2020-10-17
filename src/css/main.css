@@ -379,6 +379,9 @@ figure.small.border img {
   font-weight: var(--weight-bold);
 }
 
+.notice p:last-child {
+  margin-bottom: 0;
+}
 
 /* Items (e.g. Notes, Sketches) ------------ */
 

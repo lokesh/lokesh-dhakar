@@ -162,8 +162,8 @@ Outputs
 
 <button>Button</button>  
 <input type="input" value="input" />  
-<select>
-  <option>Select...</option>
+<select class="select">
+  <option>Select</option>
 </select>
 <textarea></textarea>
 
