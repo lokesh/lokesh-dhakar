@@ -2,6 +2,7 @@
 var metalsmith = require('metalsmith');
 
 // Metalsmith Plugins
+const when = require('metalsmith-if');
 var layouts = require('metalsmith-layouts');
 var markdown = require('metalsmith-markdown');
 var permalinks = require('metalsmith-permalinks');
@@ -9,13 +10,14 @@ var collections = require('metalsmith-collections');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
+const isDevMode = process.env.MODE === 'dev';
+
 var siteBuild = metalsmith(__dirname)
   // Have Metalsmith ignore our Notes markdown files.
   // We convert them to JSON and load them into our Vue app in notes.md
   .ignore([
     '**/notes/*.md'
   ])
-
   .metadata({
     site: {
       title: 'Lokesh Dhakar',
@@ -23,12 +25,9 @@ var siteBuild = metalsmith(__dirname)
     }
   })
 
-
   .source('./src')
   .destination('./dist')
-
   .clean(true) // Clean destination dir on build
-
   .use(collections({
      posts: {
        pattern: 'posts/*.md',
@@ -36,7 +35,6 @@ var siteBuild = metalsmith(__dirname)
        reverse: true,
       }
   }))
-
   .use(markdown())
   .use(permalinks({
     'pattern': ':title',
@@ -59,19 +57,28 @@ var siteBuild = metalsmith(__dirname)
       },
     }
   }))
-  .use(serve())
   .use(
-    watch({
-      paths: {
-        '${source}/**/*': true,
-        '${source}/data/**/*': '**/*',
-        '${source}/css/**/*': '**/*',
-        '${source}/components/**/*': '**/*',
-        '${source}/js/**/*': '**/*',
-        '${source}/layouts/**/*': '**/*'
-      },
-      livereload: true
-  }))
+    when(
+      isDevMode,
+      serve()
+    )
+  )
+  .use(
+    when(
+      isDevMode,
+      watch({
+        paths: {
+          '${source}/**/*': true,
+          '${source}/data/**/*': '**/*',
+          '${source}/css/**/*': '**/*',
+          '${source}/components/**/*': '**/*',
+          '${source}/js/**/*': '**/*',
+          '${source}/layouts/**/*': '**/*'
+        },
+        livereload: isDevMode
+      })
+    )
+  )
   .build(function (err) {
     if (err) {
       console.log(err);

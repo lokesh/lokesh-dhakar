@@ -1,7 +1,8 @@
 # lokeshdhakar.com
 
 - Built with [Metalsmith](http://www.metalsmith.io/), a simple, plugin driven static site generator.
-- [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) for templating.
+- Templating with [Nunjucks](https://mozilla.github.io/nunjucks/templating.html).
+- Hosted on Netlify
 
 Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-metalsmith-nunjucks).
 

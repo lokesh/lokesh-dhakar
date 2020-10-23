@@ -12,6 +12,7 @@
     "markdown-json": "1.4.0",
     "metalsmith": "^2.3.0",
     "metalsmith-collections": "^0.9.0",
+    "metalsmith-if": "^0.1.1",
     "metalsmith-layouts": "^2.1.0",
     "metalsmith-markdown": "^0.2.2",
     "metalsmith-permalinks": "https://github.com/lokesh/metalsmith-permalinks.git",
@@ -22,7 +23,7 @@
   "scripts": {
     "build": "node ./build.js",
     "deploy": "node ./deploy.js",
-    "dev": "node ./build.js",
+    "dev": "MODE=dev node ./build.js",
     "watch": "node ./build.js",
     "strava": "node ./build/strava.js",
     "notes": "sh build/notes.sh",
