@@ -1,3 +1,6 @@
+const fs = require('fs');
+const { resolve } = require('path');
+
 // Metalsmith
 var metalsmith = require('metalsmith');
 
@@ -84,6 +87,14 @@ var siteBuild = metalsmith(__dirname)
       console.log(err);
     }
     else {
+      // TEMP LOCATION
+      const redirectsFilePath = resolve(process.cwd(), '_redirects');
+      const redirectsDestFilePath = resolve(process.cwd(), 'dist/_redirects');
+
+      fs.copyFileSync(redirectsFilePath, redirectsDestFilePath);
+
       console.log('Site build complete!');
     }
   });
+
+
