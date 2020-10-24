@@ -343,3 +343,13 @@ var app = new Vue({
   }
 });
 </script>
+
+<style>
+.legend {
+  margin-bottom: var(--block-bottom);
+}
+
+.year {
+  margin-bottom: 0.5em;
+}
+</style>
