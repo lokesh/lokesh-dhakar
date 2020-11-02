@@ -17,7 +17,8 @@
     "metalsmith-permalinks": "https://github.com/lokesh/metalsmith-permalinks.git",
     "metalsmith-serve": "0.0.7",
     "metalsmith-watch": "^1.0.3",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "ssh2-sftp-client": "^5.3.1"
   },
   "scripts": {
     "build": "node ./build.js",

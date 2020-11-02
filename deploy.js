@@ -1,27 +1,54 @@
 const fs = require('fs');
-const { resolve } = require('path');
-const FtpDeploy = require('ftp-deploy');
+const path = require('path');
+let SftpClient = require('ssh2-sftp-client');
 
-const ftpDeploy = new FtpDeploy();
+const credentials = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), '.private'), 'utf-8'));
+const { host, port, username, password, remoteRoot } = credentials.sftp;
 
-const credentials = JSON.parse(fs.readFileSync(resolve(process.cwd(), '.private'), 'utf-8'));
+async function main() {
+  const client = new SftpClient();
+  const src = path.join(__dirname, 'dist');
+  const dist = remoteRoot + 'foo/*';
 
-var config = {
-  user: credentials.login.username,
-  password: credentials.login.password,
-  host: "lokeshdhakar.com",
-    port: 21,
-    localRoot: __dirname + '/dist',
-    remoteRoot: "/home/lokesh/webapps/lokeshdhakar/",
-    include: ['*', '**/*'],
-  exclude: ['.*'],
-  deleteRemote: false,
+  // Delete dir?
+
+  try {
+
+    await client.connect({
+      host,
+      username,
+      password,
+      port,
+    });
+    console.log(dist);
+    let rslt = await client.delete(dist);
+    // return `✅ Success: ${rslt}`;
+  } finally {
+    client.end();
+  }
+
+  // Upload dir
+  // try {
+  //   await client.connect({
+  //     host,
+  //     username,
+  //     password,
+  //     port,
+  //   });
+  //   client.on('upload', info => {
+  //     console.log(`Uploaded: ${info.source}`);
+  //   });
+  //   let rslt = await client.uploadDir(src, dist);
+  //   return `✅ Success: ${rslt}`;
+  // } finally {
+  //   client.end();
+  // }
 }
 
-ftpDeploy.deploy(config, function(err) {
-    if (err) {
-        console.log(err)
-    } else {
-        console.log('finished');
-    }
-});
+main()
+  .then(msg => {
+    console.log(msg);
+  })
+  .catch(err => {
+    console.log(`main error: ${err.message}`);
+  });
