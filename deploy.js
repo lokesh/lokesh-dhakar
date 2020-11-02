@@ -1,48 +1,31 @@
-const fs = require('fs');
-const path = require('path');
-let SftpClient = require('ssh2-sftp-client');
+const path = require("path");
+const SftpClient = require('ssh2-sftp-client');
 
-const credentials = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), '.private'), 'utf-8'));
-const { host, port, username, password, remoteRoot } = credentials.sftp;
+require('dotenv').config()
+
+const config = {
+  host: process.env.HOST,
+  username: process.env.USERNAME,
+  password: process.env.PASSWORD,
+  port: process.env.PORT || 22,
+};
 
 async function main() {
   const client = new SftpClient();
-  const src = path.join(__dirname, 'dist');
-  const dist = remoteRoot + 'foo/*';
 
-  // Delete dir?
+  const localPath = path.join(__dirname, 'dist');
+  const remotePath = process.env.REMOTE_PATH;
 
   try {
-
-    await client.connect({
-      host,
-      username,
-      password,
-      port,
+    client.on('upload', info => {
+      console.log(`Uploaded ${info.source}`);
     });
-    console.log(dist);
-    let rslt = await client.delete(dist);
-    // return `✅ Success: ${rslt}`;
-  } finally {
-    client.end();
-  }
 
-  // Upload dir
-  // try {
-  //   await client.connect({
-  //     host,
-  //     username,
-  //     password,
-  //     port,
-  //   });
-  //   client.on('upload', info => {
-  //     console.log(`Uploaded: ${info.source}`);
-  //   });
-  //   let rslt = await client.uploadDir(src, dist);
-  //   return `✅ Success: ${rslt}`;
-  // } finally {
-  //   client.end();
-  // }
+    await client.connect(config);
+    await client.uploadDir(localPath, remotePath);
+  } finally {
+    return client.end();
+  }
 }
 
 main()
