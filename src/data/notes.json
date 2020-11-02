@@ -17,10 +17,10 @@
       "creator": "Lotfy Nathan",
       "publishDate": 2012,
       "image": "12-oclock-boys.jpg",
-      "rating": 3,
+      "rating": 2,
       "reviewDate": "November 1, 2020",
-      "contents": "",
-      "excerpt": "",
+      "contents": "<p>When I used to live in Baltimore I would see the dirt bike riders meeting up in Druid Hill Park. This documentary gives some basic backstory on who they are and how they got into the scene, but the focus of the movie is on one young kid, Pug, and his family.</p>\n<p>It seems like Pug&#39;s story, and his onscreen charima, enamored the director and they reshaped the documentary into one that focuses on him. His story is one of challenges growing up in impoverished conditions in the inner-city, and we get a surface level view of it, but I think there was an opportunity to go deeper here. Though the crew was mostly stand-offish, I wish there was more quiet time between them and the subjects where they they were able to get them to open up. In the end, the documentary paints an unflattering picture of the family, and I&#39;m not sure it&#39;s completely fair.</p>\n<p>As for the dirt bike riding, I&#39;m into it. Minus the overly risky behavior like runnind reds at full speed and antagonizing the police, the rest is just an outlet that gives them a sense of freedom and joy. In a way, it reminds me of the fixed gear bike scene.</p>\n",
+      "excerpt": "<p>When I used to live in Baltimore I would see the dirt bike riders meeting up in Druid Hill Park. This documentary gives some basic backstory on who they are and how they got into the scene, but the focus of the movie is on one young kid, Pug, and his family.</p>",
       "id": "notes__12-oclock-boys"
     },
     {
@@ -37,30 +37,6 @@
     },
     {
       "type": "movie",
-      "title": "Apollo 11",
-      "creator": "Todd Douglas Miller",
-      "publishDate": 2019,
-      "image": "apollo-11.jpg",
-      "rating": 4.5,
-      "reviewDate": "May 3, 2020",
-      "contents": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>\n<p>The restored 70mm NASA footage is gorgeous and worth the price of admission. The score is stellar too. </p>\n<p>I finished this movie marvelling at the accomplishment, and inspired to take on more ambitious challenges myself.</p>\n",
-      "excerpt": "<p>Going to the moon and back is an astonishing feat and doesn&apos;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>",
-      "id": "notes__apollo-11"
-    },
-    {
-      "type": "movie",
-      "title": "Blade Runner",
-      "creator": "Ridley Scott",
-      "publishDate": 1982,
-      "image": "blade-runner.jpg",
-      "rating": 4,
-      "reviewDate": "Oct 19, 2018",
-      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
-      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&apos;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
-      "id": "notes__blade-runner"
-    },
-    {
-      "type": "movie",
       "title": "Bicycle Thieves",
       "creator": "Vittorio De Sica",
       "publishDate": 1948,
@@ -72,16 +48,28 @@
       "id": "notes__bicycle-thieves"
     },
     {
+      "type": "movie",
+      "title": "Apollo 11",
+      "creator": "Todd Douglas Miller",
+      "publishDate": 2019,
+      "image": "apollo-11.jpg",
+      "rating": 4.5,
+      "reviewDate": "May 3, 2020",
+      "contents": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>\n<p>The restored 70mm NASA footage is gorgeous and worth the price of admission. The score is stellar too. </p>\n<p>I finished this movie marvelling at the accomplishment, and inspired to take on more ambitious challenges myself.</p>\n",
+      "excerpt": "<p>Going to the moon and back is an astonishing feat and doesn&apos;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>",
+      "id": "notes__apollo-11"
+    },
+    {
       "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
-      "id": "notes__blue-bottle"
+      "title": "Digital Gold",
+      "creator": "Nathaniel Popper",
+      "publishDate": 2016,
+      "image": "digital-gold.jpg",
+      "rating": 3,
+      "reviewDate": "Aug 20, 2019",
+      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
+      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
+      "id": "notes__digital-gold"
     },
     {
       "type": "movie",
@@ -97,16 +85,28 @@
       "id": "notes__cold-war"
     },
     {
+      "type": "movie",
+      "title": "Blade Runner",
+      "creator": "Ridley Scott",
+      "publishDate": 1982,
+      "image": "blade-runner.jpg",
+      "rating": 4,
+      "reviewDate": "Oct 19, 2018",
+      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
+      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&apos;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>",
+      "id": "notes__blade-runner"
+    },
+    {
       "type": "book",
-      "title": "Digital Gold",
-      "creator": "Nathaniel Popper",
-      "publishDate": 2016,
-      "image": "digital-gold.jpg",
-      "rating": 3,
-      "reviewDate": "Aug 20, 2019",
-      "contents": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>\n",
-      "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>",
-      "id": "notes__digital-gold"
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>",
+      "id": "notes__blue-bottle"
     },
     {
       "type": "movie",
@@ -133,18 +133,6 @@
       "id": "notes__hitchhikers-guide-to-the-galaxy"
     },
     {
-      "type": "book",
-      "title": "Hatching Twitter",
-      "creator": "Nick Bilton",
-      "publishDate": 2013,
-      "image": "hatching-twitter.jpg",
-      "rating": 1.5,
-      "reviewDate": "Feb 15, 2019",
-      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
-      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&apos;t were maligned, and their motivations unarticulated.</p>",
-      "id": "notes__hatching-twitter"
-    },
-    {
       "type": "movie",
       "title": "The Hitchhiker's Guide to the Galaxy",
       "creator": "Garth Jennings",
@@ -155,6 +143,18 @@
       "contents": "<p>It&#39;s unclear who the audience for this movie is. Fans of the books will be disappointed by the changes, and those unfamiliar with the source material will be confused. There are still some funny moments to enjoy, but there are also many jokes that didn&#39;t translate well to the screen.</p>\n<p>As for the plot, the movie plucks material from the first book, throws in a couple of new side adventures, adds a love story, and switches to a happy ending. It all feels cobbled together. The absurdity is preserved, but the undercurrent of sadness and nihilism is lost. </p>\n<!--\n  Arthur Dent - Human protagonist who we follow around the univserse. It's his house that is being bulldozed at the start.\n\n  Ford Prefect - Friend of Arthur who brings him on the adventures by initially hitchhiking on a passing by Vogon ship before Earth is destroyed to make way for a bypass.\n\n  Zaphod Beeblebrox - President of the galaxy. Steals Heart of Gold ship that has an improability drive. A little unclear how exactly the drive works, but it takes them around the universe.\n\n  Trillian - w/Zaphod\n\n  Marvin the Paranoid Android\n-->\n",
       "excerpt": "<p>It&apos;s unclear who the audience for this movie is. Fans of the books will be disappointed by the changes, and those unfamiliar with the source material will be confused. There are still some funny moments to enjoy, but there are also many jokes that didn&apos;t translate well to the screen.</p>",
       "id": "notes__hitchihikers-guide-to-the-galaxy-movie"
+    },
+    {
+      "type": "book",
+      "title": "Hatching Twitter",
+      "creator": "Nick Bilton",
+      "publishDate": 2013,
+      "image": "hatching-twitter.jpg",
+      "rating": 1.5,
+      "reviewDate": "Feb 15, 2019",
+      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
+      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&apos;t were maligned, and their motivations unarticulated.</p>",
+      "id": "notes__hatching-twitter"
     },
     {
       "type": "music",
@@ -181,6 +181,18 @@
       "id": "notes__isle-of-dogs"
     },
     {
+      "type": "book",
+      "title": "Just Kids",
+      "creator": "Patti Smith",
+      "publishDate": 2010,
+      "image": "just-kids.jpg",
+      "rating": 4,
+      "reviewDate": "June 22, 2020",
+      "contents": "<p>This is a story of Patti Smith&#39;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&#39;t that. The focus is on Patti and Robert. It&#39;s about their life-long relationship, and how they support each other and their art, and how the art, in the end – is less important than the relationship they form.</p>\n<blockquote>\n<p>&quot;Make your interactions with people transformational, not just transactional.&quot;</p>\n</blockquote>\n<p>The book takes place in New York City in the late 60s and early 70s, and Patti eventually is in the thick of the scene. She runs in to Andy Warhol, William S Burroughs, John Cale, et al and spends time at The Chelsea Hotel, Max&#39;s Kansas City, and CBGB. Though not the main focus of the book, you&#39;ll witness the the art and punk scene develop in the periphery.</p>\n<blockquote>\n<p>&quot;..to be an artist is to see what others cannot.&quot;</p>\n</blockquote>\n<!--\nPatti's writing is lucid and simple. This is the different from a recent read, _The Goldfinch_, in which Donna Tartt's uses a literary style – long winding sentences and florid descriptions. Both manage to tell their stories without their word and grammar choices becoming distractions, though I am still in awe of Tartt's mastery of the craft.\n-->\n",
+      "excerpt": "<p>This is a story of Patti Smith&apos;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&apos;t that. The focus is on Patti and Robert. It&apos;s about their life-long relationship, and how they support each other and their art, and how the art, in the end &#x2013; is less important than the relationship they form.</p>",
+      "id": "notes__just-kids"
+    },
+    {
       "type": "movie",
       "title": "La Jetée",
       "creator": "Chris Marker",
@@ -192,18 +204,6 @@
       "contents": "<p>A short sci-fi film from the 1960s that&#39;s worth a watch for a couple of reasons. First, it&#39;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&#39;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&#39;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>\n<p>The movie isn&#39;t perfect. I found the plot to be intriguing, but incomplete. But kudos to Chris Marker for experimenting with the format.</p>\n",
       "excerpt": "<p>A short sci-fi film from the 1960s that&apos;s worth a watch for a couple of reasons. First, it&apos;s the movie that inspired 12 Monkeys, which was was one of my favorite movies growing up and led me into Terry Gilliam&apos;s back catalog. Second, and more importantly, is the unorthodox format. The movie is made up almost entirely of still photos; with a single narrator providing limited voice-over. This format brings it&apos;s own pace and poetry. There is time to sit on an image, and time to fill in the gaps with your imagination. </p>",
       "id": "notes__la-jetee"
-    },
-    {
-      "type": "book",
-      "title": "Just Kids",
-      "creator": "Patti Smith",
-      "publishDate": 2010,
-      "image": "just-kids.jpg",
-      "rating": 4,
-      "reviewDate": "June 22, 2020",
-      "contents": "<p>This is a story of Patti Smith&#39;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&#39;t that. The focus is on Patti and Robert. It&#39;s about their life-long relationship, and how they support each other and their art, and how the art, in the end – is less important than the relationship they form.</p>\n<blockquote>\n<p>&quot;Make your interactions with people transformational, not just transactional.&quot;</p>\n</blockquote>\n<p>The book takes place in New York City in the late 60s and early 70s, and Patti eventually is in the thick of the scene. She runs in to Andy Warhol, William S Burroughs, John Cale, et al and spends time at The Chelsea Hotel, Max&#39;s Kansas City, and CBGB. Though not the main focus of the book, you&#39;ll witness the the art and punk scene develop in the periphery.</p>\n<blockquote>\n<p>&quot;..to be an artist is to see what others cannot.&quot;</p>\n</blockquote>\n<!--\nPatti's writing is lucid and simple. This is the different from a recent read, _The Goldfinch_, in which Donna Tartt's uses a literary style – long winding sentences and florid descriptions. Both manage to tell their stories without their word and grammar choices becoming distractions, though I am still in awe of Tartt's mastery of the craft.\n-->\n",
-      "excerpt": "<p>This is a story of Patti Smith&apos;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&apos;t that. The focus is on Patti and Robert. It&apos;s about their life-long relationship, and how they support each other and their art, and how the art, in the end &#x2013; is less important than the relationship they form.</p>",
-      "id": "notes__just-kids"
     },
     {
       "type": "movie",
@@ -291,18 +291,6 @@
     },
     {
       "type": "movie",
-      "title": "Only the Young",
-      "creator": "Jason Tippet & Elizabeth Mims",
-      "publishDate": 2012,
-      "image": "only-the-young.jpg",
-      "rating": 3.5,
-      "reviewDate": "May 31, 2020",
-      "contents": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&#39;s simple, but genuine, and more affecting than I expected – not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>\n",
-      "excerpt": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&apos;s simple, but genuine, and more affecting than I expected &#x2013; not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>",
-      "id": "notes__only-the-young"
-    },
-    {
-      "type": "movie",
       "title": "Okja",
       "creator": "Bong Joon Ho",
       "publishDate": 2017,
@@ -315,15 +303,15 @@
     },
     {
       "type": "movie",
-      "title": "Over the Limit",
-      "creator": "Marta Prus",
-      "publishDate": 2017,
-      "image": "over-the-limit.jpg",
-      "rating": 2.5,
-      "reviewDate": "August 3, 2020",
-      "contents": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>\n<p>But the movie feels shallows. Mamun puts up a wall for most of the movie — rarely talking, except in a few scenes with her boyfriend. We&#39;re left to speculate about her feelings. Does she still enjoy the sport? Is the verbal abuse from the coaches getting to her? It&#39;s unclear and I wish the movie was able to capture her opening up a bit more, but alas, this is <em>direct cinema</em>.</p>\n",
-      "excerpt": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>",
-      "id": "notes__over-the-limit"
+      "title": "Only the Young",
+      "creator": "Jason Tippet & Elizabeth Mims",
+      "publishDate": 2012,
+      "image": "only-the-young.jpg",
+      "rating": 3.5,
+      "reviewDate": "May 31, 2020",
+      "contents": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&#39;s simple, but genuine, and more affecting than I expected – not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>\n",
+      "excerpt": "<p>A loose, meandering documentary following three teenagers in a small Southern California town just being themselves and doing teenager things. It&apos;s simple, but genuine, and more affecting than I expected &#x2013; not from any big events that take place during the filming, but from seeing their youthful energy and attitude, and thinking about how I used to be that way at that age, and reflecting back on those simpler times with nostalgia.</p>",
+      "id": "notes__only-the-young"
     },
     {
       "type": "movie",
@@ -336,6 +324,18 @@
       "contents": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>\n<p>So did it live up to the hype? First off, it&#39;s a beautifully shot movie, and hard to believe this was the debut for both the director and the cinematographer. It&#39;s shot in black and white and was recently restored to pristine condition by the Criterion Collection.</p>\n<p>The movie is the first of three in the <em>Apu Trilogy</em>. In this one, we see Apu as a young child living in poor conditions in rural Bengal. Though Apu is the title character of the triology, in this one he plays a minor role, with the movie focusing on the women in his life, his mother and sister.</p>\n<p>Back to the original question. No, it didn&#39;t live up to the hype for me. The slice-of-life approach felt slow and I wasn&#39;t vested enough into the characters ahead of the last third of the movie where the key events of the movie take place. A big part of this disconnect was likely due to the fact that I watched half of the movie on a flight and finished the other half a couple weeks later. That&#39;s really the biggest lesson from this, I need to watch movies in single sittings! I plan to revisit this again in the future.</p>\n",
       "excerpt": "<p>I was coming into this with high expectations after hearing about this movie from a couple of different sources in the same week, and the praise was steep, with critics exclaiming it was &quot;one of the greatest Indian films of all-time&quot;.</p>",
       "id": "notes__pather-panchali"
+    },
+    {
+      "type": "movie",
+      "title": "Over the Limit",
+      "creator": "Marta Prus",
+      "publishDate": 2017,
+      "image": "over-the-limit.jpg",
+      "rating": 2.5,
+      "reviewDate": "August 3, 2020",
+      "contents": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>\n<p>But the movie feels shallows. Mamun puts up a wall for most of the movie — rarely talking, except in a few scenes with her boyfriend. We&#39;re left to speculate about her feelings. Does she still enjoy the sport? Is the verbal abuse from the coaches getting to her? It&#39;s unclear and I wish the movie was able to capture her opening up a bit more, but alas, this is <em>direct cinema</em>.</p>\n",
+      "excerpt": "<p>I like the no narration, fly-on-the-wall approach the documentary takes as it follows our protaganist, Russian gymnast Maragarita Mamun. We sit on the sidelines along with the coaches as she goes through a brutal training regimen ahead of the 2016 Rio Olympics.</p>",
+      "id": "notes__over-the-limit"
     },
     {
       "type": "book",
@@ -398,18 +398,6 @@
       "id": "notes__salad-days"
     },
     {
-      "type": "movie",
-      "title": "Slacker",
-      "creator": "Richard Linklater",
-      "publishDate": 1990,
-      "image": "slacker.jpg",
-      "rating": 4.5,
-      "reviewDate": "Oct 4, 2018",
-      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
-      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
-      "id": "notes__slacker"
-    },
-    {
       "type": "book",
       "title": "Snow Crash",
       "creator": "Neal Stephenson",
@@ -420,6 +408,18 @@
       "contents": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>\n<p><em>Snow Crash</em> was my intro into the cyberpunk genre and it&#39;s on the very short list of books I&#39;ve read more than twice. I love the world building; the sovereign zones run by big business franchises, the self-policing gated community &#39;burbclaves&#39;, the Second World-esque metaverse, and so much more. The set pieces are also fast-paced and a fun ride, especially the initially pizza delivery.</p>\n<p>But there are a few things that don&#39;t hold up as well. Neal Stephenson does this thing where he info dumps on a topic, and these excursions span many, many pages. In this case, we get an education on Sumerian myths and language. The problem is that these segments break up the flow of the story and cause a huge tonal shift. I found these sections tedius. Another issue with the book is the character YT&#39;s age, 15. It&#39;s problematic in many scenes.</p>\n<p>Overall, I did enjoy the book on this revisit. I&#39;d like to read other Stephenson books that take place in this or a similar world.</p>\n",
       "excerpt": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>",
       "id": "notes__snow-crash"
+    },
+    {
+      "type": "movie",
+      "title": "Slacker",
+      "creator": "Richard Linklater",
+      "publishDate": 1990,
+      "image": "slacker.jpg",
+      "rating": 4.5,
+      "reviewDate": "Oct 4, 2018",
+      "contents": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>\n<p>The movie has no main character. Instead, it has a meandering camera that uses long takes to move between characters and stories, mostly unrelated. It&#39;s a movie about conversations and small moments, and not about plot. The unconventional structure is refreshing.</p>\n<p>The people, the conversations, everything, it all felt familiar. I lived in this world in the early 2000s in Boston, even though this movie takes place in Austin at the start of the 90s.</p>\n<p>Though the term <em>slacker</em> has negative connotations now, Linklater thought of slackers in positive terms. Something akin to a hippie or a beatnik. <i>These are people who intentionally disconnect from mainstream society, not because they are apathetic or unmotivated, but because society isn&#39;t helping them, and they don&#39;t see what it offers.</i></p>\n<p><em>&quot;Slacker is inspiration to keep on with those passion projects—to go your own way despite the pressure to conform. Above all, the film taught me this: Those who wander may not be lost.&quot; - Eleanor Capaldi</em></p>\n<p>Recommended for those who say &quot;film&quot; rather than &quot;movie&quot;. You know who you are. You probably enjoy other &#39;films&#39; like <a href=\"https://www.youtube.com/watch?v=eHQ2Q-_bl8k\">Breathless</a> and <a href=\"https://www.youtube.com/watch?v=A5FzzN20-60\">Buffalo 66</a>.</p>\n",
+      "excerpt": "<p>The classic Gen-X indie film from <a href=\"https://en.wikipedia.org/wiki/Richard_Linklater\">Richard Linklater</a>.</p>",
+      "id": "notes__slacker"
     },
     {
       "type": "movie",
@@ -446,18 +446,6 @@
       "id": "notes__tampopo"
     },
     {
-      "type": "movie",
-      "title": "The Good, The Bad and the Ugly",
-      "creator": "Sergio Leone",
-      "publishDate": 1966,
-      "image": "the-good-the-bad-the-ugly.jpg",
-      "rating": 4.5,
-      "reviewDate": "Jul 22, 2020",
-      "contents": "<p>If you can only watch one Western, this is it. Ennio Morricone&#39;s score is incredible. Eli Wallach (The Ugly) is a blast to watch. Clint Eastwood (The Good) plays the mysterious poncho-wearing, cowboy anti-hero with ease. The plot does fumble around a bit, but it really only serves to put our characters into interesting situations so we can see how it plays out. And it all comes together with the infamous <a href=\"https://www.youtube.com/watch?v=aJCSNIl2Pls\">final duel</a>, which I absolutely love.</p>\n<p>This is close to five-star movie for me. The things holding it back is the pacing, which is a little slow at times, and the awful overdubbing and sound effects which can be distracting. </p>\n",
-      "excerpt": "<p>If you can only watch one Western, this is it. Ennio Morricone&apos;s score is incredible. Eli Wallach (The Ugly) is a blast to watch. Clint Eastwood (The Good) plays the mysterious poncho-wearing, cowboy anti-hero with ease. The plot does fumble around a bit, but it really only serves to put our characters into interesting situations so we can see how it plays out. And it all comes together with the infamous <a href=\"https://www.youtube.com/watch?v=aJCSNIl2Pls\">final duel</a>, which I absolutely love.</p>",
-      "id": "notes__the-good-the-bad-the-ugly"
-    },
-    {
       "type": "book",
       "title": "The Goldfinch",
       "creator": "Donna Tartt",
@@ -470,17 +458,16 @@
       "id": "notes__the-goldfinch"
     },
     {
-      "type": "book",
-      "title": "The Jungle",
-      "creator": "Upton Sinclair",
-      "publishDate": 1904,
-      "image": "the-jungle.jpg",
-      "rating": 5,
-      "reviewDate": "Dec 31, 2018",
-      "revisit": true,
-      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
-      "excerpt": "<p>The book has become infamous for its description of Chicago&apos;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
-      "id": "notes__the-jungle"
+      "type": "movie",
+      "title": "The Good, The Bad and the Ugly",
+      "creator": "Sergio Leone",
+      "publishDate": 1966,
+      "image": "the-good-the-bad-the-ugly.jpg",
+      "rating": 4.5,
+      "reviewDate": "Jul 22, 2020",
+      "contents": "<p>If you can only watch one Western, this is it. Ennio Morricone&#39;s score is incredible. Eli Wallach (The Ugly) is a blast to watch. Clint Eastwood (The Good) plays the mysterious poncho-wearing, cowboy anti-hero with ease. The plot does fumble around a bit, but it really only serves to put our characters into interesting situations so we can see how it plays out. And it all comes together with the infamous <a href=\"https://www.youtube.com/watch?v=aJCSNIl2Pls\">final duel</a>, which I absolutely love.</p>\n<p>This is close to five-star movie for me. The things holding it back is the pacing, which is a little slow at times, and the awful overdubbing and sound effects which can be distracting. </p>\n",
+      "excerpt": "<p>If you can only watch one Western, this is it. Ennio Morricone&apos;s score is incredible. Eli Wallach (The Ugly) is a blast to watch. Clint Eastwood (The Good) plays the mysterious poncho-wearing, cowboy anti-hero with ease. The plot does fumble around a bit, but it really only serves to put our characters into interesting situations so we can see how it plays out. And it all comes together with the infamous <a href=\"https://www.youtube.com/watch?v=aJCSNIl2Pls\">final duel</a>, which I absolutely love.</p>",
+      "id": "notes__the-good-the-bad-the-ugly"
     },
     {
       "type": "movie",
@@ -496,6 +483,19 @@
     },
     {
       "type": "book",
+      "title": "The Jungle",
+      "creator": "Upton Sinclair",
+      "publishDate": 1904,
+      "image": "the-jungle.jpg",
+      "rating": 5,
+      "reviewDate": "Dec 31, 2018",
+      "revisit": true,
+      "contents": "<p>The book has become infamous for its description of Chicago&#39;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>\n<p>But this is a small part of the book. The majority of which is an immigrant story. The story of Jugris Rudkus and his Lithuanian family who have recently immigrated to Chicago. They arrive with optimism and a drive to better their lives, but all this hope gets wittled away. As immigrants, they are a target for exploitation. And the work available to them in this newly industrialized city is harsh and unsafe. The first half of the book focuses on the trials of the family. The writing is simple and effective, and what they go through is harrowing.</p>\n<p>The latter half half of the book slumps a bit as we follow Jugris&#39;s solo adventures and finish with a somewhat dated speech on socialism. Even with these flaws, the book is still absolutely worth a read.</p>\n<p><em>&quot;I aimed at the public&#39;s heart, and by accident I hit it in the stomach.&quot; - Upton Sinclair on the reaction to his book</em></p>\n<p>As a companion to this book, I highly recommend <a href=\"https://www.pbs.org/wgbh/frontline/film/trafficked-in-america/\">Frontline&#39;s Trafficked in America</a> documentary to see what similar exploitation looks like in modern America.</p>\n",
+      "excerpt": "<p>The book has become infamous for its description of Chicago&apos;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>",
+      "id": "notes__the-jungle"
+    },
+    {
+      "type": "book",
       "title": "The Three-Body Problem",
       "creator": "Cixin Liu",
       "publishDate": 2013,
@@ -505,18 +505,6 @@
       "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
       "excerpt": "<p>It didn&apos;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>",
       "id": "notes__three-body-problem"
-    },
-    {
-      "type": "movie",
-      "title": "Tokyo Story",
-      "creator": "Yasujiro Ozu",
-      "publishDate": 1953,
-      "image": "tokyo-story.jpg",
-      "rating": 5,
-      "reviewDate": "April 2, 2019",
-      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
-      "excerpt": "<p>It&apos;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
-      "id": "notes__tokyo-story"
     },
     {
       "type": "tv",
@@ -529,6 +517,18 @@
       "contents": "<p>I binged it. I knew it wasn&#39;t good for me, but it was hard to stop watching the insanity unfold.</p>\n<p>If you haven&#39;t seen it yet, skip it. The show has serious issues. The directors, who sound like they originally had good intentions to raise awareness about big cat captivity issues, lost their way. They plotted and edited their way into trashy tv to get ratings. They had a great opportunity, and a captive audience, but sadly, more people are discussing Joe Exotic and trolling Carole Bakin, instead of considering the welfare of the animals. Joe Exotic has become a folk hero and most viewers have a distorted view of the situation.</p>\n",
       "excerpt": "<p>I binged it. I knew it wasn&apos;t good for me, but it was hard to stop watching the insanity unfold.</p>",
       "id": "notes__tiger-king"
+    },
+    {
+      "type": "movie",
+      "title": "Tokyo Story",
+      "creator": "Yasujiro Ozu",
+      "publishDate": 1953,
+      "image": "tokyo-story.jpg",
+      "rating": 5,
+      "reviewDate": "April 2, 2019",
+      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
+      "excerpt": "<p>It&apos;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>",
+      "id": "notes__tokyo-story"
     },
     {
       "type": "music",
