@@ -4,7 +4,7 @@ title: Snow Crash
 creator: Neal Stephenson
 publishDate: 1992
 image: snow-crash.jpg
-rating: 3.5
+rating: 4
 reviewDate: Feb 17, 2020
 ---
 
