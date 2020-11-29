@@ -1,7 +1,4 @@
 :root{
-  --control-height-xs: 2.75em;
-  --control-height: 2.5em;
-
   --control-border: 2px solid var(--color);
 }
 
@@ -46,7 +43,7 @@
   -moz-appearance: none;
   appearance: none;
   padding: 0 1.6em 0 0.6em;
-  height: var(--control-height-xs);
+  height: var(--form-control-height-xs);
   /* font size must be at least 16px on iOS Safari or screen will zoom */
   font-size: 16px;
   font-weight: var(--weight-bold);
@@ -64,7 +61,7 @@
 @media (min-width: 800px) {
   .select {
     font-size: 0.8125rem;
-    height: var(--control-height);
+    height: var(--form-control-height);
   }
 }
 

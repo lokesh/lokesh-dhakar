@@ -7,7 +7,8 @@ table.left-align {
     text-align: left;
 }
 
-table.top-align {
+table.top-align th,
+table.top-align td {
   vertical-align: top;
 }
 
@@ -21,12 +22,33 @@ td {
   border: 1px solid var(--border-color-light);
 }
 
-tr th:first-of-type,
-tr td:first-of-type {
-  border-left: none;
+/*
+TABLE WRAPPER
+---
+Enables horizontal scrolling for wide tables.
+
+<div class="table-wrapper">
+  <table>
+    ...
+  </table>
+</div>
+*/
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1);
+  margin-bottom: var(--block-bottom);
 }
 
-tr th:last-of-type,
-tr td:last-of-type {
-  border-right: none;
+.table-wrapper table {
+  margin-bottom: 0;
 }
+
+@media (min-width: 800px) {
+  .table-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+

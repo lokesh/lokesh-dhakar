@@ -399,20 +399,6 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 /* Table */
 /* -----*/
 
-
-.table-wrapper {
-  overflow-x: scroll;
-  margin-left: calc(var(--gutter) * -1);
-  margin-right: calc(var(--gutter) * -1);
-}
-
-@media (min-width: 800px) {
-  .table-wrapper {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
 .word-wrap {
   margin-bottom: 2px;
 }
