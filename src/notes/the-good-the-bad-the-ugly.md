@@ -4,7 +4,7 @@ title: The Good, The Bad and the Ugly
 creator: Sergio Leone
 publishDate: 1966
 image: the-good-the-bad-the-ugly.jpg
-rating: 4.5
+rating: 5
 reviewDate: Jul 22, 2020
 ---
 

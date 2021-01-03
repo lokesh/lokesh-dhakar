@@ -18,8 +18,18 @@ table.no-wrap {
 
 th,
 td {
-  padding: 6px;
+  padding: var(--gutter);
   border: 1px solid var(--border-color-light);
+}
+
+table.table-dense th,
+table.table-dense td {
+  padding: calc(var(--gutter) / 2);
+}
+
+table.separated-cells {
+  border-collapse: separate;
+  border-spacing: var(--gutter);
 }
 
 /*

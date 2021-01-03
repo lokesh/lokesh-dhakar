@@ -182,7 +182,7 @@ layout: post.njk
 
 
   <div class="table-wrapper">
-      <table class="left-align top-align no-wrap">
+      <table class="left-align top-align no-wrap table-dense">
         <tr>
           <th v-for="word in tableWords">
             {{ word }}

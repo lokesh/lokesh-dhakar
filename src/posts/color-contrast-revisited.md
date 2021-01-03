@@ -1,8 +1,9 @@
 ---
-title: "WCAG color contrast revisisted"
+title: "WCAG color contrast revisited"
 date: 2020-11-23
 layout: post.njk
 pageWidth: "full"
+draft: true
 ---
 
 <!--
@@ -38,13 +39,13 @@ However, APCA provides more granular guidance on the critical properties of font
     <div class="preview-contrast">
       <div
         class="contrast-label"
-        :class="{'pass': apcaRating === 4 }"
+        :style="apcaStyles"
       >
         APCA {{ apcaRating }}
       </div>
       <div
         class="contrast-label"
-        :class="{'pass': true }"
+        :class="{'pass': wcagRating.startsWith('A')}"
       >
         WCAG {{ wcagRating }}
       </div>
@@ -70,8 +71,8 @@ However, APCA provides more granular guidance on the critical properties of font
   <div>
     <!-- <input type="color" id="head" name="head" value="#e66465" /> -->
 
-    WCAG: {{ wcag }}<br>
-    APCA: {{ apca }} L<sup>c</sup><br>
+    <h3>WCAG: {{ wcag }}<br />
+    APCA: {{ apca }} L<sup>c</sup></h3>
 
     <color-picker
       v-model="color"
@@ -81,8 +82,8 @@ However, APCA provides more granular guidance on the critical properties of font
     ></color-picker>
 
     <div class="table-wrapper">
-      <table class="left-align top-align">
-        <thead>
+      <table class="contrast-table left-align top-align separated-cells">
+        <thead v-if="false">
           <tr>
             <th></th>
             <th 
@@ -95,7 +96,7 @@ However, APCA provides more granular guidance on the critical properties of font
         </thead>
         <tbody>
           <tr v-for="(contrastMinsByWeights, fontSize) in APCA_TABLE">
-            <td>{{ fontSize }}px</td>
+            <td v-if="false">{{ fontSize }}px</td>
             <td
               v-for="(weightMin, i) in contrastMinsByWeights"
               class="table-preview-cell"
@@ -121,6 +122,10 @@ However, APCA provides more granular guidance on the critical properties of font
 <link rel="stylesheet" href="/css/forms.css" />
 
 <style>
+.contrast-table td {
+  border-radius: var(--radius-lg);
+}
+
 .t-col-head {
   /*background: yellow;*/
 }
@@ -135,24 +140,23 @@ However, APCA provides more granular guidance on the critical properties of font
 }
 */
 .preview {
-  padding: 6px;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  padding: var(--gutter);
+  border-radius: var(--radius-lg);
 }
 
 .preview-sample {
   margin-bottom: var(--gutter);
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: auto;
 }
-
-.preview-contrast {
-  font-size: 11px;
-  font-weight: 600;
-} 
 
 .contrast-label {
   display: inline-block;
   padding: 2px 4px;
   background: var(--orange);
   border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-family: var(--monospace);
   font-weight: bold;
   margin-bottom: 4px;
 }
@@ -192,33 +196,45 @@ import Vue from '/js/vue.esm.browser.js';
  * - and so on
  */
 
-const APCA_TABLE = {
+let APCA_TABLE = {
   16: [null, null, 130, 120, 100, 80, 75, 70, 70],
   24: [null, 120, 100, 80, 75, 70, 60, 58, 55],
   36: [null, 100, 80, 70, 60, 58, 55, 50, 45],
   72: [100, 75, 60, 55, 50, 45, 40, 40, 40],
 }
 
-
-// 4.5:1
-// 
-// Large-scale text and images of large-scale text have a contrast ratio of at least 3:1
-// 18 point or 14 point bold is considered large scale
-
-const WCAG_TABLE_AA = {
+let WCAG_TABLE_AA = {
   16: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 3, 3, 3],
   24: [3, 3, 3, 3, 3, 3, 3, 3, 3],
   36: [3, 3, 3, 3, 3, 3, 3, 3, 3],
   72: [3, 3, 3, 3, 3, 3, 3, 3, 3],
 }
 
-const WCAG_TABLE_AAA = {
+let WCAG_TABLE_AAA = {
   16: [7, 7, 7, 7, 7, 7, 4.5, 4.5, 4.5],
   24: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5],
   36: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5],
   72: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5],
 }
 
+function editTable(table) {
+  let newObj = {};
+  for (const [key, value] of Object.entries(table)) {
+    value.forEach((val, i) => {
+      if (i === 0){
+         newObj[key] = [];
+      } 
+      if (i % 2 === 0) {
+         newObj[key].push(val);
+      }
+    })
+  }
+  return newObj;
+}
+
+APCA_TABLE = editTable(APCA_TABLE);
+WCAG_TABLE_AA = editTable(WCAG_TABLE_AA);
+WCAG_TABLE_AAA = editTable(WCAG_TABLE_AAA);
 
 Vue.component('preview', {
   template: '#preview',
@@ -255,16 +271,29 @@ Vue.component('preview', {
       };
     },
 
+    apcaStyles() {
+      let bg;
+      if (this.apcaRating === 4) {
+        bg = 'var(--green)';
+      } else if (this.apcaRating >= 1) {
+        bg = 'var(--yellow)';
+      } else {
+        bg = 'var(--orange)';
+      }
+      return {
+        backgroundColor: bg,
+      };
+    },
+
     wcagRating() {
       const aaaMin = WCAG_TABLE_AAA[this.fontSize][this.fontWeight / 100 - 1];
       const aaMin = WCAG_TABLE_AA[this.fontSize][this.fontWeight / 100 - 1];
-      console.log(this.wcag, aaaMin);
       if (this.wcag >= aaaMin) {
         return 'AAA';
       } else if (this.wcag >= aaMin) {
         return 'AA';
       }
-      return '0'
+      return '✘'
     },
   },
 });
@@ -286,8 +315,8 @@ new Vue({
       APCA_TABLE,
       WCAG_TABLE_AA,
       WCAG_TABLE_AAA,
-      color: '#123456',
-      backgroundColor: '#eeeeee',
+      color: '#333333', //'#ffffff',
+      backgroundColor: '#f3f3f3', // '#319EFA',
     };
   },
 
@@ -310,7 +339,9 @@ new Vue({
 
     apcaRating(weightMin) {
       const contrastPercentage = this.apca / weightMin;
-      if (contrastPercentage >= 1) {
+      if (!weightMin) {
+        return '✘';
+      } else if (contrastPercentage >= 1) {
         return 4;
       } else if (contrastPercentage >= 0.96) {
         return 3;
@@ -319,7 +350,7 @@ new Vue({
       } else if (contrastPercentage >= 0.85) {
         return 1;
       }
-      return 0
+      return '✘';
     },
   },
 

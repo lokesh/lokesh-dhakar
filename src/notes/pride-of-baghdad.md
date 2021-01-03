@@ -4,7 +4,7 @@ title: Pride of Baghdad
 creator: Brian K. Vaughan
 publishDate: 2006
 image: pride-of-baghdad.jpg
-rating: 4.5
+rating: 4
 reviewDate: May 9, 2020
 ---
 
