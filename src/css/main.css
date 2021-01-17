@@ -97,7 +97,7 @@ h1,
 h2,
 h3 {
   font-family: var(--font-heading);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-regular);
   letter-spacing: -0.01em;
   word-spacing: 0.01em;
 }
@@ -136,12 +136,6 @@ h3 {
 
   h2 {
     font-size: 2rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  h1 {
-    font-size: 5rem;
   }
 }
 
@@ -396,7 +390,7 @@ figure.small.border img {
 }
 
 .item-title {
-  margin: 0;
+  margin: 0 0 2px 0;
 }
 
 .item-title a {
@@ -409,7 +403,7 @@ figure.small.border img {
 }
 
 .item-meta {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   font-size: 0.8125rem;
   font-weight: var(--weight-x-bold);
   text-transform: uppercase;
@@ -418,7 +412,7 @@ figure.small.border img {
 .item-credits {
   font-weight: var(--weight-bold);
   color: var(--muted-color);
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .item-body {

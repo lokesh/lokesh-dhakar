@@ -164,6 +164,7 @@ pageWidth: "full"
   align-items: center;
   padding: 0 0.6em 0;
   height: var(--note-control-height-xs);
+  line-height: 1;
   margin-right: 0.25em;
   font-size: 0.9375rem;
   font-weight: var(--weight-bold);
