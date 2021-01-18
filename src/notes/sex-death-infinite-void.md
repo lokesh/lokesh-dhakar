@@ -4,7 +4,7 @@ title: Sex, Death and the Infinite Void
 creator: Creeper
 publishDate: 2020
 image: sex-death-infinite-void.jpg
-rating: 2
+rating: 1.5
 reviewDate: Jan 16, 2021
 ---
 

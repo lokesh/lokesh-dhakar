@@ -65,7 +65,9 @@ pageWidth: "full"
       <input type="radio" name="note-filter" class="note-filter-radio" :value="type" :id="`filter-${type}`" @change="onChange" />
       <label class="note-filter-label" :for="`filter-${type}`">
         <svg class="note-filter-label-icon"><use :href="`#svg-${type}`" /></svg>
-        <slot />
+        <div class="note-filter-label-text">
+          <slot />
+        </div>
       </label>
   </div>
 </template>
@@ -109,9 +111,6 @@ pageWidth: "full"
   --movie-color: #3DAFD1;
   --music-color: #FB84E2;
   --tv-color: #C6B848;
-
-  --note-control-height-xs: 2.75em;
-  --note-control-height: 2.5em;
 }
 
 /* COLOR CLASSES ------------------------------------- */
@@ -163,7 +162,7 @@ pageWidth: "full"
   display: inline-flex;
   align-items: center;
   padding: 0 0.6em 0;
-  height: var(--note-control-height-xs);
+  height: var(--form-control-height-xs);
   line-height: 1;
   margin-right: 0.25em;
   font-size: 0.9375rem;
@@ -200,7 +199,7 @@ pageWidth: "full"
 
   .note-filter-label {
     font-size: 0.8125rem;
-    height: var(--note-control-height);
+    height: var(--form-control-height);
   }
   
   .note-filter-label-icon {
@@ -242,7 +241,7 @@ pageWidth: "full"
 
   .note-sort-select {
     font-size: 0.8125rem;
-    height: var(--note-control-height);
+    height: var(--form-control-height);
   }
 }
 
