@@ -36,6 +36,18 @@
       "excerpt": "<p>The book follows the author as he travels the world collecting components for his dream bike. I loved the tone and the fluid structure, which moved between personal stories, history lessons, and practical information.</p>"
     },
     {
+      "id": "notes__blade-runner",
+      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
+      "type": "movie",
+      "title": "Blade Runner",
+      "creator": "Ridley Scott",
+      "publishDate": 1982,
+      "image": "blade-runner.jpg",
+      "rating": 4,
+      "reviewDate": "Oct 19, 2018",
+      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&apos;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>"
+    },
+    {
       "id": "notes__american-factory",
       "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
       "type": "movie",
@@ -60,18 +72,6 @@
       "excerpt": "<p>Going to the moon and back is an astonishing feat and doesn&apos;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>"
     },
     {
-      "id": "notes__blade-runner",
-      "contents": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&#39;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>\n<p>Dark alleys lit with neon, endless rain, noir lighting, and technology that is futuristic but also worn and textured. All of these are now visual touchstones that every modern sci-fi film taps. The impact of Blade Runner on sci-fi imagery, especially cyberpunk, cannot be overstated. And the movie still looks great 30+ years later.</p>\n<p><em>What does it mean to be human?</em> This is the overarching question in the movie. It plays out between humans and replicants. Replicants are &#39;robots&#39; created by humans that are virtually identical to humans, but treated as property. Through out the movie, it&#39;s not clear if Deckard, Harrison Ford&#39;s character, is a replicant or not. This is an interesting way to point out that the answer to the question of Deckard&#39;s humanity doesn&#39;t matter. If as viewers, we can&#39;t tell if he is a replicant or not, does it matter if he is or not?</p>\n",
-      "type": "movie",
-      "title": "Blade Runner",
-      "creator": "Ridley Scott",
-      "publishDate": 1982,
-      "image": "blade-runner.jpg",
-      "rating": 4,
-      "reviewDate": "Oct 19, 2018",
-      "excerpt": "<p>When I first watched the movie, the visuals were what left a mark. Now after seeing <em>Blade Runnner 2049</em> and reading <a href=\"https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F\"><em>Do Androids Dream of Electric Sheep?</em></a>, I&apos;ve come to appreciate the themes the movie explores. The plot is fine, but less remarkable.</p>"
-    },
-    {
       "id": "notes__bicycle-thieves",
       "contents": "<p><em>Bicycle Thieves</em> (aka <em>The Bicyle Thief</em> in the US) is a stark Italian Neorealist film that follows an everyman and his son over a couple of days as they hunt for their stolen bicycle. The plot is simple, but it&#39;s absolutely riveting, and you&#39;re invested in the characters from the start, rooting for them through each challenge. The movie reflects the attitudes of the time, which was Italy post-World War 2, so the tone is dire, but honest. The movie believes that reality is rich, and to look at it is enough, so don&#39;t expect any contrived happy-endings.</p>\n<p>The character arc reminded me quite a bit of <em>The Jungle</em>, another favorite of mine. Both of these follow downtrodden characters and show that life isn&#39;t always fair, with bad things happening to good people, who in turn are put in siutations where their morality and integrity are put against their survival. Their crimes are often an act of despration in these impossible situations.</p>\n",
       "type": "movie",
@@ -82,18 +82,6 @@
       "rating": 4.5,
       "reviewDate": "October 3, 2020",
       "excerpt": "<p><em>Bicycle Thieves</em> (aka <em>The Bicyle Thief</em> in the US) is a stark Italian Neorealist film that follows an everyman and his son over a couple of days as they hunt for their stolen bicycle. The plot is simple, but it&apos;s absolutely riveting, and you&apos;re invested in the characters from the start, rooting for them through each challenge. The movie reflects the attitudes of the time, which was Italy post-World War 2, so the tone is dire, but honest. The movie believes that reality is rich, and to look at it is enough, so don&apos;t expect any contrived happy-endings.</p>"
-    },
-    {
-      "id": "notes__blue-bottle",
-      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
-      "type": "book",
-      "title": "The Blue Bottle Craft of Coffee",
-      "creator": "James & Caitlin Freeman",
-      "publishDate": 2012,
-      "image": "blue-bottle.jpg",
-      "rating": 2,
-      "reviewDate": "March 7, 2019",
-      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>"
     },
     {
       "id": "notes__cold-war",
@@ -121,16 +109,16 @@
       "excerpt": "<p>A well-written and entertaining, non-technical history of Bitcoin. Though I was familiar with many of the people and events (the cypherpunks, Ross Ulbright, Mt Gox, et al), the book helped me place them in time and connect the dots on how they related to the development of Bitcoin and its popularity. A strong first-effort from the New York Times tech reporter.</p>"
     },
     {
-      "id": "notes__hatching-twitter",
-      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
+      "id": "notes__blue-bottle",
+      "contents": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>\n<p>I&#39;d recommend this book for serious home roasters and brewers, and not for the casual coffee drinker looking for a Bill Bryson-esque romp through the coffee industry.</p>\n",
       "type": "book",
-      "title": "Hatching Twitter",
-      "creator": "Nick Bilton",
-      "publishDate": 2013,
-      "image": "hatching-twitter.jpg",
-      "rating": 1.5,
-      "reviewDate": "Feb 15, 2019",
-      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&apos;t were maligned, and their motivations unarticulated.</p>"
+      "title": "The Blue Bottle Craft of Coffee",
+      "creator": "James & Caitlin Freeman",
+      "publishDate": 2012,
+      "image": "blue-bottle.jpg",
+      "rating": 2,
+      "reviewDate": "March 7, 2019",
+      "excerpt": "<p>I was hoping for a general education on coffee and the Blue Bottle story, and though both of those topics were covered, they were dryly written, and a good half of the book went into the weeds with technical brewing instructions and pastry recipes.</p>"
     },
     {
       "id": "notes__do-the-right-thing",
@@ -143,6 +131,30 @@
       "rating": 4,
       "reviewDate": "Jul 4, 2020",
       "excerpt": "<p>This movie feels more relevant today than ever. It doesn&apos;t flinch when tackling racial issues or police violence. It shows what simmers underneath, and what happens when the pot boils over.</p>"
+    },
+    {
+      "id": "notes__dune",
+      "contents": "<p>I enjoyed the book, but it took me quite a while to get into it and required me to let go of my criticisms. And I had many. The characters are mostly two-dimensional, the dialogue and inner-monologues are clunky, there is a lot of exposition, telling rather than showing, and the pace can be plodding. Do you remember those political scenes in the Star Wars prequels where characters stood around and talked about political factions and events in the galaxy and you scramble in your head to connect the dots, it&#39;s a lot of that.</p>\n<p>So... why did I still enjoy the book? It was because of Herbert&#39;s incredible world-building. The planet of Arrakis, the ecosystem, the native people, the Bene Gesserit, all of it was fascinating. Herbert teased ideas about the world early, such as the mystery of how spice is created and what exists on other parts of the planet. All of this hooked me more than any concern about the fate of the characters.</p>\n<p>The book does have some fun set pieces, and becomes a page turner by the end. But this wasn&#39;t enough to convince me to keep reading the series. I&#39;ve heard mixed reviews about the follow-up books. I&#39;ll revisit this idea after I watch the movie.</p>\n",
+      "type": "book",
+      "title": "Dune",
+      "creator": "Frank Herbert",
+      "publishDate": 1965,
+      "image": "dune.jpg",
+      "rating": 3.5,
+      "reviewDate": "Jan 25, 2021",
+      "excerpt": "<p>I enjoyed the book, but it took me quite a while to get into it and required me to let go of my criticisms. And I had many. The characters are mostly two-dimensional, the dialogue and inner-monologues are clunky, there is a lot of exposition, telling rather than showing, and the pace can be plodding. Do you remember those political scenes in the Star Wars prequels where characters stood around and talked about political factions and events in the galaxy and you scramble in your head to connect the dots, it&apos;s a lot of that.</p>"
+    },
+    {
+      "id": "notes__hatching-twitter",
+      "contents": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&#39;t were maligned, and their motivations unarticulated.</p>\n<p>The book gave me a bit of history on the company, but not much else to takeaway.</p>\n",
+      "type": "book",
+      "title": "Hatching Twitter",
+      "creator": "Nick Bilton",
+      "publishDate": 2013,
+      "image": "hatching-twitter.jpg",
+      "rating": 1.5,
+      "reviewDate": "Feb 15, 2019",
+      "excerpt": "<p>I picked this book up hoping to get a little background about Jack Dorsey, who became our CEO after Weebly was acquired by Square. Unfortunately, I found the book to be one-sided. It came off as a hitjob against Jack. I have zero first-hand information and am not implying any inaccuricies to the events in the book, but it seemed like the people who gave time to the author came off well, and those who didn&apos;t were maligned, and their motivations unarticulated.</p>"
     },
     {
       "id": "notes__hitchhikers-guide-to-the-galaxy",
@@ -200,7 +212,7 @@
       "creator": "Patti Smith",
       "publishDate": 2010,
       "image": "just-kids.jpg",
-      "rating": 4,
+      "rating": 3.5,
       "reviewDate": "June 22, 2020",
       "excerpt": "<p>This is a story of Patti Smith&apos;s relationship with Robert Mapplethorpe, her muse, her part-time partner, and her fellow artist. I came into this book expecting a history of  her music career and the nascent punk scene, and this isn&apos;t that. The focus is on Patti and Robert. It&apos;s about their life-long relationship, and how they support each other and their art, and how the art, in the end &#x2013; is less important than the relationship they form.</p>"
     },
@@ -266,18 +278,6 @@
       "excerpt": "<p>This book is worth reading, not simply because it shows how the unjust treatment and loss of culture that Native Americans suffered percolates down in to their modern day life, but because it gets you to see the same world from two sets of eyes. Two cultures looking at the same thing, but seeing things very differently.</p>"
     },
     {
-      "id": "notes__obey-giant",
-      "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
-      "type": "movie",
-      "title": "Obey Giant",
-      "creator": "James Moll",
-      "publishDate": 2019,
-      "image": "obey-giant.jpg",
-      "rating": 1.5,
-      "reviewDate": "Mar 24, 2020",
-      "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&apos;s structure and doesn&apos;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&apos;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>"
-    },
-    {
       "id": "notes__neuromancer",
       "contents": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&#39;t enjoy the reading experience.</p>\n<p>The problem for me was the style of the prose. The writing is frenetic and jumpy. I found it challenging to follow the plot as we bounced from scene to scene. It didn&#39;t help that the world, as conceptually interesting as it is, wasn&#39;t fleshed out. And lastly, and this one isn&#39;t the fault of Gibson, is that I listened to it as an audiobook. This made going back to &#39;re-read&#39; sections to get clarification tedius.</p>\n<p>I still love the genre and am excited to read more books that focus on the combination of &quot;high tech, low life&quot;.</p>\n",
       "type": "book",
@@ -288,6 +288,18 @@
       "rating": 2,
       "reviewDate": "Dec 27, 2019",
       "excerpt": "<p>The book is a seminal work in the <em>cyberpunk</em> genre. It solidified the genre and laid out the archetypes which still live on in current books and movies. Think hackers with implants and colored hair, navigating cyberspace (aka the &quot;matrix&quot; in the book) in virtual reality. But as important and influential as the book is, and with how many boxes it checks for me, I still didn&apos;t enjoy the reading experience.</p>"
+    },
+    {
+      "id": "notes__obey-giant",
+      "contents": "<p>Not necessarily a bad documentary, but one that plays it safe in it&#39;s structure and doesn&#39;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&#39;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>\n",
+      "type": "movie",
+      "title": "Obey Giant",
+      "creator": "James Moll",
+      "publishDate": 2019,
+      "image": "obey-giant.jpg",
+      "rating": 1.5,
+      "reviewDate": "Mar 24, 2020",
+      "excerpt": "<p>Not necessarily a bad documentary, but one that plays it safe in it&apos;s structure and doesn&apos;t go deep into any one topic. And for someone who is familiar with Shepard Fairey and his work, the doc doesn&apos;t uncover much new, besides a few behind-the-scenes clips of him working in the studio and the streets, which, were the highlights for me.</p>"
     },
     {
       "id": "notes__of-fathers-and-sons",
@@ -423,13 +435,13 @@
     },
     {
       "id": "notes__sex-death-infinite-void",
-      "contents": "<p>This is a fine rock album, but this batch of Britpop songs are just not memorable. The bar for a verse, loud chorus, verse, loud chorus song is much higher for me these days. The album is full of polished songs and decent hooks, but everything sounds derivative of the Bitpop/Alt-rock of the late 90s.</p>\n<p>A track that exemplifies their sound is <a href=\"https://www.youtube.com/watch?v=j6dORf4EVMc&amp;ab_channel=Creeper\">Annabelle</a>. My favorite track is <a href=\"https://www.youtube.com/watch?v=cbgQV4ME174\">Posioned Heart</a>.</p>\n",
+      "contents": "<p>This is a fine rock album, but this batch of Britpop songs are just not memorable. The bar for a verse, loud chorus, verse, loud chorus song is much higher for me these days. The album is full of polished songs and decent hooks, but everything sounds derivative of the Bitpop/Alt-rock of the late 90s.</p>\n<p>A track that exemplifies their sound is <a href=\"https://www.youtube.com/watch?v=j6dORf4EVMc&amp;ab_channel=Creeper\">Annabelle</a>. My favorite track is the slightly goth <a href=\"https://www.youtube.com/watch?v=cbgQV4ME174\">Posioned Heart</a>.</p>\n",
       "type": "music",
       "title": "Sex, Death and the Infinite Void",
       "creator": "Creeper",
       "publishDate": 2020,
       "image": "sex-death-infinite-void.jpg",
-      "rating": 2,
+      "rating": 1.5,
       "reviewDate": "Jan 16, 2021",
       "excerpt": "<p>This is a fine rock album, but this batch of Britpop songs are just not memorable. The bar for a verse, loud chorus, verse, loud chorus song is much higher for me these days. The album is full of polished songs and decent hooks, but everything sounds derivative of the Bitpop/Alt-rock of the late 90s.</p>"
     },
@@ -519,18 +531,6 @@
       "excerpt": "<p>The book has become infamous for its description of Chicago&apos;s meatpacking industry in the early 1900s. The outrage from which led to the creation of the FDA.</p>"
     },
     {
-      "id": "notes__three-body-problem",
-      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
-      "type": "book",
-      "title": "The Three-Body Problem",
-      "creator": "Cixin Liu",
-      "publishDate": 2013,
-      "image": "three-body-problem.jpg",
-      "rating": 1,
-      "reviewDate": "aug 17, 2019",
-      "excerpt": "<p>It didn&apos;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>"
-    },
-    {
       "id": "notes__the-lure",
       "contents": "<p>Weird, messy, and like nothing I&#39;ve seen before. <em>The Lure</em> is a Polish horror/comedy/musical/fairy tale genre-hopper about two young mermaids coming of age in a cruel male world. It&#39;s stylish and beautifully constructed, with vivid colors and sound, interspersed with some grissly horror bits. The plot was never rivettng, nor was I ever invested in any of the characters, so the experience felt shallow, but I&#39;m happy to have watched all the weirdness. </p>\n<p>🧜‍♀️🧜‍♀️</p>\n",
       "type": "movie",
@@ -543,16 +543,16 @@
       "excerpt": "<p>Weird, messy, and like nothing I&apos;ve seen before. <em>The Lure</em> is a Polish horror/comedy/musical/fairy tale genre-hopper about two young mermaids coming of age in a cruel male world. It&apos;s stylish and beautifully constructed, with vivid colors and sound, interspersed with some grissly horror bits. The plot was never rivettng, nor was I ever invested in any of the characters, so the experience felt shallow, but I&apos;m happy to have watched all the weirdness. </p>"
     },
     {
-      "id": "notes__tokyo-story",
-      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
-      "type": "movie",
-      "title": "Tokyo Story",
-      "creator": "Yasujiro Ozu",
-      "publishDate": 1953,
-      "image": "tokyo-story.jpg",
-      "rating": 5,
-      "reviewDate": "April 2, 2019",
-      "excerpt": "<p>It&apos;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>"
+      "id": "notes__three-body-problem",
+      "contents": "<p>It didn&#39;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>\n<p>What the book has going for it is a big novel concept around <em>first contact</em>, which I did enjoy, particularly the social and political questions that arise from it. The <em>hard science</em> that others rave about didn&#39;t do much for me though.</p>\n<p>I do wonder how much my enjoyment of the story was affected by the fact that I &#39;read&#39; the book as an audiobook and my listening was disjointed, spread out over a couple of months. Unlikely I would have loved the book, but it does make me wonder.</p>\n",
+      "type": "book",
+      "title": "The Three-Body Problem",
+      "creator": "Cixin Liu",
+      "publishDate": 2013,
+      "image": "three-body-problem.jpg",
+      "rating": 1,
+      "reviewDate": "aug 17, 2019",
+      "excerpt": "<p>It didn&apos;t live up to the hype. The character development is nonexistant, there are long segments (the VR video game) that are a slog, and the resolution at the end is unsatisfying, and one I would describe as <em>deus ex machina</em>. </p>"
     },
     {
       "id": "notes__tiger-king",
@@ -565,6 +565,18 @@
       "rating": 1.5,
       "reviewDate": "Apr 15, 2020",
       "excerpt": "<p>I binged it. I knew it wasn&apos;t good for me, but it was hard to stop watching the insanity unfold.</p>"
+    },
+    {
+      "id": "notes__tokyo-story",
+      "contents": "<p>It&#39;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>\n<p>Ozu captures the relationship between parents and their children in a way I&#39;ve never seen or felt before. It hits hard. The movie has aged amazingly well over 60 years and the issues of generational differences and familial relationships it tackles are still present.\nThis goes straight into my favorite movies of all-time list! Which is rare from a first viewing.</p>\n",
+      "type": "movie",
+      "title": "Tokyo Story",
+      "creator": "Yasujiro Ozu",
+      "publishDate": 1953,
+      "image": "tokyo-story.jpg",
+      "rating": 5,
+      "reviewDate": "April 2, 2019",
+      "excerpt": "<p>It&apos;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>"
     },
     {
       "id": "notes__wanda",
