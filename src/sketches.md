@@ -45,15 +45,10 @@ pageWidth: "full"
 .item-image {
   width: 100%;  
   padding-top: 75%;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   background-color: var(--recessed-bg-color);
   background-size: cover;
-  /*background-position: center;*/
   border-radius: var(--radius);
-}
-
-.item-title {
-  margin-bottom: 2px;
 }
 
 .item-meta {

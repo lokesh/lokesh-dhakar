@@ -46,6 +46,7 @@
   height: var(--form-control-height-xs);
   /* font size must be at least 16px on iOS Safari or screen will zoom */
   font-size: 16px;
+  font-family: var(--font-ui);
   font-weight: var(--weight-bold);
   border-radius: var(--radius);
   border: var(--control-border);
@@ -56,13 +57,6 @@
   background-position: right .7em top 50%;
   background-size: .65em auto;
   outline: none;
-}
-
-@media (min-width: 800px) {
-  .select {
-    font-size: 0.8125rem;
-    height: var(--form-control-height);
-  }
 }
 
 /* RANGE ------------------------------------------------------------------- */

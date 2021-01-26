@@ -25,10 +25,10 @@
   --border-color: #999;
   --border-color-light: #d5d5d5; /* Used for inline content  */
 
-  --radius-sm: 0; /* Small tags */
-  --radius: 0;    /* Form controls */
-  --radius-lg: 0; /* Media */
-  --radius-xl: 0; /* Large media */
+  --radius-sm: 4px; /* Small tags */
+  --radius: 4px;    /* Form controls */
+  --radius-lg: 4px; /* Media */
+  --radius-xl: 4px; /* Large media */
 
   /* Typography */
   --font: "Inter", sans-serif;

@@ -165,6 +165,7 @@ pageWidth: "full"
   height: var(--form-control-height-xs);
   line-height: 1;
   margin-right: 0.25em;
+  font-family: var(--font-ui);
   font-size: 0.9375rem;
   font-weight: var(--weight-bold);
   border-radius: var(--radius);
@@ -197,11 +198,6 @@ pageWidth: "full"
     margin: 0 2px 6px 0;
   }
 
-  .note-filter-label {
-    font-size: 0.8125rem;
-    height: var(--form-control-height);
-  }
-  
   .note-filter-label-icon {
     top: 0;
   }
