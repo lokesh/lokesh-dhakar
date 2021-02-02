@@ -37,7 +37,7 @@ pageWidth: "full"
       <h2 class="item-title">{{ title }}</h2>
       <div class="item-meta">
         <span>{{ type }}</span>
-        ·
+        /
         <span class="item-review-date">{{ formattedReviewDate }}</span>
       </div>
       <note-rating v-if="rating" :stars="rating"></note-rating>
@@ -107,16 +107,16 @@ pageWidth: "full"
 
 <style>
 :root {
-  --book-color: #F5914A;
-  --movie-color: #3DAFD1;
-  --music-color: #FB84E2;
-  --tv-color: #C6B848;
+  --book-color: var(--action-color); /* #F5914A; */
+  --movie-color: var(--action-color); /* #3DAFD1; */
+  --music-color: var(--action-color); /* #FB84E2;*/
+  --tv-color: var(--action-color); /*#C6B848; */
 }
 
 /* COLOR CLASSES ------------------------------------- */
 
 .type-all {
-  --type-color: var(--color);
+  --type-color: var(--action-color);
 }
 
 .type-book {

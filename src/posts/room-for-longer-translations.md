@@ -6,7 +6,7 @@ layout: post.njk
 
 <template id="demo-shrink-expand">
   <div class="demo-shrink-expand">
-    <input @input="onInput" type="range" min="0" max="9" value="4">
+    <input @input="onInput" type="range" min="0" max="9" value="4" aria-label="font size">
     <div class="stage">
       <div class="word">
         {{ translation }}
@@ -21,7 +21,7 @@ layout: post.njk
 
 <template id="demo-fluid">
   <div class="demo-fluid">
-    <input @input="onInput" type="range" min="0" max="9" value="4">
+    <input @input="onInput" type="range" min="0" max="9" value="4" aria-label="font size">
     <div class="stage">
       <div class="demo-cards">
         <div
@@ -44,7 +44,7 @@ layout: post.njk
 
 <template id="demo-fixed">
   <div class="demo-fixed">
-    <input @input="onInput" type="range" min="0" max="9" value="4">
+    <input @input="onInput" type="range" min="0" max="9" value="4" aria-label="font size">
     <div class="stage">
       <div
         class="demo-alert"
@@ -80,7 +80,7 @@ layout: post.njk
 
 <template id="demo-stacked">
   <div class="demo-stacked">
-    <input @input="onInput" type="range" min="0" max="9" value="4">
+    <input @input="onInput" type="range" min="0" max="9" value="4" aria-label="font size">
     <div class="stage">
       <div class="demo-alert" :class="{'rtl': language === 'Arabic'}">
         <div class="demo-alert-title">{{ t[2] }}</div>
@@ -105,7 +105,7 @@ layout: post.njk
 
 <template id="good-luck">
   <div class="good-luck">
-    <input @input="onInput" type="range" min="0" max="9" value="4">
+    <input @input="onInput" type="range" min="0" max="9" value="4" aria-label="font size">
     <div class="stage">
       <div class="word" v-for="n in 7">
         {{ translation }}
@@ -244,10 +244,11 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 }
 
 .stage {
+  margin-top: 8px;
   padding: var(--gutter);
   border-radius: var(--radius-xl);
   border: 1px solid var(--border-color-light);
-  margin-top: 8px;
+  background: white;
 }
 
 .rtl {
@@ -379,7 +380,8 @@ I picked twenty sites, mostly big ones (e.g. wikipedia, google.com/about), but a
 .good-luck .word {
   display: block;
   font-size: 2rem;
-  font-weight: 900;
+  font-family: var(--font-heading);
+  font-weight: var(--weight-x-bold);
   line-height: 1em;
   color: white;
   text-transform: uppercase;

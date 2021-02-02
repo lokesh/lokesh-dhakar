@@ -6,6 +6,19 @@ pageWidth: "full"
 draft: true
 ---
 
+- W3C Silver: https://w3c.github.io/silver/guidelines/#visual-contrast-of-text
+
+- Demo: https://www.myndex.com/APCA/
+- Github: https://github.com/Myndex/SAPC-APCA
+- JS README: https://github.com/Myndex/SAPC-APCA/blob/master/JS/ReadMe.md
+
+> Should the standard be relaxed for spot-reading such as for one or two words on a button?
+
+> And legibility does not equal readability. Legibility means you can "make out what it is" letter by letter. Readability means that the VWFA can process whole words. There is an enormous difference. The Visual Contrast standard for Silver and the APCA is focused on readability not legibility.
+
+Color combos to highlight in article
+- https://www.bounteous.com/insights/2019/03/22/orange-you-accessible-mini-case-study-color-ratio/
+
 <!--
 WCAG AA & AAA
 APCA - Ratings 4, 3, 2, 1, 0
@@ -47,9 +60,9 @@ However, APCA provides more granular guidance on the critical properties of font
         class="contrast-label"
         :class="{'pass': wcagRating.startsWith('A')}"
       >
+        
         WCAG {{ wcagRating }}
       </div>
-
     </div>
   </div>
 </template>
@@ -82,9 +95,9 @@ However, APCA provides more granular guidance on the critical properties of font
     ></color-picker>
 
     <div class="table-wrapper">
-      <table class="contrast-table left-align top-align separated-cells">
-        <thead v-if="false">
-          <tr>
+      <table class="contrast-table left-align top-align">
+        <thead>
+          <tr v-if="showTableLabels">
             <th></th>
             <th 
               v-for="(contrastMinsByWeights, i) in APCA_TABLE[16]"
@@ -96,7 +109,7 @@ However, APCA provides more granular guidance on the critical properties of font
         </thead>
         <tbody>
           <tr v-for="(contrastMinsByWeights, fontSize) in APCA_TABLE">
-            <td v-if="false">{{ fontSize }}px</td>
+            <td v-if="showTableLabels">{{ fontSize }}px</td>
             <td
               v-for="(weightMin, i) in contrastMinsByWeights"
               class="table-preview-cell"
@@ -123,7 +136,7 @@ However, APCA provides more granular guidance on the critical properties of font
 
 <style>
 .contrast-table td {
-  border-radius: var(--radius-lg);
+  border: 0;
 }
 
 .t-col-head {
@@ -141,28 +154,26 @@ However, APCA provides more granular guidance on the critical properties of font
 */
 .preview {
   padding: var(--gutter);
-  border-radius: var(--radius-lg);
 }
 
 .preview-sample {
   margin-bottom: var(--gutter);
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
-  -webkit-font-smoothing: auto;
-}
 
 .contrast-label {
   display: inline-block;
   padding: 2px 4px;
   background: var(--orange);
   border-radius: var(--radius-sm);
-  font-size: 13px;
+  font-size: 11px;
   font-family: var(--monospace);
   font-weight: bold;
   margin-bottom: 4px;
 }
 
 .contrast-label.pass {
-  background: var(--green);
+  display: none;
+  background: transparent;
 }
 
 /* COLOR PICKER ------------------------------------------------------------- */
@@ -196,11 +207,22 @@ import Vue from '/js/vue.esm.browser.js';
  * - and so on
  */
 
+const METRICS = {
+  16: {
+    100: {
+      apca: 'null',
+      aa: '4.5',
+      aaa: '7',
+    },
+  },
+}
+
+
 let APCA_TABLE = {
-  16: [null, null, 130, 120, 100, 80, 75, 70, 70],
-  24: [null, 120, 100, 80, 75, 70, 60, 58, 55],
-  36: [null, 100, 80, 70, 60, 58, 55, 50, 45],
-  72: [100, 75, 60, 55, 50, 45, 40, 40, 40],
+  16: [null, null, 100, 90, 90, 60, 55, 50, 50],
+  24: [null, 100, 80, 60, 55, 50, 40, 38, 35],
+  36: [100, 70, 55, 40, 38, 35, 30, 25, 20],
+  72: [70, 50, 35, 25, 20, 20, 20, 20, 20],
 }
 
 let WCAG_TABLE_AA = {
@@ -217,7 +239,18 @@ let WCAG_TABLE_AAA = {
   72: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5],
 }
 
-function editTable(table) {
+
+
+
+
+
+
+/**
+ * Removes every other data column.
+ * @param  {Object} table
+ * @return {Object}
+ */
+function trimColumns(table) {
   let newObj = {};
   for (const [key, value] of Object.entries(table)) {
     value.forEach((val, i) => {
@@ -229,12 +262,13 @@ function editTable(table) {
       }
     })
   }
+  console.log(newObj);
   return newObj;
 }
 
-APCA_TABLE = editTable(APCA_TABLE);
-WCAG_TABLE_AA = editTable(WCAG_TABLE_AA);
-WCAG_TABLE_AAA = editTable(WCAG_TABLE_AAA);
+APCA_TABLE = trimColumns(APCA_TABLE);
+WCAG_TABLE_AA = trimColumns(WCAG_TABLE_AA);
+WCAG_TABLE_AAA = trimColumns(WCAG_TABLE_AAA);
 
 Vue.component('preview', {
   template: '#preview',
@@ -273,21 +307,27 @@ Vue.component('preview', {
 
     apcaStyles() {
       let bg;
+      let display = 'inline-block';
       if (this.apcaRating === 4) {
-        bg = 'var(--green)';
+        bg = 'transparent';
+        display = 'none';
       } else if (this.apcaRating >= 1) {
         bg = 'var(--yellow)';
+        display = 'none';
       } else {
         bg = 'var(--orange)';
       }
       return {
         backgroundColor: bg,
+        display,
       };
     },
 
     wcagRating() {
-      const aaaMin = WCAG_TABLE_AAA[this.fontSize][this.fontWeight / 100 - 1];
-      const aaMin = WCAG_TABLE_AA[this.fontSize][this.fontWeight / 100 - 1];
+      const weightArrayIndex = (this.fontWeight - 100) / 200;
+      const aaaMin = WCAG_TABLE_AAA[this.fontSize][weightArrayIndex];
+      const aaMin = WCAG_TABLE_AA[this.fontSize][weightArrayIndex];
+
       if (this.wcag >= aaaMin) {
         return 'AAA';
       } else if (this.wcag >= aaMin) {
@@ -312,6 +352,8 @@ new Vue({
 
   data() {
     return {
+      showTableLabels: false,
+
       APCA_TABLE,
       WCAG_TABLE_AA,
       WCAG_TABLE_AAA,
@@ -334,7 +376,7 @@ new Vue({
     the Vue template was trying to add emphasis to text with * and it parsed 
     that block. */
     weightFromIndex(i) {
-      return (i + 1) * 100;
+      return (i * 200) + 100;
     },
 
     apcaRating(weightMin) {

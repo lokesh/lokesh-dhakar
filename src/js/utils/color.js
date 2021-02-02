@@ -1,4 +1,5 @@
-import { APCA } from '../deps/APCAsRGBonly.98.js';
+// import { APCA } from '../deps/APCAsRGBonly.98.js';
+import { APCA } from '../deps/APCAonly.98e_d12e.js';
 
 export const MODE_WCAG = 'wcag2';
 export const MODE_APCA = 'apca';
@@ -53,8 +54,13 @@ function wcagContrast(textColor, bgColor) {
 function apcaContrast(textColor, bgColor) {
   const { r: textR, g: textG, b: textB } = hexToRgb(textColor);
   const { r: bgR, g: bgG, b: bgB } = hexToRgb(bgColor);
-  let ratio = APCA(bgR, bgG, bgB, textR, textG, textB);
-  return Math.abs(parseInt(ratio.split(' ')[0]))
+
+  const textHex = parseInt(textColor.replace(/^#/, ''), 16);
+  const bgHex = parseInt(bgColor.replace(/^#/, ''), 16);
+
+  // Requires passing in hex numbers, not strings (e.g 0x333333)
+  let ratio = APCA(bgHex, textHex);
+  return Math.abs(Math.round(ratio * 100) / 100);
 }
 
 /**

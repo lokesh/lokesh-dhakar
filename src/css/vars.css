@@ -1,13 +1,14 @@
 :root {
-  --bg-color: #fff; /* prev: #f9f9f9 */
+  --bg-color: #f9f9f9; /* prev: #f9f9f9 */
   --recessed-bg-color: #e3e3e3;
   --hover-bg-color: #e9e9e9;
   --color: #333;
-  --primary-color: #e66622;
+  --primary-color: #005EF8;
   --muted-color: #999;
-  --link-color: #55A3CA; /* Not used */
-  --link-bg-color: #F5Eabc;
-  --link-bg-hover-color: #e5daac;
+  --link-color: var(--color);
+  --link-bg-color: #e3e3e3;
+  --link-hover-color: white;
+  --link-hover-bg-color: var(--primary-color);
   --action-color: var(--primary-color); /* For buttons and other non-link controls */
 
   /* Misc colors */
@@ -31,11 +32,11 @@
   --radius-xl: 4px; /* Large media */
 
   /* Typography */
-  --font: "Inter", sans-serif;
-  --font-heading: "Space Grotesk", sans-serif;
-  --font-ui: "Space Grotesk", sans-serif;
+  --font: 'Recursive', Inter, sans-serif;
+  --font-heading: 'Recursive Casual', sans-serif;
+  --font-ui: 'Recursive Casual', sans-serif;
 
-  --monospace: Menlo, Consolas, Monaco, Lucida Console, monospace;
+  --font-mono: 'Recursive Mono', Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;
   --weight-bold: 600;
   --weight-x-bold: 700;

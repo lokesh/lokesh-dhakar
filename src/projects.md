@@ -28,7 +28,6 @@ layout: page.njk
 }
 
 .project-title a {
-  color: var(--color);
   font-weight: var(--weight-x-bold);
 }
 </style>

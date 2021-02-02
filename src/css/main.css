@@ -16,16 +16,36 @@
 */
 
 @font-face {
-  font-family: "Space Grotesk";
-  font-weight: 400;
-  src: url("/fonts/SpaceGrotesk-SemiBold.woff2") format('woff2')
+  font-family: 'Recursive';
+  font-weight: var(--weight-bold);
+  src: url("/fonts/recursive/Recursive-Bold.woff2") format('woff2');
 }
 
 @font-face {
-  font-family: 'Space Grotesk';
-  font-weight: 600;
-  src: url('/fonts/SpaceGrotesk-Bold.woff2') format('woff2');
+  font-family: 'Recursive';
+  font-weight: var(--weight-regular);
+  src: url("/fonts/recursive/Recursive-Regular.woff2") format('woff2');
 }
+
+@font-face {
+  font-family: 'Recursive Casual';
+font-weight: var(--weight-bold);
+  src: url("/fonts/recursive/Recursive_Casual-Medium.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Recursive Casual';
+  font-weight: var(--weight-x-bold);
+  src: url("/fonts/recursive/Recursive_Casual-Bold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Recursive Mono';
+  font-weight: var(--weight-regular);
+  src: url("/fonts/recursive/Recursive_Monospace-Regular.woff2") format('woff2');
+}
+
+
 
 
 /* BASE -------------------------------------------------------------------- */
@@ -105,7 +125,7 @@ h2,
 h3 {
   font-family: var(--font-heading);
   font-weight: var(--weight-regular);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   word-spacing: 0.01em;
 }
 
@@ -132,13 +152,13 @@ h2.subtitle + h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: var(--line-height-heading);
 }
 
 a {
   text-decoration: none;
-  color: var(--color);
+  color: var(--link-color);
   background-color: var(--link-bg-color);
   border-radius: var(--radius-sm);
   text-decoration: none;
@@ -149,7 +169,8 @@ a {
 }
 
 a:hover {
-  background-color: var(--link-bg-hover-color);
+  color: var(--link-hover-color);
+  background-color: var(--link-hover-bg-color);
   text-decoration: none;
 }
 
@@ -205,7 +226,7 @@ li {
 
 pre,
 code {
-  font-family: Menlo, Monaco, Consolas, Courier, monospace;
+  font-family: var(--font-mono);
 }
 
 pre {
@@ -256,7 +277,8 @@ li > code {
 
 .nav__item:hover {
   text-decoration: none;
-  background-color: var(--hover-bg-color);
+  color: var(--link-hover-color);
+  background-color: var(--link-hover-bg-color);
 }
 
 .nav__divider {
