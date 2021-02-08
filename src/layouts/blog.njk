@@ -6,7 +6,7 @@
 
   <ul class="archive">
     {% for post in collections.posts %}
-      {% if not post.draft %}
+      {% if post.draft %}
       <li class="archive__post">
         <div class="archive__title">
           <a href="/{{ post.path }}/">

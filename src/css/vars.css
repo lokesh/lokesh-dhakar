@@ -20,8 +20,6 @@
   --line-height: 1.5em;
   --line-height-heading: 1.25em;
 
-  --block-bottom: 1.5rem;
-
   /* Borders and corners */
   --border-color: #999;
   --border-color-light: #d5d5d5; /* Used for inline content  */
@@ -42,7 +40,7 @@
   --weight-x-bold: 700;
 
   /* Forms */
-  --form-control-height-xs: 2.75em;
+  --form-control-height-xs: 2.5em;
   --form-control-height: 2.5em;
 
   /*
@@ -54,4 +52,6 @@
   --gutter: 12px;
   --page-max-width: 40rem;
   /*--text-max-width: 35rem;*/
+
+  --block-bottom: 1.5rem;
 }

@@ -1,10 +1,97 @@
 ---
-title: "WCAG color contrast revisited"
+title: "WCAG color contrast"
 date: 2020-11-23
 layout: post.njk
-pageWidth: "full"
 draft: true
 ---
+
+(Article needs a hook. I could tease the 3.0 changes, have something interactive up here, or summarize what the post covers.)
+
+-- IMG: examples of different levels of contrast --
+
+## WCAG
+
+**Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/))** are a set of recommendations for making web content accessible. The guidelines primarly focus on people with disabilities, but following these guidelines almost always makes the experience better for everyone.
+
+
+**Who's behind WCAG?** The guidelines are published by the Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) which is part of World Wide Web Consortium ([W3C](https://www.w3.org/)). 
+
+**WCAG versions.** In this post, we'll look at the latest published version, 2.1, as well as the draft of 3.0 which brings big changes for color contrast.
+
+- [WCAG 2.0](https://www.w3.org/TR/WCAG20/) - Published Dec 2008
+- [WCAG 2.1](https://www.w3.org/TR/WCAG21/) - Published June 2018.
+- [WCAG 3.0 Working Draft](https://www.w3.org/TR/wcag-3.0/) - A work in progress, but the first public draft for 3.0 was shared Jan 2021.
+
+
+## Contrast ratio
+
+WCAG provides [step-by-step instructions](https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests) on how to calculate the contrast ratio from the text and background colors.
+
+<details>
+  <summary>See JS code</summary>
+<pre><code class="prism language-js line-numbers">function luminance(color) {
+  const { r, g, b } = color;
+  const rgb = [r, g, b].map(val => {
+    val = val / 255;
+    return (val <= 0.03928)
+      ? val / 12.92
+      : Math.pow((val + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2];
+}
+
+/**
+ * @param  {Object} text color as {r, g, b}
+ * @param  {Object} bg color as {r, g, b}
+ * @return {Number} WCAG 2.1 contrast ratio
+ */
+function wcagContrast(textColor, bgColor) {
+    const textLumi = luminance(textColor);
+    const bgLumi = luminance(bgColor);
+    const ratio = textLumi > bgLumi
+      ? ((textLumi + 0.05) / (bgLumi + 0.05))
+      : ((bgLumi + 0.05) / (textLumi + 0.05));
+    return ratio.toFixed(2);
+}
+</code></pre>
+</details>
+
+
+-- DEMO - WCAG num Text and background color --
+
+
+
+
+<!--
+
+### WCAG compliance
+
+- A - Basic compliance
+- AA - Recommended level of compliance.
+- AA - Highest level compliance. Useful for certain audiences.
+
+
+
+- 2.1 rules
+foreshadowing: new rules are coming
+Basics of AA, AAA
+code
+
+Issues
+
+- 3.0 rules
+WIP
+Focus is what?
+examples
+
+- Summary
+how strict is it
+how should I test it
+
+
+How to follow progress for updates
+
+
 
 - W3C Silver: https://w3c.github.io/silver/guidelines/#visual-contrast-of-text
 
@@ -18,7 +105,7 @@ draft: true
 
 Color combos to highlight in article
 - https://www.bounteous.com/insights/2019/03/22/orange-you-accessible-mini-case-study-color-ratio/
-
+-->
 <!--
 WCAG AA & AAA
 APCA - Ratings 4, 3, 2, 1, 0
@@ -131,6 +218,10 @@ However, APCA provides more granular guidance on the critical properties of font
   </div>
 </div>
 
+
+<link rel="stylesheet" href="/css/prism-syntax-highlighting.css">
+
+<script src="/js/prism.min.js"></script>
 <link rel="stylesheet" href="/css/table.css" />
 <link rel="stylesheet" href="/css/forms.css" />
 

@@ -125,7 +125,7 @@ h2,
 h3 {
   font-family: var(--font-heading);
   font-weight: var(--weight-regular);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   word-spacing: 0.01em;
 }
 
@@ -189,6 +189,7 @@ a.reset {
 }
 
 a.reset:hover {
+  color: var(--color);
   background-color: transparent;
   text-decoration: underline;
 }
@@ -245,6 +246,31 @@ li > code {
   font-size: 0.8125rem;
   border-radius: var(--radius);
   line-height: 12px;
+}
+
+detail {
+
+}
+
+summary {
+  display: flex;
+  align-items: center;
+  height: var(--form-control-height);
+  margin-bottom: var(--block-bottom);
+  padding-left: var(--gutter);
+  border-radius: var(--radius);
+  font-weight: var(--weight-bold);
+  cursor: pointer;
+  outline: none;
+}
+
+summary:focus:not(:hover) {
+  background: var(--recessed-bg-color);
+}
+
+summary:hover {
+  color: white;
+  background: var(--primary-color);
 }
 
 /* Nav ------------ */
