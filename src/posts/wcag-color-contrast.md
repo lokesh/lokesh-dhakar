@@ -1,5 +1,5 @@
 ---
-title: "WCAG color contrast"
+title: "WCAG contrast requirements"
 date: 2020-11-23
 layout: post.njk
 draft: true
@@ -7,28 +7,89 @@ draft: true
 
 (Article needs a hook. I could tease the 3.0 changes, have something interactive up here, or summarize what the post covers.)
 
+(Needs more of the WHY. Why does constrast matter? How do we know it works?)
+
 -- IMG: examples of different levels of contrast --
 
 ## WCAG
+
+Before we jump into the color contrast discussion, a little background on WCAG.
 
 **Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/))** are a set of recommendations for making web content accessible. The guidelines primarly focus on people with disabilities, but following these guidelines almost always makes the experience better for everyone.
 
 
 **Who's behind WCAG?** The guidelines are published by the Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) which is part of World Wide Web Consortium ([W3C](https://www.w3.org/)). 
 
-**WCAG versions.** In this post, we'll look at the latest published version, 2.1, as well as the draft of 3.0 which brings big changes for color contrast.
+**WCAG versions.** In this post, we'll look at the latest published version, 2.1, as well as the draft of 3.0 which brings big changes to contrast requirements.
 
 - [WCAG 2.0](https://www.w3.org/TR/WCAG20/) - Published Dec 2008
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21/) - Published June 2018.
-- [WCAG 3.0 Working Draft](https://www.w3.org/TR/wcag-3.0/) - A work in progress, but the first public draft for 3.0 was shared Jan 2021.
+- [WCAG 3.0 Working Draft](https://www.w3.org/TR/wcag-3.0/) - A work in progress. The first public draft for 3.0 was shared Jan 2021.
 
 
-## Contrast ratio
+## WCAG 2.1 contrast
 
-WCAG provides [step-by-step instructions](https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests) on how to calculate the contrast ratio from the text and background colors.
+
+<figure class="border">
+  <div class="html-figure">
+    <div class="demo-ratio-examples">
+      <div class="ratio-example">
+        <div class="ratio-example-render">
+          Text
+        </div>
+        10.79
+      </div>
+      <div class="ratio-example">
+        <div class="ratio-example-render" style="color: #4d4d4d">
+          Text
+        </div>
+        7.22
+      </div>
+      <div class="ratio-example">
+        <div class="ratio-example-render"  style="color: #999999">
+          Text
+        </div>
+        2.43
+      </div>
+      <div class="ratio-example">
+        <div class="ratio-example-render" style="color: #e6e6e6">
+          Text
+        </div>
+        1.07
+      </div>
+    </div>
+  </div>
+</figure>
+
+<style>
+.demo-ratio-examples {
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ratio-example {
+  text-align: center;
+}
+
+.ratio-example-render {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--gutter);
+  margin-bottom: calc(var(--gutter) / 2);
+  height: 4em;
+  background: #eee;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+</style>
+
+
+So now we know a bit about WCAG. Let's look at the [guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) on color contrast. At the core is a _contrast ratio_. This is derived by comparing the luminance of the foreground text color and the background. WCAG provides [step-by-step instructions](https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests) on how to calculate the contrast ratio and I include a Javascript implementation below.
 
 <details>
-  <summary>See JS code</summary>
+  <summary>See JS implementation of contrast ratio</summary>
 <pre><code class="prism language-js line-numbers">function luminance(color) {
   const { r, g, b } = color;
   const rgb = [r, g, b].map(val => {
@@ -56,28 +117,112 @@ function wcagContrast(textColor, bgColor) {
 </code></pre>
 </details>
 
+This ratio is the key to checking our compliance with WCAG. Many design and development tools (including Chrome's devtools) have a built-in WCAG constrast validator so it's unlikely you'll need to reimplement the algorithm. You can also use a tool like [WAVE](https://wave.webaim.org/) to check your site.
 
--- DEMO - WCAG num Text and background color --
+### Constrast minimiums
 
+
+<figure class="border">
+  <div class="html-figure" style="padding-top: 32px; padding-bottom: 32px;">
+    <div class="demo-categories">
+      <div class="cat-label">
+        <div>
+          <div class="cat-name">Large text</div>
+          Min 3
+        </div>
+        <div>⇢</div>
+      </div>
+      <h2 style="margin: 0">Display contrast</h2>
+      <div class="cat-label">
+        <div>
+          <div class="cat-name">Text</div>
+          Min 4.5
+        </div>
+        <div>⇢</div>
+      </div>
+      <div>Lorem ipsum in visual perception is the difference in appearance of two or more parts of a field seen simultaneously or successively (hence: brightness contrast, lightness contrast, color contrast, simultaneous contrast, successive contrast, etc.).</div>
+      <div class="cat-label">
+        <div>
+          <div class="cat-name">Text</div>
+          Min 4.5
+        </div>
+        <div>⇢</div>
+      </div>
+      <div><button>Button</button></div>
+      <div class="cat-label">
+        <div>
+          <div class="cat-name">Incidental</div>
+          No min
+        </div>
+        <div>⇢</div>
+      </div>
+      <div><button disabled>Disabled button</button></div>
+    </div>
+  </div>
+</figure>
+
+<style>
+.demo-categories {
+  display: grid;
+  gap: calc(var(--gutter) * 2);
+  align-items: center;
+  grid-template-columns: 6em auto;
+}
+
+.cat-label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  font-size: 0.8125rem;
+  gap: 4px;
+}
+
+.cat-name {
+  font-weight: var(--weight-bold);
+}
+
+.ratio-example-render {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--gutter);
+  margin-bottom: calc(var(--gutter) / 2);
+  height: 4em;
+  background: #eee;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+</style>
+
+
+WCAG sets minimum values for the ratio depending on the type of content. They break things down in to four categories:
+
+1. <u>Text:</u> Min contrast ratio of 4.5
+2. <u>Large text:</u> Min contrast ratio of 3. This refers to text that is at least 18pt or bold and at least 14pt.
+3. <u>Incidental:</u> No min requirement. This refers to decorative content that provides no information and disabled UI elmements.
+4. <u>Logotypes:</u> No min requirement
+
+### Compliance levels
+
+When we discuss WCAG compliance, we are normally referring to *AA* compliance. WCAG provides three tiers of compliance:
+
+- <u>A</u> - Basic compliance
+- <u>AA</u> - Recommended level of compliance
+- <u>AA</u> - Highest level compliance. Useful for certain audiences.
+
+To meet any of these compliance levels, you must meet _every one_ of the guidelines for that level. This doesn't mean partial compliance isn't beneficial for users, but if you're looking to meet a legal requirement, this detail is worth noting.
+
+[ DEMO play with color values for title and text ] --
+
+
+Problem examples
+
+Doesn't account for font weight
 
 
 
 <!--
-
-### WCAG compliance
-
-- A - Basic compliance
-- AA - Recommended level of compliance.
-- AA - Highest level compliance. Useful for certain audiences.
-
-
-
-- 2.1 rules
-foreshadowing: new rules are coming
-Basics of AA, AAA
-code
-
-Issues
 
 - 3.0 rules
 WIP
@@ -353,7 +498,7 @@ function trimColumns(table) {
       }
     })
   }
-  console.log(newObj);
+  // console.log(newObj);
   return newObj;
 }
 

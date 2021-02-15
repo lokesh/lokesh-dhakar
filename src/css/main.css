@@ -361,8 +361,16 @@ summary:hover {
 
 /* Page & Post content ---------- */
 
+/* For displaying html content in image like container.
+Useful when creating diagrams with html */
+.html-figure {
+  background: white;
+  padding: var(--gutter);
+}
+
 figure img,
-figure video {
+figure video,
+figure .html-figure {
   width: calc(100% + var(--gutter) * 2);
   margin-left: calc(var(--gutter) * -1);
   margin-right: calc(var(--gutter) * -1);
@@ -370,7 +378,8 @@ figure video {
 }
 
 figure.border img,
-figure.border video {
+figure.border video,
+figure.border .html-figure {
     border: 1px solid var(--border-color-light);
     border-width: 1px 0;
 }
@@ -388,14 +397,16 @@ figure.small.border img {
 
 @media (min-width: 800px) {
   figure img,
-  figure video {
+  figure video,
+  figure .html-figure {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     border-radius: var(--radius-lg);
   }
 
-  figure.large img {
+  figure.large img,
+  figure.large .html-figure {
     width: auto;
     /* Some fuzzy math but this prevents xlarge images from extending past
     viewport's right edge. */
@@ -403,7 +414,8 @@ figure.small.border img {
   }
 
   figure.border img,
-  figure.border video {
+  figure.border video,
+  figure.border .html-figure {
     border-width: 1px;
   }
 }
