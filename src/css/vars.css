@@ -15,6 +15,7 @@
   --green: #58df82;
   --yellow: #f6dc58; /* FDF5CF*/
   --orange: #fca469;
+  --red: #fc6969;
 
   /* Body text line height */
   --line-height: 1.5em;
@@ -31,13 +32,13 @@
 
   /* Typography */
   --font: 'Recursive', Inter, sans-serif;
-  --font-heading: 'Recursive Casual', sans-serif;
-  --font-ui: 'Recursive Casual', sans-serif;
+  --font-heading: 'Recursive', sans-serif;
+  --font-ui: 'Recursive', sans-serif;
 
   --font-mono: 'Recursive Mono', Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;
-  --weight-bold: 600;
-  --weight-x-bold: 700;
+  --weight-bold: 700;
+  --weight-x-bold: 900;
 
   /* Forms */
   --form-control-height-xs: 2.5em;

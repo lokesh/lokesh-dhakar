@@ -1,26 +1,67 @@
 ---
-title: "WCAG contrast requirements"
+title: "WCAG color contrast"
 date: 2020-11-23
 layout: post.njk
 draft: true
 ---
 
-(Article needs a hook. I could tease the 3.0 changes, have something interactive up here, or summarize what the post covers.)
+<h2 class="subtitle">A short, practical guide for those who find the specs a little dry.</h2>
 
-(Needs more of the WHY. Why does constrast matter? How do we know it works?)
+<div id="hero">
+  <div>
+    <figure>
+      <div class="html-figure hero">
+        <div class="hero-grid" :style="gridStyles">
+          <div
+            v-for="i in (colCount * rowCount)"
+            class="hero-item"
+            :style="`
+              color: ${cells[i - 1].color};
+              background: ${cells[i - 1].background};
+              line-height: ${rowHeight}`"
+            @click="updateCell(i - 1)"
+            @mouseover="updateCell(i - 1)"
+          >
+            Aa
+          </div>
+        </div>
+      </div>
+    </figure>
+  </div>
+</div>
 
--- IMG: examples of different levels of contrast --
+<style>
+.hero {
+  padding: 0;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 8rem 8rem 8rem;
+}
 
-## WCAG
+.hero-item {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background: var(--recessed-bg-color);
+  transition: transform 0.2s;
+  user-select: none;
+}
 
-Before we jump into the color contrast discussion, a little background on WCAG.
+.hero-item:active {
+  transform: scale(0.9);
+}
+</style>
 
-**Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/))** are a set of recommendations for making web content accessible. The guidelines primarly focus on people with disabilities, but following these guidelines almost always makes the experience better for everyone.
+Before we jump into color contrast, a little background on WCAG.
+
+**Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/))** are a set of recommendations for making web content accessible. The guidelines primarly focus on people with disabilities (e.g. low vision), but following these guidelines often makes the experience better for everyone.
 
 
 **Who's behind WCAG?** The guidelines are published by the Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) which is part of World Wide Web Consortium ([W3C](https://www.w3.org/)). 
 
-**WCAG versions.** In this post, we'll look at the latest published version, 2.1, as well as the draft of 3.0 which brings big changes to contrast requirements.
+**WCAG versions.** In this post, we'll look at the latest published version, 2.1, as well as the draft of 3.0 which brings big changes to contrast guidelines.
 
 - [WCAG 2.0](https://www.w3.org/TR/WCAG20/) - Published Dec 2008
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21/) - Published June 2018.
@@ -28,6 +69,9 @@ Before we jump into the color contrast discussion, a little background on WCAG.
 
 
 ## WCAG 2.1 contrast
+
+
+So now we know a bit about WCAG. Let's look at the guidelines ([1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) & [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast)) on color contrast. At the core is a _contrast ratio_. This is derived by comparing the luminance of the foreground color against the luminance of the background. The values go from 21 (black on white, or vice versa) to 0 (foreground and background are the same color).
 
 
 <figure class="border">
@@ -85,8 +129,7 @@ Before we jump into the color contrast discussion, a little background on WCAG.
 }
 </style>
 
-
-So now we know a bit about WCAG. Let's look at the [guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) on color contrast. At the core is a _contrast ratio_. This is derived by comparing the luminance of the foreground text color and the background. WCAG provides [step-by-step instructions](https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests) on how to calculate the contrast ratio and I include a Javascript implementation below.
+WCAG provides [step-by-step instructions](https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests) on how to calculate the contrast ratio and I include a Javascript implementation below.
 
 <details>
   <summary>See JS implementation of contrast ratio</summary>
@@ -117,10 +160,11 @@ function wcagContrast(textColor, bgColor) {
 </code></pre>
 </details>
 
-This ratio is the key to checking our compliance with WCAG. Many design and development tools (including Chrome's devtools) have a built-in WCAG constrast validator so it's unlikely you'll need to reimplement the algorithm. You can also use a tool like [WAVE](https://wave.webaim.org/) to check your site.
+This ratio is the key to checking our compliance with WCAG. Many design and development tools (including Chrome's devtools) have a built-in WCAG constrast validator so it's unlikely you'll need to reimplement the algorithm. You can also use a tool like [WAVE](https://wave.webaim.org/) to check your site for constrast issues.
 
-### Constrast minimiums
+### Constrast ratio minimiums
 
+WCAG sets minimum values for the ratio depending on the type of content. For example, titles, since they are bigger and bolder, often fall into the _Large text_ category, which has a lower contrast ratio minimum than body text.
 
 <figure class="border">
   <div class="html-figure" style="padding-top: 32px; padding-bottom: 32px;">
@@ -128,23 +172,23 @@ This ratio is the key to checking our compliance with WCAG. Many design and deve
       <div class="cat-label">
         <div>
           <div class="cat-name">Large text</div>
-          Min 3
+          <div class="cat-data">Min 3.0</div>
         </div>
         <div>⇢</div>
       </div>
-      <h2 style="margin: 0">Display contrast</h2>
+      <h2 class="cat-title">Title ipsum</h2>
       <div class="cat-label">
         <div>
           <div class="cat-name">Text</div>
-          Min 4.5
+          <div class="cat-data">Min 4.5</div>
         </div>
         <div>⇢</div>
       </div>
-      <div>Lorem ipsum in visual perception is the difference in appearance of two or more parts of a field seen simultaneously or successively (hence: brightness contrast, lightness contrast, color contrast, simultaneous contrast, successive contrast, etc.).</div>
+      <div class="cat-text">Lorem ipsum in visual perception is the difference in appearance of two or more parts of a field seen simultaneously or successively (hence: brightness contrast, lightness contrast, color contrast, simultaneous contrast, successive contrast, etc.).</div>
       <div class="cat-label">
         <div>
           <div class="cat-name">Text</div>
-          Min 4.5
+          <div class="cat-data">Min 4.5</div>
         </div>
         <div>⇢</div>
       </div>
@@ -152,7 +196,7 @@ This ratio is the key to checking our compliance with WCAG. Many design and deve
       <div class="cat-label">
         <div>
           <div class="cat-name">Incidental</div>
-          No min
+          <div class="cat-data">No min</div>
         </div>
         <div>⇢</div>
       </div>
@@ -160,13 +204,12 @@ This ratio is the key to checking our compliance with WCAG. Many design and deve
     </div>
   </div>
 </figure>
-
 <style>
 .demo-categories {
   display: grid;
   gap: calc(var(--gutter) * 2);
   align-items: center;
-  grid-template-columns: 6em auto;
+  grid-template-columns: 7em auto;
 }
 
 .cat-label {
@@ -176,67 +219,206 @@ This ratio is the key to checking our compliance with WCAG. Many design and deve
   text-align: right;
   font-size: 0.8125rem;
   gap: 4px;
+  background: white;
+  border-radius: var(--radius-sm);
 }
 
 .cat-name {
   font-weight: var(--weight-bold);
 }
 
-.ratio-example-render {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--gutter);
-  margin-bottom: calc(var(--gutter) / 2);
-  height: 4em;
-  background: #eee;
-  font-size: 1.5rem;
-  font-weight: bold;
+.cat-data {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
 }
+
+.cat-title {
+  margin: 0;
+  color: #DE7558;
+}
+
+.cat-text {
+  font-size: 16px;
+}
+
 </style>
 
+<table class="left-align">
+  <thead>
+    <tr>
+      <th style="width: 5em">Min</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4.5</td>
+      <td>**Text**</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>**Large text**<br />Text that is at least 18pt, or bold and at least 14pt.</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>**UI and icons**<br />For controls (e.g. buttons), this includes their borders and interaction states. The button label still fall under the Text category.</td>
+    </tr>
+    <tr>
+      <td>No min</td>
+      <td><strong>Incidental</strong><br />This refers to decorative content that provides no information and disabled UI elements.</td>
+    </tr>
+    <tr>
+      <td>No min</td>
+      <td>**Logo**</td>
+    </tr>
+  </tbody>   
+</table>
 
-WCAG sets minimum values for the ratio depending on the type of content. They break things down in to four categories:
-
-1. <u>Text:</u> Min contrast ratio of 4.5
-2. <u>Large text:</u> Min contrast ratio of 3. This refers to text that is at least 18pt or bold and at least 14pt.
-3. <u>Incidental:</u> No min requirement. This refers to decorative content that provides no information and disabled UI elmements.
-4. <u>Logotypes:</u> No min requirement
+<!--
+† Since disabled UI controls do often provide information to the user about the current state they are in, there is debate around whether these UI elements should have a minimum contrast ratio. Check out the [Github Issue](https://github.com/w3c/wcag21/issues/805).
+-->
 
 ### Compliance levels
 
-When we discuss WCAG compliance, we are normally referring to *AA* compliance. WCAG provides three tiers of compliance:
+[Img?]
+
+The minimum contrast ratios noted in the previous section are for *AA* level compliance. When compliance is discussed, it normally refers to AA – though WCAG does provide three tiers of compliance:
 
 - <u>A</u> - Basic compliance
 - <u>AA</u> - Recommended level of compliance
-- <u>AA</u> - Highest level compliance. Useful for certain audiences.
+- <u>AAA</u> - Highest level compliance. Useful for certain audiences.
 
-To meet any of these compliance levels, you must meet _every one_ of the guidelines for that level. This doesn't mean partial compliance isn't beneficial for users, but if you're looking to meet a legal requirement, this detail is worth noting.
+To meet any of these compliance levels, you must meet _all_ of the guidelines for that level. This doesn't mean partial compliance isn't beneficial for users, but if you're looking to meet a legal requirement, this detail is worth noting.
 
-[ DEMO play with color values for title and text ] --
+### WCAG 2.1 recap
+
+We've covered quite a bit quickly, so let's do a recap of the bigger points:
+
+- [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) are a set of guidelines to make sure content is accessible to a broad range of users, including those with low vision.
+- In the guidelines we have two sections ([1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) & [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast)) devoted to color contrast between foreground and the background content.
+- The minimum contrast ratios vary by category of content (text, title, icon, disabled UI, et al).
+
+Here is an interactive demo where you can change the title, text, and background colors. Play with the color values to get a feel for what combinations pass AA and which ones don't.
+
+<div id="compliance-demo">
+  <div>
+    <figure class="border compliance-demo-figure">
+      <div class="html-figure" :style="`padding-top: 32px; padding-bottom: 32px; background: ${bgColor}`">
+        <div class="demo-categories">
+          <div class="cat-label" style="background: white">
+            <div>
+              <div class="cat-data">
+                Ratio {{ titleRatio }}<br />
+                Min 3.0
+              </div>
+              <span v-if="titleRatio >= 3" class="cat-status cat-pass" aria-label="AA pass">✔️</span>
+              <span v-else class="cat-status cat-fail" aria-label="AA fail">✘</span>
+            </div>
+            <div>⇢</div>
+          </div>
+          <h2 class="cat-title" :style="`color: ${titleColor}`">Title ipsum</h2>
+          <div class="cat-label">
+            <div>
+              <div class="cat-data">
+                Ratio {{ textRatio }}<br />
+                Min 4.5
+              </div>
+              <span v-if="textRatio >= 4.5" class="cat-status cat-pass" aria-label="AA pass">✔️</span>
+              <span v-else class="cat-status cat-fail" aria-label="AA fail">✘</span>
+            </div>
+            <div>⇢</div>
+          </div>
+          <div class="cat-text" :style="`color: ${textColor}`">Lorem ipsum in visual perception is the difference in appearance of two or more parts of a field seen simultaneously or successively (hence: brightness contrast, lightness contrast, color contrast, simultaneous contrast, successive contrast, etc.).</div>
+      </div>
+    </figure>
+    <div class="color-pickers-row">
+      <div>
+        <color-picker class="color-picker" v-model="titleColor" aria-label="Title color"></color-picker>
+        <div class="picker-label">Title</div>
+      </div>
+      <div>
+        <color-picker class="color-picker" v-model="textColor" aria-label="Text color"></color-picker>
+        <div class="picker-label">Text</div>
+      </div>
+      <div>
+        <color-picker class="color-picker" v-model="bgColor" aria-label="Background color"></color-picker>
+        <div class="picker-label">Background</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.compliance-demo-figure {
+  margin-bottom: calc(var(--block-bottom) / 2);
+}
+
+.cat-status {
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin: 4px 0;
+  line-height: 16px;
+  border-radius: var(--radius-sm);
+  font-size: 10px;
+}
+
+.cat-pass {
+  background: var(--green);
+}
+
+.cat-fail {
+  color: white;
+  background: var(--red);
+}
+
+.color-pickers-row {
+  display: flex;
+}
+
+.color-pickers-row > div {
+  margin-right: calc(var(--gutter) * 2);
+}
+
+.color-pickers-row .color-picker {
+  margin-bottom: 4px;
+}
+
+.color-picker {
+  font-size: 16px;
+}
+
+</style>
+
+## Applying the guidelines to your own work
+
+Should you go update all your designs to meet WCAG 2.1 AA guidelines?
+
+I'd say, yes, in most, but not all cases. Use them as guidelines, but not as hard rules. They are crude in some ways. Couple of examples:
+
+### Criticisms, guidlines not rules?
+
+- They don't account for the large breadth in font sizes and weights.
+- They don't account for how different fonts might render.
+- They focus on readability, not legibility. This means all-caps content, which is legible, might not pass. This also means that spot-reading, such as one or two words button labels are required to meet the same standards as a multi-paragraph piece of text.
+
+> And legibility does not equal readability. Legibility means you can "make out what it is" letter by letter. Readability means that the VWFA can process whole words. There is an enormous difference. The Visual Contrast standard for Silver and the APCA is focused on readability not legibility.
+
+Odd results at times, orange and black.
+
+Should the standard be relaxed for spot-reading such as for one or two words on a button?
+
+Some good news. The WCAG 3.0 working draft introduces updates to color contrast guidelines that address some of these issues.
+
+### WCAG 3.0 preview
 
 
-Problem examples
-
-Doesn't account for font weight
-
+See it in action.
 
 
 <!--
-
-- 3.0 rules
-WIP
-Focus is what?
-examples
-
-- Summary
-how strict is it
-how should I test it
-
-
-How to follow progress for updates
-
-
 
 - W3C Silver: https://w3c.github.io/silver/guidelines/#visual-contrast-of-text
 
@@ -244,14 +426,8 @@ How to follow progress for updates
 - Github: https://github.com/Myndex/SAPC-APCA
 - JS README: https://github.com/Myndex/SAPC-APCA/blob/master/JS/ReadMe.md
 
-> Should the standard be relaxed for spot-reading such as for one or two words on a button?
-
-> And legibility does not equal readability. Legibility means you can "make out what it is" letter by letter. Readability means that the VWFA can process whole words. There is an enormous difference. The Visual Contrast standard for Silver and the APCA is focused on readability not legibility.
-
 Color combos to highlight in article
 - https://www.bounteous.com/insights/2019/03/22/orange-you-accessible-mini-case-study-color-ratio/
--->
-<!--
 WCAG AA & AAA
 APCA - Ratings 4, 3, 2, 1, 0
 
@@ -263,7 +439,6 @@ Essentially there are five levels, including 0 (fail) with level four being the 
 - Rating 1  The lowest APCA value is 10-15% below the values on the APCA lookup table
 - Rating 0  Any failures on the Advanced Perceptual Contrast Algorithm (APCA) lookup table or the lowest APCA value is more than 15% below the values on the APCA lookup table
 
-WCAG 2.0 level AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text. WCAG 2.1 requires a contrast ratio of at least 3:1 for graphics and user interface components (such as form input borders). WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.
 
 
 "APCA 80 is similar to WCAG 4.5:1 for a site using light or white backgrounds with dark text.
@@ -300,22 +475,17 @@ However, APCA provides more granular guidance on the critical properties of font
 </template>
 
 <template id="color-picker">
-  <div class="color-picker-wrapper">
-    <input
-      type="color"
-      class="color-picker"
-      :value="value"
-      @input="$emit('input', $event.target.value)"
-    >
-    {{ value }}
-  </div>
+  <input
+    type="color"
+    class="color-picker"
+    :value="value"
+    @input="$emit('input', $event.target.value)"
+  >
 </template>
 
 
 <div id="app">
   <div>
-    <!-- <input type="color" id="head" name="head" value="#e66465" /> -->
-
     <h3>WCAG: {{ wcag }}<br />
     APCA: {{ apca }} L<sup>c</sup></h3>
 
@@ -579,6 +749,7 @@ Vue.component('color-picker', {
   template: '#color-picker',  
   props: {
     value: String,
+    ariaLabel: String,
   },
 });
 
@@ -631,9 +802,118 @@ new Vue({
       return '✘';
     },
   },
+});
 
-  mounted() {
+new Vue({
+  el: '#compliance-demo',
 
+  data() {
+    return {
+      titleColor: '#DE7558',
+      textColor: '#999999',
+      bgColor: '#ffffff',
+    };
   },
-})   
+
+  computed: {
+    textRatio() {
+      return getContrast(this.textColor, this.bgColor, MODE_WCAG);
+    },
+    titleRatio() {
+      return getContrast(this.titleColor, this.bgColor, MODE_WCAG);
+    },
+  },
+});
+
+new Vue({
+  el: '#hero',
+
+  data() {
+    return {
+      colCount: 6,
+      rowCount: 3,
+      rowHeight: '6rem',
+      cells: [],
+      hue: this.rand(255),
+      sat: this.rand(100),
+      lum: this.rand(100),
+      bgInit: [
+
+        [30, 2, 65],
+        [30, 5, 70],
+        [35, 9, 75],
+        [40, 9, 80],
+        [40, 9, 85],
+        [40, 9, 90],
+
+        [15, 70, 60],
+        [20, 70, 60],
+        [20, 70, 60],
+        [20, 75, 65],
+        [30, 80, 70],
+        [30, 85, 75],
+
+        [65, 15, 5],
+        [65, 20, 10],
+        [65, 25, 10],
+        [70, 25, 15],
+        [70, 30, 15],
+        [75, 30, 20],
+
+      ]
+    };
+  },
+
+  created() {
+    for (let i = 0; i < this.colCount * this.rowCount; i++) {
+      this.cells.push({
+        color: `hsl(0 0% ${this.rand(100)}%)`,
+        background: `hsl(${this.bgInit[i][0]} ${this.bgInit[i][1]}% ${this.bgInit[i][2]}%)`,
+      });
+    }
+  },
+
+  computed: {
+    gridStyles() {
+      return {
+        gridTemplateColumns: `repeat(${this.colCount}, 1fr)`,
+        gridTemplateRows: `repeat(${this.rowCount}, ${this.rowHeight})`
+      }
+    },
+  },
+
+  methods: {
+    updateCell(i) {
+      this.updateHSL();
+      this.cells[i].color = `hsl(0 0% ${this.rand(100)}%)`;
+      this.cells[i].background = `hsl(${this.hue} ${this.sat}% ${this.lum}%)`;
+    },
+    rand(max) {
+      return Math.floor(Math.random() * max);
+    },
+
+    updateHue() {
+      this.hue += 3;
+      this.hue = this.hue % 255;
+    },
+
+    updateSat() {
+      this.sat += 3;
+      this.sat = this.sat % 100;
+    },
+    updateLum() {
+      this.lum += 3;
+      this.lum = this.lum % 100;
+    },
+
+    updateHSL() {
+      this.updateHue();
+      this.updateSat();
+      this.updateLum();
+    },
+  },
+});
+
+
+
 </script>

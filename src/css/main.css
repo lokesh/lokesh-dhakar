@@ -16,37 +16,10 @@
 */
 
 @font-face {
-  font-family: 'Recursive';
-  font-weight: var(--weight-bold);
-  src: url("/fonts/recursive/Recursive-Bold.woff2") format('woff2');
-}
-
-@font-face {
-  font-family: 'Recursive';
-  font-weight: var(--weight-regular);
-  src: url("/fonts/recursive/Recursive-Regular.woff2") format('woff2');
-}
-
-@font-face {
-  font-family: 'Recursive Casual';
-font-weight: var(--weight-bold);
-  src: url("/fonts/recursive/Recursive_Casual-Medium.woff2") format('woff2');
-}
-
-@font-face {
-  font-family: 'Recursive Casual';
-  font-weight: var(--weight-x-bold);
-  src: url("/fonts/recursive/Recursive_Casual-Bold.woff2") format('woff2');
-}
-
-@font-face {
   font-family: 'Recursive Mono';
   font-weight: var(--weight-regular);
   src: url("/fonts/recursive/Recursive_Monospace-Regular.woff2") format('woff2');
 }
-
-
-
 
 /* BASE -------------------------------------------------------------------- */
 
@@ -124,8 +97,8 @@ h1,
 h2,
 h3 {
   font-family: var(--font-heading);
-  font-weight: var(--weight-regular);
-  letter-spacing: -0.01em;
+  font-weight: var(--weight-x-bold);
+  /*letter-spacing: -0.01em;*/
   word-spacing: 0.01em;
 }
 
@@ -225,6 +198,10 @@ li {
   line-height: var(--line-height);
 }
 
+li:last-of-type {
+  margin-bottom: 0;
+}
+
 pre,
 code {
   font-family: var(--font-mono);
@@ -253,11 +230,8 @@ detail {
 }
 
 summary {
-  display: flex;
-  align-items: center;
-  height: var(--form-control-height);
+  padding: var(--gutter);
   margin-bottom: var(--block-bottom);
-  padding-left: var(--gutter);
   border-radius: var(--radius);
   font-weight: var(--weight-bold);
   cursor: pointer;
