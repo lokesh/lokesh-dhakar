@@ -96,10 +96,9 @@ hr {
 h1,
 h2,
 h3 {
+  color: var(--color-bold);
   font-family: var(--font-heading);
   font-weight: var(--weight-x-bold);
-  /*letter-spacing: -0.01em;*/
-  word-spacing: 0.01em;
 }
 
 h1 {
@@ -112,7 +111,8 @@ h2 {
   margin-top: calc(var(--block-bottom) * 2);
   margin-left: -0.03em;
   font-size: 1.5rem;
-  line-height: 1.15em;
+  line-height: var(--line-height-heading);
+  letter-spacing: 0.01em;
 }
 
 h2.subtitle {
@@ -127,6 +127,7 @@ h2.subtitle + h2 {
 h3 {
   font-size: 1.15rem;
   line-height: var(--line-height-heading);
+  letter-spacing: 0.01em;
 }
 
 a {
@@ -162,7 +163,7 @@ a.reset {
 }
 
 a.reset:hover {
-  color: var(--color);
+  color: var(--color-bold);
   background-color: transparent;
   text-decoration: underline;
 }
@@ -172,6 +173,7 @@ button:hover {
 }
 
 p {
+  letter-spacing: -0.005em;
   line-height: var(--line-height);
   hyphens: auto;
   hyphenate-limit-chars: 6 3 3;
@@ -182,6 +184,10 @@ p {
 
 p:first-of-type {
   margin-top: 0;
+}
+
+strong {
+  color: var(--color-bold);
 }
 
 ul,
@@ -306,7 +312,7 @@ summary:hover {
     padding: 0.25em 1em 0.25em 0.5em;
     margin-right: 0;
     border: 0;
-    color: var(--color);
+    color: var(--color-bold);
     border-radius: var(--radius);
   }
 }
@@ -435,9 +441,11 @@ figure.small.border img {
 
 .item-meta {
   margin-bottom: 4px;
+  color: var(--color-bold);
   font-size: 0.8125rem;
   font-weight: var(--weight-x-bold);
   text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .item-credits {
