@@ -4,7 +4,7 @@ title: Dune
 creator: Frank Herbert
 publishDate: 1965
 image: dune.jpg
-rating: 3.5
+rating: 3
 reviewDate: Jan 25, 2021
 ---
 

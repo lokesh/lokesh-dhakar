@@ -5,7 +5,7 @@ layout: post.njk
 draft: true
 ---
 
-<h2 class="subtitle">A short, practical guide for those who find the specs a little dry.</h2>
+<h2 class="subtitle">A short, practical guide covering the current guidelines and what's coming next.</h2>
 
 <div id="hero">
   <div>
@@ -838,7 +838,6 @@ new Vue({
       sat: this.rand(100),
       lum: this.rand(100),
       bgInit: [
-
         [30, 2, 65],
         [30, 5, 70],
         [35, 9, 75],
@@ -848,16 +847,16 @@ new Vue({
 
         [15, 70, 60],
         [20, 70, 60],
-        [20, 70, 60],
+        [20, 70, 65],
         [20, 75, 65],
-        [30, 80, 70],
-        [30, 85, 75],
+        [25, 80, 70],
+        [25, 85, 75],
 
-        [65, 15, 5],
+        [65, 20, 5],
         [65, 20, 10],
-        [65, 25, 10],
+        [65, 25, 13],
         [70, 25, 15],
-        [70, 30, 15],
+        [70, 30, 17],
         [75, 30, 20],
 
       ]
@@ -866,8 +865,9 @@ new Vue({
 
   created() {
     for (let i = 0; i < this.colCount * this.rowCount; i++) {
+      let textLum = 100 - (i % this.colCount) * (100 / (this.colCount - 1));
       this.cells.push({
-        color: `hsl(0 0% ${this.rand(100)}%)`,
+        color: `hsl(0 0% ${textLum}%)`,
         background: `hsl(${this.bgInit[i][0]} ${this.bgInit[i][1]}% ${this.bgInit[i][2]}%)`,
       });
     }
@@ -885,7 +885,7 @@ new Vue({
   methods: {
     updateCell(i) {
       this.updateHSL();
-      this.cells[i].color = `hsl(0 0% ${this.rand(100)}%)`;
+      // this.cells[i].color = `hsl(0 0% ${this.rand(100)}%)`;
       this.cells[i].background = `hsl(${this.hue} ${this.sat}% ${this.lum}%)`;
     },
     rand(max) {
