@@ -25,6 +25,8 @@ pre[class*="language-"] {
   hyphens: none;
   background: #ffffff;
   color: #373b41;
+
+
 }
 
 @media (min-width: 800px)  {
@@ -48,11 +50,24 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
+  margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1);
   padding: 1em;
   overflow: auto;
   border: 1px solid var(--border-color-light);
-
+  border-width: 1px 0;
+  border-radius: 0;
 }
+
+@media (min-width: 800px)  {
+    pre[class*="language-"] {
+      margin-left: 0;
+      margin-right: 0;
+      border-width: 1px;
+      border-radius: var(--radius-lg);
+    }
+}
+
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {

@@ -98,13 +98,16 @@ h2,
 h3 {
   color: var(--color-bold);
   font-family: var(--font-heading);
-  font-weight: var(--weight-x-bold);
 }
 
 h1 {
-  margin-left: -0.05em;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   line-height: 1em;
+  font-weight: var(--weight-x-bold);
+}
+
+h1.post-title {
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -112,12 +115,14 @@ h2 {
   margin-left: -0.03em;
   font-size: 1.5rem;
   line-height: var(--line-height-heading);
-  letter-spacing: 0.01em;
+  letter-spacing: -0.02em;
+  font-weight: var(--weight-bold);
 }
 
 h2.subtitle {
   margin-top: var(--block-bottom);
   color: var(--muted-color);
+  font-weight: var(--weight-bold);
 }
 
 h2.subtitle + h2 {
@@ -127,7 +132,7 @@ h2.subtitle + h2 {
 h3 {
   font-size: 1.15rem;
   line-height: var(--line-height-heading);
-  letter-spacing: 0.01em;
+  letter-spacing: -0.01em;
 }
 
 a {
