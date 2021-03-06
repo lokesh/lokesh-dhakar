@@ -116,6 +116,14 @@
       "tags": "opentype.js",
       "desc": "Opentype.js path manipulation with animated sin wave. Colors from BK redesign.",
       "codepen": "vYXvwGQ"
+    },
+    {
+      "title": "CryptoPunks",
+      "date": "Mar 5, 2021",
+      "tags": "pixel art",
+      "desc": "Cryptopunks of Brian, Paul, and myself. Made in Photoshop",
+      "thumb": "/media/sketches/cryptopunks.png",
+      "src": "/media/sketches/cryptopunks.png"
     }
   ]
 }
