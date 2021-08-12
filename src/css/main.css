@@ -15,12 +15,6 @@
 950 Extra Black (Ultra Black)
 */
 
-@font-face {
-  font-family: 'Recursive Mono';
-  font-weight: var(--weight-regular);
-  src: url("/fonts/recursive/Recursive_Monospace-Regular.woff2") format('woff2');
-}
-
 /* BASE -------------------------------------------------------------------- */
 
 * {
