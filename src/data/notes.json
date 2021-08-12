@@ -24,6 +24,18 @@
       "excerpt": "<p>When I used to live in Baltimore I would see the dirt bike riders meeting up in Druid Hill Park. This documentary gives some basic backstory on who they are and how they got into the scene, but the focus of the movie is on one young kid, Pug, and his family.</p>"
     },
     {
+      "id": "notes__apollo-11",
+      "contents": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>\n<p>The restored 70mm NASA footage is gorgeous and worth the price of admission. The score is stellar too. </p>\n<p>I finished this movie marvelling at the accomplishment, and inspired to take on more ambitious challenges myself.</p>\n",
+      "type": "movie",
+      "title": "Apollo 11",
+      "creator": "Todd Douglas Miller",
+      "publishDate": 2019,
+      "image": "apollo-11.jpg",
+      "rating": 4.5,
+      "reviewDate": "May 3, 2020",
+      "excerpt": "<p>Going to the moon and back is an astonishing feat and doesn&apos;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>"
+    },
+    {
       "id": "notes__american-factory",
       "contents": "<p>A look at manufacturing challenges in the US; and there are plenty. The documentary highlights the impact of globalization and hints at the upcoming automation revolution. It never goes deep, with either the personal stories or the industry analysis, but it is a great surface-level primer on the topics.</p>\n<p>As with many other Netflix produced documentaries, I found it a little too polished at times. The editing often feels suspect as events and reactions line up perfectly for dramatic effect. When viewing critically, this can raise some doubts about the content. </p>\n",
       "type": "movie",
@@ -46,18 +58,6 @@
       "rating": 4.5,
       "reviewDate": "October 3, 2020",
       "excerpt": "<p><em>Bicycle Thieves</em> (aka <em>The Bicyle Thief</em> in the US) is a stark Italian Neorealist film that follows an everyman and his son over a couple of days as they hunt for their stolen bicycle. The plot is simple, but it&apos;s absolutely riveting, and you&apos;re invested in the characters from the start, rooting for them through each challenge. The movie reflects the attitudes of the time, which was Italy post-World War 2, so the tone is dire, but honest. The movie believes that reality is rich, and to look at it is enough, so don&apos;t expect any contrived happy-endings.</p>"
-    },
-    {
-      "id": "notes__apollo-11",
-      "contents": "<p>Going to the moon and back is an astonishing feat and doesn&#39;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>\n<p>The restored 70mm NASA footage is gorgeous and worth the price of admission. The score is stellar too. </p>\n<p>I finished this movie marvelling at the accomplishment, and inspired to take on more ambitious challenges myself.</p>\n",
-      "type": "movie",
-      "title": "Apollo 11",
-      "creator": "Todd Douglas Miller",
-      "publishDate": 2019,
-      "image": "apollo-11.jpg",
-      "rating": 4.5,
-      "reviewDate": "May 3, 2020",
-      "excerpt": "<p>Going to the moon and back is an astonishing feat and doesn&apos;t need any embellishing to inspire awe. There are no talking heads or recreations in this documentary. What you get is 90 minutes of archival footage and audio, tactfully put together.</p>"
     },
     {
       "id": "notes__all-about-the-bike",
@@ -158,7 +158,7 @@
     },
     {
       "id": "notes__hades",
-      "contents": "<p>This is the first rogue-like I&#39;ve played and I loved it! The Greek god theme, the  writing, and the voice-overs all combine to add a rich texture to this action game. Cherry on top is a beautifully told and illustrated ending.</p>\n<p>The gameplay and all the mechanics are polished, but one thing still managed to stand out, which was how the game lays out incentives to play in different ways. How it encourages players to use different weapons, attacks, keepsakes, and boons to explore breadth of the game. For each of these a different carrot and stick technique.</p>\n",
+      "contents": "<p>This is the first rogue-like I&#39;ve played and I loved it! The Greek god theme, the  writing, and the voice-overs all combine to add a rich texture to this action game. Cherry on top is a beautifully told and illustrated ending.</p>\n<p>The gameplay and all the mechanics are polished, but one thing still managed to stand out, which was how the game lays out incentives to play in different ways. How it encourages players to use different weapons, attacks, keepsakes, and boons to explore breadth of the game.</p>\n",
       "type": "game",
       "title": "Hades",
       "creator": "Supergiant Games",
@@ -494,18 +494,6 @@
       "excerpt": "<p>This is another book I adored growing up. Does it hold up? Mostly.</p>"
     },
     {
-      "id": "notes__tampopo",
-      "contents": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders – strangers coming to to town to help a homesteader.</p>\n<p>The main arc follows our posse as they work to develop the perfect ramen bowl. It&#39;s a fun watch and you will 100% crave noodles! Interspersed in the main arc are a set of vignettes that are a each a few minutes long. They have food themes, but the characters and plots are indpendent of the main arc. This is where the absurdist style comes in to play. It gets weird. Unforunately, these are hit or miss for me, and with more misses than hits. I commend the effort, as the movie wouldn&#39;t be as interesting or original if it was a straightfoward self-improvement story.</p>\n<p>My two favorite scenes: <a href=\"https://www.youtube.com/watch?v=6WrkdTrrwew\">eating with the ramen master</a> and <a href=\"https://www.youtube.com/watch?v=RRVLqUpHDJE\">ordering at the French restaurant</a>.</p>\n",
-      "type": "movie",
-      "title": "Tampopo",
-      "creator": "Juzo Itami",
-      "publishDate": 1985,
-      "image": "tampopo.jpg",
-      "rating": 2.5,
-      "reviewDate": "May 25, 2020",
-      "excerpt": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders &#x2013; strangers coming to to town to help a homesteader.</p>"
-    },
-    {
       "id": "notes__stranger-than-paradise",
       "contents": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>\n<p>I followed up the movie by watching an excellent commentary that discussed the movie&#39;s themes of <a href=\"https://www.youtube.com/watch?v=0tbenS0F7j4\">identity and multiculturalism</a>. I didn&#39;t latch on to these themes when I was watching the movie, but the additional context helped me appreciate some of the specific dialogue and plot choices.</p>\n",
       "type": "movie",
@@ -516,6 +504,18 @@
       "rating": 3,
       "reviewDate": "Jan 4, 2019",
       "excerpt": "<p> This indie film has a lot going for it: great acting, unhurried pacing, beautiful framing, and lots of glorious black and white film grain. But the slack plot and deadpan style only resonated at a surface level for me.</p>"
+    },
+    {
+      "id": "notes__tampopo",
+      "contents": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders – strangers coming to to town to help a homesteader.</p>\n<p>The main arc follows our posse as they work to develop the perfect ramen bowl. It&#39;s a fun watch and you will 100% crave noodles! Interspersed in the main arc are a set of vignettes that are a each a few minutes long. They have food themes, but the characters and plots are indpendent of the main arc. This is where the absurdist style comes in to play. It gets weird. Unforunately, these are hit or miss for me, and with more misses than hits. I commend the effort, as the movie wouldn&#39;t be as interesting or original if it was a straightfoward self-improvement story.</p>\n<p>My two favorite scenes: <a href=\"https://www.youtube.com/watch?v=6WrkdTrrwew\">eating with the ramen master</a> and <a href=\"https://www.youtube.com/watch?v=RRVLqUpHDJE\">ordering at the French restaurant</a>.</p>\n",
+      "type": "movie",
+      "title": "Tampopo",
+      "creator": "Juzo Itami",
+      "publishDate": 1985,
+      "image": "tampopo.jpg",
+      "rating": 2.5,
+      "reviewDate": "May 25, 2020",
+      "excerpt": "<p>Tampopo is an offbeat Japanese movie about a ramen shop that is structured like a <em>Western</em>, absurdist when it wants to be, and mouth-watering. The main story follows the namesake character, Tampopo, as she struggles to drum up business for her shop. Then one-by-one we get introduced to our band of outsiders &#x2013; strangers coming to to town to help a homesteader.</p>"
     },
     {
       "id": "notes__the-answer-is",
@@ -615,18 +615,6 @@
       "excerpt": "<p>It&apos;s a simple story of parents visiting their grown up children. The pace is not hurried. The delivery from the actors is straightforward, not melodramatic. The camera moves in one shot, otherwise it stays still. Yet, in this calm, the movie elicits deeply intense feelings.</p>"
     },
     {
-      "id": "notes__ziggy-stardust",
-      "contents": "<p>This is an album that got heavy play in my bedroom growing up and it still holds up as an incredible glam rock album from start to finish. It&#39;s one of a select few albums where I never skip a track.</p>\n<p>The Ziggy Stardust character and storyline is intriguing, but also hard to follow and somewhat thin. I like the album for the music, less the concept.</p>\n<p>This was my intro to Bowie and it led me to check out Hunky Dory and eventually work from his Berlin Trilogy.</p>\n<p>My favorite tracks are the bookends:</p>\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=2ObjtVdsV3I\">Five Years</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=SOgVoxqKU7U\">Rock &#39;n&#39; Roll Suicide</a></li>\n</ul>\n",
-      "type": "music",
-      "title": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
-      "creator": "David Bowie",
-      "publishDate": 1972,
-      "image": "ziggy-stardust.jpg",
-      "rating": 4.5,
-      "reviewDate": "July 4, 2020",
-      "excerpt": "<p>This is an album that got heavy play in my bedroom growing up and it still holds up as an incredible glam rock album from start to finish. It&apos;s one of a select few albums where I never skip a track.</p>"
-    },
-    {
       "id": "notes__wanda",
       "contents": "<p>I discovered this indie movie from <a href=\"https://www.criterion.com/current/top-10-lists/376-amy-seimetz-s-top-10\">Amy Seimetz&#39;s Top 10 list</a> hosted at Criterion.com and went into it blind, and I was blown away. It&#39;s bleak, realistic, well-acted, and infinitely fascinating.</p>\n<p>The character of Wanda is sometimes frustrating, but always mesmorizing. She&#39;s sweet, naive, and drifts through the film like a ghost. Barbara Holden, also the director, plays the role so naturally. It&#39;s a unique, flawed character, and like none I&#39;ve seen before on film.</p>\n",
       "type": "movie",
@@ -637,6 +625,18 @@
       "rating": 4,
       "reviewDate": "November 21, 2020",
       "excerpt": "<p>I discovered this indie movie from <a href=\"https://www.criterion.com/current/top-10-lists/376-amy-seimetz-s-top-10\">Amy Seimetz&apos;s Top 10 list</a> hosted at Criterion.com and went into it blind, and I was blown away. It&apos;s bleak, realistic, well-acted, and infinitely fascinating.</p>"
+    },
+    {
+      "id": "notes__ziggy-stardust",
+      "contents": "<p>This is an album that got heavy play in my bedroom growing up and it still holds up as an incredible glam rock album from start to finish. It&#39;s one of a select few albums where I never skip a track.</p>\n<p>The Ziggy Stardust character and storyline is intriguing, but also hard to follow and somewhat thin. I like the album for the music, less the concept.</p>\n<p>This was my intro to Bowie and it led me to check out Hunky Dory and eventually work from his Berlin Trilogy.</p>\n<p>My favorite tracks are the bookends:</p>\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=2ObjtVdsV3I\">Five Years</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=SOgVoxqKU7U\">Rock &#39;n&#39; Roll Suicide</a></li>\n</ul>\n",
+      "type": "music",
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+      "creator": "David Bowie",
+      "publishDate": 1972,
+      "image": "ziggy-stardust.jpg",
+      "rating": 4.5,
+      "reviewDate": "July 4, 2020",
+      "excerpt": "<p>This is an album that got heavy play in my bedroom growing up and it still holds up as an incredible glam rock album from start to finish. It&apos;s one of a select few albums where I never skip a track.</p>"
     }
   ]
 }

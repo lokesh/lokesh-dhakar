@@ -35,24 +35,12 @@ textarea {
   font-family: var(--font);
   font-weight: var(--weight-regular);
   font-size: 1rem;
+  letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
 }
 
 html {
-  font-size: 15px;
-}
-
-@media (min-width: 800px) {
-  html {
-    font-size: 17px;
-  }
-}
-
-
-@media (min-width: 1600px) {
-  html {
-    font-size: 18px;
-  }
+  font-size: 16px;
 }
 
 body {
@@ -101,7 +89,7 @@ h3 {
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   line-height: 1em;
   font-weight: var(--weight-x-bold);
 }
@@ -115,7 +103,6 @@ h2 {
   margin-left: -0.03em;
   font-size: 1.5rem;
   line-height: var(--line-height-heading);
-  letter-spacing: -0.02em;
   font-weight: var(--weight-bold);
 }
 
@@ -132,7 +119,6 @@ h2.subtitle + h2 {
 h3 {
   font-size: 1.15rem;
   line-height: var(--line-height-heading);
-  letter-spacing: -0.01em;
 }
 
 a {
@@ -178,7 +164,6 @@ button:hover {
 }
 
 p {
-  letter-spacing: -0.005em;
   line-height: var(--line-height);
   hyphens: auto;
   hyphenate-limit-chars: 6 3 3;
@@ -274,22 +259,19 @@ summary:hover {
   margin-right: var(--gutter);
 }
 
-.nav__item {
+a.nav__item {
   display: inline-block;
   padding: 0.65em 0.35em;
   margin-right: 0.5em;
   color: var(--muted-color);
   border-radius: var(--radius);
   font-family: var(--font-ui);
-  font-size: 1.125rem;
   font-weight: var(--weight-bold);
   background-color: transparent;
 }
 
-.nav__item:hover {
-  text-decoration: none;
-  color: var(--link-hover-color);
-  background-color: var(--link-hover-bg-color);
+a.nav__item:hover {
+  color: var(--color-bold);
 }
 
 .nav__divider {
@@ -312,12 +294,11 @@ summary:hover {
     border: none;
   }
 
-  .nav__item {
+  a.nav__item {
     display: block;
     padding: 0.25em 1em 0.25em 0.5em;
     margin-right: 0;
     border: 0;
-    color: var(--color-bold);
     border-radius: var(--radius);
   }
 }
@@ -327,7 +308,7 @@ summary:hover {
 .page {
   position: relative;
   max-width: var(--page-max-width);
-  margin-top: 24px;
+  margin-top: 64px;
   margin-bottom: 64px;
   padding-left: var(--gutter);
   padding-right: var(--gutter);

@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #fff; /* prev: #f9f9f9 */
+  --bg-color: #f9f9f9;
   --recessed-bg-color: #e3e3e3;
   --hover-bg-color: #e9e9e9;
 
@@ -34,11 +34,11 @@
   --radius-xl: 4px; /* Large media */
 
   /* Typography */
-  --font: 'Recursive', Inter, sans-serif;
-  --font-heading: 'Recursive', sans-serif;
-  --font-ui: 'Recursive', sans-serif;
+  --font: Inter, sans-serif;
+  --font-heading: Inter, sans-serif;
+  --font-ui: Inter, sans-serif;
 
-  --font-mono: 'Recursive Mono', Menlo, Consolas, Monaco, Lucida Console, monospace;
+  --font-mono: Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;
   --weight-bold: 700;
   --weight-x-bold: 900;

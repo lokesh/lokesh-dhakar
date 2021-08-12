@@ -2,6 +2,29 @@
   --control-border: 2px solid var(--color);
 }
 
+
+
+
+/* BUTTONS ------------------------------------------------------------------- */
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 0.6em 0 0.6em;
+  height: var(--form-control-height-xs);
+  /* font size must be at least 16px on iOS Safari or screen will zoom */
+  font-size: 16px;
+  font-family: var(--font-ui);
+  font-weight: var(--weight-bold);
+  border-radius: var(--radius);
+  border: var(--control-border);
+  cursor: pointer;
+  background-color: var(--bg-color);
+  outline: none;
+}
+
+
 .button-text {
   color: var(--link-color);
   background: none;
@@ -9,6 +32,8 @@
   padding-left: 0;
   font-weight: 600;
 }
+
+/* CHECKBOXES ------------------------------------------------------------------- */
 
 /* wrapper <label> */
 .checkbox-label {
