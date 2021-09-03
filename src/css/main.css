@@ -103,7 +103,7 @@ h2 {
 h2.subtitle {
   margin-top: var(--block-bottom);
   color: var(--muted-color);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-regular);
 }
 
 h2.subtitle + h2 {
