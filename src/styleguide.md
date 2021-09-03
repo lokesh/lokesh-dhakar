@@ -17,25 +17,25 @@ layout: page.njk
 
 <section class="item-grid">
   <article class="item">
-    <h2 class="item-title">Title</h2>
+    <div class="item-title">Title</div>
     <div class="item-meta">Meta</div>
     <div class="item-credits">Credits</div>
     <div class="note-body">Body</div>
   </article>
   <article class="item">
-    <h2 class="item-title">Title</h2>
+    <div class="item-title">Title</div>
     <div class="item-meta">Meta</div>
     <div class="item-credits">Credits</div>
     <div class="note-body">Body</div>
   </article>
   <article class="item">
-    <h2 class="item-title">Title</h2>
+    <div class="item-title">Title</div>
     <div class="item-meta">Meta</div>
     <div class="item-credits">Credits</div>
     <div class="note-body">Body</div>
   </article>
   <article class="item">
-    <h2 class="item-title">Title</h2>
+    <div class="item-title">Title</div>
     <div class="item-meta">Meta</div>
     <div class="item-credits">Credits</div>
     <div class="note-body">Body</div>
@@ -185,9 +185,4 @@ Outputs
 i {
   background: #fff3c7;
 }
-
-a {
-/*  color: var(--color);
-  background: #F0E3A4;
-*/}
 </style>

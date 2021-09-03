@@ -2,11 +2,10 @@
 title: "Running"
 date: 2018-09-03
 layout: page.njk
+pageWidth: "full"
 ---
 
 <h1 class="page-title">Running</h1>
-
-<h2 class="subtitle">Tracking my progress towards Boston Marathon qualifying</h2>
 
 In the chart below, you can see all my recent runs. The goal is to complete a marathon distance (26.2mi) run at a 7:15/mi pace.
 
@@ -88,10 +87,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 - [Processed data as JSON](https://github.com/lokesh/lokesh-dhakar/blob/master/src/data/strava-activities-edited-runs.json)
 
 <style>
-.page-title {
-  margin-bottom: 4px;
-}
-
 .slide-start.row {
   opacity: 0;
   transform: translateX(-40px);
@@ -106,8 +101,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   display: flex;
   align-items: center;
   margin-bottom: 8px;
-  font-size: 0.75rem;
-  font-weight: var(--weight-bold);
 }
 
 .swatch {
@@ -133,8 +126,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   width: 5em;
   text-align: center;
   color: white;
-  font-size: 0.75rem;
-  font-weight: var(--weight-x-bold);
   background-color: #000;
   border-radius: var(--radius) 0 0 var(--radius);
 }
@@ -147,18 +138,12 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 }
 
 .comment-icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-right: 8px;
-}
-
-.comment-text {
-  font-size: 0.8125rem;
-  line-height: 1.4em;
 }
 
 .comment-text em {
   font-style: normal;
-  font-weight: var(--weight-bold);
 }
 
 .comment-text em::after {
@@ -184,7 +169,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   position: relative;
   top: -1px;
   font-weight: var(--weight-bold);
-  font-size: 0.875rem;
 }
 
 .comment-achievement .comment-icon::after {
@@ -200,8 +184,6 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   display: flex;
   justify-content: space-between;
   background-color: var(--recessed-bg-color);
-  font-size: 0.875rem;
-  font-weight: var(--weight-bold);
   margin-bottom: 12px;
   border-radius: var(--radius) 0 0 var(--radius);
 }
@@ -209,8 +191,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 .run-name {
   z-index: 1;
   opacity: 0.8;
-  padding: 8px;
-  line-height: 1.1em;
+  padding: 4px 4px 4px 8px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -222,7 +203,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   align-items: center;
   flex: 0 0 auto;
   opacity: 0.8;
-  padding: 8px;
+  padding: 4px 8px 4px 4px;
   text-align: right;
   display: flex;
   align-items: center;

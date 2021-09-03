@@ -39,16 +39,16 @@ pageWidth: "full"
       <img :src="`/media/notes/${image}`" class="item-image" :alt="`${title} cover art`" />
     </div>
     <div class="item-text-column">
-      <h2 class="item-title">{{ title }}</h2>
+      <div class="item-title">{{ title }}</div>
       <div class="item-meta">
         <span>{{ type }}</span>
         /
         <span class="item-review-date">{{ formattedReviewDate }}</span>
       </div>
-      <note-rating v-if="rating" :stars="rating"></note-rating>
       <div class="item-credits">
         <span class="item-publish-date">{{ publishDate }}</span> | <span>{{ creatorLabel }}</span>
       </div>
+      <note-rating v-if="rating" :stars="rating"></note-rating>
       <div v-if="contents" class="item-body" @click="open = true">
         <div v-if="open" v-html="contents"></div>
         <div v-else v-html="excerpt" class="item-excerpt"></div>
@@ -59,9 +59,7 @@ pageWidth: "full"
 
 <template id="tpl-note-rating">
   <div class="item-rating">
-    <svg v-for="n in fullStars"><use href="#svg-star"></use></svg>
-    <svg v-if="halfStar"><use href="#svg-star-half"></svg>
-    <svg v-for="n in emptyStars"><use href="#svg-star-outline"></svg>
+    <template v-for="n in fullStars">▓▓</template><template v-if="halfStar">▓</template><template v-for="n in emptyStars">░░</template>
   </div>
 </template>
 
@@ -143,12 +141,10 @@ pageWidth: "full"
   line-height: 1;
   margin-right: 0.25em;
   font-family: var(--font-ui);
-  font-size: 0.9375rem;
-  font-weight: var(--weight-bold);
   border-radius: var(--radius);
-  border: 2px solid var(--link-color);
+  border: 1px solid var(--ui-color);
   cursor: pointer;
-  color: var(--link-color);
+  color: var(--ui-color);
 }
 
 .note-filter-label-icon {
@@ -162,7 +158,7 @@ pageWidth: "full"
 .note-filter:hover .note-filter-label,
 .note-filter--checked .note-filter-label {
   color: white;
-  background: var(--link-color);
+  background: var(--ui-color);
 }
 
 @media (min-width: 800px) {
@@ -182,11 +178,6 @@ pageWidth: "full"
 
 
 /* SORT -----------------------------------------*/
-
-.note-sort {
-  font-weight: var(--weight-bold);
-  color: var(--muted-color);
-}
 
 .note-sort-label {
   display: none;
@@ -213,7 +204,6 @@ pageWidth: "full"
   }
 
   .note-sort-select {
-    font-size: 0.8125rem;
     height: var(--form-control-height);
   }
 }
@@ -309,9 +299,9 @@ pageWidth: "full"
 /* STAR RATING -----------------------------------------*/
 
 .item-rating {
-  display: flex;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
+
 .item-rating svg {
   width: 16px;
   height: 16px;

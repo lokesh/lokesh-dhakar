@@ -3,16 +3,16 @@
   --recessed-bg-color: #e3e3e3;
   --hover-bg-color: #e9e9e9;
 
-  --color: #444; /* body text */
+  --color: #000; /* body text */
   --color-bold: #000; /* headings and bold text */
 
   --primary-color: #005EF8;
   --muted-color: #999;
-  --link-color: var(--color-bold);
-  --link-bg-color: #eee;
-  --link-hover-color: white;
-  --link-hover-bg-color: var(--primary-color);
-  --action-color: var(--primary-color); /* For buttons and other non-link controls */
+  --link-color: var(--primary-color);
+  --link-bg-color: transparent;
+  --link-hover-color: var(--primary-color);
+  --link-hover-bg-color: var(--hover-bg-color);
+  --ui-color: var(--color-bold); /* For buttons and other non-link controls */
 
   /* Misc colors */
   --green: #58df82;
@@ -21,7 +21,7 @@
   --red: #fc6969;
 
   /* Body text line height */
-  --line-height: 1.55em;
+  --line-height: 1.5em;
   --line-height-heading: 1.25em;
 
   /* Borders and corners */
@@ -34,18 +34,18 @@
   --radius-xl: 4px; /* Large media */
 
   /* Typography */
-  --font: Inter, sans-serif;
-  --font-heading: Inter, sans-serif;
-  --font-ui: Inter, sans-serif;
+  --font: 'Roboto Mono', Inter, sans-serif;
+  --font-heading: 'Roboto Mono', Inter, sans-serif;
+  --font-ui: 'Roboto Mono', Inter, sans-serif;
 
   --font-mono: Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;
   --weight-bold: 700;
-  --weight-x-bold: 900;
+  --weight-x-bold: 700;
 
   /* Forms */
-  --form-control-height-xs: 2.5em;
-  --form-control-height: 2.5em;
+  --form-control-height-xs: 2em;
+  --form-control-height: 2em;
 
   /*
     Layout
@@ -57,5 +57,5 @@
   --page-max-width: 40rem;
   /*--text-max-width: 35rem;*/
 
-  --block-bottom: 1.5rem;
+  --block-bottom: 1.4rem;
 }

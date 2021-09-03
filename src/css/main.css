@@ -29,12 +29,12 @@ textarea {
   font-family: var(--font);
   font-weight: var(--weight-regular);
   font-size: 1rem;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.025em;
   -webkit-font-smoothing: antialiased;
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -83,19 +83,19 @@ h3 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   line-height: 1em;
   font-weight: var(--weight-x-bold);
 }
 
 h1.post-title {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
 }
 
 h2 {
   margin-top: calc(var(--block-bottom) * 2);
   margin-left: -0.03em;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: var(--line-height-heading);
   font-weight: var(--weight-bold);
 }
@@ -111,7 +111,7 @@ h2.subtitle + h2 {
 }
 
 h3 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: var(--line-height-heading);
 }
 
@@ -133,17 +133,8 @@ a:hover {
   text-decoration: none;
 }
 
-/*
-For links inline, add some padding on the left and right for the bg color.
-We don't want this for images that are linked.
-*/
-p a,
-li a {
-  padding: 0 5px;
-}
-
-
 a.reset {
+  color: var(--color-bold);
   background-color: transparent;
 }
 
@@ -407,11 +398,12 @@ figure.small.border img {
 }
 
 .item-title {
-  margin: 0 0 4px 0;
+  font-weight: var(--weight-bold);
 }
 
 .item-title a {
   text-decoration: none;
+  color: var(--color-bold);
   background: none;
 }
 
@@ -420,18 +412,11 @@ figure.small.border img {
 }
 
 .item-meta {
-  margin-bottom: 4px;
-  color: var(--color-bold);
-  font-size: 0.8125rem;
-  font-weight: var(--weight-x-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  color: var(--muted-color);
 }
 
 .item-credits {
-  font-weight: var(--weight-bold);
   color: var(--muted-color);
-  margin-bottom: 4px;
 }
 
 .item-body {

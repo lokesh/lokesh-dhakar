@@ -1,7 +1,6 @@
 :root{
-  --control-border: 2px solid var(--color);
-}
-
+  --control-border: 1px solid var(--color);
+}1
 
 
 
@@ -14,7 +13,7 @@
   padding: 0 0.6em 0 0.6em;
   height: var(--form-control-height-xs);
   /* font size must be at least 16px on iOS Safari or screen will zoom */
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-family: var(--font-ui);
   font-weight: var(--weight-bold);
   border-radius: var(--radius);
@@ -70,9 +69,8 @@
   padding: 0 1.6em 0 0.6em;
   height: var(--form-control-height-xs);
   /* font size must be at least 16px on iOS Safari or screen will zoom */
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-family: var(--font-ui);
-  font-weight: var(--weight-bold);
   border-radius: var(--radius);
   border: var(--control-border);
   cursor: pointer;
@@ -91,7 +89,7 @@
   margin: 18px 0;
   width: 100%;
 
-  --thumb-border: 2px solid ;
+  --thumb-border: 1px solid ;
 }
 .range:focus {
   outline: none;

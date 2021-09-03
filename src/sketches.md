@@ -134,11 +134,11 @@ function render(sketches) {
       <a href="${sketch.src}">
         <img class="item-image" style="background-image: url(${sketch.thumb})" />
       </a>
-      <h3 class="item-title">
+      <div class="item-title">
         <a href="${sketch.src}">
           ${sketch.title}
         </a>
-      </h3>
+      </div>
       <div class="item-meta">${sketch.tags} · ${sketch.date}</div>
       <div class="item-body">${sketch.desc || ''}</div>
     </article>

@@ -100,9 +100,9 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 }
 */
 @media (min-width: 748px) {
-/*  .col--720 {
+  .col--720 {
     width: 720px;
-  }*/
+  }
 }
 
 .histomap-title {
@@ -125,11 +125,12 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 
 #histomap {
   overflow: visible;
+  margin-bottom:  var(--block-bottom);
 }
 
 #overlay-group {
   font-weight: var(--weight-x-bold);
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 
@@ -140,15 +141,11 @@ The chart is generated on-the-fly, with vanilla Javascript used to create SVG sh
 }
 
 .citation {
-  font-size: 0.75rem;
+  color: var(--muted-color);
 }
 
 #histomap-form {
   display: none;
-  font-size: 0.8125rem;
-}
-#histomap-form select {
-  font-size: 0.8125rem;
 }
 
 #histomap-form.open {

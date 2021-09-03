@@ -16,8 +16,6 @@ layout: blog.njk
   list-style: none;
   margin-left: 0;
   margin-bottom: 0.6em;
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid var(--border-color-light);
 }
 
 .archive__title {

@@ -7,9 +7,7 @@ pageWidth: "full"
 
 <h1 class="page-title">Inspiration</h1>
 
-<h2 class="subtitle">Videos of creatives at work</h2>
-
-<p style="display: none">With a focus on process, not backstory. Simple shooting and editing preferred.</p>
+Videos of creatives at work. With a focus on process, not backstory. Simple shooting and editing preferred.
 
 
 <section id="videos">
@@ -63,9 +61,9 @@ pageWidth: "full"
     </a>
     <div class="details">
       <a :href="`https://www.youtube.com/watch?v=${video.id}`">
-        <h3 class="title">
+        <div class="title">
           {{ video.customTitle }}
-        </h3>
+        </div>
       </a>
     </div>
   </article>
@@ -122,8 +120,6 @@ pageWidth: "full"
   padding: 1px 4px 2px;
   color: white;
   background-color: #000;
-  font-weight: 700;
-  font-size: 1rem;
   border-radius: var(--radius);
 }
 
@@ -132,20 +128,13 @@ pageWidth: "full"
   text-transform: none;
 }
 
-.page-title {
-  margin-bottom: 4px;
-}
-
 .sort-options {
-  font-weight: var(--weight-bold);
-  margin-bottom: 2rem;
+  margin-bottom: var(--block-bottom);
 }
 
 .sort-option {
   padding: 0.2em 0.6em 0.3em;
   margin: 0;
-  font-size: 0.8125rem;
-  font-weight: var(--weight-bold);
   border: 1px solid var(--color);
   border-radius: var(--radius);
   background-color: transparent;
@@ -191,28 +180,12 @@ pageWidth: "full"
     margin-bottom: 0;
   }
 
-/*  .page-title {
-    font-size: 1.25rem;
-  }
-
-  .subtitle {
-    margin-top: 4px;
-    margin-bottom: 1px;
-    font-size: 0.875rem;
-  }
-
-*/  .page-desc {
+  .page-desc {
     margin-top: 0;
-    font-size: 0.875rem;
-  }
-
-  .sort-options {
-    font-size: 0.75rem;
   }
 
   .sort-option {
     padding: 4px 8px;
-    font-size: 0.75rem;
   }
 
   .videos {
@@ -232,15 +205,6 @@ pageWidth: "full"
     border-radius: var(--radius-lg);
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .title {
-    font-size: 0.875rem;
-    font-weight: 700;
-  }
-
-  .duration {
-      font-size: 0.75rem;
   }
 }
 </style>
