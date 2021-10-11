@@ -41,12 +41,12 @@ pageWidth: "full"
     <div class="item-text-column">
       <div class="item-title">{{ title }}</div>
       <div class="item-meta">
-        <span>{{ type }}</span>
-        /
+        <span class="item-type">{{ capitalize(type) }}</span>
+        •
         <span class="item-review-date">{{ formattedReviewDate }}</span>
       </div>
       <div class="item-credits">
-        <span class="item-publish-date">{{ publishDate }}</span> | <span>{{ creatorLabel }}</span>
+        <span class="item-publish-date">{{ publishDate }}</span> • <span>{{ creatorLabel }}</span>
       </div>
       <note-rating v-if="rating" :stars="rating"></note-rating>
       <div v-if="contents" class="item-body" @click="open = true">
@@ -310,7 +310,10 @@ pageWidth: "full"
 </style>
 
 <script src="/js/vue.min.js"></script>
-<script>
+
+<script type="module">
+import { capitalize } from '/js/utils/text.js';
+
 Vue.component('note-filter', {
   template: '#tpl-note-filter',
   
@@ -367,6 +370,7 @@ Vue.component('note', {
   },
   data() {
     return {
+      capitalize,
       open: false,
     };
   },
@@ -381,7 +385,8 @@ Vue.component('note', {
           return `Directed by ${this.creator}`;
         break;
         case 'music':
-          return `by ${this.creator}`;
+        case 'game':
+          return `By ${this.creator}`;
         break;
       }
     },

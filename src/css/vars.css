@@ -25,13 +25,13 @@
   --line-height-heading: 1.25em;
 
   /* Borders and corners */
-  --border-color: #999;
+  --border-color: #000;
   --border-color-light: #d5d5d5; /* Used for inline content  */
 
-  --radius-sm: 4px; /* Small tags */
-  --radius: 4px;    /* Form controls */
-  --radius-lg: 4px; /* Media */
-  --radius-xl: 4px; /* Large media */
+  --radius-sm: 3px; /* Small tags */
+  --radius: 3px;    /* Form controls */
+  --radius-lg: 3px; /* Media */
+  --radius-xl: 3px; /* Large media */
 
   /* Typography */
   --font: 'Roboto Mono', Inter, sans-serif;

@@ -43,6 +43,15 @@ Fetch the latest data from Strava and parse it.
 npm run strava
 ```
 
+### Update places data
+
+Fetch the latest Swarm check-in data with the Foursquare API.
+
+```
+npm run foursquare
+```
+
+
 <!--
 ### Adding a video to Inspiration page
 
