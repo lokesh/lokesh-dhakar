@@ -27,6 +27,7 @@
     "dev": "MODE=dev node ./build.js",
     "watch": "npm run dev",
     "strava": "node ./build/strava.js",
+    "foursquare": "node ./build/foursquare.js",
     "notes": "sh build/notes.sh",
     "img": "node ./build/img.js",
     "test": "echo \"Error: no test specified\" && exit 1"
