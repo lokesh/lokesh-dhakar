@@ -3,19 +3,6 @@ const fs = require('fs');
 const { resolve } = require('path');
 
 
-/*
-- [ ]  Get token
-- [ ]  Save token
-
-Do these two first as token might not expire
-- [ ] Fetch data
-- [ ] Save data to file
-
-
-- Remove venueId to reduce file size?
-- gzip ahead of time?
- */
-
 console.log('🕐 [Foursquare] Refreshing data');
 
 // ------------------------
@@ -36,6 +23,9 @@ const LIMIT = 250;
 const CHECKINS_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins.json');
 
 
+/**
+ * @return {Number} count of all checkins for my user
+ */
 async function fetchCheckinCount() {
    const params = new URLSearchParams({
     ...AUTH_PARAMS,
@@ -47,8 +37,7 @@ async function fetchCheckinCount() {
 }
 
 /**
- * ...
- * @param  {Number} offset ]
+ * @param  {Number} offset
  * @return {[Object]}
  */
 async function fetchCheckins(offset = 0) {
@@ -101,7 +90,9 @@ function simplifyData(checkins) {
   })
 }
 
-
+/**
+ * Makes multiple fetch calls, concats data, and stores JSON in file.
+ */
 async function main() {
   // Get checkin count
   const checkinCount = await fetchCheckinCount();
