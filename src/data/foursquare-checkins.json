@@ -1,5 +1,115 @@
 [
   {
+    "venue": "Thorough Bread and Pastry",
+    "venueId": "49f13784f964a5209f691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mystic Haircutting",
+    "venueId": "4aa19c57f964a520374120e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Salon / Barbershop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Alchemy By Alta",
+    "venueId": "569da7a8498ebc46f11c1085",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Building",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Arizmendi Bakery",
+    "venueId": "3fd66200f964a520bdf11ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Twin Peaks Summit",
+    "venueId": "4c29567f9fb5d13aa2139b57",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hill",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Manny’s",
+    "venueId": "5bb90fcca35dce002c8e8181",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Pakwan",
+    "venueId": "49fd1ce0f964a5200b6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pakistani",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Twisted Street Cafe",
+    "venueId": "5e9f87695b98d40008e88b0f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 9
+  },
+  {
     "venue": "The Panhandle",
     "venueId": "483155fcf964a520e04f1fe3",
     "city": "San Francisco",
@@ -31431,7 +31541,7 @@
   },
   {
     "venue": "H&M",
-    "venueId": "45214142f964a520c03a1fe3",
+    "venueId": "5b9f64d42d2fd9002cfaea8f",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -44050,7 +44160,7 @@
   },
   {
     "venue": "H&M",
-    "venueId": "45214142f964a520c03a1fe3",
+    "venueId": "5b9f64d42d2fd9002cfaea8f",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -46880,7 +46990,7 @@
   },
   {
     "venue": "H&M",
-    "venueId": "45214142f964a520c03a1fe3",
+    "venueId": "5b9f64d42d2fd9002cfaea8f",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -54348,7 +54458,7 @@
   },
   {
     "venue": "H&M",
-    "venueId": "45214142f964a520c03a1fe3",
+    "venueId": "5b9f64d42d2fd9002cfaea8f",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",

@@ -28,7 +28,7 @@ pageWidth: "full"
 In month and year groupings, the venues should display a tag and at the top
 of the list we can indicate the count of new spots.
 - Add custom notes? or should these happen in app
-- Review categoies - merge Cafe and coffee shop?
+- Review categoies - merge Cafe and coffee shop? aggregate restaurants. Multiple categories? Check 4sq data.
 
 Map
 - Monospaced, with location in ascii rectangles on a map?
@@ -36,6 +36,7 @@ Map
 -->
 
 <div id="venues" class="venues">
+  <!--
   checkins<br />
   filtered by location: {{ checkinsFilteredByLocation.length }}<br />
   filtered by category:: {{ checkinsFilteredByCategory.length }}<br />
@@ -46,12 +47,13 @@ Map
   filtered by category:: {{ venuesFilteredByCategory.length }}<br />
   filter by both: {{ venuesFilteredByCategoryAndLocation.length }}<br />
   <br /><br />
+-->
 
   <div class="filters">
     <div>
       <select class="select" v-model="locationFilter">
         <option v-for="(location, i) in locationOptions" :value="location.path" :key="i">
-          <template v-if="location.path.state"> </template>
+          <template v-if="location.path.state">&nbsp;</template>
           <template v-if="location.path.city">&nbsp;</template>
           {{ location.name }} ({{ location.count }})
         </option>
@@ -207,7 +209,7 @@ var app = new Vue({
       
       let countedVenues = {};
 
-      this.checkinsFilteredByCategory.forEach(checkin => {
+      this.venuesFilteredByCategory.forEach(checkin => {
         let { country, state, city, venueId } = checkin;
         if (!country || !state || !city) return;
 
@@ -249,7 +251,7 @@ var app = new Vue({
 
       options.push({
         name: LOCATION_ANY,
-        count: this.checkinsFilteredByCategory.length,
+        count: this.venuesFilteredByCategory.length,
         path: {},
       });
 
