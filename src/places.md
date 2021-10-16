@@ -24,11 +24,15 @@ pageWidth: "full"
 
 # Brainstorming
 
+- Use full state name in location dropdown
+- Shorten and/or merge category names?
+- In group view: on hover, highlight other options
 - Add first Boolean in data to indicate first check-in.
 In month and year groupings, the venues should display a tag and at the top
 of the list we can indicate the count of new spots.
 - Add custom notes? or should these happen in app
 - Review categoies - merge Cafe and coffee shop? aggregate restaurants. Multiple categories? Check 4sq data.
+- Improve hover style
 
 Map
 - Monospaced, with location in ascii rectangles on a map?
@@ -36,19 +40,6 @@ Map
 -->
 
 <div id="venues" class="venues">
-  <!--
-  checkins<br />
-  filtered by location: {{ checkinsFilteredByLocation.length }}<br />
-  filtered by category:: {{ checkinsFilteredByCategory.length }}<br />
-  filter by both: {{ checkinsFilteredByCategoryAndLocation.length }}<br />
-  ---<br />
-  venues<br />
-  filtered by location: {{ venuesFilteredByLocation.length }}<br />
-  filtered by category:: {{ venuesFilteredByCategory.length }}<br />
-  filter by both: {{ venuesFilteredByCategoryAndLocation.length }}<br />
-  <br /><br />
--->
-
   <div class="filters">
     <div>
       <select class="select" v-model="locationFilter">
@@ -64,12 +55,64 @@ Map
         <option v-for="category in categoryOptions" :value="category[0]">{{ category[0] }} ({{ category[1] }})</option>
       </select>
     </div>
+    <div>
+      <select class="select" v-model="groupFilter">
+        <option v-for="group in groupOptions" :value="group">{{ group }}</option>
+      </select>
+    </div>
     <button ref="resetBtn" @click="resetFilters">Reset</button>
   </div>
-  <div v-for="venue in venuesFilteredByCategoryAndLocation" class="item item--dense">
+  <div
+    v-if="groupFilter === GROUP_ALL"
+    v-for="venue in displayList"
+    class="item item--dense"
+  >
     <b>{{ venue.venue }}</b>
     <div class="item-meta">
-      <span class="item-category">{{ venue.category }}</span> • {{ venue.count }} visits • {{ venue.city }}
+      <span class="item-category">{{ venue.category }}</span>
+      <span :class="{
+        'count-2-plus': venue.count > 2,
+        'count-10-plus': venue.count > 10,
+        'count-25-plus': venue.count > 25
+      }
+      ">
+        • {{ venue.count }}
+      </span>
+       visits
+      <span v-if="venue.city">• {{ venue.city }}</span>
+    </div>
+  </div>
+  <div
+    class="display-lists"
+    ref="lists"
+  >
+    <div
+      v-if="groupFilter === GROUP_BY_YEAR"
+      v-for="(venues, year) in displayList"
+      class="display-list"
+    >
+      <h1>{{ year }}</h1>
+      <div
+        v-for="venue in venues"
+        class="item item--dense"
+        :class="`venue-${venue.venueId}`"
+        @mouseover="highlight(`venue-${venue.venueId}`)"
+        @mouseleave="unhighlight(`venue-${venue.venueId}`)"
+      >
+        <b>{{ venue.venue }}</b>
+        <div class="item-meta">
+          <span class="item-category">{{ venue.category }}</span>
+          
+          • 
+          <span :class="{
+            'count-10-plus': venue.count > 10,
+            'count-25-plus': venue.count > 25
+          }">
+            {{ venue.count }} visits
+          </span>
+          <span v-if="venue.city">• {{ venue.city }}</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -87,6 +130,9 @@ Map
 const CATEGORY_ANY = 'Any category';
 const LOCATION_ANY = 'Any location';
 
+const GROUP_ALL = 'All-time';
+const GROUP_BY_YEAR = 'Group by year'
+
 // --------
 // COMMENTS
 // --------
@@ -102,6 +148,7 @@ var app = new Vue({
       checkins: [],
       categoryFilter: CATEGORY_ANY,
       locationFilter: {},
+      groupFilter: GROUP_BY_YEAR,
     };
   },
 
@@ -165,24 +212,12 @@ var app = new Vue({
       return this.filterCheckinsByLocation(checkins, this.locationFilter);
     },
 
-    /*
-      USA: {
-        count: 100,
-        children: {
-          'California': {
-            count: 50,
-            children: {
-              'San Francisco': {
-                count: 20,
-              },
-            }
-          }
-        }
-      }
-
-      Create tree, sort in follow-up step.
-
-     */
+    displayList() {
+      if (this.groupFilter === GROUP_BY_YEAR) {
+        return this.venuesFilteredByCategoryAndLocationGroupedByYear;
+      } 
+      return this.venuesFilteredByCategoryAndLocation;
+    },
 
     locationOptions() {
       let tree = {};
@@ -350,136 +385,14 @@ var app = new Vue({
         });
       })
 
-      // options = options.filter(option => {
-      //   return option.count > 10;
-      // })
-
-      console.log(options);
-      /*
-      Flatten tree into unsorted list
-      ---
-      0: {name: 'United States', count: 2988, path: {…}}
-      1: {name: 'CA', count: 1720, path: {…}}
-      2: {name: 'San Francisco', count: 1224, path: {…}}
-      3: {name: 'Emeryville', count: 11, path: {…}}  
-    
-      Path ex:
-      {country: 'United States', state: 'CA', city: 'San Francisco'}
-       */
-      // const list = [];
-      
-      // for (let [country, countryObj] of Object.entries(tree)) {       
-      //   list.push({
-      //     name: country,
-      //     count: countryObj.count,
-      //     path: {
-      //       country,
-      //     }
-      //   })
-
-      //   for (let [state, stateObj] of Object.entries(countryObj.children)) { 
-      //     list.push({
-      //       name: state,
-      //       count: stateObj.count,
-      //       path: {
-      //         country,
-      //         state,
-      //       }
-      //     })
-
-      //     for (let [city, cityObj] of Object.entries(stateObj.children)) { 
-      //       list.push({
-      //         name: city,
-      //         count: cityObj.count,
-      //         path: {
-      //           country,
-      //           state,
-      //           city,
-      //         }
-      //       })
-      //     }
-      //   }
-      // }
-      
-      // console.log(list);
-      
-
-      // list.sort((a, b) => {
-        // console.log(a, b);
-        
-        // let aType = 'country';
-        // if (a.path.city) {
-        //   aType = 'city'
-        // } else if (a.path.state) {
-        //   aType = 'state';
-        // } 
-        // if (a is less than b by some ordering criterion) {
-        //   return -1;
-        // }
-        // if (a is greater than b by the ordering criterion) {
-        //   return 1;
-        // }
-        // // a must be equal to b
-        // return 0;
-      // });
-
-
-      // let options = [];
-      // locations.forEach(country => {
-      //   options.push({
-      //     name: country,
-      //     count: country.coun
-      //   })
-      // })      
-      // [{
-      //   name: 'San Francisco',
-      //   count: 200,
-      //   prop: {
-      //     country: 'us',
-      //     state: 'ca',
-      //     city: 'san'
-      //   }
-      // }]
-
-      // Sort countries
-      // - Push countries into an array and sort
-      /*
-        [
-          {
-            name: US,
-            count: 2000,
-            path: {
-              country: 'us'
-            }
-            children: {}
-          }
-        ]
-      */
-
-      // Sort states
-      // - Push states
-
-      // Sort cities
-      
-
-
-      // let categories = {
-      //   [CATEGORY_ANY]: this.checkins.length 
-      // };
-
-      // this.checkins.forEach((venue) => {
-      //   let { category } = venue;
-      //   if (categories.hasOwnProperty(category)) {
-      //     categories[category] = categories[category] + 1;
-      //   } else {
-      //     categories[category] = 1;
-      //   }
-      // })
-
-      // return Object.entries(categories).sort((a, b) => {
-      //   return a[1] >= b[1] ? -1 : 1;
-      // });
       return options;      
+    },
+
+    groupOptions() {
+      return [
+        GROUP_ALL,
+        GROUP_BY_YEAR,
+      ];
     },
 
     venuesFilteredByCategory() {
@@ -493,6 +406,15 @@ var app = new Vue({
     venuesFilteredByCategoryAndLocation() {
       const venues = this.checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
       return this.sortVenuesByCount(venues);
+    },
+
+    venuesFilteredByCategoryAndLocationGroupedByYear() {
+      const groupedCheckins = this.groupCheckinsByYear(this.checkinsFilteredByCategoryAndLocation);
+      for (let year of Object.keys(groupedCheckins)) { 
+        groupedCheckins[year] = this.sortVenuesByCount(this.checkinsToVenues(groupedCheckins[year]));
+      }
+      console.log(groupedCheckins);
+      return groupedCheckins;
     },
   },
 
@@ -565,6 +487,31 @@ var app = new Vue({
       return checkins;
     },    
 
+    /**
+     * @return {[Object]} checkins e.g. [{ year: 2010, checkins: [] }, ... ]
+     */
+    groupCheckinsByYear(checkins) {
+      let group = {};
+      checkins.forEach(checkin => {
+        if (group[checkin.year]) {
+          group[checkin.year].push(checkin);
+        } else {
+          group[checkin.year] = [checkin];
+        }
+      })
+      return group;
+    },
+
+    highlight(elClass) {
+      let els = [...this.$refs.lists.getElementsByClassName(elClass)]
+      els.forEach(el => { el.classList.add('venue-highlight') });
+    },
+    
+    unhighlight(elClass) {
+      let els = [...this.$refs.lists.getElementsByClassName(elClass)]
+      els.forEach(el => { el.classList.remove('venue-highlight') });
+    },
+
     resetCategoryFilter() {
       this.categoryFilter = CATEGORY_ANY;
     },
@@ -588,12 +535,40 @@ var app = new Vue({
 </script>
 
 <style>
+.venue-highlight {
+  background: var(--hover-bg-color);
+}
+
+.item-meta {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .item-category {
   color: var(--primary-color);
+}
+
+.filters {
+  margin-bottom: var(--block-bottom);
 }
 
 .filters > * {
   margin-bottom: 8px;
 }
+
+.display-lists {
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+}
+
+.display-list {
+  min-width: 24rem;
+}
+
+/*.count-10-plus {
+  color: var(--red);
+  font-weight: var(--weight-bold);
+}*/
 </style>
  
