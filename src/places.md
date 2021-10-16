@@ -8,24 +8,25 @@ pageWidth: "full"
 
 <!--
 
-# TODO
+# How the filtering works
 
-- Location dropdown:
+1. We filter the checkins which gives us the following computed props:
+- Checkins filtered by location
+- Checkins filtered by category
+- Checkins filtered by both
 
-```
-USA (800)
-  CA (320)
-    San Francisco (240)
-    Los Angeles (24)
-    Mill Valley (8)
-```
+2. We roll-up the checkin computed props into venues:
+- Venues filtered by location - Used to populate category dropdown.
+- Venues filtered by category - Used to populate location dropdown.
+- Venues filtered by both - Displayed in list.
+
+----
+
+# Brainstorming
 
 - Add first Boolean in data to indicate first check-in.
 In month and year groupings, the venues should display a tag and at the top
 of the list we can indicate the count of new spots.
-
-- Geo search
-- Favorites toggle
 - Add custom notes? or should these happen in app
 - Review categoies - merge Cafe and coffee shop?
 
@@ -34,54 +35,39 @@ Map
 
 -->
 
-<!-- <section class="note-controls">
-  <div class="note-filters">
-    <note-filter type="all" v-model="filter">All</note-filter>
-    <note-filter type="movie" v-model="filter">Movies</note-filter>
-    <note-filter type="tv" v-model="filter">TV</note-filter>
-    <note-filter type="book" v-model="filter">Books</note-filter>
-    <note-filter type="music" v-model="filter">Music</note-filter>
-    <note-filter type="game" v-model="filter">Games</note-filter>
-  </div>
-  <div class="note-sort">
-    <span class="note-sort-label">Sort by:</span>
-    <select class="select" v-model="sort">
-      <option value="review-date-desc">Review date</option>
-      <option value="rating-desc">Rating: High to low</option>
-      <option value="rating-asc">Rating: Low to high</option>
-      <option value="publish-date-desc">Publish date: New to old</option>
-      <option value="publish-date-asc">Publish date: Old to new</option>
-    </select>
-  </div>
-</section> -->
-
 <div id="venues" class="venues">
-  checkinsFilteredByCategory: {{ checkinsFilteredByCategory.length }}<br />
-  checkinsFilteredByLocation: {{ checkinsFilteredByLocation.length }}<br />
-  checkinsFilteredByCategoryAndLocation: {{ checkinsFilteredByCategoryAndLocation.length }}
-  <br />
-  <button ref="resetBtn">Reset</button>
-  <div>
-    <select class="select" v-model="categoryFilter">
-      <option v-for="category in categoryOptions" :value="category[0]">{{ category[0] }} ({{ category[1] }})</option>
-    </select>
-  </div>
+  checkins<br />
+  filtered by location: {{ checkinsFilteredByLocation.length }}<br />
+  filtered by category:: {{ checkinsFilteredByCategory.length }}<br />
+  filter by both: {{ checkinsFilteredByCategoryAndLocation.length }}<br />
+  ---<br />
+  venues<br />
+  filtered by location: {{ venuesFilteredByLocation.length }}<br />
+  filtered by category:: {{ venuesFilteredByCategory.length }}<br />
+  filter by both: {{ venuesFilteredByCategoryAndLocation.length }}<br />
+  <br /><br />
 
-  <div>
-    {{ locationFilter }}
-    <select class="select" v-model="locationFilter">
-      <option v-for="(location, i) in locationOptions" :value="location.path" :key="i">
-        <template v-if="location.path.state">&nbsp;</template>
-        <template v-if="location.path.city">&nbsp;</template>
-        {{ location.name }} ({{ location.count }})
-      </option>
-    </select>
+  <div class="filters">
+    <div>
+      <select class="select" v-model="locationFilter">
+        <option v-for="(location, i) in locationOptions" :value="location.path" :key="i">
+          <template v-if="location.path.state"> </template>
+          <template v-if="location.path.city">&nbsp;</template>
+          {{ location.name }} ({{ location.count }})
+        </option>
+      </select>
+    </div>
+    <div>
+      <select class="select" v-model="categoryFilter">
+        <option v-for="category in categoryOptions" :value="category[0]">{{ category[0] }} ({{ category[1] }})</option>
+      </select>
+    </div>
+    <button ref="resetBtn" @click="resetFilters">Reset</button>
   </div>
-
-  <div v-for="checkin in checkinsFilteredByCategoryAndLocation" class="item item--dense">
-    <b>{{ checkin.venue }}</b>
+  <div v-for="venue in venuesFilteredByCategoryAndLocation" class="item item--dense">
+    <b>{{ venue.venue }}</b>
     <div class="item-meta">
-      <span class="item-category">{{ checkin.category }}</span> • {{ checkin.count }} visits • {{ checkin.city }}
+      <span class="item-category">{{ venue.category }}</span> • {{ venue.count }} visits • {{ venue.city }}
     </div>
   </div>
 </div>
@@ -96,8 +82,8 @@ Map
 // CONFIG
 // ------
 
-const CATEGORY_ANY = 'Any';
-const LOCATION_ANY = 'Any';
+const CATEGORY_ANY = 'Any category';
+const LOCATION_ANY = 'Any location';
 
 // --------
 // COMMENTS
@@ -109,10 +95,11 @@ var app = new Vue({
   data() {
     return {
       CATEGORY_ANY,
+      LOCATION_ANY,
       categories: [],
       checkins: [],
       categoryFilter: CATEGORY_ANY,
-      locationFilter: LOCATION_ANY,
+      locationFilter: {},
     };
   },
 
@@ -120,15 +107,7 @@ var app = new Vue({
     fetch('/data/foursquare-checkins.json')
       .then(res => res.json())
       .then(data => {
-        // TODO: move to func
-        this.checkins = data.sort((a, b) => {
-          return (a.count >= b.count) ? -1 : 1;
-        })
-        // this.populateCategories();
-        // this.categories = this.venues.
-        // this.venues = data.sort((a, b) => {
-        //   return (a.createdAt >= b.createdAt) ? -1 : 1;
-        // })
+        this.checkins = data;
       })
       .catch((error) => {
         console.log(error);
@@ -142,10 +121,10 @@ var app = new Vue({
      */
     categoryOptions() {
       let categories = {
-        [CATEGORY_ANY]: this.checkinsFilteredByLocation.length 
+        [CATEGORY_ANY]: this.venuesFilteredByLocation.length 
       };
 
-      this.checkinsFilteredByLocation.forEach((venue) => {
+      this.venuesFilteredByLocation.forEach((venue) => {
         let { category } = venue;
         if (categories.hasOwnProperty(category)) {
           categories[category] = categories[category] + 1;
@@ -226,7 +205,7 @@ var app = new Vue({
       ]
        */
       
-       let countedVenues = {};
+      let countedVenues = {};
 
       this.checkinsFilteredByCategory.forEach(checkin => {
         let { country, state, city, venueId } = checkin;
@@ -266,9 +245,13 @@ var app = new Vue({
         }          
       })
 
-      // console.log(tree);
-      
       let options = [];
+
+      options.push({
+        name: LOCATION_ANY,
+        count: this.checkinsFilteredByCategory.length,
+        path: {},
+      });
 
       const countryCounts = [];
       for (let [country, countryObj] of Object.entries(tree)) {       
@@ -283,8 +266,6 @@ var app = new Vue({
         }
         return 0
       });
-
-      // console.log(countryCountsSorted);
 
       countryCountsSorted.forEach(countryArr => {
         let country = countryArr[0];
@@ -311,7 +292,6 @@ var app = new Vue({
           }
           return 0
         });
-        // console.log(stateCountsSorted);
 
         stateCountsSorted.forEach(stateArr => {
           let state = stateArr[0];
@@ -343,7 +323,6 @@ var app = new Vue({
             }
             return 0
           });
-          // console.log(stateCountsSorted);
 
           let cityCounter = 0;
           cityCountsSorted.forEach(cityArr => {
@@ -501,21 +480,54 @@ var app = new Vue({
       return options;      
     },
 
-    venues() {
-      // "venue": "The Panhandle",
-      // "venueId": "483155fcf964a520e04f1fe3",
-      // "city": "San Francisco",
-      // "state": "CA",
-      // "country": "United States",
-      // "category": "Park",
-      // "year": 2021,
-      // "month": 9
-
+    venuesFilteredByCategory() {
+      return this.checkinsToVenues(this.checkinsFilteredByCategory);
     },
 
+    venuesFilteredByLocation() {
+      return this.checkinsToVenues(this.checkinsFilteredByLocation);
+    },
+
+    venuesFilteredByCategoryAndLocation() {
+      const venues = this.checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
+      return this.sortVenuesByCount(venues);
+    },
   },
 
   methods: {
+    /**
+     * Rolls checkin data up into venues. Adds a count property.
+     * @param  {[Object]} checkins
+     * @return {[Object]} venues
+     */
+    checkinsToVenues(checkins) {
+      let venuesObj = {};
+
+      checkins.forEach(checkin => {
+        let { venueId } = checkin;
+        if (venuesObj[venueId]) {
+          venuesObj[venueId].count++;
+        } else {
+          venuesObj[venueId] = {
+            ...checkin,
+            count: 1,
+          }
+        }
+      });
+
+      const venuesArr = [];
+      for (let [venueId, venue] of Object.entries(venuesObj)) {       
+        venuesArr.push(venue);
+      };
+
+      return venuesArr;
+    },
+
+    /**
+     * @param  {[Object]} checkins
+     * @param  {String} categoryFilter e.g. 'Airport'
+     * @return {[Object]} filtered checkins
+     */
     filterCheckinsByCategory(checkins, categoryFilter) {
       if (categoryFilter === CATEGORY_ANY) {
         return checkins;
@@ -551,28 +563,24 @@ var app = new Vue({
       return checkins;
     },    
 
-    sort() {
-
+    resetCategoryFilter() {
+      this.categoryFilter = CATEGORY_ANY;
+    },
+    
+    resetLocationFilter() {
+      this.locationFilter = {};
     },
 
+    resetFilters() {
+      this.resetCategoryFilter();
+      this.resetLocationFilter();
+    },
 
-    // getPaceColor(pace) {
-    //   let paceColor;
-    //   if (pace > 8) {
-    //     paceColor = '#FCA469';
-    //   } else if (pace > 7.27) {
-    //     paceColor = '#F6DC58';
-    //   } else {
-    //     paceColor = '#58DF82';
-    //   }
-    //   return paceColor;
-    // },
-    // getTransition(index) {
-    //   return (index < 40) ? `transition: all 0.5s ${(index + 5) * 0.05}s`: '';
-    // },
-    // hasComment(id) {
-    //   return this.comments.hasOwnProperty(id);
-    // }
+    sortVenuesByCount(venues) {
+      return venues.sort((a, b) => {
+        return (a.count >= b.count) ? -1 : 1;
+      })
+    },
   }
 });
 </script>
@@ -580,6 +588,10 @@ var app = new Vue({
 <style>
 .item-category {
   color: var(--primary-color);
+}
+
+.filters > * {
+  margin-bottom: 8px;
 }
 </style>
  
