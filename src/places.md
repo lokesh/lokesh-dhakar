@@ -24,11 +24,13 @@ pageWidth: "full"
 
 # Brainstorming
 
+- Look into foursquare api category
+- Show category stats
 - Shorten and/or merge category names?
-- In group view: on hover, highlight other options
 - Add first Boolean in data to indicate first check-in.
 In month and year groupings, the venues should display a tag and at the top
 of the list we can indicate the count of new spots.
+- Group by quarter
 - Add custom notes? or should these happen in app
 - Review categoies - merge Cafe and coffee shop? aggregate restaurants. Multiple categories? Check 4sq data.
 - Improve hover style
