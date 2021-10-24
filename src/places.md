@@ -24,8 +24,6 @@ pageWidth: "full"
 
 # Brainstorming
 
-- Create a venue component
-- Use full state name in location dropdown
 - Shorten and/or merge category names?
 - In group view: on hover, highlight other options
 - Add first Boolean in data to indicate first check-in.
@@ -81,7 +79,7 @@ Map
         }">
           {{ count }} visits
         </span>
-        <span v-if="city">• {{ city }}</span>
+        <span v-if="city">• {{ city }}, {{ state }}</span>
       </div>
     </div>
   </div>
@@ -142,11 +140,15 @@ Map
 
 <script src="/js/vue.min.js"></script>
 
-<script>
- 
+<script type="module">
+import { stateNameToAbbreviation, stateAbbreviationToName } from '/js/utils/location.js';
+
 // ------
 // CONFIG
 // ------
+
+// If location doesn't meet min venues, it won't be displayed in locaiton filter
+const MIN_COUNT_FOR_LOCATION = 2;
 
 const CATEGORY_ANY = 'Any category';
 const LOCATION_ANY = 'Any location';
@@ -166,6 +168,7 @@ Vue.component('venue', {
     venue: String,
     category: String,
     city: String,
+    state: String,
     count: Number,
   },
 
@@ -193,6 +196,8 @@ const app = new Vue({
       categoryFilter: CATEGORY_ANY,
       locationFilter: {},
       groupFilter: GROUP_BY_YEAR,
+      GROUP_ALL,
+      GROUP_BY_YEAR,
     };
   },
 
@@ -292,6 +297,10 @@ const app = new Vue({
         let { country, state, city, venueId } = checkin;
         if (!country || !state || !city) return;
 
+        if (country === 'United States') {
+          state = stateAbbreviationToName(state);
+        }
+
         // Count venues only once, though there could be multiple checkins
         if (countedVenues[venueId]) {
           return;
@@ -351,6 +360,11 @@ const app = new Vue({
       countryCountsSorted.forEach(countryArr => {
         let country = countryArr[0];
         let countryObj = tree[country];
+        
+        if (countryObj.count < MIN_COUNT_FOR_LOCATION) {
+          return;
+        }
+
         options.push({
           name: country,
           count: countryObj.count,
@@ -378,9 +392,10 @@ const app = new Vue({
           let state = stateArr[0];
           let stateObj = tree[country].children[state];
 
-          // if (stateObj.count < 15) {
-          //   return;
-          // }          
+          if (stateObj.count < MIN_COUNT_FOR_LOCATION) {
+            return;
+          }
+
           options.push({
             name: state,
             count: stateObj.count,
@@ -407,13 +422,13 @@ const app = new Vue({
 
           let cityCounter = 0;
           cityCountsSorted.forEach(cityArr => {
-            
             let city = cityArr[0];
             let cityObj = tree[country].children[state].children[city];
             
-            // if (cityCounter > 5 || cityObj.count < 10) {
-            //   return;
-            // }
+            if (cityObj.count < MIN_COUNT_FOR_LOCATION) {
+              return;
+            }
+
             options.push({
               name: city,
               count: cityObj.count,
@@ -519,6 +534,11 @@ const app = new Vue({
     filterCheckinsByLocation(checkins, locationFilter) {
       if (locationFilter !== LOCATION_ANY) {
         let { country, state, city } = locationFilter;
+        
+        if (country === 'United States') {
+          state = stateNameToAbbreviation(state);
+        }
+
         checkins = checkins.filter(checkin => {
           if (country && checkin.country !== country) {
             return false;
@@ -649,13 +669,14 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 .cat-Pizza .item-title,
 .cat-Sushi .item-title,
 .cat-Noodles .item-title {
-  background-color:  #c5eeff;
+  background-color: #c5eeff;
 }
 
 .venue-title {
   display: inline-block;
   padding: 2px 6px;
   border-radius: var(--radius);
+  background: #f0ebea;
 }
 
 .venue-meta {
@@ -683,7 +704,13 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 }
 
 .display-list {
-  min-width: 24rem;
+  width: 22rem;
+}
+
+@media (min-width: 800px) {
+  .display-list {
+    width: 26rem;
+  }
 }
 
 /*.count-10-plus {
