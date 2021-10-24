@@ -24,6 +24,7 @@ pageWidth: "full"
 
 # Brainstorming
 
+- Create a venue component
 - Use full state name in location dropdown
 - Shorten and/or merge category names?
 - In group view: on hover, highlight other options
@@ -37,7 +38,55 @@ of the list we can indicate the count of new spots.
 Map
 - Monospaced, with location in ascii rectangles on a map?
 
+<div
+    class="item item--dense"
+    :class="[
+      `venue-${venueId}`,
+      `cat-${category}`,
+    ]"
+    @mouseover="highlight(`venue-${venueId}`)"
+    @mouseleave="unhighlight(`venue-${venueId}`)"
+  >
+    <div class="item-title">{{ venue }}</div>
+    <div class="item-meta">
+      <span class="item-category">{{ category }}</span>
+      • 
+      <span :class="{
+        'count-10-plus': count > 10,
+        'count-25-plus': count > 25
+      }">
+        {{ count }} visits
+      </span>
+      <span v-if="=city">• {{ city }}</span>
+    </div>
+  </div>
 -->
+
+<template id="tpl-venue">
+  <div>
+    <div
+      class="item item--dense"
+      :class="[
+        `venue-${venueId}`,
+        `cat-${category}`,
+      ]"
+    >
+      <div class="item-title venue-title">{{ venue }}</div>
+      <div class="item-meta venue-meta">
+        <span class="item-category">{{ category }}</span>
+        • 
+        <span :class="{
+          'count-10-plus': count > 10,
+          'count-25-plus': count > 25
+        }">
+          {{ count }} visits
+        </span>
+        <span v-if="city">• {{ city }}</span>
+      </div>
+    </div>
+  </div>
+</template>
+
 
 <div id="venues" class="venues">
   <div class="filters">
@@ -65,22 +114,8 @@ Map
   <div
     v-if="groupFilter === GROUP_ALL"
     v-for="venue in displayList"
-    class="item item--dense"
   >
-    <b>{{ venue.venue }}</b>
-    <div class="item-meta">
-      <span class="item-category">{{ venue.category }}</span>
-      <span :class="{
-        'count-2-plus': venue.count > 2,
-        'count-10-plus': venue.count > 10,
-        'count-25-plus': venue.count > 25
-      }
-      ">
-        • {{ venue.count }}
-      </span>
-       visits
-      <span v-if="venue.city">• {{ venue.city }}</span>
-    </div>
+     <venue v-bind="venue" />
   </div>
   <div
     class="display-lists"
@@ -88,30 +123,16 @@ Map
   >
     <div
       v-if="groupFilter === GROUP_BY_YEAR"
-      v-for="(venues, year) in displayList"
+      v-for="list in displayList"
       class="display-list"
     >
-      <h1>{{ year }}</h1>
+      <h1>{{ list.year }}</h1>
       <div
-        v-for="venue in venues"
-        class="item item--dense"
-        :class="`venue-${venue.venueId}`"
+        v-for="venue in list.venues"
         @mouseover="highlight(`venue-${venue.venueId}`)"
         @mouseleave="unhighlight(`venue-${venue.venueId}`)"
       >
-        <b>{{ venue.venue }}</b>
-        <div class="item-meta">
-          <span class="item-category">{{ venue.category }}</span>
-          
-          • 
-          <span :class="{
-            'count-10-plus': venue.count > 10,
-            'count-25-plus': venue.count > 25
-          }">
-            {{ venue.count }} visits
-          </span>
-          <span v-if="venue.city">• {{ venue.city }}</span>
-        </div>
+        <venue v-bind="venue" />
       </div>
     </div>
   </div>
@@ -133,11 +154,34 @@ const LOCATION_ANY = 'Any location';
 const GROUP_ALL = 'All-time';
 const GROUP_BY_YEAR = 'Group by year'
 
-// --------
-// COMMENTS
-// --------
+// ----------
+// COMPONENTS
+// ----------
 
-var app = new Vue({
+Vue.component('venue', {
+  template: '#tpl-venue',
+  
+  props: {
+    venueId: String,
+    venue: String,
+    category: String,
+    city: String,
+    count: Number,
+  },
+
+  methods: {
+    // onChange(event) {
+    //   this.$emit('change', event.target.value);
+    // }
+  },
+});
+
+
+// ---
+// APP
+// ---
+
+const app = new Vue({
   el: '#venues',
 
   data() {
@@ -410,11 +454,16 @@ var app = new Vue({
 
     venuesFilteredByCategoryAndLocationGroupedByYear() {
       const groupedCheckins = this.groupCheckinsByYear(this.checkinsFilteredByCategoryAndLocation);
-      for (let year of Object.keys(groupedCheckins)) { 
-        groupedCheckins[year] = this.sortVenuesByCount(this.checkinsToVenues(groupedCheckins[year]));
-      }
-      console.log(groupedCheckins);
-      return groupedCheckins;
+
+      const groupedVenues = groupedCheckins.map(yearObj => {
+        const { year, checkins } = yearObj;
+        return {
+          year,
+          venues: this.sortVenuesByCount(this.checkinsToVenues(checkins))
+        };
+      })
+
+      return groupedVenues;
     },
   },
 
@@ -491,15 +540,30 @@ var app = new Vue({
      * @return {[Object]} checkins e.g. [{ year: 2010, checkins: [] }, ... ]
      */
     groupCheckinsByYear(checkins) {
-      let group = {};
+      let groupsObj = {};
+      let years = [];
+      let groupsArr = [];
       checkins.forEach(checkin => {
-        if (group[checkin.year]) {
-          group[checkin.year].push(checkin);
+        if (groupsObj[checkin.year]) {
+          groupsObj[checkin.year].push(checkin);
         } else {
-          group[checkin.year] = [checkin];
+          years.push(checkin.year);
+          groupsObj[checkin.year] = [checkin];
         }
       })
-      return group;
+
+      years = years.sort((a, b) => {
+        return (a >= b) ? -1 : 1;
+      })
+
+      years.forEach(year => {
+        groupsArr.push({
+          year,
+          checkins: groupsObj[year]
+        })
+      })
+
+      return groupsArr;
     },
 
     highlight(elClass) {
@@ -539,13 +603,69 @@ var app = new Vue({
   background: var(--hover-bg-color);
 }
 
-.item-meta {
+/*
+https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaStart=98&grayLumaEnd=5&grayLumaCurve=linear&colorSteps=7&colorLumaStart=110&colorLumaEnd=10&colorLumaCurve=linear&colorChromaStart=42&colorChromaEnd=12&colorChromaCurve=linear&showLabel=true&showHex=true&showContrastRatio=false&colorHues=0%2C30%2C55%2C78%2C118%2C157%2C182%2C230%2C274%2C309%2C348
+ */
+
+.cat-Park .item-title,
+.cat-Scenic .item-title,
+.cat-Beach .item-title,
+.cat-Trail .item-title,
+.cat-Hill .item-title,
+.cat-Landmark .item-title {
+  background-color: #ffd1ed;
+}
+
+
+.cat-Café .item-title,
+.cat-Bakery .item-title,
+.cat-Coffee .item-title {
+  background-color: #ffe5a7;
+}
+
+.cat-Pub .item-title,
+.cat-Wine .item-title,
+.cat-Cocktail .item-title,
+.cat-Brewery .item-title,
+.cat-Bar .item-title {
+  background-color: #e2f4ac;
+}
+
+.cat-Ramen .item-title,
+.cat-Chinese .item-title,
+.cat-Thai .item-title,
+.cat-Asian .item-title,
+.cat-Donuts .item-title,
+.cat-Juice .item-title,
+.cat-Food .item-title,
+.cat-Burritos .item-title,
+.cat-Vegetarian .item-title,
+.cat-Desserts .item-title,
+.cat-Cupcakes .item-title,
+.cat-Sandwiches .item-title,
+.cat-Italian .item-title,
+.cat-American .item-title, 
+.cat-Tacos .item-title, 
+.cat-Pizza .item-title,
+.cat-Sushi .item-title,
+.cat-Noodles .item-title {
+  background-color:  #c5eeff;
+}
+
+.venue-title {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: var(--radius);
+}
+
+.venue-meta {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.item-category {
-  color: var(--primary-color);
+
+.venue-category {
+  /*color: var(--primary-color);*/
 }
 
 .filters {

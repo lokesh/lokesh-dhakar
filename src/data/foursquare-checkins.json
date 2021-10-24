@@ -1,5 +1,475 @@
 [
   {
+    "venue": "AMC Metreon 16",
+    "venueId": "4a5824e5f964a5206db71fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Movie Theater",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "WAG Hotel",
+    "venueId": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mystic Haircutting",
+    "venueId": "4aa19c57f964a520374120e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Salon / Barbershop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "venueId": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Phoenix Sky Harbor International Airport (PHX)",
+    "venueId": "449e9fb9f964a520c0341fe3",
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Flagstaff Pulliam Airport (FLG)",
+    "venueId": "4baa0e1df964a52013473ae3",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Flagstaff Pulliam Airport Gate 1",
+    "venueId": "53165952498e15ac8be1309b",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Gate",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Fat Olives",
+    "venueId": "50a6e394e4b0c753d709301b",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Italian",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Sedona Crystal Vortex Gift Stores",
+    "venueId": "4bb3adb42397b713c37738b3",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Jewelry",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Fay Canyon Trailhead",
+    "venueId": "4c7e86d5171b224b22170eb1",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Trail",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "The Chai Spot",
+    "venueId": "56215ecd498ed5d0303761de",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mountain Trails Gallery",
+    "venueId": "4c4df2d29932e21e2b2702cd",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Art Gallery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Natural Wonders",
+    "venueId": "4f78a74fe4b0c7b6e310ff52",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Hobbies",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Kuivato Glass Gallery",
+    "venueId": "4c4de386f53d0f47f3f3b7a5",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Art Gallery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Tlaquepaque",
+    "venueId": "4bb7a9cacf2fc9b688969e02",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Mall",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Layla's Bakery + Cafe",
+    "venueId": "5bb923ac89b06a00394782f2",
+    "city": "Sedona",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "DoubleTree by Hilton",
+    "venueId": "52e6db7611d2a8adcb059621",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Hotel",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Agave",
+    "venueId": "55e74d73498e507d7b1c080d",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Mexican",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Target",
+    "venueId": "4b11d113f964a5204e8523e3",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Big Box Store",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mile-and-a-Half Resthouse - Bright Angel Trail",
+    "venueId": "4ce7e555d99f721ee1f3ac73",
+    "city": "Grand Canyon National Park",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Trail",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Three Mile Resthouse - Bright Angel Trail",
+    "venueId": "4ce7f00ee888f04d13293f6b",
+    "city": "Grand Canyon National Park",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Trail",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "General Store at Market Plaza",
+    "venueId": "4c67622be75ac92889aafada",
+    "city": "Grand Canyon Village",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Grand Canyon South Rim Entrance",
+    "venueId": "5197c5be498e75b3205134e1",
+    "city": "Grand Canyon Village",
+    "state": "AZ",
+    "country": "United States",
+    "category": "National Park",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Pizza Factory",
+    "venueId": "4ba42ca2f964a520098938e3",
+    "city": "Williams",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Pizza",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mohave Point",
+    "venueId": "4bb69af66edc76b0f03e311c",
+    "city": "Grand Canyon",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mohave Point",
+    "venueId": "4bb69af66edc76b0f03e311c",
+    "city": "Grand Canyon",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Hermit's Rest",
+    "venueId": "596e8b3f9fca56559d8494ed",
+    "city": "Grand Canyon",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "The Abyss",
+    "venueId": "4dffb2c1183886b857461aef",
+    "city": "Grand Canyon",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Hopi Point",
+    "venueId": "4ddab8472271c5d36d88d6e2",
+    "city": "Grand Canyon Village",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Trail",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Maricopa Point",
+    "venueId": "4dffa1d0fa76b5130d79a1ba",
+    "city": "Grand Canyon",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mather Point",
+    "venueId": "4bf43203706e20a1740ea998",
+    "city": "Grand Canyon",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Grand Canyon National Park",
+    "venueId": "4cf1603fd29b2d438fe0f0bb",
+    "city": "Grand Canyon Village",
+    "state": "AZ",
+    "country": "United States",
+    "category": "National Park",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "National Geographic Visitors Center Grand Canyon",
+    "venueId": "4d7bac1dcf3f37043b794040",
+    "city": "Grand Canyon",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Movie Theater",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Delhi Palace",
+    "venueId": "4baad083f964a5203c883ae3",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Indian",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Walmart",
+    "venueId": "4b545fe2f964a52010b927e3",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Big Box Store",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Flagstaff Pulliam Airport (FLG)",
+    "venueId": "4baa0e1df964a52013473ae3",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Cartel Coffee Lab",
+    "venueId": "5096cb7ce4b08bdee0ad4f10",
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Phoenix Sky Harbor International Airport (PHX)",
+    "venueId": "449e9fb9f964a520c0341fe3",
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "venueId": "5d39f26656b1210008c744b7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Mexican",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "venueId": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Alchemy By Alta",
+    "venueId": "569da7a8498ebc46f11c1085",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Building",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "venueId": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "venueId": "43d3901ef964a5201f2e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Hawk Hill",
+    "venueId": "49e4bbcbf964a52022631fe3",
+    "city": "Marin Headlands",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hill",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Souvenir Coffee",
+    "venueId": "6062696a53e97e23f1bcde3b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "The Panhandle",
+    "venueId": "483155fcf964a520e04f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 9
+  },
+  {
     "venue": "Thorough Bread and Pastry",
     "venueId": "49f13784f964a5209f691fe3",
     "city": "San Francisco",
@@ -13354,8 +13824,8 @@
     "month": 8
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -15963,8 +16433,8 @@
     "month": 3
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -20690,8 +21160,8 @@
     "month": 6
   },
   {
-    "venue": "Second Cup Coffee Co.",
-    "venueId": "4e8ce6ecf790e886adc93ef7",
+    "venue": "Second Cup (Mountain Road)",
+    "venueId": "50ad07f1e4b0204ef2e19191",
     "city": "Moncton",
     "state": "NB",
     "country": "Canada",
@@ -20731,11 +21201,11 @@
   },
   {
     "venue": "Tim Hortons",
-    "venueId": "57a5fe4a498e957219bd3008",
+    "venueId": "59f780fabed48321dec60dc5",
     "city": "Antigonish",
     "state": "NS",
     "country": "Canada",
-    "category": "Coffee Shop",
+    "category": "Restaurant",
     "year": 2017,
     "month": 6
   },
@@ -23808,8 +24278,8 @@
     "month": 1
   },
   {
-    "venue": "Haldiram Pick N' Fly",
-    "venueId": "4f00433c0aaffcf6f4d54e71",
+    "venue": "Haldiram's Pick n' Fly",
+    "venueId": "4f0040a75c5c51dd2ec33442",
     "city": "New Delhi",
     "state": "Delhi",
     "country": "India",
@@ -24694,8 +25164,8 @@
     "month": 11
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -26541,8 +27011,8 @@
     "month": 6
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -28921,8 +29391,8 @@
     "month": 11
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -37757,8 +38227,8 @@
     "month": 8
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -51523,8 +51993,8 @@
     "month": 0
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -55287,8 +55757,8 @@
     "month": 6
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -56087,8 +56557,8 @@
     "month": 6
   },
   {
-    "venue": "Contraband Coffeebar",
-    "venueId": "4d13f2ed816af04d6afd37c2",
+    "venue": "Souvenir Coffee",
+    "venueId": "60a163d26f75d117542794a6",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -65322,8 +65792,8 @@
     "month": 10
   },
   {
-    "venue": "Cafe 1134",
-    "venueId": "4af9d182f964a5207b1422e3",
+    "venue": "Parakeet Cafe",
+    "venueId": "60cbbd372678d47abfaa98b0",
     "city": "Coronado",
     "state": "CA",
     "country": "United States",
