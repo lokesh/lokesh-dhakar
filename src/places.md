@@ -24,7 +24,6 @@ pageWidth: "full"
 
 # Brainstorming
 
-- Fix: visit vs visits
 - Look into foursquare api category
 - Show category stats
 - Shorten and/or merge category names?
@@ -127,8 +126,11 @@ Map
       v-if="groupFilter === GROUP_BY_YEAR"
       v-for="list in displayList"
       class="display-list"
+      :class="{
+          'no-checkins': !list.venues.length
+        }"
     >
-      <h1>{{ list.year }}</h1>
+      <h1 class="year-title">{{ list.year }}</h1>
       <div
         v-for="venue in list.venues"
         @mouseover="highlight(`venue-${venue.venueId}`)"
@@ -478,7 +480,7 @@ const app = new Vue({
         const { year, checkins } = yearObj;
         return {
           year,
-          venues: this.sortVenuesByCount(this.checkinsToVenues(checkins))
+          venues: checkins ? this.sortVenuesByCount(this.checkinsToVenues(checkins)) : [],
         };
       })
 
@@ -580,11 +582,30 @@ const app = new Vue({
         return (a >= b) ? -1 : 1;
       })
 
-      years.forEach(year => {
+      let prevYear;
+      let yearsLength = years.length;
+      years.forEach((year, i) => {
+        // if prevYear is set and year doesn't equal year - 1
+        // prevYear = 2017
+        // year = 2013
+        // fill in 2016, 2015, 2014
+        
+        // and if not last in index
+        if (prevYear && (i < yearsLength)) {
+          while (prevYear - 1 > year) {
+            prevYear--;
+            console.log(prevYear);
+            groupsArr.push({
+              year: prevYear,
+            })
+          }
+        }
         groupsArr.push({
           year,
           checkins: groupsObj[year]
         })
+
+        prevYear = year;
       })
 
       return groupsArr;
@@ -623,6 +644,43 @@ const app = new Vue({
 </script>
 
 <style>
+.display-lists {
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+}
+
+.display-list {
+  width: 22rem;
+}
+
+@media (min-width: 800px) {
+  .display-list {
+    width: 26rem;
+  }
+}
+
+.display-list.no-checkins {
+  width: auto;
+}
+
+.no-checkins .year-title {
+  position: relative;
+  color: var(--muted-color);
+}
+
+.no-checkins .year-title::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 1px;
+  height: 1rem;
+  background-color: var(--border-color-light);
+  top: 100%;
+  left: 50%;
+  margin-top: var(--gutter);
+}
+
 .venue-highlight {
   background: var(--hover-bg-color);
 }
@@ -701,21 +759,6 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   margin-bottom: 8px;
 }
 
-.display-lists {
-  display: flex;
-  gap: 32px;
-  overflow-x: auto;
-}
-
-.display-list {
-  width: 22rem;
-}
-
-@media (min-width: 800px) {
-  .display-list {
-    width: 26rem;
-  }
-}
 
 /*.count-10-plus {
   color: var(--red);
