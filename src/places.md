@@ -24,6 +24,7 @@ pageWidth: "full"
 
 # Brainstorming
 
+- Fix: visit vs visits
 - Look into foursquare api category
 - Show category stats
 - Shorten and/or merge category names?
@@ -34,6 +35,7 @@ of the list we can indicate the count of new spots.
 - Add custom notes? or should these happen in app
 - Review categoies - merge Cafe and coffee shop? aggregate restaurants. Multiple categories? Check 4sq data.
 - Improve hover style
+- In year view, show empty year slots
 
 Map
 - Monospaced, with location in ascii rectangles on a map?
@@ -79,7 +81,7 @@ Map
           'count-10-plus': count > 10,
           'count-25-plus': count > 25
         }">
-          {{ count }} visits
+          {{ count }} visit<span v-if="count > 1">s</span>
         </span>
         <span v-if="city">• {{ city }}, {{ state }}</span>
       </div>
