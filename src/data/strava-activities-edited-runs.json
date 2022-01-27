@@ -1,5 +1,41 @@
 [
   {
+    "id": 6183294279,
+    "name": "NPSF: Alamo Square 90%",
+    "distance": "5.1",
+    "distancePercent": 19.40740851183206,
+    "elevation": 816.601076,
+    "pace": 8.614008017462119,
+    "paceFormatted": "8:36",
+    "date": "Oct 28",
+    "year": 2021,
+    "startDate": "2021-10-29T06:24:55Z"
+  },
+  {
+    "id": 6138120634,
+    "name": "Grand Canyon: Bright Angel Trail 3mi down and up",
+    "distance": "6.7",
+    "distancePercent": 25.412650912977103,
+    "elevation": 2400.590628,
+    "pace": 12.29827646419131,
+    "paceFormatted": "12:17",
+    "date": "Oct 19",
+    "year": 2021,
+    "startDate": "2021-10-19T12:46:37Z"
+  },
+  {
+    "id": 6122139472,
+    "name": "100th time attempting to restart my running",
+    "distance": "3.3",
+    "distancePercent": 12.617863096564887,
+    "elevation": 201.115492,
+    "pace": 14.010389012033887,
+    "paceFormatted": "14:00",
+    "date": "Oct 16",
+    "year": 2021,
+    "startDate": "2021-10-16T08:18:39Z"
+  },
+  {
     "id": 6047782511,
     "name": "NPSF: Buena vistas",
     "distance": "4.5",

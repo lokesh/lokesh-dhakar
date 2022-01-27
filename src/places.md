@@ -24,17 +24,56 @@ pageWidth: "full"
 
 # Brainstorming
 
-- Look into foursquare api category
-- Show category stats
-- Shorten and/or merge category names?
+- allow clicking category in venue listing to set it as active cat filter
+
+- Categories
+-- Get Foursquare cat hierarchy: https://api.foursquare.com/v2/venues/categories?v=20140620
+-- Update to reflect the hiearchy I'd like to use. aka, create coffee shops at top-level
+
+coffee shops
+restaurants
+bars
+bike shops
+airports
+offices
+homes
+parks
+grocery stores
+retail shop
+
+4sq top level cats
+- Arts & Entertainment
+- College & University
+- Event
+- Food
+- Nightlife Spot
+- Outdoors & Recreation
+- Professional & Other Places
+- Residence
+- Shop & Service
+- Travel & Transporation
+
+
+
+-- Shorten and/or merge category names?
+-- Review categoies - merge Cafe and coffee shop? aggregate restaurants. Multiple categories? Check 4sq data.
+
+
+
+
+- Show top 3 categories by year?
+
+- Loader
+
+
 - Add first Boolean in data to indicate first check-in.
 In month and year groupings, the venues should display a tag and at the top
 of the list we can indicate the count of new spots.
-- Group by quarter
 - Add custom notes? or should these happen in app
-- Review categoies - merge Cafe and coffee shop? aggregate restaurants. Multiple categories? Check 4sq data.
 - Improve hover style
-- In year view, show empty year slots
+
+
+
 
 Map
 - Monospaced, with location in ascii rectangles on a map?
@@ -74,15 +113,24 @@ Map
     >
       <div class="item-title venue-title">{{ venue }}</div>
       <div class="item-meta venue-meta">
-        <span class="item-category">{{ category }}</span>
-        • 
-        <span :class="{
-          'count-10-plus': count > 10,
-          'count-25-plus': count > 25
-        }">
-          {{ count }} visit<span v-if="count > 1">s</span>
-        </span>
-        <span v-if="city">• {{ city }}, {{ state }}</span>
+        <template v-if="category">
+          <span class="item-category">{{ category }}</span>
+        </template>
+        <template v-if="category && count > 1">
+          •
+        </template>
+        <template v-if="count > 1">
+          <span :class="{
+            'count-10-plus': count > 10,
+            'count-25-plus': count > 25
+          }">
+            {{ count }} visits
+          </span>
+        </template>
+        <template v-if="(city || count > 1) && city">
+          •
+        </template>
+        <span v-if="city">{{ city }}, {{ state }}</span>
       </div>
     </div>
   </div>
@@ -476,6 +524,9 @@ const app = new Vue({
     venuesFilteredByCategoryAndLocationGroupedByYear() {
       const groupedCheckins = this.groupCheckinsByYear(this.checkinsFilteredByCategoryAndLocation);
 
+      // this.getTopCategoriesFromCheckins(groupedCheckins)
+      // console.log(groupedCheckins);
+
       const groupedVenues = groupedCheckins.map(yearObj => {
         const { year, checkins } = yearObj;
         return {
@@ -644,6 +695,17 @@ const app = new Vue({
 </script>
 
 <style>
+.venues {
+  --col-width: 22rem;
+}
+
+@media (min-width: 800px) {
+  .venues {
+    --col-width: 26rem;
+  }
+}
+
+
 .display-lists {
   display: flex;
   gap: 32px;
@@ -651,15 +713,15 @@ const app = new Vue({
 }
 
 .display-list {
-  width: 22rem;
+  width: var(--col-width);
 }
 
-@media (min-width: 800px) {
+/*@media (min-width: 800px) {
   .display-list {
     width: 26rem;
   }
 }
-
+*/
 .display-list.no-checkins {
   width: auto;
 }
@@ -689,6 +751,19 @@ const app = new Vue({
 https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaStart=98&grayLumaEnd=5&grayLumaCurve=linear&colorSteps=7&colorLumaStart=110&colorLumaEnd=10&colorLumaCurve=linear&colorChromaStart=42&colorChromaEnd=12&colorChromaCurve=linear&showLabel=true&showHex=true&showContrastRatio=false&colorHues=0%2C30%2C55%2C78%2C118%2C157%2C182%2C230%2C274%2C309%2C348
  */
 
+
+.item-title::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  background-color: #bbb;
+  border-radius:  var(--radius-sm);  
+}
+
+
+
 .cat-Park .item-title,
 .cat-Scenic .item-title,
 .cat-Beach .item-title,
@@ -705,12 +780,28 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   background-color: #ffe5a7;
 }
 
+
+.cat-Café .item-title::before,
+.cat-Bakery .item-title::before,
+.cat-Coffee .item-title::before {
+  background-color: #DF932D;
+}
+
 .cat-Pub .item-title,
 .cat-Wine .item-title,
 .cat-Cocktail .item-title,
 .cat-Brewery .item-title,
 .cat-Bar .item-title {
   background-color: #e2f4ac;
+}
+
+
+.cat-Pub .item-title::before,
+.cat-Wine .item-title::before,
+.cat-Cocktail .item-title::before,
+.cat-Brewery .item-title::before,
+.cat-Bar .item-title ::before{
+  background-color: #b3d943;
 }
 
 .cat-Ramen .item-title,
@@ -734,11 +825,46 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   background-color: #c5eeff;
 }
 
+
+.cat-Ramen .item-title::before,
+.cat-Chinese .item-title::before,
+.cat-Thai .item-title::before,
+.cat-Asian .item-title::before,
+.cat-Donuts .item-title::before,
+.cat-Juice .item-title::before,
+.cat-Food .item-title::before,
+.cat-Burritos .item-title::before,
+.cat-Vegetarian .item-title::before,
+.cat-Desserts .item-title::before,
+.cat-Cupcakes .item-title::before,
+.cat-Sandwiches .item-title::before,
+.cat-Italian .item-title::before,
+.cat-American .item-title::before,
+.cat-Tacos .item-title::before ,
+.cat-Pizza .item-title::before,
+.cat-Sushi .item-title::before,
+.cat-Noodles .item-title::before{
+  background-color: #71c9ef;
+}
+
+
+
+.item-title::before {
+  /*display: none !important;*/
+}
+
+
+
+
 .venue-title {
   display: inline-block;
   padding: 2px 6px;
   border-radius: var(--radius);
   background: #f0ebea;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: var(--col-width);
 }
 
 .venue-meta {
