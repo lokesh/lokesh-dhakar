@@ -8,6 +8,14 @@ pageWidth: "full"
 
 <!--
 
+
+
+
+## To-do
+- [x] At-a-glance visual indicator of visits
+- [ ] Category eval
+- [ ] Document data pipeline and transformations
+
 # How the filtering works
 
 1. We filter the checkins which gives us the following computed props:
@@ -30,7 +38,8 @@ pageWidth: "full"
 -- Get Foursquare cat hierarchy: https://api.foursquare.com/v2/venues/categories?v=20140620
 -- Update to reflect the hiearchy I'd like to use. aka, create coffee shops at top-level
 
-coffee shops
+
+
 restaurants
 bars
 bike shops
@@ -40,6 +49,162 @@ homes
 parks
 grocery stores
 retail shop
+
+
+Arts & Entertainment
+- Art Museum
+- Movie Theater
+- Museum
+- Arcade
+- Theme Park
+- Sculpture
+- Science Museum
+- Theater
+- Indie Movies
+- Library
+- Church
+
+Coffee & Tea
+- Coffee Shop
+- Café
+- Bakery
+- Tea Room
+
+Food
+- Vegetarian / Vegan
+- Pizza
+- Mexican
+- Food Truck
+- American
+- Sandwiches
+- Thai
+- Indian
+- Fast Food
+- Vietnamese
+- Burgers
+- Sushi
+- Asian
+- Deli / Bodega
+- Seafood
+- Italian
+- Tacos
+- Breakfast
+- Restaurant
+- Diner
+- Street Food Gathering
+- Chinese
+- Ramen
+- Burritos
+- Ethiopian
+- Korean
+- Food Court
+
+Dessert
+- Donuts
+- Ice Cream
+- Desserts
+- Yogurt
+
+Outdoors
+- Park
+- Scenic Lookout
+- Beach
+- Trail
+- Landmark
+- Other Outdoors
+- Plaza
+- Mountain
+- Bridge
+- Garden
+- State / Provincial Park
+- Playground
+- Dog Run
+- National Park
+- Piers
+- Cemetary
+
+Nightlife
+- Bar
+- Dive Bar
+- Cocktail
+- Brewery
+- Pub
+- Sports Bar
+- Gastropub
+- Lounge
+- Wine Bar
+- Rock Club
+- Nightclub
+- Music Venue
+- Speakeasy
+
+Shop
+- Grocery Store
+- Bike Shop
+- Apparel
+- Gas Station
+- Mall
+- Furniture / Home
+- Sporting Goods
+- Bookstore
+- Pharmacy
+- Convenience Store
+- Electronics
+- Big Box Store
+- Salon / Barbershop
+- Gift Shop
+- Liqour Store
+- Arts & Crafts
+- Market
+- Rental Car
+- Pet Store
+- Toys & Games
+- Hardware
+- Thrift / Vintage
+- Animal Shelter
+- Post Office
+- Accessories
+- Gym
+- Gourmet
+
+Travel
+- Airport
+- Hotel
+- Train Station
+- Tourist Information
+- Rest Areas
+- Parking
+- Road
+- Light Rail
+- Pedestrian Street/Plaza
+- Metro
+- Boat / Ferry
+- Travel
+- Bus Station
+
+Work
+- Office
+- Tech Startup
+- Building
+- Coworking Space
+- Convention Center
+- Event Space
+
+Residence
+- Home
+
+Education
+- High school
+- University
+
+Locale
+- Neighborhood
+- City
+
+
+
+
+
 
 4sq top level cats
 - Arts & Entertainment
@@ -53,13 +218,7 @@ retail shop
 - Shop & Service
 - Travel & Transporation
 
-
-
--- Shorten and/or merge category names?
--- Review categoies - merge Cafe and coffee shop? aggregate restaurants. Multiple categories? Check 4sq data.
-
-
-
+- Shorten and/or merge category names?
 
 - Show top 3 categories by year?
 
@@ -111,6 +270,10 @@ Map
         `cat-${category}`,
       ]"
     >
+      <div
+        class="visits-bar"
+        :style="getWidthFromVisitsCount(count)"
+      ></div>
       <div class="item-title venue-title">{{ venue }}</div>
       <div class="item-meta venue-meta">
         <template v-if="category">
@@ -230,6 +393,12 @@ Vue.component('venue', {
     // onChange(event) {
     //   this.$emit('change', event.target.value);
     // }
+    // 
+    getWidthFromVisitsCount(count) {
+      return {
+        width: `${Math.min(Math.max((count - 5), 0) * 5, 100)}%`,
+      };
+    },
   },
 });
 
@@ -752,6 +921,22 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
  */
 
 
+.item.item--dense {
+  /* Overriding default styling */
+  /*border-bottom: none;*/
+  /*margin-bottom: calc(var(--block-bottom) / 2);*/
+  padding-bottom: calc(var(--block-bottom) / 1.5);
+
+
+}
+
+.visits-bar {
+  height: 4px;
+  margin-bottom: 8px;
+  border-radius: var(--radius-sm);
+  background-color: var(--color);
+}
+
 .item-title::before {
   content: '';
   display: inline-block;
@@ -759,10 +944,8 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   height: 12px;
   margin-right: 6px;
   background-color: #bbb;
-  border-radius:  var(--radius-sm);  
+  border-radius: var(--radius-sm);  
 }
-
-
 
 .cat-Park .item-title,
 .cat-Scenic .item-title,
@@ -774,6 +957,15 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 }
 
 
+.cat-Park .item-title::before,
+.cat-Scenic .item-title::before,
+.cat-Beach .item-title::before,
+.cat-Trail .item-title::before,
+.cat-Hill .item-title::before,
+.cat-Landmark .item-title::before {
+  background-color: #bf91ad;
+}
+
 .cat-Café .item-title,
 .cat-Bakery .item-title,
 .cat-Coffee .item-title {
@@ -784,6 +976,12 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 .cat-Café .item-title::before,
 .cat-Bakery .item-title::before,
 .cat-Coffee .item-title::before {
+  background-color: #DF932D;
+}
+
+.cat-Café .visits-bar,
+.cat-Bakery .visits-bar,
+.cat-Coffee .visits-bar {
   background-color: #DF932D;
 }
 
@@ -803,6 +1001,16 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 .cat-Bar .item-title ::before{
   background-color: #b3d943;
 }
+
+
+.cat-Pub .visits-bar,
+.cat-Wine .visits-bar,
+.cat-Cocktail .visits-bar,
+.cat-Brewery .visits-bar,
+.cat-Bar .visits-bar {
+  background-color: #b3d943;
+}
+
 
 .cat-Ramen .item-title,
 .cat-Chinese .item-title,
@@ -849,15 +1057,31 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 
 
 
-.item-title::before {
-  /*display: none !important;*/
+
+.cat-Ramen .visits-bar,
+.cat-Chinese .visits-bar,
+.cat-Thai .visits-bar,
+.cat-Asian .visits-bar,
+.cat-Donuts .visits-bar,
+.cat-Juice .visits-bar,
+.cat-Food .visits-bar,
+.cat-Burritos .visits-bar,
+.cat-Vegetarian .visits-bar,
+.cat-Desserts .visits-bar,
+.cat-Cupcakes .visits-bar,
+.cat-Sandwiches .visits-bar,
+.cat-Italian .visits-bar,
+.cat-American .visits-bar, 
+.cat-Tacos .visits-bar, 
+.cat-Pizza .visits-bar,
+.cat-Sushi .visits-bar,
+.cat-Noodles .visits-bar {
+  background-color: #71c9ef;
 }
 
-
-
-
 .venue-title {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 2px 6px;
   border-radius: var(--radius);
   background: #f0ebea;
@@ -865,6 +1089,9 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   white-space: nowrap;
   text-overflow: ellipsis;
   max-width: var(--col-width);
+
+  /* TEMPORARY */
+  /*background: transparent !important;*/
 }
 
 .venue-meta {

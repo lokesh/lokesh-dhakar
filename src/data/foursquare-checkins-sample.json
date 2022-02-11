@@ -1,0 +1,2272 @@
+[
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Hayes Valley Bakeworks",
+    "venueId": "4fede2248302c7a9cbdd6fd4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Twin Peaks Summit",
+    "venueId": "4c29567f9fb5d13aa2139b57",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hill",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Kitava",
+    "venueId": "59fbc94afc9e941a27bde064",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Gluten-free",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Oakside Cafe",
+    "venueId": "44d9d873f964a52089361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "45 Castro Medical Building - California Pacific Medical Center Davies Campus",
+    "venueId": "4bace9c5f964a520e5183be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Doctor's Office",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Hawk Hill",
+    "venueId": "49e4bbcbf964a52022631fe3",
+    "city": "Marin Headlands",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hill",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Third Culture Bakery",
+    "venueId": "5b0db75bb399f7003ae7a5d3",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Vik’s Chaat Corner",
+    "venueId": "45bcb887f964a52002421fe3",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Indian",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "The Page",
+    "venueId": "43eb859cf964a5203a2f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dive Bar",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "WAG Hotel",
+    "venueId": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Slacker Ridge",
+    "venueId": "4f1b1ab5e4b0850c83dd058b",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Steep Ravine Cabins",
+    "venueId": "4be4e582910020a1ce72d214",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Campground",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Whale Of A Deli",
+    "venueId": "4b79cc90f964a520d8122fe3",
+    "city": "Point Reyes Station",
+    "state": "CA",
+    "country": "United States",
+    "category": "Deli / Bodega",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Toby's",
+    "venueId": "4b117f1ef964a520d77d23e3",
+    "city": "Point Reyes Station",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Toby's",
+    "venueId": "4b117f1ef964a520d77d23e3",
+    "city": "Point Reyes Station",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Tomales CA",
+    "venueId": "4e8374652c5be7c3aac4b6ae",
+    "city": "Tomales",
+    "state": "CA",
+    "country": "United States",
+    "category": "City Hall",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "United States Postal Service",
+    "venueId": "4bbb8165ed7776b0ba863e51",
+    "city": "Bodega Bay",
+    "state": "CA",
+    "country": "United States",
+    "category": "Post Office",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Fisherman's Cove",
+    "venueId": "50942ed1e4b08e0dbd73cd67",
+    "city": "Bodega Bay",
+    "state": "CA",
+    "country": "United States",
+    "category": "Seafood",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Bodega Head Coast",
+    "venueId": "52aa500411d2685ef105c294",
+    "city": "Bodega Bay",
+    "state": "CA",
+    "country": "United States",
+    "category": "Beach",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Valley Ford Market",
+    "venueId": "4bdc97c03904a593b5e64e9e",
+    "city": "Valley Ford",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "venueId": "57377135498e8763633daa51",
+    "city": "Larkspur",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "California Kahve",
+    "venueId": "61a2b419794ab067e600ee8d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Flora Grubb Gardens",
+    "venueId": "49d3e08bf964a5201f5c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Flower Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "WAG Hotel",
+    "venueId": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Soul Grind",
+    "venueId": "5b660b75037be1002cc4a008",
+    "city": "Pacifica",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Millay",
+    "venueId": "60fdd67e7042b33aad20c471",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Wine Bar",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Johnny Doughnuts",
+    "venueId": "59cfcff3c3658821638bce70",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Donuts",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Vegan Mob",
+    "venueId": "609202337832402bfa9c210e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food Truck",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mission Pet Hospital",
+    "venueId": "4a7de097f964a52008f01fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hospital",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Safeway",
+    "venueId": "44610f81f964a52010331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "venueId": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "venueId": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mission Pet Hospital",
+    "venueId": "4a7de097f964a52008f01fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hospital",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "The Richfield",
+    "venueId": "5582e64c498e13943a4ed9e1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Starbucks",
+    "venueId": "5257744f498e8d8db7913987",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Trader Joe's",
+    "venueId": "484a7920f964a5207c501fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Coit Tower",
+    "venueId": "49de821ff964a5205c601fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Landmark",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "venueId": "595eb9521de7653a47f96bbc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Rise And Grind Coffee & Tea",
+    "venueId": "5e35d40972ac420008cf5b76",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Bernal Heights Park",
+    "venueId": "4aa6b24ff964a520b24a20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "FedEx Office Print & Ship Center",
+    "venueId": "4b18291ef964a5200bce23e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shipping Store",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Axum Cafe",
+    "venueId": "43cc335df964a520cc2d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Ethiopian",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "venueId": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "venueId": "4a4b8a43f964a5206fac1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Viva Vegan",
+    "venueId": "61d20df6e816b708fd9f5b7a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Vegetarian / Vegan",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "The Mill",
+    "venueId": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Cafe International",
+    "venueId": "3fd66200f964a52050ed1ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Flywheel Coffee",
+    "venueId": "4f934157e4b0ab5f09ebb8fc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Alamo Square",
+    "venueId": "4460d38bf964a5200a331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "venueId": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "venueId": "43d3901ef964a5201f2e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Monk’s Kettle",
+    "venueId": "47d7ba05f964a520234e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Gastropub",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Everlane",
+    "venueId": "5a98c9c9acc5f535435bad3e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Apparel",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Acacia",
+    "venueId": "538b9eba498e264f18ccbfcb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Furniture / Home",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "venueId": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Everlane",
+    "venueId": "5a98c9c9acc5f535435bad3e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Apparel",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Acacia",
+    "venueId": "538b9eba498e264f18ccbfcb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Furniture / Home",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Rare Device",
+    "venueId": "4f62a163e4b08b476db9854e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Gift Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "venueId": "43d3901ef964a5201f2e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Nourish Cafe SF",
+    "venueId": "54ea1afc498e12af65963097",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Vegetarian / Vegan",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "venueId": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "venueId": "56db3c87498ef1500ea33108",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Alamo Square Cafe",
+    "venueId": "4bc8897915a7ef3bd83f7bda",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Rodeo Beach",
+    "venueId": "4b7878bdf964a5209dd02ee3",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "category": "Beach",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Roma Antica",
+    "venueId": "5988de1c59c423311781e5e9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Italian",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "venueId": "49d68c61f964a520e65c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Ferry Plaza Farmers Market",
+    "venueId": "4a49961cf964a52076ab1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Farmer's Market",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Ferry Building Marketplace",
+    "venueId": "43067280f964a52023271fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Market",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "B. Patisserie",
+    "venueId": "5105ed2fe4b02d11de1bae8d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Nourish Cafe SF",
+    "venueId": "54ea1afc498e12af65963097",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Vegetarian / Vegan",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Churchill",
+    "venueId": "4dcadbd6814d4ffbdab77b51",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Cocktail",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Curry Up Now",
+    "venueId": "51243a00e4b06327ea088b09",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Indian",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Gracias Madre",
+    "venueId": "4b4955ccf964a520b86d26e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Mexican",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Chipotle Mexican Grill",
+    "venueId": "55c22c50498ed3a8d492dceb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Mexican",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Target",
+    "venueId": "5237327711d2cc03ee3e73b5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Big Box Store",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "The Junction Beer Garden",
+    "venueId": "5f236666c68c6732a0fb8a37",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Beer Garden",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Alpine Dam",
+    "venueId": "4bd1ebc1a8b3a593a1b6665f",
+    "city": "Marin County",
+    "state": "CA",
+    "country": "United States",
+    "category": "Lake",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "venueId": "51c765b5498e538e7259f69b",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Golden Gate Bridge Welcome Center",
+    "venueId": "4bf463c5e5eba5934f9b1f90",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Tourist Information",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Mendels",
+    "venueId": "45e5b54af964a52044431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts & Crafts",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Park Branch Library",
+    "venueId": "4a80867ff964a52088f51fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Library",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Golden Gate Park",
+    "venueId": "445e36bff964a520fb321fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Flywheel Coffee",
+    "venueId": "4f934157e4b0ab5f09ebb8fc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "venueId": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Shizen",
+    "venueId": "54a8b5d1498ef8abe40ce6b3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Sushi",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "teamLab Continuity",
+    "venueId": "61031a53f4b3250b983952f6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Art Gallery",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Snowbird Coffee",
+    "venueId": "54317036498e2d43b42ea0c2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Noe Valley Branch Library",
+    "venueId": "4a5f9527f964a520e2bf1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Library",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Flywheel Coffee",
+    "venueId": "4f934157e4b0ab5f09ebb8fc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Polo Fields",
+    "venueId": "4a97a06af964a520ae2920e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Field",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Delancy Street Tree Farm",
+    "venueId": "5a24a94f09e2836fcde91523",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Garden Center",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Mission Pet Hospital",
+    "venueId": "4a7de097f964a52008f01fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hospital",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Jane the Bakery",
+    "venueId": "584b00068f0be42a4dbf33ed",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "venueId": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Patricia's Green",
+    "venueId": "43ef6866f964a5206b2f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "venueId": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 11
+  },
+  {
+    "venue": "Alchemy By Alta",
+    "venueId": "569da7a8498ebc46f11c1085",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Building",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Jane the Bakery",
+    "venueId": "584b00068f0be42a4dbf33ed",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Sameday Health",
+    "venueId": "618808ae4467866f56b81b6e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Medical",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Alchemy By Alta",
+    "venueId": "569da7a8498ebc46f11c1085",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Building",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Embarkadero Social Club",
+    "venueId": "5911354aa92d987fb61254e4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Alchemy By Alta",
+    "venueId": "569da7a8498ebc46f11c1085",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Building",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "TSA Security Checkpoint",
+    "venueId": "4e6370d91495676d56290f77",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Airport Service",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "venueId": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Austin Bergstrom International Airport (AUS)",
+    "venueId": "440da2cbf964a52091301fe3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Tiny Pies",
+    "venueId": "57200d25498ef483855cc960",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Pie Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Radio Coffee & Beer",
+    "venueId": "5399bd1f498e723ddb159abc",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Wildflower Cafe",
+    "venueId": "4f931408e4b07b0225fbc6ec",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Lady Bird Johnson Wildflower Center",
+    "venueId": "4a6c86f2f964a520b9d01fe3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Garden",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Citizen Eatery",
+    "venueId": "581bc029bda2d7377714711e",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Vegetarian / Vegan",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Ellsworth Kelly's Austin",
+    "venueId": "58f50efd286fda4cc9cd09ee",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Art Museum",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "The Blanton Museum of Art",
+    "venueId": "47a1bb5ef964a520794d1fe3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Art Museum",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Wonderspaces",
+    "venueId": "5f22264367564371a9e113a3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Museum",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Dear Diary",
+    "venueId": "5ee4177f702dfe0007385375",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Butler Park (formerly Town Lake Park)",
+    "venueId": "4b784eacf964a520fec32ee3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Bouldin Creek Café",
+    "venueId": "49fa19e5f964a520bd6d1fe3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Vegetarian / Vegan",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mueller Lake Park",
+    "venueId": "4bc3a51c74a9a5932aded4f6",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Playground",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Halcyon",
+    "venueId": "59a8b16b2e26801656c127f6",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Thinkery",
+    "venueId": "5227b71c498ed6f35cc04b80",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Science Museum",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Texas State Capitol",
+    "venueId": "49bd2c3af964a52052541fe3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Capitol Building",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Covert Park at Mt. Bonnell",
+    "venueId": "4a5a7dabf964a5206eba1fe3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "5f417e8a459e75490f2b47d1",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Austin Bergstrom International Airport (AUS)",
+    "venueId": "440da2cbf964a52091301fe3",
+    "city": "Austin",
+    "state": "TX",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Hidden Spot",
+    "venueId": "5ea5fc10f6954e0008e85e94",
+    "city": "South San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Burgers",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Duboce Park",
+    "venueId": "4460d33cf964a52009331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Spro Coffeelab",
+    "venueId": "60e9dcad148551533446302f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Craftsman and Wolves",
+    "venueId": "4fab3157bb3d83ffee63d747",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "WAG Hotel",
+    "venueId": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mike's Truck Garden",
+    "venueId": "4bbfb05f4cdfc9b681b59121",
+    "city": "Fulton",
+    "state": "CA",
+    "country": "United States",
+    "category": "Restaurant",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "chile pies",
+    "venueId": "55a0569c498ebf3dbdd1380f",
+    "city": "Guerneville",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pie Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Cazadero, CA",
+    "venueId": "51ea2feb498ec674484d61c5",
+    "city": "Camp Thayer",
+    "state": "CA",
+    "country": "United States",
+    "category": "Other Outdoors",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Cazadero, CA",
+    "venueId": "51ea2feb498ec674484d61c5",
+    "city": "Camp Thayer",
+    "state": "CA",
+    "country": "United States",
+    "category": "Other Outdoors",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Charles M. Schulz Museum & Research Center",
+    "venueId": "4a886e5cf964a520680620e3",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "country": "United States",
+    "category": "Museum",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Russian River Brewing Company",
+    "venueId": "49fcf634f964a520f06e1fe3",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "country": "United States",
+    "category": "Brewery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Gold Coast Coffee & Bakery",
+    "venueId": "504bba6ce4b05ebf6d8e34ef",
+    "city": "Duncans Mills",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "WAG Hotel",
+    "venueId": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "venueId": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Burritos",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "venueId": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "venueId": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "San Francisco Athletic Club",
+    "venueId": "53992b2b498e79c674541458",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Sports Bar",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mission Pet Hospital",
+    "venueId": "4a7de097f964a52008f01fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hospital",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Embarkadero Social Club",
+    "venueId": "5911354aa92d987fb61254e4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "The Grind Cafe",
+    "venueId": "43ccb847f964a520ce2d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Woods Lower Haight",
+    "venueId": "5ee1ce01679a2e0e2850e4da",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Beer Bar",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mission Pet Hospital",
+    "venueId": "4a7de097f964a52008f01fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hospital",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Trouble Coffee",
+    "venueId": "4a139e14f964a520f0771fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Devil's Teeth Baking Company",
+    "venueId": "4db0bc8e0437a93f7f7a23e7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Duboce Park",
+    "venueId": "4460d33cf964a52009331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Ike's Sandwiches",
+    "venueId": "5914e8fae1f0aa603aa3c369",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Sandwiches",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Breck's",
+    "venueId": "5c9992c433e118002c82645c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Wine Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Daiso Japan",
+    "venueId": "4a7cdbaff964a520e1ed1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Discount Store",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Asakichi",
+    "venueId": "4b79bb58f964a520490e2fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Furniture / Home",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Kinokuniya Mall",
+    "venueId": "5c99bea6e65d0c002c7ea1f8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Mall",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Verve Coffee Roasters",
+    "venueId": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "True Sake",
+    "venueId": "4a22c9cbf964a520897d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Liquor Store",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Hawk Hill",
+    "venueId": "49e4bbcbf964a52022631fe3",
+    "city": "Marin Headlands",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hill",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Thorough Bread and Pastry",
+    "venueId": "49f13784f964a5209f691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Ramenwell",
+    "venueId": "5bd9179361f070002c9a8183",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Ramen",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Incline Gallery",
+    "venueId": "4d561cd4fb65236a8bf001b4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Art Gallery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Open Editions",
+    "venueId": "60d1218ae180036cc146a28b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Art Gallery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Heath Ceramics",
+    "venueId": "4fd15468e4b0c730e3f804d8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Furniture / Home",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Heath Newsstand",
+    "venueId": "58d03819040d5346422ee7e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Newsstand",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "venueId": "530a187e498eb0cfd40890a0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Comix Experience",
+    "venueId": "49fd4ed0f964a5201a6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Comic Shop",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Siam Orchid Traditional Thai Massage",
+    "venueId": "55346c03498e56b57395abc1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Massage Studio",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "venueId": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Alamo Square",
+    "venueId": "4460d38bf964a5200a331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Pet Food Express",
+    "venueId": "4a3f0ce4f964a520aca31fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Store",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "La Boulangerie de San Francisco",
+    "venueId": "475ab983f964a520d24c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 10
+  },
+  {
+    "venue": "Holy Gelato",
+    "venueId": "49daaa1ff964a520a15e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Ice Cream",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "venueId": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "venueId": "42853f80f964a5200c231fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Four Barrel Coffee",
+    "venueId": "480d1a5ef964a520284f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Embarcadero Center Cinema",
+    "venueId": "40c10d00f964a520df001fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Indie Movies",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Barcha",
+    "venueId": "562a7e02498e31c0f71e2a49",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Mediterranean",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "The Mill",
+    "venueId": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Equator Coffee & Teas",
+    "venueId": "615743b2b9fab9036dabdbec",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "DragonEats",
+    "venueId": "5005c520e4b0a8ae9875b787",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Vietnamese",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mystic Haircutting",
+    "venueId": "4aa19c57f964a520374120e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Salon / Barbershop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Alchemy By Alta",
+    "venueId": "569da7a8498ebc46f11c1085",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Building",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Wise Sons Bagel & Coffee",
+    "venueId": "59bf04122bf9a9618c9fceb4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bagels",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "La Boulangerie de San Francisco",
+    "venueId": "475ab983f964a520d24c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Plants And Friends",
+    "venueId": "6150b44d991072326786b988",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Garden Center",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "ACME Floral",
+    "venueId": "5b1cadda6bdee6002c29021b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Anchor Public Taps",
+    "venueId": "59e6b27c112c6c32076dfe03",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Brewery",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Red Bull Bay Climb",
+    "venueId": "5b942f0c66fc65002c2e3776",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Racecourse",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "AMC Metreon 16",
+    "venueId": "4a5824e5f964a5206db71fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Movie Theater",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "WAG Hotel",
+    "venueId": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Mystic Haircutting",
+    "venueId": "4aa19c57f964a520374120e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Salon / Barbershop",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "venueId": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Phoenix Sky Harbor International Airport (PHX)",
+    "venueId": "449e9fb9f964a520c0341fe3",
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Flagstaff Pulliam Airport (FLG)",
+    "venueId": "4baa0e1df964a52013473ae3",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2021,
+    "month": 9
+  },
+  {
+    "venue": "Flagstaff Pulliam Airport Gate 1",
+    "venueId": "53165952498e15ac8be1309b",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "United States",
+    "category": "Gate",
+    "year": 2021,
+    "month": 9
+  }
+]
