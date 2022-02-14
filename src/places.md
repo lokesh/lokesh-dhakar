@@ -7,10 +7,6 @@ pageWidth: "full"
 <h1 class="page-title">Places</h1>
 
 <!--
-
-
-
-
 ## To-do
 - [x] At-a-glance visual indicator of visits
 - [ ] Category eval
@@ -128,10 +124,7 @@ Map
           •
         </template>
         <template v-if="count > 1">
-          <span :class="{
-            'count-10-plus': count > 10,
-            'count-25-plus': count > 25
-          }">
+          <span>
             {{ count }} visits
           </span>
         </template>
@@ -158,7 +151,10 @@ Map
     </div>
     <div>
       <select class="select" v-model="categoryFilter">
-        <option v-for="category in categoryOptions" :value="category[0]">{{ category[0] }} ({{ category[1] }})</option>
+        <option v-for="(cat, i) in categoryOptions" :value="cat.path" :key="i">
+          <template v-if="cat.path.subCategory">&nbsp;</template>
+          {{ cat.name }} ({{ cat.count }})
+        </option>
       </select>
     </div>
     <div>
@@ -209,8 +205,8 @@ import { stateNameToAbbreviation, stateAbbreviationToName } from '/js/utils/loca
 // CONFIG
 // ------
 
-// If location doesn't meet min venues, it won't be displayed in location filter
-const MIN_COUNT_FOR_LOCATION = 10;
+// If options don't meet min count, they will not be added to filter controls
+const MIN_COUNT_FOR_LOCATION = 3;
 const MIN_COUNT_FOR_CATEGORY = 0;
 
 const CATEGORY_ANY = 'Any category';
@@ -262,7 +258,7 @@ const app = new Vue({
       LOCATION_ANY,
       categories: [],
       checkins: [],
-      categoryFilter: CATEGORY_ANY,
+      categoryFilter: {},
       locationFilter: {},
       groupFilter: GROUP_BY_YEAR,
       GROUP_ALL,
@@ -287,27 +283,151 @@ const app = new Vue({
      * @return {[[Array]]} e.g. [['coffee shop', 23], ['gym', 5]]
      */
     categoryOptions() {
+
+      let tree = {};
+
+      /*
+      Construct tree
+      ---
+      [
+        Outdoors: {
+          count: 100,
+          children: {
+            'Trail': {
+              count: 10,
+            },
+            'Park': {
+              count: 5,
+            }
+          }
+        }
+      ]
+       */
+
       let categories = {
         [CATEGORY_ANY]: this.venuesFilteredByLocation.length 
       };
 
-      this.venuesFilteredByLocation.forEach((venue) => {
-        let { category } = venue;
-        if (categories.hasOwnProperty(category)) {
-          categories[category] = categories[category] + 1;
-        } else {
-          categories[category] = 1;
-        }
-      })
 
-      // Sort
-      categories = Object.entries(categories).sort((a, b) => {
-        return a[1] >= b[1] ? -1 : 1;
+      this.venuesFilteredByLocation.forEach((venue) => {
+        let { category, subCategory, count} = venue;
+
+        if (!subCategory) return;
+
+        if (tree[category]) {
+          tree[category].count++;
+        } else {
+          tree[category] = {
+            count: 1,
+            children: {},
+          };
+        }
+
+        if (tree[category].children[subCategory]) {
+          tree[category].children[subCategory].count++;
+        } else {
+          tree[category].children[subCategory] = {
+            count: 1
+          }
+        }
       });
 
-      return (MIN_COUNT_FOR_CATEGORY)
-        ? categories.filter(cat => cat[1] > MIN_COUNT_FOR_CATEGORY)
-        : categories;
+      // console.log(tree);
+
+      let options = [];
+
+      options.push({
+        name: CATEGORY_ANY,
+        count: this.venuesFilteredByLocation.length,
+        path: {},
+      })
+
+      const catCounts = [];
+      for (let [cat, catObj] of Object.entries(tree)) {       
+        catCounts.push([cat, catObj.count]);
+      };
+            
+      const catCountsSorted = catCounts.sort((a, b) => {
+        if (a[1] > b[1]) {
+          return -1;
+        } else if (a[1] < b[1]) {
+          return 1
+        }
+        return 0
+      });
+
+      catCountsSorted.forEach(catArr => {
+        let cat = catArr[0];
+        let catObj = tree[cat];
+        
+        if (catObj.count < MIN_COUNT_FOR_CATEGORY) {
+          return;
+        }
+
+        options.push({
+          name: cat,
+          count: catObj.count,
+          path: {
+            category: cat,
+          }
+        })
+
+
+        // Sort subcategories
+        let subCatCounts = [];
+        for (let [subCat, subCatObj] of Object.entries(catObj.children)) {       
+          subCatCounts.push([subCat, subCatObj.count]);
+        };
+
+        let subCatCountsSorted = subCatCounts.sort((a, b) => {
+          if (a[1] > b[1]) {
+            return -1;
+          } else if (a[1] < b[1]) {
+            return 1
+          }
+          return 0
+        });
+
+        subCatCountsSorted.forEach(subCatArr => {
+          let subCat = subCatArr[0];
+          let subCatObj = tree[cat].children[subCat];
+
+          if (subCatObj.count < MIN_COUNT_FOR_LOCATION) {
+            return;
+          }
+
+          options.push({
+            name: subCat,
+            count: subCatObj.count,
+            path: {
+              category: cat,
+              subCategory: subCat,
+            }
+          })
+
+        });
+      })
+
+      return options;
+
+
+      // this.venuesFilteredByLocation.forEach((venue) => {
+      //   let { category } = venue;
+      //   if (categories.hasOwnProperty(category)) {
+      //     categories[category] = categories[category] + 1;
+      //   } else {
+      //     categories[category] = 1;
+      //   }
+      // })
+
+      // // Sort
+      // categories = Object.entries(categories).sort((a, b) => {
+      //   return a[1] >= b[1] ? -1 : 1;
+      // });
+
+      // return (MIN_COUNT_FOR_CATEGORY)
+      //   ? categories.filter(cat => cat[1] > MIN_COUNT_FOR_CATEGORY)
+      //   : categories;
     },
 
     /**
@@ -544,9 +664,6 @@ const app = new Vue({
     venuesFilteredByCategoryAndLocationGroupedByYear() {
       const groupedCheckins = this.groupCheckinsByYear(this.checkinsFilteredByCategoryAndLocation);
 
-      // this.getTopCategoriesFromCheckins(groupedCheckins)
-      // console.log(groupedCheckins);
-
       const groupedVenues = groupedCheckins.map(yearObj => {
         const { year, checkins } = yearObj;
         return {
@@ -590,7 +707,7 @@ const app = new Vue({
 
     /**
      * @param  {[Object]} checkins
-     * @param  {String} categoryFilter e.g. 'Airport'
+     * @param  {Object} categoryFilter e.g. {category: "Education", subCategory: 'University'}
      * @return {[Object]} filtered checkins
      */
     filterCheckinsByCategory(checkins, categoryFilter) {
@@ -598,8 +715,17 @@ const app = new Vue({
         return checkins;
       }
 
+      let { category, subCategory } = categoryFilter;
+
       return checkins.filter(checkin => {
-        return checkin.category === categoryFilter;
+        if (category && checkin.category !== category) {
+          return false;
+        }
+        if (subCategory && checkin.subCategory !== subCategory) {
+          return false;
+        }
+
+        return true;
       })
     },
     
@@ -665,7 +791,6 @@ const app = new Vue({
         if (prevYear && (i < yearsLength)) {
           while (prevYear - 1 > year) {
             prevYear--;
-            console.log(prevYear);
             groupsArr.push({
               year: prevYear,
             })
@@ -962,11 +1087,5 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 .filters > * {
   margin-bottom: 8px;
 }
-
-
-/*.count-10-plus {
-  color: var(--red);
-  font-weight: var(--weight-bold);
-}*/
 </style>
  
