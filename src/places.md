@@ -16,6 +16,7 @@ pageWidth: "full"
 - [ ] Category eval
 - [ ] Document data pipeline and transformations
 
+
 # How the filtering works
 
 1. We filter the checkins which gives us the following computed props:
@@ -33,7 +34,7 @@ pageWidth: "full"
 # Brainstorming
 
 - allow clicking category in venue listing to set it as active cat filter
-
+- Highlight trips automatically
 - Categories
 -- Get Foursquare cat hierarchy: https://api.foursquare.com/v2/venues/categories?v=20140620
 -- Update to reflect the hiearchy I'd like to use. aka, create coffee shops at top-level
@@ -208,8 +209,9 @@ import { stateNameToAbbreviation, stateAbbreviationToName } from '/js/utils/loca
 // CONFIG
 // ------
 
-// If location doesn't meet min venues, it won't be displayed in locaiton filter
-const MIN_COUNT_FOR_LOCATION = 2;
+// If location doesn't meet min venues, it won't be displayed in location filter
+const MIN_COUNT_FOR_LOCATION = 10;
+const MIN_COUNT_FOR_CATEGORY = 0;
 
 const CATEGORY_ANY = 'Any category';
 const LOCATION_ANY = 'Any location';
@@ -298,9 +300,14 @@ const app = new Vue({
         }
       })
 
-      return Object.entries(categories).sort((a, b) => {
+      // Sort
+      categories = Object.entries(categories).sort((a, b) => {
         return a[1] >= b[1] ? -1 : 1;
       });
+
+      return (MIN_COUNT_FOR_CATEGORY)
+        ? categories.filter(cat => cat[1] > MIN_COUNT_FOR_CATEGORY)
+        : categories;
     },
 
     /**

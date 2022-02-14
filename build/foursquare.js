@@ -3,7 +3,29 @@ const fs = require('fs');
 const { resolve } = require('path');
 
 
-console.log('🕐 [Foursquare] Refreshing data');
+// -------
+// Testing
+// -------
+
+const FETCH_DATA = false; // Hit Foursquare API
+const USE_SAMPLE_DATA = false;  // Use sample json
+const PROCESS_DATA = true;
+
+
+if (!FETCH_DATA) {
+  console.log('🟡 [Foursquare] Fetching data disabled');
+} else {
+  console.log('🕐 [Foursquare] Refreshing data');
+}
+
+if (USE_SAMPLE_DATA) {
+  console.log('🟡 [Foursquare] Using sample data');
+}
+
+
+if (!PROCESS_DATA) {
+  console.log('🟡 [Foursquare] Data processing disabled');
+}
 
 // ------------------------
 // API Auth and Config
@@ -21,6 +43,8 @@ const CHECKINS_URL  = 'https://api.foursquare.com/v2/users/self/checkins';
 const LIMIT = 250;
 
 const CHECKINS_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins.json');
+const CHECKINS_TEST_INPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-input.json');
+const CHECKINS_TEST_OUTPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-ouput.json');
 
 
 /**
@@ -72,6 +96,7 @@ function customizeCategories(checkins) {
       name: 'Arts & Entertainment',
       subCategories: [
         'Art Museum',
+        'Art Gallery',
         'Movie Theater',
         'Museum',
         'Arcade',
@@ -121,6 +146,9 @@ function customizeCategories(checkins) {
         'Ethiopian',
         'Korean',
         'Food Court',
+        'New American',
+        'Bagels',
+        'Juice Bar',
       ]
     }, {
       name: 'Dessert',
@@ -149,6 +177,7 @@ function customizeCategories(checkins) {
         'National Park',
         'Piers',
         'Cemetary',
+        'Lake,'
       ]
     }, {
       name: 'Nightlife',
@@ -197,6 +226,7 @@ function customizeCategories(checkins) {
         'Accessories',
         'Gym',
         'Gourmet',
+        'Farmer\'s Market',
       ]
     }, {
       name: 'Travel',
@@ -214,6 +244,7 @@ function customizeCategories(checkins) {
         'Boat / Ferr',
         'Travel',
         'Bus Station',
+        'Train Station',
       ]
     }, {
       name: 'Work',
@@ -245,10 +276,16 @@ function customizeCategories(checkins) {
     },
   ]
 
-  // return checkins.map(checkin => {
-  //   if (checkin.category)
-  // })
-  return checkins;
+  return checkins.map(checkin => {
+    customCategories.forEach(customCat => {
+      if (customCat.subCategories.indexOf(checkin.category) !== -1) {
+        checkin.subCategory = checkin.category;
+        checkin.category = customCat.name;
+      }
+    })
+    return checkin
+  })
+  // return checkins;
 }
 
 
@@ -288,20 +325,46 @@ function simplifyData(checkins) {
  * Makes multiple fetch calls, concats data, and stores JSON in file.
  */
 async function main() {
-  // Get checkin count
-  const checkinCount = await fetchCheckinCount();
-  const fetchCount = Math.ceil(checkinCount / LIMIT);
 
-  // Get checkins
-  const checkins = [];
-  for (let i = 0; i < fetchCount; i++) {
-    let items = await fetchCheckins(i * LIMIT);
-    checkins.push(...items);
+  let checkins = [];
+
+  if (FETCH_DATA) {
+    // Get checkin count
+    const checkinCount = await fetchCheckinCount();
+    const fetchCount = Math.ceil(checkinCount / LIMIT);
+
+    // Get checkins
+    for (let i = 0; i < fetchCount; i++) {
+      let items = await fetchCheckins(i * LIMIT);
+      checkins.push(...items);
+    }
+
+    fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));
+    console.log('✅ [Foursquare] Data refreshed');
+
+  } else if (USE_SAMPLE_DATA) {
+    const data = fs.readFileSync(CHECKINS_TEST_INPUT_FILE_PATH);
+    checkins = JSON.parse(data);
+  } else {
+    const data = fs.readFileSync(CHECKINS_FILE_PATH);
+    checkins = JSON.parse(data);
   }
 
-  // Write to file
-  fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));
-  console.log('✅ [Foursquare] Data refreshed');
+  if (PROCESS_DATA) {
+    checkins = customizeCategories(checkins);
+
+    if (USE_SAMPLE_DATA) {
+      // Write to file
+      fs.writeFileSync(CHECKINS_TEST_OUTPUT_FILE_PATH, JSON.stringify(checkins, null, 2));
+      console.log('✅ [Foursquare] Sample data processed');
+
+    } else {
+      // Write to file
+      fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));
+      console.log('✅ [Foursquare] Data refreshed');
+    }
+
+  }
 }
 
 main();
