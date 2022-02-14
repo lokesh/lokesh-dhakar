@@ -53,15 +53,209 @@ async function fetchCheckins(offset = 0) {
 
   let checkins = json.response.checkins.items;
   checkins = removeBadData(checkins)
-  checkins = simplifyData(json.response.checkins.items);
+  checkins = simplifyData(checkins);
+
+  // checkins = customizeCategories(checkins);
 
   return checkins;
 }
 
+
+/**
+ * ...
+ * @param  {[Object]} checkins
+ * @return {[Object]} checkins
+ */
+function customizeCategories(checkins) {
+  const customCategories = [
+    {
+      name: 'Arts & Entertainment',
+      subCategories: [
+        'Art Museum',
+        'Movie Theater',
+        'Museum',
+        'Arcade',
+        'Theme Park',
+        'Sculpture',
+        'Science Museum',
+        'Theater',
+        'Indie Movies',
+        'Library',
+        'Church',
+      ],
+    }, {
+      name: 'Coffee & Tea',
+      subCategories: [
+        'Coffee Shop',
+        'Café',
+        'Bakery',
+        'Tea Room',
+      ]
+    }, {
+      name: 'Food',
+      subCategories: [
+        'Vegetarian / Vegan',
+        'Pizza',
+        'Mexican',
+        'Food Truck',
+        'American',
+        'Sandwiches',
+        'Thai',
+        'Indian',
+        'Fast Food',
+        'Vietnamese',
+        'Burgers',
+        'Sushi',
+        'Asian',
+        'Deli / Bodega',
+        'Seafood',
+        'Italian',
+        'Tacos',
+        'Breakfast',
+        'Restaurant',
+        'Diner',
+        'Street Food Gathering',
+        'Chinese',
+        'Ramen',
+        'Burritos',
+        'Ethiopian',
+        'Korean',
+        'Food Court',
+      ]
+    }, {
+      name: 'Dessert',
+      subCategories: [
+        'Donuts',
+        'Ice Cream',
+        'Desserts',
+        'Yogurt',
+      ]
+    }, {
+      name: 'Outdoors',
+      subCategories: [
+        'Park',
+        'Scenic Lookout',
+        'Beach',
+        'Trail',
+        'Landmark',
+        'Other Outdoors',
+        'Plaza',
+        'Mountain',
+        'Bridge',
+        'Garden',
+        'State / Provincial Park',
+        'Playground',
+        'Dog Run',
+        'National Park',
+        'Piers',
+        'Cemetary',
+      ]
+    }, {
+      name: 'Nightlife',
+      subCategories: [
+        'Bar',
+        'Dive Bar',
+        'Cocktail',
+        'Brewery',
+        'Pub',
+        'Sports Bar',
+        'Gastropub',
+        'Lounge',
+        'Wine Bar',
+        'Rock Club',
+        'Nightclub',
+        'Music Venue',
+        'Speakeasy',
+      ]
+    }, {
+      name: 'Shop',
+      subCategories: [
+        'Grocery Store',
+        'Bike Shop',
+        'Apparel',
+        'Gas Station',
+        'Mall',
+        'Furniture / Home',
+        'Sporting Goods',
+        'Bookstore',
+        'Pharmacy',
+        'Convenience Store',
+        'Electronics',
+        'Big Box Store',
+        'Salon / Barbershop',
+        'Gift Shop',
+        'Liqour Store',
+        'Arts & Crafts',
+        'Market',
+        'Rental Car',
+        'Pet Store',
+        'Toys & Games',
+        'Hardware',
+        'Thrift / Vintage',
+        'Animal Shelter',
+        'Post Office',
+        'Accessories',
+        'Gym',
+        'Gourmet',
+      ]
+    }, {
+      name: 'Travel',
+      subCategories: [
+        'Airport',
+        'Hotel',
+        'Train Stati',
+        'Tourist Inf',
+        'Rest Areas',
+        'Parking',
+        'Road',
+        'Light Rail',
+        'Pedestrian ',
+        'Metro',
+        'Boat / Ferr',
+        'Travel',
+        'Bus Station',
+      ]
+    }, {
+      name: 'Work',
+      subCategories: [
+        'Office',
+        'Tech Startup',
+        'Building',
+        'Coworking Space',
+        'Convention Center',
+        'Event Space',
+      ]
+    }, {
+      name: 'Residence',
+      subCategories: [
+        'Home',
+      ]
+    }, {
+      name: 'Education',
+      subCategories: [
+        'High School',
+        'University',
+      ]
+    }, {
+      name: 'Locale',
+      subCategories: [
+        'Neighborhood',
+        'City',
+      ]
+    },
+  ]
+
+  // return checkins.map(checkin => {
+  //   if (checkin.category)
+  // })
+  return checkins;
+}
+
+
 /**
  * Some checkins are missing venue data
  * @param  {[Object]} checkins
- * @return {[Object]}
+ * @return {[Object]} checkins
  */
 function removeBadData(checkins) {
   return checkins.filter(item => {
@@ -71,7 +265,7 @@ function removeBadData(checkins) {
 
 /**
  * @param  {[Object]} checkins
- * @return {[Object]}
+ * @return {[Object]} checkins
  */
 function simplifyData(checkins) {
   return checkins.map(item => {

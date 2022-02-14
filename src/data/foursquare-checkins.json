@@ -1,5 +1,475 @@
 [
   {
+    "venue": "The Lounge",
+    "venueId": "573335f2498e0abe0ceff978",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "category": "Lounge",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Boston Logan International Airport (BOS)",
+    "venueId": "452113b6f964a520bc3a1fe3",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Dunkin'",
+    "venueId": "4c079f218a81c9b6fc722790",
+    "city": "Hooksett",
+    "state": "NH",
+    "country": "United States",
+    "category": "Donuts",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Patel Brothers",
+    "venueId": "61757cc7f4f30d561bc8ad91",
+    "city": "Nashua",
+    "state": "NH",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Costco",
+    "venueId": "4b770972f964a520fb762ee3",
+    "city": "Nashua",
+    "state": "NH",
+    "country": "United States",
+    "category": "Warehouse Store",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "SNHU COCE",
+    "venueId": "4b96497ff964a52014c434e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Administrative Building",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "SNHU Library Learning Commons",
+    "venueId": "54130cde498e86b5beed6e9c",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Library",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "SNHU",
+    "venueId": "4bc4ce88abf495214399c593",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Academic Building",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Flight Coffee Co.",
+    "venueId": "60ce2d00f049b93f21608f36",
+    "city": "Bedford",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Flight Coffee Co.",
+    "venueId": "60ce2d00f049b93f21608f36",
+    "city": "Bedford",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Wahlburgers",
+    "venueId": "576c587e498e95e8e3865afb",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "category": "Burgers",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Boston Logan International Airport (BOS)",
+    "venueId": "452113b6f964a520bc3a1fe3",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "category": "Airport",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "The Mill",
+    "venueId": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "WAG Hotel",
+    "venueId": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Pet Service",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Le Café du Soleil",
+    "venueId": "43ce64f7f964a520dd2d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "The Grind Cafe",
+    "venueId": "43ccb847f964a520ce2d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "The Mill",
+    "venueId": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Souvenir Coffee",
+    "venueId": "6062696a53e97e23f1bcde3b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "aesthetic union",
+    "venueId": "52a140f311d27e68acd8551c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts & Crafts",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Mendels",
+    "venueId": "45e5b54af964a52044431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts & Crafts",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "venueId": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Burritos",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Iyara Thai Massage",
+    "venueId": "5d7e7ad3cda09f000852b2c1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Massage Studio",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "venueId": "51c765b5498e538e7259f69b",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "venueId": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Iza Ramen",
+    "venueId": "5632c07e498eaa6c566acefc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Ramen",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Mercury Cafe",
+    "venueId": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Café",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Yh Beijing",
+    "venueId": "5dc38b332e354200083192a3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Chinese",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Mission Pet Hospital",
+    "venueId": "4a7de097f964a52008f01fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hospital",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Rare Device",
+    "venueId": "4f62a163e4b08b476db9854e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Gift Shop",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Curry Up Now",
+    "venueId": "51243a00e4b06327ea088b09",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Indian",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Quest Diagnostics",
+    "venueId": "4c07c6c1708c2d7f2674ca63",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Medical Lab",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Mendels",
+    "venueId": "45e5b54af964a52044431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts & Crafts",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Misdirections Magic Shop",
+    "venueId": "49cfd2c0f964a520d15a1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Hobbies",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Sriracha Thai Cuisine",
+    "venueId": "5612e223498e8ff86dc76392",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Thai",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Maxfield's House of Caffeine",
+    "venueId": "40b28c80f964a52001001fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "venueId": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Park",
+    "year": 2022,
+    "month": 1
+  },
+  {
+    "venue": "The Mill",
+    "venueId": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mike's Bikes of San Francisco",
+    "venueId": "49ced10bf964a5208c5a1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bike Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Flywheel Coffee",
+    "venueId": "4f934157e4b0ab5f09ebb8fc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "venueId": "43d3901ef964a5201f2e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee Shop",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "La Boulangerie de San Francisco",
+    "venueId": "475ab983f964a520d24c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Millay",
+    "venueId": "60fdd67e7042b33aad20c471",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Wine Bar",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "The Epicurean Trader",
+    "venueId": "5d1bb1ba17d3b900230b1688",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Organic Grocery",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Kantine",
+    "venueId": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scandinavian",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "M.H. Bread and Butter",
+    "venueId": "517b3dbe80555420b2aa7f35",
+    "city": "San Anselmo",
+    "state": "CA",
+    "country": "United States",
+    "category": "Bakery",
+    "year": 2022,
+    "month": 0
+  },
+  {
+    "venue": "Mount.Tamalpais (Gardner Lookout)",
+    "venueId": "4d34cf84b6093704c6ca0ee0",
+    "city": "Bolinas",
+    "state": "CA",
+    "country": "United States",
+    "category": "Scenic Lookout",
+    "year": 2022,
+    "month": 0
+  },
+  {
     "venue": "Whole Foods Market",
     "venueId": "52603bff11d21a914be4eb71",
     "city": "San Francisco",
@@ -10618,7 +11088,7 @@
   {
     "venue": "LaGuardia Airport (LGA)",
     "venueId": "4ace6c89f964a52078d020e3",
-    "city": "East Elmhurst",
+    "city": "Queens",
     "state": "NY",
     "country": "United States",
     "category": "Airport",
@@ -10948,7 +11418,7 @@
   {
     "venue": "LaGuardia Airport (LGA)",
     "venueId": "4ace6c89f964a52078d020e3",
-    "city": "East Elmhurst",
+    "city": "Queens",
     "state": "NY",
     "country": "United States",
     "category": "Airport",
@@ -20146,8 +20616,8 @@
     "state": "CA",
     "country": "United States",
     "category": "Park",
-    "year": 2017,
-    "month": 11
+    "year": 2018,
+    "month": 0
   },
   {
     "venue": "The Little Chihuahua",
@@ -30958,7 +31428,7 @@
     "country": "United States",
     "category": "Airport",
     "year": 2016,
-    "month": 1
+    "month": 2
   },
   {
     "venue": "Chicago O'Hare International Airport (ORD)",
@@ -45229,8 +45699,8 @@
     "state": "CA",
     "country": "United States",
     "category": "Park",
-    "year": 2013,
-    "month": 11
+    "year": 2014,
+    "month": 0
   },
   {
     "venue": "Bonsai Tree Stand",
@@ -49216,7 +49686,7 @@
     "country": "United States",
     "category": "Ice Cream",
     "year": 2013,
-    "month": 4
+    "month": 5
   },
   {
     "venue": "Pakwan",
@@ -56944,7 +57414,7 @@
     "country": "United States",
     "category": "Bar",
     "year": 2012,
-    "month": 7
+    "month": 8
   },
   {
     "venue": "Getaround HQ",
@@ -57804,7 +58274,7 @@
     "country": "United States",
     "category": "Airport",
     "year": 2012,
-    "month": 6
+    "month": 7
   },
   {
     "venue": "Gracias Madre",
@@ -59962,7 +60432,7 @@
     "country": "United States",
     "category": "Donuts",
     "year": 2012,
-    "month": 3
+    "month": 4
   },
   {
     "venue": "StartupHouse",
@@ -59972,7 +60442,7 @@
     "country": "United States",
     "category": "Coworking Space",
     "year": 2012,
-    "month": 3
+    "month": 4
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -59982,7 +60452,7 @@
     "country": "United States",
     "category": "Airport",
     "year": 2012,
-    "month": 3
+    "month": 4
   },
   {
     "venue": "Bassett's Turkey & Salad",
@@ -70306,7 +70776,7 @@
     "country": "United States",
     "category": "Bar",
     "year": 2010,
-    "month": 6
+    "month": 7
   },
   {
     "venue": "The Shaskeen Irish Pub",
@@ -70316,7 +70786,7 @@
     "country": "United States",
     "category": "Irish",
     "year": 2010,
-    "month": 6
+    "month": 7
   },
   {
     "venue": "Raxx Lounge & Nightlife",
