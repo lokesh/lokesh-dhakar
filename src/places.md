@@ -149,9 +149,21 @@ Map
         </option>
       </select>
     </div>
-    <div>
+    <div class="category-filters">
       <select class="select" v-model="categoryFilter">
-        <option v-for="(cat, i) in categoryOptions" :value="cat.path" :key="i">
+        <option v-for="category in categoryOptions" :value="category[0]">{{ category[0] }} ({{ category[1] }})</option>
+      </select>
+      <select
+        v-if="categoryFilter !== CATEGORY_ANY"
+        class="select"
+        v-model="subCategoryFilter"
+      >
+        <option v-for="subCategory in subCategoryOptions" :value="subCategory[0]">{{ subCategory[0] }} ({{ subCategory[1] }})</option>
+      </select>
+    </div>
+    <div v-if="false">
+      <select class="select" v-model="categoryFilter">
+        <option v-for="(cat, i) in categoryOptions2" :value="cat.path" :key="i">
           <template v-if="cat.path.subCategory">&nbsp;</template>
           {{ cat.name }} ({{ cat.count }})
         </option>
@@ -210,6 +222,7 @@ const MIN_COUNT_FOR_LOCATION = 3;
 const MIN_COUNT_FOR_CATEGORY = 0;
 
 const CATEGORY_ANY = 'Any category';
+const SUBCATEGORY_ANY = 'Choose sub-category';
 const LOCATION_ANY = 'Any location';
 
 const GROUP_ALL = 'All-time';
@@ -258,7 +271,8 @@ const app = new Vue({
       LOCATION_ANY,
       categories: [],
       checkins: [],
-      categoryFilter: {},
+      categoryFilter: CATEGORY_ANY,
+      subCategoryFilter: CATEGORY_ANY,
       locationFilter: {},
       groupFilter: GROUP_BY_YEAR,
       GROUP_ALL,
@@ -278,11 +292,85 @@ const app = new Vue({
   },
 
   computed: {
+
+    /*
+    [ 1 ]
+    Any Category (2323)
+    Food (232)
+    Coffee (150)
+
+
+    [ 2 ]
+    All [Food]
+    Veg (100)
+    Indian (23)
+    Korean (6)
+     */
+
+    /**
+    * Category filter dropdown options.
+    * @return {[[Array]]} e.g. [['coffee shop', 23], ['gym', 5]]
+    */
+    categoryOptions() {
+      let categories = {
+        [CATEGORY_ANY]: this.venuesFilteredByLocation.length 
+      };
+
+      this.venuesFilteredByLocation.forEach((venue) => {
+        let { category, subCategory } = venue;
+
+        // If category has not been bucketed by my, skip
+        if (!subCategory) return;
+
+        if (categories.hasOwnProperty(category)) {
+          categories[category] = categories[category] + 1;
+        } else {
+          categories[category] = 1;
+        }
+      })
+
+      // Sort
+      categories = Object.entries(categories).sort((a, b) => {
+        return a[1] >= b[1] ? -1 : 1;
+      });
+
+      return categories;
+    },
+
+
+    subCategoryOptions() {
+      if (!this.categoryFilter) return [];
+
+      let subCategories = {
+        [SUBCATEGORY_ANY]: this.venuesFilteredByPrimaryCategoryAndLocation.length 
+      };
+
+      this.venuesFilteredByCategoryAndLocation.forEach(venue => {
+          let { subCategory } = venue;
+
+        // If category has not been bucketed by my, skip
+        if (!subCategory) return;
+
+        if (subCategories.hasOwnProperty(subCategory)) {
+          subCategories[subCategory] = subCategories[subCategory] + 1;
+        } else {
+          subCategories[subCategory] = 1;
+        }
+      })
+
+      // Sort
+      subCategories = Object.entries(subCategories).sort((a, b) => {
+        return a[1] >= b[1] ? -1 : 1;
+      });
+
+      return subCategories;
+    },
+
     /**
      * Category filter dropdown options.
      * @return {[[Array]]} e.g. [['coffee shop', 23], ['gym', 5]]
      */
-    categoryOptions() {
+    categoryOptions2() {
 
       let tree = {};
 
@@ -435,7 +523,7 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByCategory() {
-      return this.filterCheckinsByCategory(this.checkins, this.categoryFilter);
+      return this.filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
     },
 
     /**
@@ -451,7 +539,7 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByCategoryAndLocation() {
-      let checkins = this.filterCheckinsByCategory(this.checkins, this.categoryFilter);
+      let checkins = this.filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
       return this.filterCheckinsByLocation(checkins, this.locationFilter);
     },
 
@@ -661,6 +749,11 @@ const app = new Vue({
       return this.sortVenuesByCount(venues);
     },
 
+    venuesFilteredByPrimaryCategoryAndLocation() {
+      const venues = this.checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
+      return this.sortVenuesByCount(venues);
+    },
+
     venuesFilteredByCategoryAndLocationGroupedByYear() {
       const groupedCheckins = this.groupCheckinsByYear(this.checkinsFilteredByCategoryAndLocation);
 
@@ -705,12 +798,52 @@ const app = new Vue({
       return venuesArr;
     },
 
+
+    /**
+     * @param  {[Object]} checkins
+     * @param  {String} categoryFilter e.g. 'Airport'
+     * @return {[Object]} filtered checkins
+     */
+    filterCheckinsByCategory(checkins, categoryFilter, subCategoryFilter) {
+      if (categoryFilter === CATEGORY_ANY) {
+        return checkins;
+      }
+
+      checkins = checkins.filter(checkin => {
+        return checkin.category === categoryFilter;
+      })
+
+      if (subCategoryFilter === SUBCATEGORY_ANY) {
+        return checkins;
+      }
+
+      return checkins.filter(checkin => {
+        return checkin.subCategory === subCategoryFilter;
+      })
+    },
+
+    /**
+     * @param  {[Object]} checkins
+     * @param  {String} categoryFilter e.g. 'Airport'
+     * @return {[Object]} filtered checkins
+     */
+    filterCheckinsByPrimaryCategory(checkins, categoryFilter) {
+      if (categoryFilter === CATEGORY_ANY) {
+        return checkins;
+      }
+
+      return checkins.filter(checkin => {
+        return checkin.category === categoryFilter;
+      })
+    },
+
+
     /**
      * @param  {[Object]} checkins
      * @param  {Object} categoryFilter e.g. {category: "Education", subCategory: 'University'}
      * @return {[Object]} filtered checkins
      */
-    filterCheckinsByCategory(checkins, categoryFilter) {
+    filterCheckinsByCategory2(checkins, categoryFilter) {
       if (categoryFilter === CATEGORY_ANY) {
         return checkins;
       }
@@ -850,6 +983,11 @@ const app = new Vue({
   }
 }
 
+.category-filters {
+  display: flex;
+  overflow-x: auto;
+  gap: var(--gutter);
+}
 
 .display-lists {
   display: flex;

@@ -93,7 +93,7 @@ async function fetchCheckins(offset = 0) {
 function customizeCategories(checkins) {
   const customCategories = [
     {
-      name: 'Arts & Entertainment',
+      name: 'Arts',
       subCategories: [
         'Art Museum',
         'Art Gallery',
@@ -109,7 +109,7 @@ function customizeCategories(checkins) {
         'Church',
       ],
     }, {
-      name: 'Coffee & Tea',
+      name: 'Coffee',
       subCategories: [
         'Coffee Shop',
         'Café',
