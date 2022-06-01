@@ -30,7 +30,7 @@
     "foursquare": "node ./build/foursquare.js",
     "notes": "sh build/notes.sh",
     "img": "node ./build/img.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/foursquare.test.js --experimental-modules"
   },
   "repository": {
     "type": "git",
@@ -42,5 +42,8 @@
     "url": "https://github.com/lokesh/lokesh-dhakar/issues"
   },
   "homepage": "https://github.com/lokesh/lokesh-dhakar#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
 }

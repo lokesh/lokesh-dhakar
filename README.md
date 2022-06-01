@@ -45,12 +45,10 @@ npm run strava
 
 ### Update places data
 
-Fetch the latest Swarm check-in data with the Foursquare API.
-
-```
-npm run foursquare
-```
-
+Fetch the latest Swarm check-in data with the Foursquare API:
+1.Open up `build/foursquare.js`
+2. Make sure `FETCH_DATA` and `PROCESS_DATA` booleans are set to `true`
+3. `npm run square`
 
 <!--
 ### Adding a video to Inspiration page
@@ -83,3 +81,26 @@ each page. You can add to `base.njk`.
 ```
 npm run deploy
 ```
+
+## Architecture
+
+### Places
+
+Example processed checkin data:
+```
+{
+  "venue": "Dolores Park Cafe",
+  "venueId": "44ca68a6f964a52001361fe3",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "United States",
+  "category": "Coffee", // These are custom. 4sq cat moved to subCategory
+  "year": 2022,
+  "month": 5,
+  "subCategory": "Café",
+  "firstVisit": false, // Is this the first time visiting this venue
+  "lastVisit": false, // Was this the most recent visit
+}
+```
+
+`firstVisit` is not a guarantee that the checkin is the first visit. We are looking at checkin data at month-level granularity. If multiple checkins happens at the venue in the same month as the first visit, then all of these checkins will have `firstVisit` set to `true`. Same situation with `lastVisit`.

@@ -8,7 +8,9 @@
     "category": "Shop",
     "year": 2022,
     "month": 0,
-    "subCategory": "Grocery Store"
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Hayes Valley Bakeworks",
@@ -16,10 +18,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Bakery"
+    "subCategory": "Bakery",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Twin Peaks Summit",
@@ -29,7 +33,9 @@
     "country": "United States",
     "category": "Hill",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Mercury Cafe",
@@ -37,10 +43,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Kitava",
@@ -50,7 +58,9 @@
     "country": "United States",
     "category": "Gluten-free",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Oakside Cafe",
@@ -58,10 +68,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "45 Castro Medical Building - California Pacific Medical Center Davies Campus",
@@ -71,7 +83,9 @@
     "country": "United States",
     "category": "Doctor's Office",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Hawk Hill",
@@ -81,7 +95,9 @@
     "country": "United States",
     "category": "Hill",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Third Culture Bakery",
@@ -89,10 +105,12 @@
     "city": "Berkeley",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Bakery"
+    "subCategory": "Bakery",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Vik’s Chaat Corner",
@@ -103,7 +121,9 @@
     "category": "Food",
     "year": 2022,
     "month": 0,
-    "subCategory": "Indian"
+    "subCategory": "Indian",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -111,10 +131,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -122,10 +144,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "The Page",
@@ -136,7 +160,9 @@
     "category": "Nightlife",
     "year": 2022,
     "month": 0,
-    "subCategory": "Dive Bar"
+    "subCategory": "Dive Bar",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Whole Foods Market",
@@ -147,7 +173,9 @@
     "category": "Shop",
     "year": 2022,
     "month": 0,
-    "subCategory": "Grocery Store"
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "WAG Hotel",
@@ -157,7 +185,9 @@
     "country": "United States",
     "category": "Pet Service",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Slacker Ridge",
@@ -168,7 +198,9 @@
     "category": "Outdoors",
     "year": 2022,
     "month": 0,
-    "subCategory": "Scenic Lookout"
+    "subCategory": "Scenic Lookout",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Steep Ravine Cabins",
@@ -178,7 +210,9 @@
     "country": "United States",
     "category": "Campground",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Whale Of A Deli",
@@ -189,7 +223,9 @@
     "category": "Food",
     "year": 2022,
     "month": 0,
-    "subCategory": "Deli / Bodega"
+    "subCategory": "Deli / Bodega",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Toby's",
@@ -197,10 +233,12 @@
     "city": "Point Reyes Station",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Toby's",
@@ -208,10 +246,12 @@
     "city": "Point Reyes Station",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Tomales CA",
@@ -221,7 +261,9 @@
     "country": "United States",
     "category": "City Hall",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "United States Postal Service",
@@ -232,7 +274,9 @@
     "category": "Shop",
     "year": 2022,
     "month": 0,
-    "subCategory": "Post Office"
+    "subCategory": "Post Office",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Fisherman's Cove",
@@ -243,7 +287,9 @@
     "category": "Food",
     "year": 2022,
     "month": 0,
-    "subCategory": "Seafood"
+    "subCategory": "Seafood",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Bodega Head Coast",
@@ -254,7 +300,9 @@
     "category": "Outdoors",
     "year": 2022,
     "month": 0,
-    "subCategory": "Beach"
+    "subCategory": "Beach",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Valley Ford Market",
@@ -265,7 +313,9 @@
     "category": "Shop",
     "year": 2022,
     "month": 0,
-    "subCategory": "Grocery Store"
+    "subCategory": "Grocery Store",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -273,10 +323,12 @@
     "city": "Larkspur",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "California Kahve",
@@ -284,10 +336,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Flora Grubb Gardens",
@@ -297,7 +351,9 @@
     "country": "United States",
     "category": "Flower Shop",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "WAG Hotel",
@@ -307,7 +363,9 @@
     "country": "United States",
     "category": "Pet Service",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Soul Grind",
@@ -315,10 +373,12 @@
     "city": "Pacifica",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Millay",
@@ -329,7 +389,9 @@
     "category": "Nightlife",
     "year": 2022,
     "month": 0,
-    "subCategory": "Wine Bar"
+    "subCategory": "Wine Bar",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Johnny Doughnuts",
@@ -340,7 +402,9 @@
     "category": "Dessert",
     "year": 2022,
     "month": 0,
-    "subCategory": "Donuts"
+    "subCategory": "Donuts",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Vegan Mob",
@@ -351,7 +415,9 @@
     "category": "Food",
     "year": 2022,
     "month": 0,
-    "subCategory": "Food Truck"
+    "subCategory": "Food Truck",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Mission Pet Hospital",
@@ -361,7 +427,9 @@
     "country": "United States",
     "category": "Hospital",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Kantine",
@@ -371,7 +439,9 @@
     "country": "United States",
     "category": "Scandinavian",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Mercury Cafe",
@@ -379,10 +449,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Safeway",
@@ -393,7 +465,9 @@
     "category": "Shop",
     "year": 2022,
     "month": 0,
-    "subCategory": "Grocery Store"
+    "subCategory": "Grocery Store",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Mission Dolores Park",
@@ -404,7 +478,9 @@
     "category": "Outdoors",
     "year": 2022,
     "month": 0,
-    "subCategory": "Park"
+    "subCategory": "Park",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Dolores Park Cafe",
@@ -412,10 +488,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Mission Pet Hospital",
@@ -425,7 +503,9 @@
     "country": "United States",
     "category": "Hospital",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "The Richfield",
@@ -433,10 +513,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Starbucks",
@@ -444,10 +526,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Trader Joe's",
@@ -458,7 +542,9 @@
     "category": "Shop",
     "year": 2022,
     "month": 0,
-    "subCategory": "Grocery Store"
+    "subCategory": "Grocery Store",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Coit Tower",
@@ -469,7 +555,9 @@
     "category": "Outdoors",
     "year": 2022,
     "month": 0,
-    "subCategory": "Landmark"
+    "subCategory": "Landmark",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -477,10 +565,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Rise And Grind Coffee & Tea",
@@ -488,10 +578,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Bernal Heights Park",
@@ -502,7 +594,9 @@
     "category": "Outdoors",
     "year": 2022,
     "month": 0,
-    "subCategory": "Park"
+    "subCategory": "Park",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Whole Foods Market",
@@ -513,7 +607,9 @@
     "category": "Shop",
     "year": 2022,
     "month": 0,
-    "subCategory": "Grocery Store"
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "FedEx Office Print & Ship Center",
@@ -523,7 +619,9 @@
     "country": "United States",
     "category": "Shipping Store",
     "year": 2022,
-    "month": 0
+    "month": 0,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -531,10 +629,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Mercury Cafe",
@@ -542,10 +642,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Axum Cafe",
@@ -556,7 +658,9 @@
     "category": "Food",
     "year": 2022,
     "month": 0,
-    "subCategory": "Ethiopian"
+    "subCategory": "Ethiopian",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Dolores Park Cafe",
@@ -564,10 +668,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -575,10 +681,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Viva Vegan",
@@ -589,7 +697,9 @@
     "category": "Food",
     "year": 2022,
     "month": 0,
-    "subCategory": "Vegetarian / Vegan"
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Mercury Cafe",
@@ -597,10 +707,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
   },
   {
     "venue": "The Mill",
@@ -608,10 +720,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Bakery"
+    "subCategory": "Bakery",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Cafe International",
@@ -619,10 +733,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2022,
     "month": 0,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Flywheel Coffee",
@@ -630,10 +746,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Alamo Square",
@@ -644,7 +762,9 @@
     "category": "Outdoors",
     "year": 2021,
     "month": 11,
-    "subCategory": "Park"
+    "subCategory": "Park",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Kantine",
@@ -654,7 +774,9 @@
     "country": "United States",
     "category": "Scandinavian",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Dolores Park Cafe",
@@ -662,10 +784,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -673,10 +797,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Monk’s Kettle",
@@ -687,7 +813,9 @@
     "category": "Nightlife",
     "year": 2021,
     "month": 11,
-    "subCategory": "Gastropub"
+    "subCategory": "Gastropub",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Everlane",
@@ -698,7 +826,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Apparel"
+    "subCategory": "Apparel",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Acacia",
@@ -709,7 +839,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Furniture / Home"
+    "subCategory": "Furniture / Home",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -717,10 +849,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Everlane",
@@ -731,7 +865,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Apparel"
+    "subCategory": "Apparel",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Acacia",
@@ -742,7 +878,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Furniture / Home"
+    "subCategory": "Furniture / Home",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Rare Device",
@@ -753,7 +891,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Gift Shop"
+    "subCategory": "Gift Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -761,10 +901,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Nourish Cafe SF",
@@ -775,7 +917,9 @@
     "category": "Food",
     "year": 2021,
     "month": 11,
-    "subCategory": "Vegetarian / Vegan"
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -783,10 +927,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Sightglass Coffee",
@@ -794,10 +940,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -805,10 +953,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Alamo Square Cafe",
@@ -816,10 +966,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Rodeo Beach",
@@ -830,7 +982,9 @@
     "category": "Outdoors",
     "year": 2021,
     "month": 11,
-    "subCategory": "Beach"
+    "subCategory": "Beach",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Roma Antica",
@@ -841,7 +995,9 @@
     "category": "Food",
     "year": 2021,
     "month": 11,
-    "subCategory": "Italian"
+    "subCategory": "Italian",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -849,10 +1005,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Ferry Plaza Farmers Market",
@@ -860,9 +1018,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Farmer's Market",
+    "category": "Shop",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "subCategory": "Farmer's Market",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Ferry Building Marketplace",
@@ -873,7 +1034,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Market"
+    "subCategory": "Market",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "B. Patisserie",
@@ -881,10 +1044,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Bakery"
+    "subCategory": "Bakery",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Nourish Cafe SF",
@@ -895,7 +1060,9 @@
     "category": "Food",
     "year": 2021,
     "month": 11,
-    "subCategory": "Vegetarian / Vegan"
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Mercury Cafe",
@@ -903,10 +1070,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Churchill",
@@ -917,7 +1086,9 @@
     "category": "Nightlife",
     "year": 2021,
     "month": 11,
-    "subCategory": "Cocktail"
+    "subCategory": "Cocktail",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Curry Up Now",
@@ -928,7 +1099,9 @@
     "category": "Food",
     "year": 2021,
     "month": 11,
-    "subCategory": "Indian"
+    "subCategory": "Indian",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Gracias Madre",
@@ -939,7 +1112,9 @@
     "category": "Food",
     "year": 2021,
     "month": 11,
-    "subCategory": "Mexican"
+    "subCategory": "Mexican",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Chipotle Mexican Grill",
@@ -950,7 +1125,9 @@
     "category": "Food",
     "year": 2021,
     "month": 11,
-    "subCategory": "Mexican"
+    "subCategory": "Mexican",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Target",
@@ -961,7 +1138,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Big Box Store"
+    "subCategory": "Big Box Store",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Mercury Cafe",
@@ -969,10 +1148,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Café"
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "The Junction Beer Garden",
@@ -982,7 +1163,9 @@
     "country": "United States",
     "category": "Beer Garden",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Alpine Dam",
@@ -992,7 +1175,9 @@
     "country": "United States",
     "category": "Lake",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -1000,10 +1185,12 @@
     "city": "Mill Valley",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Golden Gate Bridge Welcome Center",
@@ -1013,7 +1200,9 @@
     "country": "United States",
     "category": "Tourist Information",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -1021,10 +1210,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Mendels",
@@ -1035,7 +1226,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Arts & Crafts"
+    "subCategory": "Arts & Crafts",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Park Branch Library",
@@ -1043,10 +1236,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Arts & Entertainment",
+    "category": "Arts",
     "year": 2021,
     "month": 11,
-    "subCategory": "Library"
+    "subCategory": "Library",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Golden Gate Park",
@@ -1057,7 +1252,9 @@
     "category": "Outdoors",
     "year": 2021,
     "month": 11,
-    "subCategory": "Park"
+    "subCategory": "Park",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Flywheel Coffee",
@@ -1065,10 +1262,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -1076,10 +1275,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Shizen",
@@ -1090,7 +1291,9 @@
     "category": "Food",
     "year": 2021,
     "month": 11,
-    "subCategory": "Sushi"
+    "subCategory": "Sushi",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "teamLab Continuity",
@@ -1098,9 +1301,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Art Gallery",
+    "category": "Arts",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "subCategory": "Art Gallery",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Snowbird Coffee",
@@ -1108,10 +1314,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Noe Valley Branch Library",
@@ -1119,10 +1327,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Arts & Entertainment",
+    "category": "Arts",
     "year": 2021,
     "month": 11,
-    "subCategory": "Library"
+    "subCategory": "Library",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Whole Foods Market",
@@ -1133,7 +1343,9 @@
     "category": "Shop",
     "year": 2021,
     "month": 11,
-    "subCategory": "Grocery Store"
+    "subCategory": "Grocery Store",
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Flywheel Coffee",
@@ -1141,10 +1353,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Coffee Shop"
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Polo Fields",
@@ -1154,7 +1368,9 @@
     "country": "United States",
     "category": "Field",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Delancy Street Tree Farm",
@@ -1164,7 +1380,9 @@
     "country": "United States",
     "category": "Garden Center",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": true
   },
   {
     "venue": "Kantine",
@@ -1174,7 +1392,9 @@
     "country": "United States",
     "category": "Scandinavian",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Mission Pet Hospital",
@@ -1184,7 +1404,9 @@
     "country": "United States",
     "category": "Hospital",
     "year": 2021,
-    "month": 11
+    "month": 11,
+    "firstVisit": true,
+    "lastVisit": false
   },
   {
     "venue": "Jane the Bakery",
@@ -1192,9 +1414,11 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee & Tea",
+    "category": "Coffee",
     "year": 2021,
     "month": 11,
-    "subCategory": "Bakery"
+    "subCategory": "Bakery",
+    "firstVisit": true,
+    "lastVisit": true
   }
 ]

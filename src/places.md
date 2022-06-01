@@ -150,6 +150,7 @@ Map
       </select>
     </div>
     <div class="category-filters">
+      {{ categoryFilter }} : {{ subCategoryFilter }} &nbsp;&nbsp;&nbsp;
       <select class="select" v-model="categoryFilter">
         <option v-for="category in categoryOptions" :value="category[0]">{{ category[0] }} ({{ category[1] }})</option>
       </select>
@@ -212,6 +213,8 @@ Map
 
 <script type="module">
 import { stateNameToAbbreviation, stateAbbreviationToName } from '/js/utils/location.js';
+import { checkinsToVenues } from '/js/utils/foursquare.js';
+
 
 // ------
 // CONFIG
@@ -340,10 +343,13 @@ const app = new Vue({
 
     subCategoryOptions() {
       if (!this.categoryFilter) return [];
+      
 
       let subCategories = {
         [SUBCATEGORY_ANY]: this.venuesFilteredByPrimaryCategoryAndLocation.length 
       };
+
+      // debugger;
 
       this.venuesFilteredByCategoryAndLocation.forEach(venue => {
           let { subCategory } = venue;
@@ -737,20 +743,20 @@ const app = new Vue({
     },
 
     venuesFilteredByCategory() {
-      return this.checkinsToVenues(this.checkinsFilteredByCategory);
+      return checkinsToVenues(this.checkinsFilteredByCategory);
     },
 
     venuesFilteredByLocation() {
-      return this.checkinsToVenues(this.checkinsFilteredByLocation);
+      return checkinsToVenues(this.checkinsFilteredByLocation);
     },
 
     venuesFilteredByCategoryAndLocation() {
-      const venues = this.checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
+      const venues = checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
       return this.sortVenuesByCount(venues);
     },
 
     venuesFilteredByPrimaryCategoryAndLocation() {
-      const venues = this.checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
+      const venues = checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
       return this.sortVenuesByCount(venues);
     },
 
@@ -761,7 +767,7 @@ const app = new Vue({
         const { year, checkins } = yearObj;
         return {
           year,
-          venues: checkins ? this.sortVenuesByCount(this.checkinsToVenues(checkins)) : [],
+          venues: checkins ? this.sortVenuesByCount(checkinsToVenues(checkins)) : [],
         };
       })
 
@@ -770,35 +776,6 @@ const app = new Vue({
   },
 
   methods: {
-    /**
-     * Rolls checkin data up into venues. Adds a count property.
-     * @param  {[Object]} checkins
-     * @return {[Object]} venues
-     */
-    checkinsToVenues(checkins) {
-      let venuesObj = {};
-
-      checkins.forEach(checkin => {
-        let { venueId } = checkin;
-        if (venuesObj[venueId]) {
-          venuesObj[venueId].count++;
-        } else {
-          venuesObj[venueId] = {
-            ...checkin,
-            count: 1,
-          }
-        }
-      });
-
-      const venuesArr = [];
-      for (let [venueId, venue] of Object.entries(venuesObj)) {       
-        venuesArr.push(venue);
-      };
-
-      return venuesArr;
-    },
-
-
     /**
      * @param  {[Object]} checkins
      * @param  {String} categoryFilter e.g. 'Airport'

@@ -285,7 +285,44 @@ function customizeCategories(checkins) {
     })
     return checkin
   })
-  // return checkins;
+}
+
+/**
+ * ...
+ * @param  {[Object]} checkins
+ * @return {[Object]} checkins
+ */
+function checkFirstLastVisit(checkins) {
+  return checkins.map(checkin => {
+    let allCheckinsToVenue = checkins.filter(c => {
+      return c.venueId === checkin.venueId;
+    })
+
+    let firstVisit = true;
+    let lastVisit = true;
+
+    allCheckinsToVenue.forEach(c => {
+      if (c.year < checkin.year) {
+        firstVisit = false
+      } else if (c.year === checkin.year && c.month < checkin.month) {
+        firstVisit = false;
+      }
+    })
+
+    allCheckinsToVenue.forEach(c => {
+      if (c.year > checkin.year) {
+        lastVisit = false
+      } else if (c.year === checkin.year && c.month > checkin.month) {
+        lastVisit = false;
+      }
+    })
+
+    return {
+      ...checkin,
+      firstVisit,
+      lastVisit,
+    }
+  })
 }
 
 
@@ -314,9 +351,9 @@ function simplifyData(checkins) {
       city: item.venue.location.city,
       state: item.venue.location.state,
       country: item.venue.location.country,
-      category: (item.venue.categories[0] ? item.venue.categories[0].shortName: ''),
       year: date.getFullYear(),
       month: date.getMonth(),
+      category: (item.venue.categories[0] ? item.venue.categories[0].shortName: ''),
     }
   })
 }
@@ -328,7 +365,10 @@ async function main() {
 
   let checkins = [];
 
-  if (FETCH_DATA) {
+  if (USE_SAMPLE_DATA) {
+    const data = fs.readFileSync(CHECKINS_TEST_INPUT_FILE_PATH);
+    checkins = JSON.parse(data);    
+  } else if (FETCH_DATA) {
     // Get checkin count
     const checkinCount = await fetchCheckinCount();
     const fetchCount = Math.ceil(checkinCount / LIMIT);
@@ -341,10 +381,6 @@ async function main() {
 
     fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));
     console.log('✅ [Foursquare] Data refreshed');
-
-  } else if (USE_SAMPLE_DATA) {
-    const data = fs.readFileSync(CHECKINS_TEST_INPUT_FILE_PATH);
-    checkins = JSON.parse(data);
   } else {
     const data = fs.readFileSync(CHECKINS_FILE_PATH);
     checkins = JSON.parse(data);
@@ -352,6 +388,7 @@ async function main() {
 
   if (PROCESS_DATA) {
     checkins = customizeCategories(checkins);
+    checkins = checkFirstLastVisit(checkins);
 
     if (USE_SAMPLE_DATA) {
       // Write to file
@@ -361,7 +398,7 @@ async function main() {
     } else {
       // Write to file
       fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));
-      console.log('✅ [Foursquare] Data refreshed');
+      console.log('✅ [Foursquare] Data processed');
     }
 
   }
