@@ -104,3 +104,9 @@ Example processed checkin data:
 ```
 
 `firstVisit` is not a guarantee that the checkin is the first visit. We are looking at checkin data at month-level granularity. If multiple checkins happens at the venue in the same month as the first visit, then all of these checkins will have `firstVisit` set to `true`. Same situation with `lastVisit`.
+
+#### Testing
+
+`npm run test`
+
+Simple, ad-hoc testing from a single file: `test/foursquare.test.js`.

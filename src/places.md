@@ -139,6 +139,12 @@ Map
 
 
 <div id="venues" class="venues">
+  
+    DEBUGGING: <br />
+    location: {{locationFilter }}<br />
+    cat: {{ categoryFilter }}<br />
+    subcat: {{ subCategoryFilter }}
+ 
   <div class="filters">
     <div>
       <select class="select" v-model="locationFilter">
@@ -150,7 +156,6 @@ Map
       </select>
     </div>
     <div class="category-filters">
-      {{ categoryFilter }} : {{ subCategoryFilter }} &nbsp;&nbsp;&nbsp;
       <select class="select" v-model="categoryFilter">
         <option v-for="category in categoryOptions" :value="category[0]">{{ category[0] }} ({{ category[1] }})</option>
       </select>
@@ -213,7 +218,12 @@ Map
 
 <script type="module">
 import { stateNameToAbbreviation, stateAbbreviationToName } from '/js/utils/location.js';
-import { checkinsToVenues } from '/js/utils/foursquare.js';
+import {
+  CATEGORY_ANY,
+  SUBCATEGORY_ANY,
+  checkinsToVenues,
+  filterCheckinsByCategory,
+} from '/js/utils/foursquare.js';
 
 
 // ------
@@ -224,8 +234,6 @@ import { checkinsToVenues } from '/js/utils/foursquare.js';
 const MIN_COUNT_FOR_LOCATION = 3;
 const MIN_COUNT_FOR_CATEGORY = 0;
 
-const CATEGORY_ANY = 'Any category';
-const SUBCATEGORY_ANY = 'Choose sub-category';
 const LOCATION_ANY = 'Any location';
 
 const GROUP_ALL = 'All-time';
@@ -271,11 +279,12 @@ const app = new Vue({
   data() {
     return {
       CATEGORY_ANY,
+      SUBCATEGORY_ANY,
       LOCATION_ANY,
       categories: [],
       checkins: [],
       categoryFilter: CATEGORY_ANY,
-      subCategoryFilter: CATEGORY_ANY,
+      subCategoryFilter: SUBCATEGORY_ANY,
       locationFilter: {},
       groupFilter: GROUP_BY_YEAR,
       GROUP_ALL,
@@ -344,12 +353,13 @@ const app = new Vue({
     subCategoryOptions() {
       if (!this.categoryFilter) return [];
       
+      let subCategories = {};
 
-      let subCategories = {
-        [SUBCATEGORY_ANY]: this.venuesFilteredByPrimaryCategoryAndLocation.length 
-      };
-
-      // debugger;
+      if (this.subCategoryFilter === SUBCATEGORY_ANY) {
+         subCategories = {
+          [SUBCATEGORY_ANY]: this.venuesFilteredByPrimaryCategoryAndLocation.length
+        };
+      }
 
       this.venuesFilteredByCategoryAndLocation.forEach(venue => {
           let { subCategory } = venue;
@@ -529,7 +539,8 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByCategory() {
-      return this.filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+      console.log(this.checkins, this.categoryFilter, this.subCategoryFilter);
+      return filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
     },
 
     /**
@@ -545,7 +556,7 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByCategoryAndLocation() {
-      let checkins = this.filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+      let checkins = filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
       return this.filterCheckinsByLocation(checkins, this.locationFilter);
     },
 
@@ -580,7 +591,6 @@ const app = new Vue({
        */
       
       let countedVenues = {};
-
       this.venuesFilteredByCategory.forEach(checkin => {
         let { country, state, city, venueId } = checkin;
         if (!country || !state || !city) return;
@@ -781,29 +791,6 @@ const app = new Vue({
      * @param  {String} categoryFilter e.g. 'Airport'
      * @return {[Object]} filtered checkins
      */
-    filterCheckinsByCategory(checkins, categoryFilter, subCategoryFilter) {
-      if (categoryFilter === CATEGORY_ANY) {
-        return checkins;
-      }
-
-      checkins = checkins.filter(checkin => {
-        return checkin.category === categoryFilter;
-      })
-
-      if (subCategoryFilter === SUBCATEGORY_ANY) {
-        return checkins;
-      }
-
-      return checkins.filter(checkin => {
-        return checkin.subCategory === subCategoryFilter;
-      })
-    },
-
-    /**
-     * @param  {[Object]} checkins
-     * @param  {String} categoryFilter e.g. 'Airport'
-     * @return {[Object]} filtered checkins
-     */
     filterCheckinsByPrimaryCategory(checkins, categoryFilter) {
       if (categoryFilter === CATEGORY_ANY) {
         return checkins;
@@ -930,6 +917,10 @@ const app = new Vue({
     resetCategoryFilter() {
       this.categoryFilter = CATEGORY_ANY;
     },
+
+    resetSubCategoryFilter() {
+      this.subCategoryFilter = SUBCATEGORY_ANY;
+    },
     
     resetLocationFilter() {
       this.locationFilter = {};
@@ -937,6 +928,7 @@ const app = new Vue({
 
     resetFilters() {
       this.resetCategoryFilter();
+      this.resetSubCategoryFilter();
       this.resetLocationFilter();
     },
 

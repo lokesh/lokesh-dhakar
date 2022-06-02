@@ -26,4 +26,33 @@ export function checkinsToVenues(checkins) {
   return venuesArr;
 }
 
+export const CATEGORY_ANY = 'Any category';
+export const SUBCATEGORY_ANY = 'Any sub-category';
+
+/**
+ * @param  {[Object]} checkins
+ * @param  {String} categoryFilter e.g. 'Nightlife'
+ * @param  {String} subCategoryFilter e.g. 'Dive Bar'
+ * @return {[Object]} filtered checkins
+ */
+export function filterCheckinsByCategory(
+  checkins,
+  categoryFilter = CATEGORY_ANY,
+  subCategoryFilter = SUBCATEGORY_ANY,
+) {
+
+  return checkins.filter(checkin => {
+    let match = true;
+    if (categoryFilter !== CATEGORY_ANY
+        && checkin.category !== categoryFilter) {
+      match = false;
+    }
+    if (subCategoryFilter !== SUBCATEGORY_ANY
+        && checkin.subCategory !== subCategoryFilter) {
+      match = false;
+    }
+
+    return match
+  })
+}
 
