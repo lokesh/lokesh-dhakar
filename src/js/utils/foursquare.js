@@ -1,5 +1,9 @@
 /**
  * Rolls checkin data up into venues. Adds a count property.
+ * 
+ * If any checkins for a venue have firstVisit or lastVisit set to true,
+ * we set them as true for the venue.
+ * 
  * @param  {[Object]} checkins
  * @return {[Object]} venues
  */
@@ -9,7 +13,17 @@ export function checkinsToVenues(checkins) {
   checkins.forEach(checkin => {
     let { venueId } = checkin;
     if (venuesObj[venueId]) {
-      venuesObj[venueId].count++;
+      let venue = venuesObj[venueId];
+      venue.count++;
+
+      if (checkin.firstVisit) {
+        venue.firstVisit = true;
+      }
+
+      if (checkin.lastVisit) {
+        venue.lastVisit = true;
+      }
+
     } else {
       venuesObj[venueId] = {
         ...checkin,

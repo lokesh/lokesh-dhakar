@@ -86,6 +86,10 @@ npm run deploy
 
 ### Places
 
+#### Data structure
+
+New custom top-level categories have been created. The category field from the Foursquare API is moved into a new `subCategory` field.
+
 Example processed checkin data:
 ```
 {
@@ -109,4 +113,9 @@ Example processed checkin data:
 
 `npm run test`
 
-Simple, ad-hoc testing from a single file: `test/foursquare.test.js`.
+Simple, ad-hoc testing.
+- Tests: `test/foursquare.test.js`.
+- Functions being tested: `src/js/utils/foursquare.js`
+
+Continue to move unit testable functions from `places.md` into the utils file.
+

@@ -165,6 +165,7 @@ function customizeCategories(checkins) {
         'Dim Sum',
         'German',
         'Noodles',
+        'Scandinavian',
       ]
     }, {
       name: 'Dessert',
@@ -277,7 +278,6 @@ function customizeCategories(checkins) {
         'Pedestrian ',
         'Metro',
         'Boat / Ferr',
-        'Travel',
         'Bus Station',
         'Train Station',
         'Resort',

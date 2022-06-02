@@ -7,13 +7,16 @@ pageWidth: "full"
 <h1 class="page-title">Places</h1>
 
 <!--
+
 ## To-do
-- [x] At-a-glance visual indicator of visits
-- [ ] Category eval
-- [ ] Document data pipeline and transformations
+
+- [x] Clickable cities, states
+- [x] Clickable categories
+- [ ] Show count and percentage of new spots.
+- [ ] Add loading indicator
 
 
-# How the filtering works
+# How the filtering works - outdated
 
 1. We filter the checkins which gives us the following computed props:
 - Checkins filtered by location
@@ -29,77 +32,11 @@ pageWidth: "full"
 
 # Brainstorming
 
-- allow clicking category in venue listing to set it as active cat filter
 - Highlight trips automatically
-- Categories
--- Get Foursquare cat hierarchy: https://api.foursquare.com/v2/venues/categories?v=20140620
--- Update to reflect the hiearchy I'd like to use. aka, create coffee shops at top-level
-
-
-restaurants
-bars
-bike shops
-airports
-offices
-homes
-parks
-grocery stores
-retail shop
-
-
-4sq top level cats
-- Arts & Entertainment
-- College & University
-- Event
-- Food
-- Nightlife Spot
-- Outdoors & Recreation
-- Professional & Other Places
-- Residence
-- Shop & Service
-- Travel & Transporation
-
-- Shorten and/or merge category names?
-
-- Show top 3 categories by year?
-
-- Loader
-
-
-- Add first Boolean in data to indicate first check-in.
-In month and year groupings, the venues should display a tag and at the top
-of the list we can indicate the count of new spots.
 - Add custom notes? or should these happen in app
-- Improve hover style
-
-
-
-
 Map
 - Monospaced, with location in ascii rectangles on a map?
 
-<div
-    class="item item--dense"
-    :class="[
-      `venue-${venueId}`,
-      `cat-${category}`,
-    ]"
-    @mouseover="highlight(`venue-${venueId}`)"
-    @mouseleave="unhighlight(`venue-${venueId}`)"
-  >
-    <div class="item-title">{{ venue }}</div>
-    <div class="item-meta">
-      <span class="item-category">{{ category }}</span>
-      • 
-      <span :class="{
-        'count-10-plus': count > 10,
-        'count-25-plus': count > 25
-      }">
-        {{ count }} visits
-      </span>
-      <span v-if="=city">• {{ city }}</span>
-    </div>
-  </div>
 -->
 
 <template id="tpl-venue">
@@ -109,16 +46,39 @@ Map
       :class="[
         `venue-${venueId}`,
         `cat-${category}`,
+        { notFirstVisit: !firstVisit },
       ]"
     >
       <div
         class="visits-bar"
         :style="getWidthFromVisitsCount(count)"
       ></div>
-      <div class="item-title venue-title">{{ venue }}</div>
+      <div class="venue-title-row">
+        <div class="item-title venue-title">{{ venue }}</div>
+        <div
+          v-if="firstVisit"
+          class="venue-new-label"
+        >
+          NEW
+        </div>
+      </div>
       <div class="item-meta venue-meta">
-        <template v-if="category">
-          <span class="item-category">{{ category }}</span>
+        <template v-if="category && showCategory">
+          <span class="item-category">
+            <a @click="$emit('set-category', category)">
+              {{ category }}
+            </a>
+          </span>
+        </template>
+        <template v-if="category && showCategory && subCategory && showSubCategory">
+          •
+        </template>
+        <template v-if="subCategory && showSubCategory">
+          <span class="item-category">
+            <a @click="$emit('set-sub-category', subCategory)">
+              {{ subCategory }}
+            </a>
+          </span>
         </template>
         <template v-if="category && count > 1">
           •
@@ -131,7 +91,14 @@ Map
         <template v-if="(city || count > 1) && city">
           •
         </template>
-        <span v-if="city">{{ city }}, {{ state }}</span>
+        <span v-if="city">
+          <a @click="$emit('set-location', { country, state, city })">
+            {{ city }}
+          </a>,
+          <a @click="$emit('set-location', { country, state })">
+            {{ state }}
+          </a>
+        </span>
       </div>
     </div>
   </div>
@@ -139,13 +106,13 @@ Map
 
 
 <div id="venues" class="venues">
-<!--   
+<!-- 
     DEBUGGING: <br />
     location: {{locationFilter }}<br />
     cat: {{ categoryFilter }}<br />
-    subcat: {{ subCategoryFilter }}
-   -->
-  <div class="filters">
+    subcat: {{ subCategoryFilter }} 
+ -->
+   <div class="filters">
     <div>
       <select class="select" v-model="locationFilter">
         <option v-for="(location, i) in locationOptions" :value="location.path" :key="i">
@@ -172,6 +139,12 @@ Map
         <option v-for="group in groupOptions" :value="group">{{ group }}</option>
       </select>
     </div>
+    <div>
+      <label class="checkbox-label">
+        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
+        <span>Only new spots</span>
+      </label>
+    </div>
     <button ref="resetBtn" @click="resetFilters">Reset</button>
   </div>
   <div
@@ -180,10 +153,14 @@ Map
   >
     <venue
       v-bind="venue"
+      @set-category="setCategoryFilter"
+      @set-sub-category="setSubCategoryFilter"
+      @set-location="setLocationFilter"
     />
   </div>
   <div
     class="display-lists"
+    :class="{ hideOld: showNewFilter }"
     ref="lists"
   >
     <div
@@ -196,11 +173,25 @@ Map
     >
       <h1 class="year-title">{{ list.year }}</h1>
       <div
+        v-if="list.venues.length"
+        class="year-numbers"
+      >
+        {{ list.venues.length }} places<br />
+        {{ countNewVenues(list.venues) }} new ({{ Math.round(countNewVenues(list.venues) / list.venues.length * 100) }} %)
+      </div>
+      <div
         v-for="venue in list.venues"
         @mouseover="highlight(`venue-${venue.venueId}`)"
         @mouseleave="unhighlight(`venue-${venue.venueId}`)"
       >
-        <venue v-bind="venue" />
+        <venue
+          v-bind="venue"
+          :show-category="categoryFilter === CATEGORY_ANY"
+          :show-sub-category="categoryFilter !== CATEGORY_ANY"
+          @set-category="setCategoryFilter"
+          @set-sub-category="setSubCategoryFilter"
+          @set-location="setLocationFilter"
+        />
       </div>
     </div>
   </div>
@@ -225,9 +216,9 @@ import {
 // ------
 
 // If options don't meet min count, they will not be added to filter controls
-const MIN_COUNT_FOR_LOCATION = 3;
-const MIN_COUNT_FOR_CATEGORY = 2;
-const MIN_COUNT_FOR_SUBCATEGORY = 2;
+const MIN_COUNT_FOR_LOCATION = 1;
+const MIN_COUNT_FOR_CATEGORY = 1;
+const MIN_COUNT_FOR_SUBCATEGORY = 1;
 
 const LOCATION_ANY = 'Any location';
 
@@ -245,15 +236,27 @@ Vue.component('venue', {
     venueId: String,
     venue: String,
     category: String,
+    subCategory: String,
+    country: String,
     city: String,
     state: String,
     count: Number,
+    firstVisit: Boolean,
+    lastVisit: Boolean,
+    showCategory: {
+      type: Boolean,
+      default: true,
+    },
+    showSubCategory: {
+      type: Boolean,
+      default: true,
+    },
   },
 
   methods: {
     getWidthFromVisitsCount(count) {
       return {
-        width: `${Math.min(Math.max((count - 2), 0) * 5, 100)}%`,
+        width: `${Math.min(Math.max((count - 1), 0) * 5, 100)}%`,
       };
     },
   },
@@ -278,6 +281,7 @@ const app = new Vue({
       subCategoryFilter: SUBCATEGORY_ANY,
       locationFilter: {},
       groupFilter: GROUP_BY_YEAR,
+      showNewFilter: false,
       GROUP_ALL,
       GROUP_BY_YEAR,
     };
@@ -389,139 +393,6 @@ const app = new Vue({
       });
 
       return subCategories;
-    },
-
-    /**
-     * Category filter dropdown options.
-     * @return {[[Array]]} e.g. [['coffee shop', 23], ['gym', 5]]
-     */
-    categoryOptions2() {
-
-      let tree = {};
-
-      /*
-      Construct tree
-      ---
-      [
-        Outdoors: {
-          count: 100,
-          children: {
-            'Trail': {
-              count: 10,
-            },
-            'Park': {
-              count: 5,
-            }
-          }
-        }
-      ]
-       */
-
-      let categories = {
-        [CATEGORY_ANY]: this.venuesFilteredByLocation.length 
-      };
-
-
-      this.venuesFilteredByLocation.forEach((venue) => {
-        let { category, subCategory, count} = venue;
-
-        if (!subCategory) return;
-
-        if (tree[category]) {
-          tree[category].count++;
-        } else {
-          tree[category] = {
-            count: 1,
-            children: {},
-          };
-        }
-
-        if (tree[category].children[subCategory]) {
-          tree[category].children[subCategory].count++;
-        } else {
-          tree[category].children[subCategory] = {
-            count: 1
-          }
-        }
-      });
-
-      // console.log(tree);
-
-      let options = [];
-
-      options.push({
-        name: CATEGORY_ANY,
-        count: this.venuesFilteredByLocation.length,
-        path: {},
-      })
-
-      const catCounts = [];
-      for (let [cat, catObj] of Object.entries(tree)) {       
-        catCounts.push([cat, catObj.count]);
-      };
-            
-      const catCountsSorted = catCounts.sort((a, b) => {
-        if (a[1] > b[1]) {
-          return -1;
-        } else if (a[1] < b[1]) {
-          return 1
-        }
-        return 0
-      });
-
-      catCountsSorted.forEach(catArr => {
-        let cat = catArr[0];
-        let catObj = tree[cat];
-        
-        if (catObj.count < MIN_COUNT_FOR_CATEGORY) {
-          return;
-        }
-
-        options.push({
-          name: cat,
-          count: catObj.count,
-          path: {
-            category: cat,
-          }
-        })
-
-
-        // Sort subcategories
-        let subCatCounts = [];
-        for (let [subCat, subCatObj] of Object.entries(catObj.children)) {       
-          subCatCounts.push([subCat, subCatObj.count]);
-        };
-
-        let subCatCountsSorted = subCatCounts.sort((a, b) => {
-          if (a[1] > b[1]) {
-            return -1;
-          } else if (a[1] < b[1]) {
-            return 1
-          }
-          return 0
-        });
-
-        subCatCountsSorted.forEach(subCatArr => {
-          let subCat = subCatArr[0];
-          let subCatObj = tree[cat].children[subCat];
-
-          if (subCatObj.count < MIN_COUNT_FOR_LOCATION) {
-            return;
-          }
-
-          options.push({
-            name: subCat,
-            count: subCatObj.count,
-            path: {
-              category: cat,
-              subCategory: subCat,
-            }
-          })
-
-        });
-      })
-
-      return options;
     },
 
     /**
@@ -784,6 +655,10 @@ const app = new Vue({
   },
 
   methods: {
+    countNewVenues(venues) {
+      return venues.filter(v => v.firstVisit).length
+    },
+
     /**
      * @param  {[Object]} checkins
      * @param  {String} categoryFilter e.g. 'Airport'
@@ -912,6 +787,23 @@ const app = new Vue({
       els.forEach(el => { el.classList.remove('venue-highlight') });
     },
 
+    setCategoryFilter(cat) {
+      this.categoryFilter = cat;
+      this.resetSubCategoryFilter();
+    },
+
+    setSubCategoryFilter(subCat) {
+      this.subCategoryFilter = subCat;
+    },
+
+    setLocationFilter(loc) {
+      if (loc.state) {
+        loc.state = stateAbbreviationToName(loc.state);
+      }
+      this.locationFilter = loc;
+      // ...
+    },
+
     resetCategoryFilter() {
       this.categoryFilter = CATEGORY_ANY;
     },
@@ -962,6 +854,11 @@ const app = new Vue({
   overflow-x: auto;
 }
 
+/* TEMP */
+.display-lists.hideOld .item.notFirstVisit {
+  display: none;
+}
+
 .display-list {
   width: var(--col-width);
 }
@@ -973,6 +870,16 @@ const app = new Vue({
 .display-list.no-checkins {
   width: auto;
   flex: 1 0 5rem;
+}
+
+.year-title {
+  margin-bottom: 6px;
+}
+
+.year-numbers {
+  margin-bottom: var(--gutter);
+  color: var(--muted-color);
+  font-weight: var(--weight-bold);
 }
 
 .no-checkins .year-title {
@@ -994,7 +901,7 @@ const app = new Vue({
 }
 
 .venue-highlight {
-  background: var(--hover-bg-color);
+  /*background: var(--hover-bg-color);*/
 }
 
 /*
@@ -1007,20 +914,20 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   /*border-bottom: none;*/
   /*margin-bottom: calc(var(--block-bottom) / 2);*/
   padding-bottom: calc(var(--block-bottom) / 1.5);
-
-
 }
+
 
 .visits-bar {
   height: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   border-radius: var(--radius-sm);
   background-color: var(--color);
 }
 
 .item-title::before {
   content: '';
-  display: inline-block;
+  display: inline-flex;
+  flex: 0 0 12px;
   width: 12px;
   height: 12px;
   margin-right: 6px;
@@ -1160,6 +1067,23 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   background-color: #71c9ef;
 }
 
+.venue-title-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 2px;
+}
+
+.venue-new-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+  border-radius: var(--radius);
+  font-size: 11px;
+  font-weight: var(--weight-bold);
+  background: var(--green);
+  letter-spacing: 0.01em;
+}
+
 .venue-title {
   display: inline-flex;
   align-items: center;
@@ -1180,6 +1104,16 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+.venue-meta a {
+  color: var(--muted-color);
+}
+
+.venue-meta a:hover {
+  cursor: pointer;
+  /*text-decoration: underline;*/
+}
+
 
 .venue-category {
   /*color: var(--primary-color);*/
