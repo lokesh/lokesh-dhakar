@@ -139,12 +139,12 @@ Map
 
 
 <div id="venues" class="venues">
-  
+<!--   
     DEBUGGING: <br />
     location: {{locationFilter }}<br />
     cat: {{ categoryFilter }}<br />
     subcat: {{ subCategoryFilter }}
- 
+   -->
   <div class="filters">
     <div>
       <select class="select" v-model="locationFilter">
@@ -167,14 +167,6 @@ Map
         <option v-for="subCategory in subCategoryOptions" :value="subCategory[0]">{{ subCategory[0] }} ({{ subCategory[1] }})</option>
       </select>
     </div>
-    <div v-if="false">
-      <select class="select" v-model="categoryFilter">
-        <option v-for="(cat, i) in categoryOptions2" :value="cat.path" :key="i">
-          <template v-if="cat.path.subCategory">&nbsp;</template>
-          {{ cat.name }} ({{ cat.count }})
-        </option>
-      </select>
-    </div>
     <div>
       <select class="select" v-model="groupFilter">
         <option v-for="group in groupOptions" :value="group">{{ group }}</option>
@@ -186,7 +178,9 @@ Map
     v-if="groupFilter === GROUP_ALL"
     v-for="venue in displayList"
   >
-     <venue v-bind="venue" />
+    <venue
+      v-bind="venue"
+    />
   </div>
   <div
     class="display-lists"
@@ -232,7 +226,8 @@ import {
 
 // If options don't meet min count, they will not be added to filter controls
 const MIN_COUNT_FOR_LOCATION = 3;
-const MIN_COUNT_FOR_CATEGORY = 0;
+const MIN_COUNT_FOR_CATEGORY = 2;
+const MIN_COUNT_FOR_SUBCATEGORY = 2;
 
 const LOCATION_ANY = 'Any location';
 
@@ -256,13 +251,9 @@ Vue.component('venue', {
   },
 
   methods: {
-    // onChange(event) {
-    //   this.$emit('change', event.target.value);
-    // }
-    // 
     getWidthFromVisitsCount(count) {
       return {
-        width: `${Math.min(Math.max((count - 5), 0) * 5, 100)}%`,
+        width: `${Math.min(Math.max((count - 2), 0) * 5, 100)}%`,
       };
     },
   },
@@ -303,6 +294,12 @@ const app = new Vue({
       })
   },
 
+  watch: {
+    categoryFilter() {
+      this.resetSubCategoryFilter();
+    },
+  },
+
   computed: {
 
     /*
@@ -341,8 +338,16 @@ const app = new Vue({
         }
       })
 
+      // Convert
+      categories = Object.entries(categories);
+
+      // Filter low count
+      categories = categories.filter(cat => {
+        return (cat[1] >= MIN_COUNT_FOR_CATEGORY);
+      });
+
       // Sort
-      categories = Object.entries(categories).sort((a, b) => {
+      categories = categories.sort((a, b) => {
         return a[1] >= b[1] ? -1 : 1;
       });
 
@@ -353,15 +358,11 @@ const app = new Vue({
     subCategoryOptions() {
       if (!this.categoryFilter) return [];
       
-      let subCategories = {};
+      let subCategories = {
+        [SUBCATEGORY_ANY]: this.venuesFilteredByPrimaryCategoryAndLocation.length
+      };
 
-      if (this.subCategoryFilter === SUBCATEGORY_ANY) {
-         subCategories = {
-          [SUBCATEGORY_ANY]: this.venuesFilteredByPrimaryCategoryAndLocation.length
-        };
-      }
-
-      this.venuesFilteredByCategoryAndLocation.forEach(venue => {
+      this.venuesFilteredByPrimaryCategoryAndLocation.forEach(venue => {
           let { subCategory } = venue;
 
         // If category has not been bucketed by my, skip
@@ -374,8 +375,16 @@ const app = new Vue({
         }
       })
 
+      // Convert
+      subCategories = Object.entries(subCategories);
+
+      // Filter low count
+      subCategories = subCategories.filter(cat => {
+        return (cat[1] >= MIN_COUNT_FOR_SUBCATEGORY);
+      });
+
       // Sort
-      subCategories = Object.entries(subCategories).sort((a, b) => {
+      subCategories = subCategories.sort((a, b) => {
         return a[1] >= b[1] ? -1 : 1;
       });
 
@@ -513,25 +522,6 @@ const app = new Vue({
       })
 
       return options;
-
-
-      // this.venuesFilteredByLocation.forEach((venue) => {
-      //   let { category } = venue;
-      //   if (categories.hasOwnProperty(category)) {
-      //     categories[category] = categories[category] + 1;
-      //   } else {
-      //     categories[category] = 1;
-      //   }
-      // })
-
-      // // Sort
-      // categories = Object.entries(categories).sort((a, b) => {
-      //   return a[1] >= b[1] ? -1 : 1;
-      // });
-
-      // return (MIN_COUNT_FOR_CATEGORY)
-      //   ? categories.filter(cat => cat[1] > MIN_COUNT_FOR_CATEGORY)
-      //   : categories;
     },
 
     /**
@@ -539,7 +529,6 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByCategory() {
-      console.log(this.checkins, this.categoryFilter, this.subCategoryFilter);
       return filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
     },
 
@@ -549,6 +538,15 @@ const app = new Vue({
      */
     checkinsFilteredByLocation() {
       return this.filterCheckinsByLocation(this.checkins, this.locationFilter);
+    },
+
+    /**
+     * Apply primary category and location filters to checkins, but not subcategory
+     * @return {[Object]} checkins
+     */
+    checkinsFilteredByPrimaryCategoryAndLocation() {
+      let checkins = filterCheckinsByCategory(this.checkins, this.categoryFilter);
+      return this.filterCheckinsByLocation(checkins, this.locationFilter);
     },
 
     /**
@@ -766,7 +764,7 @@ const app = new Vue({
     },
 
     venuesFilteredByPrimaryCategoryAndLocation() {
-      const venues = checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
+      const venues = checkinsToVenues(this.checkinsFilteredByPrimaryCategoryAndLocation);
       return this.sortVenuesByCount(venues);
     },
 
@@ -968,28 +966,28 @@ const app = new Vue({
   width: var(--col-width);
 }
 
-/*@media (min-width: 800px) {
-  .display-list {
-    width: 26rem;
-  }
+.display-list-single {
+  width: auto;
 }
-*/
+
 .display-list.no-checkins {
   width: auto;
+  flex: 1 0 5rem;
 }
 
 .no-checkins .year-title {
   position: relative;
-  color: var(--muted-color);
+  text-align: center;
+  color: var(--faint-color);
 }
 
 .no-checkins .year-title::before {
   position: absolute;
   content: '';
   display: block;
-  width: 1px;
+  width: 4px;
   height: 1rem;
-  background-color: var(--border-color-light);
+  background-color: var(--faint-color);
   top: 100%;
   left: 50%;
   margin-top: var(--gutter);

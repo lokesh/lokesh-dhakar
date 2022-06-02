@@ -159,11 +159,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Food Stand",
+    "category": "Food",
     "year": 2022,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Food Stand"
   },
   {
     "venue": "Volcano Kimchi",
@@ -608,11 +609,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2022,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hill"
   },
   {
     "venue": "Golden Gate Bridge Welcome Center",
@@ -951,11 +953,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2022,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Southern Pacific Brewing",
@@ -1041,11 +1044,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "History Museum",
+    "category": "Arts",
     "year": 2022,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "History Museum"
   },
   {
     "venue": "Yh Beijing",
@@ -1284,11 +1288,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2022,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hill"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -1567,11 +1572,12 @@
     "city": "Tucson",
     "state": "AZ",
     "country": "United States",
-    "category": "Record Shop",
+    "category": "Shop",
     "year": 2022,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Record Shop"
   },
   {
     "venue": "La Estrella Bakery",
@@ -2094,11 +2100,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2022,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -2389,11 +2396,12 @@
     "city": "Palm Springs",
     "state": "CA",
     "country": "United States",
-    "category": "Public Art",
+    "category": "Arts",
     "year": 2022,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Public Art"
   },
   {
     "venue": "Palm Springs International Airport (PSP)",
@@ -2440,11 +2448,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2022,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Mercury Cafe",
@@ -2646,11 +2655,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2022,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "The Alton",
@@ -2709,11 +2719,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Japanese",
+    "category": "Food",
     "year": 2022,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Japanese"
   },
   {
     "venue": "Mercury Cafe",
@@ -2799,11 +2810,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2022,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Pica Pica Arepa Kitchen",
@@ -3093,11 +3105,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2022,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Gray Area Art & Technology Theater",
@@ -3323,11 +3336,12 @@
     "city": "Mill Valley",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2022,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -3575,11 +3589,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2022,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Whole Foods Market",
@@ -4062,11 +4077,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2022,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Cafe Du Soleil",
@@ -4201,11 +4217,12 @@
     "city": "Manchester",
     "state": "NH",
     "country": "United States",
-    "category": "Academic Building",
+    "category": "Education",
     "year": 2022,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Academic Building"
   },
   {
     "venue": "Flight Coffee Co.",
@@ -4278,11 +4295,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2022,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Le Café du Soleil",
@@ -4739,11 +4757,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2022,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mercury Cafe",
@@ -4801,11 +4820,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2022,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hill"
   },
   {
     "venue": "Third Culture Bakery",
@@ -4891,11 +4911,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2022,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Slacker Ridge",
@@ -5057,11 +5078,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Flower Shop",
+    "category": "Shop",
     "year": 2022,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Flower Shop"
   },
   {
     "venue": "WAG Hotel",
@@ -5069,11 +5091,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2022,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Soul Grind",
@@ -5869,11 +5892,12 @@
     "city": "Mill Valley",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2021,
     "month": 11,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Alpine Dam",
@@ -5881,11 +5905,12 @@
     "city": "Marin County",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2021,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -6086,11 +6111,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Garden Center",
+    "category": "Shop",
     "year": 2021,
     "month": 11,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Garden Center"
   },
   {
     "venue": "Kantine",
@@ -6238,11 +6264,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Alchemy By Alta",
@@ -6598,11 +6625,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Mike's Truck Garden",
@@ -6713,11 +6741,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "The Little Chihuahua",
@@ -6801,11 +6830,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "The Grind Cafe",
@@ -7002,11 +7032,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2021,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Thorough Bread and Pastry",
@@ -7462,11 +7493,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Garden Center",
+    "category": "Shop",
     "year": 2021,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Garden Center"
   },
   {
     "venue": "ACME Floral",
@@ -7537,11 +7569,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Mystic Haircutting",
@@ -8092,11 +8125,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2021,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Souvenir Coffee",
@@ -8182,11 +8216,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2021,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Manny’s",
@@ -8207,11 +8242,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pakistani",
+    "category": "Food",
     "year": 2021,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Pakistani"
   },
   {
     "venue": "Kantine",
@@ -8398,11 +8434,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2021,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Kantine",
@@ -8655,11 +8692,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Public Art",
+    "category": "Arts",
     "year": 2021,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Public Art"
   },
   {
     "venue": "Crane Cove Park",
@@ -8912,11 +8950,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Garden Center",
+    "category": "Shop",
     "year": 2021,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Garden Center"
   },
   {
     "venue": "Kantine",
@@ -9271,11 +9310,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Garden Center",
+    "category": "Shop",
     "year": 2021,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Garden Center"
   },
   {
     "venue": "Mercury Cafe",
@@ -10081,11 +10121,12 @@
     "city": "Exeter",
     "state": "NH",
     "country": "United States",
-    "category": "Academic Building",
+    "category": "Education",
     "year": 2021,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Academic Building"
   },
   {
     "venue": "Hannaford Supermarket",
@@ -10221,11 +10262,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Horsefeather",
@@ -10285,11 +10327,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2021,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Track"
   },
   {
     "venue": "The Postal Chase",
@@ -10502,11 +10545,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -10822,11 +10866,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Señor Sisig",
@@ -11002,11 +11047,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2021,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -11105,11 +11151,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2021,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Nourish Cafe SF",
@@ -11804,11 +11851,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2021,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Native Twins Coffee",
@@ -12686,11 +12734,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2020,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Oakside Cafe",
@@ -12711,11 +12760,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2020,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -12801,11 +12851,12 @@
     "city": "Manchester",
     "state": "NH",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2020,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Aroma Joe's Coffee",
@@ -13495,11 +13546,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2020,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Mill",
@@ -13766,11 +13818,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2020,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Le Café du Soleil",
@@ -14296,11 +14349,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2020,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Mill",
@@ -14448,11 +14502,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2020,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ladle & Leaf",
@@ -14460,11 +14515,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soup",
+    "category": "Food",
     "year": 2020,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Soup"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -15048,11 +15104,12 @@
     "city": "Bedford",
     "state": "NH",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2020,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Manchester-Boston Regional Airport (MHT)",
@@ -15384,11 +15441,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Oakside Cafe",
@@ -16044,11 +16102,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "BEI Hotel San Francisco",
@@ -16069,11 +16128,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Whisky Bar",
+    "category": "Nightlife",
     "year": 2019,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Whisky Bar"
   },
   {
     "venue": "Hazel Southern Bar & Kitchen",
@@ -16081,11 +16141,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Whisky Bar",
+    "category": "Nightlife",
     "year": 2019,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Whisky Bar"
   },
   {
     "venue": "Andytown",
@@ -16816,11 +16877,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2019,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "The Mill",
@@ -16919,11 +16981,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Stanza Coffee Bar",
@@ -17241,11 +17304,12 @@
     "city": "Bolinas",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2019,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Hawk Hill",
@@ -17253,11 +17317,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -18112,11 +18177,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Misdirections Magic Shop",
@@ -18188,11 +18254,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "T-Mobile",
@@ -18302,11 +18369,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Bun Mee",
@@ -18533,11 +18601,12 @@
     "city": "Brooklyn",
     "state": "NY",
     "country": "United States",
-    "category": "Record Shop",
+    "category": "Shop",
     "year": 2019,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Record Shop"
   },
   {
     "venue": "Union Square Park",
@@ -18880,11 +18949,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Sol Food Puerto Rican Cuisine",
@@ -19007,11 +19077,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2019,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Bernal Heights Park",
@@ -19057,11 +19128,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "China Beach",
@@ -19212,11 +19284,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2019,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Debonair Barber + Shave Parlor",
@@ -20158,11 +20231,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2019,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Express Photo & Mail",
@@ -20207,11 +20281,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2019,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Patagonia",
@@ -20283,11 +20358,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Golden Gate Bridge Welcome Center",
@@ -20333,11 +20409,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2019,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Andytown Coffee",
@@ -20357,11 +20434,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2019,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -21002,11 +21080,12 @@
     "city": "Boise",
     "state": "ID",
     "country": "United States",
-    "category": "Record Shop",
+    "category": "Shop",
     "year": 2019,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Record Shop"
   },
   {
     "venue": "Form & Function",
@@ -21066,11 +21145,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "German",
+    "category": "Food",
     "year": 2019,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "German"
   },
   {
     "venue": "Sightglass Coffee",
@@ -21541,11 +21621,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2019,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -21553,11 +21634,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -21707,11 +21789,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2019,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Kezar Stadium",
@@ -21719,11 +21802,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2019,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Andytown Coffee",
@@ -22099,11 +22183,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Oasis Cafe",
@@ -22445,11 +22530,12 @@
     "city": "Los Angeles",
     "state": "CA",
     "country": "United States",
-    "category": "Terminal",
+    "category": "Travel",
     "year": 2019,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Terminal"
   },
   {
     "venue": "Starbucks Reserve",
@@ -22819,11 +22905,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2019,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Black Sand Beach",
@@ -23046,11 +23133,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Sightglass Coffee",
@@ -23188,11 +23276,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Little Chihuahua",
@@ -23595,11 +23684,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2018,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Mount.Tamalpais (Gardner Lookout)",
@@ -23839,11 +23929,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2018,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "The Beer Hall",
@@ -24043,11 +24134,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2018,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Cento",
@@ -24416,11 +24508,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Sightglass Coffee",
@@ -24594,11 +24687,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -24645,11 +24739,12 @@
     "city": "Hooksett",
     "state": "NH",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2018,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Tower Hill Walking Trail",
@@ -24747,11 +24842,12 @@
     "city": "Manchester",
     "state": "NH",
     "country": "United States",
-    "category": "Academic Building",
+    "category": "Education",
     "year": 2018,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Academic Building"
   },
   {
     "venue": "Laconia City Hall",
@@ -24989,11 +25085,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Falletti Foods",
@@ -25568,11 +25665,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Philz Coffee",
@@ -25593,11 +25691,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Weebly",
@@ -25657,11 +25756,12 @@
     "city": "Glen Ellen",
     "state": "CA",
     "country": "United States",
-    "category": "Winery",
+    "category": "Nightlife",
     "year": 2018,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Winery"
   },
   {
     "venue": "Amy's Drive Thru",
@@ -25721,11 +25821,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mount Olympus",
@@ -26043,11 +26144,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "WAG Hotel",
@@ -26055,11 +26157,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Weebly",
@@ -26080,11 +26183,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "German",
+    "category": "Food",
     "year": 2018,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "German"
   },
   {
     "venue": "East Peak, Mount Tamalpais",
@@ -26118,11 +26222,12 @@
     "city": "Marin County",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Lake"
   },
   {
     "venue": "Fairfax Coffee Roastery",
@@ -26181,11 +26286,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Trader Joe's",
@@ -26358,11 +26464,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2018,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Geary Salon",
@@ -26601,11 +26708,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2018,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Yerba Buena Gardens",
@@ -26755,11 +26863,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Firehouse Coffee & Teas",
@@ -26987,11 +27096,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "VeganBurg",
@@ -27217,11 +27327,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -27641,11 +27752,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "South Park",
@@ -27769,11 +27881,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Native Twins Coffee",
@@ -27921,11 +28034,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Harbor / Marina",
+    "category": "Travel",
     "year": 2018,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Harbor / Marina"
   },
   {
     "venue": "Lucky",
@@ -27958,11 +28072,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Native Twins Coffee",
@@ -28124,11 +28239,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2018,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Wholesome Bakery",
@@ -28266,11 +28382,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mount Davidson Park",
@@ -28419,11 +28536,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2018,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Weebly",
@@ -28483,11 +28601,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Public Art",
+    "category": "Arts",
     "year": 2018,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Public Art"
   },
   {
     "venue": "Starbucks Reserve",
@@ -28559,11 +28678,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Alamo Square",
@@ -28813,11 +28933,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -29163,11 +29284,12 @@
     "city": "Scottsdale",
     "state": "AZ",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2018,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "True Food Kitchen",
@@ -29505,11 +29627,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -29840,11 +29963,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Slacker Ridge",
@@ -29865,11 +29989,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Wholesome Bakery",
@@ -30044,11 +30169,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2018,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "VeganBurg",
@@ -30263,11 +30389,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2018,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Battery Spencer",
@@ -30275,11 +30402,12 @@
     "city": "Sausalito",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2018,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Wooden",
@@ -30326,11 +30454,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "IKEA",
@@ -30351,11 +30480,12 @@
     "city": "Berkeley",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2018,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Tiny Post Office",
@@ -30387,11 +30517,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2018,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Philz Coffee",
@@ -30567,11 +30698,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Matching Half Cafe",
@@ -30670,11 +30802,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -30720,11 +30853,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Vista Point",
@@ -30898,11 +31032,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Mill",
@@ -30949,11 +31084,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -31128,11 +31264,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Hawk Hill",
@@ -31140,11 +31277,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Castro Theatre",
@@ -31307,11 +31445,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Whole Foods Market",
@@ -31409,11 +31548,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2017,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Lyon Street Steps",
@@ -31460,11 +31600,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -31550,11 +31691,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Sightglass Coffee",
@@ -31601,11 +31743,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2017,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -31613,11 +31756,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Little Chihuahua",
@@ -31690,11 +31834,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Flywheel Coffee",
@@ -31936,11 +32081,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2017,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -32000,11 +32146,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Repose",
@@ -32115,11 +32262,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "History Museum",
+    "category": "Arts",
     "year": 2017,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "History Museum"
   },
   {
     "venue": "San Francisco Public Library",
@@ -32834,11 +32982,12 @@
     "city": "Manchester",
     "state": "NH",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2017,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Dunkin'",
@@ -32988,11 +33137,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Princess of the Panhandle",
@@ -33063,11 +33213,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Repose",
@@ -33398,11 +33549,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Kezar Stadium",
@@ -33410,11 +33562,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2017,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Repose",
@@ -33461,11 +33614,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Four Barrel Coffee",
@@ -33627,11 +33781,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -34164,11 +34319,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Garden Center",
+    "category": "Shop",
     "year": 2017,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Garden Center"
   },
   {
     "venue": "Bank of America",
@@ -34227,11 +34383,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Kirby Cove",
@@ -34252,11 +34409,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Cafe La Vie",
@@ -34611,11 +34769,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Montréal-Pierre Elliott Trudeau International Airport (YUL) (Aéroport international Pierre-Elliott-Trudeau de Montréal)",
@@ -34750,11 +34909,12 @@
     "city": "Halifax",
     "state": "NS",
     "country": "Canada",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2017,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Halifax Central Library",
@@ -35032,11 +35192,12 @@
     "city": "Niland",
     "state": "CA",
     "country": "United States",
-    "category": "Public Art",
+    "category": "Arts",
     "year": 2017,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Public Art"
   },
   {
     "venue": "Davis-Schrimpf Seep Field",
@@ -35389,11 +35550,12 @@
     "city": "Coronado",
     "state": "CA",
     "country": "United States",
-    "category": "Resort",
+    "category": "Travel",
     "year": 2017,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Resort"
   },
   {
     "venue": "Lolita's At The Park",
@@ -35453,11 +35615,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -35684,11 +35847,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2017,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "The Postal Chase",
@@ -35851,11 +36015,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Repose",
@@ -35901,11 +36066,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2017,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -35939,11 +36105,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Flower Shop",
+    "category": "Shop",
     "year": 2017,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Flower Shop"
   },
   {
     "venue": "Haight Street Market",
@@ -36117,11 +36284,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Matching Half Cafe",
@@ -36388,11 +36556,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Falafelle",
@@ -36438,11 +36607,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -36476,11 +36646,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Trader Joe's",
@@ -36592,11 +36763,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2017,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Haight Street Market",
@@ -36629,11 +36801,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "German",
+    "category": "Food",
     "year": 2017,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "German"
   },
   {
     "venue": "Nourish Cafe SF",
@@ -36706,11 +36879,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mount Olympus",
@@ -37156,11 +37330,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2017,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Old Speedway Meadows",
@@ -37581,11 +37756,12 @@
     "city": "Albuquerque",
     "state": "NM",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2017,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Deep Space Coffee",
@@ -37747,11 +37923,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -37824,11 +38001,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Geary Salon",
@@ -37901,11 +38079,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Repose",
@@ -37939,11 +38118,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Love On Haight",
@@ -38001,11 +38181,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Weebly",
@@ -38077,11 +38258,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Getaround HQ",
@@ -38115,11 +38297,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -38165,11 +38348,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Fairfax Coffee Roastery",
@@ -38241,11 +38425,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Handy Handyman Hardware",
@@ -38279,11 +38464,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Arsicault Bakery",
@@ -38369,11 +38555,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Whole Foods Market",
@@ -38471,11 +38658,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Richfield",
@@ -38522,11 +38710,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -38713,11 +38902,12 @@
     "city": "Udaipur",
     "state": "Rājasthān",
     "country": "India",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2017,
     "month": 1,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Badi lake",
@@ -38725,11 +38915,12 @@
     "city": "Udaipur",
     "state": "Rājasthān",
     "country": "India",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2017,
     "month": 1,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Fatehsagar Lake",
@@ -38737,11 +38928,12 @@
     "city": "Udaipur",
     "state": "Rājasthān",
     "country": "India",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2017,
     "month": 1,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Cafe Coffee Day",
@@ -38762,11 +38954,12 @@
     "city": "Udaipur",
     "state": "Rājasthān",
     "country": "India",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2017,
     "month": 1,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Republic of India",
@@ -39111,11 +39304,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Flywheel Coffee",
@@ -39161,11 +39355,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Dropbox HQ",
@@ -39212,11 +39407,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2017,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Trader Joe's",
@@ -39302,11 +39498,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Apple Union Square",
@@ -39327,11 +39524,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Chrome HQ",
@@ -39365,11 +39563,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Sundance Kabuki Cinemas",
@@ -39455,11 +39654,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2017,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -39519,11 +39719,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Golden Gate Bridge Welcome Center",
@@ -39582,11 +39783,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -39633,11 +39835,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -39658,11 +39861,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Corona Heights Park",
@@ -39798,11 +40002,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Hawk Hill",
@@ -39810,11 +40015,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -39887,11 +40093,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -40552,11 +40759,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2016,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Coit Tower",
@@ -40655,11 +40863,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2016,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Shizen",
@@ -40680,11 +40889,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Whisky Bar",
+    "category": "Nightlife",
     "year": 2016,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Whisky Bar"
   },
   {
     "venue": "Asian Box",
@@ -41027,11 +41237,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "WeWork Berkeley",
@@ -41129,11 +41340,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Mill",
@@ -41336,11 +41548,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Baseball Field",
+    "category": "Outdoors",
     "year": 2016,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Baseball Field"
   },
   {
     "venue": "STEEP",
@@ -41501,11 +41714,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Bike Trail",
+    "category": "Outdoors",
     "year": 2016,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Bike Trail"
   },
   {
     "venue": "Little Gem",
@@ -41591,11 +41805,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2016,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -41785,11 +42000,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Hayes Valley",
@@ -42314,11 +42530,12 @@
     "city": "Scottsdale",
     "state": "AZ",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2016,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Saffron JAK Food truck",
@@ -42635,11 +42852,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Bowling Alley",
+    "category": "Arts",
     "year": 2016,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Bowling Alley"
   },
   {
     "venue": "Quest Diagnostics",
@@ -42788,11 +43006,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Little Chihuahua",
@@ -42942,11 +43161,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mission Dolores",
@@ -43328,11 +43548,12 @@
     "city": "Santa Cruz",
     "state": "CA",
     "country": "United States",
-    "category": "Winery",
+    "category": "Nightlife",
     "year": 2016,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Winery"
   },
   {
     "venue": "Cafe Gratitude",
@@ -43456,11 +43677,12 @@
     "city": "Cupertino",
     "state": "CA",
     "country": "United States",
-    "category": "Vineyard",
+    "category": "Nightlife",
     "year": 2016,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Vineyard"
   },
   {
     "venue": "Wrecking Ball Coffee Roasters",
@@ -43559,11 +43781,12 @@
     "city": "Monterey",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2016,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Subway",
@@ -43685,11 +43908,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2016,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "The Willows",
@@ -43788,11 +44012,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Kirby Cove",
@@ -43839,11 +44064,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Veggie Grill",
@@ -43916,11 +44142,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mt. Tamalpais Amphitheater",
@@ -44095,11 +44322,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -44185,11 +44413,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2016,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Old Speedway Meadows",
@@ -44779,11 +45008,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Chrome HQ",
@@ -44855,11 +45085,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2016,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Lombard Street",
@@ -44932,11 +45163,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Little Chihuahua",
@@ -44957,11 +45189,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2016,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Amy's Drive Thru",
@@ -45215,11 +45448,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Trouble Coffee",
@@ -45357,11 +45591,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Sibley Volcanic Regional Preserve",
@@ -45408,11 +45643,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -45523,11 +45759,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Trader Joe's",
@@ -45780,11 +46017,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Weebly",
@@ -45818,11 +46056,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Alamo Square",
@@ -46193,11 +46432,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Cento",
@@ -46322,11 +46562,12 @@
     "city": "Truckee",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2015,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "La Mexicana Meat Market & Taqueria",
@@ -46567,11 +46808,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Bike Trail",
+    "category": "Outdoors",
     "year": 2015,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Bike Trail"
   },
   {
     "venue": "Greens Restaurant",
@@ -46618,11 +46860,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2015,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Trouble Coffee",
@@ -46669,11 +46912,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Cento",
@@ -46798,11 +47042,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Rosamunde Sausage Grill",
@@ -46810,11 +47055,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -46874,11 +47120,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Haight-Ashbury",
@@ -46990,11 +47237,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Raymond Kimbell Playground",
@@ -47119,11 +47367,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Flywheel Coffee",
@@ -47144,11 +47393,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -47220,11 +47470,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Harbor / Marina",
+    "category": "Travel",
     "year": 2015,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Harbor / Marina"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -47258,11 +47509,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Arizmendi Bakery Panaderia & Pizzeria",
@@ -47374,11 +47626,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -47706,11 +47959,12 @@
     "city": "Manchester",
     "state": "NH",
     "country": "United States",
-    "category": "Golf Course",
+    "category": "Outdoors",
     "year": 2015,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Golf Course"
   },
   {
     "venue": "Republic Café & Bistro",
@@ -47975,11 +48229,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Pet Food Express",
@@ -48013,11 +48268,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Alamo Square",
@@ -48181,11 +48437,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2015,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Hopper's Hands",
@@ -48219,11 +48476,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Tony Tutto",
@@ -48852,11 +49110,12 @@
     "city": "South Lake Tahoe",
     "state": "CA",
     "country": "United States",
-    "category": "Noodles",
+    "category": "Food",
     "year": 2015,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Noodles"
   },
   {
     "venue": "Ernie's Coffee Shop",
@@ -48890,11 +49149,12 @@
     "city": "South Lake Tahoe",
     "state": "CA",
     "country": "United States",
-    "category": "Golf Course",
+    "category": "Outdoors",
     "year": 2015,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Golf Course"
   },
   {
     "venue": "Gear and grind cafe",
@@ -49045,11 +49305,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Holy Gelato",
@@ -49263,11 +49524,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Corona Heights Park",
@@ -49560,11 +49822,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Señor Sisig",
@@ -49598,11 +49861,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "RVCA Clothing",
@@ -49649,11 +49913,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -49817,11 +50082,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "John O'Connell Field",
@@ -49829,11 +50095,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Soccer Field",
+    "category": "Outdoors",
     "year": 2015,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soccer Field"
   },
   {
     "venue": "Trader Joe's",
@@ -50636,11 +50903,12 @@
     "city": "Anaheim",
     "state": "CA",
     "country": "United States",
-    "category": "Shopping Plaza",
+    "category": "Shop",
     "year": 2015,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Shopping Plaza"
   },
   {
     "venue": "Native Foods Café",
@@ -50764,11 +51032,12 @@
     "city": "Los Angeles",
     "state": "CA",
     "country": "United States",
-    "category": "Concert Hall",
+    "category": "Arts",
     "year": 2015,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Concert Hall"
   },
   {
     "venue": "Cafecito Organico @ Anaheim Packing House",
@@ -50969,11 +51238,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Public Art",
+    "category": "Arts",
     "year": 2015,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Public Art"
   },
   {
     "venue": "DragonEats",
@@ -51330,11 +51600,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2015,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Jumpin' Java Coffee House",
@@ -51419,11 +51690,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2015,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Sutro Heights Park",
@@ -51777,11 +52049,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Fillmore Farmers' Market",
@@ -51956,11 +52229,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Little Star Pizza",
@@ -51994,11 +52268,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Samovar Tea Lounge",
@@ -52538,11 +52813,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Safeway",
@@ -52976,11 +53252,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2015,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Sightglass Coffee",
@@ -53001,11 +53278,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Astronaut Cafe",
@@ -53377,11 +53655,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2015,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Lake"
   },
   {
     "venue": "Golden Gate Park",
@@ -53454,11 +53733,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2015,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "The Mill",
@@ -53518,11 +53798,12 @@
     "city": "Jaipur",
     "state": "Rājasthān",
     "country": "India",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2014,
     "month": 11,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Shiv Vilas",
@@ -53530,11 +53811,12 @@
     "city": "Jaipur",
     "state": "Rājasthān",
     "country": "India",
-    "category": "Resort",
+    "category": "Travel",
     "year": 2014,
     "month": 11,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Resort"
   },
   {
     "venue": "Abu Dhabi International Airport (AUH) (مطار أبو ظبي الدولي)",
@@ -53646,11 +53928,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Getaround HQ",
@@ -53671,11 +53954,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Best Buy",
@@ -53722,11 +54006,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Bergerac",
@@ -53760,11 +54045,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "WAG Hotel",
@@ -53772,11 +54058,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "WAG Hotel",
@@ -53784,11 +54071,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "WAG Hotel",
@@ -53796,11 +54084,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Sightglass Coffee",
@@ -54119,11 +54408,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Basil Thai Restaurant & Bar",
@@ -54170,11 +54460,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Ocean Beach",
@@ -54631,11 +54922,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Kirby Cove",
@@ -54771,11 +55063,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Loving Hut",
@@ -54822,11 +55115,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Trader Joe's",
@@ -55144,11 +55438,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Zachary's Chicago Pizza",
@@ -55286,11 +55581,12 @@
     "city": "Oakland",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2014,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Lake Merritt",
@@ -55298,11 +55594,12 @@
     "city": "Oakland",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2014,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "The Cathedral of Christ the Light",
@@ -55362,11 +55659,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Alamo Square",
@@ -55426,11 +55724,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -55568,11 +55867,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "VEGA",
@@ -55619,11 +55919,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Cup",
@@ -55669,11 +55970,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Baseball Field",
+    "category": "Outdoors",
     "year": 2014,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Baseball Field"
   },
   {
     "venue": "Elite Sports",
@@ -55694,11 +55996,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Cibo",
@@ -55914,11 +56217,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Trulia, Inc",
@@ -56004,11 +56308,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -56054,11 +56359,12 @@
     "city": "Geyserville",
     "state": "CA",
     "country": "United States",
-    "category": "Winery",
+    "category": "Nightlife",
     "year": 2014,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Winery"
   },
   {
     "venue": "Flying Goat Coffee",
@@ -56092,11 +56398,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Sextant Coffee Roasters",
@@ -56427,11 +56734,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Kezar Stadium",
@@ -56439,11 +56747,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2014,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Track"
   },
   {
     "venue": "Driftwood",
@@ -56528,11 +56837,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2014,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "CVS pharmacy",
@@ -56566,11 +56876,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Bike Trail",
+    "category": "Outdoors",
     "year": 2014,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Bike Trail"
   },
   {
     "venue": "Enjoy Vegetarian Restaurant",
@@ -56864,11 +57175,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2014,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Presidio of San Francisco",
@@ -57045,11 +57357,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "WAG Hotel",
@@ -57057,11 +57370,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -57185,11 +57499,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Getaround HQ",
@@ -57210,11 +57525,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Baseball Field",
+    "category": "Outdoors",
     "year": 2014,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Baseball Field"
   },
   {
     "venue": "Mission Public SF",
@@ -57235,11 +57551,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Harvest Urban Market",
@@ -57338,11 +57655,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Loving Hut SF Sunset",
@@ -57569,11 +57887,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Slice of Life",
@@ -57594,11 +57913,12 @@
     "city": "Sebastopol",
     "state": "CA",
     "country": "United States",
-    "category": "Vineyard",
+    "category": "Nightlife",
     "year": 2014,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Vineyard"
   },
   {
     "venue": "Tara Bella Winery",
@@ -57606,11 +57926,12 @@
     "city": "Santa Rosa",
     "state": "CA",
     "country": "United States",
-    "category": "Winery",
+    "category": "Nightlife",
     "year": 2014,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Winery"
   },
   {
     "venue": "Bloodhound",
@@ -57774,11 +58095,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Corona Heights Park",
@@ -57955,11 +58277,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "The North Face Outlet Berkeley",
@@ -58058,11 +58381,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Sightglass Coffee",
@@ -58109,11 +58433,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Cafe Sophie",
@@ -58251,11 +58576,12 @@
     "city": "Boston",
     "state": "MA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2014,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Hahvahd Tour",
@@ -58442,11 +58768,12 @@
     "city": "Hooksett",
     "state": "NH",
     "country": "United States",
-    "category": "Golf Course",
+    "category": "Outdoors",
     "year": 2014,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Golf Course"
   },
   {
     "venue": "The Cyclone",
@@ -58467,11 +58794,12 @@
     "city": "Brooklyn",
     "state": "NY",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2014,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Coney Island Beach & Boardwalk",
@@ -58647,11 +58975,12 @@
     "city": "Hooksett",
     "state": "NH",
     "country": "United States",
-    "category": "Golf Course",
+    "category": "Outdoors",
     "year": 2014,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Golf Course"
   },
   {
     "venue": "Manchester-Boston Regional Airport (MHT)",
@@ -58737,11 +59066,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Garden Center",
+    "category": "Shop",
     "year": 2014,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Garden Center"
   },
   {
     "venue": "Sightglass Coffee",
@@ -58775,11 +59105,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Japanese",
+    "category": "Food",
     "year": 2014,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Japanese"
   },
   {
     "venue": "Ritual Roasters",
@@ -58800,11 +59131,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Flower Shop",
+    "category": "Shop",
     "year": 2014,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Flower Shop"
   },
   {
     "venue": "Corona Heights Park",
@@ -58992,11 +59324,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "German",
+    "category": "Food",
     "year": 2014,
     "month": 5,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "German"
   },
   {
     "venue": "Sightglass Coffee",
@@ -59095,11 +59428,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2014,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Jai Ho Indian Grocery",
@@ -59366,11 +59700,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Duboce Park Cafe",
@@ -59664,11 +59999,12 @@
     "city": "Bolinas",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2014,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Sightglass Coffee",
@@ -59818,11 +60154,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Store",
+    "category": "Shop",
     "year": 2014,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Store"
   },
   {
     "venue": "AK Subs",
@@ -60217,11 +60554,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2014,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Cafe Sophie",
@@ -60320,11 +60658,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "AK Subs",
@@ -60539,11 +60878,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pet Service",
+    "category": "Shop",
     "year": 2014,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pet Service"
   },
   {
     "venue": "Holy Gelato",
@@ -60564,11 +60904,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Manora's Thai Cuisine",
@@ -61287,11 +61628,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Bean There Coffee & Tea",
@@ -61505,11 +61847,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 1,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Señor Sisig",
@@ -62022,11 +62365,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2014,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "1058 Hoagie",
@@ -62060,11 +62404,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2014,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Sunrise Cafe",
@@ -63907,11 +64252,12 @@
     "city": "Nashua",
     "state": "NH",
     "country": "United States",
-    "category": "Bowling Alley",
+    "category": "Arts",
     "year": 2013,
     "month": 11,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Bowling Alley"
   },
   {
     "venue": "South Station Bus Terminal",
@@ -64203,11 +64549,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Dim Sum",
+    "category": "Food",
     "year": 2013,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Dim Sum"
   },
   {
     "venue": "Velo Rouge Cafe",
@@ -64228,11 +64575,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Trader Joe's",
@@ -64279,11 +64627,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -64291,11 +64640,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Little Red Riding Truck",
@@ -64342,11 +64692,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Live Sushi Bistro",
@@ -64354,11 +64705,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Japanese",
+    "category": "Food",
     "year": 2013,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Japanese"
   },
   {
     "venue": "Saint Frank",
@@ -64379,11 +64731,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Cellarmaker Brewing Company",
@@ -64469,11 +64822,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mars Bar & Restaurant",
@@ -64533,11 +64887,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Whisky Bar",
+    "category": "Nightlife",
     "year": 2013,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Whisky Bar"
   },
   {
     "venue": "City Beer Store",
@@ -64545,11 +64900,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Store",
+    "category": "Shop",
     "year": 2013,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Store"
   },
   {
     "venue": "Sunrise Cafe",
@@ -64697,11 +65053,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2013,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Front",
@@ -64774,11 +65131,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 9,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Mikkeller Bar SF",
@@ -64980,11 +65338,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Trader Joe's",
@@ -65239,11 +65598,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Castro",
@@ -65355,11 +65715,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2013,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Alamo Square",
@@ -65393,11 +65754,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2013,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Spike's Coffee & Tea",
@@ -65418,11 +65780,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 8,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Noc Noc",
@@ -65495,11 +65858,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Bike Trail",
+    "category": "Outdoors",
     "year": 2013,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Bike Trail"
   },
   {
     "venue": "Workshop Cafe FiDi",
@@ -65585,11 +65949,12 @@
     "city": "Marin County",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2013,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Lake"
   },
   {
     "venue": "Cibo",
@@ -65907,11 +66272,12 @@
     "city": "Hooksett",
     "state": "NH",
     "country": "United States",
-    "category": "Golf Course",
+    "category": "Outdoors",
     "year": 2013,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Golf Course"
   },
   {
     "venue": "Market Square",
@@ -66373,11 +66739,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2013,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Citizen's Band",
@@ -66799,11 +67166,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Japanese",
+    "category": "Food",
     "year": 2013,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Japanese"
   },
   {
     "venue": "Frjtz",
@@ -67779,11 +68147,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Japanese",
+    "category": "Food",
     "year": 2013,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Japanese"
   },
   {
     "venue": "Getaround HQ",
@@ -67881,11 +68250,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pakistani",
+    "category": "Food",
     "year": 2013,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pakistani"
   },
   {
     "venue": "K&D Market",
@@ -67996,11 +68366,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Hellman Hollow",
@@ -68410,11 +68781,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "VEGA",
@@ -68798,11 +69170,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 4,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Castro Theatre",
@@ -69392,11 +69765,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Rosamunde Sausage Grill",
@@ -69572,11 +69946,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Store",
+    "category": "Shop",
     "year": 2013,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Store"
   },
   {
     "venue": "Sightglass Coffee",
@@ -69636,11 +70011,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Corona Heights Park",
@@ -69971,11 +70347,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Record Shop",
+    "category": "Shop",
     "year": 2013,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Record Shop"
   },
   {
     "venue": "Jack Hirose Tea House",
@@ -70175,11 +70552,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Hollow",
@@ -70200,11 +70578,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 3,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Alamo Square",
@@ -70614,11 +70993,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -70626,11 +71006,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "VEGA",
@@ -70677,11 +71058,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Hyatt Regency Monterey Hotel And Spa On Del Monte Golf Course",
@@ -70741,11 +71123,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Store",
+    "category": "Shop",
     "year": 2013,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Store"
   },
   {
     "venue": "Off the Grid: 5M @ Fifth and Minna",
@@ -70869,11 +71252,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Herbivore",
@@ -71846,11 +72230,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Mill",
@@ -71985,11 +72370,12 @@
     "city": "New Orleans",
     "state": "LA",
     "country": "United States",
-    "category": "Zoo",
+    "category": "Outdoors",
     "year": 2013,
     "month": 1,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo"
   },
   {
     "venue": "Stanley",
@@ -72512,11 +72898,12 @@
     "venueId": "4ce068a769136dcb0467e3e6",
     "state": "California",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2013,
     "month": 1,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Alpine Dam",
@@ -72524,11 +72911,12 @@
     "city": "Marin County",
     "state": "CA",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2013,
     "month": 1,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Lake"
   },
   {
     "venue": "Fairfax Coffee Roastery",
@@ -72653,11 +73041,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Pig and Whistle",
@@ -72769,11 +73158,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Absinthe Brasserie & Bar",
@@ -73167,11 +73557,12 @@
     "city": "Kansas City",
     "state": "KS",
     "country": "United States",
-    "category": "Casino",
+    "category": "Arts",
     "year": 2013,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Casino"
   },
   {
     "venue": "Allen Fieldhouse",
@@ -73204,11 +73595,12 @@
     "city": "Lawrence",
     "state": "KS",
     "country": "United States",
-    "category": "Record Shop",
+    "category": "Shop",
     "year": 2013,
     "month": 0,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Record Shop"
   },
   {
     "venue": "Antique Bazaars II",
@@ -73797,11 +74189,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Alamo Square",
@@ -73964,11 +74357,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Rolling Out",
@@ -74236,11 +74630,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2013,
     "month": 0,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Golden Gate Bridge",
@@ -74480,11 +74875,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2012,
     "month": 11,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Teeth",
@@ -74946,11 +75342,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "The Little Chihuahua",
@@ -74971,11 +75368,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Good Earth Natural Foods",
@@ -75047,11 +75445,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 11,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Bean Bag Cafe",
@@ -75317,11 +75716,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Glen Canyon South Rim Cliff Trail",
@@ -75394,11 +75794,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Flower Shop",
+    "category": "Shop",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Flower Shop"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -75406,11 +75807,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Sausalito Bakery & Cafe",
@@ -75481,11 +75883,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Vista Point",
@@ -75570,11 +75973,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Store",
+    "category": "Shop",
     "year": 2012,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Store"
   },
   {
     "venue": "Trader Joe's",
@@ -75647,11 +76051,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Velo Rouge Cafe",
@@ -75750,11 +76155,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "Hawk Hill",
@@ -75762,11 +76168,12 @@
     "city": "Marin Headlands",
     "state": "CA",
     "country": "United States",
-    "category": "Hill",
+    "category": "Outdoors",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hill"
   },
   {
     "venue": "VEGA",
@@ -75800,11 +76207,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Harbor / Marina",
+    "category": "Travel",
     "year": 2012,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Harbor / Marina"
   },
   {
     "venue": "Maven",
@@ -77384,11 +77792,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Pakistani",
+    "category": "Food",
     "year": 2012,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Pakistani"
   },
   {
     "venue": "Getaround Rooftop Party Club",
@@ -78031,11 +78440,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "German",
+    "category": "Food",
     "year": 2012,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "German"
   },
   {
     "venue": "Momi Toby's Revolution Cafe & Art Bar",
@@ -79207,11 +79617,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2012,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -79645,11 +80056,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Store",
+    "category": "Shop",
     "year": 2012,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Store"
   },
   {
     "venue": "Custom Burger",
@@ -80948,11 +81360,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Beer Store",
+    "category": "Shop",
     "year": 2012,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Beer Store"
   },
   {
     "venue": "Triptych",
@@ -81194,11 +81607,12 @@
     "city": "Machu Picchu",
     "state": "Cusco",
     "country": "Peru",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2012,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Corona Beach House",
@@ -81284,11 +81698,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Opera House",
+    "category": "Arts",
     "year": 2012,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Opera House"
   },
   {
     "venue": "Aloha Sushi",
@@ -82031,11 +82446,12 @@
     "city": "Manchester",
     "state": "NH",
     "country": "United States",
-    "category": "Beer Garden",
+    "category": "Nightlife",
     "year": 2012,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Beer Garden"
   },
   {
     "venue": "Raxx Lounge & Nightlife",
@@ -82649,11 +83065,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Bowling Alley",
+    "category": "Arts",
     "year": 2012,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Bowling Alley"
   },
   {
     "venue": "Getaround HQ",
@@ -83499,11 +83916,12 @@
     "city": "Austin",
     "state": "TX",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2012,
     "month": 2,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Austin Convention Center",
@@ -85326,11 +85744,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Soup",
+    "category": "Food",
     "year": 2011,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Soup"
   },
   {
     "venue": "Pop Tacos",
@@ -85454,11 +85873,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Noodles",
+    "category": "Food",
     "year": 2011,
     "month": 10,
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Noodles"
   },
   {
     "venue": "Urban Outfitters",
@@ -85646,11 +86066,12 @@
     "city": "Boston",
     "state": "MA",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2011,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Track"
   },
   {
     "venue": "Nashua High School North",
@@ -85799,11 +86220,12 @@
     "city": "Philadelphia",
     "state": "PA",
     "country": "United States",
-    "category": "Academic Building",
+    "category": "Education",
     "year": 2011,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Academic Building"
   },
   {
     "venue": "Hummus Grill",
@@ -85823,11 +86245,12 @@
     "city": "Philadelphia",
     "state": "PA",
     "country": "United States",
-    "category": "Academic Building",
+    "category": "Education",
     "year": 2011,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Academic Building"
   },
   {
     "venue": "Pop Tacos",
@@ -86405,11 +86828,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2011,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Herbivore",
@@ -86456,11 +86880,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2011,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -86764,11 +87189,12 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2011,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Golden Gate Fortune Cookie Factory 金門餅食公司",
@@ -87099,11 +87525,12 @@
     "city": "Atlantic City",
     "state": "NJ",
     "country": "United States",
-    "category": "Casino",
+    "category": "Arts",
     "year": 2011,
     "month": 8,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Casino"
   },
   {
     "venue": "Magnetism",
@@ -87188,11 +87615,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Noodles",
+    "category": "Food",
     "year": 2011,
     "month": 7,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Noodles"
   },
   {
     "venue": "Beehive Baltimore",
@@ -87265,11 +87693,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Japanese",
+    "category": "Food",
     "year": 2011,
     "month": 7,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Japanese"
   },
   {
     "venue": "The Brewer's Art",
@@ -87446,11 +87875,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Noodles",
+    "category": "Food",
     "year": 2011,
     "month": 6,
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Noodles"
   },
   {
     "venue": "H&M",
@@ -87821,11 +88251,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Track",
+    "category": "Outdoors",
     "year": 2011,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Track"
   },
   {
     "venue": "Druid Hill Park",
@@ -88506,11 +88937,12 @@
     "city": "Boston",
     "state": "MA",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2011,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "Urban AdvenTours",
@@ -89785,11 +90217,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Noodles",
+    "category": "Food",
     "year": 2011,
     "month": 3,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Noodles"
   },
   {
     "venue": "The Evergreen Cafe",
@@ -90287,11 +90720,12 @@
     "city": "Austin",
     "state": "TX",
     "country": "United States",
-    "category": "Hot Dogs",
+    "category": "Food",
     "year": 2011,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Hot Dogs"
   },
   {
     "venue": "Hilton Austin",
@@ -91531,11 +91965,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Afghan",
+    "category": "Food",
     "year": 2010,
     "month": 11,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Afghan"
   },
   {
     "venue": "Foxhole",
@@ -91802,11 +92237,12 @@
     "city": "Tullamarine",
     "state": "VIC",
     "country": "Australia",
-    "category": "Terminal",
+    "category": "Travel",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Terminal"
   },
   {
     "venue": "Los Angeles International Airport (LAX)",
@@ -91827,11 +92263,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "History Museum",
+    "category": "Arts",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "History Museum"
   },
   {
     "venue": "Old Town San Diego State Historic Park",
@@ -91878,11 +92315,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Gorilla Exhibit",
@@ -91890,11 +92328,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Gorilla Exhibit",
@@ -91902,11 +92341,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Skyfari Aerial Tram West",
@@ -91927,11 +92367,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "Giant Panda Research Station",
@@ -91939,11 +92380,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo Exhibit",
+    "category": "Outdoors",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo Exhibit"
   },
   {
     "venue": "San Diego Zoo",
@@ -91951,11 +92393,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Zoo",
+    "category": "Outdoors",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Zoo"
   },
   {
     "venue": "Marriott Marquis San Diego Marina",
@@ -92002,11 +92445,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Shopping Plaza",
+    "category": "Shop",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Shopping Plaza"
   },
   {
     "venue": "Marriott Marquis San Diego Marina",
@@ -92104,11 +92548,12 @@
     "city": "Coronado",
     "state": "CA",
     "country": "United States",
-    "category": "Resort",
+    "category": "Travel",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Resort"
   },
   {
     "venue": "Coronado Beach Resort",
@@ -92219,11 +92664,12 @@
     "city": "San Diego",
     "state": "CA",
     "country": "United States",
-    "category": "Harbor / Marina",
+    "category": "Travel",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Harbor / Marina"
   },
   {
     "venue": "La Jolla Cove",
@@ -92372,11 +92818,12 @@
     "city": "Kansas City",
     "state": "MO",
     "country": "United States",
-    "category": "Plane",
+    "category": "Travel",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Plane"
   },
   {
     "venue": "Kansas City International Airport (MCI)",
@@ -92397,11 +92844,12 @@
     "city": "Linthicum Heights",
     "state": "MD",
     "country": "United States",
-    "category": "Plane",
+    "category": "Travel",
     "year": 2010,
     "month": 10,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Plane"
   },
   {
     "venue": "Baltimore/Washington International Thurgood Marshall Airport (BWI)",
@@ -93376,11 +93824,12 @@
     "city": "Philadelphia",
     "state": "PA",
     "country": "United States",
-    "category": "History Museum",
+    "category": "Arts",
     "year": 2010,
     "month": 9,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "History Museum"
   },
   {
     "venue": "Bohemian Coffee House",
@@ -95098,11 +95547,12 @@
     "city": "Hooksett",
     "state": "NH",
     "country": "United States",
-    "category": "Golf Course",
+    "category": "Outdoors",
     "year": 2010,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Golf Course"
   },
   {
     "venue": "Southern New Hampshire University",
@@ -95508,11 +95958,12 @@
     "city": "St Louis",
     "state": "MO",
     "country": "United States",
-    "category": "Plane",
+    "category": "Travel",
     "year": 2010,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Plane"
   },
   {
     "venue": "Terminal 2",
@@ -95520,11 +95971,12 @@
     "city": "St Louis",
     "state": "MO",
     "country": "United States",
-    "category": "Terminal",
+    "category": "Travel",
     "year": 2010,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Terminal"
   },
   {
     "venue": "Citygarden",
@@ -95685,11 +96137,12 @@
     "city": "Minneapolis",
     "state": "MN",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2010,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Bde Maka Ska",
@@ -95697,11 +96150,12 @@
     "city": "Minneapolis",
     "state": "MN",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2010,
     "month": 6,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Cathedral of St. Paul",
@@ -96571,11 +97025,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Soup",
+    "category": "Food",
     "year": 2010,
     "month": 5,
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "subCategory": "Soup"
   },
   {
     "venue": "Sly Fox Pub",
@@ -97392,11 +97847,12 @@
     "city": "Pittsburgh",
     "state": "PA",
     "country": "United States",
-    "category": "Casino",
+    "category": "Arts",
     "year": 2010,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Casino"
   },
   {
     "venue": "The Zenith",
@@ -97481,11 +97937,12 @@
     "city": "Pittsburgh",
     "state": "PA",
     "country": "United States",
-    "category": "Flower Shop",
+    "category": "Shop",
     "year": 2010,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Flower Shop"
   },
   {
     "venue": "Strip District",
@@ -97596,11 +98053,12 @@
     "city": "Oakland",
     "state": "PA",
     "country": "United States",
-    "category": "Academic Building",
+    "category": "Education",
     "year": 2010,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Academic Building"
   },
   {
     "venue": "Phipps Conservatory and Botanical Gardens",
@@ -97826,11 +98284,12 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Historic Site",
+    "category": "Outdoors",
     "year": 2010,
     "month": 4,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Historic Site"
   },
   {
     "venue": "The Brewer's Art",
@@ -98768,11 +99227,12 @@
     "city": "Glen Arm",
     "state": "MD",
     "country": "United States",
-    "category": "Lake",
+    "category": "Outdoors",
     "year": 2010,
     "month": 2,
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "subCategory": "Lake"
   },
   {
     "venue": "Whole Foods Market",

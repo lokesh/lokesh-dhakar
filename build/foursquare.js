@@ -107,6 +107,12 @@ function customizeCategories(checkins) {
         'Indie Movies',
         'Library',
         'Church',
+        'History Museum',
+        'Opera House',
+        'Bowling Alley',
+        'Casino',
+        'Concert Hall',
+        'Public Art',
       ],
     }, {
       name: 'Coffee',
@@ -123,6 +129,7 @@ function customizeCategories(checkins) {
         'Pizza',
         'Mexican',
         'Food Truck',
+        'Food Stand',
         'American',
         'Sandwiches',
         'Thai',
@@ -149,6 +156,15 @@ function customizeCategories(checkins) {
         'New American',
         'Bagels',
         'Juice Bar',
+        'Hot Dogs',
+        'Agrican',
+        'Afghan',
+        'Japanese',
+        'Soup',
+        'Pakistani',
+        'Dim Sum',
+        'German',
+        'Noodles',
       ]
     }, {
       name: 'Dessert',
@@ -176,8 +192,17 @@ function customizeCategories(checkins) {
         'Dog Run',
         'National Park',
         'Piers',
+        'Track',
         'Cemetary',
-        'Lake,'
+        'Lake',
+        'Zoo',
+        'Zoo Exhibit',
+        'Historic Site',
+        'Hill',
+        'Bike Trail',
+        'Golf Course',
+        'Soccer Field',
+        'Baseball Field',
       ]
     }, {
       name: 'Nightlife',
@@ -195,11 +220,16 @@ function customizeCategories(checkins) {
         'Nightclub',
         'Music Venue',
         'Speakeasy',
+        'Beer Garden',
+        'Whisky Bar',
+        'Winery',
+        'Vineyard',
       ]
     }, {
       name: 'Shop',
       subCategories: [
         'Grocery Store',
+        'Pet Service',
         'Bike Shop',
         'Apparel',
         'Gas Station',
@@ -227,6 +257,11 @@ function customizeCategories(checkins) {
         'Gym',
         'Gourmet',
         'Farmer\'s Market',
+        'Shopping Plaza',
+        'Beer Store',
+        'Record Shop',
+        'Flower Shop',
+        'Garden Center',
       ]
     }, {
       name: 'Travel',
@@ -245,6 +280,10 @@ function customizeCategories(checkins) {
         'Travel',
         'Bus Station',
         'Train Station',
+        'Resort',
+        'Harbor / Marina',
+        'Terminal',
+        'Plane',
       ]
     }, {
       name: 'Work',
@@ -266,6 +305,7 @@ function customizeCategories(checkins) {
       subCategories: [
         'High School',
         'University',
+        'Academic Building',
       ]
     }, {
       name: 'Locale',

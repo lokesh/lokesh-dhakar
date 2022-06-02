@@ -8,6 +8,8 @@
 
   --primary-color: #005EF8;
   --muted-color: #999;
+  --faint-color:  #ccc;
+
   --link-color: var(--primary-color);
   --link-bg-color: transparent;
   --link-hover-color: var(--primary-color);
