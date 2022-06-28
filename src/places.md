@@ -10,10 +10,19 @@ pageWidth: "full"
 
 ## To-do
 
+
+
+
+- [ ] Fetch comments for checkins
+Do this by first fetching checkins. Then for each venue, fetching checkin.
+Set up code that we only get new check-ins moving forward and only for those venues do we get full venue data.
+
 - [x] Clickable cities, states
 - [x] Clickable categories
-- [ ] Show count and percentage of new spots.
+- [x] Show count and percentage of new spots.
 - [ ] Add loading indicator
+- [ ] Show favorites?
+- [ ] Mobile dropdown for location too long
 
 
 # How the filtering works - outdated
@@ -140,9 +149,25 @@ Map
       </select>
     </div>
     <div>
-      <label class="checkbox-label">
+      <!-- <label class="checkbox-label">
         <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
         <span>Only new spots</span>
+      </label> -->
+      <label class="checkbox-label">
+        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
+        <span>Go to spot</span>
+      </label>
+      <label class="checkbox-label">
+        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
+        <span>Outdoor seating</span>
+      </label>
+      <label class="checkbox-label">
+        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
+        <span>Date night</span>
+      </label>
+      <label class="checkbox-label">
+        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
+        <span>Good for visitors</span>
       </label>
     </div>
     <button ref="resetBtn" @click="resetFilters">Reset</button>
@@ -176,7 +201,7 @@ Map
         v-if="list.venues.length"
         class="year-numbers"
       >
-        {{ list.venues.length }} places<br />
+        {{ list.venues.length }} place<span v-if="list.venues.length > 1">s</span><br />
         {{ countNewVenues(list.venues) }} new ({{ Math.round(countNewVenues(list.venues) / list.venues.length * 100) }} %)
       </div>
       <div
@@ -431,6 +456,7 @@ const app = new Vue({
 
     displayList() {
       if (this.groupFilter === GROUP_BY_YEAR) {
+        console.log(this.venuesFilteredByCategoryAndLocationGroupedByYear);
         return this.venuesFilteredByCategoryAndLocationGroupedByYear;
       } 
       return this.venuesFilteredByCategoryAndLocation;

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Venues admin</title>
+</head>
+<body>
+
+<h3>To-do</h3>
+<ul>
+	<li>Load any existing venues.json data</li>
+	<li>Save edit to JSON (reset on save)</li>
+</ul>
+
+<div id="app">
+	<div class="page">
+		<div>
+			<input type="search" v-model="filter" />
+			
+			<div>
+				<div
+					v-for="v in venuesFiltered"
+					class="venue"
+				>
+					<strong>{{ v.venue }}</strong><br />
+					{{ v.category }} • {{ v.subCategory }}<br />
+					{{ v.city }} • {{ v.state }}<br />
+					{{ v.count }} visits
+
+				</div>
+			</div>
+		</div>
+		<div>
+			<div>[[ Venue id ]]</div>
+			<div>[[ Venue name ]]</div>
+			<label>
+			  <input type="checkbox" name="goToSpot" v-model="goToSpot" />
+			  <span>Go to spot</span>
+			</label>
+			<label>
+			  <input type="checkbox" name="outdoorSeating" v-model="outdoorSeating" />
+			  <span>Outdoor seating</span>
+			</label>
+			<label>
+			  <input type="checkbox" name="dateSpot" v-model="dateSpot" />
+			  <span>Date spot</span>
+			</label>
+			<label>
+			  <input type="checkbox" name="dateSpot" v-model="wouldTakeVisitors" />
+			  <span>Would take visitors</span>
+			</label>
+			<br />
+			<label>
+			  <span>Comments:</span><br />
+			  <textarea v-model="comments"></textarea>
+			</label>			
+			<div>
+				<button type="button">Save</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+	* {
+		font-family: menlo;
+		font-size: 11px;
+	}
+	.page {
+		display: grid;
+		grid-template-columns: 320px auto;
+		grid-gap: 16px;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	label {
+		display: block;
+	}
+	textarea {
+		width: 24em;
+		height: 6em;
+	}
+
+	.venue {
+		padding: 8px;
+	}
+
+	.venue:hover {
+		background-color: #ff0;
+		cursor: pointer;
+	}
+</style>
+
+
+<script src="/src/js/vue.min.js"></script>
+
+<script type="module">
+import {
+  checkinsToVenues,
+} from '/src/js/utils/foursquare.js';
+
+
+new Vue({
+  el: '#app',
+  data() {
+    return { 
+      // Data
+      checkins: [],
+      venues: [], // checkin venues deduped
+      venuesMetadata: [], // The add'l venue meta data file we're creating
+
+      // Filter
+      filter: '',
+
+      // Edit form
+      goToSpot: false,
+      outdoorSeating: false,
+      dateSpot: false,
+      wouldTakeVisitors: false,
+      comments: '',
+    };
+  },
+  mounted() {
+    fetch('/src/data/foursquare-checkins.json')
+      .then(res => res.json())
+      .then(json => {
+        this.checkins = json;
+        this.venues = checkinsToVenues(this.checkins);
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+  },
+ 
+ computed: {
+ 	venuesFiltered() {
+	   	if (!this.filter.length) {
+    		return this.venues;
+    	}
+
+    	return this.venues.filter(v => {
+    		return v.venue.toLowerCase().includes(this.filter.toLowerCase());
+    	});
+ 	},
+ },
+});
+</script>
+</body>
+</html>
+

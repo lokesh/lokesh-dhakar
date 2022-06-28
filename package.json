@@ -30,7 +30,8 @@
     "foursquare": "node ./build/foursquare.js",
     "notes": "sh build/notes.sh",
     "img": "node ./build/img.js",
-    "test": "node ./test/foursquare.test.js --experimental-modules"
+    "test": "node ./test/foursquare.test.js --experimental-modules",
+    "places-admin": "http-server -o admin/venues.html"
   },
   "repository": {
     "type": "git",
@@ -44,6 +45,7 @@
   "homepage": "https://github.com/lokesh/lokesh-dhakar#readme",
   "private": true,
   "dependencies": {
+    "http-server": "^14.1.1",
     "jest": "^28.1.0"
   }
 }

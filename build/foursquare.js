@@ -7,7 +7,7 @@ const { resolve } = require('path');
 // Testing
 // -------
 
-const FETCH_DATA = false; // Hit Foursquare API
+const FETCH_DATA = true; // Hit Foursquare API
 const USE_SAMPLE_DATA = false;  // Use sample json
 const PROCESS_DATA = true;
 
