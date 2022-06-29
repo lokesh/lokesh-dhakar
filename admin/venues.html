@@ -24,7 +24,7 @@
 					class="venue"
 					@click="loadVenue(v)"
 				>
-					<strong>{{ v.venue }}</strong> • {{ v.venueId }}<br />
+					<strong>{{ v.venue }}</strong> • {{ v.id }}<br />
 					{{ v.category }} • {{ v.subCategory }}<br />
 					{{ v.city }} • {{ v.state }}<br />
 					{{ v.count }} visits
@@ -116,7 +116,7 @@ new Vue({
       filter: 'millay',
 
       // Edit form
-      venueId: '',
+      id: '',
       venue: '',
       goToSpot: false,
       outdoorSeating: false,
@@ -163,10 +163,10 @@ new Vue({
  		this.resetVenue();
 
  		this.venuesMetadata.find(item => {
- 			if (item.venueId === v.venueId) {
+ 			if (item.id === v.id) {
  				this.venue = v.venue;
 
- 				this.venueId = item.venueId;
+ 				this.id = item.id;
  				this.goToSpot = item.goToSpot;
  				this.outdoorSeating = item.outdoorSeating;
  				this.dateSpot = item.dateSpot;
@@ -177,7 +177,7 @@ new Vue({
  	},
 
  	resetVenue() {
-      this.venueId = '';
+      this.id = '';
       this.venue = '';
       this.goToSpot = false;
       this.outdoorSeating = false;

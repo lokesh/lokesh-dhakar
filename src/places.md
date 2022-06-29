@@ -757,14 +757,25 @@ const app = new Vue({
 </script>
 
 <style>
-.venues {
-  --col-width: 22rem;
-}
 
-@media (min-width: 800px) {
-  .venues {
-    --col-width: 26rem;
-  }
+:root {
+  --col-width: 320px;
+
+
+
+  --cat-arts: #eb0054;
+  --cat-coffee: #d90;
+  --cat-dessert: #f39;
+  --cat-food: #07e;
+  --cat-nightlife: #40c;
+  --cat-outdoors: #090;
+  --cat-shop: #000;
+  
+
+  --cat-travel: var(--color);
+  --cat-locale: var(--color);
+  --cat-residence: var(--color);
+  --cat-work: var(--color);
 }
 
 .category-filters {
@@ -835,7 +846,7 @@ const app = new Vue({
   font-size: 0.8125rem;
   margin-bottom: 4px;
   border-radius: var(--radius-sm);
-  color: var(--color);
+  /*color: var(--color);*/
 }
 
 .item-title::before {
@@ -851,29 +862,55 @@ const app = new Vue({
 }
 
 
-.cat-Coffee .item-title {
-  color: #b70;
+
+.item-category {
+  font-weight: bold;
 }
 
-.cat-Coffee .visits-bar {
-  color: #b70;
+.cat-Coffee {
+  color: var(--cat-coffee);
 }
 
-.cat-Food .item-title {
-  color: #5bd;
+.cat-Arts {
+  color: var(--cat-arts);
 }
 
-.cat-Food .visits-bar {
-  color: #5bd;
+.cat-Dessert {
+  color: var(--cat-dessert);
 }
 
-.cat-Nighlife .item-title {
- color: #9b2;
+.cat-Food {
+  color: var(--cat-food);
 }
 
-.cat-Outdoors .item-title {
-  color: #3c9;
+.cat-Locale {
+  color: var(--cat-locale);
 }
+
+.cat-Nightlife {
+  color: var(--cat-nightlife);
+}
+
+.cat-Outdoors {
+  color: var(--cat-outdoors);
+}
+
+.cat-Residence {
+  color: var(--cat-residence);
+}
+
+.cat-Shop {
+  color: var(--cat-shop);
+}
+
+.cat-Travel {
+  color: var(--cat-travel);
+}
+
+.cat-Work {
+  color: var(--cat-work);
+}
+
 
 .venue-title-row {
   display: flex;
@@ -903,7 +940,7 @@ const app = new Vue({
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: var(--col-width);
+  /*max-width: var(--col-width);*/
 }
 
 .venue-meta {
@@ -914,7 +951,7 @@ const app = new Vue({
 }
 
 .venue-meta a {
-  color: var(--muted-color);
+  color: inherit;
 }
 
 .venue-meta a:hover {
@@ -924,6 +961,7 @@ const app = new Vue({
 .venue-comment {
   margin-top: 2px;
   font-size: 0.9375rem;
+  color: var(--color);
 }
 
 .filters {
