@@ -69,8 +69,9 @@ Map
     >
       <div
         class="visits-bar"
-        :style="getWidthFromVisitsCount(count)"
-      ></div>
+      >
+        {{ generateVisitsBarFromCount(count) }}
+      </div>
       <div class="venue-title-row">
         <div class="item-title venue-title">{{ venue }}</div>
         <div
@@ -118,7 +119,7 @@ Map
           </a>
         </span>
       </div>
-      <div>
+      <div class="venue-comment">
         {{ comments }}
       </div>
     </div>
@@ -218,8 +219,6 @@ Map
       </div>
       <div
         v-for="venue in list.venues"
-        @mouseover="highlight(`venue-${venue.id}`)"
-        @mouseleave="unhighlight(`venue-${venue.id}`)"
       >
         <venue
           v-bind="venue"
@@ -239,12 +238,11 @@ Map
 <script src="/js/vue.min.js"></script>
 
 <script type="module">
-import { stateNameToAbbreviation, stateAbbreviationToName } from '/js/utils/location.js';
+import { stateAbbreviationToName } from '/js/utils/location.js';
 import {
   CATEGORY_ANY,
   LOCATION_ANY,
   SUBCATEGORY_ANY,
-  checkinsToVenues,
   filterByCategory,
   filterByLocation,
   filterByMetadata,
@@ -296,10 +294,14 @@ Vue.component('venue', {
   },
 
   methods: {
-    getWidthFromVisitsCount(count) {
-      return {
-        width: `${Math.min(Math.max((count - 1), 0) * 5, 100)}%`,
-      };
+    generateVisitsBarFromCount(count) {
+      let bar = '';
+      if (count > 1) {
+        bar += '▓'.repeat(Math.floor((count - 1) / 2));
+        bar += ((count - 1) % 2) ? '░' : '';
+      }
+
+      return bar;
     },
   },
 });
@@ -317,8 +319,9 @@ const app = new Vue({
       CATEGORY_ANY,
       SUBCATEGORY_ANY,
       LOCATION_ANY,
+      venues: [],
+      venuesGroupedByYear: [],
       categories: [],
-      checkins: [],
       categoryFilter: CATEGORY_ANY,
       subCategoryFilter: SUBCATEGORY_ANY,
       locationFilter: {},
@@ -335,17 +338,11 @@ const app = new Vue({
   },
 
   async created() {
-    let resp = await fetch('/data/foursquare-checkins.json');
-    this.checkins = await resp.json();
-    console.log(this.venues);
-  
-    let resp2 = await fetch('/data/venues.json');
-    this.venues = await resp2.json();
+    let resp = await fetch('/data/venues.json');
+    this.venues = await resp.json();
 
-    console.log(this.venues);
-
-    let resp3 = await fetch('/data/venues-grouped-by-year.json');
-    this.venuesGroupedByYear = await resp3.json();
+    let resp2 = await fetch('/data/venues-grouped-by-year.json');
+    this.venuesGroupedByYear = await resp2.json();
   },
 
   watch: {
@@ -375,10 +372,10 @@ const app = new Vue({
     */
     categoryOptions() {
       let categories = {
-        [CATEGORY_ANY]: this.venuesFilteredByLocation.length 
+        [CATEGORY_ANY]: this.filteredByLocation.length 
       };
 
-      this.venuesFilteredByLocation.forEach((venue) => {
+      this.filteredByLocation.forEach((venue) => {
         let { category, subCategory } = venue;
 
         // If category has not been bucketed by me, skip
@@ -421,10 +418,10 @@ const app = new Vue({
       if (!this.categoryFilter) return [];
       
       let subCategories = {
-        [SUBCATEGORY_ANY]: this.venuesFilteredByPrimaryCategoryAndLocation.length
+        [SUBCATEGORY_ANY]: this.filteredByPrimaryCategoryAndLocation.length
       };
 
-      this.venuesFilteredByPrimaryCategoryAndLocation.forEach(venue => {
+      this.filteredByPrimaryCategoryAndLocation.forEach(venue => {
           let { subCategory } = venue;
 
         // If category has not been bucketed by my, skip
@@ -457,27 +454,24 @@ const app = new Vue({
      * Apply category filters to checkins
      * @return {[Object]} checkins
      */
-    checkinsFilteredByCategory() {
-      return filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+    filteredByCategory() {
+      return filterByCategory(this.venues, this.categoryFilter, this.subCategoryFilter);
     },
 
     /**
      * Apply location filters to checkins
      * @return {[Object]} checkins
      */
-    checkinsFilteredByLocation() {
-      // console.log(this.checkins);
-      // console.log('venues')
-      // console.log(this.venues);
-      return filterByLocation(this.checkins, this.locationFilter);
+    filteredByLocation() {
+      return filterByLocation(this.venues, this.locationFilter);
     },
 
     /**
      * Apply primary category and location filters to checkins, but not subcategory
      * @return {[Object]} checkins
      */
-    checkinsFilteredByPrimaryCategoryAndLocation() {
-      let checkins = filterByCategory(this.checkins, this.categoryFilter);
+    filteredByPrimaryCategoryAndLocation() {
+      let checkins = filterByCategory(this.venues, this.categoryFilter);
       return filterByLocation(checkins, this.locationFilter);
     },
 
@@ -485,17 +479,24 @@ const app = new Vue({
      * Apply category and location filters to checkins
      * @return {[Object]} checkins
      */
-    checkinsFilteredByCategoryAndLocation() {
-      let checkins = filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+    filteredByCategoryAndLocation() {
+      let checkins = filterByCategory(this.venues, this.categoryFilter, this.subCategoryFilter);
       return filterByLocation(checkins, this.locationFilter);
     },
 
     displayList() {
       if (this.groupFilter === GROUP_BY_YEAR) {
-        // console.log(this.venuesFilteredByCategoryAndLocationGroupedByYear);
-        return this.venuesFilteredGroupedByYear;
+        return this.venuesGroupedByYear.map(yearObj => {
+          const { year, venues } = yearObj;
+
+          return {
+            year,
+            venues: venues ? this.applyAllFilters(venues) : [],
+          }
+        });
       } 
-      return this.venuesFiltered;
+
+      return this.applyAllFilters(this.venues);
     },
 
     locationOptions() {
@@ -522,7 +523,7 @@ const app = new Vue({
        */
       
       let countedVenues = {};
-      this.venuesFilteredByCategory.forEach(checkin => {
+      this.filteredByCategory.forEach(checkin => {
         let { country, state, city, id } = checkin;
         if (!country || !state || !city) return;
 
@@ -568,7 +569,7 @@ const app = new Vue({
 
       options.push({
         name: LOCATION_ANY,
-        count: this.venuesFilteredByCategory.length,
+        count: this.filteredByCategory.length,
         path: {},
       });
 
@@ -682,59 +683,18 @@ const app = new Vue({
         GROUP_BY_YEAR,
       ];
     },
-
-    // venuesFilteredByAll() {
-    //   return checkinsToVenues(this.checkinsFilteredByCategory);
-    // },
-
-    venuesFilteredByCategory() {
-      return checkinsToVenues(this.checkinsFilteredByCategory);
-    },
-
-    venuesFilteredByLocation() {
-      return checkinsToVenues(this.checkinsFilteredByLocation);
-    },
-
-    venuesFiltered() {
-      let checkins = filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
-      checkins = filterByLocation(checkins, this.locationFilter);
-      checkins = filterByMetadata(checkins, this.metaDataFilters)
-      const venues = checkinsToVenues(checkins);
-      return this.sortVenuesByCount(venues);
-    },
-
-    venuesFilteredByCategoryAndLocation() {
-      const venues = checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
-      return this.sortVenuesByCount(venues);
-    },
-
-    venuesFilteredByPrimaryCategoryAndLocation() {
-      const venues = checkinsToVenues(this.checkinsFilteredByPrimaryCategoryAndLocation);
-      return this.sortVenuesByCount(venues);
-    },
-
-    venuesFilteredGroupedByYear() {
-      let checkins = filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
-      checkins = filterByLocation(checkins, this.locationFilter);
-      checkins = filterByMetadata(checkins, this.metaDataFilters)
-
-      const groupedCheckins = this.groupCheckinsByYear(checkins);
-
-      const groupedVenues = groupedCheckins.map(yearObj => {
-        const { year, checkins } = yearObj;
-        return {
-          year,
-          venues: checkins ? this.sortVenuesByCount(checkinsToVenues(checkins)) : [],
-        };
-      })
-
-      return groupedVenues;
-    },
   },
 
   methods: {
     countNewVenues(venues) {
       return venues.filter(v => v.firstVisit).length
+    },
+
+    applyAllFilters(items) {
+      let filteredItems = filterByCategory(items, this.categoryFilter, this.subCategoryFilter);
+      filteredItems = filterByLocation(filteredItems, this.locationFilter);
+      filteredItems = filterByMetadata(filteredItems, this.metaDataFilters)
+      return filteredItems;
     },
 
     /**
@@ -750,64 +710,6 @@ const app = new Vue({
       return checkins.filter(checkin => {
         return checkin.category === categoryFilter;
       })
-    },
-
-    /**
-     * @return {[Object]} checkins e.g. [{ year: 2010, checkins: [] }, ... ]
-     */
-    groupCheckinsByYear(checkins) {
-      let groupsObj = {};
-      let years = [];
-      let groupsArr = [];
-      checkins.forEach(checkin => {
-        if (groupsObj[checkin.year]) {
-          groupsObj[checkin.year].push(checkin);
-        } else {
-          years.push(checkin.year);
-          groupsObj[checkin.year] = [checkin];
-        }
-      })
-
-      years = years.sort((a, b) => {
-        return (a >= b) ? -1 : 1;
-      })
-
-      let prevYear;
-      let yearsLength = years.length;
-      years.forEach((year, i) => {
-        // if prevYear is set and year doesn't equal year - 1
-        // prevYear = 2017
-        // year = 2013
-        // fill in 2016, 2015, 2014
-        
-        // and if not last in index
-        if (prevYear && (i < yearsLength)) {
-          while (prevYear - 1 > year) {
-            prevYear--;
-            groupsArr.push({
-              year: prevYear,
-            })
-          }
-        }
-        groupsArr.push({
-          year,
-          checkins: groupsObj[year]
-        })
-
-        prevYear = year;
-      })
-
-      return groupsArr;
-    },
-
-    highlight(elClass) {
-      let els = [...this.$refs.lists.getElementsByClassName(elClass)]
-      els.forEach(el => { el.classList.add('venue-highlight') });
-    },
-    
-    unhighlight(elClass) {
-      let els = [...this.$refs.lists.getElementsByClassName(elClass)]
-      els.forEach(el => { el.classList.remove('venue-highlight') });
     },
 
     setCategoryFilter(cat) {
@@ -902,7 +804,7 @@ const app = new Vue({
 .year-numbers {
   margin-bottom: calc(var(--gutter) * 2);
   color: var(--muted-color);
-  font-weight: var(--weight-bold);
+  font-size: 0.9375rem;
 }
 
 .no-checkins .year-title {
@@ -923,24 +825,17 @@ const app = new Vue({
   margin-top: var(--gutter);
 }
 
-.venue-highlight {
-  /*background: var(--hover-bg-color);*/
-}
-
 .item.item--dense {
   /* Overriding default styling */
-  /*border-bottom: none;*/
-  /*margin-bottom: calc(var(--block-bottom) / 2);*/
   padding-bottom: calc(var(--block-bottom) / 1.5);
 }
 
 
 .visits-bar {
-  /*display: none;*/
-  height: 4px;
-  margin-bottom: 6px;
+  font-size: 0.8125rem;
+  margin-bottom: 4px;
   border-radius: var(--radius-sm);
-  background-color: var(--color);
+  color: var(--color);
 }
 
 .item-title::before {
@@ -961,7 +856,7 @@ const app = new Vue({
 }
 
 .cat-Coffee .visits-bar {
-  background-color: #b70;
+  color: #b70;
 }
 
 .cat-Food .item-title {
@@ -969,7 +864,7 @@ const app = new Vue({
 }
 
 .cat-Food .visits-bar {
-  background-color: #5bd;
+  color: #5bd;
 }
 
 .cat-Nighlife .item-title {
@@ -978,53 +873,6 @@ const app = new Vue({
 
 .cat-Outdoors .item-title {
   color: #3c9;
-}
-
-
-
-.cat-Ramen .item-title::before,
-.cat-Chinese .item-title::before,
-.cat-Thai .item-title::before,
-.cat-Asian .item-title::before,
-.cat-Donuts .item-title::before,
-.cat-Juice .item-title::before,
-.cat-Food .item-title::before,
-.cat-Burritos .item-title::before,
-.cat-Vegetarian .item-title::before,
-.cat-Desserts .item-title::before,
-.cat-Cupcakes .item-title::before,
-.cat-Sandwiches .item-title::before,
-.cat-Italian .item-title::before,
-.cat-American .item-title::before,
-.cat-Tacos .item-title::before ,
-.cat-Pizza .item-title::before,
-.cat-Sushi .item-title::before,
-.cat-Noodles .item-title::before{
-  background-color: #71c9ef;
-}
-
-
-
-
-.cat-Ramen .visits-bar,
-.cat-Chinese .visits-bar,
-.cat-Thai .visits-bar,
-.cat-Asian .visits-bar,
-.cat-Donuts .visits-bar,
-.cat-Juice .visits-bar,
-.cat-Food .visits-bar,
-.cat-Burritos .visits-bar,
-.cat-Vegetarian .visits-bar,
-.cat-Desserts .visits-bar,
-.cat-Cupcakes .visits-bar,
-.cat-Sandwiches .visits-bar,
-.cat-Italian .visits-bar,
-.cat-American .visits-bar, 
-.cat-Tacos .visits-bar, 
-.cat-Pizza .visits-bar,
-.cat-Sushi .visits-bar,
-.cat-Noodles .visits-bar {
-  background-color: #71c9ef;
 }
 
 .venue-title-row {
@@ -1056,12 +904,10 @@ const app = new Vue({
   white-space: nowrap;
   text-overflow: ellipsis;
   max-width: var(--col-width);
-
-  /* TEMPORARY */
-  /*background: transparent !important;*/
 }
 
 .venue-meta {
+  font-size: 0.9375rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1073,12 +919,11 @@ const app = new Vue({
 
 .venue-meta a:hover {
   cursor: pointer;
-  /*text-decoration: underline;*/
 }
 
-
-.venue-category {
-  /*color: var(--primary-color);*/
+.venue-comment {
+  margin-top: 2px;
+  font-size: 0.9375rem;
 }
 
 .filters {

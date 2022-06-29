@@ -82,7 +82,7 @@ export function filterByLocation(checkins, locationFilter) {
   if (locationFilter !== LOCATION_ANY) {
     let { country, state, city } = locationFilter;
     
-    if (country === 'United States') {
+    if (country === 'United States' && state) {
       state = stateNameToAbbreviation(state);
     }
 

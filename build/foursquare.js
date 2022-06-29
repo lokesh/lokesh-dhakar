@@ -32,8 +32,7 @@ function checkinsToVenues(checkins) {
   for (let [id, venue] of Object.entries(venuesObj)) {       
     venuesArr.push(venue);
   };
-
-  return venuesArr;
+  return sortByCount(venuesArr);
 }
 
 
