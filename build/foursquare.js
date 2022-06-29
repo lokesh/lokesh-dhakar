@@ -3,6 +3,109 @@ const fs = require('fs');
 const { resolve } = require('path');
 
 
+function checkinsToVenues(checkins) {
+  let venuesObj = {};
+
+  checkins.forEach(checkin => {
+    let { id } = checkin;
+    if (venuesObj[id]) {
+      let venue = venuesObj[id];
+      venue.count++;
+
+      if (checkin.firstVisit) {
+        venue.firstVisit = true;
+      }
+
+      if (checkin.lastVisit) {
+        venue.lastVisit = true;
+      }
+
+    } else {
+      venuesObj[id] = {
+        ...checkin,
+        count: 1,
+      }
+    }
+  });
+
+  const venuesArr = [];
+  for (let [id, venue] of Object.entries(venuesObj)) {       
+    venuesArr.push(venue);
+  };
+
+  return venuesArr;
+}
+
+
+/**
+ * @return {[Object]} checkins e.g. [{ year: 2010, checkins: [] }, ... ]
+ */
+function groupCheckinsByYear(checkins) {
+  let groupsObj = {};
+  let years = [];
+  let groupsArr = [];
+  checkins.forEach(checkin => {
+    if (groupsObj[checkin.year]) {
+      groupsObj[checkin.year].push(checkin);
+    } else {
+      years.push(checkin.year);
+      groupsObj[checkin.year] = [checkin];
+    }
+  })
+
+  years = years.sort((a, b) => {
+    return (a >= b) ? -1 : 1;
+  })
+
+  let prevYear;
+  let yearsLength = years.length;
+  years.forEach((year, i) => {
+    // if prevYear is set and year doesn't equal year - 1
+    // prevYear = 2017
+    // year = 2013
+    // fill in 2016, 2015, 2014
+    
+    // and if not last in index
+    if (prevYear && (i < yearsLength)) {
+      while (prevYear - 1 > year) {
+        prevYear--;
+        groupsArr.push({
+          year: prevYear,
+        })
+      }
+    }
+    groupsArr.push({
+      year,
+      checkins: optimizeDataForDisplay(groupsObj[year])
+    })
+
+    prevYear = year;
+  })
+
+  return groupsArr;
+}
+
+
+function groupedCheckinsToVenues(groupedCheckins) {
+  const groupedVenues = groupedCheckins.map(yearObj => {
+    const { year, checkins } = yearObj;
+    return {
+      year,
+      venues: checkins ? sortByCount(checkinsToVenues(checkins)) : [],
+    };
+  })
+
+  return groupedVenues;
+}
+
+function sortByCount(venues) {
+  return venues.sort((a, b) => {
+    return (a.count >= b.count) ? -1 : 1;
+  })
+}
+
+
+
 // -------
 // Testing
 // -------
@@ -45,8 +148,15 @@ const CHECKINS_URL  = 'https://api.foursquare.com/v2/users/self/checkins';
 const LIMIT = 250;
 
 const CHECKINS_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins.json');
+
+
+
 const CHECKINS_TEST_INPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-input.json');
 const CHECKINS_TEST_OUTPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-ouput.json');
+
+const VENUES_FILE_PATH = resolve(process.cwd(), 'src/data/venues.json');
+const VENUES_GROUPED_FILE_PATH = resolve(process.cwd(), 'src/data/venues-grouped-by-year.json');
+
 
 const VENUES_METADATA_FILE_PATH = resolve(process.cwd(), 'src/data/venues-metadata.json');
 
@@ -339,7 +449,7 @@ function customizeCategories(checkins) {
 function checkFirstLastVisit(checkins) {
   return checkins.map(checkin => {
     let allCheckinsToVenue = checkins.filter(c => {
-      return c.venueId === checkin.venueId;
+      return c.id === checkin.id;
     })
 
     let firstVisit = true;
@@ -377,10 +487,10 @@ function checkFirstLastVisit(checkins) {
  */
 function mergeVenuesMetadata(checkins, venues) {
   return checkins.map(checkin => {
-    if (venues[checkin.venueId]) {
+    if (venues[checkin.id]) {
       return {
         ...checkin,
-        ...venues[checkin.venueId]
+        ...venues[checkin.id]
       }
     } else {
       return checkin;
@@ -401,6 +511,7 @@ function removeBadData(checkins) {
 }
 
 /**
+ * Take raw Foursquare API checkin data and restructure
  * @param  {[Object]} checkins
  * @return {[Object]} checkins
  */
@@ -410,7 +521,7 @@ function simplifyData(checkins) {
 
     return {
       venue: item.venue.name,
-      venueId: item.venue.id,
+      id: item.venue.id,
       city: item.venue.location.city,
       state: item.venue.location.state,
       country: item.venue.location.country,
@@ -418,6 +529,21 @@ function simplifyData(checkins) {
       month: date.getMonth(),
       category: (item.venue.categories[0] ? item.venue.categories[0].shortName: ''),
     }
+  })
+}
+
+
+
+/**
+ * Remove data unneeded for UI. e.g. year and month, which are needed for grouping
+ * but not needed on individual items when passed to the UI
+ * @param  {[Object]} items
+ * @return {[Object]} items
+ */
+function optimizeDataForDisplay(items) {
+  return items.map(item => {
+    const { year, month, lastVisit, ...rest } = item;
+    return rest;
   })
 }
 
@@ -462,6 +588,15 @@ async function main() {
     console.log(`✅ [Foursquare] Venue metadata merged into ${USE_SAMPLE_DATA ? 'sample' : ''} data`);
   }
 
+  // Checkins to venues
+  let allTime = checkinsToVenues(checkins);
+  allTime = optimizeDataForDisplay(allTime);
+
+  // Checkins grouped by year
+  // Checkins to venues
+  const groupedCheckins = groupCheckinsByYear(checkins); // We optimize for display in this step
+  const groupedVenues = groupedCheckinsToVenues(groupedCheckins);
+
   // Output file
   if (PROCESS_DATA || MERGE_VENUES_METADATA) {
     if (USE_SAMPLE_DATA) {
@@ -469,7 +604,13 @@ async function main() {
       fs.writeFileSync(CHECKINS_TEST_OUTPUT_FILE_PATH, JSON.stringify(checkins, null, 2));
     } else {
       // Write to file
-      fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));      
+      fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));
+
+      // Write to file
+      fs.writeFileSync(VENUES_FILE_PATH, JSON.stringify(allTime, null, 2));      
+
+      // Write to file
+      fs.writeFileSync(VENUES_GROUPED_FILE_PATH, JSON.stringify(groupedVenues, null, 2));      
     }
 
   }

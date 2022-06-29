@@ -17,9 +17,9 @@ export function checkinsToVenues(checkins) {
   let venuesObj = {};
 
   checkins.forEach(checkin => {
-    let { venueId } = checkin;
-    if (venuesObj[venueId]) {
-      let venue = venuesObj[venueId];
+    let { id } = checkin;
+    if (venuesObj[id]) {
+      let venue = venuesObj[id];
       venue.count++;
 
       if (checkin.firstVisit) {
@@ -31,7 +31,7 @@ export function checkinsToVenues(checkins) {
       }
 
     } else {
-      venuesObj[venueId] = {
+      venuesObj[id] = {
         ...checkin,
         count: 1,
       }
@@ -39,7 +39,7 @@ export function checkinsToVenues(checkins) {
   });
 
   const venuesArr = [];
-  for (let [venueId, venue] of Object.entries(venuesObj)) {       
+  for (let [id, venue] of Object.entries(venuesObj)) {       
     venuesArr.push(venue);
   };
 

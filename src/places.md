@@ -11,6 +11,15 @@ pageWidth: "full"
 ## To-do
 
 
+- [ ] New color scheme for categories
+
+https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaStart=98&grayLumaEnd=5&grayLumaCurve=linear&colorSteps=7&colorLumaStart=110&colorLumaEnd=10&colorLumaCurve=linear&colorChromaStart=42&colorChromaEnd=12&colorChromaCurve=linear&showLabel=true&showHex=true&showContrastRatio=false&colorHues=0%2C30%2C55%2C78%2C118%2C157%2C182%2C230%2C274%2C309%2C348
+
+
+- [ ] Pre-process checkins to two diff venue JSON files:
+all-time, and grouped
+
+checkins.json currently 2.4mb
 
 
 - [ ] Fetch comments for checkins
@@ -53,7 +62,7 @@ Map
     <div
       class="item item--dense"
       :class="[
-        `venue-${venueId}`,
+        `venue-${id}`,
         `cat-${category}`,
         { notFirstVisit: !firstVisit },
       ]"
@@ -209,8 +218,8 @@ Map
       </div>
       <div
         v-for="venue in list.venues"
-        @mouseover="highlight(`venue-${venue.venueId}`)"
-        @mouseleave="unhighlight(`venue-${venue.venueId}`)"
+        @mouseover="highlight(`venue-${venue.id}`)"
+        @mouseleave="unhighlight(`venue-${venue.id}`)"
       >
         <venue
           v-bind="venue"
@@ -262,7 +271,7 @@ Vue.component('venue', {
   template: '#tpl-venue',
   
   props: {
-    venueId: String,
+    id: String,
     venue: String,
     category: String,
     subCategory: String,
@@ -271,7 +280,6 @@ Vue.component('venue', {
     state: String,
     count: Number,
     firstVisit: Boolean,
-    lastVisit: Boolean,
     comments: String,
     goToSpot: Boolean,
     outdoorSeating: Boolean,
@@ -329,6 +337,15 @@ const app = new Vue({
   async created() {
     let resp = await fetch('/data/foursquare-checkins.json');
     this.checkins = await resp.json();
+    console.log(this.venues);
+  
+    let resp2 = await fetch('/data/venues.json');
+    this.venues = await resp2.json();
+
+    console.log(this.venues);
+
+    let resp3 = await fetch('/data/venues-grouped-by-year.json');
+    this.venuesGroupedByYear = await resp3.json();
   },
 
   watch: {
@@ -344,7 +361,6 @@ const app = new Vue({
     Any Category (2323)
     Food (232)
     Coffee (150)
-
 
     [ 2 ]
     All [Food]
@@ -365,7 +381,7 @@ const app = new Vue({
       this.venuesFilteredByLocation.forEach((venue) => {
         let { category, subCategory } = venue;
 
-        // If category has not been bucketed by my, skip
+        // If category has not been bucketed by me, skip
         if (!subCategory) return;
 
         if (categories.hasOwnProperty(category)) {
@@ -450,6 +466,9 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByLocation() {
+      // console.log(this.checkins);
+      // console.log('venues')
+      // console.log(this.venues);
       return filterByLocation(this.checkins, this.locationFilter);
     },
 
@@ -504,7 +523,7 @@ const app = new Vue({
       
       let countedVenues = {};
       this.venuesFilteredByCategory.forEach(checkin => {
-        let { country, state, city, venueId } = checkin;
+        let { country, state, city, id } = checkin;
         if (!country || !state || !city) return;
 
         if (country === 'United States') {
@@ -512,10 +531,10 @@ const app = new Vue({
         }
 
         // Count venues only once, though there could be multiple checkins
-        if (countedVenues[venueId]) {
+        if (countedVenues[id]) {
           return;
         } else {
-          countedVenues[venueId] = true;
+          countedVenues[id] = true;
         }
         
         if (tree[country]) {
@@ -908,11 +927,6 @@ const app = new Vue({
   /*background: var(--hover-bg-color);*/
 }
 
-/*
-https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaStart=98&grayLumaEnd=5&grayLumaCurve=linear&colorSteps=7&colorLumaStart=110&colorLumaEnd=10&colorLumaCurve=linear&colorChromaStart=42&colorChromaEnd=12&colorChromaCurve=linear&showLabel=true&showHex=true&showContrastRatio=false&colorHues=0%2C30%2C55%2C78%2C118%2C157%2C182%2C230%2C274%2C309%2C348
- */
-
-
 .item.item--dense {
   /* Overriding default styling */
   /*border-bottom: none;*/
@@ -922,6 +936,7 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 
 
 .visits-bar {
+  /*display: none;*/
   height: 4px;
   margin-bottom: 6px;
   border-radius: var(--radius-sm);
@@ -931,6 +946,7 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 .item-title::before {
   content: '';
   display: inline-flex;
+  display: none !important;
   flex: 0 0 12px;
   width: 12px;
   height: 12px;
@@ -939,91 +955,31 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
   border-radius: var(--radius-sm);  
 }
 
-.cat-Park .item-title,
-.cat-Scenic .item-title,
-.cat-Beach .item-title,
-.cat-Trail .item-title,
-.cat-Hill .item-title,
-.cat-Landmark .item-title {
-  background-color: #ffd1ed;
-}
 
-
-.cat-Park .item-title::before,
-.cat-Scenic .item-title::before,
-.cat-Beach .item-title::before,
-.cat-Trail .item-title::before,
-.cat-Hill .item-title::before,
-.cat-Landmark .item-title::before {
-  background-color: #bf91ad;
-}
-
-.cat-Café .item-title,
-.cat-Bakery .item-title,
 .cat-Coffee .item-title {
-  background-color: #ffe5a7;
+  color: #b70;
 }
 
-
-.cat-Café .item-title::before,
-.cat-Bakery .item-title::before,
-.cat-Coffee .item-title::before {
-  background-color: #DF932D;
-}
-
-.cat-Café .visits-bar,
-.cat-Bakery .visits-bar,
 .cat-Coffee .visits-bar {
-  background-color: #DF932D;
+  background-color: #b70;
 }
 
-.cat-Pub .item-title,
-.cat-Wine .item-title,
-.cat-Cocktail .item-title,
-.cat-Brewery .item-title,
-.cat-Bar .item-title {
-  background-color: #e2f4ac;
+.cat-Food .item-title {
+  color: #5bd;
 }
 
-
-.cat-Pub .item-title::before,
-.cat-Wine .item-title::before,
-.cat-Cocktail .item-title::before,
-.cat-Brewery .item-title::before,
-.cat-Bar .item-title ::before{
-  background-color: #b3d943;
+.cat-Food .visits-bar {
+  background-color: #5bd;
 }
 
-
-.cat-Pub .visits-bar,
-.cat-Wine .visits-bar,
-.cat-Cocktail .visits-bar,
-.cat-Brewery .visits-bar,
-.cat-Bar .visits-bar {
-  background-color: #b3d943;
+.cat-Nighlife .item-title {
+ color: #9b2;
 }
 
-
-.cat-Ramen .item-title,
-.cat-Chinese .item-title,
-.cat-Thai .item-title,
-.cat-Asian .item-title,
-.cat-Donuts .item-title,
-.cat-Juice .item-title,
-.cat-Food .item-title,
-.cat-Burritos .item-title,
-.cat-Vegetarian .item-title,
-.cat-Desserts .item-title,
-.cat-Cupcakes .item-title,
-.cat-Sandwiches .item-title,
-.cat-Italian .item-title,
-.cat-American .item-title, 
-.cat-Tacos .item-title, 
-.cat-Pizza .item-title,
-.cat-Sushi .item-title,
-.cat-Noodles .item-title {
-  background-color: #c5eeff;
+.cat-Outdoors .item-title {
+  color: #3c9;
 }
+
 
 
 .cat-Ramen .item-title::before,
@@ -1074,11 +1030,13 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 .venue-title-row {
   display: flex;
   gap: 6px;
-  margin-bottom: 2px;
+/*  margin-bottom: 2px;*/
 }
 
 .venue-new-label {
   display: inline-flex;
+  display: none;
+
   align-items: center;
   padding: 2px 6px;
   border-radius: var(--radius);
@@ -1091,9 +1049,9 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
 .venue-title {
   display: inline-flex;
   align-items: center;
-  padding: 2px 6px;
+  padding: 2px 0;
   border-radius: var(--radius);
-  background: #f0ebea;
+/*  background: #f0ebea;*/
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

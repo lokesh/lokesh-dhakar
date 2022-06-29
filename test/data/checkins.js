@@ -1,7 +1,7 @@
 export const checkins = [
   {
     "venue": "Mercury Cafe",
-    "venueId": "49eb7f48f964a520e5661fe3",
+    "id": "49eb7f48f964a520e5661fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -16,7 +16,7 @@ export const checkins = [
   },
   {
     "venue": "Mercury Cafe",
-    "venueId": "49eb7f48f964a520e5661fe3",
+    "id": "49eb7f48f964a520e5661fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -31,7 +31,7 @@ export const checkins = [
   },
   {
     "venue": "Wildflower Cafe",
-    "venueId": "4f931408e4b07b0225fbc6ec",
+    "id": "4f931408e4b07b0225fbc6ec",
     "city": "Austin",
     "state": "TX",
     "country": "United States",
@@ -44,7 +44,7 @@ export const checkins = [
   },
   {
     "venue": "Indira Gandhi International Airport (DEL)",
-    "venueId": "4be40357d27a20a1aa75935b",
+    "id": "4be40357d27a20a1aa75935b",
     "city": "New Delhi",
     "state": "Delhi",
     "country": "India",
@@ -57,7 +57,7 @@ export const checkins = [
   },  
   {
     "venue": "The Page",
-    "venueId": "43eb859cf964a5203a2f1fe3",
+    "id": "43eb859cf964a5203a2f1fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -71,7 +71,7 @@ export const checkins = [
   },
  {
     "venue": "Mercury Cafe",
-    "venueId": "49eb7f48f964a520e5661fe3",
+    "id": "49eb7f48f964a520e5661fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
