@@ -109,6 +109,9 @@ Map
           </a>
         </span>
       </div>
+      <div>
+        {{ comments }}
+      </div>
     </div>
   </div>
 </template>
@@ -154,20 +157,20 @@ Map
         <span>Only new spots</span>
       </label> -->
       <label class="checkbox-label">
-        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
+        <input class="checkbox" type="checkbox" name="country" v-model="goToSpotFilter" checked>
         <span>Go to spot</span>
       </label>
       <label class="checkbox-label">
-        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
+        <input class="checkbox" type="checkbox" name="country" v-model="outdoorSeatingFilter" checked>
         <span>Outdoor seating</span>
       </label>
       <label class="checkbox-label">
-        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
-        <span>Date night</span>
+        <input class="checkbox" type="checkbox" name="country" v-model="dateSpotFilter" checked>
+        <span>Date spot</span>
       </label>
       <label class="checkbox-label">
-        <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
-        <span>Good for visitors</span>
+        <input class="checkbox" type="checkbox" name="country" v-model="wouldTakeVisitorsFilter" checked>
+        <span>Would take visitors</span>
       </label>
     </div>
     <button ref="resetBtn" @click="resetFilters">Reset</button>
@@ -230,9 +233,11 @@ Map
 import { stateNameToAbbreviation, stateAbbreviationToName } from '/js/utils/location.js';
 import {
   CATEGORY_ANY,
+  LOCATION_ANY,
   SUBCATEGORY_ANY,
   checkinsToVenues,
   filterCheckinsByCategory,
+  filterCheckinsByLocation,
 } from '/js/utils/foursquare.js';
 
 
@@ -244,8 +249,6 @@ import {
 const MIN_COUNT_FOR_LOCATION = 1;
 const MIN_COUNT_FOR_CATEGORY = 1;
 const MIN_COUNT_FOR_SUBCATEGORY = 1;
-
-const LOCATION_ANY = 'Any location';
 
 const GROUP_ALL = 'All-time';
 const GROUP_BY_YEAR = 'Group by year'
@@ -268,6 +271,11 @@ Vue.component('venue', {
     count: Number,
     firstVisit: Boolean,
     lastVisit: Boolean,
+    comments: String,
+    goToSpotFilter: Boolean,
+    outdoorSeatingFilter: Boolean,
+    dateSpotFilter: Boolean,
+    wouldTakeVisitorsFilter: Boolean,
     showCategory: {
       type: Boolean,
       default: true,
@@ -307,20 +315,18 @@ const app = new Vue({
       locationFilter: {},
       groupFilter: GROUP_BY_YEAR,
       showNewFilter: false,
+      goToSpotFilter: false,
+      outdoorSeatingFilter: false,
+      dateSpotFilter: false,
+      wouldTakeVisitorsFilter: false,
       GROUP_ALL,
       GROUP_BY_YEAR,
     };
   },
 
-  created() {
-    fetch('/data/foursquare-checkins.json')
-      .then(res => res.json())
-      .then(data => {
-        this.checkins = data;
-      })
-      .catch((error) => {
-        console.log(error);
-      })
+  async created() {
+    let resp = await fetch('/data/foursquare-checkins.json');
+    this.checkins = await resp.json();
   },
 
   watch: {
@@ -433,7 +439,7 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByLocation() {
-      return this.filterCheckinsByLocation(this.checkins, this.locationFilter);
+      return filterCheckinsByLocation(this.checkins, this.locationFilter);
     },
 
     /**
@@ -442,7 +448,7 @@ const app = new Vue({
      */
     checkinsFilteredByPrimaryCategoryAndLocation() {
       let checkins = filterCheckinsByCategory(this.checkins, this.categoryFilter);
-      return this.filterCheckinsByLocation(checkins, this.locationFilter);
+      return filterCheckinsByLocation(checkins, this.locationFilter);
     },
 
     /**
@@ -451,12 +457,12 @@ const app = new Vue({
      */
     checkinsFilteredByCategoryAndLocation() {
       let checkins = filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
-      return this.filterCheckinsByLocation(checkins, this.locationFilter);
+      return filterCheckinsByLocation(checkins, this.locationFilter);
     },
 
     displayList() {
       if (this.groupFilter === GROUP_BY_YEAR) {
-        console.log(this.venuesFilteredByCategoryAndLocationGroupedByYear);
+        // console.log(this.venuesFilteredByCategoryAndLocationGroupedByYear);
         return this.venuesFilteredByCategoryAndLocationGroupedByYear;
       } 
       return this.venuesFilteredByCategoryAndLocation;
@@ -647,6 +653,10 @@ const app = new Vue({
       ];
     },
 
+    // venuesFilteredByAll() {
+    //   return checkinsToVenues(this.checkinsFilteredByCategory);
+    // },
+
     venuesFilteredByCategory() {
       return checkinsToVenues(this.checkinsFilteredByCategory);
     },
@@ -699,61 +709,6 @@ const app = new Vue({
         return checkin.category === categoryFilter;
       })
     },
-
-
-    /**
-     * @param  {[Object]} checkins
-     * @param  {Object} categoryFilter e.g. {category: "Education", subCategory: 'University'}
-     * @return {[Object]} filtered checkins
-     */
-    filterCheckinsByCategory2(checkins, categoryFilter) {
-      if (categoryFilter === CATEGORY_ANY) {
-        return checkins;
-      }
-
-      let { category, subCategory } = categoryFilter;
-
-      return checkins.filter(checkin => {
-        if (category && checkin.category !== category) {
-          return false;
-        }
-        if (subCategory && checkin.subCategory !== subCategory) {
-          return false;
-        }
-
-        return true;
-      })
-    },
-    
-    /**
-     * @param  {[Object]} checkins
-     * @param  {Object} locationFilter e.g. {country: 'Canada', state: 'Ontario'}
-     * @return {[Object]} filtered checkins
-     */
-    filterCheckinsByLocation(checkins, locationFilter) {
-      if (locationFilter !== LOCATION_ANY) {
-        let { country, state, city } = locationFilter;
-        
-        if (country === 'United States') {
-          state = stateNameToAbbreviation(state);
-        }
-
-        checkins = checkins.filter(checkin => {
-          if (country && checkin.country !== country) {
-            return false;
-          }
-          if (state && checkin.state !== state) {
-            return false;
-          }
-          if (city && checkin.city !== city) {
-            return false;
-          }
-          return true;
-        })
-      }
-
-      return checkins;
-    },    
 
     /**
      * @return {[Object]} checkins e.g. [{ year: 2010, checkins: [] }, ... ]
@@ -903,7 +858,7 @@ const app = new Vue({
 }
 
 .year-numbers {
-  margin-bottom: var(--gutter);
+  margin-bottom: calc(var(--gutter) * 2);
   color: var(--muted-color);
   font-weight: var(--weight-bold);
 }

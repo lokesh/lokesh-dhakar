@@ -1,3 +1,9 @@
+import { stateNameToAbbreviation } from './location.js';
+
+export const CATEGORY_ANY = 'Any category';
+export const SUBCATEGORY_ANY = 'Any sub-category';
+export const LOCATION_ANY = 'Any location';
+
 /**
  * Rolls checkin data up into venues. Adds a count property.
  * 
@@ -40,9 +46,6 @@ export function checkinsToVenues(checkins) {
   return venuesArr;
 }
 
-export const CATEGORY_ANY = 'Any category';
-export const SUBCATEGORY_ANY = 'Any sub-category';
-
 /**
  * @param  {[Object]} checkins
  * @param  {String} categoryFilter e.g. 'Nightlife'
@@ -68,5 +71,36 @@ export function filterCheckinsByCategory(
 
     return match
   })
+}
+
+
+/**
+ * @param  {[Object]} checkins
+ * @param  {Object} locationFilter e.g. {country: 'Canada', state: 'Ontario'}
+ * @return {[Object]} filtered checkins
+ */
+export function filterCheckinsByLocation(checkins, locationFilter) {
+  if (locationFilter !== LOCATION_ANY) {
+    let { country, state, city } = locationFilter;
+    
+    if (country === 'United States') {
+      state = stateNameToAbbreviation(state);
+    }
+
+    checkins = checkins.filter(checkin => {
+      if (country && checkin.country !== country) {
+        return false;
+      }
+      if (state && checkin.state !== state) {
+        return false;
+      }
+      if (city && checkin.city !== city) {
+        return false;
+      }
+      return true;
+    })
+  }
+
+  return checkins;
 }
 

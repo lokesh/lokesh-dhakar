@@ -1978,7 +1978,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Grant Place Restaurant",
@@ -3242,7 +3244,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Ornot",
@@ -3513,7 +3517,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Joyride Pizza",
@@ -3642,7 +3648,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Arizmendi Bakery Panaderia & Pizzeria",
@@ -3835,7 +3843,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Café du Soleil",
@@ -3964,7 +3974,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Café du Soleil",
@@ -4003,7 +4015,10 @@
     "category": "Nightlife",
     "subCategory": "Wine Bar",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Azure Dental",
@@ -4591,7 +4606,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Assembly",
@@ -5233,7 +5250,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Yh Beijing",
@@ -5451,7 +5470,10 @@
     "category": "Nightlife",
     "subCategory": "Wine Bar",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Epicurean Trader",
@@ -5554,7 +5576,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Kitava",
@@ -5901,7 +5925,10 @@
     "category": "Nightlife",
     "subCategory": "Wine Bar",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Johnny Doughnuts",
@@ -5965,7 +5992,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Safeway",
@@ -6158,7 +6187,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Axum Cafe",
@@ -6223,7 +6254,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "The Mill",
@@ -6587,7 +6620,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Churchill",
@@ -6665,7 +6700,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "The Junction Beer Garden",
@@ -7515,7 +7552,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "WAG Hotel",
@@ -7783,7 +7822,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Verve Coffee Roasters",
@@ -7936,7 +7977,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Mercury Cafe",
@@ -7949,7 +7992,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Siam Orchid Traditional Thai Massage",
@@ -8013,7 +8058,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Pet Food Express",
@@ -8207,7 +8254,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Alchemy By Alta",
@@ -8246,7 +8295,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Wise Sons Bagel & Coffee",
@@ -8335,7 +8386,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "AMC Metreon 16",
@@ -9034,7 +9087,8 @@
     "category": "Food",
     "subCategory": "Pakistani",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true
   },
   {
     "venue": "Kantine",
@@ -9086,7 +9140,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "The Panhandle",
@@ -9292,7 +9348,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Vive La Tarte",
@@ -9538,7 +9596,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Love On Haight",
@@ -9988,7 +10048,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Rise & Grind",
@@ -10040,7 +10102,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "The Animal House",
@@ -10118,7 +10182,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Urban Bowls",
@@ -24557,7 +24623,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "SoMa StrEat Food Park",
@@ -58668,7 +58736,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "WAG Hotel",
@@ -59988,7 +60058,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Bi-Rite Market",
@@ -61038,7 +61110,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
   {
     "venue": "Walter Haas Park and Playground",
@@ -69042,7 +69116,8 @@
     "category": "Food",
     "subCategory": "Pakistani",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true
   },
   {
     "venue": "K&D Market",
@@ -78585,7 +78660,8 @@
     "category": "Food",
     "subCategory": "Pakistani",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true
   },
   {
     "venue": "Getaround Rooftop Party Club",

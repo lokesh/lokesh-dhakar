@@ -22,8 +22,9 @@
 				<div
 					v-for="v in venuesFiltered"
 					class="venue"
+					@click="loadVenue(v)"
 				>
-					<strong>{{ v.venue }}</strong><br />
+					<strong>{{ v.venue }}</strong> • {{ v.venueId }}<br />
 					{{ v.category }} • {{ v.subCategory }}<br />
 					{{ v.city }} • {{ v.state }}<br />
 					{{ v.count }} visits
@@ -32,8 +33,8 @@
 			</div>
 		</div>
 		<div>
-			<div>[[ Venue id ]]</div>
-			<div>[[ Venue name ]]</div>
+			<div></div>
+			<div>{{ venue }}</div>
 			<label>
 			  <input type="checkbox" name="goToSpot" v-model="goToSpot" />
 			  <span>Go to spot</span>
@@ -109,12 +110,14 @@ new Vue({
       // Data
       checkins: [],
       venues: [], // checkin venues deduped
-      venuesMetadata: [], // The add'l venue meta data file we're creating
+      venuesMetadata: [], // The add'l venue meta data file data for saving
 
       // Filter
-      filter: '',
+      filter: 'millay',
 
       // Edit form
+      venueId: '',
+      venue: '',
       goToSpot: false,
       outdoorSeating: false,
       dateSpot: false,
@@ -132,6 +135,15 @@ new Vue({
       .catch((error) => {
         console.log(error);
       })
+
+	fetch('/src/data/venuesMetadata.json')
+      .then(res => res.json())
+      .then(json => {
+      	this.venuesMetadata = json;
+      })
+      .catch((error) => {
+        console.log(error);
+      })    
   },
  
  computed: {
@@ -145,6 +157,35 @@ new Vue({
     	});
  	},
  },
+
+ methods: {
+ 	loadVenue(v) {
+ 		this.resetVenue();
+
+ 		this.venuesMetadata.find(item => {
+ 			if (item.venueId === v.venueId) {
+ 				this.venue = v.venue;
+
+ 				this.venueId = item.venueId;
+ 				this.goToSpot = item.goToSpot;
+ 				this.outdoorSeating = item.outdoorSeating;
+ 				this.dateSpot = item.dateSpot;
+ 				this.wouldTakeVisitors = item.wouldTakeVisitors;
+ 				this.comments = item.comments;
+ 			}
+ 		})
+ 	},
+
+ 	resetVenue() {
+      this.venueId = '';
+      this.venue = '';
+      this.goToSpot = false;
+      this.outdoorSeating = false;
+      this.dateSpot = false;
+      this.wouldTakeVisitors = false;
+      this.comments = '';
+ 	},
+ }
 });
 </script>
 </body>

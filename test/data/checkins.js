@@ -10,7 +10,9 @@ export const checkins = [
     "month": 4,
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Best scone in town."    
   },
   {
     "venue": "Mercury Cafe",
@@ -23,21 +25,36 @@ export const checkins = [
     "month": 2,
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."
   },
- {
-    "venue": "Horsefeather",
-    "venueId": "5705d56b498ec5d32113620c",
-    "city": "San Francisco",
-    "state": "CA",
+  {
+    "venue": "Wildflower Cafe",
+    "venueId": "4f931408e4b07b0225fbc6ec",
+    "city": "Austin",
+    "state": "TX",
     "country": "United States",
-    "category": "Nightlife",
     "year": 2021,
-    "month": 6,
-    "subCategory": "Cocktail",
+    "month": 10,
+    "category": "Coffee",
+    "subCategory": "Café",
     "firstVisit": true,
     "lastVisit": true
   },
+  {
+    "venue": "Indira Gandhi International Airport (DEL)",
+    "venueId": "4be40357d27a20a1aa75935b",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "year": 2017,
+    "month": 1,
+    "category": "Travel",
+    "subCategory": "Airport",
+    "firstVisit": false,
+    "lastVisit": true
+  },  
   {
     "venue": "The Page",
     "venueId": "43eb859cf964a5203a2f1fe3",
@@ -62,6 +79,8 @@ export const checkins = [
     "month": 3,
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Best scone in town."    
   }  
 ]

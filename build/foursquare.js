@@ -7,9 +7,11 @@ const { resolve } = require('path');
 // Testing
 // -------
 
-const FETCH_DATA = true; // Hit Foursquare API
+const FETCH_DATA = false; // Hit Foursquare API
 const USE_SAMPLE_DATA = false;  // Use sample json
-const PROCESS_DATA = true;
+
+const PROCESS_DATA = true; // Add subcategory, firstVisit, lastVisit
+const MERGE_VENUES_METADATA = true;
 
 
 if (!FETCH_DATA) {
@@ -45,6 +47,8 @@ const LIMIT = 250;
 const CHECKINS_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins.json');
 const CHECKINS_TEST_INPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-input.json');
 const CHECKINS_TEST_OUTPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-ouput.json');
+
+const VENUES_METADATA_FILE_PATH = resolve(process.cwd(), 'src/data/venues-metadata.json');
 
 
 /**
@@ -367,6 +371,25 @@ function checkFirstLastVisit(checkins) {
 
 
 /**
+ * ...
+ * @param  {[Object]} checkins
+ * @return {[Object]} checkins
+ */
+function mergeVenuesMetadata(checkins, venues) {
+  return checkins.map(checkin => {
+    if (venues[checkin.venueId]) {
+      return {
+        ...checkin,
+        ...venues[checkin.venueId]
+      }
+    } else {
+      return checkin;
+    }
+  })
+}
+
+
+/**
  * Some checkins are missing venue data
  * @param  {[Object]} checkins
  * @return {[Object]} checkins
@@ -429,16 +452,24 @@ async function main() {
   if (PROCESS_DATA) {
     checkins = customizeCategories(checkins);
     checkins = checkFirstLastVisit(checkins);
+    console.log(`✅ [Foursquare] ${USE_SAMPLE_DATA ? 'Sample d' : 'D'}ata processed`);
+  }
 
+  if (MERGE_VENUES_METADATA) {
+    const venuesData = fs.readFileSync(VENUES_METADATA_FILE_PATH);
+    venues = JSON.parse(venuesData);
+    checkins = mergeVenuesMetadata(checkins, venues);
+    console.log(`✅ [Foursquare] Venue metadata merged into ${USE_SAMPLE_DATA ? 'sample' : ''} data`);
+  }
+
+  // Output file
+  if (PROCESS_DATA || MERGE_VENUES_METADATA) {
     if (USE_SAMPLE_DATA) {
       // Write to file
       fs.writeFileSync(CHECKINS_TEST_OUTPUT_FILE_PATH, JSON.stringify(checkins, null, 2));
-      console.log('✅ [Foursquare] Sample data processed');
-
     } else {
       // Write to file
-      fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));
-      console.log('✅ [Foursquare] Data processed');
+      fs.writeFileSync(CHECKINS_FILE_PATH, JSON.stringify(checkins, null, 2));      
     }
 
   }
