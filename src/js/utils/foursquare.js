@@ -47,12 +47,12 @@ export function checkinsToVenues(checkins) {
 }
 
 /**
- * @param  {[Object]} checkins
+ * @param  {[Object]} checkins or venues
  * @param  {String} categoryFilter e.g. 'Nightlife'
  * @param  {String} subCategoryFilter e.g. 'Dive Bar'
- * @return {[Object]} filtered checkins
+ * @return {[Object]} filtered checkins or venues
  */
-export function filterCheckinsByCategory(
+export function filterByCategory(
   checkins,
   categoryFilter = CATEGORY_ANY,
   subCategoryFilter = SUBCATEGORY_ANY,
@@ -73,13 +73,12 @@ export function filterCheckinsByCategory(
   })
 }
 
-
 /**
- * @param  {[Object]} checkins
+ * @param  {[Object]} checkins or venues
  * @param  {Object} locationFilter e.g. {country: 'Canada', state: 'Ontario'}
- * @return {[Object]} filtered checkins
+ * @return {[Object]} filtered checkins or venues
  */
-export function filterCheckinsByLocation(checkins, locationFilter) {
+export function filterByLocation(checkins, locationFilter) {
   if (locationFilter !== LOCATION_ANY) {
     let { country, state, city } = locationFilter;
     
@@ -104,3 +103,20 @@ export function filterCheckinsByLocation(checkins, locationFilter) {
   return checkins;
 }
 
+/**
+ * @param  {[Object]} checkins or venues
+ * @param  {Object} venue metadata e.g. {outdoorSeating: 'true', comments: true}
+ * @return {[Object]} filtered checkins or venues
+ */
+export function filterByMetadata(items, metadata = {}) {
+  const { comments, outdoorSeating, goToSpot, dateSpot, wouldTakeVisitors } = metadata;
+
+  return items.filter(item => {
+    if (comments && !item.comments) return false;
+    if (outdoorSeating && !item.outdoorSeating) return false;
+    if (goToSpot && !item.goToSpot) return false;
+    if (dateSpot && !item.dateSpot) return false;
+    if (wouldTakeVisitors && !item.wouldTakeVisitors) return false;
+    return true;
+  })
+}

@@ -66,7 +66,8 @@ export const checkins = [
     "month": 6,
     "subCategory": "Dive Bar",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Where I saw Sarah for the first time"
   },
  {
     "venue": "Mercury Cafe",

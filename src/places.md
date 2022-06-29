@@ -236,8 +236,9 @@ import {
   LOCATION_ANY,
   SUBCATEGORY_ANY,
   checkinsToVenues,
-  filterCheckinsByCategory,
-  filterCheckinsByLocation,
+  filterByCategory,
+  filterByLocation,
+  filterByMetadata,
 } from '/js/utils/foursquare.js';
 
 
@@ -272,10 +273,10 @@ Vue.component('venue', {
     firstVisit: Boolean,
     lastVisit: Boolean,
     comments: String,
-    goToSpotFilter: Boolean,
-    outdoorSeatingFilter: Boolean,
-    dateSpotFilter: Boolean,
-    wouldTakeVisitorsFilter: Boolean,
+    goToSpot: Boolean,
+    outdoorSeating: Boolean,
+    dateSpot: Boolean,
+    wouldTakeVisitors: Boolean,
     showCategory: {
       type: Boolean,
       default: true,
@@ -315,6 +316,7 @@ const app = new Vue({
       locationFilter: {},
       groupFilter: GROUP_BY_YEAR,
       showNewFilter: false,
+      commentsFilter: false,
       goToSpotFilter: false,
       outdoorSeatingFilter: false,
       dateSpotFilter: false,
@@ -389,6 +391,15 @@ const app = new Vue({
       return categories;
     },
 
+    metaDataFilters() {
+      return {
+        comments: this.commentsFilter,
+        goToSpot: this.goToSpotFilter,
+        outdoorSeating: this.outdoorSeatingFilter,
+        dateSpot: this.dateSpotFilter,
+        wouldTakeVisitors: this.wouldTakeVisitorsFilter,
+      }
+    },
 
     subCategoryOptions() {
       if (!this.categoryFilter) return [];
@@ -431,7 +442,7 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByCategory() {
-      return filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+      return filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
     },
 
     /**
@@ -439,7 +450,7 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByLocation() {
-      return filterCheckinsByLocation(this.checkins, this.locationFilter);
+      return filterByLocation(this.checkins, this.locationFilter);
     },
 
     /**
@@ -447,8 +458,8 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByPrimaryCategoryAndLocation() {
-      let checkins = filterCheckinsByCategory(this.checkins, this.categoryFilter);
-      return filterCheckinsByLocation(checkins, this.locationFilter);
+      let checkins = filterByCategory(this.checkins, this.categoryFilter);
+      return filterByLocation(checkins, this.locationFilter);
     },
 
     /**
@@ -456,16 +467,16 @@ const app = new Vue({
      * @return {[Object]} checkins
      */
     checkinsFilteredByCategoryAndLocation() {
-      let checkins = filterCheckinsByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
-      return filterCheckinsByLocation(checkins, this.locationFilter);
+      let checkins = filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+      return filterByLocation(checkins, this.locationFilter);
     },
 
     displayList() {
       if (this.groupFilter === GROUP_BY_YEAR) {
         // console.log(this.venuesFilteredByCategoryAndLocationGroupedByYear);
-        return this.venuesFilteredByCategoryAndLocationGroupedByYear;
+        return this.venuesFilteredGroupedByYear;
       } 
-      return this.venuesFilteredByCategoryAndLocation;
+      return this.venuesFiltered;
     },
 
     locationOptions() {
@@ -665,6 +676,14 @@ const app = new Vue({
       return checkinsToVenues(this.checkinsFilteredByLocation);
     },
 
+    venuesFiltered() {
+      let checkins = filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+      checkins = filterByLocation(checkins, this.locationFilter);
+      checkins = filterByMetadata(checkins, this.metaDataFilters)
+      const venues = checkinsToVenues(checkins);
+      return this.sortVenuesByCount(venues);
+    },
+
     venuesFilteredByCategoryAndLocation() {
       const venues = checkinsToVenues(this.checkinsFilteredByCategoryAndLocation);
       return this.sortVenuesByCount(venues);
@@ -675,8 +694,12 @@ const app = new Vue({
       return this.sortVenuesByCount(venues);
     },
 
-    venuesFilteredByCategoryAndLocationGroupedByYear() {
-      const groupedCheckins = this.groupCheckinsByYear(this.checkinsFilteredByCategoryAndLocation);
+    venuesFilteredGroupedByYear() {
+      let checkins = filterByCategory(this.checkins, this.categoryFilter, this.subCategoryFilter);
+      checkins = filterByLocation(checkins, this.locationFilter);
+      checkins = filterByMetadata(checkins, this.metaDataFilters)
+
+      const groupedCheckins = this.groupCheckinsByYear(checkins);
 
       const groupedVenues = groupedCheckins.map(yearObj => {
         const { year, checkins } = yearObj;
