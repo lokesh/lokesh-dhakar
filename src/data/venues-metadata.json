@@ -1,14 +1,117 @@
 {
-	"60fdd67e7042b33aad20c471": {
-		"goToSpot": true,
-		"dateSpot": true,
-		"wouldTakeVisitors": true
-	},
-	"49eb7f48f964a520e5661fe3": {
-		"goToSpot": true,
-		"comments": "Best scone in town."
-	},
-	"49fd1ce0f964a5200b6f1fe3": {
-		"goToSpot": true	
-	}
+  "60fdd67e7042b33aad20c471": {
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  "49eb7f48f964a520e5661fe3": {
+    "goToSpot": true,
+    "comments": "Strawberry scone"
+  },
+  "49fd1ce0f964a5200b6f1fe3": {
+    "goToSpot": true
+  },
+  "5b2134a81acf11002c0f7903": {
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+  },
+  "5105ed2fe4b02d11de1bae8d": {
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
+  },
+  "55203ab9498eb807ad0e6da5": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+  },
+  "49ccf971f964a520a6591fe3": {
+    "wouldTakeVisitors": true,
+    "comments": "Spiced chocolate, passion fruit donuts."
+  },
+  "60e9dcad148551533446302f": {
+    "wouldTakeVisitors": true,
+    "comments": "Umami bomb toast lives up to the name."
+  },
+  "4a139e14f964a520f0771fe3": {
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
+  },
+  "5968bf3429551366c474d076": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true
+  },
+  "4a4b8a43f964a5206fac1fe3": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true
+  },
+  "530a187e498eb0cfd40890a0": {
+    "wouldTakeVisitors": true
+  },
+  "533cc33f498e604ebad95d8c": {
+    "goToSpot": true,
+    "comments": "Veg or Black Sheep plant-based salad/sandwich"
+  },
+  "5e82886cc3e6830008549196": {
+    "dateSpot": true,
+    "comments": "Ginger noodles"
+  },
+  "4c325dd83896e21e6d6ee890": {
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Vinegar peanuts, Sichuan carbonara, mapo tofu, thrice cooked bacon with rice cakes"
+  },
+  "4a789bbbf964a52004e61fe3": {
+    "dateSpot": true,
+    "comments": "Cali-style pizzas"
+  },
+  "54a8b5d1498ef8abe40ce6b3": {
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  "54ea1afc498e12af65963097": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
+  },
+  "61a7ad2af8c5e00778294359": {
+    "comments": "Pastries. Go back and try bread and meal."
+  },
+  "55bec3d8498ea0833a1c10b7": {
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
+  },
+  "5914e8fae1f0aa603aa3c369": {
+    "comments": "Holy Name Panthers Sandwich's vegan breaded chicken."
+  },
+  "49dcd527f964a520ae5f1fe3": {
+    "comments": "Greasy, flavorless"
+  },
+  "5dc38b332e354200083192a3": {
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings"
+  },
+  "49daea87f964a520be5e1fe3": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+  },
+  "620400dc6d8dbe588b7772d4": {
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
+  },
+  "44ca68a6f964a52001361fe3": {
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  "4feddd79d86cd6f22dc171a9": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
+  }
 }

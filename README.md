@@ -86,6 +86,10 @@ npm run deploy
 
 ### Places
 
+npm run places-admin
+npm run places-admin-server
+
+
 #### Data structure
 
 New custom top-level categories have been created. The category field from the Foursquare API is moved into a new `subCategory` field.

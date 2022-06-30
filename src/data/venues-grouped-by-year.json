@@ -12,7 +12,7 @@
         "subCategory": "Café",
         "firstVisit": false,
         "goToSpot": true,
-        "comments": "Best scone in town.",
+        "comments": "Strawberry scone",
         "count": 12
       },
       {
@@ -24,6 +24,9 @@
         "category": "Coffee",
         "subCategory": "Café",
         "firstVisit": true,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "comments": "Good food, okay coffee.",
         "count": 10
       },
       {
@@ -79,6 +82,10 @@
         "category": "Food",
         "subCategory": "Scandinavian",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu.",
         "count": 7
       },
       {
@@ -90,6 +97,9 @@
         "category": "Coffee",
         "subCategory": "Café",
         "firstVisit": false,
+        "outdoorSeating": true,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
         "count": 7
       },
       {
@@ -101,6 +111,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 6
       },
       {
@@ -189,6 +202,8 @@
         "category": "Food",
         "subCategory": "Chinese",
         "firstVisit": false,
+        "goToSpot": true,
+        "comments": "Basil tofu, general tso's tofu, veg dumplings",
         "count": 4
       },
       {
@@ -221,6 +236,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 3
       },
       {
@@ -232,6 +251,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 3
       },
       {
@@ -410,6 +432,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 2
       },
       {
@@ -542,6 +567,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Umami bomb toast lives up to the name.",
         "count": 2
       },
       {
@@ -597,6 +624,7 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": true,
+        "comments": "Pastries. Go back and try bread and meal.",
         "count": 2
       },
       {
@@ -997,6 +1025,8 @@
         "country": "United States",
         "category": "Souvlaki",
         "firstVisit": false,
+        "goToSpot": true,
+        "comments": "Veg or Black Sheep plant-based salad/sandwich",
         "count": 1
       },
       {
@@ -1206,6 +1236,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -1227,6 +1259,8 @@
         "country": "United States",
         "category": "Dumplings",
         "firstVisit": true,
+        "dateSpot": true,
+        "comments": "Ginger noodles",
         "count": 1
       },
       {
@@ -1388,6 +1422,10 @@
         "category": "Food",
         "subCategory": "Chinese",
         "firstVisit": true,
+        "goToSpot": true,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Vinegar peanuts, Sichuan carbonara, mapo tofu, thrice cooked bacon with rice cakes",
         "count": 1
       },
       {
@@ -1537,6 +1575,8 @@
         "category": "Food",
         "subCategory": "New American",
         "firstVisit": true,
+        "dateSpot": true,
+        "comments": "Cali-style pizzas",
         "count": 1
       },
       {
@@ -2523,6 +2563,7 @@
         "category": "Food",
         "subCategory": "Burgers",
         "firstVisit": false,
+        "comments": "Greasy, flavorless",
         "count": 1
       },
       {
@@ -2610,6 +2651,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 1
       },
       {
@@ -3729,6 +3773,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -3767,6 +3813,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 16
       },
       {
@@ -3779,7 +3827,7 @@
         "subCategory": "Café",
         "firstVisit": false,
         "goToSpot": true,
-        "comments": "Best scone in town.",
+        "comments": "Strawberry scone",
         "count": 16
       },
       {
@@ -3802,6 +3850,10 @@
         "category": "Food",
         "subCategory": "Scandinavian",
         "firstVisit": true,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu.",
         "count": 10
       },
       {
@@ -3824,6 +3876,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 9
       },
       {
@@ -3901,6 +3956,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 6
       },
       {
@@ -4010,6 +4068,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 4
       },
       {
@@ -4108,6 +4169,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 3
       },
       {
@@ -4141,6 +4205,9 @@
         "category": "Coffee",
         "subCategory": "Café",
         "firstVisit": false,
+        "outdoorSeating": true,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
         "count": 2
       },
       {
@@ -4556,6 +4623,8 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Kouign-amann",
         "count": 1
       },
       {
@@ -4676,6 +4745,8 @@
         "category": "Food",
         "subCategory": "Sushi",
         "firstVisit": false,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -4968,6 +5039,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": true,
+        "wouldTakeVisitors": true,
+        "comments": "Umami bomb toast lives up to the name.",
         "count": 1
       },
       {
@@ -5066,6 +5139,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 1
       },
       {
@@ -5088,6 +5165,7 @@
         "category": "Food",
         "subCategory": "Sandwiches",
         "firstVisit": true,
+        "comments": "Holy Name Panthers Sandwich's vegan breaded chicken.",
         "count": 1
       },
       {
@@ -5216,6 +5294,7 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -6193,6 +6272,7 @@
         "category": "Food",
         "subCategory": "Burgers",
         "firstVisit": true,
+        "comments": "Greasy, flavorless",
         "count": 1
       },
       {
@@ -7130,6 +7210,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 13
       },
       {
@@ -7152,6 +7234,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 9
       },
       {
@@ -7163,6 +7248,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 9
       },
       {
@@ -7218,6 +7306,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 3
       },
       {
@@ -7306,6 +7397,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 2
       },
       {
@@ -7533,6 +7627,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -7566,6 +7662,8 @@
         "category": "Food",
         "subCategory": "Chinese",
         "firstVisit": true,
+        "goToSpot": true,
+        "comments": "Basil tofu, general tso's tofu, veg dumplings",
         "count": 1
       },
       {
@@ -7588,6 +7686,8 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Kouign-amann",
         "count": 1
       },
       {
@@ -8024,6 +8124,7 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers.",
         "count": 1
       },
       {
@@ -8678,6 +8779,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 15
       },
       {
@@ -8711,6 +8814,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 9
       },
       {
@@ -8777,6 +8883,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 5
       },
       {
@@ -8788,6 +8897,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 5
       },
       {
@@ -8864,6 +8976,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 4
       },
       {
@@ -8886,6 +9001,8 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Kouign-amann",
         "count": 4
       },
       {
@@ -9422,6 +9539,7 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers.",
         "count": 2
       },
       {
@@ -9498,6 +9616,9 @@
         "category": "Coffee",
         "subCategory": "Café",
         "firstVisit": true,
+        "outdoorSeating": true,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -9759,6 +9880,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 1
       },
       {
@@ -11123,6 +11248,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -12772,6 +12899,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 8
       },
       {
@@ -12783,6 +12912,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 8
       },
       {
@@ -12849,6 +12981,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 6
       },
       {
@@ -13034,6 +13169,7 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers.",
         "count": 3
       },
       {
@@ -13111,6 +13247,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 2
       },
       {
@@ -13208,6 +13347,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 2
       },
       {
@@ -13219,6 +13360,8 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Kouign-amann",
         "count": 2
       },
       {
@@ -13263,6 +13406,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 2
       },
       {
@@ -13405,6 +13551,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 2
       },
       {
@@ -13590,7 +13740,7 @@
         "subCategory": "Café",
         "firstVisit": false,
         "goToSpot": true,
-        "comments": "Best scone in town.",
+        "comments": "Strawberry scone",
         "count": 1
       },
       {
@@ -16583,6 +16733,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 11
       },
       {
@@ -16671,6 +16824,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 7
       },
       {
@@ -16682,6 +16838,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 6
       },
       {
@@ -16736,6 +16894,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 5
       },
       {
@@ -16780,6 +16941,8 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Kouign-amann",
         "count": 4
       },
       {
@@ -16845,6 +17008,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 4
       },
       {
@@ -16911,6 +17077,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 3
       },
       {
@@ -18027,6 +18195,7 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -19657,6 +19826,8 @@
         "country": "United States",
         "category": "Souvlaki",
         "firstVisit": true,
+        "goToSpot": true,
+        "comments": "Veg or Black Sheep plant-based salad/sandwich",
         "count": 1
       },
       {
@@ -19917,6 +20088,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 1
       },
       {
@@ -20790,6 +20965,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 6
       },
       {
@@ -20887,6 +21065,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 3
       },
       {
@@ -20942,6 +21124,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 3
       },
       {
@@ -20964,6 +21149,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 2
       },
       {
@@ -21073,6 +21260,8 @@
         "category": "Food",
         "subCategory": "Sushi",
         "firstVisit": false,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
         "count": 2
       },
       {
@@ -21225,6 +21414,7 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": false,
+        "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers.",
         "count": 2
       },
       {
@@ -21302,6 +21492,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 2
       },
       {
@@ -21313,6 +21506,8 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Kouign-amann",
         "count": 2
       },
       {
@@ -21477,6 +21672,7 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -22359,6 +22555,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 1
       },
       {
@@ -23958,6 +24157,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 18
       },
       {
@@ -23991,6 +24192,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 11
       },
       {
@@ -24222,6 +24426,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 4
       },
       {
@@ -24309,6 +24517,9 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
         "count": 3
       },
       {
@@ -24462,6 +24673,8 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": true,
+        "wouldTakeVisitors": true,
+        "comments": "Kouign-amann",
         "count": 2
       },
       {
@@ -24593,6 +24806,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Almond croissant is decadent. Almond chocolate is too much.",
         "count": 2
       },
       {
@@ -24637,6 +24853,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 2
       },
       {
@@ -24933,6 +25152,8 @@
         "category": "Food",
         "subCategory": "Sushi",
         "firstVisit": true,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
         "count": 2
       },
       {
@@ -24954,6 +25175,7 @@
         "category": "Food",
         "subCategory": "Vegetarian / Vegan",
         "firstVisit": true,
+        "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers.",
         "count": 1
       },
       {
@@ -28222,6 +28444,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 24
       },
       {
@@ -28277,6 +28501,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 9
       },
       {
@@ -28519,6 +28746,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 3
       },
       {
@@ -28773,7 +29003,7 @@
         "subCategory": "Café",
         "firstVisit": true,
         "goToSpot": true,
-        "comments": "Best scone in town.",
+        "comments": "Strawberry scone",
         "count": 3
       },
       {
@@ -30648,6 +30878,7 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -32031,6 +32262,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 1
       },
       {
@@ -32867,6 +33102,9 @@
         "category": "Coffee",
         "subCategory": "Bakery",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Josey Baker bread",
         "count": 22
       },
       {
@@ -32911,6 +33149,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 17
       },
       {
@@ -32977,6 +33217,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 9
       },
       {
@@ -33131,6 +33374,10 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": true,
+        "goToSpot": true,
+        "outdoorSeating": true,
+        "wouldTakeVisitors": true,
+        "comments": "Avocado toast, cinnamon toast. Good vibes.",
         "count": 4
       },
       {
@@ -38742,6 +38989,8 @@
         "category": "Dessert",
         "subCategory": "Donuts",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "Spiced chocolate, passion fruit donuts.",
         "count": 1
       },
       {
@@ -39010,6 +39259,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 19
       },
       {
@@ -40562,6 +40813,8 @@
         "category": "Dessert",
         "subCategory": "Donuts",
         "firstVisit": true,
+        "wouldTakeVisitors": true,
+        "comments": "Spiced chocolate, passion fruit donuts.",
         "count": 1
       },
       {
@@ -40628,6 +40881,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 1
       },
       {
@@ -45101,6 +45357,9 @@
         "category": "Food",
         "subCategory": "Burritos",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
         "count": 1
       },
       {
@@ -45133,6 +45392,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shop",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {

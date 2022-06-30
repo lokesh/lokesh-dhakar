@@ -30,6 +30,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread",
     "count": 98
   },
   {
@@ -41,6 +44,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
     "count": 89
   },
   {
@@ -129,6 +134,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
     "count": 59
   },
   {
@@ -184,6 +191,9 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town.",
     "count": 47
   },
   {
@@ -293,6 +303,9 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
     "count": 34
   },
   {
@@ -338,7 +351,7 @@
     "subCategory": "Café",
     "firstVisit": true,
     "goToSpot": true,
-    "comments": "Best scone in town.",
+    "comments": "Strawberry scone",
     "count": 32
   },
   {
@@ -492,6 +505,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much.",
     "count": 21
   },
   {
@@ -525,6 +541,10 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes.",
     "count": 20
   },
   {
@@ -599,6 +619,10 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu.",
     "count": 17
   },
   {
@@ -632,6 +656,8 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann",
     "count": 16
   },
   {
@@ -1169,6 +1195,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee.",
     "count": 10
   },
   {
@@ -1180,6 +1209,9 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
     "count": 10
   },
   {
@@ -1334,6 +1366,7 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": true,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers.",
     "count": 9
   },
   {
@@ -2559,6 +2592,8 @@
     "category": "Food",
     "subCategory": "Sushi",
     "firstVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
     "count": 5
   },
   {
@@ -2624,6 +2659,8 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": true,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings",
     "count": 5
   },
   {
@@ -3544,6 +3581,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
+    "wouldTakeVisitors": true,
     "count": 4
   },
   {
@@ -5174,6 +5212,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "Umami bomb toast lives up to the name.",
     "count": 3
   },
   {
@@ -6250,6 +6290,8 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "Spiced chocolate, passion fruit donuts.",
     "count": 2
   },
   {
@@ -9415,6 +9457,7 @@
     "category": "Food",
     "subCategory": "Burgers",
     "firstVisit": true,
+    "comments": "Greasy, flavorless",
     "count": 2
   },
   {
@@ -9437,6 +9480,7 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
+    "comments": "Pastries. Go back and try bread and meal.",
     "count": 2
   },
   {
@@ -9720,6 +9764,8 @@
     "country": "United States",
     "category": "Souvlaki",
     "firstVisit": true,
+    "goToSpot": true,
+    "comments": "Veg or Black Sheep plant-based salad/sandwich",
     "count": 2
   },
   {
@@ -34240,6 +34286,7 @@
     "category": "Food",
     "subCategory": "Sandwiches",
     "firstVisit": true,
+    "comments": "Holy Name Panthers Sandwich's vegan breaded chicken.",
     "count": 1
   },
   {
@@ -36062,6 +36109,8 @@
     "category": "Food",
     "subCategory": "New American",
     "firstVisit": true,
+    "dateSpot": true,
+    "comments": "Cali-style pizzas",
     "count": 1
   },
   {
@@ -36168,6 +36217,10 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": true,
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Vinegar peanuts, Sichuan carbonara, mapo tofu, thrice cooked bacon with rice cakes",
     "count": 1
   },
   {
@@ -36221,6 +36274,8 @@
     "country": "United States",
     "category": "Dumplings",
     "firstVisit": true,
+    "dateSpot": true,
+    "comments": "Ginger noodles",
     "count": 1
   },
   {

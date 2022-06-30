@@ -31,7 +31,8 @@
     "notes": "sh build/notes.sh",
     "img": "node ./build/img.js",
     "test": "node ./test/foursquare.test.js --experimental-modules",
-    "places-admin": "http-server -o admin/venues.html"
+    "places-admin": "http-server -o admin/places.html",
+    "places-admin-server": "node admin/server.js"
   },
   "repository": {
     "type": "git",
@@ -45,6 +46,9 @@
   "homepage": "https://github.com/lokesh/lokesh-dhakar#readme",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
     "http-server": "^14.1.1",
     "jest": "^28.1.0"
   }

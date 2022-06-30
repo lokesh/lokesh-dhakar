@@ -7,16 +7,10 @@
 </head>
 <body>
 
-<h3>To-do</h3>
-<ul>
-	<li>Load any existing venues.json data</li>
-	<li>Save edit to JSON (reset on save)</li>
-</ul>
-
 <div id="app">
 	<div class="page">
 		<div>
-			<input type="search" v-model="filter" />
+			<input type="search" v-model="filter" ref="search" />
 			
 			<div>
 				<div
@@ -57,7 +51,12 @@
 			  <textarea v-model="comments"></textarea>
 			</label>			
 			<div>
-				<button type="button">Save</button>
+				<button
+					type="button"
+					@click="saveVenue"
+				>
+					Save
+				</button>
 			</div>
 		</div>
 	</div>
@@ -113,7 +112,7 @@ new Vue({
       venuesMetadata: [], // The add'l venue meta data file data for saving
 
       // Filter
-      filter: 'millay',
+      filter: '',
 
       // Edit form
       id: '',
@@ -125,7 +124,10 @@ new Vue({
       comments: '',
     };
   },
+  
   mounted() {
+    this.$refs.search.focus();
+
     fetch('/src/data/foursquare-checkins.json')
       .then(res => res.json())
       .then(json => {
@@ -136,7 +138,7 @@ new Vue({
         console.log(error);
       })
 
-	fetch('/src/data/venuesMetadata.json')
+		fetch('/src/data/venues-metadata.json')
       .then(res => res.json())
       .then(json => {
       	this.venuesMetadata = json;
@@ -146,8 +148,8 @@ new Vue({
       })    
   },
  
- computed: {
- 	venuesFiltered() {
+	computed: {
+ 		venuesFiltered() {
 	   	if (!this.filter.length) {
     		return this.venues;
     	}
@@ -155,39 +157,72 @@ new Vue({
     	return this.venues.filter(v => {
     		return v.venue.toLowerCase().includes(this.filter.toLowerCase());
     	});
- 	},
- },
+		},
+	},
 
- methods: {
- 	loadVenue(v) {
- 		this.resetVenue();
+	methods: {
+	 	loadVenue(v) {
+	 		this.resetVenue();
 
- 		this.venuesMetadata.find(item => {
- 			if (item.id === v.id) {
- 				this.venue = v.venue;
+			this.venue = v.venue;
+	 		this.id = v.id;
 
- 				this.id = item.id;
- 				this.goToSpot = item.goToSpot;
- 				this.outdoorSeating = item.outdoorSeating;
- 				this.dateSpot = item.dateSpot;
- 				this.wouldTakeVisitors = item.wouldTakeVisitors;
- 				this.comments = item.comments;
- 			}
- 		})
- 	},
+	 		const meta = this.venuesMetadata[v.id];
+			if (meta) {				
+				this.goToSpot = meta.goToSpot;
+				this.outdoorSeating = meta.outdoorSeating;
+				this.dateSpot = meta.dateSpot;
+				this.wouldTakeVisitors = meta.wouldTakeVisitors;
+				this.comments = meta.comments;
+	 		}
+	 	},
 
- 	resetVenue() {
-      this.id = '';
-      this.venue = '';
-      this.goToSpot = false;
-      this.outdoorSeating = false;
-      this.dateSpot = false;
-      this.wouldTakeVisitors = false;
-      this.comments = '';
- 	},
- }
+	 	resetVenue() {
+	      this.id = '';
+	      this.venue = '';
+	      this.goToSpot = false;
+	      this.outdoorSeating = false;
+	      this.dateSpot = false;
+	      this.wouldTakeVisitors = false;
+	      this.comments = '';
+	 	},
+
+	 	saveVenue() {
+	 		let obj = this.venuesMetadata[this.id];
+	 		if (!obj) {
+	 			this.venuesMetadata[this.id] = {};
+	 		}
+
+ 			let v = this.venuesMetadata[this.id];
+
+	 		let dataProps = ['goToSpot', 'outdoorSeating', 'dateSpot', 'wouldTakeVisitors', 'comments'];
+
+	 		dataProps.forEach(prop => {
+	 			if (this[prop]) {
+	 				v[prop] = this[prop]
+	 			} else {
+	 				delete v[prop];
+	 			}
+	 		})
+
+	 		this.saveJSON();
+	 	},
+
+	 	async saveJSON() {
+  		const resp = await fetch('http://localhost:3001', {
+    		// mode: 'no-cors',
+    		method: 'POST',
+				headers: new Headers({'content-type': 'application/json'}),
+				body: JSON.stringify(this.venuesMetadata),
+		  });
+
+		  console.log(resp.status);
+		}
+	}
 });
 </script>
 </body>
 </html>
+
+
 

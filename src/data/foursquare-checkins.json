@@ -62,7 +62,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Fueling Station",
@@ -100,7 +104,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Tín",
@@ -603,7 +610,9 @@
     "month": 5,
     "category": "Souvlaki",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Veg or Black Sheep plant-based salad/sandwich"
   },
   {
     "venue": "Handy Handyman Hardware",
@@ -668,7 +677,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mission Dolores Park",
@@ -759,7 +771,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Ramen Izakaya Goku",
@@ -798,7 +813,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Papito Hayes",
@@ -850,7 +869,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mr Dragon",
@@ -889,7 +911,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "General Store",
@@ -952,7 +978,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "The Little Chihuahua",
@@ -965,7 +995,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Roxie Cinema",
@@ -1147,7 +1180,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Pink Onion",
@@ -1186,7 +1223,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -1224,7 +1263,9 @@
     "month": 4,
     "category": "Dumplings",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "dateSpot": true,
+    "comments": "Ginger noodles"
   },
   {
     "venue": "San Francisco Museum of Modern Art",
@@ -1404,7 +1445,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Emporium Arcade Bar",
@@ -1442,7 +1486,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Strawberry Hill",
@@ -1493,7 +1541,11 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Vinegar peanuts, Sichuan carbonara, mapo tofu, thrice cooked bacon with rice cakes"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -1608,7 +1660,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mission Dolores Park",
@@ -1634,7 +1689,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Hot Cookie",
@@ -1673,7 +1731,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Mixt",
@@ -1723,7 +1784,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Cafe de Casa",
@@ -1774,7 +1838,9 @@
     "category": "Food",
     "subCategory": "New American",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "dateSpot": true,
+    "comments": "Cali-style pizzas"
   },
   {
     "venue": "Castro Animal Hospital",
@@ -1851,7 +1917,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Baskin-Robbins",
@@ -1903,7 +1972,9 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings"
   },
   {
     "venue": "San Francisco Botanical Garden",
@@ -2045,7 +2116,7 @@
     "firstVisit": false,
     "lastVisit": true,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Grant Place Restaurant",
@@ -2071,7 +2142,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Alamo Drafthouse Cinema",
@@ -2870,7 +2944,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -2909,7 +2986,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Spro Coffeelab",
@@ -2922,7 +3002,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "Umami bomb toast lives up to the name."
   },
   {
     "venue": "Four Barrel Coffee",
@@ -3311,7 +3393,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Ornot",
@@ -3350,7 +3432,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Umami bomb toast lives up to the name."
   },
   {
     "venue": "Hyperoptics",
@@ -3401,7 +3485,8 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "comments": "Pastries. Go back and try bread and meal."
   },
   {
     "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
@@ -3584,7 +3669,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Joyride Pizza",
@@ -3636,7 +3721,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Metro Caffe",
@@ -3649,7 +3737,8 @@
     "category": "Food",
     "subCategory": "Burgers",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "comments": "Greasy, flavorless"
   },
   {
     "venue": "Willkommen",
@@ -3715,7 +3804,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Arizmendi Bakery Panaderia & Pizzeria",
@@ -3806,7 +3895,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Little Sweet",
@@ -3870,7 +3962,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Little Delhi",
@@ -3910,7 +4006,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Café du Soleil",
@@ -3923,7 +4019,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Café du Soleil",
@@ -3936,7 +4035,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "CounterPULSE",
@@ -4026,7 +4128,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "Mercury Cafe",
@@ -4041,7 +4146,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Café du Soleil",
@@ -4054,7 +4159,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
   },
   {
     "venue": "The Coffee Movement",
@@ -4388,7 +4496,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Haight Fillmore Whole Foods",
@@ -4504,7 +4616,9 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings"
   },
   {
     "venue": "Civic Center District",
@@ -4658,7 +4772,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Mercury Cafe",
@@ -4673,7 +4790,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Assembly",
@@ -4788,7 +4905,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Automat",
@@ -4801,7 +4921,8 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Pastries. Go back and try bread and meal."
   },
   {
     "venue": "San Francisco Museum of Modern Art",
@@ -4967,7 +5088,9 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -5147,7 +5270,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "WAG Hotel",
@@ -5199,7 +5325,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Souvenir Coffee",
@@ -5251,7 +5380,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Iyara Thai Massage",
@@ -5317,7 +5449,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Yh Beijing",
@@ -5330,7 +5462,9 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings"
   },
   {
     "venue": "Mission Pet Hospital",
@@ -5470,7 +5604,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Mike's Bikes of San Francisco",
@@ -5563,7 +5700,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "M.H. Bread and Butter",
@@ -5643,7 +5784,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Kitava",
@@ -6044,7 +6185,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Mercury Cafe",
@@ -6059,7 +6204,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Safeway",
@@ -6098,7 +6243,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mission Pet Hospital",
@@ -6254,7 +6402,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Axum Cafe",
@@ -6280,7 +6428,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -6293,7 +6444,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Viva Vegan",
@@ -6321,7 +6474,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "The Mill",
@@ -6334,7 +6487,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Cafe International",
@@ -6386,7 +6542,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Dolores Park Cafe",
@@ -6399,7 +6559,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -6529,7 +6692,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -6555,7 +6721,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -6659,7 +6827,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Nourish Cafe SF",
@@ -6672,7 +6842,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Mercury Cafe",
@@ -6687,7 +6860,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Churchill",
@@ -6767,7 +6940,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "The Junction Beer Garden",
@@ -6896,7 +7069,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Shizen",
@@ -6909,7 +7084,9 @@
     "category": "Food",
     "subCategory": "Sushi",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "teamLab Continuity",
@@ -7012,7 +7189,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Mission Pet Hospital",
@@ -7488,7 +7669,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Umami bomb toast lives up to the name."
   },
   {
     "venue": "Craftsman and Wolves",
@@ -7619,7 +7802,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "WAG Hotel",
@@ -7645,7 +7828,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Kantine",
@@ -7658,7 +7844,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Dolores Park Cafe",
@@ -7671,7 +7861,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mission Dolores Park",
@@ -7772,7 +7965,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Devil's Teeth Baking Company",
@@ -7798,7 +7995,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Duboce Park",
@@ -7824,7 +8025,8 @@
     "category": "Food",
     "subCategory": "Sandwiches",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "comments": "Holy Name Panthers Sandwich's vegan breaded chicken."
   },
   {
     "venue": "Breck's",
@@ -7889,7 +8091,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Verve Coffee Roasters",
@@ -8017,7 +8219,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Comix Experience",
@@ -8044,7 +8247,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Mercury Cafe",
@@ -8059,7 +8262,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Siam Orchid Traditional Thai Massage",
@@ -8125,7 +8328,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Pet Food Express",
@@ -8216,7 +8419,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Embarcadero Center Cinema",
@@ -8254,7 +8461,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Equator Coffee & Teas",
@@ -8306,7 +8516,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Mercury Cafe",
@@ -8321,7 +8535,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Alchemy By Alta",
@@ -8347,7 +8561,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Mercury Cafe",
@@ -8362,7 +8580,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Wise Sons Bagel & Coffee",
@@ -8453,7 +8671,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "AMC Metreon 16",
@@ -9166,7 +9384,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Twisted Street Cafe",
@@ -9207,7 +9429,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "The Panhandle",
@@ -9361,7 +9583,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "Alchemy By Alta",
@@ -9387,7 +9613,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Rare Device",
@@ -9415,7 +9644,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Vive La Tarte",
@@ -9492,7 +9721,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Juice Shop",
@@ -9518,7 +9750,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Wholesome Bakery",
@@ -9544,7 +9778,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Besharam",
@@ -9663,7 +9900,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Love On Haight",
@@ -9882,7 +10119,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
   },
   {
     "venue": "New Santa Clara Market",
@@ -10087,7 +10328,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Corona Heights Park",
@@ -10115,7 +10358,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Rise & Grind",
@@ -10169,7 +10412,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "The Animal House",
@@ -10249,7 +10492,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Urban Bowls",
@@ -10300,7 +10543,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Sightglass Coffee",
@@ -10313,7 +10559,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Mill",
@@ -10326,7 +10574,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Woods Lower Haight",
@@ -10377,7 +10628,8 @@
     "category": "Food",
     "subCategory": "Burgers",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Greasy, flavorless"
   },
   {
     "venue": "Iyara Thai Massage",
@@ -10402,7 +10654,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Wholesome Bakery",
@@ -10466,7 +10720,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -10583,7 +10840,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -10622,7 +10882,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "IKEA",
@@ -10776,7 +11038,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "The Little Chihuahua",
@@ -10789,7 +11054,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Arsicault Bakery",
@@ -10802,7 +11070,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Alchemy By Alta",
@@ -10867,7 +11138,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Home",
@@ -10906,7 +11179,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Donut Alley",
@@ -11779,7 +12054,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "WAG Hotel",
@@ -11817,7 +12094,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -12090,7 +12370,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Souvenir Coffee",
@@ -12168,7 +12451,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Slice House by Tony Gemignani",
@@ -12246,7 +12531,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Mill",
@@ -12259,7 +12546,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "The Richfield",
@@ -12402,7 +12692,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Mill",
@@ -12415,7 +12707,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Wholesome Bakery",
@@ -12479,7 +12774,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Dynamo Donut & Coffee Kiosk",
@@ -12738,7 +13036,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Oakside Cafe",
@@ -12764,7 +13065,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Hawk Hill",
@@ -12803,7 +13106,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Equator",
@@ -12855,7 +13160,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "The Coffee Movement",
@@ -12945,7 +13253,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Uncle Benny's Donut & Bagel",
@@ -12971,7 +13282,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Native Twins Coffee",
@@ -13023,7 +13336,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Taco Bell Cantina",
@@ -13062,7 +13378,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Snowbird Coffee",
@@ -13205,7 +13523,9 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -13257,7 +13577,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Native Twins Coffee",
@@ -13374,7 +13697,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Arsicault Bakery",
@@ -13387,7 +13713,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "The Little Chihuahua",
@@ -13400,7 +13729,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Oakside Cafe",
@@ -13426,7 +13758,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Angelina's Cafe",
@@ -13543,7 +13877,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Pet Food Express",
@@ -13595,7 +13932,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Sightglass Coffee",
@@ -13608,7 +13948,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Oakside Cafe",
@@ -13634,7 +13976,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Oakside Cafe",
@@ -13893,7 +14237,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Oakside Cafe",
@@ -14010,7 +14356,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Breadbelly",
@@ -14049,7 +14397,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Nourish Cafe SF",
@@ -14062,7 +14413,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Sightglass Coffee",
@@ -14075,7 +14429,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Freewheel Bike Shop - Haight",
@@ -14114,7 +14470,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -14166,7 +14525,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -14179,7 +14540,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Snowbird Coffee",
@@ -14205,7 +14568,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Arsicault Bakery",
@@ -14218,7 +14583,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Nourish Cafe SF",
@@ -14231,7 +14599,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "The Princess of the Panhandle",
@@ -14269,7 +14640,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Hahdough",
@@ -14345,7 +14719,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "City of San Francisco",
@@ -14396,7 +14773,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Peet's Coffee & Tea",
@@ -14422,7 +14802,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Whole Foods Market",
@@ -14485,7 +14867,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Nourish Cafe SF",
@@ -14498,7 +14883,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Green Apple Books & Le Video",
@@ -14627,7 +15015,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Daily Driver",
@@ -14874,7 +15264,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Devil’s Teeth Baking Company",
@@ -15067,7 +15460,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "VeganBurg",
@@ -15080,7 +15475,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "Sutro Heights Park",
@@ -15106,7 +15502,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "The Mill",
@@ -15119,7 +15518,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Lady Falcon Coffee Club",
@@ -15236,7 +15638,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "450 Sutter Building",
@@ -15288,7 +15693,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Coin-Op Game Room",
@@ -16095,7 +16503,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Haus Coffee",
@@ -16134,7 +16544,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Santa Clara Natural Organic Market",
@@ -16238,7 +16650,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -16264,7 +16679,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -16328,7 +16746,10 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mission Dolores Park",
@@ -16354,7 +16775,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Twin Peaks Summit",
@@ -16458,7 +16882,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Maxfield's House of Caffeine",
@@ -16484,7 +16911,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Sightglass Coffee",
@@ -16497,7 +16927,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -16757,7 +17189,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -16770,7 +17204,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Wholesome Bakery",
@@ -16835,7 +17271,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Flywheel Coffee",
@@ -16913,7 +17351,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "fifty/fifty",
@@ -17093,7 +17533,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "City Lights Bookstore",
@@ -17132,7 +17575,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Alamo Square",
@@ -17236,7 +17681,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -17274,7 +17722,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "The Page",
@@ -17339,7 +17790,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Arsicault Bakery",
@@ -17352,7 +17806,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "AT&T",
@@ -17390,7 +17847,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Oakside Cafe",
@@ -17468,7 +17929,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Verve Coffee Roasters",
@@ -17571,7 +18035,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -17816,7 +18282,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Mission Blue",
@@ -17842,7 +18311,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -18049,7 +18521,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "The Mill",
@@ -18062,7 +18536,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Sightglass Coffee",
@@ -18075,7 +18552,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Square HQ",
@@ -18217,7 +18696,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Battery Wagner",
@@ -18935,7 +19417,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -20366,7 +20851,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Native Twins Coffee",
@@ -20405,7 +20892,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Native Twins Coffee",
@@ -20965,7 +21454,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Zuri",
@@ -21042,7 +21533,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Wise Sons Jewish Delicatessen",
@@ -21144,7 +21637,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Stow Lake",
@@ -22084,7 +22580,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Wiggle Bicycles",
@@ -22110,7 +22608,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Andytown Coffee",
@@ -22135,7 +22636,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Vive La Tarte",
@@ -22419,7 +22922,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Clayroom",
@@ -22509,7 +23014,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Muir Woods Road",
@@ -22805,7 +23313,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Andytown Coffee",
@@ -22855,7 +23366,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "B. Patisserie",
@@ -22868,7 +23380,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Square HQ",
@@ -23187,7 +23701,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "Ma’Velous Coffee & Little Griddle",
@@ -23278,7 +23793,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Andytown Coffee",
@@ -23341,7 +23858,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Cole Hardware",
@@ -23367,7 +23886,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Cheap Petes",
@@ -23417,7 +23939,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -23906,7 +24431,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -23932,7 +24459,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "The Little Chihuahua",
@@ -23945,7 +24475,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Square HQ",
@@ -24072,7 +24605,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -24189,7 +24724,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -24215,7 +24753,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -24392,7 +24933,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Sutro Heights Park",
@@ -24468,7 +25012,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -24690,7 +25237,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "SoMa StrEat Food Park",
@@ -24933,7 +25480,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Himalayan Pizza and Momo",
@@ -25088,7 +25638,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "The North Face Post Street",
@@ -25449,7 +26002,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Trouble Coffee & Coconut Club",
@@ -26000,7 +26555,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "WAG Hotel",
@@ -26077,7 +26634,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Lyon Street Steps",
@@ -26141,7 +26700,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Wholesome Bakery",
@@ -26245,7 +26806,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Small Foods",
@@ -26373,7 +26936,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "The Mill",
@@ -26386,7 +26952,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Sightglass Coffee",
@@ -26399,7 +26968,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Weebly",
@@ -26438,7 +27009,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Holy Gelato",
@@ -26658,7 +27232,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Hollow",
@@ -26827,7 +27403,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -26981,7 +27560,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Marin Headlands",
@@ -27470,7 +28052,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Sightglass Coffee",
@@ -27483,7 +28068,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Square HQ",
@@ -27817,7 +28404,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Staples",
@@ -28037,7 +28627,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "Lombard Street",
@@ -28552,7 +29143,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Comix Experience",
@@ -28898,7 +29492,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Financial District",
@@ -28987,7 +29583,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -29026,7 +29625,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Haight Street Market",
@@ -30788,7 +31391,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Dogpatch Boulders",
@@ -30878,7 +31484,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Hawk Hill",
@@ -31084,7 +31693,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Twin Peaks Summit",
@@ -31110,7 +31721,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -31188,7 +31800,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Top of San Bruno Mountain",
@@ -31239,7 +31855,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Sightglass Coffee",
@@ -31252,7 +31871,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Loving Hut SF Sunset",
@@ -31523,7 +32144,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -31613,7 +32235,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Hawk Hill",
@@ -31807,7 +32432,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Princess of the Panhandle",
@@ -31973,7 +32600,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Flywheel Coffee",
@@ -31999,7 +32629,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Twin Peaks Summit",
@@ -32179,7 +32811,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Hawk Hill",
@@ -32283,7 +32918,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "B. Patisserie",
@@ -32296,7 +32933,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Luke's Local",
@@ -32567,7 +33206,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Slacker Ridge",
@@ -32632,7 +33273,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Repose",
@@ -32697,7 +33340,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Alamo Square",
@@ -32970,7 +33616,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -32996,7 +33645,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Kezar Stadium",
@@ -33216,7 +33867,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -33229,7 +33881,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Tilak",
@@ -33475,7 +34129,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Black Hammer Brewing",
@@ -34103,7 +34760,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Azure Dental",
@@ -34193,7 +34853,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Haight Street Market",
@@ -34231,7 +34893,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Matching Half Cafe",
@@ -34283,7 +34948,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Barrel Head Brewhouse",
@@ -34516,7 +35184,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Fearless Coffee",
@@ -34773,7 +35444,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "East Peak, Mount Tamalpais",
@@ -34927,7 +35601,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -35017,7 +35693,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Trademark",
@@ -35234,7 +35912,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Hortica",
@@ -35298,7 +35979,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Twin Peaks Summit",
@@ -35530,7 +36213,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -36568,7 +37254,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "J.P. Kempt",
@@ -36709,7 +37398,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Tennessee Point",
@@ -36865,7 +37557,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Duboce Park",
@@ -37121,7 +37816,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Letterform Archive",
@@ -37341,7 +38039,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Alamo Square",
@@ -37445,7 +38146,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -37470,7 +38173,9 @@
     "month": 4,
     "category": "Souvlaki",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Veg or Black Sheep plant-based salad/sandwich"
   },
   {
     "venue": "WAG Hotel",
@@ -37677,7 +38382,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Fort Point National Historic Site",
@@ -37741,7 +38449,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -37933,7 +38644,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "SF Hardware",
@@ -38231,7 +38945,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -38346,7 +39063,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -38876,7 +39597,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Trader Joe's",
@@ -39159,7 +39883,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Chicks and Love Pizza",
@@ -39404,7 +40131,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Trader Joe's",
@@ -40205,7 +40935,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -40321,7 +41054,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Hawk Hill",
@@ -40736,7 +41472,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Weebly",
@@ -40878,7 +41616,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Tennessee Point",
@@ -41160,7 +41901,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "City of San Francisco",
@@ -41751,7 +42493,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Bed Bath & Beyond",
@@ -41803,7 +42549,9 @@
     "category": "Food",
     "subCategory": "Sushi",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Thieves' Tavern",
@@ -42086,7 +42834,9 @@
     "category": "Food",
     "subCategory": "Sushi",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Trouble Coffee",
@@ -42099,7 +42849,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Matching Half Cafe",
@@ -42280,7 +43034,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Courtney's Produce",
@@ -42449,7 +43206,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -42758,7 +43518,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "SoMa StrEat Food Park",
@@ -42914,7 +43675,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Hawk Hill",
@@ -43946,7 +44710,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Saint Ignatius College Preparatory",
@@ -43985,7 +44752,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Weebly",
@@ -44011,7 +44781,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Neighbor's Corner",
@@ -44075,7 +44848,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Hawk Hill",
@@ -44334,7 +45110,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Geary Salon",
@@ -45236,7 +46014,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Twin Peaks Summit",
@@ -45365,7 +46147,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -45467,7 +46252,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "California Pacific Medical Center Medical Office Building",
@@ -45821,7 +46608,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "45 Castro Medical Building - California Pacific Medical Center Davies Campus",
@@ -45846,7 +46636,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "Louis Cubba, M.D.",
@@ -46038,7 +46829,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Weebly",
@@ -46103,7 +46896,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Twin Peaks Summit",
@@ -46181,7 +46977,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Whole Foods Market",
@@ -46323,7 +47122,8 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
     "venue": "Corona Heights Dog Run",
@@ -46388,7 +47188,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Alamo Square",
@@ -46453,7 +47257,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Flywheel Coffee",
@@ -46647,7 +47453,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Starbucks",
@@ -46789,7 +47598,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Mill",
@@ -46802,7 +47613,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Front",
@@ -46931,7 +47745,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Hawk Hill",
@@ -47242,7 +48059,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Nourish Cafe SF",
@@ -47255,7 +48075,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Devil's Teeth Baking Company",
@@ -47566,7 +48389,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "B. Patisserie",
@@ -47579,7 +48405,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Kouign-amann"
   },
   {
     "venue": "Weebly",
@@ -47644,7 +48472,10 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   {
     "venue": "Levi's Store",
@@ -47696,7 +48527,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Matching Half Cafe",
@@ -47761,7 +48595,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Cibo",
@@ -47800,7 +48637,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Ocean Beach",
@@ -48462,7 +49303,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -49247,7 +50091,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Corona Heights Dog Run",
@@ -49519,7 +50366,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Alamo Square",
@@ -49933,7 +50783,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -50258,7 +51111,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Milagra Ridge County Park",
@@ -50645,7 +51502,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Getaround HQ",
@@ -50996,7 +51856,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant is decadent. Almond chocolate is too much."
   },
   {
     "venue": "Hawk Hill",
@@ -51187,7 +52050,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Rapha Cycle Club",
@@ -51213,7 +52078,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Bayview Park",
@@ -51317,7 +52184,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Matching Half Cafe",
@@ -51407,7 +52276,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "eurobistros",
@@ -52255,7 +53126,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Pier 45",
@@ -52398,7 +53271,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Basil Thai Restaurant & Bar",
@@ -52463,7 +53339,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "La Boulangerie de San Francisco",
@@ -52758,7 +53636,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Basil Thai Restaurant & Bar",
@@ -52784,7 +53664,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Siam Lotus Thai Cuisine",
@@ -52963,7 +53845,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Twin Peaks Summit",
@@ -53247,7 +54131,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Golden Gate Indian Cuisine and Pizza",
@@ -53286,7 +54172,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -53636,7 +54525,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "SoMa StrEat Food Park",
@@ -53714,7 +54605,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Cibo",
@@ -53882,7 +54775,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Best in Show",
@@ -54051,7 +54946,9 @@
     "category": "Food",
     "subCategory": "Sushi",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround HQ",
@@ -54166,7 +55063,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Twin Peaks Summit",
@@ -54192,7 +55093,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "WAG Hotel",
@@ -54465,7 +55368,9 @@
     "category": "Food",
     "subCategory": "Sushi",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Stanza Coffee",
@@ -54491,7 +55396,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -54504,7 +55411,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Fog Lifter Café",
@@ -54647,7 +55556,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "WAG Hotel",
@@ -54673,7 +55584,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -54842,7 +55756,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "WAG Hotel",
@@ -55024,7 +55941,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround HQ",
@@ -55309,7 +56228,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sink Hole at Lake and 6th",
@@ -55569,7 +56490,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Dear Mom",
@@ -55720,7 +56643,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Twitter Roofdeck",
@@ -55810,7 +56735,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Holy Gelato",
@@ -55977,7 +56904,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Twin Peaks Summit",
@@ -56352,7 +57281,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "WAG Hotel",
@@ -56742,7 +57673,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "El Burrito Express",
@@ -57351,7 +58284,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Crissy Field",
@@ -57416,7 +58352,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Urban Putt",
@@ -57467,7 +58405,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Molotov's",
@@ -57558,7 +58498,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Señor Sisig",
@@ -57648,7 +58590,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Strawberry Hill",
@@ -57725,7 +58670,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Pacific Overlook",
@@ -58011,7 +58959,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Triptych",
@@ -58167,7 +59117,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Bloodhound",
@@ -58206,7 +59159,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "China Beach",
@@ -58336,7 +59290,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -58517,7 +59474,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "The Little Chihuahua",
@@ -58530,7 +59490,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -58749,7 +59712,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Triptych",
@@ -58803,7 +59768,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "WAG Hotel",
@@ -59323,7 +60288,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Deli Board",
@@ -60007,7 +60974,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -60020,7 +60989,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Takara Sushi",
@@ -60125,7 +61096,7 @@
     "firstVisit": false,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Bi-Rite Market",
@@ -60267,7 +61238,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -60280,7 +61253,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sextant Coffee Roasters",
@@ -60319,7 +61294,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -60721,7 +61699,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Levi's Store",
@@ -60864,7 +61844,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Corona Heights Park",
@@ -60890,7 +61873,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Buckshot Bar & Gameroom",
@@ -60942,7 +61927,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Hidden Beach Path",
@@ -61177,7 +62164,7 @@
     "firstVisit": true,
     "lastVisit": false,
     "goToSpot": true,
-    "comments": "Best scone in town."
+    "comments": "Strawberry scone"
   },
   {
     "venue": "Walter Haas Park and Playground",
@@ -61370,7 +62357,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Philz Coffee",
@@ -61965,7 +62954,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "The Mill",
@@ -61978,7 +62971,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -62868,7 +63864,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Dear Mom",
@@ -63646,7 +64644,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Hollow",
@@ -63750,7 +64750,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Buena Vista Park",
@@ -64601,7 +65604,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Rumors",
@@ -64627,7 +65633,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Gestalt Haus Fairfax",
@@ -64783,7 +65791,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Four Barrel Coffee",
@@ -64874,7 +65885,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Green Chile Kitchen",
@@ -65326,7 +66340,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Pelican Beach",
@@ -65701,7 +66719,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "John McLaren Park",
@@ -65895,7 +66916,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Fat Angel Food & Libation",
@@ -66010,7 +67034,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Target",
@@ -66165,7 +67191,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Deli Board",
@@ -66243,7 +67272,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Grand View Park",
@@ -66308,7 +67341,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Dynamo Donut & Coffee Kiosk",
@@ -66373,7 +67409,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Rapha Cycle Club",
@@ -66451,7 +67490,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Curry Up Now",
@@ -66503,7 +67545,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Rapha Cycle Club",
@@ -66672,7 +67717,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Zeitgeist",
@@ -67462,7 +68510,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Steff's Sports Bar",
@@ -67773,7 +68824,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Mill",
@@ -67786,7 +68839,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -68058,7 +69114,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -68264,7 +69323,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Rapha Cycle Club",
@@ -68342,7 +69403,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Triptych",
@@ -68381,7 +69445,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "The Little Chihuahua",
@@ -68394,7 +69461,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "TeaWay 一茶道",
@@ -68510,7 +69580,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Radius",
@@ -68562,7 +69634,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Bi-Rite Market",
@@ -69052,7 +70127,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Fig & Thistle Wine Bar",
@@ -69208,7 +70285,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "SOMA Grand",
@@ -69609,7 +70688,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Bean Bag Cafe",
@@ -69687,7 +70769,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Citizen's Band",
@@ -69778,7 +70863,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Alamo Square Market & Deli",
@@ -69817,7 +70905,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Off the Grid: Civic Center",
@@ -69869,7 +70959,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "The Panhandle",
@@ -69933,7 +71026,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Starbucks",
@@ -70632,7 +71729,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Green Earth Natural Foods",
@@ -70761,7 +71861,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -70891,7 +71994,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "AK Subs",
@@ -70917,7 +72022,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Kite Hill Open Space",
@@ -71370,7 +72478,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -71562,7 +72673,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Mad Dog in the Fog",
@@ -71834,7 +72948,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Hollow",
@@ -72158,7 +73274,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -72222,7 +73341,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Little Star Pizza",
@@ -72274,7 +73395,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround Rooftop Party Club",
@@ -72326,7 +73449,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -72352,7 +73478,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -73175,7 +74304,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Josey Baker bread"
   },
   {
     "venue": "Bloodhound",
@@ -73999,7 +75131,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Caffe Centro",
@@ -74051,7 +75185,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround HQ",
@@ -74245,7 +75381,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -75082,7 +76220,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "VEGA",
@@ -75160,7 +76300,9 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "Spiced chocolate, passion fruit donuts."
   },
   {
     "venue": "La Palma Mexicatessen Molino y Tortilleria",
@@ -75406,7 +76548,11 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "VEGA",
@@ -75588,7 +76734,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround HQ",
@@ -75911,7 +77059,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Rapha Cycle Club",
@@ -75950,7 +77100,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mezzanine",
@@ -76053,7 +77205,9 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true,
+    "comments": "Spiced chocolate, passion fruit donuts."
   },
   {
     "venue": "Bernal Heights Park",
@@ -76092,7 +77246,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround HQ",
@@ -76287,7 +77443,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Twin Peaks Summit",
@@ -76584,7 +77743,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Piccino Cafe",
@@ -77218,7 +78379,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Taco Guys",
@@ -77332,7 +78495,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Yerba Buena Gardens",
@@ -77848,7 +79013,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Lanesplitter Pizza & Pub",
@@ -77991,7 +79158,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Slim's",
@@ -78160,7 +79329,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "AK Subs",
@@ -78225,7 +79396,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "VEGA",
@@ -78251,7 +79424,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Trader Joe's",
@@ -78985,7 +80160,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Kung Fu Tacos @ Soma StrEat Food Park",
@@ -79348,7 +80525,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Trader Joe's",
@@ -79646,7 +80825,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "GAP",
@@ -79776,7 +80957,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "VEGA",
@@ -80033,7 +81216,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Alamo Square",
@@ -80668,7 +81853,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Ma'velous Coffee & Wine Bar",
@@ -81956,7 +83143,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround HQ",
@@ -82760,7 +83949,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Getaround HQ",
@@ -87491,7 +88682,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
   },
   {
     "venue": "Bloodhound",
@@ -87529,7 +88723,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Whole Foods Market",

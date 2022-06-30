@@ -11,6 +11,10 @@ pageWidth: "full"
 ## To-do
 
 
+- [ ] Move checkinsToVenues func to separate util for node build/foursquare.js from utils/foursquare.js
+- [ ] Clean up foursquare.js. Lots of funcs scatted at top
+
+
 - [ ] New color scheme for categories
 
 https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaStart=98&grayLumaEnd=5&grayLumaCurve=linear&colorSteps=7&colorLumaStart=110&colorLumaEnd=10&colorLumaCurve=linear&colorChromaStart=42&colorChromaEnd=12&colorChromaCurve=linear&showLabel=true&showHex=true&showContrastRatio=false&colorHues=0%2C30%2C55%2C78%2C118%2C157%2C182%2C230%2C274%2C309%2C348
@@ -21,16 +25,7 @@ all-time, and grouped
 
 checkins.json currently 2.4mb
 
-
-- [ ] Fetch comments for checkins
-Do this by first fetching checkins. Then for each venue, fetching checkin.
-Set up code that we only get new check-ins moving forward and only for those venues do we get full venue data.
-
-- [x] Clickable cities, states
-- [x] Clickable categories
-- [x] Show count and percentage of new spots.
 - [ ] Add loading indicator
-- [ ] Show favorites?
 - [ ] Mobile dropdown for location too long
 
 
@@ -761,8 +756,6 @@ const app = new Vue({
 :root {
   --col-width: 320px;
 
-
-
   --cat-arts: #eb0054;
   --cat-coffee: #d90;
   --cat-dessert: #f39;
@@ -771,7 +764,6 @@ const app = new Vue({
   --cat-outdoors: #090;
   --cat-shop: #000;
   
-
   --cat-travel: var(--color);
   --cat-locale: var(--color);
   --cat-residence: var(--color);
@@ -861,10 +853,8 @@ const app = new Vue({
   border-radius: var(--radius-sm);  
 }
 
-
-
 .item-category {
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .cat-Coffee {
