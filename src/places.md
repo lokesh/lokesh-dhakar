@@ -10,6 +10,10 @@ pageWidth: "full"
 
 ## To-do
 
+- [ ] Add loading indicator
+- [ ] Mobile dropdown for location too long
+
+---
 
 - [ ] Move checkinsToVenues func to separate util for node build/foursquare.js from utils/foursquare.js
 - [ ] Clean up foursquare.js. Lots of funcs scatted at top
@@ -20,13 +24,6 @@ pageWidth: "full"
 https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaStart=98&grayLumaEnd=5&grayLumaCurve=linear&colorSteps=7&colorLumaStart=110&colorLumaEnd=10&colorLumaCurve=linear&colorChromaStart=42&colorChromaEnd=12&colorChromaCurve=linear&showLabel=true&showHex=true&showContrastRatio=false&colorHues=0%2C30%2C55%2C78%2C118%2C157%2C182%2C230%2C274%2C309%2C348
 
 
-- [ ] Pre-process checkins to two diff venue JSON files:
-all-time, and grouped
-
-checkins.json currently 2.4mb
-
-- [ ] Add loading indicator
-- [ ] Mobile dropdown for location too long
 
 
 # How the filtering works - outdated
@@ -46,8 +43,6 @@ checkins.json currently 2.4mb
 # Brainstorming
 
 - Highlight trips automatically
-- Add custom notes? or should these happen in app
-Map
 - Monospaced, with location in ascii rectangles on a map?
 
 -->
@@ -128,7 +123,16 @@ Map
     cat: {{ categoryFilter }}<br />
     subcat: {{ subCategoryFilter }} 
  -->
-   <div class="filters">
+
+  <div v-if="isFetching">
+    Loading
+    <div class="loader-bar"></div>
+    <!-- <div class="loader-arrow"></div> -->
+  </div>
+  <div
+    v-else
+    class="filters"
+  >
     <div>
       <select class="select" v-model="locationFilter">
         <option v-for="(location, i) in locationOptions" :value="location.path" :key="i">
@@ -252,12 +256,31 @@ import {
 // ------
 
 // If options don't meet min count, they will not be added to filter controls
-const MIN_COUNT_FOR_LOCATION = 1;
-const MIN_COUNT_FOR_CATEGORY = 1;
-const MIN_COUNT_FOR_SUBCATEGORY = 1;
+const DESKTOP_MINS = {
+  location: 1,
+  category: 1,
+  subCategory: 1,
+}
+const MOBILE_MINS = {
+  location: 10,
+  category: 2,
+  subCategory: 2,
+}
+
+let filterMins = {};
 
 const GROUP_ALL = 'All-time';
 const GROUP_BY_YEAR = 'Group by year'
+
+window.addEventListener('resize', () => {
+  updateFilterMinimums();
+})
+
+function updateFilterMinimums() {
+  filterMins = (window.innerWidth < 800) ? MOBILE_MINS : DESKTOP_MINS;;
+}
+
+updateFilterMinimums();
 
 // ----------
 // COMPONENTS
@@ -314,6 +337,7 @@ const app = new Vue({
 
   data() {
     return {
+      isFetching: true,
       CATEGORY_ANY,
       SUBCATEGORY_ANY,
       LOCATION_ANY,
@@ -342,6 +366,8 @@ const app = new Vue({
 
     let resp2 = await fetch('/data/venues-grouped-by-year.json');
     this.venuesGroupedByYear = await resp2.json();
+
+    this.isFetching = false;
   },
 
   watch: {
@@ -392,7 +418,7 @@ const app = new Vue({
 
       // Filter low count
       categories = categories.filter(cat => {
-        return (cat[1] >= MIN_COUNT_FOR_CATEGORY);
+        return (cat[1] >= filterMins.category);
       });
 
       // Sort
@@ -439,7 +465,7 @@ const app = new Vue({
 
       // Filter low count
       subCategories = subCategories.filter(cat => {
-        return (cat[1] >= MIN_COUNT_FOR_SUBCATEGORY);
+        return (cat[1] >= filterMins.subCategory);
       });
 
       // Sort
@@ -591,7 +617,7 @@ const app = new Vue({
         let country = countryArr[0];
         let countryObj = tree[country];
         
-        if (countryObj.count < MIN_COUNT_FOR_LOCATION) {
+        if (countryObj.count < filterMins.location) {
           return;
         }
 
@@ -622,7 +648,7 @@ const app = new Vue({
           let state = stateArr[0];
           let stateObj = tree[country].children[state];
 
-          if (stateObj.count < MIN_COUNT_FOR_LOCATION) {
+          if (stateObj.count < filterMins.location) {
             return;
           }
 
@@ -655,7 +681,7 @@ const app = new Vue({
             let city = cityArr[0];
             let cityObj = tree[country].children[state].children[city];
             
-            if (cityObj.count < MIN_COUNT_FOR_LOCATION) {
+            if (cityObj.count < filterMins.location) {
               return;
             }
 
@@ -773,6 +799,53 @@ const app = new Vue({
   --cat-locale: var(--color);
   --cat-residence: var(--color);
   --cat-work: var(--color);
+}
+
+.loader-bar {
+  display: inline-block;
+}
+
+.loader-bar::after {
+  display: inline-block;
+  animation: bar steps(1, end) 4s infinite;
+  content: '';
+}
+
+@keyframes bar {
+  0%  { content: '[#·········]'; }
+  10%  { content: '[##········]'; }
+  20%  { content: '[####······]'; }
+  30%  { content: '[#####·····]'; }
+  40%  { content: '[######····]'; }
+  50%  { content: '[######····]'; }
+  60%  { content: '[#######···]'; }
+  70%  { content: '[########··]'; }
+  80%  { content: '[#########·]'; }
+  90% { content: '[##########]'; }
+  100% { content: '[##########]'; }
+}
+
+
+.loader-arrow {
+  font-size: 2rem;
+}
+
+.loader-arrow::after {
+  display: inline-block;
+  animation: arrow steps(1, end) 1s infinite;
+  content: '';
+}
+
+@keyframes arrow {
+  0%   { content: '↑'; }
+  12%  { content: '↗'; }
+  25%  { content: '→'; }
+  37%  { content: '↘'; }
+  50%  { content: '↓'; }
+  62%  { content: '↙'; }
+  75%  { content: '←'; }
+  87%  { content: '↖'; }
+  100% { content: '↑'; }
 }
 
 .category-filters {

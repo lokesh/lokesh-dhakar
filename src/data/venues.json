@@ -8,7 +8,7 @@
     "category": "Travel",
     "subCategory": "Airport",
     "firstVisit": true,
-    "count": 102
+    "count": 104
   },
   {
     "venue": "The Mill",
@@ -60,17 +60,6 @@
     "count": 84
   },
   {
-    "venue": "Ritual Coffee Roasters",
-    "id": "56db3c87498ef1500ea33108",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shop",
-    "firstVisit": true,
-    "count": 71
-  },
-  {
     "venue": "Alamo Square",
     "id": "4460d38bf964a5200a331fe3",
     "city": "San Francisco",
@@ -79,7 +68,7 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": true,
-    "count": 71
+    "count": 72
   },
   {
     "venue": "Hawk Hill",
@@ -89,6 +78,17 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Hill",
+    "firstVisit": true,
+    "count": 72
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "id": "56db3c87498ef1500ea33108",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
     "firstVisit": true,
     "count": 71
   },
@@ -101,7 +101,7 @@
     "category": "Outdoors",
     "subCategory": "Hill",
     "firstVisit": true,
-    "count": 65
+    "count": 66
   },
   {
     "venue": "Foxhole",
@@ -260,7 +260,9 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "count": 41
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "count": 42
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -271,7 +273,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "count": 37
+    "count": 38
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -296,7 +298,7 @@
     "goToSpot": true,
     "wouldTakeVisitors": true,
     "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
-    "count": 35
+    "count": 36
   },
   {
     "venue": "Maniac Mansion",
@@ -307,7 +309,7 @@
     "category": "Residence",
     "subCategory": "Home",
     "firstVisit": true,
-    "count": 34
+    "count": 35
   },
   {
     "venue": "Matching Half Cafe",
@@ -455,7 +457,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "count": 25
+    "count": 26
   },
   {
     "venue": "Corona Heights Park",
@@ -641,6 +643,17 @@
     "count": 17
   },
   {
+    "venue": "Boston Logan International Airport (BOS)",
+    "id": "452113b6f964a520bc3a1fe3",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Airport",
+    "firstVisit": true,
+    "count": 17
+  },
+  {
     "venue": "Bloodhound",
     "id": "49c42f96f964a520a6561fe3",
     "city": "San Francisco",
@@ -685,14 +698,28 @@
     "count": 16
   },
   {
-    "venue": "Boston Logan International Airport (BOS)",
-    "id": "452113b6f964a520bc3a1fe3",
-    "city": "Boston",
-    "state": "MA",
+    "venue": "Trader Joe's",
+    "id": "459ac90cf964a52088401fe3",
+    "city": "San Francisco",
+    "state": "CA",
     "country": "United States",
-    "category": "Travel",
-    "subCategory": "Airport",
+    "category": "Shop",
+    "subCategory": "Grocery Store",
     "firstVisit": true,
+    "count": 16
+  },
+  {
+    "venue": "Café du Soleil",
+    "id": "620400dc6d8dbe588b7772d4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee.",
     "count": 16
   },
   {
@@ -714,17 +741,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shop",
-    "firstVisit": true,
-    "count": 15
-  },
-  {
-    "venue": "Trader Joe's",
-    "id": "459ac90cf964a52088401fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shop",
-    "subCategory": "Grocery Store",
     "firstVisit": true,
     "count": 15
   },
@@ -751,17 +767,14 @@
     "count": 15
   },
   {
-    "venue": "Café du Soleil",
-    "id": "620400dc6d8dbe588b7772d4",
+    "venue": "Wholesome Bakery",
+    "id": "5a514248d0a149596b1653aa",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Coffee",
-    "subCategory": "Café",
+    "subCategory": "Bakery",
     "firstVisit": true,
-    "goToSpot": true,
-    "outdoorSeating": true,
-    "comments": "Good food, okay coffee.",
     "count": 15
   },
   {
@@ -816,17 +829,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shop",
-    "firstVisit": true,
-    "count": 14
-  },
-  {
-    "venue": "Wholesome Bakery",
-    "id": "5a514248d0a149596b1653aa",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakery",
     "firstVisit": true,
     "count": 14
   },
@@ -1062,6 +1064,19 @@
     "count": 11
   },
   {
+    "venue": "Rare Device",
+    "id": "4f62a163e4b08b476db9854e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Gift Shop",
+    "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "count": 11
+  },
+  {
     "venue": "Possum Hollow",
     "id": "4b6ca364f964a52083482ce3",
     "city": "Baltimore",
@@ -1194,19 +1209,6 @@
     "count": 10
   },
   {
-    "venue": "Rare Device",
-    "id": "4f62a163e4b08b476db9854e",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shop",
-    "subCategory": "Gift Shop",
-    "firstVisit": true,
-    "goToSpot": true,
-    "wouldTakeVisitors": true,
-    "count": 10
-  },
-  {
     "venue": "Souvenir Coffee",
     "id": "6062696a53e97e23f1bcde3b",
     "city": "San Francisco",
@@ -1237,6 +1239,16 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "count": 10
+  },
+  {
+    "venue": "Lisa + Douglas Goldman Tennis Center",
+    "id": "4bbc2393afe1b7135821304b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Tennis Court",
     "firstVisit": true,
     "count": 10
   },
@@ -1658,12 +1670,13 @@
     "count": 8
   },
   {
-    "venue": "Lisa + Douglas Goldman Tennis Center",
-    "id": "4bbc2393afe1b7135821304b",
+    "venue": "The Postal Chase",
+    "id": "4f9edc1ae4b033ffd5b37a47",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Tennis Court",
+    "category": "Shop",
+    "subCategory": "Post Office",
     "firstVisit": true,
     "count": 8
   },
@@ -1927,17 +1940,6 @@
     "country": "United States",
     "category": "Shop",
     "subCategory": "Bike Shop",
-    "firstVisit": true,
-    "count": 7
-  },
-  {
-    "venue": "The Postal Chase",
-    "id": "4f9edc1ae4b033ffd5b37a47",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shop",
-    "subCategory": "Post Office",
     "firstVisit": true,
     "count": 7
   },
@@ -2824,6 +2826,27 @@
     "count": 5
   },
   {
+    "venue": "Stanza Coffee Bar",
+    "id": "4f862761e4b04a6adaa70287",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Castro Animal Hospital",
+    "id": "5bb5c4d075eee4002c302352",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Veterinarians",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
     "venue": "Midtown Yacht Club",
     "id": "468e4f91f964a52080481fe3",
     "city": "Baltimore",
@@ -3484,17 +3507,6 @@
     "count": 4
   },
   {
-    "venue": "Stanza Coffee Bar",
-    "id": "4f862761e4b04a6adaa70287",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shop",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
     "venue": "Cafe la Reine",
     "id": "515eee6de4b09e5bc4921851",
     "city": "Manchester",
@@ -3827,16 +3839,6 @@
     "count": 4
   },
   {
-    "venue": "Castro Animal Hospital",
-    "id": "5bb5c4d075eee4002c302352",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Veterinarians",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
     "venue": "Millay",
     "id": "60fdd67e7042b33aad20c471",
     "city": "San Francisco",
@@ -3881,6 +3883,51 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Dunkin'",
+    "id": "4c079f218a81c9b6fc722790",
+    "city": "Hooksett",
+    "state": "NH",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Donuts",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Flight Coffee Co.",
+    "id": "60ce2d00f049b93f21608f36",
+    "city": "Bedford",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Earthen",
+    "id": "5a98c2e36fd626158008ec0e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Furniture / Home",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Magnolia Gastropub & Brewery",
+    "id": "3fd66200f964a52066ed1ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Gastropub",
+    "firstVisit": true,
+    "comments": "#fave bar food",
     "count": 4
   },
   {
@@ -4988,17 +5035,6 @@
     "count": 3
   },
   {
-    "venue": "Magnolia Gastropub & Brewery",
-    "id": "3fd66200f964a52066ed1ee3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Gastropub",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Land of Kush",
     "id": "4d0e5f4cf393224b2b6f21ee",
     "city": "Baltimore",
@@ -5207,34 +5243,12 @@
     "count": 3
   },
   {
-    "venue": "Flight Coffee Co.",
-    "id": "60ce2d00f049b93f21608f36",
-    "city": "Bedford",
-    "state": "NH",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shop",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "SNHU COCE",
     "id": "4b96497ff964a52014c434e3",
     "city": "Manchester",
     "state": "NH",
     "country": "United States",
     "category": "Administrative Building",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "Dunkin'",
-    "id": "4c079f218a81c9b6fc722790",
-    "city": "Hooksett",
-    "state": "NH",
-    "country": "United States",
-    "category": "Dessert",
-    "subCategory": "Donuts",
     "firstVisit": true,
     "count": 3
   },
@@ -5529,6 +5543,39 @@
     "country": "United States",
     "category": "Shop",
     "subCategory": "Bike Shop",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Deer Park Resort",
+    "id": "4c5d84d59b28d13a89b55970",
+    "city": "North Woodstock",
+    "state": "NH",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Resort",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Irving Oil",
+    "id": "4bfad5cbd2b720a1932e326a",
+    "city": "Hooksett",
+    "state": "NH",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Convenience Store",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Rodeo Beach",
+    "id": "4b7878bdf964a5209dd02ee3",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Beach",
     "firstVisit": true,
     "count": 3
   },
@@ -6441,17 +6488,6 @@
     "state": "CA",
     "country": "United States",
     "category": "Liquor Store",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Irving Oil",
-    "id": "4bfad5cbd2b720a1932e326a",
-    "city": "Hooksett",
-    "state": "NH",
-    "country": "United States",
-    "category": "Shop",
-    "subCategory": "Convenience Store",
     "firstVisit": true,
     "count": 2
   },
@@ -9200,17 +9236,6 @@
     "count": 2
   },
   {
-    "venue": "Earthen",
-    "id": "5a98c2e36fd626158008ec0e",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shop",
-    "subCategory": "Furniture / Home",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Love On Haight",
     "id": "591e165e42d8c22099b5497e",
     "city": "San Francisco",
@@ -9369,17 +9394,6 @@
     "country": "United States",
     "category": "Nightlife",
     "subCategory": "Cocktail",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Rodeo Beach",
-    "id": "4b7878bdf964a5209dd02ee3",
-    "city": "Sausalito",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Beach",
     "firstVisit": true,
     "count": 2
   },
@@ -9899,17 +9913,6 @@
     "count": 2
   },
   {
-    "venue": "Deer Park Resort",
-    "id": "4c5d84d59b28d13a89b55970",
-    "city": "North Woodstock",
-    "state": "NH",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "Resort",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Fueling Station",
     "id": "581e45772c0e815fbe15a5a6",
     "city": "San Francisco",
@@ -10089,6 +10092,96 @@
     "state": "CA",
     "country": "United States",
     "category": "Camera Store",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Clement Street Farmers Market",
+    "id": "51c726f9498e3f124bf7c42e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Farmer's Market",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Mamahuhu",
+    "id": "5e124862b5b5ad00084cb2c6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Chinese",
+    "firstVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "count": 2
+  },
+  {
+    "venue": "The Basin",
+    "id": "4c3e54ee80bc20a172eaaa58",
+    "city": "Franconia",
+    "state": "NH",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Scenic Lookout",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "La Carreta Restaurante Mexicano",
+    "id": "4aeb78eaf964a52071c221e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "North Londonderry Transportation Center",
+    "id": "4ba97fbbf964a520ca2a3ae3",
+    "city": "Londonderry",
+    "state": "NH",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Bus Station",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Fool’s Errand",
+    "id": "5b4297c19411f2002c274de9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Bar",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Chezchez",
+    "id": "611c5da80e447702a9d6595c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Cocktail",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Kate's Kitchen",
+    "id": "44e36c53f964a5203e371fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Breakfast",
     "firstVisit": true,
     "count": 2
   },
@@ -16489,17 +16582,6 @@
     "count": 1
   },
   {
-    "venue": "La Carreta Restaurante Mexicano",
-    "id": "4aeb78eaf964a52071c221e3",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Mexican",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Valencia Whole Foods",
     "id": "4a20a7d9f964a520b17c1fe3",
     "city": "San Francisco",
@@ -19798,17 +19880,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Food Truck",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Kate's Kitchen",
-    "id": "44e36c53f964a5203e371fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Breakfast",
     "firstVisit": true,
     "count": 1
   },
@@ -25012,17 +25083,6 @@
     "count": 1
   },
   {
-    "venue": "North Londonderry Transportation Center",
-    "id": "4ba97fbbf964a520ca2a3ae3",
-    "city": "Londonderry",
-    "state": "NH",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "Bus Station",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Panera Bread",
     "id": "4b748b85f964a5200fe32de3",
     "city": "West Lebanon",
@@ -28551,17 +28611,6 @@
     "count": 1
   },
   {
-    "venue": "The Basin",
-    "id": "4c3e54ee80bc20a172eaaa58",
-    "city": "Franconia",
-    "state": "NH",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Scenic Lookout",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Black Mountain Burger Co.",
     "id": "4bec22a1415e20a1dd1ee7bb",
     "city": "Lincoln",
@@ -30013,17 +30062,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Trail",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Fool’s Errand",
-    "id": "5b4297c19411f2002c274de9",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Bar",
     "firstVisit": true,
     "count": 1
   },
@@ -33780,17 +33818,6 @@
     "count": 1
   },
   {
-    "venue": "Chezchez",
-    "id": "611c5da80e447702a9d6595c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Cocktail",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Urban Bowls",
     "id": "5c44f4af005ac1002cd20ec6",
     "city": "San Francisco",
@@ -35236,17 +35263,6 @@
     "count": 1
   },
   {
-    "venue": "Mamahuhu",
-    "id": "5e124862b5b5ad00084cb2c6",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Chinese",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Schubert’s Bakery",
     "id": "4ad6765ef964a5204c0721e3",
     "city": "San Francisco",
@@ -36657,17 +36673,6 @@
     "count": 1
   },
   {
-    "venue": "Clement Street Farmers Market",
-    "id": "51c726f9498e3f124bf7c42e",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shop",
-    "subCategory": "Farmer's Market",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Park Life",
     "id": "458403fdf964a5208e3f1fe3",
     "city": "San Francisco",
@@ -37385,6 +37390,385 @@
     "country": "United States",
     "category": "Jewelry",
     "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Rad Radish",
+    "id": "62f803abdab7042bf6bc9ef5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Café Del Soul",
+    "id": "4bc95f05937ca593f8c8a592",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Chipotle Mexican Grill",
+    "id": "4a805385f964a520f7f41fe3",
+    "city": "Woburn",
+    "state": "MA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Bjs Gas",
+    "id": "5c71cce1cbcdee002c328e50",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Gas Station",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "BJ’s Wholesale Club",
+    "id": "5aa44e66ba57b45cfdcd4003",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Warehouse Store",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "NH Liquor Store 66 (I-93 Northbound)",
+    "id": "4e14935fae60fe00dfe05af1",
+    "city": "Hooksett",
+    "state": "NH",
+    "country": "United States",
+    "category": "Liquor Store",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Cannon Mountain Aerial Tramway",
+    "id": "4c0fed066b7e2d7f57cf2635",
+    "city": "Franconia",
+    "state": "NH",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Scenic Lookout",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Cafe 4080",
+    "id": "4c14fbccb7b9c928f71dac37",
+    "city": "Franconia",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Legacy Field",
+    "id": "4c69ced335d3be9a14602006",
+    "city": "Bedford",
+    "state": "NH",
+    "country": "United States",
+    "category": "Field",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sunnycrest Farms",
+    "id": "4c70065ff23c76b0ac32e685",
+    "city": "Londonderry",
+    "state": "NH",
+    "country": "United States",
+    "category": "Farm",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Shell",
+    "id": "4f42b331d4f2dd374e487ab8",
+    "city": "Tilton",
+    "state": "NH",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Gas Station",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Clark's Trading Post",
+    "id": "4bbcbbf2593fef3b8a880256",
+    "city": "Lincoln",
+    "state": "NH",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Theme Park",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Hometown Coffee Roasters",
+    "id": "5feb637014d53c1e120352ce",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee Roaster",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Works",
+    "id": "4b6ef6d1f964a5208fd32ce3",
+    "city": "Keene",
+    "state": "NH",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Bagels",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "In The Company Of Flowers",
+    "id": "4df7739062e141c90764a1b3",
+    "city": "Keene",
+    "state": "NH",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Gift Shop",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Bright Ideas Brewing",
+    "id": "56f48c22cd1091b4058861b9",
+    "city": "North Adams",
+    "state": "MA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Brewery",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Door Prize",
+    "id": "629b96945e562503a8100ce7",
+    "city": "North Adams",
+    "state": "MA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Restaurant",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "MASS MoCA",
+    "id": "4adc1166f964a520702b21e3",
+    "city": "North Adams",
+    "state": "MA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Museum",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Desperados",
+    "id": "4d79508015958cfa8dbd0b25",
+    "city": "North Adams",
+    "state": "MA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Hogback Mountain",
+    "id": "4bdf04ae6198c9b605ad15ff",
+    "city": "Marlboro",
+    "state": "VT",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Mountain",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Duchess Coffee",
+    "id": "61070390d3070f6308f3724a",
+    "city": "Brattleboro",
+    "state": "VT",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Porch Cafe & Catering",
+    "id": "55633079498ef94caacfed4c",
+    "city": "Brattleboro",
+    "state": "VT",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "B.Good",
+    "id": "5e580aeb9a3b050008094147",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "category": "Salad",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Hosfelt Gallery",
+    "id": "4aaeb2bbf964a520f66220e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Gallery",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "EQ3 San Francisco",
+    "id": "538a1eaa498ef492b7c4c9f8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Furniture / Home",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Phonobar",
+    "id": "5a33428625ecca176e716ca7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Cocktail",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Bac Lieu Restaurant",
+    "id": "5d1014a744627d0023b0c98c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vietnamese",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mr. Dewie's Cashew Creamery",
+    "id": "56dfa521498e0f72e2145d55",
+    "city": "Albany",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Ice Cream",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Hal's Office",
+    "id": "5886332d076be14adcffbe37",
+    "city": "Albany",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Réveille",
+    "id": "63011c00fe883e2de9928b4c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "VanMoof San Francisco",
+    "id": "5c6279d1178a2a002c69bbcb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Bike Shop",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mixt",
+    "id": "5b0a161d6eda02002cc5edea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Salad",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Super Simple",
+    "id": "5bc7e8acd1a402002c0a10b6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shop",
+    "subCategory": "Gift Shop",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Walking Fish",
+    "id": "5cb2743b2bf29b002d7bd17d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Poke Place",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Osha Thai Noodle Cafe",
+    "id": "439c8ab9f964a520f52b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Thai",
+    "firstVisit": true,
+    "goToSpot": true,
+    "comments": "#fave pad thai, tom yum soup. Be careful with the spice levels, medium is plenty.",
     "count": 1
   }
 ]

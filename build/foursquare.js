@@ -6,10 +6,21 @@ const { resolve } = require('path');
 // Config
 // -------
 
+
+// TODO: 
+
+// fetch data?
+// else 
+//   use sample data?
+
+// process data?
+// merge venues metadata?
+
+
 const FETCH_DATA = false; // Hit Foursquare API
 const USE_SAMPLE_DATA = false;  // Use sample json
 
-const PROCESS_DATA = false; // Add subcategory, firstVisit, lastVisit
+const PROCESS_DATA = true; // Add subcategory, firstVisit, lastVisit
 const MERGE_VENUES_METADATA = true;
 
 
