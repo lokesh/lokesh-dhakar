@@ -1,5 +1,2716 @@
 [
   {
+    "venue": "Roaring Mouse Cycles",
+    "id": "4d3b6bfa1fc36dcb818c71f5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Bike Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Curry Up Now",
+    "id": "51243a00e4b06327ea088b09",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Indian",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Sports Basement",
+    "id": "45df2c52f964a52016431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Sporting Goods",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Rapha Cycle Club",
+    "id": "4dbdfe0dcda109aa6cc0f05a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Bike Shop",
+    "firstVisit": false,
+    "lastVisit": true,
+    "comments": "50% coffee with my RCC membership"
+  },
+  {
+    "venue": "Mejuri",
+    "id": "5dfbfc4eb599b700084f8818",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Jewelry",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Dalva",
+    "id": "40870b00f964a520aff21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Nightlife",
+    "subCategory": "Bar",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "The LAB",
+    "id": "4ada578ef964a520952121e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Arts",
+    "subCategory": "Art Gallery",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Shuggie’s Trash Pie & Natural Wine",
+    "id": "6259e816dc45431030decb73",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Pizza",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "El Castillito",
+    "id": "49c6c22bf964a5207a571fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Mexican",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Walgreens",
+    "id": "4b4ced13f964a52082c426e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Pharmacy",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Lisa + Douglas Goldman Tennis Center",
+    "id": "4bbc2393afe1b7135821304b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Tennis Court",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Iza Ramen",
+    "id": "5632c07e498eaa6c566acefc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Ramen",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "#fave ramen"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Niche & Nook Flowers",
+    "id": "6224061be1a7100268450677",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Flower Shop",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Falletti Foods",
+    "id": "45ad2be9f964a5206e411fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "id": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Safeway",
+    "id": "44610f81f964a52010331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Peak Design",
+    "id": "59dff31226659b77af4ffb7a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Camera Store",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Equator Coffee & Teas",
+    "id": "615743b2b9fab9036dabdbec",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Nabila's Market",
+    "id": "4a399bd5f964a5209b9f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Saint Frank Coffee",
+    "id": "5d5ab7fb0ba94c0008be3c0f",
+    "city": "Menlo Park",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "S.A.G.E Centers Veterinary Specialty & Emergency Care",
+    "id": "580831e338fa3bd21543e5e6",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Veterinarians",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Azure Dental",
+    "id": "58afde3880e1af1b2c25237c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Dentist's Office",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Kezar Stadium",
+    "id": "49cb37b5f964a52000591fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Outdoors",
+    "subCategory": "Track",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Café du Soleil",
+    "id": "620400dc6d8dbe588b7772d4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Souvla",
+    "id": "533cc33f498e604ebad95d8c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Souvlaki",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Veg or Black Sheep plant-based salad/sandwich"
+  },
+  {
+    "venue": "Conzelman Parking Lot",
+    "id": "4cb0d988ef1b3704e8993e00",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Travel",
+    "subCategory": "Parking",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "id": "57377135498e8763633daa51",
+    "city": "Larkspur",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Grace Cathedral",
+    "id": "4698dc59f964a520ed481fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Arts",
+    "subCategory": "Church",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Wildseed",
+    "id": "5d77246152f4a00007528cb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": true,
+    "lastVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave cookie: gelato + choc chip. Appetizers great."
+  },
+  {
+    "venue": "Zazie",
+    "id": "49b094fdf964a520c8521fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Lisa + Douglas Goldman Tennis Center",
+    "id": "4bbc2393afe1b7135821304b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Tennis Court",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Freewheel Bike Shop - Haight",
+    "id": "4a7ccb5ff964a520a8ed1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Bike Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "il Casaro Pizzeria & Mozzarella Bar",
+    "id": "596aaec4c0af5755e55271df",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Pizza",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "San Francyclo",
+    "id": "567b2472498ea7d84943f618",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Bike Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Lisa + Douglas Goldman Tennis Center",
+    "id": "4bbc2393afe1b7135821304b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Tennis Court",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Luke’s Local",
+    "id": "5fb0243f17a768755d07cbc5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Organic Grocery",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Arepas Latin Cuisine",
+    "id": "6307f2fbe6106d5206941589",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Restaurant",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Roxie Cinema",
+    "id": "408aff80f964a520c3f21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Arts",
+    "subCategory": "Indie Movies",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Castro Farmers' Market",
+    "id": "49f8deb6f964a520306d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Farmer's Market",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Bi-Rite Market",
+    "id": "513924afe4b066811795768e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Market",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
+  },
+  {
+    "venue": "Lucinda’s Deli",
+    "id": "5ed16b62fadd0100088b2ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Sandwiches",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Sweet Basil",
+    "id": "500cb192e4b0bfba2357928d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Thai",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Duboce Park",
+    "id": "4460d33cf964a52009331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Falletti Foods",
+    "id": "45ad2be9f964a5206e411fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Pakwan",
+    "id": "49fd1ce0f964a5200b6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Pakistani",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true
+  },
+  {
+    "venue": "The Junction Beer Garden",
+    "id": "5f236666c68c6732a0fb8a37",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Nightlife",
+    "subCategory": "Beer Garden",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Early Bird Tacos",
+    "id": "6031655d1e25d4778779316c",
+    "city": "Tamalpais",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Tacos",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Café du Soleil",
+    "id": "620400dc6d8dbe588b7772d4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
+  },
+  {
+    "venue": "Mission Chinese Food",
+    "id": "4c325dd83896e21e6d6ee890",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Chinese",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave Chinese: vinegar peanuts & mapo tofu. Also great: Sichuan carbonara, thrice cooked bacon with rice cakes."
+  },
+  {
+    "venue": "San Francisco Museum of Modern Art",
+    "id": "40943a00f964a520e5f21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Arts",
+    "subCategory": "Art Museum",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Yerba Buena Gardens",
+    "id": "49c94f32f964a52054581fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Freshroll Vietnamese Rolls & Bowls",
+    "id": "4fca77a2e4b05d86f26c5ac7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Vietnamese",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Wildseed",
+    "id": "5d77246152f4a00007528cb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": true,
+    "lastVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave cookie: gelato + choc chip. Appetizers great."
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Kantine",
+    "id": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Food",
+    "subCategory": "Scandinavian",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
+  },
+  {
+    "venue": "Millay",
+    "id": "60fdd67e7042b33aad20c471",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Nightlife",
+    "subCategory": "Wine Bar",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Lisa + Douglas Goldman Tennis Center",
+    "id": "4bbc2393afe1b7135821304b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Tennis Court",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Café du Soleil",
+    "id": "620400dc6d8dbe588b7772d4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 8,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
+  },
+  {
+    "venue": "Alta Plaza Park",
+    "id": "4aa80a86f964a520eb4e20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Burritos",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave burrito: plantain burrito (made vegan)"
+  },
+  {
+    "venue": "Castro Animal Hospital",
+    "id": "5bb5c4d075eee4002c302352",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Arsicault Bakery",
+    "id": "55203ab9498eb807ad0e6da5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "id": "51c765b5498e538e7259f69b",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Hill 88",
+    "id": "4b12e570f964a5205e9023e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Flywheel Coffee",
+    "id": "4f934157e4b0ab5f09ebb8fc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Miss SaiGon",
+    "id": "4a0665bbf964a520f3721fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Vietnamese",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Nourish Cafe",
+    "id": "58d2eede102f47386fe2e7e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Powell-Hyde Cable Car Stop North Point",
+    "id": "522bc724498e9ff7788e399c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Travel",
+    "subCategory": "Light Rail",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Across The Bay 12K",
+    "id": "4d86182202eb5481fd9550f5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "REI",
+    "id": "457ff3d0f964a520553f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Sporting Goods",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Thorough Bread and Pastry",
+    "id": "49f13784f964a5209f691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Birch & Rye",
+    "id": "61ec66895d9050173a5e2fdd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Russian",
+    "firstVisit": true,
+    "lastVisit": true,
+    "comments": "First Michelin Star xp. Just okay."
+  },
+  {
+    "venue": "General Store",
+    "id": "4b43f169f964a520aeee25e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Outerlands",
+    "id": "4a354111f964a520ad9c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "American",
+    "firstVisit": true,
+    "lastVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "Brunch spot. Dutch pancake"
+  },
+  {
+    "venue": "Café du Soleil",
+    "id": "620400dc6d8dbe588b7772d4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
+  },
+  {
+    "venue": "Good Good Culture Club",
+    "id": "61d9c34b35899740d196d345",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Japanese",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Paxton Gate",
+    "id": "4a394777f964a5204e9f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Gift Shop",
+    "firstVisit": true,
+    "lastVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "shop rocks, skulls, plants"
+  },
+  {
+    "venue": "Aldea Home + Baby",
+    "id": "4e766d2063655e2fd75eb0a4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Gift Shop",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "id": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Spro Coffeelab",
+    "id": "60e9dcad148551533446302f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave toast: umami bomb. Everything great, incl pastries and fusion espresso drinks (miso latte).",
+    "goToSpot": true
+  },
+  {
+    "venue": "Tín",
+    "id": "4af09c87f964a520a1dd21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Vietnamese",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "U-Haul Box Store of Downtown",
+    "id": "4b621b65f964a520e5352ae3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Storage",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Whole Foods Market",
+    "id": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Woods Lower Haight",
+    "id": "5ee1ce01679a2e0e2850e4da",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Beer Bar",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Equator",
+    "id": "5d86924f36e5fa00086e3eee",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "id": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Orbit Room",
+    "id": "3fd66200f964a5205aed1ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Nightlife",
+    "subCategory": "Cocktail",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Sports Basement",
+    "id": "4a09ef9af964a52070741fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Sporting Goods",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Yumi Yogurt",
+    "id": "4a9756bff964a520692920e3",
+    "city": "San Mateo",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Dessert",
+    "subCategory": "Yogurt",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Hole in the Wall Coffee",
+    "id": "516aeabee4b0f340f8ea05de",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Coit Tower",
+    "id": "49de821ff964a5205c601fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Landmark",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "S.A.G.E Centers Veterinary Specialty & Emergency Care",
+    "id": "580831e338fa3bd21543e5e6",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": true,
+    "lastVisit": false
+  },
+  {
+    "venue": "Starbucks",
+    "id": "4babf192f964a520c4d73ae3",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "S.A.G.E Centers Veterinary Specialty & Emergency Care",
+    "id": "580831e338fa3bd21543e5e6",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": true,
+    "lastVisit": false
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Burritos",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave burrito: plantain burrito (made vegan)"
+  },
+  {
+    "venue": "Paxti",
+    "id": "5557f441498ee6526e9ca4d6",
+    "city": "San Carlos",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Pizza",
+    "firstVisit": true,
+    "lastVisit": true,
+    "goToSpot": true
+  },
+  {
+    "venue": "Burger King",
+    "id": "4ac10a70f964a520899520e3",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Fast Food",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "CVS pharmacy",
+    "id": "4b0f136af964a520e55e23e3",
+    "city": "Burlingame",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Pharmacy",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Wood Line by Andy Goldsworthy",
+    "id": "4d446437e198721ee538bb8b",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Arts",
+    "subCategory": "Sculpture",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Lyon Street Steps",
+    "id": "4a74bd67f964a52071df1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Scenic Lookout",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Presidio Tunnel Tops",
+    "id": "62d357c339fe1a785564a977",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "American Giant",
+    "id": "603ea107fa3495799ff424ab",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Apparel",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Saiwalks",
+    "id": "52a37b00498e56c8e039dcd0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Vietnamese",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "S.A.G.E Centers Veterinary Specialty & Emergency Care",
+    "id": "580831e338fa3bd21543e5e6",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": true,
+    "lastVisit": false
+  },
+  {
+    "venue": "Hopper's Hands",
+    "id": "4b73276ff964a520ae9e2de3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Other Outdoors",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Broadway Sandwich Market",
+    "id": "62509db599bc845415b1dc82",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Sandwiches",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Little Green A Plant Bar",
+    "id": "62a6217ff4d6a87d27714a8a",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Garden Center",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "S.A.G.E Centers Veterinary Specialty & Emergency Care",
+    "id": "580831e338fa3bd21543e5e6",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": true,
+    "lastVisit": false
+  },
+  {
+    "venue": "Animal Internal Medicine & Specialty Services",
+    "id": "605b6c95497e463bef03a1d7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
+  },
+  {
+    "venue": "Front Pop-Up",
+    "id": "5e8515aae18f4c00088437ab",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Animal Internal Medicine & Specialty Services",
+    "id": "605b6c95497e463bef03a1d7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Castro Animal Hospital",
+    "id": "5bb5c4d075eee4002c302352",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Veterinarians",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Om Indian Cuisine",
+    "id": "57978e5e498ed5a25470c882",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Indian",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Bindi, palaak, naan"
+  },
+  {
+    "venue": "Peak Design",
+    "id": "59dff31226659b77af4ffb7a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Camera Store",
+    "firstVisit": true,
+    "lastVisit": false
+  },
+  {
+    "venue": "Biergarten",
+    "id": "4dd7e48fd22d38ef42f35bd8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Nightlife",
+    "subCategory": "Beer Garden",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "The Epicurean Trader",
+    "id": "5d1bb1ba17d3b900230b1688",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Organic Grocery",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Nourish Cafe SF",
+    "id": "54ea1afc498e12af65963097",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
+  },
+  {
+    "venue": "Presidio Tunnel Tops",
+    "id": "62d357c339fe1a785564a977",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Union Street Coffee Roastery",
+    "id": "4a0f74f4f964a52069761fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Rapha Cycle Club",
+    "id": "4dbdfe0dcda109aa6cc0f05a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Bike Shop",
+    "firstVisit": false,
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
+  },
+  {
+    "venue": "Axum Cafe",
+    "id": "43cc335df964a520cc2d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Food",
+    "subCategory": "Ethiopian",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Falletti Foods",
+    "id": "45ad2be9f964a5206e411fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Flywheel Coffee",
+    "id": "4f934157e4b0ab5f09ebb8fc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Hawk Hill",
+    "id": "49e4bbcbf964a52022631fe3",
+    "city": "Marin Headlands",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Hill",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Wildflour Bakery",
+    "id": "4a625e9af964a520dec31fe3",
+    "city": "Freestone",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": true,
+    "lastVisit": true,
+    "comments": "#fave cookie: almond flour choc chip with hazelnut. Great bread."
+  },
+  {
+    "venue": "Altamont General Store",
+    "id": "5fe7e6558211876367d12920",
+    "city": "Occidental",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Timber Coffee",
+    "id": "5df6b71b775cb4000834715a",
+    "city": "Jenner",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Peace Obelisk",
+    "id": "5df6b7ec442f890008601b2f",
+    "city": "Jenner",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Outdoors",
+    "subCategory": "Landmark",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Timber Cove Inn",
+    "id": "4b3d4dacf964a520f79125e3",
+    "city": "Jenner",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 7,
+    "category": "Travel",
+    "subCategory": "Hotel",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Miller Boat Launch",
+    "id": "610e35171d1f0b602e577932",
+    "city": "Marshall",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Boat Launch",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Diekmann's Bay Store",
+    "id": "4ba443ebf964a520489138e3",
+    "city": "Bodega Bay",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Stewarts Point Store",
+    "id": "4c0fc5a9d64c0f47fd4e2a5d",
+    "city": "Russian River-Coastal",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food & Drink",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "State Room Brewery",
+    "id": "569da109498ed9bc4418197c",
+    "city": "San Rafael",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Nightlife",
+    "subCategory": "Brewery",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Depot Garden Cafe",
+    "id": "4ad0c2abf964a5209ed920e3",
+    "city": "San Rafael",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Vik’s Chaat Corner",
+    "id": "45bcb887f964a52002421fe3",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Indian",
+    "firstVisit": false,
+    "lastVisit": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Chola bhatura, palaak"
+  },
+  {
+    "venue": "Trader Joe's",
+    "id": "484a7920f964a5207c501fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Woods Cervecería",
+    "id": "4f7ba94ce4b06978a72ee52c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Nightlife",
+    "subCategory": "Brewery",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Sunflower Authentic Vietnamese",
+    "id": "540e68d6498ebb802e08c0cf",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Vietnamese",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Johnny Doughnuts",
+    "id": "5bb908d531fd14002c8178c4",
+    "city": "Larkspur",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Dessert",
+    "subCategory": "Donuts",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "The Farmer's Market at Marin Country Mart",
+    "id": "4cf17052c9af6dcb91a2997f",
+    "city": "Larkspur",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Farmer's Market",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Equator",
+    "id": "5d86924f36e5fa00086e3eee",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Falletti Foods",
+    "id": "45ad2be9f964a5206e411fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Twin Peaks Summit",
+    "id": "4c29567f9fb5d13aa2139b57",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Outdoors",
+    "subCategory": "Hill",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Kantine",
+    "id": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Scandinavian",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
+  },
+  {
+    "venue": "SF Pet Grooming",
+    "id": "62d990ea875ecf2ea7e6eae6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Pet Service",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Nopa",
+    "id": "44646408f964a52026331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "New American",
+    "firstVisit": false,
+    "lastVisit": true,
+    "dateSpot": true,
+    "comments": "#fave cocktails"
+  },
+  {
+    "venue": "Bi-Rite Market",
+    "id": "513924afe4b066811795768e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Market",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Bagels",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Aracely Cafe",
+    "id": "5456b3e7498e9def91566c93",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Treasure Island",
+    "id": "4495432ef964a52083341fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Island",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Whole Foods Market",
+    "id": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Grocery Store",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "El Castillito",
+    "id": "49c6c22bf964a5207a571fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Mexican",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Alamo Square",
+    "id": "4460d38bf964a5200a331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
+  },
+  {
+    "venue": "Automat",
+    "id": "61a7ad2af8c5e00778294359",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": false,
+    "lastVisit": true,
+    "comments": "Pastries. Go back and try bread and meal.",
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "VeganBurg",
+    "id": "55bec3d8498ea0833a1c10b7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Vegetarian / Vegan",
+    "firstVisit": false,
+    "lastVisit": true,
+    "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
+  },
+  {
+    "venue": "Lisa + Douglas Goldman Tennis Center",
+    "id": "4bbc2393afe1b7135821304b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Tennis Court",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Ina Coolbrith Park",
+    "id": "4a7de0a6f964a52009f01fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Arc’teryx Icon Store",
+    "id": "5fdbf8b8c11e32466d81ac6e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Apparel",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Mercury Cafe",
+    "id": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Strawberry scone"
+  },
+  {
+    "venue": "Blick Art Materials",
+    "id": "4c192eccd4d9c928b594f029",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Arts & Crafts",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "id": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Ferry Plaza",
+    "id": "4fe7937ae4b0176e69defc1c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Outdoors",
+    "subCategory": "Plaza",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Café du Soleil",
+    "id": "620400dc6d8dbe588b7772d4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "comments": "Good food, okay coffee."
+  },
+  {
+    "venue": "Emporium Arcade Bar",
+    "id": "59af3c499ba3e56fdc64fc11",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Arts",
+    "subCategory": "Arcade",
+    "firstVisit": false,
+    "lastVisit": true,
+    "comments": "Killer queen, DDR, pool, +"
+  },
+  {
+    "venue": "Arsicault Bakery",
+    "id": "55203ab9498eb807ad0e6da5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Bakery",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
+  },
+  {
+    "venue": "Castro Animal Hospital",
+    "id": "5bb5c4d075eee4002c302352",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Veterinarians",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Apple Chestnut Street",
+    "id": "49d80897f964a520985d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Electronics",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Rapha Cycle Club",
+    "id": "4dbdfe0dcda109aa6cc0f05a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Bike Shop",
+    "firstVisit": false,
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
+  },
+  {
+    "venue": "Sports Basement",
+    "id": "45df2c52f964a52016431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Sporting Goods",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Kantine",
+    "id": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Scandinavian",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
+  },
+  {
+    "venue": "Yh Beijing",
+    "id": "5dc38b332e354200083192a3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Chinese",
+    "firstVisit": false,
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings"
+  },
+  {
+    "venue": "Iza Ramen",
+    "id": "5632c07e498eaa6c566acefc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Ramen",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "#fave ramen"
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "id": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "id": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Plentea",
+    "id": "535ec7a0498ef28116175e96",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Bubble Tea",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "The Escape Game San Francisco",
+    "id": "5e3c59a3fa364300089b90e9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Recreation Center",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Westfield San Francisco Centre",
+    "id": "452b81ddf964a520393b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Mall",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "lululemon athletica",
+    "id": "535f0ebd498e8abba97162cd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Shop",
+    "subCategory": "Apparel",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Contemporary Jewish Museum",
+    "id": "4a046573f964a520ee711fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Arts",
+    "subCategory": "Museum",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Cafe 5",
+    "id": "572921ab498e9546f09a6abe",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Coffee",
+    "subCategory": "Café",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "San Francisco Museum of Modern Art",
+    "id": "40943a00f964a520e5f21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Arts",
+    "subCategory": "Art Museum",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Prubechu",
+    "id": "5de72ba196610a000850529d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Food",
+    "subCategory": "Asian",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Dalva",
+    "id": "40870b00f964a520aff21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Nightlife",
+    "subCategory": "Bar",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Duboce Park",
+    "id": "4460d33cf964a52009331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Outdoors",
+    "subCategory": "Park",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "Wrecking Ball Coffee Roasters HQ & Roastery",
+    "id": "54a4aaeb498eb46942fa03b4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Factory",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Golden Gate Bridge",
+    "id": "49d01698f964a520fd5a1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Outdoors",
+    "subCategory": "Bridge",
+    "firstVisit": false,
+    "lastVisit": true
+  },
+  {
+    "venue": "Woods Lower Haight",
+    "id": "5ee1ce01679a2e0e2850e4da",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Beer Bar",
+    "firstVisit": false,
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  {
+    "venue": "Tea And Others",
+    "id": "5dbdfad5e60e5d0009e0e56a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 6,
+    "category": "Bubble Tea",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 5,
+    "category": "Coffee",
+    "subCategory": "Coffee Shop",
+    "firstVisit": false,
+    "lastVisit": false
+  },
+  {
+    "venue": "The Game Parlour",
+    "id": "5ae4c98186bc49002c90bf76",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2022,
+    "month": 5,
+    "category": "Shop",
+    "subCategory": "Toys & Games",
+    "firstVisit": true,
+    "lastVisit": true
+  },
+  {
     "venue": "Ornot",
     "id": "62462f1c12347416454b4ea5",
     "city": "San Francisco",
@@ -23,7 +2734,8 @@
     "category": "Arts",
     "subCategory": "Art Gallery",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Clement Street Farmers Market",
@@ -62,11 +2774,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Fueling Station",
@@ -104,10 +2816,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Tín",
@@ -120,7 +2832,7 @@
     "category": "Food",
     "subCategory": "Vietnamese",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Schlok’s Bagels & Lox",
@@ -133,7 +2845,7 @@
     "category": "Food",
     "subCategory": "Bagels",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Sidewalk Juice",
@@ -520,7 +3232,7 @@
     "category": "Shop",
     "subCategory": "Grocery Store",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -546,7 +3258,9 @@
     "category": "Food",
     "subCategory": "Indian",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Bindi, palaak, naan"
   },
   {
     "venue": "Safeway",
@@ -559,7 +3273,7 @@
     "category": "Shop",
     "subCategory": "Grocery Store",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Salt & Straw",
@@ -610,7 +3324,7 @@
     "month": 5,
     "category": "Souvlaki",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "comments": "Veg or Black Sheep plant-based salad/sandwich"
   },
@@ -638,7 +3352,7 @@
     "category": "Shop",
     "subCategory": "Arts & Crafts",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Handy Handyman Hardware",
@@ -664,7 +3378,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Dolores Park Cafe",
@@ -677,10 +3391,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Mission Dolores Park",
@@ -693,7 +3404,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Fairfax Coffee Roastery",
@@ -732,7 +3446,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Handy Handyman Hardware",
@@ -758,7 +3472,7 @@
     "category": "Shop",
     "subCategory": "Grocery Store",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Café du Soleil",
@@ -771,7 +3485,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "outdoorSeating": true,
     "comments": "Good food, okay coffee."
@@ -813,11 +3527,11 @@
     "category": "Food",
     "subCategory": "Scandinavian",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Papito Hayes",
@@ -856,7 +3570,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Dolores Park Cafe",
@@ -869,10 +3583,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Mr Dragon",
@@ -915,7 +3626,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "General Store",
@@ -927,7 +3638,7 @@
     "month": 4,
     "category": "Shop",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Case for Making",
@@ -965,7 +3676,7 @@
     "month": 4,
     "category": "Shop",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Trouble Coffee",
@@ -982,7 +3693,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "The Little Chihuahua",
@@ -995,10 +3706,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Roxie Cinema",
@@ -1011,7 +3722,7 @@
     "category": "Arts",
     "subCategory": "Indie Movies",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "William Stout Architectural Books",
@@ -1154,7 +3865,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Indian Oven",
@@ -1184,7 +3898,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Pink Onion",
@@ -1223,7 +3937,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true
   },
@@ -1265,7 +3979,7 @@
     "firstVisit": true,
     "lastVisit": true,
     "dateSpot": true,
-    "comments": "Ginger noodles"
+    "comments": "#fave noodles: Ginger noodles"
   },
   {
     "venue": "San Francisco Museum of Modern Art",
@@ -1278,7 +3992,7 @@
     "category": "Arts",
     "subCategory": "Art Museum",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Phyllis Wattis Theater",
@@ -1304,7 +4018,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Tennessee Beach",
@@ -1329,7 +4043,11 @@
     "month": 4,
     "category": "Beer Bar",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Duboce Park",
@@ -1342,7 +4060,7 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Blick Art Materials",
@@ -1461,7 +4179,8 @@
     "category": "Arts",
     "subCategory": "Arcade",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false,
+    "comments": "Killer queen, DDR, pool, +"
   },
   {
     "venue": "Souvla",
@@ -1490,7 +4209,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Strawberry Hill",
@@ -1541,11 +4260,11 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": true,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "dateSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Vinegar peanuts, Sichuan carbonara, mapo tofu, thrice cooked bacon with rice cakes"
+    "comments": "#fave Chinese: vinegar peanuts & mapo tofu. Also great: Sichuan carbonara, thrice cooked bacon with rice cakes."
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -1558,7 +4277,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "The Chapel",
@@ -1625,7 +4344,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -1660,10 +4379,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Mission Dolores Park",
@@ -1676,7 +4392,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Dolores Park Cafe",
@@ -1689,10 +4408,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Hot Cookie",
@@ -1731,10 +4447,10 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Mixt",
@@ -1852,7 +4568,7 @@
     "month": 4,
     "category": "Veterinarians",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Zeitgeist",
@@ -1891,7 +4607,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Coit Tower",
@@ -1904,7 +4620,7 @@
     "category": "Outdoors",
     "subCategory": "Landmark",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "The Little Chihuahua",
@@ -1917,10 +4633,10 @@
     "category": "Food",
     "subCategory": "Burritos",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Baskin-Robbins",
@@ -1972,7 +4688,7 @@
     "category": "Food",
     "subCategory": "Chinese",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "comments": "Basil tofu, general tso's tofu, veg dumplings"
   },
@@ -2075,7 +4791,7 @@
     "category": "Food",
     "subCategory": "Ethiopian",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "BAMPFA",
@@ -2114,7 +4830,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "comments": "Strawberry scone"
   },
@@ -2210,7 +4926,7 @@
     "category": "Outdoors",
     "subCategory": "Hill",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -2892,7 +5608,7 @@
     "category": "Arts",
     "subCategory": "Art Gallery",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Menya Kanemaru Golden Ramen",
@@ -2931,7 +5647,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Café du Soleil",
@@ -2973,7 +5689,8 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Dolores Park Cafe",
@@ -2986,10 +5703,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Spro Coffeelab",
@@ -3002,9 +5716,10 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "wouldTakeVisitors": true,
-    "comments": "Umami bomb toast lives up to the name."
+    "comments": "#fave toast: umami bomb. Everything great, incl pastries and fusion espresso drinks (miso latte).",
+    "goToSpot": true
   },
   {
     "venue": "Four Barrel Coffee",
@@ -3434,7 +6149,8 @@
     "firstVisit": false,
     "lastVisit": false,
     "wouldTakeVisitors": true,
-    "comments": "Umami bomb toast lives up to the name."
+    "comments": "#fave toast: umami bomb. Everything great, incl pastries and fusion espresso drinks (miso latte).",
+    "goToSpot": true
   },
   {
     "venue": "Hyperoptics",
@@ -3472,7 +6188,9 @@
     "category": "Food",
     "subCategory": "Vietnamese",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Giant portions. Pad Thai, tofu salad"
   },
   {
     "venue": "Automat",
@@ -3485,8 +6203,9 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true,
-    "comments": "Pastries. Go back and try bread and meal."
+    "lastVisit": false,
+    "comments": "Pastries. Go back and try bread and meal.",
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
@@ -3641,7 +6360,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Eiji",
@@ -3856,7 +6575,7 @@
     "category": "Food",
     "subCategory": "Indian",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "San Francisco Public Library",
@@ -3895,7 +6614,7 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
     "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
@@ -3966,7 +6685,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Little Delhi",
@@ -3991,7 +6710,7 @@
     "month": 2,
     "category": "Tennis Court",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Mercury Cafe",
@@ -4188,7 +6907,7 @@
     "category": "Nightlife",
     "subCategory": "Wine Bar",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true,
     "dateSpot": true,
     "wouldTakeVisitors": true
@@ -4203,7 +6922,7 @@
     "month": 2,
     "category": "Dentist's Office",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Home",
@@ -4254,7 +6973,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Cup",
@@ -4306,7 +7025,7 @@
     "category": "Nightlife",
     "subCategory": "Beer Garden",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -4500,7 +7219,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Haight Fillmore Whole Foods",
@@ -4708,7 +7427,8 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Patxi's Chicago Pizza",
@@ -4775,7 +7495,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Mercury Cafe",
@@ -4908,7 +7628,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Automat",
@@ -4922,7 +7642,8 @@
     "subCategory": "Bakery",
     "firstVisit": true,
     "lastVisit": false,
-    "comments": "Pastries. Go back and try bread and meal."
+    "comments": "Pastries. Go back and try bread and meal.",
+    "wouldTakeVisitors": true
   },
   {
     "venue": "San Francisco Museum of Modern Art",
@@ -5273,7 +7994,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "WAG Hotel",
@@ -5328,7 +8049,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Souvenir Coffee",
@@ -5383,7 +8104,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Iyara Thai Massage",
@@ -5434,7 +8155,9 @@
     "category": "Food",
     "subCategory": "Ramen",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "#fave ramen"
   },
   {
     "venue": "Mercury Cafe",
@@ -5489,7 +8212,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Whole Foods Market",
@@ -5591,7 +8316,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Mill",
@@ -5607,7 +8335,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Mike's Bikes of San Francisco",
@@ -5687,7 +8415,7 @@
     "month": 0,
     "category": "Organic Grocery",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Kantine",
@@ -5704,7 +8432,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "M.H. Bread and Butter",
@@ -5834,7 +8562,7 @@
     "category": "Outdoors",
     "subCategory": "Hill",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Third Culture Bakery",
@@ -5860,7 +8588,10 @@
     "category": "Food",
     "subCategory": "Indian",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Chola bhatura, palaak"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -6147,7 +8878,8 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "comments": "#fave donut: glazed"
   },
   {
     "venue": "Vegan Mob",
@@ -6189,7 +8921,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Mercury Cafe",
@@ -6230,7 +8962,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Dolores Park Cafe",
@@ -6243,10 +8978,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Mission Pet Hospital",
@@ -6297,7 +9029,7 @@
     "category": "Shop",
     "subCategory": "Grocery Store",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Coit Tower",
@@ -6428,10 +9160,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Sightglass Coffee",
@@ -6490,7 +9219,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Cafe International",
@@ -6529,7 +9258,7 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Kantine",
@@ -6546,7 +9275,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Dolores Park Cafe",
@@ -6559,10 +9288,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -6666,7 +9392,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -7193,7 +9921,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Mission Pet Hospital",
@@ -7671,7 +10399,8 @@
     "firstVisit": true,
     "lastVisit": false,
     "wouldTakeVisitors": true,
-    "comments": "Umami bomb toast lives up to the name."
+    "comments": "#fave toast: umami bomb. Everything great, incl pastries and fusion espresso drinks (miso latte).",
+    "goToSpot": true
   },
   {
     "venue": "Craftsman and Wolves",
@@ -7831,7 +10560,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Kantine",
@@ -7848,7 +10577,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Dolores Park Cafe",
@@ -7861,10 +10590,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": false,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Mission Dolores Park",
@@ -7877,7 +10603,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "San Francisco Athletic Club",
@@ -7940,7 +10669,11 @@
     "month": 10,
     "category": "Beer Bar",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mission Pet Hospital",
@@ -7969,7 +10702,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Devil's Teeth Baking Company",
@@ -7999,7 +10732,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Duboce Park",
@@ -8142,7 +10875,7 @@
     "category": "Coffee",
     "subCategory": "Bakery",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Ramenwell",
@@ -8287,7 +11020,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Alamo Square",
@@ -8380,7 +11116,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -8423,7 +11162,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Embarcadero Center Cinema",
@@ -8464,7 +11203,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Equator Coffee & Teas",
@@ -8520,7 +11259,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Mercury Cafe",
@@ -8565,7 +11304,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Mercury Cafe",
@@ -9370,7 +12109,7 @@
     "category": "Food",
     "subCategory": "Pakistani",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "goToSpot": true
   },
   {
@@ -9388,7 +12127,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Twisted Street Cafe",
@@ -9505,7 +12244,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Alamo Square",
@@ -9570,7 +12310,7 @@
     "category": "Nightlife",
     "subCategory": "Beer Garden",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Kantine",
@@ -9587,7 +12327,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "Alchemy By Alta",
@@ -9616,7 +12356,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Rare Device",
@@ -9629,7 +12369,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mercury Cafe",
@@ -9673,7 +12415,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -9724,7 +12466,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Juice Shop",
@@ -9781,7 +12523,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Besharam",
@@ -9794,7 +12536,10 @@
     "category": "Food",
     "subCategory": "Indian",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "A fun reimagining of Indian cuisine"
   },
   {
     "venue": "Minnesota Street Projects Gallery",
@@ -10067,7 +12812,7 @@
     "category": "Food",
     "subCategory": "Mexican",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Earthen",
@@ -10123,7 +12868,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   {
     "venue": "New Santa Clara Market",
@@ -10224,7 +12969,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Fort Mason Center for Arts & Culture",
@@ -10546,7 +13291,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Sightglass Coffee",
@@ -10577,7 +13322,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Woods Lower Haight",
@@ -10589,7 +13334,11 @@
     "month": 8,
     "category": "Beer Bar",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Urban Remedy",
@@ -10681,7 +13430,11 @@
     "month": 8,
     "category": "Beer Bar",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Starbucks",
@@ -10723,7 +13476,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -10788,7 +13541,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mr Digby’s",
@@ -10869,7 +13625,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Sightglass Coffee",
@@ -10935,7 +13694,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Stable Cafe",
@@ -10986,7 +13748,8 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "#fave donut: glazed"
   },
   {
     "venue": "Foghorn Taproom",
@@ -11025,7 +13788,7 @@
     "category": "Shop",
     "subCategory": "Sporting Goods",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "The Mill",
@@ -11041,7 +13804,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "The Little Chihuahua",
@@ -11057,7 +13820,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Arsicault Bakery",
@@ -11073,7 +13836,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Alchemy By Alta",
@@ -11515,7 +14278,8 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "#fave donut: glazed"
   },
   {
     "venue": "Kezar Stadium",
@@ -11528,7 +14292,7 @@
     "category": "Outdoors",
     "subCategory": "Track",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "The Postal Chase",
@@ -11579,7 +14343,8 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "#fave donut: glazed"
   },
   {
     "venue": "Stable Cafe",
@@ -11604,7 +14369,7 @@
     "month": 6,
     "category": "Veterinarians",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Souvenir Coffee",
@@ -11642,7 +14407,7 @@
     "month": 6,
     "category": "Veterinarians",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Wiggle Bicycles",
@@ -12097,7 +14862,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -12399,7 +15164,7 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Dynamo Donut & Coffee Kiosk",
@@ -12425,7 +15190,7 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Souvenir Coffee",
@@ -12549,7 +15314,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "The Richfield",
@@ -12601,7 +15366,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -12710,7 +15476,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Wholesome Bakery",
@@ -12816,7 +15582,7 @@
     "category": "Shop",
     "subCategory": "Market",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Oakside Cafe",
@@ -13039,7 +15805,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Oakside Cafe",
@@ -13256,7 +16022,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Uncle Benny's Donut & Bagel",
@@ -13339,7 +16105,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Taco Bell Cantina",
@@ -13716,7 +16482,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "The Little Chihuahua",
@@ -13732,7 +16498,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Oakside Cafe",
@@ -13935,7 +16701,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Sightglass Coffee",
@@ -14211,7 +16977,7 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Oakside Cafe",
@@ -14400,7 +17166,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Nourish Cafe SF",
@@ -14444,7 +17210,7 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -14473,7 +17239,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -14586,7 +17352,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Nourish Cafe SF",
@@ -14682,7 +17448,7 @@
     "category": "Shop",
     "subCategory": "Grocery Store",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "The Princess of the Panhandle",
@@ -14820,7 +17586,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -14870,7 +17636,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Nourish Cafe SF",
@@ -15267,7 +18033,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Devil’s Teeth Baking Company",
@@ -15399,7 +18165,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -15475,7 +18241,7 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": true,
+    "lastVisit": false,
     "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
   },
   {
@@ -15505,7 +18271,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "The Mill",
@@ -15521,7 +18287,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Lady Falcon Coffee Club",
@@ -15625,7 +18391,7 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "The Little Chihuahua",
@@ -15641,7 +18407,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "450 Sutter Building",
@@ -15696,7 +18462,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Coin-Op Game Room",
@@ -16187,7 +18953,7 @@
     "lastVisit": true
   },
   {
-    "venue": "The North Face Soho",
+    "venue": "The North Face",
     "id": "5d5327e04115590007ac5554",
     "city": "New York",
     "state": "NY",
@@ -16653,7 +19419,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -16746,10 +19512,7 @@
     "category": "Coffee",
     "subCategory": "Café",
     "firstVisit": true,
-    "lastVisit": false,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true
+    "lastVisit": false
   },
   {
     "venue": "Mission Dolores Park",
@@ -16762,7 +19525,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "The Little Chihuahua",
@@ -16778,7 +19544,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -16885,7 +19651,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Maxfield's House of Caffeine",
@@ -17394,7 +20160,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -17536,7 +20302,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "City Lights Bookstore",
@@ -17684,7 +20450,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -17725,7 +20491,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "The Page",
@@ -17793,7 +20559,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Arsicault Bakery",
@@ -17809,7 +20575,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "AT&T",
@@ -17851,7 +20617,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Oakside Cafe",
@@ -17932,7 +20698,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Verve Coffee Roasters",
@@ -18285,7 +21051,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Mission Blue",
@@ -18314,7 +21080,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -18430,7 +21196,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Alamo Square Cafe",
@@ -18539,7 +21306,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Sightglass Coffee",
@@ -18593,7 +21360,7 @@
     "category": "Outdoors",
     "subCategory": "Other Outdoors",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -18699,7 +21466,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Battery Wagner",
@@ -18764,7 +21531,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -18903,8 +21671,7 @@
     "country": "United States",
     "year": 2019,
     "month": 8,
-    "category": "Shop",
-    "subCategory": "Market",
+    "category": "Beer Bar",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -19420,7 +22187,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -19498,7 +22265,7 @@
     "category": "Shop",
     "subCategory": "Sporting Goods",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Cinderella Bakery & Café",
@@ -19680,7 +22447,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -19837,7 +22604,7 @@
   {
     "venue": "Irving Farm Coffee Roasters",
     "id": "5c02e7a7f5e9d7002cbb0c3d",
-    "city": "East Elmhurst",
+    "city": "Queens",
     "state": "NY",
     "country": "United States",
     "year": 2019,
@@ -20423,7 +23190,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Square HQ",
@@ -20935,7 +23703,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -20970,7 +23738,7 @@
     "category": "Shop",
     "subCategory": "Electronics",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "fifty/fifty",
@@ -21466,7 +24234,8 @@
     "country": "United States",
     "year": 2019,
     "month": 5,
-    "category": "Adult Boutique",
+    "category": "Shop",
+    "subCategory": "Apparel",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -21585,7 +24354,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Curry Up Now",
@@ -21640,7 +24412,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Stow Lake",
@@ -21758,7 +24530,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -22278,8 +25050,7 @@
     "country": "United States",
     "year": 2019,
     "month": 4,
-    "category": "Nightlife",
-    "subCategory": "Gastropub",
+    "category": "Basque",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -22611,7 +25382,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Andytown Coffee",
@@ -23316,7 +26087,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Andytown Coffee",
@@ -23942,7 +26713,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -24343,7 +27114,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -24478,7 +27250,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Square HQ",
@@ -24727,7 +27499,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -24756,7 +27528,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -24936,7 +27708,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Sutro Heights Park",
@@ -24990,7 +27762,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -25015,7 +27787,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -25096,7 +27868,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -25483,7 +28255,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Himalayan Pizza and Momo",
@@ -25522,10 +28294,11 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -25641,7 +28414,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "The North Face Post Street",
@@ -25961,7 +28734,8 @@
     "country": "United States",
     "year": 2018,
     "month": 9,
-    "category": "Airport Service",
+    "category": "Travel",
+    "subCategory": "Terminal",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -26533,7 +29307,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -26649,7 +29423,7 @@
     "category": "Outdoors",
     "subCategory": "Scenic Lookout",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -26665,7 +29439,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -26939,7 +29713,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "The Mill",
@@ -26955,7 +29729,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Sightglass Coffee",
@@ -27299,7 +30073,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Embarcadero Plaza",
@@ -27351,7 +30126,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Equator Coffees & Teas",
@@ -27406,7 +30182,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -27563,7 +30339,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Marin Headlands",
@@ -27589,7 +30365,7 @@
     "category": "Outdoors",
     "subCategory": "Bridge",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Levi's Store",
@@ -27911,7 +30687,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Tennessee Valley Trailhead",
@@ -27939,7 +30716,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -28055,7 +30832,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Sightglass Coffee",
@@ -28099,7 +30876,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -28234,9 +31011,9 @@
     "year": 2018,
     "month": 6,
     "category": "Outdoors",
-    "subCategory": "Garden",
+    "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Cafe X",
@@ -28275,7 +31052,7 @@
     "category": "Travel",
     "subCategory": "Light Rail",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Caffé Central",
@@ -28339,7 +31116,8 @@
     "category": "Food",
     "subCategory": "Pizza",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true
   },
   {
     "venue": "Sutro Dunes",
@@ -28407,7 +31185,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Staples",
@@ -28510,7 +31288,8 @@
     "category": "Arts",
     "subCategory": "Arcade",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Killer queen, DDR, pool, +"
   },
   {
     "venue": "Vinyl Coffee & Wine Bar",
@@ -29146,7 +31925,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Comix Experience",
@@ -29470,7 +32249,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -29586,7 +32365,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -29629,10 +32408,10 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -29952,7 +32731,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hopper's Hands",
@@ -30032,7 +32812,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -30174,7 +32954,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -31352,7 +34132,8 @@
     "category": "Arts",
     "subCategory": "Arcade",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "Killer queen, DDR, pool, +"
   },
   {
     "venue": "Coin-Op Game Room",
@@ -31394,7 +34175,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Dogpatch Boulders",
@@ -31632,7 +34413,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -31804,7 +34585,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Top of San Bruno Mountain",
@@ -31858,7 +34639,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Sightglass Coffee",
@@ -32131,7 +34912,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "VeganBurg",
@@ -32238,7 +35020,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Hawk Hill",
@@ -32384,7 +35166,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -32462,7 +35244,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -32603,7 +35385,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Flywheel Coffee",
@@ -32879,7 +35661,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -33028,7 +35812,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -33343,7 +36127,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Alamo Square",
@@ -33619,7 +36403,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -33788,7 +36572,7 @@
     "year": 2017,
     "month": 9,
     "category": "Outdoors",
-    "subCategory": "Garden",
+    "subCategory": "Park",
     "firstVisit": false,
     "lastVisit": false
   },
@@ -33935,7 +36719,8 @@
     "category": "Dessert",
     "subCategory": "Donuts",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "#fave donut: glazed"
   },
   {
     "venue": "Beanstalk Cafe",
@@ -34094,7 +36879,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -34132,7 +36917,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Black Hammer Brewing",
@@ -34700,7 +37485,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -34763,7 +37548,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Azure Dental",
@@ -34858,7 +37643,7 @@
     "wouldTakeVisitors": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -34951,7 +37736,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Barrel Head Brewhouse",
@@ -35045,7 +37830,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -35132,7 +37917,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Hawk Hill",
@@ -35187,7 +37975,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Fearless Coffee",
@@ -35396,7 +38184,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -35447,7 +38235,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "East Peak, Mount Tamalpais",
@@ -35588,7 +38376,7 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Sightglass Coffee",
@@ -35658,7 +38446,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -35801,7 +38589,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -35887,7 +38675,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Topo Designs",
@@ -35915,7 +38705,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Hortica",
@@ -35953,7 +38743,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "leCupboard Cafe",
@@ -36074,7 +38867,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -36216,7 +39009,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -36309,7 +39102,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -37257,7 +40050,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "J.P. Kempt",
@@ -37273,7 +40066,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -37576,7 +40369,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -37730,7 +40523,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -37819,7 +40612,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Letterform Archive",
@@ -38042,7 +40835,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Alamo Square",
@@ -38385,7 +41178,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Fort Point National Historic Site",
@@ -38401,7 +41194,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -38647,7 +41440,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "SF Hardware",
@@ -38725,7 +41518,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "China Beach",
@@ -38948,7 +41742,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -39067,7 +41861,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -39119,7 +41913,7 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Cento",
@@ -39600,7 +42394,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Trader Joe's",
@@ -39810,7 +42604,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -39886,7 +42680,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Chicks and Love Pizza",
@@ -40044,7 +42838,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -40134,7 +42928,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Trader Joe's",
@@ -40539,7 +43333,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Celebration bakery",
+    "venue": "The Celebration Bakery",
     "id": "537cc0a8498e1fc22ab0b6e0",
     "country": "India",
     "year": 2017,
@@ -40938,7 +43732,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -41057,7 +43851,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Hawk Hill",
@@ -41213,7 +44007,7 @@
     "category": "Shop",
     "subCategory": "Sporting Goods",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "WAG Hotel",
@@ -41356,7 +44150,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -41619,7 +44416,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Tennessee Point",
@@ -42497,7 +45294,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Bed Bath & Beyond",
@@ -42853,7 +45650,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Matching Half Cafe",
@@ -42944,7 +45741,10 @@
     "category": "Food",
     "subCategory": "Indian",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Chola bhatura, palaak"
   },
   {
     "venue": "Chrome HQ",
@@ -43037,7 +45837,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Courtney's Produce",
@@ -43209,7 +46009,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -43222,7 +46022,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Batter's Box SF",
@@ -43678,7 +46479,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Hawk Hill",
@@ -44713,7 +47514,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Saint Ignatius College Preparatory",
@@ -44755,7 +47556,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Weebly",
@@ -44851,7 +47652,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Hawk Hill",
@@ -46018,7 +48819,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Twin Peaks Summit",
@@ -46083,7 +48884,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Slacker Ridge",
@@ -46611,7 +49413,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "45 Castro Medical Building - California Pacific Medical Center Davies Campus",
@@ -46793,7 +49595,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Sea Lions at Pier 39",
+    "venue": "Sea Lions",
     "id": "4b97d336f964a5201e1835e3",
     "city": "San Francisco",
     "state": "CA",
@@ -46899,7 +49701,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -47192,7 +49994,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Alamo Square",
@@ -47389,7 +50191,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Fort Mason",
@@ -47456,7 +50259,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Starbucks",
@@ -47482,7 +50285,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -47616,7 +50420,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Front",
@@ -47723,7 +50527,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -47891,7 +50695,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Corona Heights Dog Run",
@@ -47995,7 +50800,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Citrus Club",
@@ -48062,7 +50868,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Nourish Cafe SF",
@@ -48392,7 +51198,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "B. Patisserie",
@@ -48530,7 +51336,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Matching Half Cafe",
@@ -48598,7 +51404,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Cibo",
@@ -48641,7 +51447,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Ocean Beach",
@@ -48992,7 +51798,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Hawk Hill",
@@ -49083,7 +51892,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Weebly",
@@ -49306,7 +52116,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -50094,7 +52904,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Corona Heights Dog Run",
@@ -50369,7 +53179,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Alamo Square",
@@ -50786,7 +53596,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -51115,7 +53925,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Milagra Ridge County Park",
@@ -51505,7 +54315,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Getaround HQ",
@@ -51859,7 +54669,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   {
     "venue": "Hawk Hill",
@@ -52065,7 +54875,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Sightglass Coffee",
@@ -53274,7 +56085,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Basil Thai Restaurant & Bar",
@@ -53718,7 +56529,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -54053,7 +56867,8 @@
     "category": "Food",
     "subCategory": "Pizza",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true
   },
   {
     "venue": "Java Beach Cafe",
@@ -54175,7 +56990,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -54460,7 +57275,7 @@
     "category": "Shop",
     "subCategory": "Mall",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -54688,7 +57503,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -54920,7 +57735,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "lululemon athletica",
@@ -55027,7 +57843,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Goldrun Rest Stop",
+    "venue": "Gold Run Rest Area Eastbound",
     "id": "4dfbe75e8877e9c47491073f",
     "city": "Gold Run",
     "state": "CA",
@@ -55067,7 +57883,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Twin Peaks Summit",
@@ -55186,7 +58002,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Herbivore",
@@ -55212,7 +58030,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Alamo Square",
@@ -55587,7 +58406,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -55759,7 +58578,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "WAG Hotel",
@@ -56451,7 +59270,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shop",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Whole Foods Market",
@@ -56683,7 +59502,9 @@
     "category": "Food",
     "subCategory": "New American",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": false,
+    "dateSpot": true,
+    "comments": "#fave cocktails"
   },
   {
     "venue": "La Urbana",
@@ -58287,7 +61108,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Crissy Field",
@@ -58593,7 +61414,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Strawberry Hill",
@@ -58673,7 +61494,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Pacific Overlook",
@@ -59120,7 +61941,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Bloodhound",
@@ -59186,7 +62007,9 @@
     "category": "Food",
     "subCategory": "New American",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "dateSpot": true,
+    "comments": "#fave cocktails"
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -59293,7 +62116,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -59322,7 +62145,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -59477,7 +62300,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "The Little Chihuahua",
@@ -59493,7 +62316,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -59600,8 +62423,8 @@
     "lastVisit": false
   },
   {
-    "venue": "Old Nicasio School",
-    "id": "51b66e19498e8e4a3cee54f3",
+    "venue": "Nicasio School",
+    "id": "51b66dd0498e32c4f1a178f4",
     "city": "Nicasio",
     "state": "CA",
     "country": "United States",
@@ -59885,7 +62708,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Blue Bottle Coffee",
@@ -61297,7 +64121,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -61847,7 +64671,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Corona Heights Park",
@@ -62958,7 +65782,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "The Mill",
@@ -62974,7 +65798,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -63492,7 +66316,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Hella Vegan Eats",
@@ -64321,7 +67148,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -64545,7 +67373,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -64753,7 +67581,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Buena Vista Park",
@@ -64831,7 +67659,9 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": true
+    "lastVisit": true,
+    "goToSpot": true,
+    "comments": "Agedashi tofu, veg tempura, soups"
   },
   {
     "venue": "Sports Basement",
@@ -65607,7 +68437,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Rumors",
@@ -65794,7 +68624,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Four Barrel Coffee",
@@ -65888,7 +68718,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Green Chile Kitchen",
@@ -66003,7 +68833,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Bed Bath & Beyond",
@@ -66094,7 +68927,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -66344,7 +69178,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Pelican Beach",
@@ -66550,7 +69384,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -66563,7 +69398,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -66722,7 +69558,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "John McLaren Park",
@@ -66919,7 +69755,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Fat Angel Food & Libation",
@@ -67075,7 +69911,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -67166,7 +70003,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Fayes Video & Espresso Bar",
@@ -67194,7 +70034,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Deli Board",
@@ -67276,7 +70116,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Grand View Park",
@@ -67344,7 +70184,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Dynamo Donut & Coffee Kiosk",
@@ -67412,7 +70252,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -67425,7 +70265,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Pinkie's Bakery",
@@ -67493,7 +70334,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Curry Up Now",
@@ -67548,7 +70389,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -67561,7 +70402,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -67681,7 +70523,7 @@
     "lastVisit": true
   },
   {
-    "venue": "Sea Lions at Pier 39",
+    "venue": "Sea Lions",
     "id": "4b97d336f964a5201e1835e3",
     "city": "San Francisco",
     "state": "CA",
@@ -67720,7 +70562,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Zeitgeist",
@@ -68513,7 +71355,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Steff's Sports Bar",
@@ -68669,7 +71511,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Sports Basement",
@@ -68842,7 +71685,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -68855,7 +71698,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Alchemist Bar & Lounge",
@@ -68907,7 +71751,9 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Agedashi tofu, veg tempura, soups"
   },
   {
     "venue": "Piccino Cafe",
@@ -69088,7 +71934,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Bi-Rite Market",
@@ -69117,7 +71965,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -69259,7 +72107,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Chrome HQ",
@@ -69338,7 +72187,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Piccino Cafe",
@@ -69406,7 +72256,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Triptych",
@@ -69448,7 +72298,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "The Little Chihuahua",
@@ -69464,7 +72314,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "TeaWay 一茶道",
@@ -69637,7 +72487,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Bi-Rite Market",
@@ -70232,7 +73082,7 @@
     "category": "Nightlife",
     "subCategory": "Bar",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "Bi-Rite Creamery",
@@ -70649,7 +73499,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Corona Heights Park",
@@ -70691,7 +73544,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Bean Bag Cafe",
@@ -70772,7 +73625,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Citizen's Band",
@@ -70866,7 +73719,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Alamo Square Market & Deli",
@@ -70892,7 +73745,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Sightglass Coffee",
@@ -70962,7 +73816,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "The Panhandle",
@@ -71030,7 +73884,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "Starbucks",
@@ -71732,7 +74586,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Green Earth Natural Foods",
@@ -71864,7 +74718,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -71877,7 +74731,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Sports Basement",
@@ -72025,7 +74880,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Kite Hill Open Space",
@@ -72142,7 +74997,9 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Agedashi tofu, veg tempura, soups"
   },
   {
     "venue": "Pinkie's Bakery",
@@ -72220,7 +75077,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -72233,7 +75091,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Source",
@@ -72481,7 +75340,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -72676,7 +75535,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Mad Dog in the Fog",
@@ -72767,7 +75626,7 @@
     "category": "Food",
     "subCategory": "Vietnamese",
     "firstVisit": true,
-    "lastVisit": true
+    "lastVisit": false
   },
   {
     "venue": "VEGA",
@@ -72845,7 +75704,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "SoMa StrEat Food Park",
@@ -72910,7 +75771,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "MUJI 無印良品",
@@ -73145,7 +76007,8 @@
     "category": "Food",
     "subCategory": "Pizza",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true
   },
   {
     "venue": "Green Earth Natural Foods",
@@ -73246,7 +76109,7 @@
     "year": 2013,
     "month": 2,
     "category": "Outdoors",
-    "subCategory": "Garden",
+    "subCategory": "Park",
     "firstVisit": false,
     "lastVisit": false
   },
@@ -73277,7 +76140,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Rapha Cycle Club",
@@ -73290,7 +76153,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -73356,7 +76220,8 @@
     "category": "Food",
     "subCategory": "Pizza",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true
   },
   {
     "venue": "Getaround HQ",
@@ -73452,7 +76317,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -73481,7 +76346,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -74307,7 +77172,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
   },
   {
     "venue": "Bloodhound",
@@ -75092,7 +77957,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -76248,7 +79114,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -76302,7 +79169,7 @@
     "firstVisit": false,
     "lastVisit": true,
     "wouldTakeVisitors": true,
-    "comments": "Spiced chocolate, passion fruit donuts."
+    "comments": "#fave donut: spiced chocolate, passion fruit milk chocolate, chocolate star anise"
   },
   {
     "venue": "La Palma Mexicatessen Molino y Tortilleria",
@@ -76483,7 +79350,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Pizzeria Delfina",
@@ -76522,7 +79392,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Bender's Bar & Grill",
@@ -76552,7 +79423,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   {
     "venue": "VEGA",
@@ -77074,7 +79945,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Camera Obscura & Holograph Gallery",
@@ -77207,7 +80079,7 @@
     "firstVisit": true,
     "lastVisit": false,
     "wouldTakeVisitors": true,
-    "comments": "Spiced chocolate, passion fruit donuts."
+    "comments": "#fave donut: spiced chocolate, passion fruit milk chocolate, chocolate star anise"
   },
   {
     "venue": "Bernal Heights Park",
@@ -77446,7 +80318,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Twin Peaks Summit",
@@ -77626,7 +80498,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Señor Sisig",
@@ -77730,7 +80604,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Sightglass Coffee",
@@ -78236,7 +81111,8 @@
     "category": "Shop",
     "subCategory": "Bike Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "comments": "50% coffee with my RCC membership"
   },
   {
     "venue": "Hawk Hill",
@@ -78508,7 +81384,7 @@
     "year": 2012,
     "month": 9,
     "category": "Outdoors",
-    "subCategory": "Garden",
+    "subCategory": "Park",
     "firstVisit": true,
     "lastVisit": false
   },
@@ -81078,7 +83954,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Haight Street Market",
+    "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -81504,7 +84380,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Rare Device",
@@ -81517,7 +84396,9 @@
     "category": "Shop",
     "subCategory": "Gift Shop",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Bean Bag Cafe",
@@ -82436,7 +85317,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": false,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "21st Amendment Brewery & Restaurant",
@@ -82733,7 +85617,10 @@
     "category": "Outdoors",
     "subCategory": "Park",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
   },
   {
     "venue": "Church Street Cafe",
@@ -83197,7 +86084,8 @@
     "category": "Food",
     "subCategory": "Pizza",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true
   },
   {
     "venue": "Walgreens",
@@ -87233,7 +90121,9 @@
     "category": "Food",
     "subCategory": "Vegetarian / Vegan",
     "firstVisit": true,
-    "lastVisit": false
+    "lastVisit": false,
+    "goToSpot": true,
+    "comments": "Agedashi tofu, veg tempura, soups"
   },
   {
     "venue": "The Attic",
@@ -87426,7 +90316,7 @@
     "year": 2012,
     "month": 0,
     "category": "Food",
-    "subCategory": "Burritos",
+    "subCategory": "Tacos",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -88685,7 +91575,7 @@
     "lastVisit": false,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   {
     "venue": "Bloodhound",
@@ -88857,7 +91747,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Top Of Vernal Falls",
+    "venue": "Top of Vernal Falls",
     "id": "4c1fd66563750f4783bdbb67",
     "city": "Yosemite National Park",
     "state": "CA",
@@ -88865,7 +91755,7 @@
     "year": 2011,
     "month": 8,
     "category": "Outdoors",
-    "subCategory": "Trail",
+    "subCategory": "Scenic Lookout",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -93092,7 +95982,7 @@
     "year": 2011,
     "month": 2,
     "category": "Food",
-    "subCategory": "Fast Food",
+    "subCategory": "Asian",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -93499,7 +96389,7 @@
     "lastVisit": false
   },
   {
-    "venue": "Admiral Fell Inn",
+    "venue": "Admiral Fell Inn, An Ascend Hotel Collection Member",
     "id": "4ad4c013f964a520f0ee20e3",
     "city": "Baltimore",
     "state": "MD",
@@ -95072,8 +97962,8 @@
     "country": "United States",
     "year": 2010,
     "month": 10,
-    "category": "Nightlife",
-    "subCategory": "Bar",
+    "category": "Food",
+    "subCategory": "American",
     "firstVisit": true,
     "lastVisit": true
   },
@@ -95602,8 +98492,8 @@
     "country": "United States",
     "year": 2010,
     "month": 9,
-    "category": "Shop",
-    "subCategory": "Market",
+    "category": "Food",
+    "subCategory": "Food Court",
     "firstVisit": true,
     "lastVisit": true
   },

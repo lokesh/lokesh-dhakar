@@ -226,7 +226,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 // ------
 
 // Hide any steep runs with avg elevation gain more than X ft per mile.
-let MAX_ELEVATION_PER_MILE = 100;
+let MAX_ELEVATION_PER_MILE = 150;
 
 // --------
 // COMMENTS
@@ -239,6 +239,14 @@ var app = new Vue({
     return {
       runs: [],
       comments: {
+        2872284265: {
+          type: 'race',
+          text: 'Race • North Face half-marathon',
+        },
+        2838582601: {
+          type: 'race',
+          text: 'Race • Golden Gate Half-marathon',
+        },
         2650727758:{
           type: 'race',
           text: 'Race • 2019 Bridge to Bridge 12k'

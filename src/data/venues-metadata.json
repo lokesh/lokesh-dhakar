@@ -15,7 +15,7 @@
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges, and everything else on the menu."
+    "comments": "Cinnamon knot, cardamom morning bun, porridges"
   },
   "5105ed2fe4b02d11de1bae8d": {
     "wouldTakeVisitors": true,
@@ -24,21 +24,22 @@
   "55203ab9498eb807ad0e6da5": {
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant is decadent. Almond chocolate is too much."
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much."
   },
   "49ccf971f964a520a6591fe3": {
     "wouldTakeVisitors": true,
-    "comments": "Spiced chocolate, passion fruit donuts."
+    "comments": "#fave donut: spiced chocolate, passion fruit milk chocolate, chocolate star anise"
   },
   "60e9dcad148551533446302f": {
     "wouldTakeVisitors": true,
-    "comments": "Umami bomb toast lives up to the name."
+    "comments": "#fave toast: umami bomb. Everything great, incl pastries and fusion espresso drinks (miso latte).",
+    "goToSpot": true
   },
   "4a139e14f964a520f0771fe3": {
     "goToSpot": true,
     "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Avocado toast, cinnamon toast. Good vibes."
+    "comments": "#fave toast: avocado toast, cinnamon toast. Good vibes."
   },
   "5968bf3429551366c474d076": {
     "goToSpot": true,
@@ -57,13 +58,13 @@
   },
   "5e82886cc3e6830008549196": {
     "dateSpot": true,
-    "comments": "Ginger noodles"
+    "comments": "#fave noodles: Ginger noodles"
   },
   "4c325dd83896e21e6d6ee890": {
     "goToSpot": true,
     "dateSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Vinegar peanuts, Sichuan carbonara, mapo tofu, thrice cooked bacon with rice cakes"
+    "comments": "#fave Chinese: vinegar peanuts & mapo tofu. Also great: Sichuan carbonara, thrice cooked bacon with rice cakes."
   },
   "4a789bbbf964a52004e61fe3": {
     "dateSpot": true,
@@ -79,7 +80,8 @@
     "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler"
   },
   "61a7ad2af8c5e00778294359": {
-    "comments": "Pastries. Go back and try bread and meal."
+    "comments": "Pastries. Go back and try bread and meal.",
+    "wouldTakeVisitors": true
   },
   "55bec3d8498ea0833a1c10b7": {
     "comments": "Schroom, also Haight'n'Salsa, and Avocado Beet burgers."
@@ -97,21 +99,102 @@
   "49daea87f964a520be5e1fe3": {
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Plantain burrito (made vegan) is my favorite burrito in town."
+    "comments": "#fave burrito: plantain burrito (made vegan)"
   },
   "620400dc6d8dbe588b7772d4": {
     "goToSpot": true,
     "outdoorSeating": true,
     "comments": "Good food, okay coffee."
   },
-  "44ca68a6f964a52001361fe3": {
+  "44ca68a6f964a52001361fe3": {},
+  "4feddd79d86cd6f22dc171a9": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave bread: Josey Baker wonder bread & country loaf"
+  },
+  "458403fdf964a5208e3f1fe3": {
+    "wouldTakeVisitors": true
+  },
+  "4f62a163e4b08b476db9854e": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true
+  },
+  "42814b00f964a52002221fe3": {
+    "wouldTakeVisitors": true
+  },
+  "5632c07e498eaa6c566acefc": {
+    "goToSpot": true,
+    "comments": "#fave ramen"
+  },
+  "57978e5e498ed5a25470c882": {
+    "goToSpot": true,
+    "comments": "Bindi, palaak, naan"
+  },
+  "44ccee85f964a52016361fe3": {
+    "goToSpot": true,
+    "comments": "Agedashi tofu, veg tempura, soups"
+  },
+  "59af3c499ba3e56fdc64fc11": {
+    "comments": "Killer queen, DDR, pool, +"
+  },
+  "4dbdfe0dcda109aa6cc0f05a": {
+    "comments": "50% coffee with my RCC membership"
+  },
+  "4ab595e1f964a520877520e3": {
     "outdoorSeating": true,
     "dateSpot": true,
     "wouldTakeVisitors": true
   },
-  "4feddd79d86cd6f22dc171a9": {
-    "goToSpot": true,
+  "5afda146db2aeb002cd5ecb7": {
+    "dateSpot": true,
     "wouldTakeVisitors": true,
-    "comments": "Josey Baker bread"
+    "comments": "A fun reimagining of Indian cuisine"
+  },
+  "5982a65cc9a51745b603fd17": {
+    "goToSpot": true,
+    "comments": "Giant portions. Pad Thai, tofu salad"
+  },
+  "44646408f964a52026331fe3": {
+    "dateSpot": true,
+    "comments": "#fave cocktails"
+  },
+  "45bcb887f964a52002421fe3": {
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "Chola bhatura, palaak"
+  },
+  "4a625e9af964a520dec31fe3": {
+    "comments": "#fave cookie: almond flour choc chip with hazelnut. Great bread."
+  },
+  "5ee1ce01679a2e0e2850e4da": {
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true
+  },
+  "4a394777f964a5204e9f1fe3": {
+    "wouldTakeVisitors": true,
+    "comments": "shop rocks, skulls, plants"
+  },
+  "4a354111f964a520ad9c1fe3": {
+    "wouldTakeVisitors": true,
+    "comments": "Brunch spot. Dutch pancake"
+  },
+  "5d77246152f4a00007528cb9": {
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave cookie: gelato + choc chip. Appetizers great."
+  },
+  "5557f441498ee6526e9ca4d6": {
+    "goToSpot": true
+  },
+  "433dd180f964a52048281fe3": {
+    "goToSpot": true
+  },
+  "61ec66895d9050173a5e2fdd": {
+    "comments": "First Michelin Star xp. Just okay."
+  },
+  "59cfcff3c3658821638bce70": {
+    "comments": "#fave donut: glazed"
   }
 }

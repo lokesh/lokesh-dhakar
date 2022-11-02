@@ -48,7 +48,17 @@ npm run strava
 Fetch the latest Swarm check-in data with the Foursquare API:
 1.Open up `build/foursquare.js`
 2. Make sure `FETCH_DATA` and `PROCESS_DATA` booleans are set to `true`
-3. `npm run square`
+3. `npm run foursquare`
+
+
+### Update places metadata
+
+- Fetch latest check-in data.
+- `npm run places-admin-server`
+- `npm run places-admin`
+- Add metadata through the admin.
+- Update `build/foursquare.js` and set `MERGE_VENUES_METADATA` to `true` and run `npm run foursquare`
+
 
 <!--
 ### Adding a video to Inspiration page
@@ -86,8 +96,8 @@ npm run deploy
 
 ### Places
 
-npm run places-admin
 npm run places-admin-server
+npm run places-admin
 
 
 #### Data structure

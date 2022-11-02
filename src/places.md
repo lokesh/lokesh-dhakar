@@ -107,8 +107,7 @@ Map
         </template>
         <span v-if="city">
           <a @click="$emit('set-location', { country, state, city })">
-            {{ city }}
-          </a>,
+            {{ city }}</a>,
           <a @click="$emit('set-location', { country, state })">
             {{ state }}
           </a>
@@ -161,6 +160,10 @@ Map
         <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
         <span>Only new spots</span>
       </label> -->
+      <label class="checkbox-label">
+        <input class="checkbox" type="checkbox" name="country" v-model="faveFilter" checked>
+        <span>Fave</span>
+      </label>
       <label class="checkbox-label">
         <input class="checkbox" type="checkbox" name="country" v-model="goToSpotFilter" checked>
         <span>Go to spot</span>
@@ -323,6 +326,7 @@ const app = new Vue({
       groupFilter: GROUP_BY_YEAR,
       showNewFilter: false,
       commentsFilter: false,
+      faveFilter: false,
       goToSpotFilter: false,
       outdoorSeatingFilter: false,
       dateSpotFilter: false,
@@ -402,6 +406,7 @@ const app = new Vue({
     metaDataFilters() {
       return {
         comments: this.commentsFilter,
+        fave: this.faveFilter,
         goToSpot: this.goToSpotFilter,
         outdoorSeating: this.outdoorSeatingFilter,
         dateSpot: this.dateSpotFilter,
@@ -934,7 +939,7 @@ const app = new Vue({
 }
 
 .venue-meta {
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -950,7 +955,7 @@ const app = new Vue({
 
 .venue-comment {
   margin-top: 2px;
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
   color: var(--color);
 }
 

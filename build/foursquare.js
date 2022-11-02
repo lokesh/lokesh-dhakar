@@ -2,6 +2,65 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const { resolve } = require('path');
 
+// -------
+// Config
+// -------
+
+const FETCH_DATA = false; // Hit Foursquare API
+const USE_SAMPLE_DATA = false;  // Use sample json
+
+const PROCESS_DATA = false; // Add subcategory, firstVisit, lastVisit
+const MERGE_VENUES_METADATA = true;
+
+
+if (!FETCH_DATA) {
+  console.log('🟡 [Foursquare] Fetching data disabled');
+} else {
+  console.log('🕐 [Foursquare] Refreshing data');
+}
+
+if (USE_SAMPLE_DATA) {
+  console.log('🟡 [Foursquare] Using sample data');
+}
+
+
+if (!PROCESS_DATA) {
+  console.log('🟡 [Foursquare] Data processing disabled');
+}
+
+// ------------------------
+// API Auth and Config
+// ------------------------
+
+const credentialsFilePath = resolve(process.cwd(), '.private');
+let credentials = JSON.parse(fs.readFileSync(credentialsFilePath), 'utf-8');
+
+const AUTH_PARAMS = {
+  'v': credentials.foursquare.api_version,
+  'oauth_token': credentials.foursquare.oauth_token,
+};
+
+const CHECKINS_URL  = 'https://api.foursquare.com/v2/users/self/checkins';
+const LIMIT = 250;
+
+const CHECKINS_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins.json');
+
+
+
+const CHECKINS_TEST_INPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-input.json');
+const CHECKINS_TEST_OUTPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-ouput.json');
+
+const VENUES_FILE_PATH = resolve(process.cwd(), 'src/data/venues.json');
+const VENUES_GROUPED_FILE_PATH = resolve(process.cwd(), 'src/data/venues-grouped-by-year.json');
+
+
+const VENUES_METADATA_FILE_PATH = resolve(process.cwd(), 'src/data/venues-metadata.json');
+
+
+// ------------------------
+// API Auth and Config
+// ------------------------
+
 
 function checkinsToVenues(checkins) {
   let venuesObj = {};
@@ -104,60 +163,6 @@ function sortByCount(venues) {
 }
 
 
-
-// -------
-// Testing
-// -------
-
-const FETCH_DATA = false; // Hit Foursquare API
-const USE_SAMPLE_DATA = false;  // Use sample json
-
-const PROCESS_DATA = true; // Add subcategory, firstVisit, lastVisit
-const MERGE_VENUES_METADATA = true;
-
-
-if (!FETCH_DATA) {
-  console.log('🟡 [Foursquare] Fetching data disabled');
-} else {
-  console.log('🕐 [Foursquare] Refreshing data');
-}
-
-if (USE_SAMPLE_DATA) {
-  console.log('🟡 [Foursquare] Using sample data');
-}
-
-
-if (!PROCESS_DATA) {
-  console.log('🟡 [Foursquare] Data processing disabled');
-}
-
-// ------------------------
-// API Auth and Config
-// ------------------------
-
-const credentialsFilePath = resolve(process.cwd(), '.private');
-let credentials = JSON.parse(fs.readFileSync(credentialsFilePath), 'utf-8');
-
-const AUTH_PARAMS = {
-  'v': credentials.foursquare.api_version,
-  'oauth_token': credentials.foursquare.oauth_token,
-};
-
-const CHECKINS_URL  = 'https://api.foursquare.com/v2/users/self/checkins';
-const LIMIT = 250;
-
-const CHECKINS_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins.json');
-
-
-
-const CHECKINS_TEST_INPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-input.json');
-const CHECKINS_TEST_OUTPUT_FILE_PATH = resolve(process.cwd(), 'src/data/foursquare-checkins-test-ouput.json');
-
-const VENUES_FILE_PATH = resolve(process.cwd(), 'src/data/venues.json');
-const VENUES_GROUPED_FILE_PATH = resolve(process.cwd(), 'src/data/venues-grouped-by-year.json');
-
-
-const VENUES_METADATA_FILE_PATH = resolve(process.cwd(), 'src/data/venues-metadata.json');
 
 
 /**

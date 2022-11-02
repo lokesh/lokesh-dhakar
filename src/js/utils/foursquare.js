@@ -109,9 +109,11 @@ export function filterByLocation(checkins, locationFilter) {
  * @return {[Object]} filtered checkins or venues
  */
 export function filterByMetadata(items, metadata = {}) {
-  const { comments, outdoorSeating, goToSpot, dateSpot, wouldTakeVisitors } = metadata;
+  const { comments, fave, outdoorSeating, goToSpot, dateSpot, wouldTakeVisitors } = metadata;
 
   return items.filter(item => {
+    // console.log(item);
+    if (fave && (!item.comments || !item.comments.includes('#fave'))) return false;
     if (comments && !item.comments) return false;
     if (outdoorSeating && !item.outdoorSeating) return false;
     if (goToSpot && !item.goToSpot) return false;
