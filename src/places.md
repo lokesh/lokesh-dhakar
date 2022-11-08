@@ -159,7 +159,7 @@ https://lokeshdhakar.com/projects/color-stacks/?graySteps=5&grayCast=0&grayLumaS
         <option v-for="group in groupOptions" :value="group">{{ group }}</option>
       </select>
     </div>
-    <div>
+    <div class="toggle-filters">
       <!-- <label class="checkbox-label">
         <input class="checkbox" type="checkbox" name="country" v-model="showNewFilter" checked>
         <span>Only new spots</span>
@@ -767,10 +767,19 @@ const app = new Vue({
       this.locationFilter = {};
     },
 
+    resetToggleFilters() {
+      this.faveFilter = false;
+      this.goToSpotFilter = false;
+      this.outdoorSeatingFilter = false;
+      this.dateSpotFilter = false;
+      this.wouldTakeVisitorsFilter = false;
+    },
+
     resetFilters() {
       this.resetCategoryFilter();
       this.resetSubCategoryFilter();
       this.resetLocationFilter();
+      this.resetToggleFilters();
     },
 
     sortVenuesByCount(venues) {
@@ -800,6 +809,12 @@ const app = new Vue({
   --cat-residence: var(--color);
   --cat-work: var(--color);
 }
+
+.template {
+  display: none;
+}
+
+/* LOADER ------------------------------ */
 
 .loader-bar {
   display: inline-block;
@@ -848,6 +863,8 @@ const app = new Vue({
   100% { content: '↑'; }
 }
 
+/* FILTERS ------------------------------ */
+
 .category-filters {
   display: flex;
   overflow-x: auto;
@@ -858,6 +875,22 @@ const app = new Vue({
   display: flex;
   gap: 32px;
   overflow-x: auto;
+}
+
+.toggle-filters {
+  display: flex;
+  overflow-x: auto;
+  gap: var(--gutter);
+}
+
+.toggle-filters .checkbox-label {
+  flex: 1 0 auto;
+}
+
+@media (min-width: 800px) {
+  .toggle-filters .checkbox-label {
+    flex: 0 0 auto;
+  }
 }
 
 /* TEMP */
