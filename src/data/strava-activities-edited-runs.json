@@ -1,5 +1,53 @@
 [
   {
+    "id": 8611827571,
+    "name": "Sutro’s Mystery Trail",
+    "distance": "5.4",
+    "distancePercent": 20.517338389694658,
+    "elevation": 1079.39636,
+    "pace": 10.01139235414203,
+    "paceFormatted": "10:00",
+    "date": "Feb 23",
+    "year": 2023,
+    "startDate": "2023-02-23T13:48:51Z"
+  },
+  {
+    "id": 8594880302,
+    "name": "Roaring Mouse bike pickup",
+    "distance": "5.8",
+    "distancePercent": 22.156619440076334,
+    "elevation": 505.90552799999995,
+    "pace": 7.98444895553775,
+    "paceFormatted": "7:59",
+    "date": "Feb 20",
+    "year": 2023,
+    "startDate": "2023-02-20T10:52:44Z"
+  },
+  {
+    "id": 8578100939,
+    "name": "Sutro mini repeats",
+    "distance": "6.2",
+    "distancePercent": 23.717873368702293,
+    "elevation": 1236.220512,
+    "pace": 8.638979374090798,
+    "paceFormatted": "8:38",
+    "date": "Feb 17",
+    "year": 2023,
+    "startDate": "2023-02-17T13:19:10Z"
+  },
+  {
+    "id": 8556338006,
+    "name": "Afternoon Run",
+    "distance": "6.4",
+    "distancePercent": 24.240821099618323,
+    "elevation": 450.13124799999997,
+    "pace": 7.7493197116369394,
+    "paceFormatted": "7:44",
+    "date": "Feb 13",
+    "year": 2023,
+    "startDate": "2023-02-13T12:01:55Z"
+  },
+  {
     "id": 8511667830,
     "name": "Kaiser Half 🏃‍♂️",
     "distance": "13.2",
