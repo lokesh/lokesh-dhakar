@@ -54,7 +54,6 @@
 
     All px estimates of rem values assume 16px font-size.
   */
-  --nav-width: 8.75rem; /* 140px */
   --gutter: 12px;
   --page-max-width: 40rem;
   /*--text-max-width: 35rem;*/

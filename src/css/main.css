@@ -29,7 +29,6 @@ textarea {
   font-family: var(--font);
   font-weight: var(--weight-regular);
   font-size: 1rem;
-/*  letter-spacing: -0.025em;*/
   -webkit-font-smoothing: antialiased;
 }
 
@@ -301,12 +300,6 @@ a.nav__item:hover {
 
 .page.page--full-width {
   max-width: none;
-}
-
-@media (min-width: 800px) {
-  .page {
-    margin-left: var(--nav-width);
-  }
 }
 
 

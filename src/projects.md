@@ -5,6 +5,12 @@ layout: page.njk
 
 <h1 class="page-title">Projects</h1>
 
+<div class="project-list">
+
+- [Bitsweeper](/projects/bitsweeper)
+
+</div>
+
 <ul class="project-list">
   <li><span class="project-title">[Bitsweeper](/projects/bitsweeper)</span> - A retro-styled take on Minesweeper.</li>
   <li><span class="project-title">[Team Bee](/projects/team-bee)</span> - NYT Spelling Bee made for teams, specifically made for my family.</li>
