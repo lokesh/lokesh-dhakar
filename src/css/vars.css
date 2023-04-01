@@ -36,9 +36,9 @@
   --radius-xl: 3px; /* Large media */
 
   /* Typography */
-  --font: 'Roboto Mono', Inter, sans-serif;
-  --font-heading: 'Roboto Mono', Inter, sans-serif;
-  --font-ui: 'Roboto Mono', Inter, sans-serif;
+  --font: Inter, sans-serif;
+  --font-heading: Inter, sans-serif;
+  --font-ui: 'Fragment Mono', Inter, sans-serif;
 
   --font-mono: Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;

@@ -7,10 +7,10 @@
     "commander": "^5.1.0",
     "dotenv": "^8.2.0",
     "inquirer": "^7.1.0",
-    "jimp": "^0.9.3",
-    "jstransformer-nunjucks": "^0.5.0",
     "markdown-json": "^1.5.0",
     "metalsmith": "^2.3.0",
+    "jimp": "^0.22.7",
+    "jstransformer-nunjucks": "^1.1.0",
     "metalsmith-collections": "^0.9.0",
     "metalsmith-if": "^0.1.1",
     "metalsmith-layouts": "^2.1.0",
@@ -48,7 +48,7 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "http-server": "^14.1.1",
     "jest": "^28.1.0"
   }

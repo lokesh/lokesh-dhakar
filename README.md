@@ -1,8 +1,61 @@
 # lokeshdhakar.com
 
+## Dev branch - V2 in progress
+
+Current site items to account for:
+- Blog
+  - Markdown files built into folders with static html
+  - Titles
+  - Pub dates
+  - Index page
+- Projects
+  - Lightbox
+  - Lighbox2 - diff repo
+  - Color Thief - diff repo
+  - Bitsweeper - diff repo
+  - Team Bee
+  - Color Stacks
+- Running
+- Notes
+- 
+
+Can I do it all with plain old html?
+
+Writing a blog post...
+- How would the nav be brought in?
+- Any changes to the `<head>` tag content would need to be duped on all posts. 
+
+Continue w/metalsmith.
+
+
+MENU
+Home, About, Blog
+Twitter, Email
+
+
+/about
+
+
+Remove
+/projects
+/places
+/running
+
+
+
+### QA before lunching
+- [ ] Go through all blog posts. Make sure all vue components are rendering. Images and spacing okay.
+
+---
+
+
+
+## V1 - Current
+
+
 - Built with [Metalsmith](http://www.metalsmith.io/), a simple, plugin driven static site generator.
 - Templating with [Nunjucks](https://mozilla.github.io/nunjucks/templating.html).
-- Hosted on Netlify
+- Hosted on Dreamhost
 
 Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-metalsmith-nunjucks).
 

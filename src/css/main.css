@@ -29,7 +29,7 @@ textarea {
   font-family: var(--font);
   font-weight: var(--weight-regular);
   font-size: 1rem;
-  letter-spacing: -0.025em;
+/*  letter-spacing: -0.025em;*/
   -webkit-font-smoothing: antialiased;
 }
 
