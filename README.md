@@ -56,7 +56,6 @@ Carousel formats:
 - image w/chrome
 - image w/chrome and caption
 
-
 v2 
 - Eval loading and preloading of images and video
 - Click to full screen images
@@ -72,6 +71,12 @@ old iphone img
 - 360 x 630
 - 400 x 714
 
+
+### TODO
+- X captions
+- chrome
+- diff sizes for diff resolutions
+- turn into vue component
 
 
 

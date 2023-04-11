@@ -15,6 +15,8 @@ pageWidth: full
 
  <!-- <br /><br /><br /><br /><br /> -->
 
+
+
 <div class="p">
   <div class="p-info-section">
     <div class="p-header">
@@ -29,20 +31,42 @@ pageWidth: full
       <a class="p-action" href="https://getaround.com">View site</a>
     </div>
   </div>
-  <div class="p-media">
-    <div class="p-page" style="background-color: rgba(0, 5, 10, 0.1); border-radius: var(--radius); padding: 24px;">
-      <div class="p-device-frame">
-        <img src="/media/projects/sq-web.png" style="width: 420px; border: 2px solid black; border-radius: var(--radius)" />
+  <div class="p-media-section">
+    <div class="p-page" style="background-color: rgba(0, 5, 10, 0.1);">
+      <div class="p-page-media">
+        <div class="p-device-frame device-desktop">
+          <div class="device-desktop-title-bar">
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+          </div>
+          <img class="p-img" src="/media/projects/sq-web.png" />
+        </div>
+      </div>
+      <div class="p-caption">
+        Lorem then ipsum.
       </div>
     </div>
-    <div class="p-page" style="background-color: #2F80ED; border-radius: var(--radius); padding:  24px">
-      <div class="p-device-frame">
-        <img src="/media/projects/sq-web.png" style="width: 420px; border: 2px solid black; border-top-width: 16px; border-radius: var(--radius)" />
+    <div class="p-page" style="background-color: #2F80ED;">
+      <div class="p-page-media">
+        <div class="p-device-frame device-desktop">
+          <div class="device-desktop-title-bar">
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+          </div>
+          <img class="p-img" src="/media/projects/sq-web.png" />
+        </div>
+      </div>
+      <div class="p-caption">
+        Font selection screen. We had to balance customization with helpful constraints that made maintenance easier and the likelihood for garish results less likely.
       </div>
     </div>
-    <div class="p-page" style="background-color: #7FCEFA; border-radius: var(--radius); padding:  24px;">
-      <div class="p-device-frame">
-        <img src="/media/projects/sq-web.png" style="width: 420px; border: 2px solid black; border-radius: var(--radius)" />
+    <div class="p-page" style="background-color: #7FCEFA;">
+      <div class="p-page-media">
+        <div class="p-device-frame">
+          <img src="/media/projects/sq-web.png" style="width: 420px; border: 2px solid black; border-radius: var(--radius)" />
+        </div>
       </div>
     </div>
     <!--
@@ -146,7 +170,7 @@ pageWidth: full
 }
 
 
-.p-media {
+.p-media-section {
   scroll-snap-type: x mandatory;
 /*   scroll-padding-left: 48px; */
   overflow-x: scroll;
@@ -159,11 +183,58 @@ pageWidth: full
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   min-height: 420px;
+  border-radius: var(--radius); 
+  flex: 0 0 480px;
+/*  padding:  24px;*/
 
 /*  background: #9ef;*/
 /*  min-height: 400px;*/
 /*  flex: 0 0 240px;*/
+}
+
+.p-page-media {
+  flex: 1 1 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.p-device-frame.device-desktop {
+/*  padding-top: 12px;*/
+/*  background: rgba(0, 5, 10, 0.5);*/
+  background: black;
+  border: 2px solid black;
+  border-radius: var(--radius);
+}
+
+.device-desktop-title-bar {
+  display: flex;
+  gap: 6px;
+  padding: 4px 4px 6px 4px;
+}
+
+.device-desktop-circle {
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+}
+
+.p-img {
+   width: 420px;
+}
+
+.p-caption {
+  width: 100%;
+  padding: var(--gutter);
+  line-height: var(--line-height);
+  background-color: rgba(0, 5, 10, 0.5);
+  color: rgba(245, 250, 255, 0.85);
+  font-size: 12px;
 }
 
 </style>
