@@ -24,7 +24,7 @@
   "scripts": {
     "build": "node ./metalsmith.js",
     "deploy": "node ./deploy.js",
-    "dev": "MODE=dev node ./dev.js",
+    "dev": "MODE=dev node ./metalsmith.js",
     "watch": "npm run dev",
     "strava": "node ./build/strava.js",
     "foursquare": "node ./build/foursquare.js",

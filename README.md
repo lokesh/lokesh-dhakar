@@ -42,6 +42,40 @@ Remove
 /running
 
 
+Requirements
+- Urls must be maintained:
+ - lokeshdhakar.com/POST_NAME
+ - lokeshdhakar.com/project/POST_NAME
+
+
+## Work section
+
+Carousel formats:
+- image
+- image and caption
+- image w/chrome
+- image w/chrome and caption
+
+
+v2 
+- Eval loading and preloading of images and video
+- Click to full screen images
+- Video support
+
+
+desktop img
+- 1.6 ratio,  1600x1000
+- In Chrome, use responsive mode set to 1200 x 750
+
+old iphone img
+- 0.56 ratio, 480 x 860
+- 360 x 630
+- 400 x 714
+
+
+
+
+
 
 ### QA before lunching
 - [ ] Go through all blog posts. Make sure all vue components are rendering. Images and spacing okay.

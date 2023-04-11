@@ -33,8 +33,15 @@ textarea {
 }
 
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
+
+@media (min-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 
 body {
   margin: 0;
@@ -249,8 +256,10 @@ a.nav__item {
   margin-right: 0.5em;
   color: var(--muted-color);
   border-radius: var(--radius);
+  font-size: 0.8333rem;
   font-family: var(--font-ui);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semi-bold);
+  text-transform: uppercase;
   background-color: transparent;
 }
 

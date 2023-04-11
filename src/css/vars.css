@@ -42,8 +42,9 @@
 
   --font-mono: Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;
-  --weight-bold: 700;
-  --weight-x-bold: 700;
+  --weight-semi-bold: 500;
+  --weight-bold: 600;
+  --weight-x-bold: 600;
 
   /* Forms */
   --form-control-height-xs: 2em;
