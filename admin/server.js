@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.post('/', (req, res) => {
   // fs.writeFileSync(videosFilePath, JSON.stringify(videos, null, 2));
-  const VENUES_METADATA_FILE_PATH = resolve(process.cwd(), 'src/data/venues-metadata.json');
+  const VENUES_METADATA_FILE_PATH = resolve(process.cwd(), 'build/data/places-comments.json');
   fs.writeFileSync(VENUES_METADATA_FILE_PATH, JSON.stringify(req.body, null, 2));
 
   res.sendStatus(200);

@@ -361,10 +361,10 @@ const app = new Vue({
   },
 
   async created() {
-    let resp = await fetch('/data/venues.json');
+    let resp = await fetch('/data/places-all-time.json');
     this.venues = await resp.json();
 
-    let resp2 = await fetch('/data/venues-grouped-by-year.json');
+    let resp2 = await fetch('/data/places-grouped-by-year.json');
     this.venuesGroupedByYear = await resp2.json();
 
     this.isFetching = false;

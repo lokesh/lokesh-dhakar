@@ -94,11 +94,71 @@ npm run deploy
 
 ## Architecture
 
+
 ### Places
 
-npm run places-admin-server
-npm run places-admin
+I've been using Swarm (fka Foursquare) to check-in to places (restaurants, parks, etc) for 10+ years as a personal log. The Places page on my site displays this data with a custom UI. We first pull down the data from the Foursquare API, process it, and then dump the processed data into two JSON files that are ready for displaying in the UI.
 
+How it all works in more details...
+
+1. Fetch
+`npm run foursquare` will run `build/foursquare-fetch.js`
+
+This pages through my check-ins and then collects them into a single json file `src/data/foursquare-checkins.json`. 
+
+1B. Simplify
+
+Take raw Foursquare API checkin data and both, flatten and strip down to essentials:
+```
+{
+    "venue": "Whole Foods Market",
+    "venueId": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Grocery Store",
+    "year": 2022,
+    "month": 0
+  },
+```
+
+2. More processing
+`npm run foursquare` will run `build/foursquare-process.js`
+
+2A. Remap venue categorizes
+
+The Foursquare categorization of venues doesn't suit my needs. e.g. I'd like Bakeries and Cafes to be bucketed together. For this reason, I do a remapping of the categories into approximately 10 main categories which I will later show in the UI. I remap most, but not all, of the 1200+ categories.
+
+The remapping is tracked in a [Google Doc](https://docs.google.com/spreadsheets/d/1YVD54Ree4aF8sivG3qOB9YuRB20Hg_RcvamMRjWnjDI/edit#gid=0) from where a CSV is exported: `build/data/foursquare-custom-categories.csv`.
+
+2B. Mark first and last visit
+
+If a check-in was the first or last time I visisted, note it in the check-in data. This is used in the UI to help indicate first visits to a venue.
+
+2C. Insert comments
+
+npm run `foursquare-admin-server`;
+npm run `foursquare-admin`;
+
+Starts up a small admin interface for adding comments to venues as well as adding custom traits (date spot, would take visitors, outdoor seating, et al).
+
+The data from the admin is saved to `src/data/venues-metadata.json` and in this step it is merged into the check-in data.
+
+2D. Prep for display
+
+Create two data sets. One that is grouped by year and an all-time set. This is the step where we stop tracking individual check-ins and instead aggregate into venues.
+
+2E. Output file
+
+We output two JSON files that are consumed by the UI:
+`places-grouped-by-year.json`
+`places-all-time.json'`
+
+3. Display
+
+places.md
+
+A UI built with VueJS.
 
 #### Data structure
 
