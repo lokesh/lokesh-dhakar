@@ -34,6 +34,7 @@
   --radius: 3px;    /* Form controls */
   --radius-lg: 3px; /* Media */
   --radius-xl: 3px; /* Large media */
+  --radius-button: 24px;
 
   /* Typography */
   --font: Inter, sans-serif;

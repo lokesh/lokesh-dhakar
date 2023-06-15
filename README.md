@@ -74,11 +74,14 @@ old iphone img
 
 ### TODO
 - X captions
-- chrome
+- chrome desktop and mobile
 - diff sizes for diff resolutions
 - turn into vue component
+- visuals: button blue fill, big radius
 
-
+Bugs
+- Mobile: caption font size too big
+- Captions flow out of viewport
 
 
 

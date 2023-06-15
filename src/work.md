@@ -34,6 +34,99 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page" style="background-color: rgba(0, 5, 10, 0.1);">
       <div class="p-page-media">
+        <div class="p-device-frame device-mobile">
+          <div class="device-mobile-chrome">
+            <div class="device-mobile-speaker"></div>
+          </div>
+          <img class="p-img" src="/media/projects/sq-mob.png" />
+          <div class="device-mobile-chrome">
+            <div class="device-mobile-home-button"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-caption">
+        Lorem then ipsum.
+      </div>
+    </div>    
+    <div class="p-page" style="background-color: rgba(0, 5, 10, 0.1);">
+      <div class="p-page-media">
+        <div class="p-device-frame device-desktop">
+          <div class="device-desktop-title-bar">
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+          </div>
+          <img class="p-img" src="/media/projects/sq-web.png" />
+        </div>
+      </div>
+      <div class="p-caption">
+        Lorem then ipsum.
+      </div>
+    </div>
+    <div class="p-page" style="background-color: #2F80ED;">
+      <div class="p-page-media">
+        <div class="p-device-frame device-desktop">
+          <div class="device-desktop-title-bar">
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+          </div>
+          <img class="p-img" src="/media/projects/sq-web.png" />
+        </div>
+      </div>
+      <div class="p-caption" style="display: none">
+        Font selection screen. We had to balance customization with helpful constraints that made maintenance easier and the likelihood for garish results less likely.
+      </div>
+    </div>
+    <div class="p-page" style="background-color: #7FCEFA;">
+      <div class="p-page-media">
+        <div class="p-device-frame device-desktop">
+          <div class="device-desktop-title-bar">
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+            <div class="device-desktop-circle"></div>
+          </div>
+          <img class="p-img" src="/media/projects/sq-web.png" />
+        </div>
+      </div>
+    </div>
+    <div class="p-page" style="background-color: #7FCEFA;">
+      <div class="p-page-media">
+        <div class="p-device-frame device-desktop">
+          <img class="p-img" src="/media/projects/sq-web.png" />
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="p-prev">Prev</div>
+    <div class="p-next">Next</div>
+    <div class="p-dots">
+      <div class="p-dot">O</div>
+      <div class="p-dot">o</div>
+      <div class="p-dot">o</div>
+    </div>
+  -->
+  </div>
+</div>
+
+<div class="p">
+  <div class="p-info-section">
+    <div class="p-header">
+      <div class="p-icon"></div>
+      <div class="p-title-bar">
+        <div class="p-title">Getaround</div>
+        <div class="p-subtitle">2012-2015</div>
+      </div>
+    </div>
+    <p>Getaround is a car sharing company, think Airbnb for cars. I joined as a UI Engineer and eventually moved up to lead the Web team.</p>
+    <div class="p-actions">
+      <a class="p-action" href="https://getaround.com">View site</a>
+    </div>
+  </div>
+  <div class="p-media-section">
+    <div class="p-page" style="background-color: rgba(0, 5, 10, 0.1);">
+      <div class="p-page-media">
         <div class="p-device-frame device-desktop">
           <div class="device-desktop-title-bar">
             <div class="device-desktop-circle"></div>
@@ -64,8 +157,8 @@ pageWidth: full
     </div>
     <div class="p-page" style="background-color: #7FCEFA;">
       <div class="p-page-media">
-        <div class="p-device-frame">
-          <img src="/media/projects/sq-web.png" style="width: 420px; border: 2px solid black; border-radius: var(--radius)" />
+        <div class="p-device-frame device-desktop">
+          <img class="p-img" src="/media/projects/sq-web.png" />
         </div>
       </div>
     </div>
@@ -80,6 +173,7 @@ pageWidth: full
   -->
   </div>
 </div>
+
 
 <!--
 <ul class="project-list">
@@ -111,22 +205,26 @@ pageWidth: full
   font-weight: var(--weight-bold);
 }
 
-
 @media (min-width: 800px) {
   .p {
     display: grid;
     grid-template-columns: 360px auto;
     gap: var(--gutter);
-    margin-bottom: var(--block-bottom);
+    margin-bottom: calc(var(--block-bottom) * 4);
   }  
 
   .p-info-section {
-/*    flex: 0 0 360px;*/
+    flex: 0 0 360px;
+  }
+
+  .p-media-section {
+    margin-bottom: 0;
   }
 }
 
+
 .p-info-section {
-  flex: 0 0 360px;
+  flex: 1 1 360px;
   margin-bottom: var(--block-bottom);  
 }
 
@@ -145,7 +243,7 @@ pageWidth: full
 
 .p-title {
   font-weight: var(--weight-bold);
-  font-size: 16px;
+  font-size: 1.25rem;
 }
 
 .p-subtitle {
@@ -176,6 +274,7 @@ pageWidth: full
   overflow-x: scroll;
   display: flex;
   gap: 24px;
+  margin-bottom: calc(var(--block-bottom) * 4);
 }
 
 .p-page {
@@ -186,7 +285,7 @@ pageWidth: full
   align-items: center;
   min-height: 420px;
   border-radius: var(--radius); 
-  flex: 0 0 480px;
+/*  flex: 0 0 480px;*/
 /*  padding:  24px;*/
 
 /*  background: #9ef;*/
@@ -200,7 +299,17 @@ pageWidth: full
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
 
+@media (min-width: 800px) {
+  .p-page-media {
+    flex: 1 1 auto;
+    padding: 48px 24px;  
+  }
+}
+
+.p-device-frame {
+  position: relative;
 }
 
 .p-device-frame.device-desktop {
@@ -209,6 +318,39 @@ pageWidth: full
   background: black;
   border: 2px solid black;
   border-radius: var(--radius);
+}
+
+.p-device-frame.device-mobile {
+  padding: 36px 4px 48px;
+  background: black;
+  border: 2px solid black;
+  border-radius: 24px;
+}
+
+.device-mobile-chrome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.device-mobile-speaker {
+  position: relative;
+  top: -12px;
+  width: 48px;
+  height: 4px;
+  background: #333;
+  border-radius: 4px;
+}
+
+.device-mobile-home-button {
+  position: absolute;  
+  bottom: 5px;
+/*  top: -12px;*/
+  width: 36px;
+  height: 36px;
+/*  background: #333;*/
+  border-radius: 50%;
+  border: 3px solid #333;
 }
 
 .device-desktop-title-bar {
@@ -224,17 +366,40 @@ pageWidth: full
   border-radius: 50%;
 }
 
-.p-img {
-   width: 420px;
+.device-mobile .p-img {
+   width: 240px;
+}
+
+.device-desktop .p-img {
+   width: 540px;
+}
+
+@media (min-width: 800px) {
+  .device-mobile .p-img {
+     width: 240px;
+  }
+
+  .device-desktop .p-img {
+     width: 800px;
+  }
 }
 
 .p-caption {
+  display: none;
   width: 100%;
   padding: var(--gutter);
-  line-height: var(--line-height);
   background-color: rgba(0, 5, 10, 0.5);
   color: rgba(245, 250, 255, 0.85);
-  font-size: 12px;
+  font-size: 0.8333rem;
+/*  font-size: 7px;*/
+  line-height: var(--line-height);
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+@media (min-width: 800px) {
+  .p-caption {
+    font-size: 0.8333rem;
+  }
 }
 
 </style>
