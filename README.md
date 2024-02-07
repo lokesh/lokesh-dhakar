@@ -19,6 +19,8 @@ Current site items to account for:
 - Notes
 - 
 
+
+
 Can I do it all with plain old html?
 
 Writing a blog post...
