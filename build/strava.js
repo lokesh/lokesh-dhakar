@@ -23,7 +23,7 @@ async function refreshTokens() {
   return data;
 }
 
-function saveTokens(credentials, newStravaTokens) {
+function saveTokens(credentials, newStravaTokens) {  
   credentials.strava = {
     ...credentials.strava,
     ...newStravaTokens,
@@ -37,7 +37,7 @@ async function fetchData(accessToken) {
       'Authorization': `Bearer ${accessToken}`,
     },
   })
-  const json = await response.json();
+  const json = await response.json();  
 
   // We fetch the last 200 activities from the Strava API. We then check our local activites data
   // and see what the id is for the most recent acitivity we have already saved. We slice the new
@@ -99,7 +99,6 @@ function formatRunData(runs) {
 async function main() {
   let newTokens = await refreshTokens();
   saveTokens(credentials, newTokens);
-
   fetchData(newTokens.access_token);
 }
 

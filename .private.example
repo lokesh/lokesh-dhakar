@@ -1,0 +1,8 @@
+{
+  "strava": {
+    "client_id": 7203,
+    "client_secret": "XXX",
+    "refresh_token": "XXX",
+    "access_token": "XXX"
+    }
+}

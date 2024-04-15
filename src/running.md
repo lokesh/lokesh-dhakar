@@ -226,7 +226,7 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
 // ------
 
 // Hide any steep runs with avg elevation gain more than X ft per mile.
-let MAX_ELEVATION_PER_MILE = 150;
+let MAX_ELEVATION_PER_MILE = 300;
 
 // --------
 // COMMENTS

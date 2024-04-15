@@ -1,3 +1,6 @@
+
+
+
 # lokeshdhakar.com
 
 - Built with [Metalsmith](http://www.metalsmith.io/), a simple, plugin driven static site generator.
@@ -42,6 +45,21 @@ Fetch the latest data from Strava and parse it.
 ```
 npm run strava
 ```
+
+---
+
+Need to reset API.
+1. Visit the following URL and allow access to all public data. To pull down private data, update the scope. http://www.strava.com/oauth/authorize?client_id=7203&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=activity:read
+2. Once redirected, grab the code from the URL.
+3. Use Postman/bruno to POST:
+https://www.strava.com/api/v3/oauth/token?
+  client_id=FIND_AT_SETTINGS_API
+  &client_secret=FIND_AT_SETTINGS_API
+  &code=GET_FROM_PREV_URL
+  &grant_type=authorization_code
+4. The response will include an access_token and refresh_token. Update .private
+
+
 
 ### Update places data
 
