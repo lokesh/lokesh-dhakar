@@ -259,7 +259,7 @@ a.nav__item {
   font-size: 0.8333rem;
   font-family: var(--font-ui);
   font-weight: var(--weight-semi-bold);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   background-color: transparent;
 }
 
@@ -311,6 +311,11 @@ a.nav__item:hover {
   max-width: none;
 }
 
+@media (min-width: 800px) {
+  .page {
+    margin-left: var(--nav-width);
+  }
+}
 
 /* Page & Post content ---------- */
 
