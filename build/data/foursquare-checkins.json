@@ -1,5 +1,5364 @@
 [
   {
+    "venue": "SPRO",
+    "id": "64b564a13424c26edae8bb03",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Iza Ramen",
+    "id": "5632c07e498eaa6c566acefc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Ramen Restaurants"
+  },
+  {
+    "venue": "Minnesota Street Projects Gallery",
+    "id": "569f00f938faf971e4fca795",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Art Galleries"
+  },
+  {
+    "venue": "Altman Siegel Gallery",
+    "id": "59e10d5af4b5250d907e166c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Art Galleries"
+  },
+  {
+    "venue": "Golden Goat Coffee",
+    "id": "5d55c15a30df3400088061c9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "South Park",
+    "id": "44e9b873f964a520a6371fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Parks"
+  },
+  {
+    "venue": "Boochmania",
+    "id": "63a61f9a6eda5f50309eae5d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Juice Bars"
+  },
+  {
+    "venue": "Garden Creamery",
+    "id": "589d125b005a0f47b970b12b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "Gray Area Art & Technology Theater",
+    "id": "535312a1498e917205ca7ee0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Performing Arts Venues"
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "Randall Museum",
+    "id": "49f62947f964a520146c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Museums"
+  },
+  {
+    "venue": "Café Josephine",
+    "id": "5a80b940e679bc0a6befccb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Cafés"
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "DragonEats",
+    "id": "5005c520e4b0a8ae9875b787",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Vietnamese Restaurants"
+  },
+  {
+    "venue": "Dumpling Union",
+    "id": "64167a474c73313090825d3c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Dumpling Restaurants"
+  },
+  {
+    "venue": "The Junction",
+    "id": "5f236666c68c6732a0fb8a37",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Beer Gardens"
+  },
+  {
+    "venue": "Rodeo Beach",
+    "id": "4b7878bdf964a5209dd02ee3",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Beaches"
+  },
+  {
+    "venue": "Comix Experience",
+    "id": "49fd4ed0f964a5201a6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Comic Book Stores"
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Burrito Restaurants"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "San Francisco Public Library",
+    "id": "43f5f8a9f964a520a92f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Libraries"
+  },
+  {
+    "venue": "SPRO",
+    "id": "64b564a13424c26edae8bb03",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "San Francisco Public Library",
+    "id": "43f5f8a9f964a520a92f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Libraries"
+  },
+  {
+    "venue": "SPRO",
+    "id": "64b564a13424c26edae8bb03",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Chipotle Mexican Grill",
+    "id": "4a2077b8f964a5208c7c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Mexican Restaurants"
+  },
+  {
+    "venue": "Capital One 360 Café",
+    "id": "4d87c47c0c422d436a43ee30",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Kahnfections",
+    "id": "590c7eaf356b492c77dd1be4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Savvy Cleaners",
+    "id": "4b0b16b5f964a520b72c23e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Laundry Services"
+  },
+  {
+    "venue": "Pixlcat Coffee",
+    "id": "6430f5de11fd3b1c547c9d89",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Siam Orchid Traditional Thai Massage",
+    "id": "55346c03498e56b57395abc1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Massage Clinics"
+  },
+  {
+    "venue": "San Francisco Public Library",
+    "id": "43f5f8a9f964a520a92f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Libraries"
+  },
+  {
+    "venue": "Cole Hardware",
+    "id": "4a3d51ecf964a52018a21fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Hardware Stores"
+  },
+  {
+    "venue": "Arbor",
+    "id": "5f09357db86f39032b516f50",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Burger Joints"
+  },
+  {
+    "venue": "Warby Parker",
+    "id": "5473635d498e14e5b792756d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Eyecare Stores"
+  },
+  {
+    "venue": "Brooklinen",
+    "id": "621146d4ec81396d73331a10",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "id": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Hokkaido Sashimi Marketplace",
+    "id": "655bedb1e22bd61505a38544",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "id": "51c765b5498e538e7259f69b",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Starbelly",
+    "id": "4a789bbbf964a52004e61fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "New American Restaurants"
+  },
+  {
+    "venue": "The UPS Store",
+    "id": "4b9c2efff964a520815236e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Shipping, Freight, and Material Transportation Services"
+  },
+  {
+    "venue": "Great American Music Hall",
+    "id": "40e4a580f964a520f5091fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Rock Clubs"
+  },
+  {
+    "venue": "Fermentation Lab",
+    "id": "58901f9ce18e653095361b48",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Beer Bars"
+  },
+  {
+    "venue": "CVS pharmacy",
+    "id": "522ca1c78bbd354bbb663d56",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Pharmacies"
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Kantine",
+    "id": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Scandinavian Restaurants"
+  },
+  {
+    "venue": "Savvy Cleaners",
+    "id": "4b0b16b5f964a520b72c23e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Laundry Services"
+  },
+  {
+    "venue": "Aziza",
+    "id": "49eac9cef964a52099661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Moroccan Restaurants"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Urban Remedy Mill Valley",
+    "id": "521a970c11d245d46bac7499",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Juice Bars"
+  },
+  {
+    "venue": "US Post Office",
+    "id": "4bae456ef964a5204d9b3be3",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Post Offices"
+  },
+  {
+    "venue": "The Coffee Berry",
+    "id": "64ca8475df6c6171dc993fad",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Kiehl's",
+    "id": "4aecd28bf964a52086cb21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Cosmetics Stores"
+  },
+  {
+    "venue": "SPRO",
+    "id": "64b564a13424c26edae8bb03",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "San Francisco Public Library",
+    "id": "43f5f8a9f964a520a92f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Libraries"
+  },
+  {
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Thorough Bread and Pastry",
+    "id": "49f13784f964a5209f691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Outta Sight Pizza",
+    "id": "63179b969d89197d11ce737a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Pizzerias"
+  },
+  {
+    "venue": "San Francisco Public Library",
+    "id": "43f5f8a9f964a520a92f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Libraries"
+  },
+  {
+    "venue": "San Francisco Public Library",
+    "id": "43f5f8a9f964a520a92f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Libraries"
+  },
+  {
+    "venue": "Bini's Kitchen",
+    "id": "5665ecf0498e7a56d5fd5e9d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Dumpling Restaurants"
+  },
+  {
+    "venue": "Capital One 360 Café",
+    "id": "4d87c47c0c422d436a43ee30",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Working Girls’ Cafe",
+    "id": "49ff4721f964a520fe6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Sandwich Spots"
+  },
+  {
+    "venue": "Souvenir Coffee",
+    "id": "6062696a53e97e23f1bcde3b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "We Be Honey",
+    "id": "610ad9c331f1027096988ede",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Food Stands"
+  },
+  {
+    "venue": "Divisadero Farmers' Market",
+    "id": "4a92369ef964a520fa1c20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Farmers Markets"
+  },
+  {
+    "venue": "Bob's On Baker",
+    "id": "5cfaf1b2f5e9d7002c841369",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Donut Shops"
+  },
+  {
+    "venue": "Sextant Coffee Roasters",
+    "id": "65db983fa99ed92e55d0fdaa",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "The Drawing Room",
+    "id": "6205782748244657c9600e4b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Art Galleries"
+  },
+  {
+    "venue": "Garden Creamery",
+    "id": "589d125b005a0f47b970b12b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "Natural Resources",
+    "id": "5e13eed7316fe200080414f1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Baby Stores"
+  },
+  {
+    "venue": "Topdrawer",
+    "id": "5946fdcd42d8c2427021058b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Fashion Accessories Stores"
+  },
+  {
+    "venue": "Landline",
+    "id": "658772542c8a36448fc39db7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Bandit",
+    "id": "650f1fec8460b927dda50608",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Breakfast Spots"
+  },
+  {
+    "venue": "A Runners Mind - San Francisco",
+    "id": "5259997311d25c88e5607ea6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Sporting Goods Retail"
+  },
+  {
+    "venue": "Comix Experience",
+    "id": "49fd4ed0f964a5201a6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Comic Book Stores"
+  },
+  {
+    "venue": "Little Munchkins",
+    "id": "65e89c7f5d969921a31bf5d8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Daycares"
+  },
+  {
+    "venue": "IKEA Livat",
+    "id": "649ba072f680ae2c22d76645",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Precision Time Watch Repair",
+    "id": "4b69e672f964a52002bb2be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Watch Stores"
+  },
+  {
+    "venue": "Woods Lowside",
+    "id": "5ee1ce01679a2e0e2850e4da",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Beer Bars"
+  },
+  {
+    "venue": "RT Rotisserie",
+    "id": "5d62ea99ffec4e00078889cb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Restaurants"
+  },
+  {
+    "venue": "Divisadero Farmers' Market",
+    "id": "4a92369ef964a520fa1c20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Farmers Markets"
+  },
+  {
+    "venue": "Vive La Tarte",
+    "id": "5c4c85f14f0e58002cd2bdc6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Spro Coffeelab",
+    "id": "60e9dcad148551533446302f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "New Eritrea Restaurant & Bar",
+    "id": "443fddaff964a52039321fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 2,
+    "category": "Ethiopian Restaurants"
+  },
+  {
+    "venue": "Exploratorium",
+    "id": "4585a93ef964a520ac3f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Science Museums"
+  },
+  {
+    "venue": "Cirque du Soleil",
+    "id": "65a8ab2302e71168b35a5059",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Circuses"
+  },
+  {
+    "venue": "Sukhi's Gourmet Indian Foods",
+    "id": "4f8f1ae7e4b0b7b4695bbf26",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Food Trucks"
+  },
+  {
+    "venue": "SPARK Social SF",
+    "id": "570fbb58498ef98443cf26fb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Street Food Gatherings"
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "id": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Parks"
+  },
+  {
+    "venue": "Spro Coffeelab",
+    "id": "60e9dcad148551533446302f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Iza Ramen",
+    "id": "5632c07e498eaa6c566acefc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Ramen Restaurants"
+  },
+  {
+    "venue": "Hot Zushi",
+    "id": "5699bb8d498edccdae489a77",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Sushi Restaurants"
+  },
+  {
+    "venue": "Urban Ritual",
+    "id": "5aecc94a67e5f2002c35e3a3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Bubble Tea Shops"
+  },
+  {
+    "venue": "IT'SUGAR",
+    "id": "4fc98cd0e4b092e3b96eaf59",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Candy Stores"
+  },
+  {
+    "venue": "Baker Beach",
+    "id": "44c3724df964a520c6351fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Beaches"
+  },
+  {
+    "venue": "Fort Point National Historic Site",
+    "id": "46dabca2f964a5207c4a1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Historic and Protected Sites"
+  },
+  {
+    "venue": "GoCar GPS-Guided Tours",
+    "id": "4d1e56e286e15481a2aea83a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Tour Providers"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "San Francisco Museum of Modern Art",
+    "id": "40943a00f964a520e5f21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Art Museums"
+  },
+  {
+    "venue": "Yayoi Kusama: Infinite Love",
+    "id": "651742e3a9f390565c83a196",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Exhibits"
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Burrito Restaurants"
+  },
+  {
+    "venue": "Buena Vista Park",
+    "id": "4479e362f964a520da331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Parks"
+  },
+  {
+    "venue": "Wooden",
+    "id": "59a07c348ad62e286c3c0918",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Civic Center Plaza",
+    "id": "4479e402f964a520db331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Plazas"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "id": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Parks"
+  },
+  {
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Sidewalk Juice",
+    "id": "5f49c1f434751e12b21e749d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Juice Bars"
+  },
+  {
+    "venue": "Kantine",
+    "id": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Scandinavian Restaurants"
+  },
+  {
+    "venue": "Ikea Swedish Deli",
+    "id": "64e664469c7f12321730f744",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Restaurants"
+  },
+  {
+    "venue": "IKEA Livat",
+    "id": "649ba072f680ae2c22d76645",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "FedEx Office Print & Ship Center",
+    "id": "4b18291ef964a5200bce23e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Shipping, Freight, and Material Transportation Services"
+  },
+  {
+    "venue": "Flywheel Coffee",
+    "id": "4f934157e4b0ab5f09ebb8fc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Kezar Stadium",
+    "id": "49cb37b5f964a52000591fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Track Stadiums"
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Vive La Tarte",
+    "id": "5c4c85f14f0e58002cd2bdc6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "The Refuge",
+    "id": "60e3666b54c46f6804b89922",
+    "city": "San Mateo",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Gastropubs"
+  },
+  {
+    "venue": "Internet Archive",
+    "id": "4add18c8f964a520066421e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Libraries"
+  },
+  {
+    "venue": "Gray Area Art & Technology Theater",
+    "id": "535312a1498e917205ca7ee0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Performing Arts Venues"
+  },
+  {
+    "venue": "Indian Spices & Groceries",
+    "id": "5d244cbf8367cf00239a09b9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Organic Groceries"
+  },
+  {
+    "venue": "Aditi Indian Cuisine",
+    "id": "5d4cee1e1ffb840008a0085d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Indian Restaurants"
+  },
+  {
+    "venue": "Mission Montessori",
+    "id": "5da0abe01ebd700008209749",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Education"
+  },
+  {
+    "venue": "Costco",
+    "id": "43945018f964a5207f2b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Warehouse or Wholesale Stores"
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Cafés"
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
+    "id": "4ae74a94f964a52019aa21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Libraries"
+  },
+  {
+    "venue": "Namaste Plaza Supermarket",
+    "id": "4a9ad9e2f964a520273320e3",
+    "city": "Belmont",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Stable Cafe",
+    "id": "49b1a93df964a520d9521fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Studio Montessori",
+    "id": "5d01b4403c858d002c2e1b52",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Preschools"
+  },
+  {
+    "venue": "Mercury Cafe",
+    "id": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Sports Basement",
+    "id": "4a09ef9af964a52070741fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 1,
+    "category": "Sporting Goods Retail"
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "5d39f26656b1210008c744b7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Mexican Restaurants"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Red Mango",
+    "id": "57c5f25c498ee41928923faa",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Snack Places"
+  },
+  {
+    "venue": "Dallas Fort Worth International Airport (DFW)",
+    "id": "44d9ff60f964a5208b361fe3",
+    "city": "Grapevine",
+    "state": "TX",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Burger King",
+    "id": "64e0f4db3dccbe7c0038cb87",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Fast Food Restaurants"
+  },
+  {
+    "venue": "Birmingham-Shuttlesworth International Airport (BHM)",
+    "id": "4b39f2a2f964a520b85f25e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "O Sushi",
+    "id": "4d1cddf64ff98cfad3a8bf3e",
+    "city": "Hoover",
+    "state": "AL",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Sushi Restaurants"
+  },
+  {
+    "venue": "Cala Coffee",
+    "id": "652ae9e10fc4244757ea093c",
+    "city": "Vestavia Hills",
+    "state": "AL",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Birmingham-Shuttlesworth International Airport (BHM)",
+    "id": "4b39f2a2f964a520b85f25e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Charlotte Douglas International Airport (CLT)",
+    "id": "4a55c1f7f964a52046b41fe3",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Charlotte Douglas International Airport (CLT)",
+    "id": "4a55c1f7f964a52046b41fe3",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Bun Mee",
+    "id": "5d3383732010d6000872ec96",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Asian Restaurants"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "International Airports"
+  },
+  {
+    "venue": "SFO Airtrain Station - Long Term Parking",
+    "id": "6106a6beb29040498c015a81",
+    "city": "South San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Airport Tram Stations"
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "JHW Locksmith",
+    "id": "4ae1fc59f964a520718921e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Locksmiths"
+  },
+  {
+    "venue": "Breadbelly",
+    "id": "5b66055a037be1002cbfab25",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Breadbelly",
+    "id": "5b66055a037be1002cbfab25",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Fort Mason Center for Arts & Culture",
+    "id": "566dd7df498e691250e86861",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Art Galleries"
+  },
+  {
+    "venue": "New Eritrea Restaurant & Bar",
+    "id": "443fddaff964a52039321fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Ethiopian Restaurants"
+  },
+  {
+    "venue": "Tartine Bakery",
+    "id": "42814b00f964a52002221fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
+    "id": "4ae74a94f964a52019aa21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Libraries"
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "pasta supply co",
+    "id": "6421002f7872b24c5b8e7c7b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Italian Restaurants"
+  },
+  {
+    "venue": "TANTRUM",
+    "id": "57095833cd100e461767c68c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Toy Stores"
+  },
+  {
+    "venue": "Clement Street Farmers Market",
+    "id": "51c726f9498e3f124bf7c42e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Farmers Markets"
+  },
+  {
+    "venue": "Foggy Notion",
+    "id": "4ee16fde490152e4bc456621",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Arts and Crafts Stores"
+  },
+  {
+    "venue": "Twin Peaks Summit",
+    "id": "4c29567f9fb5d13aa2139b57",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Hills"
+  },
+  {
+    "venue": "Whole Foods Market",
+    "id": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Breadbelly",
+    "id": "5b66055a037be1002cbfab25",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
+    "id": "4ae74a94f964a52019aa21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Libraries"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Souvla",
+    "id": "5748e1f0498e1c0c6d214098",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Souvlaki Shops"
+  },
+  {
+    "venue": "Rare Device",
+    "id": "4f62a163e4b08b476db9854e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Gift Stores"
+  },
+  {
+    "venue": "Mixt",
+    "id": "59bc137d112c6c50700a6dcd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Salad Restaurants"
+  },
+  {
+    "venue": "Fort Mason Community Garden",
+    "id": "4b6ded11f964a5205d9c2ce3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Gardens"
+  },
+  {
+    "venue": "Flax Art & Design",
+    "id": "563e5133cd10e4161e9ec69e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Arts and Crafts Stores"
+  },
+  {
+    "venue": "Rapha Cycle Club",
+    "id": "4dbdfe0dcda109aa6cc0f05a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bicycle Stores"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 0,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Gus’s Haight Street Market",
+    "id": "458ff7cbf964a52021401fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Supermarkets"
+  },
+  {
+    "venue": "Magnolia Gastropub & Brewery",
+    "id": "3fd66200f964a52066ed1ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Gastropubs"
+  },
+  {
+    "venue": "Hilda and Jesse",
+    "id": "6180a9f3461b1e7f7febddf5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Breakfast Spots"
+  },
+  {
+    "venue": "Hole in the Wall Coffee",
+    "id": "516aeabee4b0f340f8ea05de",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "il Casaro Pizzeria & Mozzarella Bar",
+    "id": "596aaec4c0af5755e55271df",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Pizzerias"
+  },
+  {
+    "venue": "Mangrove Thai Kitchen",
+    "id": "5b402de3835c9a002c478c7c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Thai Restaurants"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Yh Beijing",
+    "id": "5dc38b332e354200083192a3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Chinese Restaurants"
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Burrito Restaurants"
+  },
+  {
+    "venue": "Sidewalk Juice",
+    "id": "5f49c1f434751e12b21e749d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Juice Bars"
+  },
+  {
+    "venue": "The UPS Store",
+    "id": "4b9c2efff964a520815236e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Shipping, Freight, and Material Transportation Services"
+  },
+  {
+    "venue": "The Animal House",
+    "id": "4a6247e3f964a520a2c31fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Pet Supplies Stores"
+  },
+  {
+    "venue": "AP’s Cafe",
+    "id": "5d2a26093f9ff700232e131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Vive La Tarte",
+    "id": "5c4c85f14f0e58002cd2bdc6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "US Post Office",
+    "id": "4afb9249f964a520a91e22e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Post Offices"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Gamescape",
+    "id": "408c5100f964a520caf21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Toy Stores"
+  },
+  {
+    "venue": "Beit Rima",
+    "id": "5c48ef89a6ec98002c7d63cd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Middle Eastern Restaurants"
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
+    "id": "4ae74a94f964a52019aa21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Libraries"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Bi-Rite Market",
+    "id": "513924afe4b066811795768e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Markets"
+  },
+  {
+    "venue": "Panhandle Playground",
+    "id": "5e23510604a74d00088ada9a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Playgrounds"
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "49daea87f964a520be5e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Burrito Restaurants"
+  },
+  {
+    "venue": "Dynamo Donut & Coffee",
+    "id": "49ccf971f964a520a6591fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Donut Shops"
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "id": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Perilla",
+    "id": "55c6bd76498e21968eb76765",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Vietnamese Restaurants"
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Super Duper Burgers",
+    "id": "4bc38e68abf49521beedc393",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Burger Joints"
+  },
+  {
+    "venue": "Hot Cookie",
+    "id": "43efd1ecf964a520712f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Señor Sisig Ferry Building",
+    "id": "62ec78b575715b134e875e49",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Filipino Restaurants"
+  },
+  {
+    "venue": "Woods Lowside",
+    "id": "5ee1ce01679a2e0e2850e4da",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Beer Bars"
+  },
+  {
+    "venue": "The Faight",
+    "id": "6456c140c5b0ed443a293cea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Art Studios"
+  },
+  {
+    "venue": "Her Urban Herbs",
+    "id": "609717d7b07fb867709eeeb2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Flower Stores"
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 11,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "High Horse",
+    "id": "607b5c03866a3f2f9003efa4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "New American Restaurants"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "US Post Office",
+    "id": "49f10dfaf964a52084691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Post Offices"
+  },
+  {
+    "venue": "Azure Dental",
+    "id": "58afde3880e1af1b2c25237c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Dentists"
+  },
+  {
+    "venue": "Mandalay",
+    "id": "3fd66200f964a520feec1ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Burmese Restaurants"
+  },
+  {
+    "venue": "Grand View Park",
+    "id": "49b1466cf964a520d3521fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Parks"
+  },
+  {
+    "venue": "Moraga Steps",
+    "id": "5f0b7f1cde8d001b7ed8d354",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Parks"
+  },
+  {
+    "venue": "Hidden Garden Mosaic Steps",
+    "id": "52a38acd11d22e4bcf139e4a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Public Art"
+  },
+  {
+    "venue": "Day Moon",
+    "id": "63fbb4d4a974656fd7d77ddd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Stanford University",
+    "id": "4a983497f964a520f02a20e3",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Universities"
+  },
+  {
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Safeway",
+    "id": "44610f81f964a52010331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Baia",
+    "id": "5f12638b861e253754a51b63",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Vegan and Vegetarian Restaurants"
+  },
+  {
+    "venue": "Her Urban Herbs",
+    "id": "609717d7b07fb867709eeeb2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Flower Stores"
+  },
+  {
+    "venue": "Worknesh Ethiopia",
+    "id": "6104191f71612f0fe7484202",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Rare Device",
+    "id": "4f62a163e4b08b476db9854e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Gift Stores"
+  },
+  {
+    "venue": "Arsicault Bakery",
+    "id": "55203ab9498eb807ad0e6da5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Office Depot",
+    "id": "5aa2a760f00a705bbd53f9dd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Office Supply Stores"
+  },
+  {
+    "venue": "Paula's Cafe",
+    "id": "5dd21f2c5912f200086b3fec",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Restaurants"
+  },
+  {
+    "venue": "Thorough Bread and Pastry",
+    "id": "49f13784f964a5209f691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Pacific Pediatrics",
+    "id": "4be06221652b0f4760417211",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Doctor's Offices"
+  },
+  {
+    "venue": "Rainbow Grocery Cooperative",
+    "id": "4827b8b1f964a520bb4f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Rose Indian Cuisine",
+    "id": "5dca33adc585ac00088b13e4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Indian Restaurants"
+  },
+  {
+    "venue": "de Young Café",
+    "id": "4cdd9a967e2e236aa7eb791b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Hamon Education Tower Observation Deck",
+    "id": "4cdd9ded7e2e236a87007a1b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Scenic Lookouts"
+  },
+  {
+    "venue": "Wildseed",
+    "id": "5d77246152f4a00007528cb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Vegan and Vegetarian Restaurants"
+  },
+  {
+    "venue": "Fort Point National Historic Site",
+    "id": "46dabca2f964a5207c4a1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Historic and Protected Sites"
+  },
+  {
+    "venue": "Little Star Pizza",
+    "id": "4537f9daf964a520c73b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Pizzerias"
+  },
+  {
+    "venue": "Beit Rima",
+    "id": "5c48ef89a6ec98002c7d63cd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Middle Eastern Restaurants"
+  },
+  {
+    "venue": "Shell",
+    "id": "4bd48c1e4e32d13a6f58bf80",
+    "city": "South San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Fuel Stations"
+  },
+  {
+    "venue": "Mamahuhu",
+    "id": "5e124862b5b5ad00084cb2c6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Chinese Restaurants"
+  },
+  {
+    "venue": "Thorough Bread and Pastry",
+    "id": "49f13784f964a5209f691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "New India Bazaar",
+    "id": "4b9d5f17f964a52098a736e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Hinodeya Ramen Bar",
+    "id": "583638538d8e9962925c86fe",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Ramen Restaurants"
+  },
+  {
+    "venue": "Daiso Japan",
+    "id": "4a7cdbaff964a520e1ed1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Discount Stores"
+  },
+  {
+    "venue": "Paper Tree",
+    "id": "4bedca332c082d7f52802f42",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Office Supply Stores"
+  },
+  {
+    "venue": "SF76",
+    "id": "61c514a7643b1d1999f889b9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Gift Stores"
+  },
+  {
+    "venue": "Bi-Rite Market",
+    "id": "47f64f56f964a520a94e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Tartine Bakery",
+    "id": "42814b00f964a52002221fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "il Casaro Pizzeria & Mozzarella Bar",
+    "id": "596aaec4c0af5755e55271df",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Pizzerias"
+  },
+  {
+    "venue": "Airbnb HQ",
+    "id": "51c7e853abd8cf897278ef48",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Tech Startups"
+  },
+  {
+    "venue": "Spro Coffeelab",
+    "id": "60e9dcad148551533446302f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Comix Experience",
+    "id": "49fd4ed0f964a5201a6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Comic Book Stores"
+  },
+  {
+    "venue": "Gamescape",
+    "id": "408c5100f964a520caf21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Toy Stores"
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "The Animal House",
+    "id": "4a6247e3f964a520a2c31fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Pet Supplies Stores"
+  },
+  {
+    "venue": "Biergarten",
+    "id": "4dd7e48fd22d38ef42f35bd8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 10,
+    "category": "Beer Gardens"
+  },
+  {
+    "venue": "Paris Baguette",
+    "id": "60fd01fe0c80687c034773c5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Jeong’s K-Food: Danny’s Kitchen",
+    "id": "61be7e5bc6a0c349ad094d14",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Korean Restaurants"
+  },
+  {
+    "venue": "Handy Handyman Hardware",
+    "id": "4a887b0af964a5209b0620e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Hardware Stores"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "56758f43498e50c50235bc4e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Target",
+    "id": "5964f774fdb9a71e1085d5b7",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Big Box Stores"
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "id": "43d3901ef964a5201f2e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Earthbody",
+    "id": "4bd0f496462cb7132686d907",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Spas"
+  },
+  {
+    "venue": "Office of Vital Records",
+    "id": "4b8be516f964a52009b132e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Government Buildings"
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Walgreens",
+    "id": "49db7bb2f964a520d45e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Pharmacies"
+  },
+  {
+    "venue": "Earth Tone Cafe",
+    "id": "635d864c7ece0a56874783a0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Tartine",
+    "id": "5d2b9404c8358500240b9ff1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "il Casaro Pizzeria & Mozzarella Bar",
+    "id": "596aaec4c0af5755e55271df",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Pizzerias"
+  },
+  {
+    "venue": "Dynamo Donut & Coffee",
+    "id": "49ccf971f964a520a6591fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Donut Shops"
+  },
+  {
+    "venue": "Indian Oven",
+    "id": "42893400f964a5204d231fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Indian Restaurants"
+  },
+  {
+    "venue": "Jane the Bakery",
+    "id": "584b00068f0be42a4dbf33ed",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Cliff's Variety",
+    "id": "49f78dcff964a520b46c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Hardware Stores"
+  },
+  {
+    "venue": "Mendels",
+    "id": "45e5b54af964a52044431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Arts and Crafts Stores"
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Bi-Rite Market",
+    "id": "513924afe4b066811795768e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Markets"
+  },
+  {
+    "venue": "Bandit",
+    "id": "650f1fec8460b927dda50608",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Breakfast Spots"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Starbucks",
+    "id": "5d32450e211fba0008a93f05",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Himalayan Cuisine Sf",
+    "id": "63925d402504ea4f926d46c3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Himalayan Restaurants"
+  },
+  {
+    "venue": "Starbucks",
+    "id": "5d32450e211fba0008a93f05",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "CPMC Birth Center, Van Ness Campus",
+    "id": "5b6b179d531593002c8a3485",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Hospitals"
+  },
+  {
+    "venue": "B. Patisserie",
+    "id": "5105ed2fe4b02d11de1bae8d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "b. on the go",
+    "id": "55765667498e2a6bb9f00cb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "California Pacific Medical Center Van Ness Campus",
+    "id": "5ab2c6598b98fd7a52d9883e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Hospitals"
+  },
+  {
+    "venue": "Slice House by Tony Gemignani",
+    "id": "5849c58a6ad73d598e7f4174",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Pizzerias"
+  },
+  {
+    "venue": "Hyperoptics",
+    "id": "4a52ab67f964a520e2b11fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Miscellaneous Stores"
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "id": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Purple Rice",
+    "id": "5d6697e5a9fbd900087136b1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Korean Restaurants"
+  },
+  {
+    "venue": "Target",
+    "id": "5237327711d2cc03ee3e73b5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Big Box Stores"
+  },
+  {
+    "venue": "Chipotle Mexican Grill",
+    "id": "55c22c50498ed3a8d492dceb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Mexican Restaurants"
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "Timeless Coffee",
+    "id": "59cd710bdb1d811e2258f1dc",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Westbrae Nursery",
+    "id": "4b8584edf964a5200f6331e3",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Garden Centers"
+  },
+  {
+    "venue": "Otra",
+    "id": "60934c1bc9549334f8c8c8c5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Mexican Restaurants"
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "Peak Design",
+    "id": "59dff31226659b77af4ffb7a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Camera Stores"
+  },
+  {
+    "venue": "Nourish Cafe",
+    "id": "58d2eede102f47386fe2e7e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Vegan and Vegetarian Restaurants"
+  },
+  {
+    "venue": "Twin Peaks Summit",
+    "id": "4c29567f9fb5d13aa2139b57",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Hills"
+  },
+  {
+    "venue": "Rare Device",
+    "id": "4f62a163e4b08b476db9854e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Gift Stores"
+  },
+  {
+    "venue": "Azure Dental",
+    "id": "58afde3880e1af1b2c25237c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Dentists"
+  },
+  {
+    "venue": "California Pacific Medical Center Van Ness Campus",
+    "id": "5ab2c6598b98fd7a52d9883e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Hospitals"
+  },
+  {
+    "venue": "Divisadero Farmers' Market",
+    "id": "4a92369ef964a520fa1c20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 9,
+    "category": "Farmers Markets"
+  },
+  {
+    "venue": "Zareen's",
+    "id": "57f7eb9f498edf8f0808bf90",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Indian Restaurants"
+  },
+  {
+    "venue": "Stoa",
+    "id": "636807b63608ba6a22d2e6d0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Cocktail Bars"
+  },
+  {
+    "venue": "Sutter Health Medical Building",
+    "id": "4ba7d328f964a520a9b639e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Medical Centers"
+  },
+  {
+    "venue": "Starbucks",
+    "id": "5d32450e211fba0008a93f05",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Kantine",
+    "id": "5b2134a81acf11002c0f7903",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Scandinavian Restaurants"
+  },
+  {
+    "venue": "Shake Shack",
+    "id": "5de831b331b8af00082fd453",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Burger Joints"
+  },
+  {
+    "venue": "The Container Store",
+    "id": "49f4e63ef964a5206b6b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Sloat Garden Center",
+    "id": "4a7ddac2f964a520e9ef1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Garden Centers"
+  },
+  {
+    "venue": "Loquat",
+    "id": "635578d60a512e6cd2c6bf38",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Chevron",
+    "id": "63e0797d33df527db0b307e3",
+    "city": "Lodi",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Fuel Stations"
+  },
+  {
+    "venue": "Ham's Station",
+    "id": "4f32957919836c91c7e60897",
+    "city": "Pioneer",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Restaurants"
+  },
+  {
+    "venue": "The Hideout",
+    "id": "51e575d2498e7d226a4b6a88",
+    "state": "California",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Resorts"
+  },
+  {
+    "venue": "Ham's Station",
+    "id": "4f32957919836c91c7e60897",
+    "city": "Pioneer",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Restaurants"
+  },
+  {
+    "venue": "Isleton Coffee Company",
+    "id": "650f53c60280de2f992ef188",
+    "city": "Isleton",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Sports Basement",
+    "id": "4a09ef9af964a52070741fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Sporting Goods Retail"
+  },
+  {
+    "venue": "Baklavastory",
+    "id": "632de7fa2f5dc66afe39b7ed",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Dessert Shops"
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "id": "5d98ecd089c988000722acd9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Four Barrel Coffee",
+    "id": "480d1a5ef964a520284f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Taqueria El Farolito",
+    "id": "44ff5a91f964a520a5381fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Mexican Restaurants"
+  },
+  {
+    "venue": "Breck's",
+    "id": "5c9992c433e118002c82645c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Wine Stores"
+  },
+  {
+    "venue": "Arsicault Bakery",
+    "id": "55203ab9498eb807ad0e6da5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Arsicault Bakery",
+    "id": "55203ab9498eb807ad0e6da5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Golden Gate Bridge Welcome Center",
+    "id": "4bf463c5e5eba5934f9b1f90",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Tourist Information and Services"
+  },
+  {
+    "venue": "Garden Creamery",
+    "id": "589d125b005a0f47b970b12b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "Natural Resources",
+    "id": "5e13eed7316fe200080414f1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Baby Stores"
+  },
+  {
+    "venue": "House of Pancakes",
+    "id": "512831dae4b058a839d3cdac",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Chinese Restaurants"
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "id": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Parks"
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "Blu Dot",
+    "id": "61f6fe7fc82c7360d1f2cf36",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Yerba Buena Gardens",
+    "id": "49c94f32f964a52054581fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Parks"
+  },
+  {
+    "venue": "Capital One 360 Café",
+    "id": "4d87c47c0c422d436a43ee30",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Castro Farmers' Market",
+    "id": "49f8deb6f964a520306d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Farmers Markets"
+  },
+  {
+    "venue": "Iza Ramen",
+    "id": "5632c07e498eaa6c566acefc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Ramen Restaurants"
+  },
+  {
+    "venue": "Mr. Charlie’s",
+    "id": "63c1ce8df0eadf30529b5a5a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Burger Joints"
+  },
+  {
+    "venue": "Capital One 360 Café",
+    "id": "4d87c47c0c422d436a43ee30",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Cafés"
+  },
+  {
+    "venue": "CoffeeShop",
+    "id": "5029476ce4b056f7678d1e02",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Wood Thumb",
+    "id": "62e87794f6cee957c88acc4b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Arts and Crafts Stores"
+  },
+  {
+    "venue": "Costco Wholesale",
+    "id": "4838dba9f964a520fd4f1fe3",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Warehouse or Wholesale Stores"
+  },
+  {
+    "venue": "Sam's Chowder House",
+    "id": "4a9ac62df964a5209c3220e3",
+    "city": "Half Moon Bay",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Seafood Restaurants"
+  },
+  {
+    "venue": "Lemos Farm",
+    "id": "4a653739f964a52076c71fe3",
+    "city": "Half Moon Bay",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Farms"
+  },
+  {
+    "venue": "The Container Store",
+    "id": "49f4e63ef964a5206b6b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Butter Love Bakeshop",
+    "id": "569d3be5498eb5f352825fd1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "The Laundromat SF",
+    "id": "63656ca45598da06d058388f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Himalayan Cuisine Sf",
+    "id": "63925d402504ea4f926d46c3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Himalayan Restaurants"
+  },
+  {
+    "venue": "Jai Ho Indian Grocery",
+    "id": "4b461bdbf964a520aa1626e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Sikdang Woori",
+    "id": "64d297841144cd676e072069",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Korean Restaurants"
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "id": "4dd94350e4cd37c893d8146f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Mercury Cafe",
+    "id": "49eb7f48f964a520e5661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Salt & Straw",
+    "id": "58ec10b1fbe8ff51800668de",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "Pinsa Rossa",
+    "id": "635ef0b2fe7dab34dac36c6c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Italian Restaurants"
+  },
+  {
+    "venue": "Design Within Reach",
+    "id": "52ab389311d29783154b9dea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Design Within Reach",
+    "id": "52ab389311d29783154b9dea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "EQ3 San Francisco",
+    "id": "538a1eaa498ef492b7c4c9f8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "House of Pancakes",
+    "id": "512831dae4b058a839d3cdac",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Chinese Restaurants"
+  },
+  {
+    "venue": "Capital One 360 Café",
+    "id": "4d87c47c0c422d436a43ee30",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 8,
+    "category": "Cafés"
+  },
+  {
+    "venue": "The Coffee Movement",
+    "id": "63767506f0541366c5635ebb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Sutter Health Medical Building",
+    "id": "4ba7d328f964a520a9b639e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Medical Centers"
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Duboce Park Cafe",
+    "id": "45377562f964a520be3b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Highwire Coffee Roasters",
+    "id": "463cff1df964a5203b461fe3",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Ain’t Normal Cafe",
+    "id": "5f94487156b6a04d7e975eda",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Nido’s Backyard",
+    "id": "5d4a3477f583f0000832f188",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Mexican Restaurants"
+  },
+  {
+    "venue": "Joodooboo",
+    "id": "61e9efa912e6797b66fce1bb",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Korean Restaurants"
+  },
+  {
+    "venue": "dao ruang thai massage",
+    "id": "557ce488498ea1484f2a6f19",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Massage Clinics"
+  },
+  {
+    "venue": "Timeless Coffee",
+    "id": "50b79653e41247a52b753c67",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Millennium",
+    "id": "453a2ab0f964a520e63b1fe3",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Vegan and Vegetarian Restaurants"
+  },
+  {
+    "venue": "Coupa Café at Y2E2",
+    "id": "4a568089f964a5204ab51fe3",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Stanford University Bookstore",
+    "id": "4b16c263f964a5200dbd23e3",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "College Bookstores"
+  },
+  {
+    "venue": "Target",
+    "id": "49e3a16af964a520a4621fe3",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Big Box Stores"
+  },
+  {
+    "venue": "Izzy's Brooklyn Bagels",
+    "id": "49bbe9c7f964a520f9531fe3",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Zareen's",
+    "id": "57f7eb9f498edf8f0808bf90",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Indian Restaurants"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Corner Bakery Cafe",
+    "id": "5253750e498eadd8fc65af52",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Ike's Sandwiches",
+    "id": "5c97ef9add70c5002c067c18",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Sandwich Spots"
+  },
+  {
+    "venue": "Matcha Cafe Maiko",
+    "id": "5d33677a8b4b410008ffc8b6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Dessert Shops"
+  },
+  {
+    "venue": "Sports Basement",
+    "id": "60f0b19ff29b796e2af6e03e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Sporting Goods Retail"
+  },
+  {
+    "venue": "UNIQLO",
+    "id": "526179bf498eb25d6da4a00f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Clothing Stores"
+  },
+  {
+    "venue": "Rooster & Rice",
+    "id": "5f5191cb88944a58b574419d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Thai Restaurants"
+  },
+  {
+    "venue": "Fort Funston",
+    "id": "45e981baf964a5207f431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Parks"
+  },
+  {
+    "venue": "Andytown Roastery, Training Lab & Coffee Supply",
+    "id": "58b76a25fc5a5f1dcd7b248d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "wonderful",
+    "id": "5351cf33498ee6e6ce02f17a",
+    "city": "Millbrae",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Hunan Restaurants"
+  },
+  {
+    "venue": "Arbor",
+    "id": "5f09357db86f39032b516f50",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Burger Joints"
+  },
+  {
+    "venue": "Nourish Cafe SF",
+    "id": "54ea1afc498e12af65963097",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Vegan and Vegetarian Restaurants"
+  },
+  {
+    "venue": "Whole Foods Market",
+    "id": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Trellis",
+    "id": "60d20b3410ee9714e9264f9b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coworking Spaces"
+  },
+  {
+    "venue": "Mangrove Thai Kitchen",
+    "id": "5b402de3835c9a002c478c7c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Thai Restaurants"
+  },
+  {
+    "venue": "Hawk Hill",
+    "id": "49e4bbcbf964a52022631fe3",
+    "city": "Marin Headlands",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Hills"
+  },
+  {
+    "venue": "Manna",
+    "id": "4e0a83f41495b12d82382c71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Korean Restaurants"
+  },
+  {
+    "venue": "The Home Depot",
+    "id": "4a9206e2f964a520a11c20e3",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Hardware Stores"
+  },
+  {
+    "venue": "Garden Creamery",
+    "id": "589d125b005a0f47b970b12b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "Harlan Records",
+    "id": "63327726b0a744036eab3e26",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Cocktail Bars"
+  },
+  {
+    "venue": "Roxie Cinema",
+    "id": "408aff80f964a520c3f21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Indie Movie Theaters"
+  },
+  {
+    "venue": "Emporium Arcade Bar",
+    "id": "59af3c499ba3e56fdc64fc11",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Arcades"
+  },
+  {
+    "venue": "The Page",
+    "id": "43eb859cf964a5203a2f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Dive Bars"
+  },
+  {
+    "venue": "The Faight",
+    "id": "6456c140c5b0ed443a293cea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Art Studios"
+  },
+  {
+    "venue": "Tunnel Records + Beach Goods",
+    "id": "5926282ff79faa1c65ded51c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Record Stores"
+  },
+  {
+    "venue": "Toy Boat By Jane",
+    "id": "473b4138f964a5205a4c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "Burma Superstar",
+    "id": "42cc7080f964a520e7251fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Burmese Restaurants"
+  },
+  {
+    "venue": "Van Ness Campus Medical Office Building",
+    "id": "5d28fa5ba0b7830024e8729a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Medical Centers"
+  },
+  {
+    "venue": "Walgreens",
+    "id": "4b4ced13f964a52082c426e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Pharmacies"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Seattle-Tacoma International Airport (SEA)",
+    "id": "45f555cef964a5200e441fe3",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "International Airports"
+  },
+  {
+    "venue": "SeaTac Rental Car Facility",
+    "id": "4f3d14cae4b075aab234a240",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Rental Car Locations"
+  },
+  {
+    "venue": "Rio Bravo",
+    "id": "562a873e498e2cb9d533c37f",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Mexican Restaurants"
+  },
+  {
+    "venue": "Unphogettable",
+    "id": "5895429644587f122a8d9489",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Vietnamese Restaurants"
+  },
+  {
+    "venue": "Pressed On Main",
+    "id": "644d6e118e5bd2381d504b8c",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Juice Bars"
+  },
+  {
+    "venue": "Arête",
+    "id": "621a781aa9596e4f9a1a3f6c",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Friends & Co Ice Cream",
+    "id": "647150bf1874f03d322649ce",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "North Bend Bar and Grill",
+    "id": "4a39d1e6f964a520bd9f1fe3",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Bars"
+  },
+  {
+    "venue": "Fox Rent A Car",
+    "id": "4d264f0dfb8e5941f16d4a54",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Rental Car Locations"
+  },
+  {
+    "venue": "Enterprise Rent-A-Car",
+    "id": "4fb57148e4b0ba724f743508",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Rental Car Locations"
+  },
+  {
+    "venue": "Seattle-Tacoma International Airport (SEA)",
+    "id": "45f555cef964a5200e441fe3",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Dogpatch Bakehouse & Caffè",
+    "id": "569972c7498e23153b7319fa",
+    "city": "South San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Cafés"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Hahdough",
+    "id": "5e5aefe2866d3b00072297d3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Corona Heights Park",
+    "id": "4bdcdb293904a5936d11509e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Parks"
+  },
+  {
+    "venue": "Apple Union Square",
+    "id": "42cc7080f964a520e9251fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Electronics Stores"
+  },
+  {
+    "venue": "Señor Sisig Ferry Building",
+    "id": "62ec78b575715b134e875e49",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Filipino Restaurants"
+  },
+  {
+    "venue": "Oakland International Airport (OAK)",
+    "id": "4493522af964a5207c341fe3",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Fairfax Coffee Roastery",
+    "id": "4a62329cf964a52059c31fe3",
+    "city": "Fairfax",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Sprout",
+    "id": "550e16f5498e0d328ddbbe82",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Baby Stores"
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "id": "528ef16c498ee4dc21194848",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Johnny Doughnuts",
+    "id": "63584478bf48b239ad181b55",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Donut Shops"
+  },
+  {
+    "venue": "Post Script",
+    "id": "5dc6fbb1846bda00083cd3a8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Stationery Stores"
+  },
+  {
+    "venue": "XFINITY Store by Comcast",
+    "id": "570db246498e845aebd6cd81",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Business Services"
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Spro Coffeelab",
+    "id": "60e9dcad148551533446302f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Iza Ramen",
+    "id": "5632c07e498eaa6c566acefc",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 7,
+    "category": "Ramen Restaurants"
+  },
+  {
+    "venue": "Kate's Kitchen",
+    "id": "44e36c53f964a5203e371fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Breakfast Spots"
+  },
+  {
+    "venue": "Bangkok House Thai Noodles",
+    "id": "60ebac7ce6479c61226069aa",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Thai Restaurants"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Señor Sisig",
+    "id": "5dc48d5d66c37b0008250bf8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Filipino Restaurants"
+  },
+  {
+    "venue": "Alamo Drafthouse Cinema",
+    "id": "5230ca828bbd7e5275fbf5de",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Movie Theaters"
+  },
+  {
+    "venue": "Copra",
+    "id": "63f2f0e7d8d011760af70ed5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Indian Restaurants"
+  },
+  {
+    "venue": "XFINITY Store by Comcast",
+    "id": "570db246498e845aebd6cd81",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Business Services"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Costco",
+    "id": "43945018f964a5207f2b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Warehouse or Wholesale Stores"
+  },
+  {
+    "venue": "IKEA",
+    "id": "4a280b4ff964a520ec941fe3",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Los Altos Golf & Country Club",
+    "id": "4af5be0cf964a52030fc21e3",
+    "city": "Los Altos",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Golf Courses"
+  },
+  {
+    "venue": "Ritual Coffee Roasters",
+    "id": "56db3c87498ef1500ea33108",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Fort Mason Center for Arts & Culture",
+    "id": "566dd7df498e691250e86861",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Art Galleries"
+  },
+  {
+    "venue": "Birdsong",
+    "id": "5ae925e7c0f163002cc57349",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Restaurants"
+  },
+  {
+    "venue": "Fort Point Valencia",
+    "id": "5d97e56255833e00081bbc8a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Beer Bars"
+  },
+  {
+    "venue": "Souvla",
+    "id": "533cc33f498e604ebad95d8c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Souvlaki Shops"
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Gym and Studios"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "International Airports"
+  },
+  {
+    "venue": "B.Good",
+    "id": "5e580aeb9a3b050008094147",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Salad Restaurants"
+  },
+  {
+    "venue": "Boston Logan International Airport (BOS)",
+    "id": "452113b6f964a520bc3a1fe3",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "International Airports"
+  },
+  {
+    "venue": "North Londonderry Transportation Center",
+    "id": "4ba97fbbf964a520ca2a3ae3",
+    "city": "Londonderry",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Bus Stations"
+  },
+  {
+    "venue": "Hometown Coffee Roasters",
+    "id": "5feb637014d53c1e120352ce",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Roasters"
+  },
+  {
+    "venue": "Thai Food Connection",
+    "id": "60ba703bd39e4a5e32934e38",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Thai Restaurants"
+  },
+  {
+    "venue": "Livingston Park",
+    "id": "4ba3c13ef964a520ac5b38e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Parks"
+  },
+  {
+    "venue": "Annapurna Curry & Sekuwa House",
+    "id": "6025807dc6dae50fbe42fa85",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Indian Restaurants"
+  },
+  {
+    "venue": "The Kitchen On River Rd",
+    "id": "500ef13ae4b0302f937d812b",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Currier Museum of Art",
+    "id": "4b117edef964a520cf7d23e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Art Museums"
+  },
+  {
+    "venue": "Fortitude Health and Training",
+    "id": "5071aa42e4b0f11f52ccd5e0",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Gyms"
+  },
+  {
+    "venue": "Hannaford Supermarket",
+    "id": "4af603edf964a520380022e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Supermarkets"
+  },
+  {
+    "venue": "Pressed Cafe",
+    "id": "6227a42bef063d2f3ed2a47b",
+    "city": "Bedford",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Arms Park",
+    "id": "4bd0799e77b29c7406c98a82",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Parks"
+  },
+  {
+    "venue": "Stark Park",
+    "id": "4bb76df92ea1952114e8ac2f",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Parks"
+  },
+  {
+    "venue": "Yankee Lanes Manchester",
+    "id": "631fc1c4517dc408c2411faa",
+    "city": "Manchester",
+    "state": "3103",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Bowling Alleys"
+  },
+  {
+    "venue": "Restoration Cafe",
+    "id": "58e2996f5e789619b50caa50",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Willy's Mexicana Grill",
+    "id": "51490b36e4b04b3b28db0a14",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Burrito Restaurants"
+  },
+  {
+    "venue": "Hartsfield-Jackson Atlanta International Airport (ATL)",
+    "id": "4a8a103af964a520c90920e3",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Glory Bound Gyro Company",
+    "id": "5e558e63b03c4000084d5676",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Greek Restaurants"
+  },
+  {
+    "venue": "Amelia Gayle Gorgas Library",
+    "id": "4b4404c7f964a52046f025e3",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "College Libraries"
+  },
+  {
+    "venue": "University of Alabama",
+    "id": "4b4b2eeef964a520ec9326e3",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Universities"
+  },
+  {
+    "venue": "Ferguson Center",
+    "id": "4b4405b6f964a52050f025e3",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Student Centers"
+  },
+  {
+    "venue": "Verner Elementary",
+    "id": "4cbd9a0043ec6dcbc8d8b731",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Elementary Schools"
+  },
+  {
+    "venue": "Bandit Pâtisserie",
+    "id": "5dbcd176d8fcdc0008b49a7b",
+    "city": "Homewood",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Doodle's",
+    "id": "5556a2b7498ee6526b4d87e3",
+    "city": "Vestavia Hills",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Ice Cream Parlors"
+  },
+  {
+    "venue": "Alabama Veterans Memorial Park",
+    "id": "4c8d41d75e38b1f77db738f9",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Parks"
+  },
+  {
+    "venue": "Mountain Brook High School",
+    "id": "4b7c8b22f964a520fe992fe3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "High Schools"
+  },
+  {
+    "venue": "Innovation Depot",
+    "id": "4acd1768f964a520d1ca20e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Offices"
+  },
+  {
+    "venue": "Surin West",
+    "id": "4aecd9cff964a520c5cb21e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Thai Restaurants"
+  },
+  {
+    "venue": "Vulcan Park and Museum",
+    "id": "4b86310ff964a5203a8231e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Scenic Lookouts"
+  },
+  {
+    "venue": "June Coffee",
+    "id": "629b8b5d3fac197a2d133d05",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Last Call Baking Co.",
+    "id": "637636d4449d26332f72e472",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Hartsfield-Jackson Atlanta International Airport (ATL)",
+    "id": "4a8a103af964a520c90920e3",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "id": "620400e39f8e83233d2f7a09",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Cafés"
+  },
+  {
+    "venue": "San Francisco International Airport (SFO)",
+    "id": "41059b00f964a520850b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "International Airports"
+  },
+  {
+    "venue": "Minamoto Kitchoan",
+    "id": "4a9845bcf964a520462b20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Wagashi Places"
+  },
+  {
+    "venue": "Mountain Lake Playground",
+    "id": "596bd5da178a2a45a76551ea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Playgrounds"
+  },
+  {
+    "venue": "Cafe Scooteria",
+    "id": "4ece9049722e01c58039ad58",
+    "city": "Sonoma",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Glen Ellen Star",
+    "id": "4fbdd0dee4b0fb79ac536ec4",
+    "city": "Glen Ellen",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "American Restaurants"
+  },
+  {
+    "venue": "Arion Press",
+    "id": "4ada9069f964a520872321e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Art Galleries"
+  },
+  {
+    "venue": "Nourish Cafe SF",
+    "id": "54ea1afc498e12af65963097",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Vegan and Vegetarian Restaurants"
+  },
+  {
+    "venue": "fifty/fifty",
+    "id": "513c3282e412048dd75b19bb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Hawk Hill",
+    "id": "49e4bbcbf964a52022631fe3",
+    "city": "Marin Headlands",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Hills"
+  },
+  {
+    "venue": "Souvla",
+    "id": "5748e1f0498e1c0c6d214098",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Souvlaki Shops"
+  },
+  {
+    "venue": "The Mill",
+    "id": "4feddd79d86cd6f22dc171a9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 6,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Equator",
+    "id": "5d86924f36e5fa00086e3eee",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Tartine Bakery",
+    "id": "42814b00f964a52002221fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "id": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Wing Wings",
+    "id": "4dd8374fe4cd37c893c0483d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Wings Joints"
+  },
+  {
+    "venue": "Room & Board",
+    "id": "44fabff6f964a52078381fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "Design Within Reach",
+    "id": "52ab389311d29783154b9dea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Furniture and Home Stores"
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Black Bird Bookstore",
+    "id": "593d9dcd1c0b3415efd0b3ee",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Bookstores"
+  },
+  {
+    "venue": "Beach’n",
+    "id": "61e5a36f415bdc4971a69089",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Breakfast Spots"
+  },
+  {
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Bagel Shops"
+  },
+  {
+    "venue": "Amy’s Drive Thru",
+    "id": "5f24d53dd0fae643e114d7d2",
+    "city": "Corte Madera",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Vegan and Vegetarian Restaurants"
+  },
+  {
+    "venue": "Angel Island State Park",
+    "id": "4a6b7ec3f964a520c7ce1fe3",
+    "city": "Tiburon",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "State or Provincial Parks"
+  },
+  {
+    "venue": "Caffe Acri",
+    "id": "49faa728f964a5200a6e1fe3",
+    "city": "Tiburon",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Cafés"
+  },
+  {
+    "venue": "Fort Point",
+    "id": "569706a6498ef01aa423a6b2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Beer Bars"
+  },
+  {
+    "venue": "Señor Sisig Ferry Building",
+    "id": "62ec78b575715b134e875e49",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Filipino Restaurants"
+  },
+  {
+    "venue": "Trellis",
+    "id": "60d20b3410ee9714e9264f9b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Coworking Spaces"
+  },
+  {
+    "venue": "Tartine",
+    "id": "5d2b9404c8358500240b9ff1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Bakeries"
+  },
+  {
+    "venue": "Capitol Kia",
+    "id": "4d780181a32ca1cdebbe23db",
+    "city": "San Jose",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Car Dealerships"
+  },
+  {
+    "venue": "The Bite",
+    "id": "61200f4f2762f223dfc42061",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Mediterranean Restaurants"
+  },
+  {
+    "venue": "Trellis",
+    "id": "60d20b3410ee9714e9264f9b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Coworking Spaces"
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "id": "528ef16c498ee4dc21194848",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Golden Gate Bridge Welcome Center",
+    "id": "4bf463c5e5eba5934f9b1f90",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Tourist Information and Services"
+  },
+  {
+    "venue": "Horsefeather",
+    "id": "5705d56b498ec5d32113620c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Cocktail Bars"
+  },
+  {
+    "venue": "CVS pharmacy",
+    "id": "522ca1c78bbd354bbb663d56",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Pharmacies"
+  },
+  {
+    "venue": "Gray Area Art & Technology Theater",
+    "id": "535312a1498e917205ca7ee0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2023,
+    "month": 5,
+    "category": "Performing Arts Venues"
+  },
+  {
     "venue": "Fireclay Tile",
     "id": "52d83268498ed582c8bf64a7",
     "city": "San Francisco",
@@ -110,7 +5469,7 @@
     "category": "International Airports"
   },
   {
-    "venue": "Aéroport Fès-Saiss / مطار فاس سايس الدولي (FEZ)",
+    "venue": "Fes Sais International Airport (FEZ) (مطار فاس سايس الدولي)",
     "id": "4c446ab3f0bdd13a9680c9cc",
     "city": "Fès",
     "state": "Région de Fès-Boulemane",
@@ -172,7 +5531,7 @@
     "venue": "Tombeaux Des Merinides",
     "id": "522ddac311d203fd9c48a72c",
     "city": "Fès",
-    "state": "Région de Fès-Boulemane",
+    "state": "Fès-Meknès",
     "country": "Morocco",
     "year": 2023,
     "month": 5,
@@ -251,8 +5610,8 @@
   {
     "venue": "University of al-Qarawiyyin / جامعة القرويين",
     "id": "4ea5716fd5fb57c09e6cf0e5",
-    "city": "Fès",
-    "state": "Région de Fès-Boulemane",
+    "city": "Fes",
+    "state": "Fès-Meknès",
     "country": "Morocco",
     "year": 2023,
     "month": 5,
@@ -269,7 +5628,7 @@
     "category": "Hotels"
   },
   {
-    "venue": "Aéroport Fès-Saiss / مطار فاس سايس الدولي (FEZ)",
+    "venue": "Fes Sais International Airport (FEZ) (مطار فاس سايس الدولي)",
     "id": "4c446ab3f0bdd13a9680c9cc",
     "city": "Fès",
     "state": "Région de Fès-Boulemane",
@@ -296,7 +5655,7 @@
     "country": "Morocco",
     "year": 2023,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Marrakech Menara Airport (RAK) (مطار مراكش المنارة‎)",
@@ -306,7 +5665,7 @@
     "country": "Morocco",
     "year": 2023,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Douar Samra",
@@ -392,7 +5751,7 @@
     "country": "Morocco",
     "year": 2023,
     "month": 4,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Athens International Airport Eleftherios Venizelos (ATH) (Διεθνής Αερολιμένας Αθηνών Ελευθέριος Βενιζέλος)",
@@ -465,7 +5824,7 @@
     "category": "Lakes"
   },
   {
-    "venue": "Joshua Tree",
+    "venue": "Joshua Tree Cafe",
     "id": "5e63bd5e0b66dc00082b5feb",
     "city": "Athens",
     "state": "Attica",
@@ -1022,7 +6381,7 @@
     "country": "United States",
     "year": 2023,
     "month": 3,
-    "category": "Restaurants"
+    "category": "Burger Joints"
   },
   {
     "venue": "KQED",
@@ -1435,7 +6794,7 @@
     "category": "Dim Sum Restaurants"
   },
   {
-    "venue": "Diamond Coffee n Pastry",
+    "venue": "Diamond Coffee N Pastry",
     "id": "62180364de8556236f4e5fc1",
     "city": "San Francisco",
     "state": "CA",
@@ -1562,7 +6921,7 @@
     "country": "United States",
     "year": 2023,
     "month": 2,
-    "category": "Restaurants"
+    "category": "Burger Joints"
   },
   {
     "venue": "Sightglass Coffee",
@@ -3163,7 +8522,7 @@
   {
     "venue": "Museo Frida Kahlo",
     "id": "4bccb069b6c49c7468349491",
-    "city": "Coyoacán",
+    "city": "Mexico City",
     "state": "Mexico City",
     "country": "Mexico",
     "year": 2023,
@@ -3238,7 +8597,7 @@
     "country": "Mexico",
     "year": 2023,
     "month": 0,
-    "category": "Bars"
+    "category": "Whisky Bars"
   },
   {
     "venue": "Semilla Selecta",
@@ -3371,7 +8730,7 @@
   {
     "venue": "Anthropology Museum of México (Museo Nacional de Antropología)",
     "id": "4bedd3941059d13a02f351d8",
-    "city": "Miguel Hidalgo",
+    "city": "Mexico City",
     "state": "Mexico City",
     "country": "Mexico",
     "year": 2023,
@@ -3804,7 +9163,7 @@
   {
     "venue": "Museo de la Cultura Teotihuacana",
     "id": "4ed69c4ae300234fec5edac6",
-    "city": "San Juan Teotihuacán",
+    "city": "San Juan Teotihuacán de Arista",
     "state": "México",
     "country": "Mexico",
     "year": 2022,
@@ -3814,7 +9173,7 @@
   {
     "venue": "Pirámide del Sol",
     "id": "4bfb8fec8f32ef3bcc1e05aa",
-    "city": "Teotihuacán de Arista",
+    "city": "San Juan Teotihuacán de Arista",
     "state": "México",
     "country": "Mexico",
     "year": 2022,
@@ -4474,7 +9833,7 @@
   {
     "venue": "The Butcher's Daughter",
     "id": "56674ce0498e53681084b32b",
-    "city": "Los Angeles",
+    "city": "Venice",
     "state": "CA",
     "country": "United States",
     "year": 2022,
@@ -4529,7 +9888,7 @@
     "country": "United States",
     "year": 2022,
     "month": 11,
-    "category": "Gay Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Zinqué",
@@ -4639,7 +9998,7 @@
     "country": "United States",
     "year": 2022,
     "month": 11,
-    "category": "Arts and Entertainment"
+    "category": "Amusement Parks"
   },
   {
     "venue": "Roxie Cinema",
@@ -5499,7 +10858,7 @@
     "country": "United States",
     "year": 2022,
     "month": 9,
-    "category": "Bars"
+    "category": "Wine Bars"
   },
   {
     "venue": "Rare Device",
@@ -5589,7 +10948,7 @@
     "country": "United States",
     "year": 2022,
     "month": 9,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "B.Good",
@@ -6472,7 +11831,7 @@
     "category": "Pakistani Restaurants"
   },
   {
-    "venue": "The Junction Beer Garden",
+    "venue": "The Junction",
     "id": "5f236666c68c6732a0fb8a37",
     "city": "Mill Valley",
     "state": "CA",
@@ -6852,7 +12211,7 @@
     "category": "Grocery Stores"
   },
   {
-    "venue": "Woods Lower Haight",
+    "venue": "Woods Lowside",
     "id": "5ee1ce01679a2e0e2850e4da",
     "city": "San Francisco",
     "state": "CA",
@@ -7950,7 +13309,7 @@
     "category": "Bridges"
   },
   {
-    "venue": "Woods Lower Haight",
+    "venue": "Woods Lowside",
     "id": "5ee1ce01679a2e0e2850e4da",
     "city": "San Francisco",
     "state": "CA",
@@ -7960,7 +13319,7 @@
     "category": "Beer Bars"
   },
   {
-    "venue": "Tea And Others",
+    "venue": "Tea & Others",
     "id": "5dbdfad5e60e5d0009e0e56a",
     "city": "San Francisco",
     "state": "CA",
@@ -8147,7 +13506,7 @@
     "country": "United States",
     "year": 2022,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Dunkin'",
@@ -8357,7 +13716,7 @@
     "country": "United States",
     "year": 2022,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Dogpatch Bakehouse & Caffè",
@@ -8980,7 +14339,7 @@
     "category": "Beaches"
   },
   {
-    "venue": "Woods Lower Haight",
+    "venue": "Woods Lowside",
     "id": "5ee1ce01679a2e0e2850e4da",
     "city": "San Francisco",
     "state": "CA",
@@ -9737,7 +15096,7 @@
     "country": "United States",
     "year": 2022,
     "month": 3,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Lemongrass Restaurant",
@@ -9750,14 +15109,14 @@
     "category": "Thai Restaurants"
   },
   {
-    "venue": "wooden tooth records",
+    "venue": "Wooden Tooth Records",
     "id": "55c39bf5498ec4f54479d2a6",
     "city": "Tucson",
     "state": "AZ",
     "country": "United States",
     "year": 2022,
     "month": 3,
-    "category": "Music Stores"
+    "category": "Record Stores"
   },
   {
     "venue": "US Post Office",
@@ -9927,7 +15286,7 @@
     "country": "United States",
     "year": 2022,
     "month": 3,
-    "category": "Bars"
+    "category": "Dive Bars"
   },
   {
     "venue": "Che's Lounge",
@@ -10307,7 +15666,7 @@
     "country": "United States",
     "year": 2022,
     "month": 3,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Joshua Tree Coffee Company",
@@ -10322,12 +15681,12 @@
   {
     "venue": "Joshua Tree Saloon",
     "id": "4cf6f5d655e137047a04d0b6",
-    "city": "Twentynine Palms",
+    "city": "Joshua Tree",
     "state": "CA",
     "country": "United States",
     "year": 2022,
     "month": 3,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Kelso Sand Dunes",
@@ -10514,7 +15873,7 @@
     "country": "United States",
     "year": 2022,
     "month": 3,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -11227,7 +16586,7 @@
     "category": "Scenic Lookouts"
   },
   {
-    "venue": "The Junction Beer Garden",
+    "venue": "The Junction",
     "id": "5f236666c68c6732a0fb8a37",
     "city": "Mill Valley",
     "state": "CA",
@@ -11247,7 +16606,7 @@
     "category": "Coffee Shops"
   },
   {
-    "venue": "Club Fugazi",
+    "venue": "Club Fugazi Experiences",
     "id": "445c9f00f964a520ef321fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -11605,7 +16964,7 @@
     "category": "Cafés"
   },
   {
-    "venue": "Assembly",
+    "venue": "Assembly Cafe & Beer Garden",
     "id": "620e7edf1d6ad650a97e2ea1",
     "city": "San Francisco",
     "state": "CA",
@@ -11862,7 +17221,7 @@
     "country": "United States",
     "year": 2022,
     "month": 1,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Dunkin'",
@@ -11962,7 +17321,7 @@
     "country": "United States",
     "year": 2022,
     "month": 1,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "The Mill",
@@ -12025,7 +17384,7 @@
     "category": "Coffee Shops"
   },
   {
-    "venue": "aesthetic union",
+    "venue": "The Aesthetic Union",
     "id": "52a140f311d27e68acd8551c",
     "city": "San Francisco",
     "state": "CA",
@@ -13215,7 +18574,7 @@
     "category": "Cafés"
   },
   {
-    "venue": "The Junction Beer Garden",
+    "venue": "The Junction",
     "id": "5f236666c68c6732a0fb8a37",
     "city": "Mill Valley",
     "state": "CA",
@@ -13965,7 +19324,7 @@
     "category": "Cafés"
   },
   {
-    "venue": "Woods Lower Haight",
+    "venue": "Woods Lowside",
     "id": "5ee1ce01679a2e0e2850e4da",
     "city": "San Francisco",
     "state": "CA",
@@ -15955,7 +21314,7 @@
     "category": "Bakeries"
   },
   {
-    "venue": "Woods Lower Haight",
+    "venue": "Woods Lowside",
     "id": "5ee1ce01679a2e0e2850e4da",
     "city": "San Francisco",
     "state": "CA",
@@ -16025,7 +21384,7 @@
     "category": "Bakeries"
   },
   {
-    "venue": "Woods Lower Haight",
+    "venue": "Woods Lowside",
     "id": "5ee1ce01679a2e0e2850e4da",
     "city": "San Francisco",
     "state": "CA",
@@ -16272,7 +21631,7 @@
     "country": "United States",
     "year": 2021,
     "month": 7,
-    "category": "Bars"
+    "category": "Beer Bars"
   },
   {
     "venue": "Jane the Bakery",
@@ -16452,7 +21811,7 @@
     "country": "United States",
     "year": 2021,
     "month": 7,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Flight Coffee Co.",
@@ -16572,7 +21931,7 @@
     "country": "United States",
     "year": 2021,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -16872,7 +22231,7 @@
     "country": "United States",
     "year": 2021,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Shake Shack",
@@ -17072,7 +22431,7 @@
     "country": "United States",
     "year": 2021,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Sightglass Coffee",
@@ -18572,7 +23931,7 @@
     "country": "United States",
     "year": 2020,
     "month": 7,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "The Inside Scoop",
@@ -18652,7 +24011,7 @@
     "country": "United States",
     "year": 2020,
     "month": 7,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -20120,7 +25479,7 @@
     "country": "United States",
     "year": 2020,
     "month": 0,
-    "category": "Cafés"
+    "category": "Vegan and Vegetarian Restaurants"
   },
   {
     "venue": "Square NYC",
@@ -20253,7 +25612,7 @@
     "category": "Gyms"
   },
   {
-    "venue": "The Friendly Toast Bedford",
+    "venue": "The Friendly Toast",
     "id": "5cc3157e5d891b002c4a0edf",
     "city": "Bedford",
     "state": "NH",
@@ -20390,7 +25749,7 @@
     "country": "United States",
     "year": 2020,
     "month": 0,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Oakside Cafe",
@@ -20850,7 +26209,7 @@
     "country": "United States",
     "year": 2019,
     "month": 11,
-    "category": "Hiking Trails"
+    "category": "Mountains"
   },
   {
     "venue": "Cartel Coffee Lab",
@@ -21580,7 +26939,7 @@
     "country": "United States",
     "year": 2019,
     "month": 9,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Manchester-Boston Regional Airport (MHT)",
@@ -21720,7 +27079,7 @@
     "country": "United States",
     "year": 2019,
     "month": 9,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Whole Foods Market",
@@ -22328,7 +27687,7 @@
     "country": "United States",
     "year": 2019,
     "month": 8,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Sagamore Pendry Hotel",
@@ -22348,7 +27707,7 @@
     "country": "United States",
     "year": 2019,
     "month": 8,
-    "category": "Bars"
+    "category": "Dive Bars"
   },
   {
     "venue": "L’Eau de Vie",
@@ -22418,7 +27777,7 @@
     "country": "United States",
     "year": 2019,
     "month": 8,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "One-Eyed Mike's",
@@ -22488,7 +27847,7 @@
     "country": "United States",
     "year": 2019,
     "month": 8,
-    "category": "Bars"
+    "category": "Pubs"
   },
   {
     "venue": "Paulie Gee's Hampden",
@@ -23028,7 +28387,7 @@
     "country": "United States",
     "year": 2019,
     "month": 6,
-    "category": "Bars"
+    "category": "Pubs"
   },
   {
     "venue": "Other Half Brewing Company",
@@ -23358,7 +28717,7 @@
     "country": "United States",
     "year": 2019,
     "month": 6,
-    "category": "Latin American Restaurants"
+    "category": "Puerto Rican Restaurants"
   },
   {
     "venue": "Oakside Cafe",
@@ -23848,7 +29207,7 @@
     "country": "United States",
     "year": 2019,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Araya's Place",
@@ -23937,7 +29296,7 @@
     "country": "United States",
     "year": 2019,
     "month": 5,
-    "category": "Boat or Ferries"
+    "category": "Boats or Ferries"
   },
   {
     "venue": "Seattle Aquarium Cafe",
@@ -24040,7 +29399,7 @@
     "category": "Coffee Shops"
   },
   {
-    "venue": "Mod Pizza",
+    "venue": "MOD Pizza",
     "id": "4fcfaad0e4b056ec4bd0d157",
     "city": "Seattle",
     "state": "WA",
@@ -24127,7 +29486,7 @@
     "country": "United States",
     "year": 2019,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -24277,7 +29636,7 @@
     "country": "United States",
     "year": 2019,
     "month": 5,
-    "category": "Monuments"
+    "category": "Roads"
   },
   {
     "venue": "Ghirardelli Square",
@@ -24791,7 +30150,7 @@
   {
     "venue": "Rice Works",
     "id": "52f68e1b498e78f8b8cfac5b",
-    "city": "Boise",
+    "city": "Meridian",
     "state": "ID",
     "country": "United States",
     "year": 2019,
@@ -25406,7 +30765,7 @@
     "country": "United States",
     "year": 2019,
     "month": 3,
-    "category": ""
+    "category": "Roads"
   },
   {
     "venue": "Native Twins Coffee",
@@ -27836,7 +33195,7 @@
     "country": "United States",
     "year": 2018,
     "month": 9,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Starbucks",
@@ -28076,7 +33435,7 @@
     "country": "United States",
     "year": 2018,
     "month": 9,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Dogpatch Bakehouse & Caffè",
@@ -29126,7 +34485,7 @@
     "country": "United States",
     "year": 2018,
     "month": 7,
-    "category": "Bars"
+    "category": "Wine Bars"
   },
   {
     "venue": "Souvla",
@@ -29706,7 +35065,7 @@
     "country": "United States",
     "year": 2018,
     "month": 6,
-    "category": "Monuments"
+    "category": "Roads"
   },
   {
     "venue": "Aquatic Park",
@@ -30539,7 +35898,7 @@
     "category": "Bicycle Stores"
   },
   {
-    "venue": "Gestalt Haus Fairfax",
+    "venue": "Gestalt Haus",
     "id": "4aa46978f964a520bb4620e3",
     "city": "Fairfax",
     "state": "CA",
@@ -31155,7 +36514,7 @@
     "country": "United States",
     "year": 2018,
     "month": 2,
-    "category": "Hiking Trails"
+    "category": "Mountains"
   },
   {
     "venue": "Cartel Coffee Lab",
@@ -31684,7 +37043,7 @@
     "country": "United States",
     "year": 2018,
     "month": 2,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Starbucks",
@@ -31754,7 +37113,7 @@
     "country": "United States",
     "year": 2018,
     "month": 2,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "John F. Kennedy International Airport (JFK)",
@@ -32675,7 +38034,7 @@
     "category": "Coffee Shops"
   },
   {
-    "venue": "AMC Dine-In Kabuki 8",
+    "venue": "AMC Kabuki 8",
     "id": "58f6e0d982644467da73f9d0",
     "city": "San Francisco",
     "state": "CA",
@@ -32685,7 +38044,7 @@
     "category": "Movie Theaters"
   },
   {
-    "venue": "AMC Dine-In Kabuki 8",
+    "venue": "AMC Kabuki 8",
     "id": "58f6e0d982644467da73f9d0",
     "city": "San Francisco",
     "state": "CA",
@@ -34085,7 +39444,7 @@
     "category": "Plazas"
   },
   {
-    "venue": "peirce island",
+    "venue": "Peirce Island",
     "id": "5161bc8ee4b0e63c7c0548b9",
     "city": "Portsmouth",
     "state": "NH",
@@ -35652,7 +41011,7 @@
     "country": "Canada",
     "year": 2017,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Halifax Stanfield International Airport (YHZ)",
@@ -35732,7 +41091,7 @@
     "country": "Canada",
     "year": 2017,
     "month": 6,
-    "category": ""
+    "category": "Hotels"
   },
   {
     "venue": "Lawrencetown Beach",
@@ -36102,7 +41461,7 @@
     "country": "United States",
     "year": 2017,
     "month": 6,
-    "category": "Grocery Stores"
+    "category": "Supermarkets"
   },
   {
     "venue": "Thai Style Massage",
@@ -38750,7 +44109,7 @@
     "country": "United States",
     "year": 2017,
     "month": 1,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Dubai International Airport (DXB) (مطار دبي الدولي)",
@@ -38793,14 +44152,14 @@
     "category": "Shopping Malls"
   },
   {
-    "venue": "Haldiram Pick N' Fly",
+    "venue": "Haldiram's",
     "id": "4f00433c0aaffcf6f4d54e71",
     "city": "New Delhi",
     "state": "Delhi",
     "country": "India",
     "year": 2017,
     "month": 1,
-    "category": "Gourmet Stores"
+    "category": "Indian Sweet Shops"
   },
   {
     "venue": "Indira Gandhi International Airport (DEL)",
@@ -38835,6 +44194,8 @@
   {
     "venue": "The Celebration Bakery",
     "id": "537cc0a8498e1fc22ab0b6e0",
+    "city": "Udaipur",
+    "state": "Rājasthān",
     "country": "India",
     "year": 2017,
     "month": 1,
@@ -38871,14 +44232,14 @@
     "category": "Lakes"
   },
   {
-    "venue": "Cafe Coffee Day",
+    "venue": "Café Coffee Day",
     "id": "4e109eece4cdef074b6c1bae",
     "city": "Udaipur",
     "state": "Rājasthān",
     "country": "India",
     "year": 2017,
     "month": 1,
-    "category": "Cafés"
+    "category": "Coffee Shops"
   },
   {
     "venue": "Fatehsagar Lake",
@@ -38985,12 +44346,12 @@
     "category": "Bakeries"
   },
   {
-    "venue": "haldirams",
+    "venue": "Haldiram's",
     "id": "4fa100a5e4b0e6e21234f0f4",
     "country": "India",
     "year": 2017,
     "month": 1,
-    "category": "Indian Restaurants"
+    "category": "Indian Sweet Shops"
   },
   {
     "venue": "Dunkin'",
@@ -39086,7 +44447,7 @@
     "country": "United States",
     "year": 2017,
     "month": 0,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Manchester-Boston Regional Airport (MHT)",
@@ -39756,7 +45117,7 @@
     "country": "United States",
     "year": 2016,
     "month": 11,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Biergarten",
@@ -40050,7 +45411,7 @@
   {
     "venue": "The Butcher's Daughter",
     "id": "56674ce0498e53681084b32b",
-    "city": "Los Angeles",
+    "city": "Venice",
     "state": "CA",
     "country": "United States",
     "year": 2016,
@@ -40133,7 +45494,7 @@
     "country": "United States",
     "year": 2016,
     "month": 11,
-    "category": "Structures"
+    "category": "Rental Services"
   },
   {
     "venue": "Warner Bros. Studios",
@@ -41633,7 +46994,7 @@
     "country": "United States",
     "year": 2016,
     "month": 6,
-    "category": "Hiking Trails"
+    "category": "Mountains"
   },
   {
     "venue": "Giligin's Sand Bar & Shrimp Hut and Chuey's Midget Dwarf Bar",
@@ -41753,7 +47114,7 @@
     "country": "United States",
     "year": 2016,
     "month": 6,
-    "category": "Hiking Trails"
+    "category": "Mountains"
   },
   {
     "venue": "David & Gladys Wright House",
@@ -41876,7 +47237,7 @@
     "category": "Bakeries"
   },
   {
-    "venue": "Gestalt Haus Fairfax",
+    "venue": "Gestalt Haus",
     "id": "4aa46978f964a520bb4620e3",
     "city": "Fairfax",
     "state": "CA",
@@ -41923,7 +47284,7 @@
     "country": "United States",
     "year": 2016,
     "month": 5,
-    "category": "Bars"
+    "category": "Karaoke Bars"
   },
   {
     "venue": "Flywheel Coffee",
@@ -43363,7 +48724,7 @@
     "country": "United States",
     "year": 2016,
     "month": 1,
-    "category": "Bars"
+    "category": "Lounges"
   },
   {
     "venue": "Uno Pizzeria & Grill - Concord",
@@ -43403,7 +48764,7 @@
     "country": "United States",
     "year": 2016,
     "month": 1,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -43653,7 +49014,7 @@
     "country": "United States",
     "year": 2016,
     "month": 0,
-    "category": "Monuments"
+    "category": "Roads"
   },
   {
     "venue": "Sightglass Coffee",
@@ -45722,7 +51083,7 @@
     "country": "United States",
     "year": 2015,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Ripley's Aquarium of Canada",
@@ -45912,7 +51273,7 @@
     "country": "United States",
     "year": 2015,
     "month": 6,
-    "category": "Boat or Ferries"
+    "category": "Boats or Ferries"
   },
   {
     "venue": "D Squared Java",
@@ -45992,7 +51353,7 @@
     "country": "United States",
     "year": 2015,
     "month": 6,
-    "category": "Bars"
+    "category": "Lounges"
   },
   {
     "venue": "Central Ale House",
@@ -47242,7 +52603,7 @@
     "country": "United States",
     "year": 2015,
     "month": 5,
-    "category": "Bars"
+    "category": "Dive Bars"
   },
   {
     "venue": "Bergerac",
@@ -49810,7 +55171,7 @@
     "country": "United States",
     "year": 2015,
     "month": 1,
-    "category": "Monuments"
+    "category": "Roads"
   },
   {
     "venue": "Chipotle Mexican Grill",
@@ -50392,14 +55753,14 @@
     "category": "Resorts"
   },
   {
-    "venue": "Abu Dhabi International Airport (AUH) (مطار أبو ظبي الدولي)",
+    "venue": "Zayed International Airport (AUH) (مطار زايد الدولي)",
     "id": "4bad6acbf964a520214d3be3",
     "city": "Abu Dhabi",
     "state": "Abu Dhabi",
     "country": "United Arab Emirates",
     "year": 2014,
     "month": 11,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Washington Dulles International Airport (IAD)",
@@ -50712,7 +56073,7 @@
     "category": "New American Restaurants"
   },
   {
-    "venue": "Century Theatre",
+    "venue": "Century Theatres San Francisco Centre 9 & XD",
     "id": "454cf014f964a520c53c1fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -54009,7 +59370,7 @@
     "country": "United States",
     "year": 2014,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Dunkin'",
@@ -54029,7 +59390,7 @@
     "country": "United States",
     "year": 2014,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Manchester-Boston Regional Airport (MHT)",
@@ -54409,7 +59770,7 @@
     "country": "United States",
     "year": 2014,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -54849,7 +60210,7 @@
     "country": "United States",
     "year": 2014,
     "month": 4,
-    "category": "Monuments"
+    "category": "Roads"
   },
   {
     "venue": "901 Columbus Caffe",
@@ -55164,7 +60525,7 @@
   {
     "venue": "Battery Yates",
     "id": "4d1fa222bdd7a0934521e7ce",
-    "city": "Bolinas",
+    "city": "Sausalito",
     "state": "CA",
     "country": "United States",
     "year": 2014,
@@ -55728,7 +61089,7 @@
     "country": "United States",
     "year": 2014,
     "month": 3,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Manchester-Boston Regional Airport (MHT)",
@@ -55828,7 +61189,7 @@
     "country": "United States",
     "year": 2014,
     "month": 3,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -56517,7 +61878,7 @@
     "country": "United States",
     "year": 2014,
     "month": 1,
-    "category": "Bars"
+    "category": "Dive Bars"
   },
   {
     "venue": "Li Po Cocktail Lounge",
@@ -56617,7 +61978,7 @@
     "country": "United States",
     "year": 2014,
     "month": 1,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Réveille Coffee Co.",
@@ -57075,7 +62436,7 @@
     "country": "United States",
     "year": 2014,
     "month": 0,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Sundance Kabuki Cinemas",
@@ -58026,7 +63387,7 @@
     "category": "Coffee Shops"
   },
   {
-    "venue": "Gestalt Haus Fairfax",
+    "venue": "Gestalt Haus",
     "id": "4aa46978f964a520bb4620e3",
     "city": "Fairfax",
     "state": "CA",
@@ -60111,7 +65472,7 @@
     "country": "United States",
     "year": 2013,
     "month": 7,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -60481,7 +65842,7 @@
     "country": "United States",
     "year": 2013,
     "month": 6,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Alamo Square",
@@ -61891,7 +67252,7 @@
     "country": "United States",
     "year": 2013,
     "month": 4,
-    "category": "Bars"
+    "category": "Lounges"
   },
   {
     "venue": "Bar Agricole",
@@ -62351,7 +67712,7 @@
     "country": "United States",
     "year": 2013,
     "month": 3,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Bodhi Coffee",
@@ -62941,7 +68302,7 @@
     "country": "United States",
     "year": 2013,
     "month": 3,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Kilowatt Bar",
@@ -64868,7 +70229,7 @@
     "country": "United States",
     "year": 2013,
     "month": 1,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Manchester-Boston Regional Airport (MHT)",
@@ -64968,7 +70329,7 @@
     "country": "United States",
     "year": 2013,
     "month": 1,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -65018,7 +70379,7 @@
     "country": "United States",
     "year": 2013,
     "month": 1,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Mini Bar",
@@ -65487,7 +70848,7 @@
     "country": "United States",
     "year": 2013,
     "month": 0,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Kansas City Public Library: Central Library",
@@ -65938,7 +71299,7 @@
     "category": "Hair Salons"
   },
   {
-    "venue": "CVS pharmacy",
+    "venue": "CVS Pharmacy",
     "id": "4b8d5a7cf964a52083f632e3",
     "city": "Kansas City",
     "state": "MO",
@@ -66055,7 +71416,7 @@
     "country": "United States",
     "year": 2013,
     "month": 0,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Diego International Airport (SAN)",
@@ -66838,7 +72199,7 @@
     "category": "Bakeries"
   },
   {
-    "venue": "Sam's Diner",
+    "venue": "SAMS American Eatery",
     "id": "4a2c0803f964a5200e971fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -68691,7 +74052,7 @@
     "country": "United States",
     "year": 2012,
     "month": 8,
-    "category": "Boat or Ferries"
+    "category": "Boats or Ferries"
   },
   {
     "venue": "Nook",
@@ -68911,7 +74272,7 @@
     "country": "United States",
     "year": 2012,
     "month": 8,
-    "category": "Bars"
+    "category": "Dive Bars"
   },
   {
     "venue": "Pakwan",
@@ -71298,7 +76659,7 @@
     "country": "United States",
     "year": 2012,
     "month": 5,
-    "category": "Arts and Entertainment"
+    "category": "Amusement Parks"
   },
   {
     "venue": "lost!",
@@ -71988,7 +77349,7 @@
     "country": "United States",
     "year": 2012,
     "month": 4,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "San Francisco International Airport (SFO)",
@@ -72317,7 +77678,7 @@
     "country": "United States",
     "year": 2012,
     "month": 3,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Baltimore/Washington International Thurgood Marshall Airport (BWI)",
@@ -72507,7 +77868,7 @@
     "country": "United States",
     "year": 2012,
     "month": 3,
-    "category": "High Schools"
+    "category": "Middle Schools"
   },
   {
     "venue": "Strange Brew Tavern",
@@ -72527,7 +77888,7 @@
     "country": "United States",
     "year": 2012,
     "month": 3,
-    "category": "Bars"
+    "category": "Lounges"
   },
   {
     "venue": "SNHU COCE",
@@ -72717,7 +78078,7 @@
     "country": "United States",
     "year": 2012,
     "month": 3,
-    "category": "Bars"
+    "category": "Pubs"
   },
   {
     "venue": "Bang Bang Mongolian Grill",
@@ -72957,7 +78318,7 @@
     "country": "United States",
     "year": 2012,
     "month": 2,
-    "category": "Miscellaneous Stores"
+    "category": "Party Supply Stores"
   },
   {
     "venue": "Powell St. BART Station",
@@ -73347,7 +78708,7 @@
     "country": "United States",
     "year": 2012,
     "month": 2,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Austin Bergstrom International Airport (AUS)",
@@ -73497,7 +78858,7 @@
     "country": "United States",
     "year": 2012,
     "month": 2,
-    "category": "Bars"
+    "category": "Beer Gardens"
   },
   {
     "venue": "219 West",
@@ -73945,7 +79306,7 @@
     "country": "United States",
     "year": 2012,
     "month": 2,
-    "category": "Bars"
+    "category": "Dive Bars"
   },
   {
     "venue": "The Brewer's Art",
@@ -74325,7 +79686,7 @@
     "country": "United States",
     "year": 2012,
     "month": 1,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Super Swarm Sunday",
@@ -74425,7 +79786,7 @@
     "country": "United States",
     "year": 2012,
     "month": 0,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Whole Foods Market",
@@ -74845,7 +80206,7 @@
     "country": "United States",
     "year": 2012,
     "month": 0,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Dunkin'",
@@ -74885,7 +80246,7 @@
     "country": "United States",
     "year": 2011,
     "month": 11,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Geetanjali Enclave",
@@ -74905,7 +80266,7 @@
     "country": "United States",
     "year": 2011,
     "month": 11,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "McGarvey's",
@@ -74985,7 +80346,7 @@
     "country": "United States",
     "year": 2011,
     "month": 10,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Lost City Diner",
@@ -76084,7 +81445,7 @@
     "country": "United States",
     "year": 2011,
     "month": 8,
-    "category": "Miscellaneous Stores"
+    "category": "Party Supply Stores"
   },
   {
     "venue": "Source",
@@ -76344,7 +81705,7 @@
     "country": "United States",
     "year": 2011,
     "month": 8,
-    "category": "Bars"
+    "category": "Lounges"
   },
   {
     "venue": "Mount Washington",
@@ -76434,7 +81795,7 @@
     "country": "United States",
     "year": 2011,
     "month": 8,
-    "category": "Bars"
+    "category": "Cocktail Bars"
   },
   {
     "venue": "Bally's Casino & Hotel",
@@ -76737,14 +82098,14 @@
     "category": "Homes (private)"
   },
   {
-    "venue": "Ithaca Tompkins Regional Airport (ITH)",
+    "venue": "Ithaca Tompkins International Airport (ITH)",
     "id": "4b552a4df964a52066dd27e3",
     "city": "Ithaca",
     "state": "NY",
     "country": "United States",
     "year": 2011,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "La Tourelle",
@@ -76827,14 +82188,14 @@
     "category": "State or Provincial Parks"
   },
   {
-    "venue": "Ithaca Tompkins Regional Airport (ITH)",
+    "venue": "Ithaca Tompkins International Airport (ITH)",
     "id": "4b552a4df964a52066dd27e3",
     "city": "Ithaca",
     "state": "NY",
     "country": "United States",
     "year": 2011,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Quality Inn",
@@ -77194,7 +82555,7 @@
     "country": "United States",
     "year": 2011,
     "month": 5,
-    "category": "Bars"
+    "category": "Lounges"
   },
   {
     "venue": "Cambridge Brewing Company",
@@ -77304,7 +82665,7 @@
     "country": "United States",
     "year": 2011,
     "month": 5,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Baltimore/Washington International Thurgood Marshall Airport (BWI)",
@@ -77324,7 +82685,7 @@
     "country": "United States",
     "year": 2011,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Memorial Park",
@@ -77584,7 +82945,7 @@
     "country": "United States",
     "year": 2011,
     "month": 5,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Maniac Mansion",
@@ -77744,7 +83105,7 @@
     "country": "United States",
     "year": 2011,
     "month": 5,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "The Point in Fells",
@@ -78354,7 +83715,7 @@
     "country": "United States",
     "year": 2011,
     "month": 3,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Johnny Rad's Pizzeria Tavern",
@@ -79027,7 +84388,7 @@
     "category": "Hotels"
   },
   {
-    "venue": "CVS pharmacy",
+    "venue": "CVS Pharmacy",
     "id": "4aba50dbf964a520d78020e3",
     "city": "Austin",
     "state": "TX",
@@ -79144,7 +84505,7 @@
     "country": "United States",
     "year": 2011,
     "month": 2,
-    "category": "Bars"
+    "category": "Pubs"
   },
   {
     "venue": "Charles Restaurant & Carry Out",
@@ -79414,7 +84775,7 @@
     "country": "United States",
     "year": 2011,
     "month": 1,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Admiral Fell Inn, An Ascend Hotel Collection Member",
@@ -79784,7 +85145,7 @@
     "country": "United States",
     "year": 2011,
     "month": 0,
-    "category": "Neighborhoods"
+    "category": "Harbors or Marinas"
   },
   {
     "venue": "Inner Harbor",
@@ -79794,7 +85155,7 @@
     "country": "United States",
     "year": 2011,
     "month": 0,
-    "category": "Neighborhoods"
+    "category": "Harbors or Marinas"
   },
   {
     "venue": "Richard Stockton Service Area",
@@ -80544,7 +85905,7 @@
     "country": "United States",
     "year": 2010,
     "month": 10,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "BWI I'm On A Plane!",
@@ -80844,7 +86205,7 @@
     "country": "United States",
     "year": 2010,
     "month": 10,
-    "category": "Bars"
+    "category": "Pubs"
   },
   {
     "venue": "The Sidebar",
@@ -81982,7 +87343,7 @@
     "country": "United States",
     "year": 2010,
     "month": 8,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "One World Café",
@@ -82641,7 +88002,7 @@
     "country": "United States",
     "year": 2010,
     "month": 6,
-    "category": "Bars"
+    "category": "Lounges"
   },
   {
     "venue": "Legends Golf & Family Recreation",
@@ -82897,7 +88258,7 @@
     "country": "United States",
     "year": 2010,
     "month": 6,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Mekong Delta Cafe",
@@ -83027,7 +88388,7 @@
     "country": "United States",
     "year": 2010,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Fletcher's Wharf",
@@ -83040,7 +88401,7 @@
     "category": "American Restaurants"
   },
   {
-    "venue": "Terminal 1 - Lindbergh LRT Station",
+    "venue": "Terminal 1-Lindbergh LRT Station",
     "id": "4ae1b46ef964a520d48621e3",
     "city": "Saint Paul",
     "state": "MN",
@@ -83057,7 +88418,7 @@
     "country": "United States",
     "year": 2010,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Nye's Polonaise",
@@ -83447,7 +88808,7 @@
     "country": "United States",
     "year": 2010,
     "month": 6,
-    "category": "Airports"
+    "category": "International Airports"
   },
   {
     "venue": "Baltimore/Washington International Thurgood Marshall Airport (BWI)",
@@ -83577,7 +88938,7 @@
     "country": "United States",
     "year": 2010,
     "month": 6,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Beehive Baltimore",
@@ -83617,7 +88978,7 @@
     "country": "United States",
     "year": 2010,
     "month": 6,
-    "category": "Boat or Ferries"
+    "category": "Boats or Ferries"
   },
   {
     "venue": "Nino Pizza",
@@ -83977,7 +89338,7 @@
     "country": "United States",
     "year": 2010,
     "month": 5,
-    "category": "Boat or Ferries"
+    "category": "Boats or Ferries"
   },
   {
     "venue": "Beaker's Cafe",
@@ -84277,7 +89638,7 @@
     "country": "United States",
     "year": 2010,
     "month": 5,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "Matthew's Pizza",
@@ -84397,7 +89758,7 @@
     "country": "United States",
     "year": 2010,
     "month": 4,
-    "category": "Department Stores"
+    "category": "Outlet Stores"
   },
   {
     "venue": "Possum Hollow",
@@ -84457,7 +89818,7 @@
     "country": "United States",
     "year": 2010,
     "month": 4,
-    "category": "Boat or Ferries"
+    "category": "Boats or Ferries"
   },
   {
     "venue": "Mattress Factory Museum",
@@ -85748,7 +91109,7 @@
     "category": "Theaters"
   },
   {
-    "venue": "CVS pharmacy",
+    "venue": "CVS Pharmacy",
     "id": "4aba50dbf964a520d78020e3",
     "city": "Austin",
     "state": "TX",
@@ -85975,7 +91336,7 @@
     "country": "United States",
     "year": 2010,
     "month": 2,
-    "category": "Bars"
+    "category": "Pubs"
   },
   {
     "venue": "Nacho Creations",
@@ -86774,7 +92135,7 @@
     "country": "United States",
     "year": 2009,
     "month": 11,
-    "category": "Bars"
+    "category": "Sports Bars"
   },
   {
     "venue": "One World Café",

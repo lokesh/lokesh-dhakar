@@ -29,13 +29,19 @@ textarea {
   font-family: var(--font);
   font-weight: var(--weight-regular);
   font-size: 1rem;
-  letter-spacing: -0.025em;
+  /* letter-spacing: -0.025em; */
   -webkit-font-smoothing: antialiased;
 }
 
 html {
-  font-size: 14px;
+  font-size: 13px;
 }
+
+/* @media (min-width: 800px) {
+  html {
+    font-size: 13px;
+  }
+} */
 
 body {
   margin: 0;
@@ -80,22 +86,23 @@ h2,
 h3 {
   color: var(--color-bold);
   font-family: var(--font-heading);
+  font-weight: var(--weight-bold);
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 36px;
   line-height: 1em;
-  font-weight: var(--weight-x-bold);
+  font-weight: 500;
 }
 
 h1.post-title {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 h2 {
   margin-top: calc(var(--block-bottom) * 2);
   margin-left: -0.03em;
-  font-size: 1.25rem;
+  font-size: 15px;
   line-height: var(--line-height-heading);
   font-weight: var(--weight-bold);
 }
@@ -116,21 +123,20 @@ h3 {
 }
 
 a {
-  text-decoration: none;
   color: var(--link-color);
   background-color: var(--link-bg-color);
   border-radius: var(--radius-sm);
-  text-decoration: none;
+  /* text-decoration: underline; */
 
   /* If link wraps to new line, have border radius close and restart */
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  /* box-decoration-break: clone;
+  -webkit-box-decoration-break: clone; */
 }
 
 a:hover {
   color: var(--link-hover-color);
-  background-color: var(--link-hover-bg-color);
-  text-decoration: none;
+  /* background-color: var(--link-hover-bg-color); */
+  /* text-decoration: none; */
 }
 
 a.reset {
@@ -248,15 +254,20 @@ a.nav__item {
   display: inline-block;
   padding: 0.65em 0.35em;
   margin-right: 0.5em;
-  color: var(--muted-color);
+  color: var(--nav-color);
   border-radius: var(--radius);
+  /* font-size: 0.8333rem; */
   font-family: var(--font-ui);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semi-bold);
   background-color: transparent;
+  text-decoration: none;
+}
+a.nav__item--active {
+  text-decoration: underline;
 }
 
 a.nav__item:hover {
-  color: var(--color-bold);
+  color: var(--nav-hover-color);
 }
 
 .nav__divider {
@@ -281,10 +292,11 @@ a.nav__item:hover {
 
   a.nav__item {
     display: block;
-    padding: 0.25em 1em 0.25em 0.5em;
+    padding: 0.1em 1em 0.1em 0.5em;
     margin-right: 0;
     border: 0;
     border-radius: var(--radius);
+    /* font-size: 1.25rem; */
   }
 }
 

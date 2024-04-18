@@ -15,6 +15,27 @@ export function enableEmail() {
   });
 }
 
+export function highlightActiveNavItem() {
+	const path = window.location.pathname.slice('1');
+	// link.classList.add("active");
+
+	document.querySelectorAll('.nav__item').forEach(el => {
+		// console.log(el.href, window.location.href);
+		if (el.href === window.location.href) {
+			el.classList.add('nav__item--active');
+			console.log(el.href);
+		}
+	})
+    
+}
+
+
+// <nav class="nav">
+//       <div class="nav__list">
+//         <a href="/" class="nav__item">Home</a>
+//         <a href="/work/" class="nav__item">Work</a>
+
+
 // const MIN_SCROLLX_HIDE_NAV = 50;
 // const body = document.querySelector('body');
 

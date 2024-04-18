@@ -1,6 +1,6 @@
 :root {
   --bg-color: #f9f9f9;
-  --recessed-bg-color: #e3e3e3;
+  --recessed-bg-color: #e9e9e9;
   --hover-bg-color: #e9e9e9;
 
   --color: #000; /* body text */
@@ -16,6 +16,9 @@
   --link-hover-bg-color: var(--hover-bg-color);
   --ui-color: var(--color-bold); /* For buttons and other non-link controls */
 
+  --nav-color: var(--muted-color);
+  --nav-hover-color: var(--color)
+
   /* Misc colors */
   --green: #58df82;
   --yellow: #f6dc58; /* FDF5CF*/
@@ -23,7 +26,7 @@
   --red: #fc6969;
 
   /* Body text line height */
-  --line-height: 1.5em;
+  --line-height: 1.4em;
   --line-height-heading: 1.25em;
 
   /* Borders and corners */
@@ -31,19 +34,21 @@
   --border-color-light: #d5d5d5; /* Used for inline content  */
 
   --radius-sm: 3px; /* Small tags */
-  --radius: 3px;    /* Form controls */
-  --radius-lg: 3px; /* Media */
-  --radius-xl: 3px; /* Large media */
+  --radius: 8px;    /* Form controls */
+  --radius-lg: 12px; /* Media */
+  --radius-xl: 16px; /* Large media */
+  --radius-button: 24px;
 
   /* Typography */
-  --font: 'Roboto Mono', Inter, sans-serif;
-  --font-heading: 'Roboto Mono', Inter, sans-serif;
-  --font-ui: 'Roboto Mono', Inter, sans-serif;
+  --font: Inter, sans-serif;
+  --font-heading: Inter, Inter, sans-serif;
+  --font-ui: 'Geist Mono', Inter, sans-serif;
 
-  --font-mono: Menlo, Consolas, Monaco, Lucida Console, monospace;
+  --font-mono: 'Geist Mono', Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;
-  --weight-bold: 700;
-  --weight-x-bold: 700;
+  --weight-semi-bold: 500;
+  --weight-bold: 600;
+  --weight-x-bold: 600;
 
   /* Forms */
   --form-control-height-xs: 2em;
@@ -54,9 +59,10 @@
 
     All px estimates of rem values assume 16px font-size.
   */
-  --nav-width: 8.75rem; /* 140px */
-  --gutter: 12px;
-  --page-max-width: 40rem;
+  --nav-width: 16rem; 
+  --gutter: 24px;
+  --gutter-inner: 12px;
+  --page-max-width: 36rem;
   /*--text-max-width: 35rem;*/
 
   --block-bottom: 1.4rem;

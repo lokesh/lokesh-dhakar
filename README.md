@@ -48,7 +48,8 @@ npm run strava
 
 ---
 
-Need to reset API.
+If API busted, refetch access and refresh tokens:
+
 1. Visit the following URL and allow access to all public data. To pull down private data, update the scope. http://www.strava.com/oauth/authorize?client_id=7203&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=activity:read
 2. Once redirected, grab the code from the URL.
 3. Use Postman/bruno to POST:
@@ -68,6 +69,18 @@ Fetch the latest Swarm check-in data with the Foursquare API:
 2. Make sure `FETCH_DATA` and `PROCESS_DATA` booleans are set to `true`
 3. `npm run foursquare`
 
+---
+
+If API busted, refetch tokens:
+1. Visit: 
+https://foursquare.com/oauth2/authenticate?client_id=EOR1IUQHRPBCVEAFX0XTOCTPRSIJARFVXZGBUGKV012MNA4C&response_type=code&redirect_uri=https://www.google.com
+2. Once redirected, grab the code from the URL.
+3. GET or POST with Postman or Bruno: https://foursquare.com/oauth2/access_token
+    ?client_id=CLIENT_ID
+    &client_secret=CLIENT_SECRET
+    &grant_type=authorization_code
+    &redirect_uri=https://www.google.com
+    &code=CODE_FROM_PREV_URL
 
 ### Update places metadata
 

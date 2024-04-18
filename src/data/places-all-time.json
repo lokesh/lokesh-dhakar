@@ -8,18 +8,7 @@
     "category": "Travel",
     "subCategory": "International Airports",
     "firstVisit": true,
-    "count": 112
-  },
-  {
-    "venue": "WAG Hotel",
-    "id": "4b686ec8f964a5204b782be3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Services",
-    "subCategory": "Pet Services",
-    "firstVisit": true,
-    "count": 104
+    "count": 120
   },
   {
     "venue": "The Mill",
@@ -33,7 +22,18 @@
     "goToSpot": true,
     "wouldTakeVisitors": true,
     "comments": "#fave bread: Josey Baker wonder bread & country loaf",
-    "count": 102
+    "count": 107
+  },
+  {
+    "venue": "WAG Hotel",
+    "id": "4b686ec8f964a5204b782be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Pet Services",
+    "firstVisit": true,
+    "count": 104
   },
   {
     "venue": "Sightglass Coffee",
@@ -60,15 +60,17 @@
     "count": 84
   },
   {
-    "venue": "Alamo Square",
-    "id": "4460d38bf964a5200a331fe3",
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
-    "count": 72
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "count": 77
   },
   {
     "venue": "Hawk Hill",
@@ -78,6 +80,17 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Hills",
+    "firstVisit": true,
+    "count": 74
+  },
+  {
+    "venue": "Alamo Square",
+    "id": "4460d38bf964a5200a331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
     "firstVisit": true,
     "count": 72
   },
@@ -90,20 +103,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shops",
     "firstVisit": true,
-    "count": 71
-  },
-  {
-    "venue": "Sightglass Coffee",
-    "id": "5968bf3429551366c474d076",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "goToSpot": true,
-    "wouldTakeVisitors": true,
-    "count": 70
+    "count": 72
   },
   {
     "venue": "Twin Peaks Summit",
@@ -114,7 +114,7 @@
     "category": "Outdoors",
     "subCategory": "Hills",
     "firstVisit": true,
-    "count": 67
+    "count": 69
   },
   {
     "venue": "Foxhole",
@@ -150,15 +150,15 @@
     "count": 56
   },
   {
-    "venue": "Trader Joe's",
-    "id": "484a7920f964a5207c501fe3",
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Grocery Stores",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
-    "count": 53
+    "count": 56
   },
   {
     "venue": "The Little Chihuahua",
@@ -172,7 +172,7 @@
     "goToSpot": true,
     "wouldTakeVisitors": true,
     "comments": "#fave burrito: plantain burrito (made vegan)",
-    "count": 52
+    "count": 56
   },
   {
     "venue": "Ritual Coffee Roasters",
@@ -183,7 +183,18 @@
     "category": "Coffee",
     "subCategory": "Coffee Shops",
     "firstVisit": true,
-    "count": 51
+    "count": 54
+  },
+  {
+    "venue": "Trader Joe's",
+    "id": "484a7920f964a5207c501fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 53
   },
   {
     "venue": "Rapha Cycle Club",
@@ -195,29 +206,7 @@
     "subCategory": "Bicycle Stores",
     "firstVisit": true,
     "comments": "50% coffee with my RCC membership",
-    "count": 50
-  },
-  {
-    "venue": "Native Twins Coffee",
-    "id": "5a8879a4bed483206788a32e",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 47
-  },
-  {
-    "venue": "Equator Coffees & Teas",
-    "id": "51c765b5498e538e7259f69b",
-    "city": "Mill Valley",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 47
+    "count": 51
   },
   {
     "venue": "Flywheel Coffee",
@@ -230,6 +219,28 @@
     "firstVisit": true,
     "goToSpot": true,
     "outdoorSeating": true,
+    "count": 48
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "id": "51c765b5498e538e7259f69b",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 48
+  },
+  {
+    "venue": "Native Twins Coffee",
+    "id": "5a8879a4bed483206788a32e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
     "count": 47
   },
   {
@@ -255,17 +266,6 @@
     "count": 45
   },
   {
-    "venue": "Réveille Coffee Co.",
-    "id": "5a7a53cb3af988153b69174f",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 44
-  },
-  {
     "venue": "Gus’s Haight Street Market",
     "id": "458ff7cbf964a52021401fe3",
     "city": "San Francisco",
@@ -274,7 +274,7 @@
     "category": "Shopping",
     "subCategory": "Supermarkets",
     "firstVisit": true,
-    "count": 43
+    "count": 44
   },
   {
     "venue": "Divisadero Farmers' Market",
@@ -285,7 +285,7 @@
     "category": "Shopping",
     "subCategory": "Farmers Markets",
     "firstVisit": true,
-    "count": 36
+    "count": 39
   },
   {
     "venue": "Nourish Cafe SF",
@@ -299,18 +299,7 @@
     "goToSpot": true,
     "wouldTakeVisitors": true,
     "comments": "Almond flour choc chip cookie, Bap and Nourish bowls, toast sampler",
-    "count": 36
-  },
-  {
-    "venue": "Maniac Mansion",
-    "id": "4cb99e3b4352a1cd97688df5",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Residence",
-    "subCategory": "Homes (private)",
-    "firstVisit": true,
-    "count": 35
+    "count": 38
   },
   {
     "venue": "Mercury Cafe",
@@ -323,6 +312,17 @@
     "firstVisit": true,
     "goToSpot": true,
     "comments": "Strawberry scone",
+    "count": 37
+  },
+  {
+    "venue": "Maniac Mansion",
+    "id": "4cb99e3b4352a1cd97688df5",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Residence",
+    "subCategory": "Homes (private)",
+    "firstVisit": true,
     "count": 35
   },
   {
@@ -345,6 +345,20 @@
     "category": "Outdoors",
     "subCategory": "Dog Parks",
     "firstVisit": true,
+    "count": 33
+  },
+  {
+    "venue": "Mission Dolores Park",
+    "id": "4ab595e1f964a520877520e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
     "count": 33
   },
   {
@@ -392,18 +406,15 @@
     "count": 30
   },
   {
-    "venue": "Mission Dolores Park",
-    "id": "4ab595e1f964a520877520e3",
+    "venue": "Four Barrel Coffee",
+    "id": "480d1a5ef964a520284f1fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true,
-    "count": 30
+    "count": 29
   },
   {
     "venue": "SoMa StrEat Food Park",
@@ -417,15 +428,29 @@
     "count": 28
   },
   {
-    "venue": "Four Barrel Coffee",
-    "id": "480d1a5ef964a520284f1fe3",
+    "venue": "Arsicault Bakery",
+    "id": "55203ab9498eb807ad0e6da5",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Coffee",
-    "subCategory": "Coffee Shops",
+    "subCategory": "Bakeries",
     "firstVisit": true,
-    "count": 28
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much.",
+    "count": 27
+  },
+  {
+    "venue": "Whole Foods Market",
+    "id": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 27
   },
   {
     "venue": "Mojo Bicycle Cafe",
@@ -461,17 +486,6 @@
     "count": 26
   },
   {
-    "venue": "Whole Foods Market",
-    "id": "52603bff11d21a914be4eb71",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Grocery Stores",
-    "firstVisit": true,
-    "count": 25
-  },
-  {
     "venue": "Corona Heights Park",
     "id": "4bdcdb293904a5936d11509e",
     "city": "San Francisco",
@@ -480,21 +494,22 @@
     "category": "Outdoors",
     "subCategory": "Parks",
     "firstVisit": true,
-    "count": 24
+    "count": 25
   },
   {
-    "venue": "Arsicault Bakery",
-    "id": "55203ab9498eb807ad0e6da5",
+    "venue": "Kantine",
+    "id": "5b2134a81acf11002c0f7903",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
+    "category": "Food",
+    "subCategory": "Scandinavian Restaurants",
     "firstVisit": true,
     "goToSpot": true,
+    "outdoorSeating": true,
     "wouldTakeVisitors": true,
-    "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much.",
-    "count": 24
+    "comments": "Cinnamon knot, cardamom morning bun, porridges",
+    "count": 25
   },
   {
     "venue": "Cibo",
@@ -516,21 +531,6 @@
     "category": "Nightlife",
     "subCategory": "Bars",
     "firstVisit": true,
-    "count": 22
-  },
-  {
-    "venue": "Kantine",
-    "id": "5b2134a81acf11002c0f7903",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Scandinavian Restaurants",
-    "firstVisit": true,
-    "goToSpot": true,
-    "outdoorSeating": true,
-    "wouldTakeVisitors": true,
-    "comments": "Cinnamon knot, cardamom morning bun, porridges",
     "count": 22
   },
   {
@@ -570,6 +570,17 @@
     "count": 21
   },
   {
+    "venue": "Blue Bottle Coffee",
+    "id": "43d3901ef964a5201f2e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 21
+  },
+  {
     "venue": "Whole Foods Market",
     "id": "4d5b5b343158cbff7a1ae28e",
     "city": "San Francisco",
@@ -596,13 +607,13 @@
     "count": 20
   },
   {
-    "venue": "Blue Bottle Coffee",
-    "id": "43d3901ef964a5201f2e1fe3",
+    "venue": "Golden Gate Bridge Welcome Center",
+    "id": "4bf463c5e5eba5934f9b1f90",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
+    "category": "Travel",
+    "subCategory": "Tourist Information and Services",
     "firstVisit": true,
     "count": 20
   },
@@ -629,6 +640,28 @@
     "count": 19
   },
   {
+    "venue": "Sports Basement",
+    "id": "4a09ef9af964a52070741fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Sporting Goods Retail",
+    "firstVisit": true,
+    "count": 19
+  },
+  {
+    "venue": "Kezar Stadium",
+    "id": "49cb37b5f964a52000591fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Track Stadiums",
+    "firstVisit": true,
+    "count": 19
+  },
+  {
     "venue": "AK Subs",
     "id": "45206915f964a520b73a1fe3",
     "city": "San Francisco",
@@ -640,24 +673,13 @@
     "count": 18
   },
   {
-    "venue": "Kezar Stadium",
-    "id": "49cb37b5f964a52000591fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Track Stadiums",
-    "firstVisit": true,
-    "count": 18
-  },
-  {
-    "venue": "Golden Gate Bridge Welcome Center",
-    "id": "4bf463c5e5eba5934f9b1f90",
-    "city": "San Francisco",
-    "state": "CA",
+    "venue": "Boston Logan International Airport (BOS)",
+    "id": "452113b6f964a520bc3a1fe3",
+    "city": "Boston",
+    "state": "MA",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Tourist Information and Services",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 18
   },
@@ -673,28 +695,6 @@
     "count": 17
   },
   {
-    "venue": "Boston Logan International Airport (BOS)",
-    "id": "452113b6f964a520bc3a1fe3",
-    "city": "Boston",
-    "state": "MA",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "Airports",
-    "firstVisit": true,
-    "count": 17
-  },
-  {
-    "venue": "Sports Basement",
-    "id": "4a09ef9af964a52070741fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Sporting Goods Retail",
-    "firstVisit": true,
-    "count": 17
-  },
-  {
     "venue": "Trader Joe's",
     "id": "459ac90cf964a52088401fe3",
     "city": "San Francisco",
@@ -704,17 +704,6 @@
     "subCategory": "Grocery Stores",
     "firstVisit": true,
     "count": 17
-  },
-  {
-    "venue": "Bloodhound",
-    "id": "49c42f96f964a520a6561fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Cocktail Bars",
-    "firstVisit": true,
-    "count": 16
   },
   {
     "venue": "B. Patisserie",
@@ -727,6 +716,17 @@
     "firstVisit": true,
     "wouldTakeVisitors": true,
     "comments": "Kouign-amann",
+    "count": 17
+  },
+  {
+    "venue": "Bloodhound",
+    "id": "49c42f96f964a520a6561fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Cocktail Bars",
+    "firstVisit": true,
     "count": 16
   },
   {
@@ -748,6 +748,63 @@
     "country": "United States",
     "category": "Services",
     "subCategory": "Hospitals",
+    "firstVisit": true,
+    "count": 16
+  },
+  {
+    "venue": "Equator Coffees & Teas",
+    "id": "528ef16c498ee4dc21194848",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 16
+  },
+  {
+    "venue": "Apple Union Square",
+    "id": "42cc7080f964a520e9251fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Electronics Stores",
+    "firstVisit": true,
+    "count": 16
+  },
+  {
+    "venue": "Bi-Rite Market",
+    "id": "513924afe4b066811795768e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Markets",
+    "firstVisit": true,
+    "count": 16
+  },
+  {
+    "venue": "Rare Device",
+    "id": "4f62a163e4b08b476db9854e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Gift Stores",
+    "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "count": 16
+  },
+  {
+    "venue": "Buena Vista Park",
+    "id": "4479e362f964a520da331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
     "firstVisit": true,
     "count": 16
   },
@@ -774,17 +831,6 @@
     "count": 15
   },
   {
-    "venue": "Apple Union Square",
-    "id": "42cc7080f964a520e9251fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Electronics Stores",
-    "firstVisit": true,
-    "count": 15
-  },
-  {
     "venue": "Wholesome Bakery",
     "id": "5a514248d0a149596b1653aa",
     "city": "San Francisco",
@@ -807,14 +853,16 @@
     "count": 15
   },
   {
-    "venue": "Buena Vista Park",
-    "id": "4479e362f964a520da331fe3",
+    "venue": "Schlok’s Bagels & Lox",
+    "id": "621bbf1a507988046365ff20",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
+    "category": "Coffee",
+    "subCategory": "Bagel Shops",
     "firstVisit": true,
+    "goToSpot": true,
+    "comments": "#fave bagels",
     "count": 15
   },
   {
@@ -846,7 +894,7 @@
     "state": "MD",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Sports Bars",
     "firstVisit": true,
     "count": 14
   },
@@ -862,24 +910,35 @@
     "count": 14
   },
   {
-    "venue": "Equator Coffees & Teas",
-    "id": "528ef16c498ee4dc21194848",
-    "city": "Mill Valley",
+    "venue": "Dolores Park Cafe",
+    "id": "44ca68a6f964a52001361fe3",
+    "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Coffee",
-    "subCategory": "Coffee Shops",
+    "subCategory": "Cafés",
     "firstVisit": true,
     "count": 14
   },
   {
-    "venue": "Bi-Rite Market",
-    "id": "513924afe4b066811795768e",
+    "venue": "Rainbow Grocery Cooperative",
+    "id": "4827b8b1f964a520bb4f1fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Shopping",
-    "subCategory": "Markets",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 14
+  },
+  {
+    "venue": "Souvenir Coffee",
+    "id": "6062696a53e97e23f1bcde3b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 14
   },
@@ -917,30 +976,6 @@
     "count": 13
   },
   {
-    "venue": "Rainbow Grocery Cooperative",
-    "id": "4827b8b1f964a520bb4f1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Grocery Stores",
-    "firstVisit": true,
-    "count": 13
-  },
-  {
-    "venue": "Rare Device",
-    "id": "4f62a163e4b08b476db9854e",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Gift Stores",
-    "firstVisit": true,
-    "goToSpot": true,
-    "wouldTakeVisitors": true,
-    "count": 13
-  },
-  {
     "venue": "Bernal Heights Park",
     "id": "4aa6b24ff964a520b24a20e3",
     "city": "San Francisco",
@@ -963,8 +998,8 @@
     "count": 13
   },
   {
-    "venue": "Souvenir Coffee",
-    "id": "6062696a53e97e23f1bcde3b",
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -974,15 +1009,15 @@
     "count": 13
   },
   {
-    "venue": "Dolores Park Cafe",
-    "id": "44ca68a6f964a52001361fe3",
+    "venue": "Barry's Bootcamp",
+    "id": "5c8b072228374e002c80131a",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Cafés",
+    "category": "Outdoors",
+    "subCategory": "Gym and Studios",
     "firstVisit": true,
-    "count": 12
+    "count": 13
   },
   {
     "venue": "Basil Thai Restaurant & Bar",
@@ -992,6 +1027,28 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Thai Restaurants",
+    "firstVisit": true,
+    "count": 12
+  },
+  {
+    "venue": "The Page",
+    "id": "43eb859cf964a5203a2f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Dive Bars",
+    "firstVisit": true,
+    "count": 12
+  },
+  {
+    "venue": "Duboce Park Cafe",
+    "id": "45377562f964a520be3b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 12
   },
@@ -1073,17 +1130,6 @@
     "count": 11
   },
   {
-    "venue": "The Page",
-    "id": "43eb859cf964a5203a2f1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Dive Bars",
-    "firstVisit": true,
-    "count": 11
-  },
-  {
     "venue": "Holy Gelato",
     "id": "49daaa1ff964a520a15e1fe3",
     "city": "San Francisco",
@@ -1117,13 +1163,13 @@
     "count": 11
   },
   {
-    "venue": "Duboce Park Cafe",
-    "id": "45377562f964a520be3b1fe3",
+    "venue": "Target",
+    "id": "5237327711d2cc03ee3e73b5",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
+    "category": "Shopping",
+    "subCategory": "Big Box Stores",
     "firstVisit": true,
     "count": 11
   },
@@ -1200,7 +1246,7 @@
     "state": "PA",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 10
   },
@@ -1238,17 +1284,6 @@
     "count": 10
   },
   {
-    "venue": "Target",
-    "id": "5237327711d2cc03ee3e73b5",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Big Box Stores",
-    "firstVisit": true,
-    "count": 10
-  },
-  {
     "venue": "VeganBurg",
     "id": "55bec3d8498ea0833a1c10b7",
     "city": "San Francisco",
@@ -1268,6 +1303,17 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 10
+  },
+  {
+    "venue": "Hyperoptics",
+    "id": "4a52ab67f964a520e2b11fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Miscellaneous Stores",
     "firstVisit": true,
     "count": 10
   },
@@ -1459,28 +1505,6 @@
     "count": 9
   },
   {
-    "venue": "Verve Coffee Roasters",
-    "id": "589f6a4372714f7d35566b6a",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 9
-  },
-  {
-    "venue": "Hyperoptics",
-    "id": "4a52ab67f964a520e2b11fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Miscellaneous Stores",
-    "firstVisit": true,
-    "count": 9
-  },
-  {
     "venue": "The Richfield",
     "id": "5582e64c498e13943a4ed9e1",
     "city": "San Francisco",
@@ -1499,6 +1523,85 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Bicycle Stores",
+    "firstVisit": true,
+    "count": 9
+  },
+  {
+    "venue": "fifty/fifty",
+    "id": "513c3282e412048dd75b19bb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 9
+  },
+  {
+    "venue": "Fairfax Coffee Roastery",
+    "id": "4a62329cf964a52059c31fe3",
+    "city": "Fairfax",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 9
+  },
+  {
+    "venue": "Mendels",
+    "id": "45e5b54af964a52044431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Arts and Crafts Stores",
+    "firstVisit": true,
+    "count": 9
+  },
+  {
+    "venue": "Yh Beijing",
+    "id": "5dc38b332e354200083192a3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Chinese Restaurants",
+    "firstVisit": true,
+    "goToSpot": true,
+    "comments": "Basil tofu, general tso's tofu, veg dumplings",
+    "count": 9
+  },
+  {
+    "venue": "tarragon café",
+    "id": "5f5fc8b836cb941a2f28541c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 9
+  },
+  {
+    "venue": "San Francisco Public Library",
+    "id": "43f5f8a9f964a520a92f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Libraries",
+    "firstVisit": true,
+    "count": 9
+  },
+  {
+    "venue": "Pas Normal Studios",
+    "id": "63953970500cd520029a16a2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Clothing Stores",
     "firstVisit": true,
     "count": 9
   },
@@ -1543,17 +1646,6 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Furniture and Home Stores",
-    "firstVisit": true,
-    "count": 8
-  },
-  {
-    "venue": "fifty/fifty",
-    "id": "513c3282e412048dd75b19bb",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 8
   },
@@ -1624,31 +1716,9 @@
     "count": 8
   },
   {
-    "venue": "Mendels",
-    "id": "45e5b54af964a52044431fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Arts and Crafts Stores",
-    "firstVisit": true,
-    "count": 8
-  },
-  {
     "venue": "Blue Bottle Coffee",
     "id": "49ca8f4df964a520b9581fe3",
     "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 8
-  },
-  {
-    "venue": "Fairfax Coffee Roastery",
-    "id": "4a62329cf964a52059c31fe3",
-    "city": "Fairfax",
     "state": "CA",
     "country": "United States",
     "category": "Coffee",
@@ -1701,16 +1771,101 @@
     "count": 8
   },
   {
-    "venue": "Yh Beijing",
-    "id": "5dc38b332e354200083192a3",
+    "venue": "Equator",
+    "id": "5d86924f36e5fa00086e3eee",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 8
+  },
+  {
+    "venue": "Roxie Cinema",
+    "id": "408aff80f964a520c3f21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Indie Movie Theaters",
+    "firstVisit": true,
+    "count": 8
+  },
+  {
+    "venue": "Grand View Park",
+    "id": "49b1466cf964a520d3521fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 8
+  },
+  {
+    "venue": "Tartine Bakery",
+    "id": "42814b00f964a52002221fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "count": 8
+  },
+  {
+    "venue": "Spro Coffeelab",
+    "id": "60e9dcad148551533446302f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave toast: umami bomb. Everything great, incl pastries and fusion espresso drinks (miso latte).",
+    "goToSpot": true,
+    "count": 8
+  },
+  {
+    "venue": "Woods Lowside",
+    "id": "5ee1ce01679a2e0e2850e4da",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Beer Bars",
+    "firstVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "count": 8
+  },
+  {
+    "venue": "Warby Parker",
+    "id": "5473635d498e14e5b792756d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Eyecare Stores",
+    "firstVisit": true,
+    "count": 8
+  },
+  {
+    "venue": "Iza Ramen",
+    "id": "5632c07e498eaa6c566acefc",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Food",
-    "subCategory": "Chinese Restaurants",
+    "subCategory": "Ramen Restaurants",
     "firstVisit": true,
     "goToSpot": true,
-    "comments": "Basil tofu, general tso's tofu, veg dumplings",
+    "comments": "#fave ramen",
     "count": 8
   },
   {
@@ -1868,28 +2023,6 @@
     "count": 7
   },
   {
-    "venue": "Grand View Park",
-    "id": "49b1466cf964a520d3521fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
-    "firstVisit": true,
-    "count": 7
-  },
-  {
-    "venue": "Warby Parker",
-    "id": "5473635d498e14e5b792756d",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Eyecare Stores",
-    "firstVisit": true,
-    "count": 7
-  },
-  {
     "venue": "Patagonia",
     "id": "4a5e6d52f964a5208dbe1fe3",
     "city": "San Francisco",
@@ -2033,17 +2166,6 @@
     "count": 7
   },
   {
-    "venue": "Equator",
-    "id": "5d86924f36e5fa00086e3eee",
-    "city": "Sausalito",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 7
-  },
-  {
     "venue": "Sports Basement",
     "id": "45df2c52f964a52016431fe3",
     "city": "San Francisco",
@@ -2051,17 +2173,6 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Sporting Goods Retail",
-    "firstVisit": true,
-    "count": 7
-  },
-  {
-    "venue": "Roxie Cinema",
-    "id": "408aff80f964a520c3f21ee3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Indie Movie Theaters",
     "firstVisit": true,
     "count": 7
   },
@@ -2106,6 +2217,61 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Markets",
+    "firstVisit": true,
+    "count": 7
+  },
+  {
+    "venue": "Biergarten",
+    "id": "4dd7e48fd22d38ef42f35bd8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Beer Gardens",
+    "firstVisit": true,
+    "count": 7
+  },
+  {
+    "venue": "US Post Office",
+    "id": "49f10dfaf964a52084691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Post Offices",
+    "firstVisit": true,
+    "count": 7
+  },
+  {
+    "venue": "Vive La Tarte",
+    "id": "5c4c85f14f0e58002cd2bdc6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 7
+  },
+  {
+    "venue": "Thorough Bread and Pastry",
+    "id": "49f13784f964a5209f691fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 7
+  },
+  {
+    "venue": "DragonEats",
+    "id": "5005c520e4b0a8ae9875b787",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vietnamese Restaurants",
     "firstVisit": true,
     "count": 7
   },
@@ -2225,7 +2391,7 @@
     "state": "NH",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Lounges",
     "firstVisit": true,
     "count": 6
   },
@@ -2270,17 +2436,6 @@
     "country": "United States",
     "category": "Nightlife",
     "subCategory": "Wine Bars",
-    "firstVisit": true,
-    "count": 6
-  },
-  {
-    "venue": "US Post Office",
-    "id": "49f10dfaf964a52084691fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Post Offices",
     "firstVisit": true,
     "count": 6
   },
@@ -2340,32 +2495,6 @@
     "count": 6
   },
   {
-    "venue": "Biergarten",
-    "id": "4dd7e48fd22d38ef42f35bd8",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Beer Gardens",
-    "firstVisit": true,
-    "count": 6
-  },
-  {
-    "venue": "Woods Lower Haight",
-    "id": "5ee1ce01679a2e0e2850e4da",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Beer Bars",
-    "firstVisit": true,
-    "goToSpot": true,
-    "outdoorSeating": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true,
-    "count": 6
-  },
-  {
     "venue": "Alta Plaza Park",
     "id": "4aa80a86f964a520eb4e20e3",
     "city": "San Francisco",
@@ -2399,26 +2528,156 @@
     "count": 6
   },
   {
-    "venue": "Schlok’s Bagels & Lox",
-    "id": "621bbf1a507988046365ff20",
+    "venue": "Yerba Buena Gardens",
+    "id": "49c94f32f964a52054581fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bagel Shops",
+    "category": "Outdoors",
+    "subCategory": "Parks",
     "firstVisit": true,
-    "goToSpot": true,
-    "comments": "#fave bagels",
     "count": 6
   },
   {
-    "venue": "DragonEats",
-    "id": "5005c520e4b0a8ae9875b787",
+    "venue": "Chipotle Mexican Grill",
+    "id": "55c22c50498ed3a8d492dceb",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Food",
-    "subCategory": "Vietnamese Restaurants",
+    "subCategory": "Mexican Restaurants",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Jane the Bakery",
+    "id": "584b00068f0be42a4dbf33ed",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Handy Handyman Hardware",
+    "id": "4a887b0af964a5209b0620e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Hardware Stores",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Safeway",
+    "id": "44610f81f964a52010331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Azure Dental",
+    "id": "58afde3880e1af1b2c25237c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Dentists",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Gamescape",
+    "id": "408c5100f964a520caf21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Toy Stores",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Souvla",
+    "id": "5748e1f0498e1c0c6d214098",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Souvlaki Shops",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Fort Mason Center for Arts & Culture",
+    "id": "566dd7df498e691250e86861",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Galleries",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Charlotte Douglas International Airport (CLT)",
+    "id": "4a55c1f7f964a52046b41fe3",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "International Airports",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
+    "id": "4ae74a94f964a52019aa21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Libraries",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "San Francisco Museum of Modern Art",
+    "id": "40943a00f964a520e5f21ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Museums",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Cole Hardware",
+    "id": "4a3d51ecf964a52018a21fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Hardware Stores",
+    "firstVisit": true,
+    "count": 6
+  },
+  {
+    "venue": "Siam Orchid Traditional Thai Massage",
+    "id": "55346c03498e56b57395abc1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Massage Clinics",
     "firstVisit": true,
     "count": 6
   },
@@ -2638,8 +2897,8 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Monuments",
+    "category": "Travel",
+    "subCategory": "Roads",
     "firstVisit": true,
     "count": 5
   },
@@ -2688,28 +2947,6 @@
     "count": 5
   },
   {
-    "venue": "Cole Hardware",
-    "id": "4a3d51ecf964a52018a21fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Hardware Stores",
-    "firstVisit": true,
-    "count": 5
-  },
-  {
-    "venue": "Jane the Bakery",
-    "id": "584b00068f0be42a4dbf33ed",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
-    "firstVisit": true,
-    "count": 5
-  },
-  {
     "venue": "Shizen",
     "id": "54a8b5d1498ef8abe40ce6b3",
     "city": "San Francisco",
@@ -2723,17 +2960,6 @@
     "count": 5
   },
   {
-    "venue": "Chipotle Mexican Grill",
-    "id": "55c22c50498ed3a8d492dceb",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Mexican Restaurants",
-    "firstVisit": true,
-    "count": 5
-  },
-  {
     "venue": "Johnny Doughnuts",
     "id": "59cfcff3c3658821638bce70",
     "city": "San Francisco",
@@ -2743,17 +2969,6 @@
     "subCategory": "Donut Shops",
     "firstVisit": true,
     "comments": "#fave donut: glazed",
-    "count": 5
-  },
-  {
-    "venue": "Siam Orchid Traditional Thai Massage",
-    "id": "55346c03498e56b57395abc1",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Services",
-    "subCategory": "Massage Clinics",
-    "firstVisit": true,
     "count": 5
   },
   {
@@ -2834,28 +3049,6 @@
     "count": 5
   },
   {
-    "venue": "Yerba Buena Gardens",
-    "id": "49c94f32f964a52054581fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
-    "firstVisit": true,
-    "count": 5
-  },
-  {
-    "venue": "San Francisco Museum of Modern Art",
-    "id": "40943a00f964a520e5f21ee3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Art Museums",
-    "firstVisit": true,
-    "count": 5
-  },
-  {
     "venue": "San Francyclo",
     "id": "567b2472498ea7d84943f618",
     "city": "San Francisco",
@@ -2867,17 +3060,6 @@
     "count": 5
   },
   {
-    "venue": "Safeway",
-    "id": "44610f81f964a52010331fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Grocery Stores",
-    "firstVisit": true,
-    "count": 5
-  },
-  {
     "venue": "Stanza Coffee Bar",
     "id": "4f862761e4b04a6adaa70287",
     "city": "San Francisco",
@@ -2885,17 +3067,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 5
-  },
-  {
-    "venue": "Handy Handyman Hardware",
-    "id": "4a887b0af964a5209b0620e3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Hardware Stores",
     "firstVisit": true,
     "count": 5
   },
@@ -2960,18 +3131,6 @@
     "count": 5
   },
   {
-    "venue": "Tartine Bakery",
-    "id": "42814b00f964a52002221fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
-    "firstVisit": true,
-    "wouldTakeVisitors": true,
-    "count": 5
-  },
-  {
     "venue": "Mission Chinese Food",
     "id": "4c325dd83896e21e6d6ee890",
     "city": "San Francisco",
@@ -3005,6 +3164,118 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Hannaford Supermarket",
+    "id": "4af603edf964a520380022e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Supermarkets",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Emporium Arcade Bar",
+    "id": "59af3c499ba3e56fdc64fc11",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Arcades",
+    "firstVisit": true,
+    "comments": "Killer queen, DDR, pool, +",
+    "count": 5
+  },
+  {
+    "venue": "Indian Oven",
+    "id": "42893400f964a5204d231fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Indian Restaurants",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Magnolia Gastropub & Brewery",
+    "id": "3fd66200f964a52066ed1ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Gastropubs",
+    "firstVisit": true,
+    "comments": "#fave bar food",
+    "count": 5
+  },
+  {
+    "venue": "Breadbelly",
+    "id": "5b66055a037be1002cbfab25",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Stable Cafe",
+    "id": "49b1a93df964a520d9521fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Exploratorium",
+    "id": "4585a93ef964a520ac3f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Science Museums",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Capital One 360 Café",
+    "id": "4d87c47c0c422d436a43ee30",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Comix Experience",
+    "id": "49fd4ed0f964a5201a6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Comic Book Stores",
+    "firstVisit": true,
+    "count": 5
+  },
+  {
+    "venue": "Garden Creamery",
+    "id": "589d125b005a0f47b970b12b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Ice Cream Parlors",
     "firstVisit": true,
     "count": 5
   },
@@ -3609,7 +3880,7 @@
     "state": "MI",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 4
   },
@@ -3664,7 +3935,7 @@
     "state": "AZ",
     "country": "United States",
     "category": "Outdoors",
-    "subCategory": "Hiking Trails",
+    "subCategory": "Mountains",
     "firstVisit": true,
     "count": 4
   },
@@ -3676,17 +3947,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Cafés",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
-    "venue": "Charlotte Douglas International Airport (CLT)",
-    "id": "4a55c1f7f964a52046b41fe3",
-    "city": "Charlotte",
-    "state": "NC",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "Airports",
     "firstVisit": true,
     "count": 4
   },
@@ -3719,17 +3979,6 @@
     "country": "United States",
     "category": "Locale",
     "subCategory": "Cities",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
-    "venue": "Hannaford Supermarket",
-    "id": "4af603edf964a520380022e3",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Supermarkets",
     "firstVisit": true,
     "count": 4
   },
@@ -3834,17 +4083,6 @@
     "count": 4
   },
   {
-    "venue": "Exploratorium",
-    "id": "4585a93ef964a520ac3f1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Science Museums",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
     "venue": "Home",
     "id": "590dfe14c8b2fb0a9a084967",
     "city": "San Francisco",
@@ -3863,17 +4101,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Bakeries",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
-    "venue": "Stable Cafe",
-    "id": "49b1a93df964a520d9521fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Cafés",
     "firstVisit": true,
     "count": 4
   },
@@ -3900,18 +4127,6 @@
     "count": 4
   },
   {
-    "venue": "Emporium Arcade Bar",
-    "id": "59af3c499ba3e56fdc64fc11",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Arcades",
-    "firstVisit": true,
-    "comments": "Killer queen, DDR, pool, +",
-    "count": 4
-  },
-  {
     "venue": "Animal Internal Medicine & Specialty Services",
     "id": "605b6c95497e463bef03a1d7",
     "city": "San Francisco",
@@ -3919,31 +4134,6 @@
     "country": "United States",
     "category": "Services",
     "subCategory": "Veterinarians",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
-    "venue": "Spro Coffeelab",
-    "id": "60e9dcad148551533446302f",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "wouldTakeVisitors": true,
-    "comments": "#fave toast: umami bomb. Everything great, incl pastries and fusion espresso drinks (miso latte).",
-    "goToSpot": true,
-    "count": 4
-  },
-  {
-    "venue": "Thorough Bread and Pastry",
-    "id": "49f13784f964a5209f691fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
     "firstVisit": true,
     "count": 4
   },
@@ -3957,17 +4147,6 @@
     "subCategory": "Pakistani Restaurants",
     "firstVisit": true,
     "goToSpot": true,
-    "count": 4
-  },
-  {
-    "venue": "Azure Dental",
-    "id": "58afde3880e1af1b2c25237c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Services",
-    "subCategory": "Dentists",
-    "firstVisit": true,
     "count": 4
   },
   {
@@ -4015,29 +4194,6 @@
     "count": 4
   },
   {
-    "venue": "Magnolia Gastropub & Brewery",
-    "id": "3fd66200f964a52066ed1ee3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Gastropubs",
-    "firstVisit": true,
-    "comments": "#fave bar food",
-    "count": 4
-  },
-  {
-    "venue": "Vive La Tarte",
-    "id": "5c4c85f14f0e58002cd2bdc6",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
     "venue": "Asian Art Museum",
     "id": "43601880f964a5202e291fe3",
     "city": "San Francisco",
@@ -4045,17 +4201,6 @@
     "country": "United States",
     "category": "Arts",
     "subCategory": "Art Museums",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
-    "venue": "Fort Mason Center for Arts & Culture",
-    "id": "566dd7df498e691250e86861",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Art Galleries",
     "firstVisit": true,
     "count": 4
   },
@@ -4084,17 +4229,6 @@
     "count": 4
   },
   {
-    "venue": "Gamescape",
-    "id": "408c5100f964a520caf21ee3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Toy Stores",
-    "firstVisit": true,
-    "count": 4
-  },
-  {
     "venue": "Automat",
     "id": "61a7ad2af8c5e00778294359",
     "city": "San Francisco",
@@ -4105,17 +4239,6 @@
     "firstVisit": true,
     "comments": "Pastries. Go back and try bread and meal.",
     "wouldTakeVisitors": true,
-    "count": 4
-  },
-  {
-    "venue": "Souvla",
-    "id": "5748e1f0498e1c0c6d214098",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Souvlaki Shops",
-    "firstVisit": true,
     "count": 4
   },
   {
@@ -4130,37 +4253,292 @@
     "count": 4
   },
   {
-    "venue": "Iza Ramen",
-    "id": "5632c07e498eaa6c566acefc",
+    "venue": "Livingston Park",
+    "id": "4ba3c13ef964a520ac5b38e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Souvla",
+    "id": "533cc33f498e604ebad95d8c",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Food",
-    "subCategory": "Ramen Restaurants",
+    "subCategory": "Souvlaki Shops",
     "firstVisit": true,
     "goToSpot": true,
-    "comments": "#fave ramen",
+    "comments": "Veg or Black Sheep plant-based salad/sandwich",
     "count": 4
   },
   {
-    "venue": "Indian Oven",
-    "id": "42893400f964a5204d231fe3",
+    "venue": "Alamo Drafthouse Cinema",
+    "id": "5230ca828bbd7e5275fbf5de",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Food",
-    "subCategory": "Indian Restaurants",
+    "category": "Arts",
+    "subCategory": "Movie Theaters",
     "firstVisit": true,
     "count": 4
   },
   {
-    "venue": "Barry's Bootcamp",
-    "id": "5c8b072228374e002c80131a",
+    "venue": "Hahdough",
+    "id": "5e5aefe2866d3b00072297d3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Dogpatch Bakehouse & Caffè",
+    "id": "569972c7498e23153b7319fa",
+    "city": "South San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Seattle-Tacoma International Airport (SEA)",
+    "id": "45f555cef964a5200e441fe3",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "International Airports",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Timeless Coffee",
+    "id": "50b79653e41247a52b753c67",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "CoffeeShop",
+    "id": "5029476ce4b056f7678d1e02",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Nourish Cafe",
+    "id": "58d2eede102f47386fe2e7e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vegan and Vegetarian Restaurants",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Otra",
+    "id": "60934c1bc9549334f8c8c8c5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican Restaurants",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Tartine",
+    "id": "5d2b9404c8358500240b9ff1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Dynamo Donut & Coffee",
+    "id": "49ccf971f964a520a6591fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Donut Shops",
+    "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave donut: spiced chocolate, passion fruit milk chocolate, chocolate star anise",
+    "count": 4
+  },
+  {
+    "venue": "The Animal House",
+    "id": "4a6247e3f964a520a2c31fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Pet Supplies Stores",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "il Casaro Pizzeria & Mozzarella Bar",
+    "id": "596aaec4c0af5755e55271df",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Pizzerias",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Hole in the Wall Coffee",
+    "id": "516aeabee4b0f340f8ea05de",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Wooden",
+    "id": "59a07c348ad62e286c3c0918",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Fort Point National Historic Site",
+    "id": "46dabca2f964a5207c4a1fe3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Outdoors",
-    "subCategory": "Gym and Studios",
+    "subCategory": "Historic and Protected Sites",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "SPARK Social SF",
+    "id": "570fbb58498ef98443cf26fb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Street Food Gatherings",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "New Eritrea Restaurant & Bar",
+    "id": "443fddaff964a52039321fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Ethiopian Restaurants",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "CVS pharmacy",
+    "id": "522ca1c78bbd354bbb663d56",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Pharmacies",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Arbor",
+    "id": "5f09357db86f39032b516f50",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Burger Joints",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Rodeo Beach",
+    "id": "4b7878bdf964a5209dd02ee3",
+    "city": "Sausalito",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Beaches",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "The Junction",
+    "id": "5f236666c68c6732a0fb8a37",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Beer Gardens",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "Gray Area Art & Technology Theater",
+    "id": "535312a1498e917205ca7ee0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Performing Arts Venues",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "South Park",
+    "id": "44e9b873f964a520a6371fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 4
+  },
+  {
+    "venue": "SPRO",
+    "id": "64b564a13424c26edae8bb03",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 4
   },
@@ -4534,7 +4912,7 @@
     "state": "MO",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 3
   },
@@ -4688,7 +5066,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Cocktail Bars",
     "firstVisit": true,
     "count": 3
   },
@@ -4924,17 +5302,6 @@
     "count": 3
   },
   {
-    "venue": "Timeless Coffee",
-    "id": "50b79653e41247a52b753c67",
-    "city": "Oakland",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Mezzanine",
     "id": "40b7d280f964a52091001fe3",
     "city": "San Francisco",
@@ -4975,17 +5342,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Street Food Gatherings",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "CoffeeShop",
-    "id": "5029476ce4b056f7678d1e02",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 3
   },
@@ -5122,24 +5478,13 @@
     "count": 3
   },
   {
-    "venue": "Gestalt Haus Fairfax",
+    "venue": "Gestalt Haus",
     "id": "4aa46978f964a520bb4620e3",
     "city": "Fairfax",
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
     "subCategory": "Bars",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "South Park",
-    "id": "44e9b873f964a520a6371fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
     "firstVisit": true,
     "count": 3
   },
@@ -5331,17 +5676,6 @@
     "count": 3
   },
   {
-    "venue": "Livingston Park",
-    "id": "4ba3c13ef964a520ac5b38e3",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Black Nose Trading Company",
     "id": "4b5622f7f964a520060228e3",
     "city": "San Francisco",
@@ -5349,17 +5683,6 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Pet Supplies Stores",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "Hahdough",
-    "id": "5e5aefe2866d3b00072297d3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
     "firstVisit": true,
     "count": 3
   },
@@ -5540,28 +5863,6 @@
     "count": 3
   },
   {
-    "venue": "Wooden",
-    "id": "59a07c348ad62e286c3c0918",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "Dogpatch Bakehouse & Caffè",
-    "id": "569972c7498e23153b7319fa",
-    "city": "South San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Cafés",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Nopa",
     "id": "44646408f964a52026331fe3",
     "city": "San Francisco",
@@ -5600,17 +5901,6 @@
     "count": 3
   },
   {
-    "venue": "Hole in the Wall Coffee",
-    "id": "516aeabee4b0f340f8ea05de",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Tín",
     "id": "4af09c87f964a520a1dd21e3",
     "city": "San Francisco",
@@ -5633,28 +5923,6 @@
     "count": 3
   },
   {
-    "venue": "Nourish Cafe",
-    "id": "58d2eede102f47386fe2e7e3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Vegan and Vegetarian Restaurants",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "The Junction Beer Garden",
-    "id": "5f236666c68c6732a0fb8a37",
-    "city": "Mill Valley",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Beer Gardens",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Freewheel Bike Shop - Haight",
     "id": "4a7ccb5ff964a520a8ed1fe3",
     "city": "San Francisco",
@@ -5663,19 +5931,6 @@
     "category": "Shopping",
     "subCategory": "Bicycle Stores",
     "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "Souvla",
-    "id": "533cc33f498e604ebad95d8c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Souvlaki Shops",
-    "firstVisit": true,
-    "goToSpot": true,
-    "comments": "Veg or Black Sheep plant-based salad/sandwich",
     "count": 3
   },
   {
@@ -5734,17 +5989,6 @@
     "count": 3
   },
   {
-    "venue": "Rodeo Beach",
-    "id": "4b7878bdf964a5209dd02ee3",
-    "city": "Sausalito",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Beaches",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Om Indian Cuisine",
     "id": "57978e5e498ed5a25470c882",
     "city": "San Francisco",
@@ -5792,17 +6036,6 @@
     "count": 3
   },
   {
-    "venue": "San Francisco Public Library",
-    "id": "43f5f8a9f964a520a92f1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Libraries",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Heron Arts",
     "id": "524fa179498e0b52fd6abe18",
     "city": "San Francisco",
@@ -5814,17 +6047,6 @@
     "count": 3
   },
   {
-    "venue": "Otra",
-    "id": "60934c1bc9549334f8c8c8c5",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Mexican Restaurants",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Taco Bell Cantina",
     "id": "560461b3498e93e852864f6b",
     "city": "San Francisco",
@@ -5832,17 +6054,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Fast Food Restaurants",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
-    "venue": "SPARK Social SF",
-    "id": "570fbb58498ef98443cf26fb",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Street Food Gatherings",
     "firstVisit": true,
     "count": 3
   },
@@ -5880,17 +6091,6 @@
     "count": 3
   },
   {
-    "venue": "Alamo Drafthouse Cinema",
-    "id": "5230ca828bbd7e5275fbf5de",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Movie Theaters",
-    "firstVisit": true,
-    "count": 3
-  },
-  {
     "venue": "Toronado",
     "id": "3fd66200f964a5205ded1ee3",
     "city": "San Francisco",
@@ -5902,8 +6102,173 @@
     "count": 3
   },
   {
-    "venue": "tarragon café",
-    "id": "5f5fc8b836cb941a2f28541c",
+    "venue": "Marrakech Menara Airport (RAK) (مطار مراكش المنارة‎)",
+    "id": "4ba60c31f964a520173039e3",
+    "city": "Marrakech",
+    "state": "Marrakech-Tensift-Al Haouz",
+    "country": "Morocco",
+    "category": "Travel",
+    "subCategory": "International Airports",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Hartsfield-Jackson Atlanta International Airport (ATL)",
+    "id": "4a8a103af964a520c90920e3",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "International Airports",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Arms Park",
+    "id": "4bd0799e77b29c7406c98a82",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Fortitude Health and Training",
+    "id": "5071aa42e4b0f11f52ccd5e0",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Gyms",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "North Londonderry Transportation Center",
+    "id": "4ba97fbbf964a520ca2a3ae3",
+    "city": "Londonderry",
+    "state": "NH",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Bus Stations",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Señor Sisig",
+    "id": "5dc48d5d66c37b0008250bf8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Filipino Restaurants",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Kate's Kitchen",
+    "id": "44e36c53f964a5203e371fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Breakfast Spots",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "XFINITY Store by Comcast",
+    "id": "570db246498e845aebd6cd81",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Work",
+    "subCategory": "Business Services",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Trellis",
+    "id": "60d20b3410ee9714e9264f9b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Work",
+    "subCategory": "Coworking Spaces",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Fort Funston",
+    "id": "45e981baf964a5207f431fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Millennium",
+    "id": "453a2ab0f964a520e63b1fe3",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vegan and Vegetarian Restaurants",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Highwire Coffee Roasters",
+    "id": "463cff1df964a5203b461fe3",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "The Coffee Movement",
+    "id": "63767506f0541366c5635ebb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Design Within Reach",
+    "id": "52ab389311d29783154b9dea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Breck's",
+    "id": "5c9992c433e118002c82645c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Wine Stores",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Loquat",
+    "id": "635578d60a512e6cd2c6bf38",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -5913,13 +6278,195 @@
     "count": 3
   },
   {
-    "venue": "Marrakech Menara Airport (RAK) (مطار مراكش المنارة‎)",
-    "id": "4ba60c31f964a520173039e3",
-    "city": "Marrakech",
-    "state": "Marrakech-Tensift-Al Haouz",
-    "country": "Morocco",
-    "category": "Travel",
-    "subCategory": "Airports",
+    "venue": "The Container Store",
+    "id": "49f4e63ef964a5206b6b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Sutter Health Medical Building",
+    "id": "4ba7d328f964a520a9b639e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Medical Centers",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Peak Design",
+    "id": "59dff31226659b77af4ffb7a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Camera Stores",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Slice House by Tony Gemignani",
+    "id": "5849c58a6ad73d598e7f4174",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Pizzerias",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Starbucks",
+    "id": "5d32450e211fba0008a93f05",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Mamahuhu",
+    "id": "5e124862b5b5ad00084cb2c6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Chinese Restaurants",
+    "firstVisit": true,
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "count": 3
+  },
+  {
+    "venue": "Wildseed",
+    "id": "5d77246152f4a00007528cb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vegan and Vegetarian Restaurants",
+    "firstVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave cookie: gelato + choc chip. Appetizers great.",
+    "count": 3
+  },
+  {
+    "venue": "Señor Sisig Ferry Building",
+    "id": "62ec78b575715b134e875e49",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Filipino Restaurants",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Hot Cookie",
+    "id": "43efd1ecf964a520712f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Perilla",
+    "id": "55c6bd76498e21968eb76765",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vietnamese Restaurants",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Beit Rima",
+    "id": "5c48ef89a6ec98002c7d63cd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Middle Eastern Restaurants",
+    "firstVisit": true,
+    "comments": "#fave middle eastern",
+    "count": 3
+  },
+  {
+    "venue": "Mangrove Thai Kitchen",
+    "id": "5b402de3835c9a002c478c7c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Thai Restaurants",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Clement Street Farmers Market",
+    "id": "51c726f9498e3f124bf7c42e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Farmers Markets",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "The Little Chihuahua",
+    "id": "5d39f26656b1210008c744b7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican Restaurants",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Costco",
+    "id": "43945018f964a5207f2b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Warehouse or Wholesale Stores",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Sidewalk Juice",
+    "id": "5f49c1f434751e12b21e749d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Juice Bars",
+    "firstVisit": true,
+    "count": 3
+  },
+  {
+    "venue": "Baker Beach",
+    "id": "44c3724df964a520c6351fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Beaches",
     "firstVisit": true,
     "count": 3
   },
@@ -6095,7 +6642,7 @@
     "state": "MN",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 2
   },
@@ -6248,8 +6795,8 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Locale",
-    "subCategory": "Neighborhoods",
+    "category": "Outdoors",
+    "subCategory": "Harbors or Marinas",
     "firstVisit": true,
     "count": 2
   },
@@ -6265,7 +6812,7 @@
     "count": 2
   },
   {
-    "venue": "CVS pharmacy",
+    "venue": "CVS Pharmacy",
     "id": "4aba50dbf964a520d78020e3",
     "city": "Austin",
     "state": "TX",
@@ -6364,13 +6911,13 @@
     "count": 2
   },
   {
-    "venue": "Ithaca Tompkins Regional Airport (ITH)",
+    "venue": "Ithaca Tompkins International Airport (ITH)",
     "id": "4b552a4df964a52066dd27e3",
     "city": "Ithaca",
     "state": "NY",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 2
   },
@@ -6623,7 +7170,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Shopping",
-    "subCategory": "Miscellaneous Stores",
+    "subCategory": "Party Supply Stores",
     "firstVisit": true,
     "count": 2
   },
@@ -6899,19 +7446,6 @@
     "category": "Food",
     "subCategory": "Pizzerias",
     "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Dynamo Donut & Coffee",
-    "id": "49ccf971f964a520a6591fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Dessert",
-    "subCategory": "Donut Shops",
-    "firstVisit": true,
-    "wouldTakeVisitors": true,
-    "comments": "#fave donut: spiced chocolate, passion fruit milk chocolate, chocolate star anise",
     "count": 2
   },
   {
@@ -7685,17 +8219,6 @@
     "count": 2
   },
   {
-    "venue": "New Eritrea Restaurant & Bar",
-    "id": "443fddaff964a52039321fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Ethiopian Restaurants",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "San Bruno Mountain State Park",
     "id": "4af5c790f964a520bbfc21e3",
     "city": "Brisbane",
@@ -7703,17 +8226,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "State or Provincial Parks",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Fort Funston",
-    "id": "45e981baf964a5207f431fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
     "firstVisit": true,
     "count": 2
   },
@@ -8004,17 +8516,6 @@
     "count": 2
   },
   {
-    "venue": "Highwire Coffee Roasters",
-    "id": "463cff1df964a5203b461fe3",
-    "city": "Oakland",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Saint Ignatius College Preparatory",
     "id": "4b950f36f964a520688d34e3",
     "city": "San Francisco",
@@ -8220,17 +8721,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Hot Dog Joints",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Baker Beach",
-    "id": "44c3724df964a520c6351fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Beaches",
     "firstVisit": true,
     "count": 2
   },
@@ -8455,7 +8945,7 @@
     "count": 2
   },
   {
-    "venue": "AMC Dine-In Kabuki 8",
+    "venue": "AMC Kabuki 8",
     "id": "58f6e0d982644467da73f9d0",
     "city": "San Francisco",
     "state": "CA",
@@ -8674,17 +9164,6 @@
     "count": 2
   },
   {
-    "venue": "Millennium",
-    "id": "453a2ab0f964a520e63b1fe3",
-    "city": "Oakland",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Vegan and Vegetarian Restaurants",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Goodwill Store & Donation Center",
     "id": "4bc20310abf4952143c5c193",
     "city": "Hooksett",
@@ -8735,17 +9214,6 @@
     "country": "United States",
     "category": "Nightlife",
     "subCategory": "Pubs",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Fort Point National Historic Site",
-    "id": "46dabca2f964a5207c4a1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Historic and Protected Sites",
     "firstVisit": true,
     "count": 2
   },
@@ -9014,17 +9482,6 @@
     "count": 2
   },
   {
-    "venue": "Seattle-Tacoma International Airport (SEA)",
-    "id": "45f555cef964a5200e441fe3",
-    "city": "SeaTac",
-    "state": "WA",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "Airports",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Nice Cuts",
     "id": "4b2c4c95f964a5207ec524e3",
     "city": "San Francisco",
@@ -9152,7 +9609,7 @@
     "state": "MD",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Pubs",
     "firstVisit": true,
     "count": 2
   },
@@ -9172,17 +9629,6 @@
     "id": "4ad4c016f964a520c9ef20e3",
     "city": "Baltimore",
     "state": "MD",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Parks",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Arms Park",
-    "id": "4bd0799e77b29c7406c98a82",
-    "city": "Manchester",
-    "state": "NH",
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Parks",
@@ -9274,17 +9720,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Fortitude Health and Training",
-    "id": "5071aa42e4b0f11f52ccd5e0",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Gyms",
     "firstVisit": true,
     "count": 2
   },
@@ -9387,17 +9822,6 @@
     "count": 2
   },
   {
-    "venue": "Slice House by Tony Gemignani",
-    "id": "5849c58a6ad73d598e7f4174",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Pizzerias",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "West of Pecos",
     "id": "4f711e81e4b0fb1e70a3d700",
     "city": "San Francisco",
@@ -9426,18 +9850,7 @@
     "state": "UT",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Breadbelly",
-    "id": "5b66055a037be1002cbfab25",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 2
   },
@@ -9515,17 +9928,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "The Animal House",
-    "id": "4a6247e3f964a520a2c31fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Pet Supplies Stores",
     "firstVisit": true,
     "count": 2
   },
@@ -9636,17 +10038,6 @@
     "country": "United States",
     "category": "Nightlife",
     "subCategory": "Breweries",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Comix Experience",
-    "id": "49fd4ed0f964a5201a6f1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Comic Book Stores",
     "firstVisit": true,
     "count": 2
   },
@@ -9816,17 +10207,6 @@
     "count": 2
   },
   {
-    "venue": "Breck's",
-    "id": "5c9992c433e118002c82645c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Wine Stores",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Patxi's Pizza",
     "id": "43d7e5dff964a5205d2e1fe3",
     "city": "San Francisco",
@@ -9955,7 +10335,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 2
   },
@@ -10022,17 +10402,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Gardens",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Hot Cookie",
-    "id": "43efd1ecf964a520712f1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
     "firstVisit": true,
     "count": 2
   },
@@ -10224,55 +10593,6 @@
     "count": 2
   },
   {
-    "venue": "Wildseed",
-    "id": "5d77246152f4a00007528cb9",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Vegan and Vegetarian Restaurants",
-    "firstVisit": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true,
-    "comments": "#fave cookie: gelato + choc chip. Appetizers great.",
-    "count": 2
-  },
-  {
-    "venue": "Peak Design",
-    "id": "59dff31226659b77af4ffb7a",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Camera Stores",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Clement Street Farmers Market",
-    "id": "51c726f9498e3f124bf7c42e",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Farmers Markets",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Mamahuhu",
-    "id": "5e124862b5b5ad00084cb2c6",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Chinese Restaurants",
-    "firstVisit": true,
-    "goToSpot": true,
-    "outdoorSeating": true,
-    "count": 2
-  },
-  {
     "venue": "The Basin",
     "id": "4c3e54ee80bc20a172eaaa58",
     "city": "Franconia",
@@ -10295,24 +10615,13 @@
     "count": 2
   },
   {
-    "venue": "North Londonderry Transportation Center",
-    "id": "4ba97fbbf964a520ca2a3ae3",
-    "city": "Londonderry",
-    "state": "NH",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "Bus Stations",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Fool’s Errand",
     "id": "5b4297c19411f2002c274de9",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Wine Bars",
     "firstVisit": true,
     "count": 2
   },
@@ -10324,28 +10633,6 @@
     "country": "United States",
     "category": "Nightlife",
     "subCategory": "Cocktail Bars",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Kate's Kitchen",
-    "id": "44e36c53f964a5203e371fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Breakfast Spots",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Perilla",
-    "id": "55c6bd76498e21968eb76765",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Vietnamese Restaurants",
     "firstVisit": true,
     "count": 2
   },
@@ -10411,14 +10698,14 @@
     "state": "CA",
     "country": "United States",
     "category": "Arts",
-    "subCategory": "Arts and Entertainment",
+    "subCategory": "Amusement Parks",
     "firstVisit": true,
     "count": 2
   },
   {
     "venue": "The Butcher's Daughter",
     "id": "56674ce0498e53681084b32b",
-    "city": "Los Angeles",
+    "city": "Venice",
     "state": "CA",
     "country": "United States",
     "category": "Food",
@@ -10456,17 +10743,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Bakeries",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "The Little Chihuahua",
-    "id": "5d39f26656b1210008c744b7",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Mexican Restaurants",
     "firstVisit": true,
     "count": 2
   },
@@ -10581,17 +10857,6 @@
     "count": 2
   },
   {
-    "venue": "The Coffee Movement",
-    "id": "63767506f0541366c5635ebb",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Lucinda’s Deli",
     "id": "5ed16b62fadd0100088b2ee3",
     "city": "San Francisco",
@@ -10650,17 +10915,6 @@
     "count": 2
   },
   {
-    "venue": "Loquat",
-    "id": "635578d60a512e6cd2c6bf38",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Cafés",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Ocean Beach Cafe",
     "id": "601c7fd91b5c442c2bc8eb51",
     "city": "San Francisco",
@@ -10706,17 +10960,6 @@
     "count": 2
   },
   {
-    "venue": "CVS pharmacy",
-    "id": "522ca1c78bbd354bbb663d56",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Pharmacies",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Tacolicious",
     "id": "4ec598ffb634b2fd723d8c01",
     "city": "San Francisco",
@@ -10728,50 +10971,6 @@
     "count": 2
   },
   {
-    "venue": "Eureka Valley/Harvey Milk Memorial Branch Library",
-    "id": "4ae74a94f964a52019aa21e3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Libraries",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Señor Sisig",
-    "id": "5dc48d5d66c37b0008250bf8",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Filipino Restaurants",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Tartine",
-    "id": "5d2b9404c8358500240b9ff1",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Arbor",
-    "id": "5f09357db86f39032b516f50",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Restaurants",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
     "venue": "Banh Mi Viet",
     "id": "61d6014f87656e253c747678",
     "city": "San Francisco",
@@ -10779,17 +10978,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Vietnamese Restaurants",
-    "firstVisit": true,
-    "count": 2
-  },
-  {
-    "venue": "Pas Normal Studios",
-    "id": "63953970500cd520029a16a2",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Clothing Stores",
     "firstVisit": true,
     "count": 2
   },
@@ -10827,7 +11015,7 @@
     "count": 2
   },
   {
-    "venue": "Aéroport Fès-Saiss / مطار فاس سايس الدولي (FEZ)",
+    "venue": "Fes Sais International Airport (FEZ) (مطار فاس سايس الدولي)",
     "id": "4c446ab3f0bdd13a9680c9cc",
     "city": "Fès",
     "state": "Région de Fès-Boulemane",
@@ -10856,6 +11044,603 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Miscellaneous Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Horsefeather",
+    "id": "5705d56b498ec5d32113620c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Cocktail Bars",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Room & Board",
+    "id": "44fabff6f964a52078381fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Restoration Cafe",
+    "id": "58e2996f5e789619b50caa50",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Currier Museum of Art",
+    "id": "4b117edef964a520cf7d23e3",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Museums",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Hometown Coffee Roasters",
+    "id": "5feb637014d53c1e120352ce",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Coffee Roasters",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "B.Good",
+    "id": "5e580aeb9a3b050008094147",
+    "city": "Boston",
+    "state": "MA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Salad Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Copra",
+    "id": "63f2f0e7d8d011760af70ed5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Indian Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Walgreens",
+    "id": "4b4ced13f964a52082c426e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Pharmacies",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Van Ness Campus Medical Office Building",
+    "id": "5d28fa5ba0b7830024e8729a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Medical Centers",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Burma Superstar",
+    "id": "42cc7080f964a520e7251fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Burmese Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Toy Boat By Jane",
+    "id": "473b4138f964a5205a4c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Ice Cream Parlors",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "EQ3 San Francisco",
+    "id": "538a1eaa498ef492b7c4c9f8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Jai Ho Indian Grocery",
+    "id": "4b461bdbf964a520aa1626e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Butter Love Bakeshop",
+    "id": "569d3be5498eb5f352825fd1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Castro Farmers' Market",
+    "id": "49f8deb6f964a520306d1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Farmers Markets",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "House of Pancakes",
+    "id": "512831dae4b058a839d3cdac",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Chinese Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Ham's Station",
+    "id": "4f32957919836c91c7e60897",
+    "city": "Pioneer",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Zareen's",
+    "id": "57f7eb9f498edf8f0808bf90",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Indian Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "California Pacific Medical Center Van Ness Campus",
+    "id": "5ab2c6598b98fd7a52d9883e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Hospitals",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "b. on the go",
+    "id": "55765667498e2a6bb9f00cb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Himalayan Cuisine Sf",
+    "id": "63925d402504ea4f926d46c3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Himalayan Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Cliff's Variety",
+    "id": "49f78dcff964a520b46c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Hardware Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Earthbody",
+    "id": "4bd0f496462cb7132686d907",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Spas",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Airbnb HQ",
+    "id": "51c7e853abd8cf897278ef48",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Work",
+    "subCategory": "Tech Startups",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "SF76",
+    "id": "61c514a7643b1d1999f889b9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Gift Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Daiso Japan",
+    "id": "4a7cdbaff964a520e1ed1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Discount Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Hinodeya Ramen Bar",
+    "id": "583638538d8e9962925c86fe",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Ramen Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Hamon Education Tower Observation Deck",
+    "id": "4cdd9ded7e2e236a87007a1b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Scenic Lookouts",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Baia",
+    "id": "5f12638b861e253754a51b63",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vegan and Vegetarian Restaurants",
+    "firstVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave italian",
+    "count": 2
+  },
+  {
+    "venue": "Stanford University",
+    "id": "4a983497f964a520f02a20e3",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "United States",
+    "category": "Education",
+    "subCategory": "Universities",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Hidden Garden Mosaic Steps",
+    "id": "52a38acd11d22e4bcf139e4a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Public Art",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Her Urban Herbs",
+    "id": "609717d7b07fb867709eeeb2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Flower Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "The Faight",
+    "id": "6456c140c5b0ed443a293cea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Studios",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Super Duper Burgers",
+    "id": "4bc38e68abf49521beedc393",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Burger Joints",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Panhandle Playground",
+    "id": "5e23510604a74d00088ada9a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Playgrounds",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "TANTRUM",
+    "id": "57095833cd100e461767c68c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Toy Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Bun Mee",
+    "id": "5d3383732010d6000872ec96",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Asian Restaurants",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Birmingham-Shuttlesworth International Airport (BHM)",
+    "id": "4b39f2a2f964a520b85f25e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "International Airports",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Dallas Fort Worth International Airport (DFW)",
+    "id": "44d9ff60f964a5208b361fe3",
+    "city": "Grapevine",
+    "state": "TX",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "International Airports",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "FedEx Office Print & Ship Center",
+    "id": "4b18291ef964a5200bce23e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shipping, Freight, and Material Transportation Services",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Civic Center Plaza",
+    "id": "4479e402f964a520db331fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Plazas",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Urban Ritual",
+    "id": "5aecc94a67e5f2002c35e3a3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bubble Tea Shops",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "IKEA Livat",
+    "id": "649ba072f680ae2c22d76645",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "A Runners Mind - San Francisco",
+    "id": "5259997311d25c88e5607ea6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Sporting Goods Retail",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Bandit",
+    "id": "650f1fec8460b927dda50608",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Breakfast Spots",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Topdrawer",
+    "id": "5946fdcd42d8c2427021058b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Fashion Accessories Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Natural Resources",
+    "id": "5e13eed7316fe200080414f1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Baby Stores",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "The Drawing Room",
+    "id": "6205782748244657c9600e4b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Galleries",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Bob's On Baker",
+    "id": "5cfaf1b2f5e9d7002c841369",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Donut Shops",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "The UPS Store",
+    "id": "4b9c2efff964a520815236e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shipping, Freight, and Material Transportation Services",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Starbelly",
+    "id": "4a789bbbf964a52004e61fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "New American Restaurants",
+    "firstVisit": true,
+    "dateSpot": true,
+    "comments": "Cali-style pizzas",
+    "count": 2
+  },
+  {
+    "venue": "Savvy Cleaners",
+    "id": "4b0b16b5f964a520b72c23e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Laundry Services",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Altman Siegel Gallery",
+    "id": "59e10d5af4b5250d907e166c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Galleries",
+    "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "Minnesota Street Projects Gallery",
+    "id": "569f00f938faf971e4fca795",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Galleries",
     "firstVisit": true,
     "count": 2
   },
@@ -11071,7 +11856,7 @@
     "state": "TX",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Pubs",
     "firstVisit": true,
     "count": 1
   },
@@ -11901,8 +12686,7 @@
     "city": "Pittsburgh",
     "state": "PA",
     "country": "United States",
-    "category": "Travel",
-    "subCategory": "Boat or Ferries",
+    "category": "Boats or Ferries",
     "firstVisit": true,
     "count": 1
   },
@@ -11946,7 +12730,7 @@
     "state": "MD",
     "country": "United States",
     "category": "Shopping",
-    "subCategory": "Department Stores",
+    "subCategory": "Outlet Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -12186,8 +12970,7 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Travel",
-    "subCategory": "Boat or Ferries",
+    "category": "Boats or Ferries",
     "firstVisit": true,
     "count": 1
   },
@@ -12373,8 +13156,7 @@
     "city": "Baltimore",
     "state": "MD",
     "country": "United States",
-    "category": "Travel",
-    "subCategory": "Boat or Ferries",
+    "category": "Boats or Ferries",
     "firstVisit": true,
     "count": 1
   },
@@ -12751,7 +13533,7 @@
     "count": 1
   },
   {
-    "venue": "Terminal 1 - Lindbergh LRT Station",
+    "venue": "Terminal 1-Lindbergh LRT Station",
     "id": "4ae1b46ef964a520d48621e3",
     "city": "Saint Paul",
     "state": "MN",
@@ -12779,7 +13561,7 @@
     "state": "MO",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 1
   },
@@ -13762,7 +14544,7 @@
     "state": "MD",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Pubs",
     "firstVisit": true,
     "count": 1
   },
@@ -14451,7 +15233,7 @@
     "state": "MD",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Pubs",
     "firstVisit": true,
     "count": 1
   },
@@ -15547,7 +16329,7 @@
     "state": "NJ",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Cocktail Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -16556,7 +17338,7 @@
     "state": "MD",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Dive Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -16739,7 +17521,7 @@
     "state": "TX",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Beer Gardens",
     "firstVisit": true,
     "count": 1
   },
@@ -16805,7 +17587,7 @@
     "state": "TN",
     "country": "United States",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 1
   },
@@ -17090,7 +17872,7 @@
     "state": "NH",
     "country": "United States",
     "category": "Education",
-    "subCategory": "High Schools",
+    "subCategory": "Middle Schools",
     "firstVisit": true,
     "count": 1
   },
@@ -18011,7 +18793,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Dive Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -18060,17 +18842,6 @@
     "count": 1
   },
   {
-    "venue": "Earthbody",
-    "id": "4bd0f496462cb7132686d907",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Services",
-    "subCategory": "Spas",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Warby Parker at The Perish Trust",
     "id": "50928b8dd86c8893d89eb7be",
     "city": "San Francisco",
@@ -18108,8 +18879,7 @@
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Travel",
-    "subCategory": "Boat or Ferries",
+    "category": "Boats or Ferries",
     "firstVisit": true,
     "count": 1
   },
@@ -18583,7 +19353,7 @@
     "count": 1
   },
   {
-    "venue": "Sam's Diner",
+    "venue": "SAMS American Eatery",
     "id": "4a2c0803f964a5200e971fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -18754,17 +19524,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shops",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Stanford University",
-    "id": "4a983497f964a520f02a20e3",
-    "city": "Stanford",
-    "state": "CA",
-    "country": "United States",
-    "category": "Education",
-    "subCategory": "Universities",
     "firstVisit": true,
     "count": 1
   },
@@ -18966,7 +19725,7 @@
     "count": 1
   },
   {
-    "venue": "CVS pharmacy",
+    "venue": "CVS Pharmacy",
     "id": "4b8d5a7cf964a52083f632e3",
     "city": "Kansas City",
     "state": "MO",
@@ -19582,7 +20341,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Cocktail Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -20819,7 +21578,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Lounges",
     "firstVisit": true,
     "count": 1
   },
@@ -21322,7 +22081,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Cocktail Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -21833,17 +22592,6 @@
     "count": 1
   },
   {
-    "venue": "Hartsfield-Jackson Atlanta International Airport (ATL)",
-    "id": "4a8a103af964a520c90920e3",
-    "city": "Atlanta",
-    "state": "GA",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "International Airports",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Goldberg's Bagel",
     "id": "50926706e4b033509e538d23",
     "city": "Atlanta",
@@ -22348,17 +23096,6 @@
     "count": 1
   },
   {
-    "venue": "Hamon Education Tower Observation Deck",
-    "id": "4cdd9ded7e2e236a87007a1b",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Scenic Lookouts",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Coffee to the People",
     "id": "43519800f964a520be281fe3",
     "city": "San Francisco",
@@ -22421,17 +23158,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Parks",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "The Container Store",
-    "id": "49f4e63ef964a5206b6b1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Furniture and Home Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -22583,7 +23309,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Dive Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -22929,7 +23655,7 @@
   {
     "venue": "Battery Yates",
     "id": "4d1fa222bdd7a0934521e7ce",
-    "city": "Bolinas",
+    "city": "Sausalito",
     "state": "CA",
     "country": "United States",
     "category": "Outdoors",
@@ -23066,17 +23792,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Parks",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Jai Ho Indian Grocery",
-    "id": "4b461bdbf964a520aa1626e3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Grocery Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -23377,17 +24092,6 @@
     "count": 1
   },
   {
-    "venue": "A Runners Mind - San Francisco",
-    "id": "5259997311d25c88e5607ea6",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Sporting Goods Retail",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Aroma Tea Shop 茗茶轩",
     "id": "49d6ab5df964a520fc5c1fe3",
     "city": "San Francisco",
@@ -23461,17 +24165,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Vegan and Vegetarian Restaurants",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Airbnb HQ",
-    "id": "51c7e853abd8cf897278ef48",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Work",
-    "subCategory": "Tech Startups",
     "firstVisit": true,
     "count": 1
   },
@@ -24198,7 +24891,7 @@
     "count": 1
   },
   {
-    "venue": "Century Theatre",
+    "venue": "Century Theatres San Francisco Centre 9 & XD",
     "id": "454cf014f964a520c53c1fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -24220,13 +24913,13 @@
     "count": 1
   },
   {
-    "venue": "Abu Dhabi International Airport (AUH) (مطار أبو ظبي الدولي)",
+    "venue": "Zayed International Airport (AUH) (مطار زايد الدولي)",
     "id": "4bad6acbf964a520214d3be3",
     "city": "Abu Dhabi",
     "state": "Abu Dhabi",
     "country": "United Arab Emirates",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 1
   },
@@ -25364,7 +26057,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Dive Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -25759,8 +26452,7 @@
     "city": "Portsmouth",
     "state": "NH",
     "country": "United States",
-    "category": "Travel",
-    "subCategory": "Boat or Ferries",
+    "category": "Boats or Ferries",
     "firstVisit": true,
     "count": 1
   },
@@ -25915,17 +26607,6 @@
     "country": "Canada",
     "category": "Arts",
     "subCategory": "Aquariums",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Dallas Fort Worth International Airport (DFW)",
-    "id": "44d9ff60f964a5208b361fe3",
-    "city": "Grapevine",
-    "state": "TX",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "Airports",
     "firstVisit": true,
     "count": 1
   },
@@ -26791,7 +27472,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Karaoke Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -27555,8 +28236,7 @@
     "venue": "Warner Bros Property Department",
     "id": "4e7222e618386773434797cd",
     "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Structures",
+    "category": "Rental Services",
     "firstVisit": true,
     "count": 1
   },
@@ -27764,7 +28444,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Cocktail Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -27874,11 +28554,11 @@
     "count": 1
   },
   {
-    "venue": "haldirams",
+    "venue": "Haldiram's",
     "id": "4fa100a5e4b0e6e21234f0f4",
     "country": "India",
     "category": "Food",
-    "subCategory": "Indian Restaurants",
+    "subCategory": "Indian Sweet Shops",
     "firstVisit": true,
     "count": 1
   },
@@ -27954,13 +28634,13 @@
     "count": 1
   },
   {
-    "venue": "Cafe Coffee Day",
+    "venue": "Café Coffee Day",
     "id": "4e109eece4cdef074b6c1bae",
     "city": "Udaipur",
     "state": "Rājasthān",
     "country": "India",
     "category": "Coffee",
-    "subCategory": "Cafés",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 1
   },
@@ -27989,6 +28669,8 @@
   {
     "venue": "The Celebration Bakery",
     "id": "537cc0a8498e1fc22ab0b6e0",
+    "city": "Udaipur",
+    "state": "Rājasthān",
     "country": "India",
     "category": "Shopping",
     "subCategory": "Chocolate Stores",
@@ -28007,13 +28689,13 @@
     "count": 1
   },
   {
-    "venue": "Haldiram Pick N' Fly",
+    "venue": "Haldiram's",
     "id": "4f00433c0aaffcf6f4d54e71",
     "city": "New Delhi",
     "state": "Delhi",
     "country": "India",
-    "category": "Shopping",
-    "subCategory": "Gourmet Stores",
+    "category": "Food",
+    "subCategory": "Indian Sweet Shops",
     "firstVisit": true,
     "count": 1
   },
@@ -28680,7 +29362,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Shopping",
-    "subCategory": "Grocery Stores",
+    "subCategory": "Supermarkets",
     "firstVisit": true,
     "count": 1
   },
@@ -29031,7 +29713,8 @@
     "city": "Sheet Harbour",
     "state": "NS",
     "country": "Canada",
-    "category": "",
+    "category": "Travel",
+    "subCategory": "Hotels",
     "firstVisit": true,
     "count": 1
   },
@@ -29108,7 +29791,7 @@
     "state": "QC",
     "country": "Canada",
     "category": "Travel",
-    "subCategory": "Airports",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 1
   },
@@ -29410,7 +30093,7 @@
     "count": 1
   },
   {
-    "venue": "peirce island",
+    "venue": "Peirce Island",
     "id": "5161bc8ee4b0e63c7c0548b9",
     "city": "Portsmouth",
     "state": "NH",
@@ -29674,17 +30357,6 @@
     "count": 1
   },
   {
-    "venue": "Garden Creamery",
-    "id": "589d125b005a0f47b970b12b",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Dessert",
-    "subCategory": "Ice Cream Parlors",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Luke's Local",
     "id": "5862bd8318384c42bf37c531",
     "city": "San Francisco",
@@ -29758,17 +30430,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Stables",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Hinodeya Ramen Bar",
-    "id": "583638538d8e9962925c86fe",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Ramen Restaurants",
     "firstVisit": true,
     "count": 1
   },
@@ -30440,17 +31101,6 @@
     "count": 1
   },
   {
-    "venue": "Hidden Garden Mosaic Steps",
-    "id": "52a38acd11d22e4bcf139e4a",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Public Art",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "People’s Bistro",
     "id": "5a792bda4acb191b0e734355",
     "city": "San Francisco",
@@ -30480,17 +31130,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Breakfast Spots",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Butter Love Bakeshop",
-    "id": "569d3be5498eb5f352825fd1",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
     "firstVisit": true,
     "count": 1
   },
@@ -31137,17 +31776,6 @@
     "count": 1
   },
   {
-    "venue": "Civic Center Plaza",
-    "id": "4479e402f964a520db331fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Plazas",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Southwest Airlines Check-in",
     "id": "4bf9f3458d30d13a3f100318",
     "city": "San Francisco",
@@ -31670,7 +32298,8 @@
     "city": "Bolinas",
     "state": "CA",
     "country": "United States",
-    "category": "",
+    "category": "Travel",
+    "subCategory": "Roads",
     "firstVisit": true,
     "count": 1
   },
@@ -31963,7 +32592,7 @@
   {
     "venue": "Rice Works",
     "id": "52f68e1b498e78f8b8cfac5b",
-    "city": "Boise",
+    "city": "Meridian",
     "state": "ID",
     "country": "United States",
     "category": "Food",
@@ -32300,7 +32929,7 @@
     "count": 1
   },
   {
-    "venue": "Mod Pizza",
+    "venue": "MOD Pizza",
     "id": "4fcfaad0e4b056ec4bd0d157",
     "city": "Seattle",
     "state": "WA",
@@ -32425,8 +33054,7 @@
     "city": "Seattle",
     "state": "WA",
     "country": "United States",
-    "category": "Travel",
-    "subCategory": "Boat or Ferries",
+    "category": "Boats or Ferries",
     "firstVisit": true,
     "count": 1
   },
@@ -32601,7 +33229,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Food",
-    "subCategory": "Latin American Restaurants",
+    "subCategory": "Puerto Rican Restaurants",
     "firstVisit": true,
     "count": 1
   },
@@ -32854,7 +33482,7 @@
     "state": "NY",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Pubs",
     "firstVisit": true,
     "count": 1
   },
@@ -33074,7 +33702,7 @@
     "state": "MD",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Dive Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -33581,7 +34209,7 @@
     "count": 1
   },
   {
-    "venue": "The Friendly Toast Bedford",
+    "venue": "The Friendly Toast",
     "id": "5cc3157e5d891b002c4a0edf",
     "city": "Bedford",
     "state": "NH",
@@ -33663,8 +34291,8 @@
     "city": "New York",
     "state": "NY",
     "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Cafés",
+    "category": "Food",
+    "subCategory": "Vegan and Vegetarian Restaurants",
     "firstVisit": true,
     "count": 1
   },
@@ -33977,17 +34605,6 @@
     "count": 1
   },
   {
-    "venue": "b. on the go",
-    "id": "55765667498e2a6bb9f00cb9",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bakeries",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Elliot Hospital Urgent Care",
     "id": "4df927dca809fe774220ed6a",
     "city": "Manchester",
@@ -34116,17 +34733,6 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Wine Stores",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Bob's On Baker",
-    "id": "5cfaf1b2f5e9d7002c841369",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Dessert",
-    "subCategory": "Donut Shops",
     "firstVisit": true,
     "count": 1
   },
@@ -34438,28 +35044,6 @@
     "count": 1
   },
   {
-    "venue": "Horsefeather",
-    "id": "5705d56b498ec5d32113620c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Nightlife",
-    "subCategory": "Cocktail Bars",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Bun Mee",
-    "id": "5d3383732010d6000872ec96",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Asian Restaurants",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Berry Good Farm",
     "id": "4c4c53eb9c8d2d7f6075426c",
     "city": "Goffstown",
@@ -34543,7 +35127,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Beer Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -34636,28 +35220,6 @@
     "count": 1
   },
   {
-    "venue": "Toy Boat By Jane",
-    "id": "473b4138f964a5205a4c1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Dessert",
-    "subCategory": "Ice Cream Parlors",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "XFINITY Store by Comcast",
-    "id": "570db246498e845aebd6cd81",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Work",
-    "subCategory": "Business Services",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "New Santa Clara Market",
     "id": "4b510d90f964a520c73f27e3",
     "city": "San Francisco",
@@ -34698,28 +35260,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Dog Parks",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Altman Siegel Gallery",
-    "id": "59e10d5af4b5250d907e166c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Art Galleries",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Minnesota Street Projects Gallery",
-    "id": "569f00f938faf971e4fca795",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Art Galleries",
     "firstVisit": true,
     "count": 1
   },
@@ -35188,17 +35728,6 @@
     "count": 1
   },
   {
-    "venue": "Daiso Japan",
-    "id": "4a7cdbaff964a520e1ed1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Discount Stores",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Ike's Sandwiches",
     "id": "5914e8fae1f0aa603aa3c369",
     "city": "San Francisco",
@@ -35529,16 +36058,6 @@
     "count": 1
   },
   {
-    "venue": "FedEx Office Print & Ship Center",
-    "id": "4b18291ef964a5200bce23e3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shipping, Freight, and Material Transportation Services",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Rise And Grind Coffee & Tea",
     "id": "5e35d40972ac420008cf5b76",
     "city": "San Francisco",
@@ -35703,7 +36222,7 @@
     "count": 1
   },
   {
-    "venue": "aesthetic union",
+    "venue": "The Aesthetic Union",
     "id": "52a140f311d27e68acd8551c",
     "city": "San Francisco",
     "state": "CA",
@@ -35844,7 +36363,7 @@
     "count": 1
   },
   {
-    "venue": "Assembly",
+    "venue": "Assembly Cafe & Beer Garden",
     "id": "620e7edf1d6ad650a97e2ea1",
     "city": "San Francisco",
     "state": "CA",
@@ -35884,17 +36403,6 @@
     "country": "United States",
     "category": "Locale",
     "subCategory": "Neighborhoods",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Panhandle Playground",
-    "id": "5e23510604a74d00088ada9a",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Playgrounds",
     "firstVisit": true,
     "count": 1
   },
@@ -35985,7 +36493,7 @@
     "count": 1
   },
   {
-    "venue": "Club Fugazi",
+    "venue": "Club Fugazi Experiences",
     "id": "445c9f00f964a520ef321fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -36014,17 +36522,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Bakeries",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Gray Area Art & Technology Theater",
-    "id": "535312a1498e917205ca7ee0",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Performing Arts Venues",
     "firstVisit": true,
     "count": 1
   },
@@ -36091,17 +36588,6 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Cafés",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Topdrawer",
-    "id": "5946fdcd42d8c2427021058b",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Fashion Accessories Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -36179,17 +36665,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Tennis Courts",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Super Duper Burgers",
-    "id": "4bc38e68abf49521beedc393",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Burger Joints",
     "firstVisit": true,
     "count": 1
   },
@@ -36393,11 +36868,11 @@
   {
     "venue": "Joshua Tree Saloon",
     "id": "4cf6f5d655e137047a04d0b6",
-    "city": "Twentynine Palms",
+    "city": "Joshua Tree",
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Sports Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -36583,7 +37058,7 @@
     "state": "AZ",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Dive Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -36741,13 +37216,13 @@
     "count": 1
   },
   {
-    "venue": "wooden tooth records",
+    "venue": "Wooden Tooth Records",
     "id": "55c39bf5498ec4f54479d2a6",
     "city": "Tucson",
     "state": "AZ",
     "country": "United States",
     "category": "Shopping",
-    "subCategory": "Music Stores",
+    "subCategory": "Record Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -36769,7 +37244,7 @@
     "state": "AZ",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Cocktail Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -36916,17 +37391,6 @@
     "count": 1
   },
   {
-    "venue": "Costco",
-    "id": "43945018f964a5207f2b1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Warehouse or Wholesale Stores",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "San Francisco Botanical Garden",
     "id": "49daa91af964a5209f5e1fe3",
     "city": "San Francisco",
@@ -36967,30 +37431,6 @@
     "country": "United States",
     "category": "Dessert",
     "subCategory": "Ice Cream Parlors",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Starbelly",
-    "id": "4a789bbbf964a52004e61fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "New American Restaurants",
-    "firstVisit": true,
-    "dateSpot": true,
-    "comments": "Cali-style pizzas",
-    "count": 1
-  },
-  {
-    "venue": "Cliff's Variety",
-    "id": "49f78dcff964a520b46c1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Hardware Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -37271,17 +37711,6 @@
     "count": 1
   },
   {
-    "venue": "Currier Museum of Art",
-    "id": "4b117edef964a520cf7d23e3",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Art Museums",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Candia Road Brewing",
     "id": "4d0d4667d515236a3f610c4b",
     "city": "Manchester",
@@ -37300,17 +37729,6 @@
     "country": "United States",
     "category": "Arts",
     "subCategory": "Mini Golf Courses",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Restoration Cafe",
-    "id": "58e2996f5e789619b50caa50",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Cafés",
     "firstVisit": true,
     "count": 1
   },
@@ -37392,17 +37810,6 @@
     "count": 1
   },
   {
-    "venue": "Sidewalk Juice",
-    "id": "5f49c1f434751e12b21e749d",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Juice Bars",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "San Francisco Eye Institute",
     "id": "5a85f48ea2c00b33c0d85f36",
     "city": "San Francisco",
@@ -37437,7 +37844,7 @@
     "count": 1
   },
   {
-    "venue": "Tea And Others",
+    "venue": "Tea & Others",
     "id": "5dbdfad5e60e5d0009e0e56a",
     "city": "San Francisco",
     "state": "CA",
@@ -37932,17 +38339,6 @@
     "count": 1
   },
   {
-    "venue": "Castro Farmers' Market",
-    "id": "49f8deb6f964a520306d1fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Farmers Markets",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Arepas Latin Cuisine",
     "id": "6307f2fbe6106d5206941589",
     "city": "San Francisco",
@@ -37961,17 +38357,6 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Organic Groceries",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "il Casaro Pizzeria & Mozzarella Bar",
-    "id": "596aaec4c0af5755e55271df",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Pizzerias",
     "firstVisit": true,
     "count": 1
   },
@@ -38037,17 +38422,6 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Flower Stores",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Walgreens",
-    "id": "4b4ced13f964a52082c426e3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Pharmacies",
     "firstVisit": true,
     "count": 1
   },
@@ -38206,17 +38580,6 @@
     "count": 1
   },
   {
-    "venue": "Hometown Coffee Roasters",
-    "id": "5feb637014d53c1e120352ce",
-    "city": "Manchester",
-    "state": "NH",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Coffee Roasters",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "The Works",
     "id": "4b6ef6d1f964a5208fd32ce3",
     "city": "Keene",
@@ -38316,17 +38679,6 @@
     "count": 1
   },
   {
-    "venue": "B.Good",
-    "id": "5e580aeb9a3b050008094147",
-    "city": "Boston",
-    "state": "MA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Salad Restaurants",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Hosfelt Gallery",
     "id": "4aaeb2bbf964a520f66220e3",
     "city": "San Francisco",
@@ -38334,17 +38686,6 @@
     "country": "United States",
     "category": "Arts",
     "subCategory": "Art Galleries",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "EQ3 San Francisco",
-    "id": "538a1eaa498ef492b7c4c9f8",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Furniture and Home Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -38696,7 +39037,7 @@
     "state": "CA",
     "country": "United States",
     "category": "Nightlife",
-    "subCategory": "Gay Bars",
+    "subCategory": "Cocktail Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -39175,7 +39516,7 @@
   {
     "venue": "Pirámide del Sol",
     "id": "4bfb8fec8f32ef3bcc1e05aa",
-    "city": "Teotihuacán de Arista",
+    "city": "San Juan Teotihuacán de Arista",
     "state": "México",
     "country": "Mexico",
     "category": "Outdoors",
@@ -39186,7 +39527,7 @@
   {
     "venue": "Museo de la Cultura Teotihuacana",
     "id": "4ed69c4ae300234fec5edac6",
-    "city": "San Juan Teotihuacán",
+    "city": "San Juan Teotihuacán de Arista",
     "state": "México",
     "country": "Mexico",
     "category": "Arts",
@@ -39608,7 +39949,7 @@
   {
     "venue": "Anthropology Museum of México (Museo Nacional de Antropología)",
     "id": "4bedd3941059d13a02f351d8",
-    "city": "Miguel Hidalgo",
+    "city": "Mexico City",
     "state": "Mexico City",
     "country": "Mexico",
     "category": "Arts",
@@ -39755,7 +40096,7 @@
     "state": "Mexico City",
     "country": "Mexico",
     "category": "Nightlife",
-    "subCategory": "Bars",
+    "subCategory": "Whisky Bars",
     "firstVisit": true,
     "count": 1
   },
@@ -39816,7 +40157,7 @@
   {
     "venue": "Museo Frida Kahlo",
     "id": "4bccb069b6c49c7468349491",
-    "city": "Coyoacán",
+    "city": "Mexico City",
     "state": "Mexico City",
     "country": "Mexico",
     "category": "Arts",
@@ -39930,17 +40271,6 @@
     "country": "United States",
     "category": "Food",
     "subCategory": "Dim Sum Restaurants",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Mangrove Thai Kitchen",
-    "id": "5b402de3835c9a002c478c7c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Thai Restaurants",
     "firstVisit": true,
     "count": 1
   },
@@ -40361,31 +40691,6 @@
     "count": 1
   },
   {
-    "venue": "Baia",
-    "id": "5f12638b861e253754a51b63",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Vegan and Vegetarian Restaurants",
-    "firstVisit": true,
-    "dateSpot": true,
-    "wouldTakeVisitors": true,
-    "comments": "#fave italian",
-    "count": 1
-  },
-  {
-    "venue": "TANTRUM",
-    "id": "57095833cd100e461767c68c",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Toy Stores",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Genki Crepes",
     "id": "42829c80f964a52020221fe3",
     "city": "San Francisco",
@@ -40404,17 +40709,6 @@
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Bookstores",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Burma Superstar",
-    "id": "42cc7080f964a520e7251fe3",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Burmese Restaurants",
     "firstVisit": true,
     "count": 1
   },
@@ -40561,17 +40855,6 @@
     "count": 1
   },
   {
-    "venue": "Copra",
-    "id": "63f2f0e7d8d011760af70ed5",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Indian Restaurants",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "ABV",
     "id": "53bb6967498e740fe2ec711e",
     "city": "San Francisco",
@@ -40583,30 +40866,7 @@
     "count": 1
   },
   {
-    "venue": "Beit Rima",
-    "id": "5c48ef89a6ec98002c7d63cd",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Middle Eastern Restaurants",
-    "firstVisit": true,
-    "comments": "#fave middle eastern",
-    "count": 1
-  },
-  {
-    "venue": "The Drawing Room",
-    "id": "6205782748244657c9600e4b",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Arts",
-    "subCategory": "Art Galleries",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Diamond Coffee n Pastry",
+    "venue": "Diamond Coffee N Pastry",
     "id": "62180364de8556236f4e5fc1",
     "city": "San Francisco",
     "state": "CA",
@@ -40635,17 +40895,6 @@
     "country": "United States",
     "category": "Locale",
     "subCategory": "Neighborhoods",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "SF76",
-    "id": "61c514a7643b1d1999f889b9",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Gift Stores",
     "firstVisit": true,
     "count": 1
   },
@@ -40781,17 +41030,6 @@
     "count": 1
   },
   {
-    "venue": "Van Ness Campus Medical Office Building",
-    "id": "5d28fa5ba0b7830024e8729a",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Services",
-    "subCategory": "Medical Centers",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "CGV Cinema",
     "id": "61456f4f74b1594285d537fc",
     "city": "San Francisco",
@@ -40851,17 +41089,6 @@
   {
     "venue": "Zero&",
     "id": "62b8b076170e211357b9c435",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Bubble Tea Shops",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
-    "venue": "Urban Ritual",
-    "id": "5aecc94a67e5f2002c35e3a3",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
@@ -41146,7 +41373,7 @@
     "count": 1
   },
   {
-    "venue": "Joshua Tree",
+    "venue": "Joshua Tree Cafe",
     "id": "5e63bd5e0b66dc00082b5feb",
     "city": "Athens",
     "state": "Attica",
@@ -41331,8 +41558,8 @@
   {
     "venue": "University of al-Qarawiyyin / جامعة القرويين",
     "id": "4ea5716fd5fb57c09e6cf0e5",
-    "city": "Fès",
-    "state": "Région de Fès-Boulemane",
+    "city": "Fes",
+    "state": "Fès-Meknès",
     "country": "Morocco",
     "category": "Mosques",
     "firstVisit": true,
@@ -41419,7 +41646,7 @@
     "venue": "Tombeaux Des Merinides",
     "id": "522ddac311d203fd9c48a72c",
     "city": "Fès",
-    "state": "Région de Fès-Boulemane",
+    "state": "Fès-Meknès",
     "country": "Morocco",
     "category": "Outdoors",
     "subCategory": "Historic and Protected Sites",
@@ -41515,24 +41742,1899 @@
     "count": 1
   },
   {
-    "venue": "Sutter Health Medical Building",
-    "id": "4ba7d328f964a520a9b639e3",
+    "venue": "The Bite",
+    "id": "61200f4f2762f223dfc42061",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
-    "category": "Services",
-    "subCategory": "Medical Centers",
+    "category": "Food",
+    "subCategory": "Mediterranean Restaurants",
     "firstVisit": true,
     "count": 1
   },
   {
-    "venue": "Room & Board",
-    "id": "44fabff6f964a52078381fe3",
+    "venue": "Capitol Kia",
+    "id": "4d780181a32ca1cdebbe23db",
+    "city": "San Jose",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Car Dealerships",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Fort Point",
+    "id": "569706a6498ef01aa423a6b2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Beer Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Caffe Acri",
+    "id": "49faa728f964a5200a6e1fe3",
+    "city": "Tiburon",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Angel Island State Park",
+    "id": "4a6b7ec3f964a520c7ce1fe3",
+    "city": "Tiburon",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "State or Provincial Parks",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Amy’s Drive Thru",
+    "id": "5f24d53dd0fae643e114d7d2",
+    "city": "Corte Madera",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vegan and Vegetarian Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Beach’n",
+    "id": "61e5a36f415bdc4971a69089",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Breakfast Spots",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Black Bird Bookstore",
+    "id": "593d9dcd1c0b3415efd0b3ee",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Bookstores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Wing Wings",
+    "id": "4dd8374fe4cd37c893c0483d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Wings Joints",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Arion Press",
+    "id": "4ada9069f964a520872321e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Art Galleries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Glen Ellen Star",
+    "id": "4fbdd0dee4b0fb79ac536ec4",
+    "city": "Glen Ellen",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "American Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Cafe Scooteria",
+    "id": "4ece9049722e01c58039ad58",
+    "city": "Sonoma",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mountain Lake Playground",
+    "id": "596bd5da178a2a45a76551ea",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Playgrounds",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Minamoto Kitchoan",
+    "id": "4a9845bcf964a520462b20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Wagashi Places",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Dolores Park Cafe",
+    "id": "620400e39f8e83233d2f7a09",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Last Call Baking Co.",
+    "id": "637636d4449d26332f72e472",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "June Coffee",
+    "id": "629b8b5d3fac197a2d133d05",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Vulcan Park and Museum",
+    "id": "4b86310ff964a5203a8231e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Scenic Lookouts",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Surin West",
+    "id": "4aecd9cff964a520c5cb21e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Thai Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Innovation Depot",
+    "id": "4acd1768f964a520d1ca20e3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Work",
+    "subCategory": "Offices",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mountain Brook High School",
+    "id": "4b7c8b22f964a520fe992fe3",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Education",
+    "subCategory": "High Schools",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Alabama Veterans Memorial Park",
+    "id": "4c8d41d75e38b1f77db738f9",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Doodle's",
+    "id": "5556a2b7498ee6526b4d87e3",
+    "city": "Vestavia Hills",
+    "state": "AL",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Ice Cream Parlors",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Bandit Pâtisserie",
+    "id": "5dbcd176d8fcdc0008b49a7b",
+    "city": "Homewood",
+    "state": "AL",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Verner Elementary",
+    "id": "4cbd9a0043ec6dcbc8d8b731",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "category": "Education",
+    "subCategory": "Elementary Schools",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Ferguson Center",
+    "id": "4b4405b6f964a52050f025e3",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "category": "Education",
+    "subCategory": "Student Centers",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "University of Alabama",
+    "id": "4b4b2eeef964a520ec9326e3",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "category": "Education",
+    "subCategory": "Universities",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Amelia Gayle Gorgas Library",
+    "id": "4b4404c7f964a52046f025e3",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "category": "College Libraries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Glory Bound Gyro Company",
+    "id": "5e558e63b03c4000084d5676",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Greek Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Willy's Mexicana Grill",
+    "id": "51490b36e4b04b3b28db0a14",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Burrito Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Yankee Lanes Manchester",
+    "id": "631fc1c4517dc408c2411faa",
+    "city": "Manchester",
+    "state": "3103",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Bowling Alleys",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Stark Park",
+    "id": "4bb76df92ea1952114e8ac2f",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Pressed Cafe",
+    "id": "6227a42bef063d2f3ed2a47b",
+    "city": "Bedford",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Kitchen On River Rd",
+    "id": "500ef13ae4b0302f937d812b",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Annapurna Curry & Sekuwa House",
+    "id": "6025807dc6dae50fbe42fa85",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Indian Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Thai Food Connection",
+    "id": "60ba703bd39e4a5e32934e38",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Thai Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Fort Point Valencia",
+    "id": "5d97e56255833e00081bbc8a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Beer Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Birdsong",
+    "id": "5ae925e7c0f163002cc57349",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Los Altos Golf & Country Club",
+    "id": "4af5be0cf964a52030fc21e3",
+    "city": "Los Altos",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Golf Courses",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "IKEA",
+    "id": "4a280b4ff964a520ec941fe3",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Bangkok House Thai Noodles",
+    "id": "60ebac7ce6479c61226069aa",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Thai Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Post Script",
+    "id": "5dc6fbb1846bda00083cd3a8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Stationery Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Johnny Doughnuts",
+    "id": "63584478bf48b239ad181b55",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Donut Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sprout",
+    "id": "550e16f5498e0d328ddbbe82",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Baby Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Oakland International Airport (OAK)",
+    "id": "4493522af964a5207c341fe3",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "International Airports",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Enterprise Rent-A-Car",
+    "id": "4fb57148e4b0ba724f743508",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Rental Car Locations",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Fox Rent A Car",
+    "id": "4d264f0dfb8e5941f16d4a54",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Rental Car Locations",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "North Bend Bar and Grill",
+    "id": "4a39d1e6f964a520bd9f1fe3",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Friends & Co Ice Cream",
+    "id": "647150bf1874f03d322649ce",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Ice Cream Parlors",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Arête",
+    "id": "621a781aa9596e4f9a1a3f6c",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Pressed On Main",
+    "id": "644d6e118e5bd2381d504b8c",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Juice Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Unphogettable",
+    "id": "5895429644587f122a8d9489",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Vietnamese Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Rio Bravo",
+    "id": "562a873e498e2cb9d533c37f",
+    "city": "North Bend",
+    "state": "WA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "SeaTac Rental Car Facility",
+    "id": "4f3d14cae4b075aab234a240",
+    "city": "SeaTac",
+    "state": "WA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Rental Car Locations",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Tunnel Records + Beach Goods",
+    "id": "5926282ff79faa1c65ded51c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Record Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Harlan Records",
+    "id": "63327726b0a744036eab3e26",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Cocktail Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Home Depot",
+    "id": "4a9206e2f964a520a11c20e3",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Hardware Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Manna",
+    "id": "4e0a83f41495b12d82382c71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Korean Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "wonderful",
+    "id": "5351cf33498ee6e6ce02f17a",
+    "city": "Millbrae",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Hunan Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Andytown Roastery, Training Lab & Coffee Supply",
+    "id": "58b76a25fc5a5f1dcd7b248d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Rooster & Rice",
+    "id": "5f5191cb88944a58b574419d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Thai Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "UNIQLO",
+    "id": "526179bf498eb25d6da4a00f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Clothing Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sports Basement",
+    "id": "60f0b19ff29b796e2af6e03e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Sporting Goods Retail",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Matcha Cafe Maiko",
+    "id": "5d33677a8b4b410008ffc8b6",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Dessert Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Ike's Sandwiches",
+    "id": "5c97ef9add70c5002c067c18",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Sandwich Spots",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Corner Bakery Cafe",
+    "id": "5253750e498eadd8fc65af52",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Izzy's Brooklyn Bagels",
+    "id": "49bbe9c7f964a520f9531fe3",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bagel Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Target",
+    "id": "49e3a16af964a520a4621fe3",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Big Box Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Stanford University Bookstore",
+    "id": "4b16c263f964a5200dbd23e3",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "United States",
+    "category": "College Bookstores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Coupa Café at Y2E2",
+    "id": "4a568089f964a5204ab51fe3",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "dao ruang thai massage",
+    "id": "557ce488498ea1484f2a6f19",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Massage Clinics",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Joodooboo",
+    "id": "61e9efa912e6797b66fce1bb",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Korean Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Nido’s Backyard",
+    "id": "5d4a3477f583f0000832f188",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Ain’t Normal Cafe",
+    "id": "5f94487156b6a04d7e975eda",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Pinsa Rossa",
+    "id": "635ef0b2fe7dab34dac36c6c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Italian Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Salt & Straw",
+    "id": "58ec10b1fbe8ff51800668de",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Ice Cream Parlors",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sikdang Woori",
+    "id": "64d297841144cd676e072069",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Korean Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Laundromat SF",
+    "id": "63656ca45598da06d058388f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bagel Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Lemos Farm",
+    "id": "4a653739f964a52076c71fe3",
+    "city": "Half Moon Bay",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Farms",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sam's Chowder House",
+    "id": "4a9ac62df964a5209c3220e3",
+    "city": "Half Moon Bay",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Seafood Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Costco Wholesale",
+    "id": "4838dba9f964a520fd4f1fe3",
+    "city": "Redwood City",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Warehouse or Wholesale Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Wood Thumb",
+    "id": "62e87794f6cee957c88acc4b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Arts and Crafts Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mr. Charlie’s",
+    "id": "63c1ce8df0eadf30529b5a5a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Burger Joints",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Blu Dot",
+    "id": "61f6fe7fc82c7360d1f2cf36",
     "city": "San Francisco",
     "state": "CA",
     "country": "United States",
     "category": "Shopping",
     "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Taqueria El Farolito",
+    "id": "44ff5a91f964a520a5381fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Blue Bottle Coffee",
+    "id": "5d98ecd089c988000722acd9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Baklavastory",
+    "id": "632de7fa2f5dc66afe39b7ed",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Dessert",
+    "subCategory": "Dessert Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Isleton Coffee Company",
+    "id": "650f53c60280de2f992ef188",
+    "city": "Isleton",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Hideout",
+    "id": "51e575d2498e7d226a4b6a88",
+    "state": "California",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Resorts",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Chevron",
+    "id": "63e0797d33df527db0b307e3",
+    "city": "Lodi",
+    "state": "CA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Fuel Stations",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sloat Garden Center",
+    "id": "4a7ddac2f964a520e9ef1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Garden Centers",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Shake Shack",
+    "id": "5de831b331b8af00082fd453",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Burger Joints",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Stoa",
+    "id": "636807b63608ba6a22d2e6d0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Cocktail Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Westbrae Nursery",
+    "id": "4b8584edf964a5200f6331e3",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Garden Centers",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Timeless Coffee",
+    "id": "59cd710bdb1d811e2258f1dc",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Purple Rice",
+    "id": "5d6697e5a9fbd900087136b1",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Korean Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "CPMC Birth Center, Van Ness Campus",
+    "id": "5b6b179d531593002c8a3485",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Hospitals",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Earth Tone Cafe",
+    "id": "635d864c7ece0a56874783a0",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Walgreens",
+    "id": "49db7bb2f964a520d45e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Pharmacies",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Office of Vital Records",
+    "id": "4b8be516f964a52009b132e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Government Buildings",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Target",
+    "id": "5964f774fdb9a71e1085d5b7",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Big Box Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Barry's Bootcamp",
+    "id": "56758f43498e50c50235bc4e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Gym and Studios",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Jeong’s K-Food: Danny’s Kitchen",
+    "id": "61be7e5bc6a0c349ad094d14",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Korean Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Paris Baguette",
+    "id": "60fd01fe0c80687c034773c5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Bi-Rite Market",
+    "id": "47f64f56f964a520a94e1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Paper Tree",
+    "id": "4bedca332c082d7f52802f42",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Office Supply Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "New India Bazaar",
+    "id": "4b9d5f17f964a52098a736e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Shell",
+    "id": "4bd48c1e4e32d13a6f58bf80",
+    "city": "South San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Fuel Stations",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Little Star Pizza",
+    "id": "4537f9daf964a520c73b1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Pizzerias",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "de Young Café",
+    "id": "4cdd9a967e2e236aa7eb791b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Rose Indian Cuisine",
+    "id": "5dca33adc585ac00088b13e4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Indian Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Pacific Pediatrics",
+    "id": "4be06221652b0f4760417211",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Doctor's Offices",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Paula's Cafe",
+    "id": "5dd21f2c5912f200086b3fec",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Office Depot",
+    "id": "5aa2a760f00a705bbd53f9dd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Office Supply Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Worknesh Ethiopia",
+    "id": "6104191f71612f0fe7484202",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Day Moon",
+    "id": "63fbb4d4a974656fd7d77ddd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Moraga Steps",
+    "id": "5f0b7f1cde8d001b7ed8d354",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Parks",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mandalay",
+    "id": "3fd66200f964a520feec1ee3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Burmese Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "High Horse",
+    "id": "607b5c03866a3f2f9003efa4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "New American Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "US Post Office",
+    "id": "4afb9249f964a520a91e22e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Post Offices",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "AP’s Cafe",
+    "id": "5d2a26093f9ff700232e131a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Hilda and Jesse",
+    "id": "6180a9f3461b1e7f7febddf5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Breakfast Spots",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Flax Art & Design",
+    "id": "563e5133cd10e4161e9ec69e",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Arts and Crafts Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Fort Mason Community Garden",
+    "id": "4b6ded11f964a5205d9c2ce3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Outdoors",
+    "subCategory": "Gardens",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mixt",
+    "id": "59bc137d112c6c50700a6dcd",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Salad Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Foggy Notion",
+    "id": "4ee16fde490152e4bc456621",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Arts and Crafts Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "pasta supply co",
+    "id": "6421002f7872b24c5b8e7c7b",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Italian Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "JHW Locksmith",
+    "id": "4ae1fc59f964a520718921e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Services",
+    "subCategory": "Locksmiths",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "SFO Airtrain Station - Long Term Parking",
+    "id": "6106a6beb29040498c015a81",
+    "city": "South San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Airport Tram Stations",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Cala Coffee",
+    "id": "652ae9e10fc4244757ea093c",
+    "city": "Vestavia Hills",
+    "state": "AL",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "O Sushi",
+    "id": "4d1cddf64ff98cfad3a8bf3e",
+    "city": "Hoover",
+    "state": "AL",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Sushi Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Burger King",
+    "id": "64e0f4db3dccbe7c0038cb87",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Fast Food Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Red Mango",
+    "id": "57c5f25c498ee41928923faa",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "United States",
+    "category": "Snack Places",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Studio Montessori",
+    "id": "5d01b4403c858d002c2e1b52",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Education",
+    "subCategory": "Preschools",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Namaste Plaza Supermarket",
+    "id": "4a9ad9e2f964a520273320e3",
+    "city": "Belmont",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Mission Montessori",
+    "id": "5da0abe01ebd700008209749",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Education",
+    "subCategory": "Education",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Aditi Indian Cuisine",
+    "id": "5d4cee1e1ffb840008a0085d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Indian Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Indian Spices & Groceries",
+    "id": "5d244cbf8367cf00239a09b9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Organic Groceries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Internet Archive",
+    "id": "4add18c8f964a520066421e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Libraries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Refuge",
+    "id": "60e3666b54c46f6804b89922",
+    "city": "San Mateo",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Gastropubs",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Ikea Swedish Deli",
+    "id": "64e664469c7f12321730f744",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Yayoi Kusama: Infinite Love",
+    "id": "651742e3a9f390565c83a196",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Exhibits",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "GoCar GPS-Guided Tours",
+    "id": "4d1e56e286e15481a2aea83a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "Tour Providers",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "IT'SUGAR",
+    "id": "4fc98cd0e4b092e3b96eaf59",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Candy Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Hot Zushi",
+    "id": "5699bb8d498edccdae489a77",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Sushi Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sukhi's Gourmet Indian Foods",
+    "id": "4f8f1ae7e4b0b7b4695bbf26",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Food Trucks",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Cirque du Soleil",
+    "id": "65a8ab2302e71168b35a5059",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Circuses",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "RT Rotisserie",
+    "id": "5d62ea99ffec4e00078889cb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Precision Time Watch Repair",
+    "id": "4b69e672f964a52002bb2be3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Watch Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Little Munchkins",
+    "id": "65e89c7f5d969921a31bf5d8",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Daycares",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Landline",
+    "id": "658772542c8a36448fc39db7",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Sextant Coffee Roasters",
+    "id": "65db983fa99ed92e55d0fdaa",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "We Be Honey",
+    "id": "610ad9c331f1027096988ede",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Food Stands",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Working Girls’ Cafe",
+    "id": "49ff4721f964a520fe6f1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Sandwich Spots",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Bini's Kitchen",
+    "id": "5665ecf0498e7a56d5fd5e9d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Dumpling Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Outta Sight Pizza",
+    "id": "63179b969d89197d11ce737a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Pizzerias",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Kiehl's",
+    "id": "4aecd28bf964a52086cb21e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Cosmetics Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "The Coffee Berry",
+    "id": "64ca8475df6c6171dc993fad",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "US Post Office",
+    "id": "4bae456ef964a5204d9b3be3",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Post Offices",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Urban Remedy Mill Valley",
+    "id": "521a970c11d245d46bac7499",
+    "city": "Mill Valley",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Juice Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Aziza",
+    "id": "49eac9cef964a52099661fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Moroccan Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Fermentation Lab",
+    "id": "58901f9ce18e653095361b48",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Nightlife",
+    "subCategory": "Beer Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Great American Music Hall",
+    "id": "40e4a580f964a520f5091fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Rock Clubs",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Hokkaido Sashimi Marketplace",
+    "id": "655bedb1e22bd61505a38544",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Brooklinen",
+    "id": "621146d4ec81396d73331a10",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Furniture and Home Stores",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Pixlcat Coffee",
+    "id": "6430f5de11fd3b1c547c9d89",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Kahnfections",
+    "id": "590c7eaf356b492c77dd1be4",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Bakeries",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Chipotle Mexican Grill",
+    "id": "4a2077b8f964a5208c7c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Mexican Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Dumpling Union",
+    "id": "64167a474c73313090825d3c",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Dumpling Restaurants",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Café Josephine",
+    "id": "5a80b940e679bc0a6befccb9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Cafés",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Randall Museum",
+    "id": "49f62947f964a520146c1fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Museums",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Boochmania",
+    "id": "63a61f9a6eda5f50309eae5d",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Juice Bars",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Golden Goat Coffee",
+    "id": "5d55c15a30df3400088061c9",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 1
   }
