@@ -69,13 +69,13 @@ Jump to: <a href="#open-source">Open Source Projects</a>, <a href="#games">Games
   
   <div class="p-media-section">
     <div class="p-page">
-        <img class="p-img" src="/media/work/square-01.png" />
+        <img class="p-img" src="/media/work/square-01by.png" />
       <div class="p-caption">
         Examples of websites created with the editor.
       </div>
     </div> 
   <div class="p-page">
-      <img class="p-img" src="/media/work/square-02.png" />
+      <img class="p-img" src="/media/work/square-02y.png" />
       <div class="p-caption">
         The website editor UI, showing style options on the left and a preview on the right. The editor was built with the Orbit design system.
       </div>
@@ -100,10 +100,10 @@ Jump to: <a href="#open-source">Open Source Projects</a>, <a href="#games">Games
   
   <div class="p-media-section">
     <div class="p-page">
-      <img class="p-img" src="/media/work/weebly-01.png" />
+      <img class="p-img" src="/media/work/weebly-01y.png" />
     </div>
     <div class="p-page">
-      <img class="p-img" src="/media/work/weebly-02.png" />
+      <img class="p-img" src="/media/work/weebly-02y.png" />
       <div class="p-caption">
         Drag-and-drop editor
       </div>
@@ -131,7 +131,7 @@ Jump to: <a href="#open-source">Open Source Projects</a>, <a href="#games">Games
 
   <div class="p-media-section">
     <div class="p-page">
-        <img class="p-img" src="/media/work/getaround-01b.png" />
+        <img class="p-img" src="/media/work/getaround-01by.png" />
       <!-- <div class="p-caption">
         Lorem then ipsum.
       </div> -->
@@ -514,7 +514,7 @@ Jump to: <a href="#open-source">Open Source Projects</a>, <a href="#games">Games
 
 @media (min-width: 1400px) {
    .p-img {
-     width: 1024px;
+     width: 960px;
   }
 }
 
