@@ -169,6 +169,7 @@ p:first-of-type {
 
 strong {
   color: var(--color-bold);
+  font-weight: var(--weight-bold);
 }
 
 ul,
@@ -255,7 +256,7 @@ a.nav__item {
   padding: 0.65em 0.35em;
   margin-right: 0.5em;
   color: var(--nav-color);
-  border-radius: var(--radius);
+  /* border-radius: var(--radius); */
   /* font-size: 0.8333rem; */
   font-family: var(--font-ui);
   font-weight: var(--weight-semi-bold);

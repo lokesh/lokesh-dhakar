@@ -1,14 +1,15 @@
 :root {
-  --bg-color: #f9f9f9;
-  --recessed-bg-color: #e9e9e9;
+  --bg-color: #fff;
+  --recessed-bg-color: #f3f3f3;
   --hover-bg-color: #e9e9e9;
 
-  --color: #000; /* body text */
+  --color: #333; /* body text */
   --color-bold: #000; /* headings and bold text */
 
   --primary-color: #005EF8;
   --muted-color: #999;
   --faint-color:  #ccc;
+  --muted-on-recessed-color: #666;
 
   --link-color: var(--primary-color);
   --link-bg-color: transparent;
@@ -17,7 +18,7 @@
   --ui-color: var(--color-bold); /* For buttons and other non-link controls */
 
   --nav-color: var(--muted-color);
-  --nav-hover-color: var(--color)
+  --nav-hover-color: var(--color);
 
   /* Misc colors */
   --green: #58df82;
