@@ -5,6 +5,10 @@ To-do
 - Add some flash to the home page
 - Add captions to text
 
+Before launch
+- filesize review
+- pagespeed perf
+- a11y review
 
 
 
