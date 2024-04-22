@@ -12,22 +12,17 @@ pageWidth: full
 
 </div>
  -->
- <!-- <br /><br /><br /><br /><br /> -->
 
-<div class="section-heading">
+<!-- <div class="section-heading">
   <h1 class="section-title">Work</h1>
-
-<div style="max-width: 300px;">
-<p>A Software Engineer, and sometimes Designer, in San Francisco with 15+ years experience.</p>
-
-<p>Created the original <i>Lightbox</i> script many years ago.</p> 
-<!--Other open source projects include <i>Color Thief</i> and <i>Color Stacks</i>.--></p>
-
-<!-- <p>Next up, I'm looking at a department change and exploring Product Management roles.</p> -->
+</div> -->
+<div class="lead-section">
+  <div class="lead-paragraph">
+    <p>I'm a Software Engineer with design chops and 15+ years experience. I created the original <i>Lightbox</i> script many years ago and continue to contribute to open source. </p>
+  <!-- Other open source projects include <i>Color Thief</i> and <i>Color Stacks</i>. -->
+   <p>What's next? I'm looking at a department change, and exploring Product Management roles.</p>
+  </div>
 </div>
-
-</div>
-
 
 <div class="section-heading">
   <h1 class="section-title">Jobs</h1>
@@ -44,19 +39,12 @@ pageWidth: full
         <div class="p-subtitle">2018-2022</div>
       </div>
     </div>
-<p>Square offers a suite of hardware and software for businesses to manage sales, inventory, and back office tasks.</p>
-<p style="margin-bottom: 0.5rem;">Two areas I focused on:</p>
-<p><strong>1- Helping merchants translate their brand online.</strong> I worked on our website editor, specifically, features related to style elements: layout, typography, color, imagery, et al.</p>
+<p><!--Square offers a suite of hardware and software for businesses to manage sales, inventory, and back office tasks.--> I worked on the eCommerce team at Square and focused on the following areas:</p>
+<p><strong>1: Helping merchants translate their brand online.</strong> I worked on our website editor's features related to style elements: layout, typography, color, imagery, et al.</p>
 
-<p><strong>2- Orbit, a design system built in Vue.js.</strong> It is utilized in all eCommerce products. I was a major engineering contributor as well as a design contributor.</p>
+<p><strong>2: Orbit, a design system built in Vue.js.</strong> It is utilized in all eCommerce products. I was a major engineering contributor as well as a design contributor.</p>
 
-<!-- <ol>
-<li><strong>Helping merchants translate their brand online.</strong> I worked on our website editor, my focus was on areas related to style elements: layout, typography, color, imagery, et al.
-</li>
-<li><strong>Orbit, a design system built in Vue.js.</strong> It is utilized in all eCommerce products. I was a major engineering contributor as well as a design contributor.
-</li>
-</ol> -->
-<a href="https://square.online" class="p-action">View live</a>
+<a href="https://square.online/" class="p-action">View live</a>
 
   </div>
   <div class="p-media-section">
@@ -70,10 +58,10 @@ pageWidth: full
     </div>
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/square-02y.png" />
+        <img class="p-img" src="/media/work/square-02-framed.png" />
       </div>
       <div class="p-caption">
-        The website editor UI, showing style options on the left and a preview on the right. The editor was built with the Orbit design system.
+        The website editor UI, showing style options on the left and a preview on the right.
       </div>
     </div>       
   </div>
@@ -97,12 +85,15 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/weebly-01y.png" />
+        <img class="p-img" src="/media/work/weebly-01-framed.png" />
+      </div>
+      <div class="p-caption">
+        weebly.com homepage
       </div>
     </div>
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/weebly-02y.png" />
+        <img class="p-img" src="/media/work/weebly-02-framed.png" />
       </div>
       <div class="p-caption">
         Drag-and-drop editor
@@ -155,17 +146,15 @@ pageWidth: full
         <div class="p-subtitle">2015</div>
       </div>
     </div>
-    <p>Original JS library for overlaying images on top of the current page. Freeing you from the  constraints of the page layout and letting you show images at larger size. Lightbox introduced this new pattern to the web, which is now ubiquitous, and has become a generic term for overlaying content on a page.</p>
+    <p>Original Javascript library for overlaying images on top of the current page. Freeing you from the  constraints of the page layout and letting you show images at larger size. Lightbox introduced this new pattern to the web, which is now ubiquitous, and has become a generic term for overlaying content on a page.</p>
     <a href="https://lokeshdhakar.com/projects/lightbox2/" class="p-action">Demo and docs</a>
     <a href="https://github.com/lokesh/lightbox2" class="p-action">Github ★6k </a>
     <a href="https://en.wikipedia.org/wiki/Lightbox_(JavaScript)" class="p-action">Wikipedia</a>
   </div>
-
-
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/lightbox-03.png" />
+          <img class="p-img" src="/media/work/lightbox-01-framed.png" />
         </div>
         <div class="p-caption">
           Lightbox opened up with the first image of a series.
@@ -178,63 +167,133 @@ pageWidth: full
 <div class="p p-color-thief">
   <div class="p-info-section">
     <div class="p-header">
-      <!-- <img class="p-icon" src="/media/work/icon-getaround.png" /> -->
       <div class="p-title-bar">
         <div class="p-title">Color Thief</div>
         <div class="p-subtitle">Author and Maintainer</div>
         <div class="p-subtitle">2010</div>
       </div>
     </div>
-<p>JS library to extract color palettes from images, allowing for new techniques such as UIs that adapt their palette to an image.</p>
-    <a href="https://getaround.com" class="p-action">Demo and docs</a>
-    <a href="https://getaround.com" class="p-action">Github ★6k </a>
-    <a href="https://getaround.com" class="p-action">Wikipedia</a>
+<p>Javascript library to extract color palettes from images, allowing for new techniques such as UIs that adapt their palette to an image.</p>
+    <a href="https://lokeshdhakar.com/projects/color-thief/" class="p-action">Demo and docs</a>
+    <a href="https://github.com/lokesh/color-thief" class="p-action">Github ★12k </a>
   </div>
-
-
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
           <img class="p-img" src="/media/work/color-thief-01.png" />
         </div>
         <div class="p-caption">
-          Lightbox opened up with the first image of a series.
+          Three images and their extracted color palettes.
         </div>
     </div> 
   </div>
 </div>
 
-
-
 <div class="p p-color-stacks">
   <div class="p-info-section">
     <div class="p-header">
-      <!-- <img class="p-icon" src="/media/work/icon-getaround.png" /> -->
       <div class="p-title-bar">
         <div class="p-title">Color Stacks</div>
         <div class="p-subtitle">Creator and Maintainer</div>
         <div class="p-subtitle">2020</div>
       </div>
     </div>
-    <p>Original JS library for overlaying images on top of the current page. Freeing you from the  constraints of the page layout and letting you show images at larger size. Lightbox introduced this new pattern to the web, which is now ubiquitous, and has become a generic term for overlaying content on a page.</p>
-    <a href="https://getaround.com" class="p-action">Demo and docs</a>
-    <a href="https://getaround.com" class="p-action">Github ★6k </a>
-    <a href="https://getaround.com" class="p-action">Wikipedia</a>
+    <p>A color palette generator for design systems.</p>
+    <a href="https://lokeshdhakar.com/projects/color-stacks/" class="p-action">View live</a>
+    <a href="https://github.com/lokesh/color-stacks" class="p-action">Github</a>
   </div>
 
 
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/color-stacks-01.png" />
-        </div>
-        <div class="p-caption">
-          Lightbox opened up with the first image of a series.
+          <img class="p-img" src="/media/work/color-stacks-01-framed.png" />
         </div>
     </div> 
   </div>
 </div>
 
+<div class="p p-ascii-today">
+  <div class="p-info-section">
+    <div class="p-header">
+      <div class="p-title-bar">
+        <div class="p-title">ASCII Today</div>
+        <div class="p-subtitle">Creator</div>
+        <div class="p-subtitle">2017</div>
+      </div>
+    </div>
+    <p>A super-fast ASCII title generator for sprucing up code comments and readmes.</p>
+    <a href="https://ascii.today/" class="p-action">View live</a>
+    <a href="https://github.com/lokesh/ascii-today" class="p-action">Github</a>
+  </div>
+
+
+  <div class="p-media-section">
+    <div class="p-page">
+        <div class="p-img-wrapper">
+          <img class="p-img" src="/media/work/ascii-today-01.png" />
+        </div>
+    </div> 
+  </div>
+</div>
+
+
+
+<div class="section-heading">
+  <h1 class="section-title">Games</h1>
+</div>
+
+<div class="p p-bitsweeper">
+  <div class="p-info-section">
+    <div class="p-header">
+      <div class="p-title-bar">
+        <div class="p-title">Bitsweeper</div>
+        <div class="p-subtitle">Author</div>
+        <div class="p-subtitle">2022</div>
+      </div>
+    </div>
+    <p>A quirky, retro take on Minesweeper playable in the browser.</p>
+    <a href="https://lokeshdhakar.com/projects/bitsweeper/" class="p-action">Play</a>
+  </div>
+  <div class="p-media-section">
+    <div class="p-page">
+        <div class="p-img-wrapper">
+          <img class="p-img" src="/media/work/bitsweeper-01.png" />
+        </div>
+    </div> 
+  </div>
+</div>
+
+
+
+<div class="p p-team-bee">
+  <div class="p-info-section">
+    <div class="p-header">
+      <div class="p-title-bar">
+        <div class="p-title">Team Bee</div>
+        <div class="p-subtitle">Author</div>
+        <div class="p-subtitle">2021</div>
+      </div>
+    </div>
+    <p>Spelling Bee word game, remade for teams. I made this to enjoy with my family, as my mom and sister are big word game fans.</p>
+  </div>
+  <div class="p-media-section">
+    <div class="p-page">
+        <div class="p-img-wrapper">
+          <img class="p-img" src="/media/work/team-bee-01.png" />
+        </div>
+    </div> 
+    <div class="p-page">
+        <div class="p-img-wrapper">
+          <img class="p-img" src="/media/work/team-bee-02.png" />
+        </div>
+        <div class="p-caption">
+          Admin tool for generating new puzzles and managing the dictionary.
+        </div>
+    </div> 
+
+  </div>
+</div>
 
 
 <!-- 
@@ -279,11 +338,17 @@ pageWidth: full
 
 <style>
 :root {
+
+  --p-text-column-width: 300px;
+
   --square-color: #1a1a1a;
   --weebly-color: #416FEE;
   --getaround-color: #A22BA2;
   --lightbox-color: #000;
-
+  --ascii-today-color: #FEFD54;
+  /* --bitsweeper-color: #FFDA45; */
+  --bitsweeper-color: #FF4F68;
+  --team-bee-color: #F8CA3D;
 
   /* --square-color: var(--recessed-bg-color);
   --weebly-color: var(--recessed-bg-color);
@@ -292,20 +357,33 @@ pageWidth: full
 
 }
 
-.page-nav {
-  color: var(--nav-color);
+.lead-section {
+  border-bottom: 1px solid var(--border-color-light);  
+  padding-bottom: var(--block-bottom);
   margin-bottom: calc(2 * var(--block-bottom));
-  font-family: var(--font-ui);  
-  font-weight: var(--weight-semi-bold);
 }
 
-.page-nav a {
-  color: var(--nav-color);
-  text-decoration: none;
+.lead-paragraph {
+  font-weight: var(--weight-bold);
 }
 
-.page-nav a:hover {
-  color: var(--nav-hover-color);
+/* .lead-paragraph-highlight {
+  color: var(--primary-color);
+} */
+
+@media (min-width: 800px) {
+  .page {
+    padding-right: 0;
+  }
+
+  .lead-section {
+    padding-bottom: calc(2 * var(--block-bottom));
+    margin-bottom: calc(3 * var(--block-bottom));
+ }
+
+  .lead-paragraph {
+    max-width: var(--p-text-column-width);
+  }
 }
 
 .section-heading {
@@ -337,14 +415,10 @@ pageWidth: full
 @media (min-width: 800px) {
   .p {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: var(--p-text-column-width) auto;
     gap: calc(var(--gutter) * 2);
     margin-bottom: calc(var(--block-bottom) * 4);
   }  
-
-  .p-info-section {
-    flex: 0 0 320px;
-  }
 
   .p-media-section {
     margin-bottom: 0;
@@ -353,7 +427,6 @@ pageWidth: full
 
 
 .p-info-section {
-  flex: 1 1 360px;
   margin-bottom: var(--block-bottom);  
 }
 
@@ -367,10 +440,6 @@ pageWidth: full
   height: 48px;
   border-radius: var(--radius);
   margin-right: var(--gutter-inner);
-}
-
-.p-title-bar {
-  /* margin-top: 4px; */
 }
 
 .p-title {
@@ -391,29 +460,17 @@ pageWidth: full
 .p-action {
   display: inline-block;
   padding: 6px 8px;
-  color: var(--link-color);
-  /* border: 1px solid var(--link-color); */
   font-size: 0.8333rem;
   font-weight: var(--weight-semi-bold);
   font-family: var(--font-ui);
   text-transform: uppercase;
   text-decoration: none;
-  /* border-radius: var(--radius) */
   color: white;
-  background-color: var(--link-color);
-  /* background-color: #000; */
-}
-
-.p-square .p-action {
-  background-color: var(--square-color)
+  background-color: var(--color-bold);
 }
 
 .p-getaround .p-action {
   background-color: var(--getaround-color);
-}
-
-.p-lightbox .p-action {
-  background-color: var(--lightbox-color);
 }
 
 
@@ -473,6 +530,19 @@ pageWidth: full
 .p-getaround .p-img-wrapper {
   background-color: var(--getaround-color);
 }
+
+.p-ascii-today .p-img-wrapper {
+  background-color: var(--ascii-today-color);
+}
+
+.p-bitsweeper .p-img-wrapper {
+  background-color: var(--bitsweeper-color);
+}
+
+.p-team-bee .p-img-wrapper {
+  background-color: var(--team-bee-color);
+}
+
 
 .p-page-media {
   flex: 1 1 auto;

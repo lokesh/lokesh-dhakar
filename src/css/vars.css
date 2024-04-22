@@ -36,9 +36,9 @@
 
   --radius-sm: 3px; /* Small tags */
   --radius: 8px;    /* Form controls */
-  --radius-lg: 12px; /* Media */
-  --radius-xl: 16px; /* Large media */
-  --radius-button: 24px;
+  --radius-lg: 8px; /* Media */
+  --radius-xl: 8px; /* Large media */
+  /* --radius-button: 24px; */
 
   /* Typography */
   --font: Inter, sans-serif;

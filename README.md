@@ -10,6 +10,8 @@ Before launch
 - pagespeed perf
 - a11y review
 
+Bonus
+- Add videos bitsweeper, team bee
 
 
 
