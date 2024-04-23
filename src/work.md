@@ -16,17 +16,21 @@ pageWidth: full
 <!-- <div class="section-heading">
   <h1 class="section-title">Work</h1>
 </div> -->
-<div class="lead-section">
-  <div class="lead-paragraph">
-    <p>I'm a Software Engineer with design chops and 15+ years experience. I created the original <i>Lightbox</i> script many years ago and continue to contribute to open source. </p>
-  <!-- Other open source projects include <i>Color Thief</i> and <i>Color Stacks</i>. -->
-   <p>What's next? I'm looking at a department change, and exploring Product Management roles.</p>
-  </div>
+<!-- <h1>LOKESH DHAKAR</h1> -->
+<div class="intro">
+  <p class="intro-lead">
+  Graphic Designer turned Software Engineer with 15+ years experience focusing on roles that mix design and engineering.</p>
+  <!-- <p>My claim to fame: creator of the original <i>Lightbox</i> script.</p> -->
+  <p><strong>Claim to fame. </strong>
+  Creator of the original <a href="#lightbox">Lightbox</a> script.</p>
+
+  <p><strong>What's next?</strong>
+  I'm looking to change departments and am currently open to Product Management roles.</p>
 </div>
 
 <div class="section-heading">
   <h1 class="section-title">Jobs</h1>
-  <div class="section-subtitle">(My last three)</div>
+  <!-- <div class="section-subtitle">(My last three)</div> -->
 </div>
 
 <div class="p p-square">
@@ -58,10 +62,10 @@ pageWidth: full
     </div>
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/square-02-framed.png" />
+        <img class="p-img" src="/media/work/square-02-framed-white.png" />
       </div>
       <div class="p-caption">
-        The website editor UI, showing style options on the left and a preview on the right.
+        The website editor UI showing style options on the left and a preview on the right.
       </div>
     </div>       
   </div>
@@ -132,6 +136,7 @@ pageWidth: full
   </div>
 </div>
 
+<a name="lightbox"></a>
 
 <div class="section-heading">
   <h1 class="section-title">Open Source Projects</h1>
@@ -170,7 +175,7 @@ pageWidth: full
       <div class="p-title-bar">
         <div class="p-title">Color Thief</div>
         <div class="p-subtitle">Author and Maintainer</div>
-        <div class="p-subtitle">2010</div>
+        <div class="p-subtitle">2013</div>
       </div>
     </div>
 <p>Javascript library to extract color palettes from images, allowing for new techniques such as UIs that adapt their palette to an image.</p>
@@ -346,42 +351,38 @@ pageWidth: full
   --getaround-color: #A22BA2;
   --lightbox-color: #000;
   --ascii-today-color: #FEFD54;
-  /* --bitsweeper-color: #FFDA45; */
   --bitsweeper-color: #FF4F68;
   --team-bee-color: #F8CA3D;
-
-  /* --square-color: var(--recessed-bg-color);
-  --weebly-color: var(--recessed-bg-color);
-  --getaround-color: var(--recessed-bg-color); */
 
 
 }
 
-.lead-section {
+
+.intro {
   border-bottom: 1px solid var(--border-color-light);  
   padding-bottom: var(--block-bottom);
   margin-bottom: calc(2 * var(--block-bottom));
 }
 
-.lead-paragraph {
-  font-weight: var(--weight-bold);
+.intro a {
+  color: var(--color);
 }
 
-/* .lead-paragraph-highlight {
-  color: var(--primary-color);
-} */
+.intro p {
+  max-width: none;
+}
+
+.intro-lead {
+  font-size: 1.25rem;
+  font-weight: var(--weight-bold);
+  line-height: 1.3em;
+}
 
 @media (min-width: 800px) {
   .page {
     padding-right: 0;
   }
-
-  .lead-section {
-    padding-bottom: calc(2 * var(--block-bottom));
-    margin-bottom: calc(3 * var(--block-bottom));
- }
-
-  .lead-paragraph {
+  .intro p {
     max-width: var(--p-text-column-width);
   }
 }
