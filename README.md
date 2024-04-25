@@ -4,6 +4,7 @@ To-do
 - Add projects: Lightbox, Color Thief
 - Add some flash to the home page
 - Add captions to text
+- Loading time
 
 Before launch
 - filesize review

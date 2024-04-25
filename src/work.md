@@ -28,10 +28,10 @@ pageWidth: full
   I'm looking to change departments and am currently open to Product Management roles.</p>
 </div>
 
-<div class="section-heading">
+<!-- <div class="section-heading">
   <h1 class="section-title">Jobs</h1>
-  <!-- <div class="section-subtitle">(My last three)</div> -->
-</div>
+  <div class="section-subtitle">My last three</div>
+</div> -->
 
 <div class="p p-square">
   <div class="p-info-section">
@@ -43,8 +43,8 @@ pageWidth: full
         <div class="p-subtitle">2018-2022</div>
       </div>
     </div>
-<p><!--Square offers a suite of hardware and software for businesses to manage sales, inventory, and back office tasks.--> I worked on the eCommerce team at Square and focused on the following areas:</p>
-<p><strong>1: Helping merchants translate their brand online.</strong> I worked on our website editor's features related to style elements: layout, typography, color, imagery, et al.</p>
+<p><!--Square offers a suite of hardware and software for businesses to manage sales, inventory, and back office tasks.--> I worked on the eCommerce team at Square focusing on the following areas:</p>
+<p><strong>1: Helping merchants translate their brand online.</strong> I worked on our website editor's style related features: layout, typography, color, imagery, et al.</p>
 
 <p><strong>2: Orbit, a design system built in Vue.js.</strong> It is utilized in all eCommerce products. I was a major engineering contributor as well as a design contributor.</p>
 
@@ -637,7 +637,7 @@ pageWidth: full
 
 @media (min-width: 800px) {
    .p-img {
-     width: 640px;
+     width: 720px;
   }
 }
 
