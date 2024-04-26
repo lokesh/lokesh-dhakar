@@ -1,13 +1,3 @@
-
-
-Bonus
-- Add videos bitsweeper, team bee
-
-Later
-- Add filtering to work section
-- Add infographics: coffee and baseball pitches
-
-
 # lokeshdhakar.com
 
 - Built with [Metalsmith](http://www.metalsmith.io/), a simple, plugin driven static site generator.
@@ -15,6 +5,19 @@ Later
 - Hosted on Netlify
 
 Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-metalsmith-nunjucks).
+
+
+## To-do
+
+### Next
+- Update this readme. Decide on weather to keep or update the following pages: running , notes, page, places, sketches, and inspiration
+
+### Nice-to-haves
+- Add videos bitsweeper, team bee
+
+### Maybe someday
+- Add filtering to work section
+- Add infographics: coffee and baseball pitches
 
 ## Work
 
