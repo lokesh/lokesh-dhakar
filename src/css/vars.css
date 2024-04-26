@@ -31,7 +31,7 @@
   --line-height-heading: 1.25em;
 
   /* Borders and corners */
-  --border-color: #000;
+  --border-color: var(--color);
   --border-color-light: #d5d5d5; /* Used for inline content  */
 
   --radius-sm: 3px; /* Small tags */
@@ -49,7 +49,7 @@
   --weight-regular: 400;
   --weight-semi-bold: 500;
   --weight-bold: 600;
-  --weight-x-bold: 600;
+  --weight-x-bold: 700;
 
   /* Forms */
   --form-control-height-xs: 2em;

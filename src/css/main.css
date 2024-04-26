@@ -95,9 +95,17 @@ h1 {
   font-weight: 500;
 }
 
+h1.page-title,
 h1.post-title {
-  /* font-family: var(--font-ui); */
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: var(--font-ui);
+  letter-spacing: -0.015em;
+  margin-bottom: var(--block-bottom);
 }
+
+
 
 h2 {
   margin-top: calc(var(--block-bottom) * 2);

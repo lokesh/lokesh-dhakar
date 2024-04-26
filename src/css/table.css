@@ -25,7 +25,7 @@ td {
 
 table.table-dense th,
 table.table-dense td {
-  padding: calc(var(--gutter) / 2);
+  padding: calc(var(--gutter) / 4);
 }
 
 table.separated-cells {

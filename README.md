@@ -1,8 +1,5 @@
 To-do
-- Add text on work page
-- Add text on home page
-- Add projects: Lightbox, Color Thief
-- Add some flash to the home page
+- Load Geist mono font
 - Add captions to text
 - Loading time
 
