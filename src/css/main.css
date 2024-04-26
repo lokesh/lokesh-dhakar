@@ -15,6 +15,13 @@
 950 Extra Black (Ultra Black)
 */
 
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/GeistMonoVF.woff2') format('woff2-variations');
+  font-weight: 100 900; /* Range of weights supported */
+}
+
+
 /* BASE -------------------------------------------------------------------- */
 
 * {
@@ -117,7 +124,7 @@ h2 {
 
 h2.subtitle {
   margin-top: var(--block-bottom);
-  color: var(--muted-color);
+  /* color: var(--muted-color); */
   /* font-weight: var(--weight-regular); */
 
   font-size: 1.25rem;

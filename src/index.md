@@ -5,28 +5,26 @@ pageWidth: full
 ---
 
 
+<header>
+  <h1 class="page-title">Lokesh Dhakar</h1>
 
-<h1 class="page-title">Lokesh Dhakar</h1>
+  <div class="intro">
+    <p class="intro-lead">
+    Graphic Designer turned Software Engineer with 15+ years experience focusing on roles that mix design and engineering.</p>
+    <p>You might know me as the creator of the original <a href="#lightbox">Lightbox</a> script.</p>
+  </div>
 
-<div class="intro">
-  <p class="intro-lead">
-  Graphic Designer turned Software Engineer with 15+ years experience focusing on roles that mix design and engineering.</p>
-  <!-- <p><strong>Claim to fame:</strong> creator of the original  <a href="#lightbox">Lightbox</a> script.</p> -->
-  <p>You might know me as the creator of the original <a href="#lightbox">Lightbox</a> script.</p>
+</header>
 
-  <!-- <p><strong>What's next?</strong>
-  I'm looking to change departments and am currently open to Product Management roles.</p> -->
+<div class="section-heading">
+  <h1 class="section-title">Last 3 Jobs</h1>
+  <!-- <div class="section-subtitle">My last three</div> -->
 </div>
-
-<!-- <div class="section-heading">
-  <h1 class="section-title">Jobs</h1>
-  <div class="section-subtitle">My last three</div>
-</div> -->
 
 <div class="p p-square">
   <div class="p-info-section">
     <div class="p-header">
-      <img class="p-icon" src="/media/work/icon-square.png" />
+      <img class="p-icon" src="/media/work/icon-square.png" alt="Square's logo mark - a black rounded square outline with another rounded square inside" />
       <div class="p-title-bar">
         <div class="p-title">Square</div>
         <div class="p-subtitle">Software Engineer & Designer</div>
@@ -44,7 +42,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/square-01y.png" />
+        <img class="p-img" src="/media/work/square-01.webp" alt="variety of mobile websites showing diverse visual styles" />
       </div>
       <div class="p-caption">
         Examples of websites created with the editor.
@@ -52,7 +50,7 @@ pageWidth: full
     </div>
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/square-02-framed-white.png" />
+        <img class="p-img" src="/media/work/square-02.webp" alt="screenshot of an interface for designing and building a website" />
       </div>
       <div class="p-caption">
         The website editor UI showing style options on the left and a preview on the right.
@@ -64,7 +62,7 @@ pageWidth: full
 <div class="p p-weebly">
   <div class="p-info-section">
     <div class="p-header">
-      <img class="p-icon" src="/media/work/icon-weebly.png" />
+      <img class="p-icon" src="/media/work/icon-weebly.png" alt="Weebly logo mark - a letter bubbly W on a blue background" />
       <div class="p-title-bar">
         <div class="p-title">Weebly</div>
         <div class="p-subtitle">Software Engineer & Designer</div>
@@ -79,7 +77,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/weebly-01-framed.png" />
+        <img class="p-img" src="/media/work/weebly-01.webp" alt="weebly.com homepage screenshot showing a smiling customer and an example website" />
       </div>
       <div class="p-caption">
         weebly.com homepage
@@ -87,7 +85,7 @@ pageWidth: full
     </div>
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/weebly-02-framed.png" />
+        <img class="p-img" src="/media/work/weebly-02.webp" alt="screenshot of the UI of the weebly website editor which shows a toolbar on the left and a preview of the website on the right" />
       </div>
       <div class="p-caption">
         Drag-and-drop editor
@@ -101,7 +99,7 @@ pageWidth: full
 <div class="p p-getaround">
   <div class="p-info-section">
     <div class="p-header">
-      <img class="p-icon" src="/media/work/icon-getaround.png" />
+      <img class="p-icon" src="/media/work/icon-getaround.png" alt="Getaround logo mark - lowercase letter g on a bright purple background" />
       <div class="p-title-bar">
         <div class="p-title">Getaround</div>
         <div class="p-subtitle">Lead Engineer on Web</div>
@@ -117,10 +115,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
       <div class="p-img-wrapper">
-        <img class="p-img" src="/media/work/getaround-01by.png" />
-      </div>
-      <div class="p-caption">
-        Lorem then ipsum.
+        <img class="p-img" src="/media/work/getaround-01.webp" alt="three screenshots of mobile web interfaces from getaround.com showing searching for a car to rent, info on booked trips, and info on a specific car" />
       </div>
     </div> 
   </div>
@@ -149,7 +144,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/lightbox-01-framed.png" />
+          <img class="p-img" src="/media/work/lightbox-01.webp" alt="an image of the Golden Gate Bridge in a white frame that is overlaid on top of a website that has been dimmed by an overlay" />
         </div>
         <div class="p-caption">
           Lightbox opened up with the first image of a series.
@@ -175,7 +170,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/color-thief-01.png" />
+          <img class="p-img" src="/media/work/color-thief-01.webp" alt="three photographs of diverse subjects, below each is a swatch of color labeled dominant color, and another set of ten color swatched labeled palette" />
         </div>
         <div class="p-caption">
           Three images and their extracted color palettes.
@@ -202,7 +197,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/color-stacks-01-framed.png" />
+          <img class="p-img" src="/media/work/color-stacks-01.webp" alt="a screenshot of a dense interface with a variety of controls for generating and modifying colors" />
         </div>
     </div> 
   </div>
@@ -226,7 +221,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/ascii-today-01.png" />
+          <img class="p-img" src="/media/work/ascii-today-01.webp" alt="screenshot a UI that shows the word Hello! written in a variety of ascii fonts, often using slashes and other non alphabetical characters to construct the letters" />
         </div>
     </div> 
   </div>
@@ -253,7 +248,7 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/bitsweeper-01.png" />
+          <img class="p-img" src="/media/work/bitsweeper-01.webp" alt="three screenshots of a mobile web game similar to Minesweeper, showing blocks on a grid, some empty space, and some with numbers" />
         </div>
     </div> 
   </div>
@@ -275,12 +270,12 @@ pageWidth: full
   <div class="p-media-section">
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/team-bee-01.png" />
+          <img class="p-img" src="/media/work/team-bee-01.webp" alt="three screenshots of a mobile web game showing a 7 letters in a hexagon pattern in the first and guesses of words constructed with those letter in the following" />
         </div>
     </div> 
     <div class="p-page">
         <div class="p-img-wrapper">
-          <img class="p-img" src="/media/work/team-bee-02.png" />
+          <img class="p-img" src="/media/work/team-bee-02.webp" alt="dense UI interface for generating puzzles for the game with tables of puzzle options" />
         </div>
         <div class="p-caption">
           Admin tool for generating new puzzles and managing the dictionary.
@@ -343,8 +338,6 @@ pageWidth: full
   --ascii-today-color: #FEFD54;
   --bitsweeper-color: #FF4F68;
   --team-bee-color: #F8CA3D;
-
-
 }
 
 
@@ -368,18 +361,28 @@ pageWidth: full
   line-height: 1.3em;
 }
 
+.section-heading {
+  margin-top: calc(var(--block-bottom) * 2);
+  margin-bottom: calc(var(--block-bottom) * 2);
+}
+
 @media (min-width: 800px) {
   .page {
     padding-right: 0;
   }
+
+  .intro {
+    margin-bottom: calc(3 * var(--block-bottom));
+  }
+
   .intro p {
     max-width: var(--p-text-column-width);
   }
-}
 
-.section-heading {
-  margin-top: calc(var(--block-bottom) * -1);
-  margin-bottom: calc(var(--block-bottom) * 3);
+  .section-heading {
+    margin-top: calc(var(--block-bottom) * -1);
+    margin-bottom: calc(var(--block-bottom) * 3);
+  }
 }
 
 .page-title,
@@ -388,8 +391,19 @@ pageWidth: full
   font-weight: bold;
   text-transform: uppercase;
   font-family: var(--font-ui);
-  letter-spacing: -0.015em;
   margin-bottom: 0.2rem;
+}
+
+.page-title {
+  letter-spacing: -0.015em;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  display: inline-block;
+  border-radius: var(--radius);
+  padding: 6px 10px;  
+  border: 2px solid var(--border-color);
 }
 
 .section-subtitle {

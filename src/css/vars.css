@@ -43,9 +43,9 @@
   /* Typography */
   --font: Inter, sans-serif;
   --font-heading: Inter, Inter, sans-serif;
-  --font-ui: 'Geist Mono', Inter, sans-serif;
+  --font-ui: 'Geist Mono', serif, Inter, sans-serif;
 
-  --font-mono: 'Geist Mono', Menlo, Consolas, Monaco, Lucida Console, monospace;
+  --font-mono: 'Geist Mono', serif, Menlo, Consolas, Monaco, Lucida Console, monospace;
   --weight-regular: 400;
   --weight-semi-bold: 500;
   --weight-bold: 600;

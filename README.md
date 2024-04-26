@@ -1,16 +1,18 @@
 To-do
-- Load Geist mono font
 - Add captions to text
-- Loading time
 
 Before launch
-- filesize review
-- pagespeed perf
 - a11y review
+- test existing page urls: lightbox, lightbox2, color thief, coffee, baseball pitches
+
+- Add footer - contact me?
+
 
 Bonus
 - Add videos bitsweeper, team bee
 
+Later
+- Add filtering to work section
 
 
 # lokeshdhakar.com
@@ -20,6 +22,13 @@ Bonus
 - Hosted on Netlify
 
 Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-metalsmith-nunjucks).
+
+## Work
+
+Images
+1. Export 2400 x 1800 from Figma
+2. Use squoosh.app to compress. WebP, effort 4, quality 75, preserve transparency
+
 
 ## Writing a new post
 
