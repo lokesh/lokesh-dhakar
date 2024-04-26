@@ -1,11 +1,3 @@
-To-do
-- Add captions to text
-
-Before launch
-- a11y review
-- test existing page urls: lightbox, lightbox2, color thief, coffee, baseball pitches
-
-- Add footer - contact me?
 
 
 Bonus
@@ -13,6 +5,7 @@ Bonus
 
 Later
 - Add filtering to work section
+- Add infographics: coffee and baseball pitches
 
 
 # lokeshdhakar.com
