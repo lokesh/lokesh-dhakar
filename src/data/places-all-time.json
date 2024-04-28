@@ -70,7 +70,7 @@
     "firstVisit": true,
     "goToSpot": true,
     "wouldTakeVisitors": true,
-    "count": 77
+    "count": 78
   },
   {
     "venue": "Hawk Hill",
@@ -114,7 +114,7 @@
     "category": "Outdoors",
     "subCategory": "Hills",
     "firstVisit": true,
-    "count": 69
+    "count": 70
   },
   {
     "venue": "Foxhole",
@@ -139,17 +139,6 @@
     "count": 60
   },
   {
-    "venue": "Baltimore/Washington International Thurgood Marshall Airport (BWI)",
-    "id": "4a3b08fdf964a52086a01fe3",
-    "city": "Baltimore",
-    "state": "MD",
-    "country": "United States",
-    "category": "Travel",
-    "subCategory": "International Airports",
-    "firstVisit": true,
-    "count": 56
-  },
-  {
     "venue": "Réveille Coffee Co.",
     "id": "5a7a53cb3af988153b69174f",
     "city": "San Francisco",
@@ -157,6 +146,17 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 57
+  },
+  {
+    "venue": "Baltimore/Washington International Thurgood Marshall Airport (BWI)",
+    "id": "4a3b08fdf964a52086a01fe3",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "United States",
+    "category": "Travel",
+    "subCategory": "International Airports",
     "firstVisit": true,
     "count": 56
   },
@@ -285,7 +285,7 @@
     "category": "Shopping",
     "subCategory": "Farmers Markets",
     "firstVisit": true,
-    "count": 39
+    "count": 40
   },
   {
     "venue": "Nourish Cafe SF",
@@ -428,6 +428,17 @@
     "count": 28
   },
   {
+    "venue": "Whole Foods Market",
+    "id": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Grocery Stores",
+    "firstVisit": true,
+    "count": 28
+  },
+  {
     "venue": "Arsicault Bakery",
     "id": "55203ab9498eb807ad0e6da5",
     "city": "San Francisco",
@@ -439,17 +450,6 @@
     "goToSpot": true,
     "wouldTakeVisitors": true,
     "comments": "Almond croissant, decadent and delicious. Almond chocolate is too much.",
-    "count": 27
-  },
-  {
-    "venue": "Whole Foods Market",
-    "id": "52603bff11d21a914be4eb71",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Shopping",
-    "subCategory": "Grocery Stores",
-    "firstVisit": true,
     "count": 27
   },
   {
@@ -943,6 +943,17 @@
     "count": 14
   },
   {
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Coffee",
+    "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 14
+  },
+  {
     "venue": "Square HQ",
     "id": "4b042837f964a520ad5122e3",
     "city": "San Francisco",
@@ -994,17 +1005,6 @@
     "country": "United States",
     "category": "Outdoors",
     "subCategory": "Parks",
-    "firstVisit": true,
-    "count": 13
-  },
-  {
-    "venue": "Verve Coffee Roasters",
-    "id": "589f6a4372714f7d35566b6a",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Coffee",
-    "subCategory": "Coffee Shops",
     "firstVisit": true,
     "count": 13
   },
@@ -3211,6 +3211,7 @@
     "subCategory": "Gastropubs",
     "firstVisit": true,
     "comments": "#fave bar food",
+    "wouldTakeVisitors": true,
     "count": 5
   },
   {
@@ -4329,6 +4330,8 @@
     "category": "Coffee",
     "subCategory": "Coffee Shops",
     "firstVisit": true,
+    "goToSpot": true,
+    "comments": "#fave vegan breakfast",
     "count": 4
   },
   {
@@ -6242,6 +6245,7 @@
     "category": "Coffee",
     "subCategory": "Coffee Shops",
     "firstVisit": true,
+    "comments": "coffee flight",
     "count": 3
   },
   {
@@ -10516,7 +10520,7 @@
     "count": 2
   },
   {
-    "venue": "Westfield San Francisco Centre",
+    "venue": "San Francisco Centre",
     "id": "452b81ddf964a520393b1fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -10935,6 +10939,7 @@
     "category": "Food",
     "subCategory": "Vegan and Vegetarian Restaurants",
     "firstVisit": true,
+    "comments": "#fave vegan asian",
     "count": 2
   },
   {
@@ -11199,6 +11204,8 @@
     "category": "Coffee",
     "subCategory": "Bakeries",
     "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave biscuit",
     "count": 2
   },
   {
@@ -11221,6 +11228,8 @@
     "category": "Food",
     "subCategory": "Chinese Restaurants",
     "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave Chinese. Fresh veggies, hand-pulled noodles.",
     "count": 2
   },
   {
@@ -11243,6 +11252,10 @@
     "category": "Food",
     "subCategory": "Indian Restaurants",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "outdoorSeating": true,
+    "comments": "near Stanford",
     "count": 2
   },
   {
@@ -11276,6 +11289,8 @@
     "category": "Food",
     "subCategory": "Himalayan Restaurants",
     "firstVisit": true,
+    "goToSpot": true,
+    "comments": "#fave momos",
     "count": 2
   },
   {
@@ -11642,6 +11657,20 @@
     "category": "Arts",
     "subCategory": "Art Galleries",
     "firstVisit": true,
+    "count": 2
+  },
+  {
+    "venue": "RT Rotisserie",
+    "id": "5d62ea99ffec4e00078889cb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Food",
+    "subCategory": "Restaurants",
+    "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave veggies. Cauliflower pita and all veggie sides. ",
     "count": 2
   },
   {
@@ -18895,7 +18924,7 @@
     "count": 1
   },
   {
-    "venue": "RingCentral Coliseum",
+    "venue": "Oakland-Alameda County Coliseum",
     "id": "430e5b80f964a52043271fe3",
     "city": "Oakland",
     "state": "CA",
@@ -29534,11 +29563,10 @@
   {
     "venue": "Slab City",
     "id": "4c5481201b46c9b61783b3ce",
-    "city": "Niland",
-    "state": "CA",
+    "state": "California",
     "country": "United States",
-    "category": "Outdoors",
-    "subCategory": "Campgrounds",
+    "category": "Locale",
+    "subCategory": "Cities",
     "firstVisit": true,
     "count": 1
   },
@@ -36815,10 +36843,11 @@
   {
     "venue": "Cholla Cactus Garden",
     "id": "4f41749ae4b0f7b45a3ba46d",
-    "state": "California",
+    "city": "Twentynine Palms",
+    "state": "CA",
     "country": "United States",
     "category": "Outdoors",
-    "subCategory": "Gardens",
+    "subCategory": "Nature Preserves",
     "firstVisit": true,
     "count": 1
   },
@@ -40115,7 +40144,7 @@
     "venue": "Hacienda de Cortés",
     "id": "4bef1edc5e4aa593d49858bb",
     "city": "Coyoacán",
-    "state": "CDMX",
+    "state": "Mexico City",
     "country": "Mexico",
     "category": "Food",
     "subCategory": "Mexican Restaurants",
@@ -40688,6 +40717,7 @@
     "category": "Food",
     "subCategory": "New American Restaurants",
     "firstVisit": true,
+    "dateSpot": true,
     "count": 1
   },
   {
@@ -42529,6 +42559,8 @@
     "category": "Food",
     "subCategory": "Korean Restaurants",
     "firstVisit": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave tofu. Homemade tofu and banchan.",
     "count": 1
   },
   {
@@ -42540,6 +42572,8 @@
     "category": "Food",
     "subCategory": "Mexican Restaurants",
     "firstVisit": true,
+    "outdoorSeating": true,
+    "comments": "Yummy Mexican. Casual vibe beside railroad tracks.",
     "count": 1
   },
   {
@@ -42584,6 +42618,7 @@
     "category": "Food",
     "subCategory": "Korean Restaurants",
     "firstVisit": true,
+    "comments": "#fave Korean. homecooking style",
     "count": 1
   },
   {
@@ -42694,6 +42729,7 @@
     "category": "Dessert",
     "subCategory": "Dessert Shops",
     "firstVisit": true,
+    "comments": "#fave baklava",
     "count": 1
   },
   {
@@ -43033,6 +43069,9 @@
     "category": "Food",
     "subCategory": "Burmese Restaurants",
     "firstVisit": true,
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave Burmese",
     "count": 1
   },
   {
@@ -43077,6 +43116,9 @@
     "category": "Food",
     "subCategory": "Breakfast Spots",
     "firstVisit": true,
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Fun fine-dining. Great views of Coit tower.",
     "count": 1
   },
   {
@@ -43354,17 +43396,6 @@
     "count": 1
   },
   {
-    "venue": "RT Rotisserie",
-    "id": "5d62ea99ffec4e00078889cb",
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "United States",
-    "category": "Food",
-    "subCategory": "Restaurants",
-    "firstVisit": true,
-    "count": 1
-  },
-  {
     "venue": "Precision Time Watch Repair",
     "id": "4b69e672f964a52002bb2be3",
     "city": "San Francisco",
@@ -43635,6 +43666,28 @@
     "country": "United States",
     "category": "Coffee",
     "subCategory": "Coffee Shops",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "War Memorial Opera House",
+    "id": "49c7dcc3f964a520c9571fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "category": "Arts",
+    "subCategory": "Opera Houses",
+    "firstVisit": true,
+    "count": 1
+  },
+  {
+    "venue": "Cardenas Markets",
+    "id": "5ae4cbf0d3cce8002c15e153",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "category": "Shopping",
+    "subCategory": "Supermarkets",
     "firstVisit": true,
     "count": 1
   }

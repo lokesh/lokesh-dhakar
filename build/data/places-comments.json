@@ -202,7 +202,8 @@
     "outdoorSeating": true
   },
   "3fd66200f964a52066ed1ee3": {
-    "comments": "#fave bar food"
+    "comments": "#fave bar food",
+    "wouldTakeVisitors": true
   },
   "4f934157e4b0ab5f09ebb8fc": {
     "goToSpot": true,
@@ -261,5 +262,65 @@
   "6480a11340ebe85dc039cccc": {
     "comments": "#fave crepes"
   },
-  "52d83268498ed582c8bf64a7": {}
+  "52d83268498ed582c8bf64a7": {},
+  "6180a9f3461b1e7f7febddf5": {
+    "dateSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "Fun fine-dining. Great views of Coit tower."
+  },
+  "3fd66200f964a520feec1ee3": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave Burmese"
+  },
+  "3fd66200f964a520a0ec1ee3": {
+    "dateSpot": true
+  },
+  "512831dae4b058a839d3cdac": {
+    "wouldTakeVisitors": true,
+    "comments": "#fave Chinese. Fresh veggies, hand-pulled noodles."
+  },
+  "63767506f0541366c5635ebb": {
+    "comments": "coffee flight"
+  },
+  "5d4a3477f583f0000832f188": {
+    "outdoorSeating": true,
+    "comments": "Yummy Mexican. Casual vibe beside railroad tracks."
+  },
+  "61e9efa912e6797b66fce1bb": {
+    "wouldTakeVisitors": true,
+    "comments": "#fave tofu. Homemade tofu and banchan."
+  },
+  "50b79653e41247a52b753c67": {
+    "goToSpot": true,
+    "comments": "#fave vegan breakfast"
+  },
+  "57f7eb9f498edf8f0808bf90": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "outdoorSeating": true,
+    "comments": "near Stanford"
+  },
+  "632de7fa2f5dc66afe39b7ed": {
+    "comments": "#fave baklava"
+  },
+  "5d62ea99ffec4e00078889cb": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave veggies. Cauliflower pita and all veggie sides. "
+  },
+  "569d3be5498eb5f352825fd1": {
+    "wouldTakeVisitors": true,
+    "comments": "#fave biscuit"
+  },
+  "63925d402504ea4f926d46c3": {
+    "goToSpot": true,
+    "comments": "#fave momos"
+  },
+  "64d297841144cd676e072069": {
+    "comments": "#fave Korean. homecooking style"
+  },
+  "547a3a09498edded45384099": {
+    "comments": "#fave vegan asian"
+  }
 }

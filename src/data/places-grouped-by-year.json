@@ -3,6 +3,17 @@
     "year": 2024,
     "venues": [
       {
+        "venue": "Réveille Coffee Co.",
+        "id": "5a7a53cb3af988153b69174f",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Coffee",
+        "subCategory": "Coffee Shops",
+        "firstVisit": false,
+        "count": 6
+      },
+      {
         "venue": "San Francisco Public Library",
         "id": "43f5f8a9f964a520a92f1fe3",
         "city": "San Francisco",
@@ -12,17 +23,6 @@
         "subCategory": "Libraries",
         "firstVisit": false,
         "count": 6
-      },
-      {
-        "venue": "Réveille Coffee Co.",
-        "id": "5a7a53cb3af988153b69174f",
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "United States",
-        "category": "Coffee",
-        "subCategory": "Coffee Shops",
-        "firstVisit": false,
-        "count": 5
       },
       {
         "venue": "Schlok’s Bagels & Lox",
@@ -47,6 +47,41 @@
         "subCategory": "Coffee Shops",
         "firstVisit": true,
         "count": 4
+      },
+      {
+        "venue": "Sightglass Coffee",
+        "id": "5968bf3429551366c474d076",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Coffee",
+        "subCategory": "Coffee Shops",
+        "firstVisit": false,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "count": 3
+      },
+      {
+        "venue": "Divisadero Farmers' Market",
+        "id": "4a92369ef964a520fa1c20e3",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Shopping",
+        "subCategory": "Farmers Markets",
+        "firstVisit": false,
+        "count": 3
+      },
+      {
+        "venue": "Verve Coffee Roasters",
+        "id": "589f6a4372714f7d35566b6a",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Coffee",
+        "subCategory": "Coffee Shops",
+        "firstVisit": false,
+        "count": 3
       },
       {
         "venue": "Barry's Bootcamp",
@@ -91,6 +126,42 @@
         "subCategory": "Bakeries",
         "firstVisit": false,
         "count": 3
+      },
+      {
+        "venue": "RT Rotisserie",
+        "id": "5d62ea99ffec4e00078889cb",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Food",
+        "subCategory": "Restaurants",
+        "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "#fave veggies. Cauliflower pita and all veggie sides. ",
+        "count": 2
+      },
+      {
+        "venue": "Twin Peaks Summit",
+        "id": "4c29567f9fb5d13aa2139b57",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Outdoors",
+        "subCategory": "Hills",
+        "firstVisit": false,
+        "count": 2
+      },
+      {
+        "venue": "Whole Foods Market",
+        "id": "52603bff11d21a914be4eb71",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Shopping",
+        "subCategory": "Grocery Stores",
+        "firstVisit": false,
+        "count": 2
       },
       {
         "venue": "Iza Ramen",
@@ -200,19 +271,6 @@
         "count": 2
       },
       {
-        "venue": "Sightglass Coffee",
-        "id": "5968bf3429551366c474d076",
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "United States",
-        "category": "Coffee",
-        "subCategory": "Coffee Shops",
-        "firstVisit": false,
-        "goToSpot": true,
-        "wouldTakeVisitors": true,
-        "count": 2
-      },
-      {
         "venue": "Kantine",
         "id": "5b2134a81acf11002c0f7903",
         "city": "San Francisco",
@@ -225,28 +283,6 @@
         "outdoorSeating": true,
         "wouldTakeVisitors": true,
         "comments": "Cinnamon knot, cardamom morning bun, porridges",
-        "count": 2
-      },
-      {
-        "venue": "Verve Coffee Roasters",
-        "id": "589f6a4372714f7d35566b6a",
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "United States",
-        "category": "Coffee",
-        "subCategory": "Coffee Shops",
-        "firstVisit": false,
-        "count": 2
-      },
-      {
-        "venue": "Divisadero Farmers' Market",
-        "id": "4a92369ef964a520fa1c20e3",
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "United States",
-        "category": "Shopping",
-        "subCategory": "Farmers Markets",
-        "firstVisit": false,
         "count": 2
       },
       {
@@ -342,6 +378,28 @@
         "subCategory": "International Airports",
         "firstVisit": false,
         "count": 2
+      },
+      {
+        "venue": "Cardenas Markets",
+        "id": "5ae4cbf0d3cce8002c15e153",
+        "city": "East Palo Alto",
+        "state": "CA",
+        "country": "United States",
+        "category": "Shopping",
+        "subCategory": "Supermarkets",
+        "firstVisit": true,
+        "count": 1
+      },
+      {
+        "venue": "War Memorial Opera House",
+        "id": "49c7dcc3f964a520c9571fe3",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "category": "Arts",
+        "subCategory": "Opera Houses",
+        "firstVisit": true,
+        "count": 1
       },
       {
         "venue": "Minnesota Street Projects Gallery",
@@ -887,17 +945,6 @@
         "count": 1
       },
       {
-        "venue": "RT Rotisserie",
-        "id": "5d62ea99ffec4e00078889cb",
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "United States",
-        "category": "Food",
-        "subCategory": "Restaurants",
-        "firstVisit": true,
-        "count": 1
-      },
-      {
         "venue": "Exploratorium",
         "id": "4585a93ef964a520ac3f1fe3",
         "city": "San Francisco",
@@ -1404,28 +1451,6 @@
         "category": "Shopping",
         "subCategory": "Arts and Crafts Stores",
         "firstVisit": true,
-        "count": 1
-      },
-      {
-        "venue": "Twin Peaks Summit",
-        "id": "4c29567f9fb5d13aa2139b57",
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "United States",
-        "category": "Outdoors",
-        "subCategory": "Hills",
-        "firstVisit": false,
-        "count": 1
-      },
-      {
-        "venue": "Whole Foods Market",
-        "id": "52603bff11d21a914be4eb71",
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "United States",
-        "category": "Shopping",
-        "subCategory": "Grocery Stores",
-        "firstVisit": false,
         "count": 1
       },
       {
@@ -2130,6 +2155,8 @@
         "category": "Food",
         "subCategory": "Himalayan Restaurants",
         "firstVisit": true,
+        "goToSpot": true,
+        "comments": "#fave momos",
         "count": 2
       },
       {
@@ -2185,6 +2212,10 @@
         "category": "Food",
         "subCategory": "Indian Restaurants",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "outdoorSeating": true,
+        "comments": "near Stanford",
         "count": 2
       },
       {
@@ -2266,6 +2297,8 @@
         "category": "Food",
         "subCategory": "Chinese Restaurants",
         "firstVisit": true,
+        "wouldTakeVisitors": true,
+        "comments": "#fave Chinese. Fresh veggies, hand-pulled noodles.",
         "count": 2
       },
       {
@@ -2291,6 +2324,7 @@
         "category": "Coffee",
         "subCategory": "Coffee Shops",
         "firstVisit": false,
+        "comments": "coffee flight",
         "count": 2
       },
       {
@@ -2688,6 +2722,7 @@
         "subCategory": "Gastropubs",
         "firstVisit": false,
         "comments": "#fave bar food",
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -2699,6 +2734,9 @@
         "category": "Food",
         "subCategory": "Breakfast Spots",
         "firstVisit": true,
+        "dateSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "Fun fine-dining. Great views of Coit tower.",
         "count": 1
       },
       {
@@ -2856,6 +2894,9 @@
         "category": "Food",
         "subCategory": "Burmese Restaurants",
         "firstVisit": true,
+        "goToSpot": true,
+        "wouldTakeVisitors": true,
+        "comments": "#fave Burmese",
         "count": 1
       },
       {
@@ -3510,6 +3551,7 @@
         "category": "Dessert",
         "subCategory": "Dessert Shops",
         "firstVisit": true,
+        "comments": "#fave baklava",
         "count": 1
       },
       {
@@ -3664,6 +3706,8 @@
         "category": "Coffee",
         "subCategory": "Bakeries",
         "firstVisit": false,
+        "wouldTakeVisitors": true,
+        "comments": "#fave biscuit",
         "count": 1
       },
       {
@@ -3697,6 +3741,7 @@
         "category": "Food",
         "subCategory": "Korean Restaurants",
         "firstVisit": true,
+        "comments": "#fave Korean. homecooking style",
         "count": 1
       },
       {
@@ -3763,6 +3808,8 @@
         "category": "Food",
         "subCategory": "Mexican Restaurants",
         "firstVisit": true,
+        "outdoorSeating": true,
+        "comments": "Yummy Mexican. Casual vibe beside railroad tracks.",
         "count": 1
       },
       {
@@ -3774,6 +3821,8 @@
         "category": "Food",
         "subCategory": "Korean Restaurants",
         "firstVisit": true,
+        "wouldTakeVisitors": true,
+        "comments": "#fave tofu. Homemade tofu and banchan.",
         "count": 1
       },
       {
@@ -3796,6 +3845,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shops",
         "firstVisit": false,
+        "goToSpot": true,
+        "comments": "#fave vegan breakfast",
         "count": 1
       },
       {
@@ -6295,6 +6346,7 @@
         "category": "Food",
         "subCategory": "New American Restaurants",
         "firstVisit": true,
+        "dateSpot": true,
         "count": 1
       },
       {
@@ -6317,6 +6369,7 @@
         "category": "Food",
         "subCategory": "Vegan and Vegetarian Restaurants",
         "firstVisit": false,
+        "comments": "#fave vegan asian",
         "count": 1
       },
       {
@@ -6993,7 +7046,7 @@
         "venue": "Hacienda de Cortés",
         "id": "4bef1edc5e4aa593d49858bb",
         "city": "Coyoacán",
-        "state": "CDMX",
+        "state": "Mexico City",
         "country": "Mexico",
         "category": "Food",
         "subCategory": "Mexican Restaurants",
@@ -9224,6 +9277,7 @@
         "category": "Coffee",
         "subCategory": "Coffee Shops",
         "firstVisit": true,
+        "comments": "coffee flight",
         "count": 1
       },
       {
@@ -10031,6 +10085,7 @@
         "subCategory": "Gastropubs",
         "firstVisit": false,
         "comments": "#fave bar food",
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -11303,7 +11358,7 @@
         "count": 1
       },
       {
-        "venue": "Westfield San Francisco Centre",
+        "venue": "San Francisco Centre",
         "id": "452b81ddf964a520393b1fe3",
         "city": "San Francisco",
         "state": "CA",
@@ -12811,10 +12866,11 @@
       {
         "venue": "Cholla Cactus Garden",
         "id": "4f41749ae4b0f7b45a3ba46d",
-        "state": "California",
+        "city": "Twentynine Palms",
+        "state": "CA",
         "country": "United States",
         "category": "Outdoors",
-        "subCategory": "Gardens",
+        "subCategory": "Nature Preserves",
         "firstVisit": true,
         "count": 1
       },
@@ -22754,6 +22810,7 @@
         "subCategory": "Gastropubs",
         "firstVisit": false,
         "comments": "#fave bar food",
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -26113,6 +26170,8 @@
         "category": "Coffee",
         "subCategory": "Bakeries",
         "firstVisit": true,
+        "wouldTakeVisitors": true,
+        "comments": "#fave biscuit",
         "count": 1
       },
       {
@@ -29853,11 +29912,10 @@
       {
         "venue": "Slab City",
         "id": "4c5481201b46c9b61783b3ce",
-        "city": "Niland",
-        "state": "CA",
+        "state": "California",
         "country": "United States",
-        "category": "Outdoors",
-        "subCategory": "Campgrounds",
+        "category": "Locale",
+        "subCategory": "Cities",
         "firstVisit": true,
         "count": 1
       },
@@ -32262,6 +32320,7 @@
         "category": "Food",
         "subCategory": "Vegan and Vegetarian Restaurants",
         "firstVisit": true,
+        "comments": "#fave vegan asian",
         "count": 1
       },
       {
@@ -35329,6 +35388,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shops",
         "firstVisit": false,
+        "goToSpot": true,
+        "comments": "#fave vegan breakfast",
         "count": 2
       },
       {
@@ -38672,7 +38733,7 @@
         "count": 1
       },
       {
-        "venue": "Westfield San Francisco Centre",
+        "venue": "San Francisco Centre",
         "id": "452b81ddf964a520393b1fe3",
         "city": "San Francisco",
         "state": "CA",
@@ -41107,6 +41168,8 @@
         "category": "Coffee",
         "subCategory": "Coffee Shops",
         "firstVisit": true,
+        "goToSpot": true,
+        "comments": "#fave vegan breakfast",
         "count": 1
       },
       {
@@ -47775,6 +47838,7 @@
         "subCategory": "Gastropubs",
         "firstVisit": false,
         "comments": "#fave bar food",
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {
@@ -52292,7 +52356,7 @@
         "count": 1
       },
       {
-        "venue": "RingCentral Coliseum",
+        "venue": "Oakland-Alameda County Coliseum",
         "id": "430e5b80f964a52043271fe3",
         "city": "Oakland",
         "state": "CA",
@@ -52804,6 +52868,7 @@
         "subCategory": "Gastropubs",
         "firstVisit": true,
         "comments": "#fave bar food",
+        "wouldTakeVisitors": true,
         "count": 1
       },
       {

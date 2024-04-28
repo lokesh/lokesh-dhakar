@@ -1,4 +1,8 @@
 {
+  "foursquare" : {
+    "api_version": "XXX",
+    "oauth_token": "XXXXXXXXXXXXX"
+  },
   "strava": {
     "client_id": 7203,
     "client_secret": "XXX",

@@ -10,7 +10,7 @@ Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-meta
 ## To-do
 
 ### Next
-- Update this readme. Decide on weather to keep or update the following pages: running , notes, page, places, sketches, and inspiration
+- Update this readme. Decide on wether to keep or update the following pages: running , notes, page, places, sketches, and inspiration
 
 ### Nice-to-haves
 - Add videos bitsweeper, team bee
@@ -79,12 +79,12 @@ https://www.strava.com/api/v3/oauth/token?
 
 
 
-### Update places data
+### Update Places data
 
-Fetch the latest Swarm check-in data with the Foursquare API:
-1.Open up `build/foursquare.js`
-2. Make sure `FETCH_DATA` and `PROCESS_DATA` booleans are set to `true`
-3. `npm run foursquare`
+1. `npm run foursquare-fetch`
+2. `npm run foursquare-process`
+
+
 
 ---
 

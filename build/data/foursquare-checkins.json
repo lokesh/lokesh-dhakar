@@ -1,5 +1,95 @@
 [
   {
+    "venue": "Sightglass Coffee",
+    "id": "5968bf3429551366c474d076",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "RT Rotisserie",
+    "id": "5d62ea99ffec4e00078889cb",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Restaurants"
+  },
+  {
+    "venue": "Cardenas Markets",
+    "id": "5ae4cbf0d3cce8002c15e153",
+    "city": "East Palo Alto",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Supermarkets"
+  },
+  {
+    "venue": "Twin Peaks Summit",
+    "id": "4c29567f9fb5d13aa2139b57",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Hills"
+  },
+  {
+    "venue": "Réveille Coffee Co.",
+    "id": "5a7a53cb3af988153b69174f",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "Divisadero Farmers' Market",
+    "id": "4a92369ef964a520fa1c20e3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Farmers Markets"
+  },
+  {
+    "venue": "Whole Foods Market",
+    "id": "52603bff11d21a914be4eb71",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Grocery Stores"
+  },
+  {
+    "venue": "Verve Coffee Roasters",
+    "id": "589f6a4372714f7d35566b6a",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Coffee Shops"
+  },
+  {
+    "venue": "War Memorial Opera House",
+    "id": "49c7dcc3f964a520c9571fe3",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "year": 2024,
+    "month": 3,
+    "category": "Opera Houses"
+  },
+  {
     "venue": "SPRO",
     "id": "64b564a13424c26edae8bb03",
     "city": "San Francisco",
@@ -8563,7 +8653,7 @@
     "venue": "Hacienda de Cortés",
     "id": "4bef1edc5e4aa593d49858bb",
     "city": "Coyoacán",
-    "state": "CDMX",
+    "state": "Mexico City",
     "country": "Mexico",
     "year": 2023,
     "month": 0,
@@ -13209,7 +13299,7 @@
     "category": "Coffee Shops"
   },
   {
-    "venue": "Westfield San Francisco Centre",
+    "venue": "San Francisco Centre",
     "id": "452b81ddf964a520393b1fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -15740,11 +15830,12 @@
   {
     "venue": "Cholla Cactus Garden",
     "id": "4f41749ae4b0f7b45a3ba46d",
-    "state": "California",
+    "city": "Twentynine Palms",
+    "state": "CA",
     "country": "United States",
     "year": 2022,
     "month": 3,
-    "category": "Gardens"
+    "category": "Nature Preserves"
   },
   {
     "venue": "The Dez",
@@ -41296,12 +41387,11 @@
   {
     "venue": "Slab City",
     "id": "4c5481201b46c9b61783b3ce",
-    "city": "Niland",
-    "state": "CA",
+    "state": "California",
     "country": "United States",
     "year": 2017,
     "month": 6,
-    "category": "Campgrounds"
+    "category": "Cities"
   },
   {
     "venue": "Lizard Tree Library",
@@ -54844,7 +54934,7 @@
     "category": "Shoe Stores"
   },
   {
-    "venue": "Westfield San Francisco Centre",
+    "venue": "San Francisco Centre",
     "id": "452b81ddf964a520393b1fe3",
     "city": "San Francisco",
     "state": "CA",
@@ -74025,7 +74115,7 @@
     "category": "International Airports"
   },
   {
-    "venue": "RingCentral Coliseum",
+    "venue": "Oakland-Alameda County Coliseum",
     "id": "430e5b80f964a52043271fe3",
     "city": "Oakland",
     "state": "CA",

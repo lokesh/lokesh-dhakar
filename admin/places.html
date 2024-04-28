@@ -128,7 +128,7 @@ new Vue({
   mounted() {
     this.$refs.search.focus();
 
-    fetch('/src/data/foursquare-checkins.json')
+    fetch('/build/data/foursquare-checkins.json')
       .then(res => res.json())
       .then(json => {
         this.checkins = json;
@@ -138,7 +138,7 @@ new Vue({
         console.log(error);
       })
 
-		fetch('/src/data/venues-metadata.json')
+		fetch('/build/data/places-comments.json')
       .then(res => res.json())
       .then(json => {
       	this.venuesMetadata = json;
