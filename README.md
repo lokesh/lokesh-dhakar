@@ -81,7 +81,7 @@ https://www.strava.com/api/v3/oauth/token?
 
 ### Update Places data
 
-1. `npm run foursquare-fetch`
+//1. `npm run foursquare-fetch`
 2. `npm run foursquare-process`
 
 

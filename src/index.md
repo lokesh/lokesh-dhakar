@@ -399,10 +399,10 @@ pageWidth: full
 }
 
 .section-title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   display: inline-block;
   border-radius: var(--radius);
-  padding: 6px 10px;  
+  padding: 4px 8px;  
   border: 2px solid var(--border-color);
 }
 
