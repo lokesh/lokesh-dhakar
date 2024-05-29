@@ -145,7 +145,6 @@ a {
   color: var(--link-color);
   background-color: var(--link-bg-color);
   border-radius: var(--radius-sm);
-  /* text-decoration: underline; */
 
   /* If link wraps to new line, have border radius close and restart */
   /* box-decoration-break: clone;
@@ -282,8 +281,12 @@ a.nav__item {
   background-color: transparent;
   text-decoration: none;
 }
-a.nav__item--active {
-  text-decoration: underline;
+.nav-list-links a.nav__item::before {
+  content: '[ ] ';
+}
+
+.nav-list-links a.nav__item--active::before {
+  content: '[x] ';
 }
 
 a.nav__item:hover {
