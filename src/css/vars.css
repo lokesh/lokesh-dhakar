@@ -35,7 +35,7 @@
   --border-color-light: #d5d5d5; /* Used for inline content  */
 
   --radius-sm: 3px; /* Small tags */
-  --radius: 8px;    /* Form controls */
+  --radius: 6px;    /* Form controls */
   --radius-lg: 8px; /* Media */
   --radius-xl: 8px; /* Large media */
   /* --radius-button: 24px; */

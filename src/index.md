@@ -107,7 +107,7 @@ pageWidth: full
       </div>
     </div>
     <p>Getaround is a car sharing company, think Airbnb for cars.</p>
-    <p>I joined as a UI Engineer and eventually lead the Web Engineering team. <strong>I touched most web features and managed two other engineers.</strong></p>
+    <p>I joined as a UI Engineer and eventually led the Web Engineering team. <strong>I touched most web features and managed two other engineers.</strong></p>
     <a href="https://getaround.com" class="p-action">View live</a>
   </div>
 
@@ -285,47 +285,6 @@ pageWidth: full
   </div>
 </div>
 
-
-<!-- 
-<div class="p-media-section">
-  <div class="p-page" style="background-color: rgba(0, 5, 10, 0.1);">
-    <div class="p-page-media">
-      <div class="p-device-frame device-desktop">
-        <div class="device-desktop-title-bar">
-          <div class="device-desktop-circle"></div>
-          <div class="device-desktop-circle"></div>
-          <div class="device-desktop-circle"></div>
-        </div>
-        <img class="p-img" src="/media/projects/sq-web.png" />
-      </div>
-    </div>
-    <div class="p-caption">
-      Lorem then ipsum.
-    </div>
-  </div>
-  <div class="p-page" style="background-color: #2F80ED;">
-    <div class="p-page-media">
-      <div class="p-device-frame device-desktop">
-        <div class="device-desktop-title-bar">
-          <div class="device-desktop-circle"></div>
-          <div class="device-desktop-circle"></div>
-          <div class="device-desktop-circle"></div>
-        </div>
-        <img class="p-img" src="/media/projects/sq-web.png" />
-      </div>
-    </div>
-    <div class="p-caption">
-      Font selection screen. We had to balance customization with helpful constraints that made maintenance easier and the likelihood for garish results less likely.
-    </div>
-  </div>
-  <div class="p-page" style="background-color: #7FCEFA;">
-    <div class="p-page-media">
-      <div class="p-device-frame device-desktop">
-        <img class="p-img" src="/media/projects/sq-web.png" />
-      </div>
-    </div>
-  </div> -->
-
 <style>
 :root {
 
@@ -399,7 +358,7 @@ pageWidth: full
 }
 
 .section-title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: inline-block;
   border-radius: var(--radius);
   padding: 4px 8px;  
@@ -446,7 +405,7 @@ pageWidth: full
 .p-icon {
   width: 48px;
   height: 48px;
-  border-radius: var(--radius);
+  border-radius: var(--radius-lg);
   margin-right: var(--gutter-inner);
 }
 
@@ -525,7 +484,7 @@ pageWidth: full
 }
 
 .p-img-wrapper {
-  border-radius: var(--radius);   
+  border-radius: var(--radius-lg);   
 }
 
 .p-square .p-img-wrapper {
@@ -576,65 +535,6 @@ pageWidth: full
     flex: 1 1 auto;
     padding: 48px 24px;  
   }
-}
-
-
-.p-device-frame {
-  position: relative;
-}
-
-.p-device-frame.device-desktop {
-/*  padding-top: 12px;*/
-/*  background: rgba(0, 5, 10, 0.5);*/
-  background: black;
-  border: 2px solid black;
-  border-radius: var(--radius);
-}
-
-.p-device-frame.device-mobile {
-  padding: 36px 4px 48px;
-  background: black;
-  border: 2px solid black;
-  border-radius: 24px;
-}
-
-.device-mobile-chrome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.device-mobile-speaker {
-  position: relative;
-  top: -12px;
-  width: 48px;
-  height: 4px;
-  background: #333;
-  border-radius: 4px;
-}
-
-.device-mobile-home-button {
-  position: absolute;  
-  bottom: 5px;
-/*  top: -12px;*/
-  width: 36px;
-  height: 36px;
-/*  background: #333;*/
-  border-radius: 50%;
-  border: 3px solid #333;
-}
-
-.device-desktop-title-bar {
-  display: flex;
-  gap: 6px;
-  padding: 4px 4px 6px 4px;
-}
-
-.device-desktop-circle {
-  width: 6px;
-  height: 6px;
-  background: white;
-  border-radius: 50%;
 }
 
 .p-img {
