@@ -45,7 +45,7 @@ pageWidth: full
         <img class="p-img" src="/media/work/square-01.webp" alt="variety of mobile websites showing diverse visual styles" />
       </div>
       <div class="p-caption">
-        Examples of mobile websites created with the editor.
+        Example customer websites created with our editor.
       </div>
     </div>
     <div class="p-page">

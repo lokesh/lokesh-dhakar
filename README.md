@@ -8,12 +8,14 @@ Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-meta
 
 
 ## To-do
+- Add a clear "Available for work"-esque label related to Product Management search.
 
 ### Next
 - Update this readme. Decide on wether to keep or update the following pages: running , notes, page, places, sketches, and inspiration
 
 ### Nice-to-haves
 - Add videos bitsweeper, team bee
+- Add more info at bottom of homepage about myself and what I offer.
 
 ### Maybe someday
 - Add filtering to work section
