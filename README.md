@@ -83,7 +83,7 @@ https://www.strava.com/api/v3/oauth/token?
 
 ### Update Places data
 
-//1. `npm run foursquare-fetch`
+1. `npm run foursquare-fetch`
 2. `npm run foursquare-process`
 
 
@@ -107,8 +107,7 @@ https://foursquare.com/oauth2/authenticate?client_id=EOR1IUQHRPBCVEAFX0XTOCTPRSI
 - `npm run places-admin-server`
 - `npm run places-admin`
 - Add metadata through the admin.
-- Update `build/foursquare.js` and set `MERGE_VENUES_METADATA` to `true` and run `npm run foursquare`
-
+- `npm run foursquare-process`
 
 <!--
 ### Adding a video to Inspiration page
