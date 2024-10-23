@@ -58,7 +58,8 @@
   },
   "5e82886cc3e6830008549196": {
     "dateSpot": true,
-    "comments": "#fave noodles: Ginger noodles"
+    "comments": "#fave noodles: Ginger noodles",
+    "wouldTakeVisitors": true
   },
   "4c325dd83896e21e6d6ee890": {
     "goToSpot": true,
@@ -322,5 +323,22 @@
   },
   "547a3a09498edded45384099": {
     "comments": "#fave vegan asian"
+  },
+  "4af1f2e9f964a520afe421e3": {
+    "comments": "#fave onion rings"
+  },
+  "517b3dbe80555420b2aa7f35": {
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true
+  },
+  "5cfaca87a2c00b002bd3242e": {
+    "goToSpot": true,
+    "comments": "#fave pizza: Pomodoro"
+  },
+  "6115cdece3985b1cc0713888": {
+    "goToSpot": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave pizza: Eat Your Veggies"
   }
 }
