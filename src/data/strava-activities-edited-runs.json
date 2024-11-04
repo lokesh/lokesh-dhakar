@@ -1,5 +1,65 @@
 [
   {
+    "id": 12807557849,
+    "name": "Embarcadero clockwise",
+    "distance": "12.3",
+    "distancePercent": 47.0278237908397,
+    "elevation": 540.026264,
+    "pace": 7.441049969159112,
+    "paceFormatted": "7:26",
+    "date": "Nov 2",
+    "year": 2024,
+    "startDate": "2024-11-02T11:08:00Z"
+  },
+  {
+    "id": 12773599863,
+    "name": "NPSF Track Tuesday 6 x 800m",
+    "distance": "6.6",
+    "distancePercent": 25.004727966412215,
+    "elevation": 278.8714,
+    "pace": 7.171671692906544,
+    "paceFormatted": "7:10",
+    "date": "Oct 28",
+    "year": 2024,
+    "startDate": "2024-10-29T06:20:55Z"
+  },
+  {
+    "id": 12770181239,
+    "name": "Afternoon Run",
+    "distance": "4.2",
+    "distancePercent": 15.975638141603058,
+    "elevation": 451.443584,
+    "pace": 8.720338797386997,
+    "paceFormatted": "8:43",
+    "date": "Oct 28",
+    "year": 2024,
+    "startDate": "2024-10-28T16:21:05Z"
+  },
+  {
+    "id": 12751646518,
+    "name": "First time running all the way to Hawk Hill",
+    "distance": "13.2",
+    "distancePercent": 50.42496814351145,
+    "elevation": 1269.68508,
+    "pace": 7.499869122401645,
+    "paceFormatted": "7:29",
+    "date": "Oct 26",
+    "year": 2024,
+    "startDate": "2024-10-26T10:40:39Z"
+  },
+  {
+    "id": 12738561975,
+    "name": "Zone 2 Run",
+    "distance": "4.4",
+    "distancePercent": 16.825161394274808,
+    "elevation": 124.67192,
+    "pace": 7.542774418184702,
+    "paceFormatted": "7:32",
+    "date": "Oct 24",
+    "year": 2024,
+    "startDate": "2024-10-24T16:29:14Z"
+  },
+  {
     "id": 12721740082,
     "name": "8 x 400m hills at tempo",
     "distance": "6.0",
