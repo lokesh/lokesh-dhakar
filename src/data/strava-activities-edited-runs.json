@@ -1,5 +1,41 @@
 [
   {
+    "id": 12975128991,
+    "name": "Last long run before CIM",
+    "distance": "18.0",
+    "distancePercent": 68.80521718931297,
+    "elevation": 665.3543520000001,
+    "pace": 7.54795121077712,
+    "paceFormatted": "7:32",
+    "date": "Nov 24",
+    "year": 2024,
+    "startDate": "2024-11-24T08:11:55Z"
+  },
+  {
+    "id": 12968400885,
+    "name": "Afternoon shortie before long run tomorrow",
+    "distance": "5.3",
+    "distancePercent": 20.41369750152672,
+    "elevation": 295.2756,
+    "pace": 7.129873154065464,
+    "paceFormatted": "7:07",
+    "date": "Nov 23",
+    "year": 2024,
+    "startDate": "2024-11-23T14:14:19Z"
+  },
+  {
+    "id": 12946871934,
+    "name": "💣🌧️ 6 x 400m",
+    "distance": "5.4",
+    "distancePercent": 20.644695728244276,
+    "elevation": 446.85040799999996,
+    "pace": 7.1949181343992885,
+    "paceFormatted": "7:11",
+    "date": "Nov 20",
+    "year": 2024,
+    "startDate": "2024-11-20T11:43:51Z"
+  },
+  {
     "id": 12924511623,
     "name": "Run around the top half of SF",
     "distance": "15.8",
