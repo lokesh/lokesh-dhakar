@@ -340,5 +340,26 @@
     "goToSpot": true,
     "wouldTakeVisitors": true,
     "comments": "#fave pizza: Eat Your Veggies"
+  },
+  "5582e64c498e13943a4ed9e1": {
+    "goToSpot": true,
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true,
+    "comments": "#fave: lemon bar. musabi, focacci bite"
+  },
+  "5aa43078829b0c28375e513b": {
+    "goToSpot": true
+  },
+  "6483d9d09cead725eda32bbc": {
+    "wouldTakeVisitors": true,
+    "comments": "#fave: udon"
+  },
+  "4a469839f964a52029a91fe3": {
+    "outdoorSeating": true,
+    "wouldTakeVisitors": true
+  },
+  "443fddaff964a52039321fe3": {
+    "goToSpot": true,
+    "comments": "#fave: ethiopian"
   }
 }
