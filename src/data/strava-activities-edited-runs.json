@@ -1,5 +1,83 @@
 [
   {
+    "id": 14450989195,
+    "name": "Afternoon Run",
+    "distance": "7.5",
+    "distancePercent": 28.485828553435116,
+    "elevation": 702.09976,
+    "pace": 8.2269379877282,
+    "paceFormatted": "8:13",
+    "date": "May 11",
+    "year": 2025,
+    "startDate": "2025-05-11T13:36:27Z",
+    "isRace": false
+  },
+  {
+    "id": 14407024464,
+    "name": "2x 3mi (6:14, 6:15)",
+    "distance": "8.2",
+    "distancePercent": 31.281998053435117,
+    "elevation": 144.35696,
+    "pace": 6.828631316557023,
+    "paceFormatted": "6:49",
+    "date": "May 7",
+    "year": 2025,
+    "startDate": "2025-05-07T08:55:46Z",
+    "isRace": false
+  },
+  {
+    "id": 14377300544,
+    "name": "Z2 through Glen Canyon",
+    "distance": "7.7",
+    "distancePercent": 29.213923580152674,
+    "elevation": 1043.30712,
+    "pace": 10.064391228634827,
+    "paceFormatted": "10:03",
+    "date": "May 4",
+    "year": 2025,
+    "startDate": "2025-05-04T07:07:14Z",
+    "isRace": false
+  },
+  {
+    "id": 14335465111,
+    "name": "10x 90sec intervals",
+    "distance": "7.1",
+    "distancePercent": 27.215812635496185,
+    "elevation": 495.40684,
+    "pace": 7.832503176968295,
+    "paceFormatted": "7:49",
+    "date": "Apr 30",
+    "year": 2025,
+    "startDate": "2025-04-30T10:13:33Z",
+    "isRace": false
+  },
+  {
+    "id": 14307582177,
+    "name": "Easy one",
+    "distance": "2.7",
+    "distancePercent": 10.414367691603053,
+    "elevation": 116.141736,
+    "pace": 9.131786392289817,
+    "paceFormatted": "9:07",
+    "date": "Apr 27",
+    "year": 2025,
+    "startDate": "2025-04-27T16:49:20Z",
+    "isRace": false
+  },
+  {
+    "id": 14276262670,
+    "name": "Time to train for another marathon?",
+    "distance": "7.2",
+    "distancePercent": 27.487365992366414,
+    "elevation": 229.65879999999999,
+    "pace": 6.884958126589555,
+    "paceFormatted": "6:53",
+    "date": "Apr 24",
+    "year": 2025,
+    "startDate": "2025-04-24T13:06:58Z",
+    "isRace": false
+  },
+  {
     "id": 14216159326,
     "name": "Buena Vista is good Dipsea training",
     "distance": "4.3",
@@ -9,7 +87,8 @@
     "paceFormatted": "10:16",
     "date": "Apr 18",
     "year": 2025,
-    "startDate": "2025-04-18T11:16:59Z"
+    "startDate": "2025-04-18T11:16:59Z",
+    "isRace": false
   },
   {
     "id": 14196695817,
@@ -21,7 +100,8 @@
     "paceFormatted": "8:01",
     "date": "Apr 16",
     "year": 2025,
-    "startDate": "2025-04-16T10:33:52Z"
+    "startDate": "2025-04-16T10:33:52Z",
+    "isRace": false
   },
   {
     "id": 14169299661,
@@ -33,7 +113,8 @@
     "paceFormatted": "7:18",
     "date": "Apr 13",
     "year": 2025,
-    "startDate": "2025-04-13T11:50:38Z"
+    "startDate": "2025-04-13T11:50:38Z",
+    "isRace": false
   },
   {
     "id": 14143046075,
@@ -45,7 +126,8 @@
     "paceFormatted": "7:43",
     "date": "Apr 10",
     "year": 2025,
-    "startDate": "2025-04-10T21:11:42Z"
+    "startDate": "2025-04-10T21:11:42Z",
+    "isRace": false
   },
   {
     "id": 14123351889,
@@ -57,7 +139,8 @@
     "paceFormatted": "10:01",
     "date": "Apr 8",
     "year": 2025,
-    "startDate": "2025-04-08T21:25:03Z"
+    "startDate": "2025-04-08T21:25:03Z",
+    "isRace": false
   },
   {
     "id": 14101182038,
@@ -69,7 +152,8 @@
     "paceFormatted": "9:04",
     "date": "Apr 6",
     "year": 2025,
-    "startDate": "2025-04-06T10:03:32Z"
+    "startDate": "2025-04-06T10:03:32Z",
+    "isRace": false
   },
   {
     "id": 14080893989,
@@ -81,7 +165,8 @@
     "paceFormatted": "7:23",
     "date": "Apr 4",
     "year": 2025,
-    "startDate": "2025-04-04T11:44:35Z"
+    "startDate": "2025-04-04T11:44:35Z",
+    "isRace": false
   },
   {
     "id": 14025014467,
@@ -93,7 +178,8 @@
     "paceFormatted": "7:14",
     "date": "Mar 29",
     "year": 2025,
-    "startDate": "2025-03-29T16:51:32Z"
+    "startDate": "2025-03-29T16:51:32Z",
+    "isRace": false
   },
   {
     "id": 13996022997,
@@ -105,7 +191,8 @@
     "paceFormatted": "7:44",
     "date": "Mar 26",
     "year": 2025,
-    "startDate": "2025-03-26T12:11:04Z"
+    "startDate": "2025-03-26T12:11:04Z",
+    "isRace": false
   },
   {
     "id": 13958678746,
@@ -117,7 +204,8 @@
     "paceFormatted": "7:18",
     "date": "Mar 22",
     "year": 2025,
-    "startDate": "2025-03-22T14:55:19Z"
+    "startDate": "2025-03-22T14:55:19Z",
+    "isRace": false
   },
   {
     "id": 13928133836,
@@ -129,7 +217,8 @@
     "paceFormatted": "8:41",
     "date": "Mar 19",
     "year": 2025,
-    "startDate": "2025-03-19T09:24:08Z"
+    "startDate": "2025-03-19T09:24:08Z",
+    "isRace": false
   },
   {
     "id": 13900659253,
@@ -141,7 +230,8 @@
     "paceFormatted": "7:46",
     "date": "Mar 16",
     "year": 2025,
-    "startDate": "2025-03-16T08:37:52Z"
+    "startDate": "2025-03-16T08:37:52Z",
+    "isRace": false
   },
   {
     "id": 13875943289,
@@ -153,7 +243,8 @@
     "paceFormatted": "8:29",
     "date": "Mar 13",
     "year": 2025,
-    "startDate": "2025-03-13T13:14:47Z"
+    "startDate": "2025-03-13T13:14:47Z",
+    "isRace": false
   },
   {
     "id": 13847442247,
@@ -165,7 +256,8 @@
     "paceFormatted": "7:42",
     "date": "Mar 10",
     "year": 2025,
-    "startDate": "2025-03-10T15:46:27Z"
+    "startDate": "2025-03-10T15:46:27Z",
+    "isRace": false
   },
   {
     "id": 13825561061,
@@ -177,7 +269,8 @@
     "paceFormatted": "7:06",
     "date": "Mar 8",
     "year": 2025,
-    "startDate": "2025-03-08T08:07:14Z"
+    "startDate": "2025-03-08T08:07:14Z",
+    "isRace": false
   },
   {
     "id": 13810270721,
@@ -189,7 +282,8 @@
     "paceFormatted": "8:43",
     "date": "Mar 6",
     "year": 2025,
-    "startDate": "2025-03-06T14:12:38Z"
+    "startDate": "2025-03-06T14:12:38Z",
+    "isRace": false
   },
   {
     "id": 13682672088,
@@ -201,7 +295,8 @@
     "paceFormatted": "6:58",
     "date": "Feb 20",
     "year": 2025,
-    "startDate": "2025-02-20T14:18:03Z"
+    "startDate": "2025-02-20T14:18:03Z",
+    "isRace": false
   },
   {
     "id": 13664861010,
@@ -213,7 +308,8 @@
     "paceFormatted": "7:44",
     "date": "Feb 18",
     "year": 2025,
-    "startDate": "2025-02-18T14:08:38Z"
+    "startDate": "2025-02-18T14:08:38Z",
+    "isRace": false
   },
   {
     "id": 13636276778,
@@ -225,7 +321,8 @@
     "paceFormatted": "7:48",
     "date": "Feb 15",
     "year": 2025,
-    "startDate": "2025-02-15T10:35:25Z"
+    "startDate": "2025-02-15T10:35:25Z",
+    "isRace": false
   },
   {
     "id": 13576242014,
@@ -237,7 +334,8 @@
     "paceFormatted": "7:11",
     "date": "Feb 8",
     "year": 2025,
-    "startDate": "2025-02-08T11:52:58Z"
+    "startDate": "2025-02-08T11:52:58Z",
+    "isRace": false
   },
   {
     "id": 13523815636,
@@ -249,7 +347,8 @@
     "paceFormatted": "7:23",
     "date": "Feb 2",
     "year": 2025,
-    "startDate": "2025-02-02T13:27:28Z"
+    "startDate": "2025-02-02T13:27:28Z",
+    "isRace": false
   },
   {
     "id": 13505344114,
@@ -261,7 +360,8 @@
     "paceFormatted": "6:43",
     "date": "Jan 31",
     "year": 2025,
-    "startDate": "2025-01-31T15:18:00Z"
+    "startDate": "2025-01-31T15:18:00Z",
+    "isRace": false
   },
   {
     "id": 13479189349,
@@ -273,7 +373,8 @@
     "paceFormatted": "8:25",
     "date": "Jan 28",
     "year": 2025,
-    "startDate": "2025-01-28T14:40:54Z"
+    "startDate": "2025-01-28T14:40:54Z",
+    "isRace": false
   },
   {
     "id": 13437197573,
@@ -285,7 +386,8 @@
     "paceFormatted": "8:34",
     "date": "Jan 23",
     "year": 2025,
-    "startDate": "2025-01-23T20:58:27Z"
+    "startDate": "2025-01-23T20:58:27Z",
+    "isRace": false
   },
   {
     "id": 13427450074,
@@ -297,7 +399,8 @@
     "paceFormatted": "7:49",
     "date": "Jan 22",
     "year": 2025,
-    "startDate": "2025-01-22T14:42:58Z"
+    "startDate": "2025-01-22T14:42:58Z",
+    "isRace": false
   },
   {
     "id": 13392253106,
@@ -309,7 +412,8 @@
     "paceFormatted": "7:13",
     "date": "Jan 18",
     "year": 2025,
-    "startDate": "2025-01-18T14:59:23Z"
+    "startDate": "2025-01-18T14:59:23Z",
+    "isRace": false
   },
   {
     "id": 13366575242,
@@ -321,7 +425,8 @@
     "paceFormatted": "8:01",
     "date": "Jan 15",
     "year": 2025,
-    "startDate": "2025-01-15T16:05:10Z"
+    "startDate": "2025-01-15T16:05:10Z",
+    "isRace": false
   },
   {
     "id": 13327810559,
@@ -333,7 +438,8 @@
     "paceFormatted": "9:54",
     "date": "Jan 11",
     "year": 2025,
-    "startDate": "2025-01-11T10:08:05Z"
+    "startDate": "2025-01-11T10:08:05Z",
+    "isRace": false
   },
   {
     "id": 13290874330,
@@ -345,7 +451,8 @@
     "paceFormatted": "7:46",
     "date": "Jan 6",
     "year": 2025,
-    "startDate": "2025-01-07T06:07:27Z"
+    "startDate": "2025-01-07T06:07:27Z",
+    "isRace": false
   },
   {
     "id": 13266803635,
@@ -357,7 +464,8 @@
     "paceFormatted": "7:08",
     "date": "Jan 4",
     "year": 2025,
-    "startDate": "2025-01-04T09:57:04Z"
+    "startDate": "2025-01-04T09:57:04Z",
+    "isRace": false
   },
   {
     "id": 13250239953,
@@ -369,7 +477,8 @@
     "paceFormatted": "7:47",
     "date": "Jan 2",
     "year": 2025,
-    "startDate": "2025-01-02T13:09:17Z"
+    "startDate": "2025-01-02T13:09:17Z",
+    "isRace": false
   },
   {
     "id": 13233339324,
@@ -381,7 +490,8 @@
     "paceFormatted": "8:50",
     "date": "Dec 31",
     "year": 2024,
-    "startDate": "2024-12-31T08:57:17Z"
+    "startDate": "2024-12-31T08:57:17Z",
+    "isRace": false
   },
   {
     "id": 13178626024,
@@ -393,7 +503,8 @@
     "paceFormatted": "8:48",
     "date": "Dec 23",
     "year": 2024,
-    "startDate": "2024-12-23T20:44:50Z"
+    "startDate": "2024-12-23T20:44:50Z",
+    "isRace": false
   },
   {
     "id": 13165511644,
@@ -405,7 +516,8 @@
     "paceFormatted": "7:36",
     "date": "Dec 21",
     "year": 2024,
-    "startDate": "2024-12-21T20:40:12Z"
+    "startDate": "2024-12-21T20:40:12Z",
+    "isRace": false
   },
   {
     "id": 13139111900,
@@ -417,7 +529,8 @@
     "paceFormatted": "8:39",
     "date": "Dec 17",
     "year": 2024,
-    "startDate": "2024-12-17T16:21:01Z"
+    "startDate": "2024-12-17T16:21:01Z",
+    "isRace": false
   },
   {
     "id": 13116770716,
@@ -429,7 +542,8 @@
     "paceFormatted": "8:05",
     "date": "Dec 14",
     "year": 2024,
-    "startDate": "2024-12-14T13:48:55Z"
+    "startDate": "2024-12-14T13:48:55Z",
+    "isRace": false
   },
   {
     "id": 13074254039,
@@ -441,7 +555,8 @@
     "paceFormatted": "6:48",
     "date": "Dec 7",
     "year": 2024,
-    "startDate": "2024-12-08T07:01:30Z"
+    "startDate": "2024-12-08T07:01:30Z",
+    "isRace": true
   },
   {
     "id": 13054178109,
@@ -453,7 +568,8 @@
     "paceFormatted": "7:15",
     "date": "Dec 5",
     "year": 2024,
-    "startDate": "2024-12-05T10:37:36Z"
+    "startDate": "2024-12-05T10:37:36Z",
+    "isRace": false
   },
   {
     "id": 13041801930,
@@ -465,7 +581,8 @@
     "paceFormatted": "7:48",
     "date": "Dec 3",
     "year": 2024,
-    "startDate": "2024-12-03T16:04:01Z"
+    "startDate": "2024-12-03T16:04:01Z",
+    "isRace": false
   },
   {
     "id": 13033203033,
@@ -477,7 +594,8 @@
     "paceFormatted": "10:52",
     "date": "Dec 2",
     "year": 2024,
-    "startDate": "2024-12-02T11:03:52Z"
+    "startDate": "2024-12-02T11:03:52Z",
+    "isRace": false
   },
   {
     "id": 13010705674,
@@ -489,7 +607,8 @@
     "paceFormatted": "7:52",
     "date": "Nov 29",
     "year": 2024,
-    "startDate": "2024-11-29T10:20:20Z"
+    "startDate": "2024-11-29T10:20:20Z",
+    "isRace": false
   },
   {
     "id": 12998670361,
@@ -501,7 +620,8 @@
     "paceFormatted": "6:52",
     "date": "Nov 27",
     "year": 2024,
-    "startDate": "2024-11-27T14:57:36Z"
+    "startDate": "2024-11-27T14:57:36Z",
+    "isRace": false
   },
   {
     "id": 12975128991,
@@ -513,7 +633,8 @@
     "paceFormatted": "7:32",
     "date": "Nov 24",
     "year": 2024,
-    "startDate": "2024-11-24T08:11:55Z"
+    "startDate": "2024-11-24T08:11:55Z",
+    "isRace": false
   },
   {
     "id": 12968400885,
@@ -525,7 +646,8 @@
     "paceFormatted": "7:07",
     "date": "Nov 23",
     "year": 2024,
-    "startDate": "2024-11-23T14:14:19Z"
+    "startDate": "2024-11-23T14:14:19Z",
+    "isRace": false
   },
   {
     "id": 12946871934,
@@ -537,7 +659,8 @@
     "paceFormatted": "7:11",
     "date": "Nov 20",
     "year": 2024,
-    "startDate": "2024-11-20T11:43:51Z"
+    "startDate": "2024-11-20T11:43:51Z",
+    "isRace": false
   },
   {
     "id": 12924511623,
@@ -549,7 +672,8 @@
     "paceFormatted": "7:22",
     "date": "Nov 17",
     "year": 2024,
-    "startDate": "2024-11-17T08:54:33Z"
+    "startDate": "2024-11-17T08:54:33Z",
+    "isRace": false
   },
   {
     "id": 12899949997,
@@ -561,7 +685,8 @@
     "paceFormatted": "9:12",
     "date": "Nov 13",
     "year": 2024,
-    "startDate": "2024-11-14T07:20:23Z"
+    "startDate": "2024-11-14T07:20:23Z",
+    "isRace": false
   },
   {
     "id": 12887971881,
@@ -573,7 +698,8 @@
     "paceFormatted": "6:38",
     "date": "Nov 12",
     "year": 2024,
-    "startDate": "2024-11-12T16:13:38Z"
+    "startDate": "2024-11-12T16:13:38Z",
+    "isRace": false
   },
   {
     "id": 12870628973,
@@ -585,7 +711,8 @@
     "paceFormatted": "7:21",
     "date": "Nov 9",
     "year": 2024,
-    "startDate": "2024-11-10T07:55:34Z"
+    "startDate": "2024-11-10T07:55:34Z",
+    "isRace": false
   },
   {
     "id": 12861823558,
@@ -597,7 +724,8 @@
     "paceFormatted": "7:47",
     "date": "Nov 9",
     "year": 2024,
-    "startDate": "2024-11-09T09:30:37Z"
+    "startDate": "2024-11-09T09:30:37Z",
+    "isRace": false
   },
   {
     "id": 12840102143,
@@ -609,7 +737,8 @@
     "paceFormatted": "7:55",
     "date": "Nov 6",
     "year": 2024,
-    "startDate": "2024-11-06T12:00:22Z"
+    "startDate": "2024-11-06T12:00:22Z",
+    "isRace": false
   },
   {
     "id": 12825042483,
@@ -621,7 +750,8 @@
     "paceFormatted": "8:19",
     "date": "Nov 4",
     "year": 2024,
-    "startDate": "2024-11-04T16:17:18Z"
+    "startDate": "2024-11-04T16:17:18Z",
+    "isRace": false
   },
   {
     "id": 12807557849,
@@ -633,7 +763,8 @@
     "paceFormatted": "7:26",
     "date": "Nov 2",
     "year": 2024,
-    "startDate": "2024-11-02T11:08:00Z"
+    "startDate": "2024-11-02T11:08:00Z",
+    "isRace": false
   },
   {
     "id": 12773599863,
@@ -645,7 +776,8 @@
     "paceFormatted": "7:10",
     "date": "Oct 28",
     "year": 2024,
-    "startDate": "2024-10-29T06:20:55Z"
+    "startDate": "2024-10-29T06:20:55Z",
+    "isRace": false
   },
   {
     "id": 12770181239,
@@ -657,7 +789,8 @@
     "paceFormatted": "8:43",
     "date": "Oct 28",
     "year": 2024,
-    "startDate": "2024-10-28T16:21:05Z"
+    "startDate": "2024-10-28T16:21:05Z",
+    "isRace": false
   },
   {
     "id": 12751646518,
@@ -669,7 +802,8 @@
     "paceFormatted": "7:29",
     "date": "Oct 26",
     "year": 2024,
-    "startDate": "2024-10-26T10:40:39Z"
+    "startDate": "2024-10-26T10:40:39Z",
+    "isRace": false
   },
   {
     "id": 12738561975,
@@ -681,7 +815,8 @@
     "paceFormatted": "7:32",
     "date": "Oct 24",
     "year": 2024,
-    "startDate": "2024-10-24T16:29:14Z"
+    "startDate": "2024-10-24T16:29:14Z",
+    "isRace": false
   },
   {
     "id": 12721740082,
@@ -693,7 +828,8 @@
     "paceFormatted": "7:55",
     "date": "Oct 22",
     "year": 2024,
-    "startDate": "2024-10-22T16:40:27Z"
+    "startDate": "2024-10-22T16:40:27Z",
+    "isRace": false
   },
   {
     "id": 12704145951,
@@ -705,7 +841,8 @@
     "paceFormatted": "7:22",
     "date": "Oct 20",
     "year": 2024,
-    "startDate": "2024-10-20T11:48:23Z"
+    "startDate": "2024-10-20T11:48:23Z",
+    "isRace": false
   },
   {
     "id": 12681466889,
@@ -717,7 +854,8 @@
     "paceFormatted": "7:01",
     "date": "Oct 17",
     "year": 2024,
-    "startDate": "2024-10-17T16:07:25Z"
+    "startDate": "2024-10-17T16:07:25Z",
+    "isRace": false
   },
   {
     "id": 12665371034,
@@ -729,7 +867,8 @@
     "paceFormatted": "8:22",
     "date": "Oct 15",
     "year": 2024,
-    "startDate": "2024-10-15T15:23:22Z"
+    "startDate": "2024-10-15T15:23:22Z",
+    "isRace": false
   },
   {
     "id": 12631166241,
@@ -741,7 +880,8 @@
     "paceFormatted": "9:08",
     "date": "Oct 11",
     "year": 2024,
-    "startDate": "2024-10-11T10:14:55Z"
+    "startDate": "2024-10-11T10:14:55Z",
+    "isRace": false
   },
   {
     "id": 12602201559,
@@ -753,7 +893,8 @@
     "paceFormatted": "6:41",
     "date": "Oct 7",
     "year": 2024,
-    "startDate": "2024-10-07T18:10:30Z"
+    "startDate": "2024-10-07T18:10:30Z",
+    "isRace": false
   },
   {
     "id": 12583902303,
@@ -765,7 +906,8 @@
     "paceFormatted": "7:45",
     "date": "Oct 5",
     "year": 2024,
-    "startDate": "2024-10-05T12:37:54Z"
+    "startDate": "2024-10-05T12:37:54Z",
+    "isRace": false
   },
   {
     "id": 12560721593,
@@ -777,7 +919,8 @@
     "paceFormatted": "7:56",
     "date": "Oct 2",
     "year": 2024,
-    "startDate": "2024-10-02T15:55:57Z"
+    "startDate": "2024-10-02T15:55:57Z",
+    "isRace": false
   },
   {
     "id": 12544561530,
@@ -789,7 +932,8 @@
     "paceFormatted": "6:57",
     "date": "Sep 30",
     "year": 2024,
-    "startDate": "2024-09-30T16:16:59Z"
+    "startDate": "2024-09-30T16:16:59Z",
+    "isRace": false
   },
   {
     "id": 12526866204,
@@ -801,7 +945,8 @@
     "paceFormatted": "7:28",
     "date": "Sep 28",
     "year": 2024,
-    "startDate": "2024-09-28T10:22:00Z"
+    "startDate": "2024-09-28T10:22:00Z",
+    "isRace": false
   },
   {
     "id": 12497476423,
@@ -813,7 +958,8 @@
     "paceFormatted": "9:35",
     "date": "Sep 24",
     "year": 2024,
-    "startDate": "2024-09-24T19:29:17Z"
+    "startDate": "2024-09-24T19:29:17Z",
+    "isRace": false
   },
   {
     "id": 12480902478,
@@ -825,7 +971,8 @@
     "paceFormatted": "8:17",
     "date": "Sep 22",
     "year": 2024,
-    "startDate": "2024-09-22T20:10:38Z"
+    "startDate": "2024-09-22T20:10:38Z",
+    "isRace": false
   },
   {
     "id": 12438118663,
@@ -837,7 +984,8 @@
     "paceFormatted": "8:18",
     "date": "Sep 17",
     "year": 2024,
-    "startDate": "2024-09-17T16:23:57Z"
+    "startDate": "2024-09-17T16:23:57Z",
+    "isRace": false
   },
   {
     "id": 12419050158,
@@ -849,7 +997,8 @@
     "paceFormatted": "7:28",
     "date": "Sep 15",
     "year": 2024,
-    "startDate": "2024-09-15T10:05:40Z"
+    "startDate": "2024-09-15T10:05:40Z",
+    "isRace": false
   },
   {
     "id": 12379352953,
@@ -861,7 +1010,8 @@
     "paceFormatted": "7:15",
     "date": "Sep 10",
     "year": 2024,
-    "startDate": "2024-09-10T15:33:11Z"
+    "startDate": "2024-09-10T15:33:11Z",
+    "isRace": false
   },
   {
     "id": 12360888926,
@@ -873,7 +1023,8 @@
     "paceFormatted": "7:25",
     "date": "Sep 8",
     "year": 2024,
-    "startDate": "2024-09-08T09:46:05Z"
+    "startDate": "2024-09-08T09:46:05Z",
+    "isRace": false
   },
   {
     "id": 12344585999,
@@ -885,7 +1036,8 @@
     "paceFormatted": "8:12",
     "date": "Sep 6",
     "year": 2024,
-    "startDate": "2024-09-06T15:18:35Z"
+    "startDate": "2024-09-06T15:18:35Z",
+    "isRace": false
   },
   {
     "id": 12328722341,
@@ -897,7 +1049,8 @@
     "paceFormatted": "7:24",
     "date": "Sep 4",
     "year": 2024,
-    "startDate": "2024-09-04T16:04:25Z"
+    "startDate": "2024-09-04T16:04:25Z",
+    "isRace": false
   },
   {
     "id": 12300977545,
@@ -909,7 +1062,8 @@
     "paceFormatted": "7:48",
     "date": "Sep 1",
     "year": 2024,
-    "startDate": "2024-09-01T09:52:27Z"
+    "startDate": "2024-09-01T09:52:27Z",
+    "isRace": false
   },
   {
     "id": 12284957665,
@@ -921,7 +1075,8 @@
     "paceFormatted": "6:59",
     "date": "Aug 30",
     "year": 2024,
-    "startDate": "2024-08-30T15:56:20Z"
+    "startDate": "2024-08-30T15:56:20Z",
+    "isRace": false
   },
   {
     "id": 12268761009,
@@ -933,7 +1088,8 @@
     "paceFormatted": "7:26",
     "date": "Aug 28",
     "year": 2024,
-    "startDate": "2024-08-28T16:07:17Z"
+    "startDate": "2024-08-28T16:07:17Z",
+    "isRace": false
   },
   {
     "id": 12250934559,
@@ -945,7 +1101,8 @@
     "paceFormatted": "7:22",
     "date": "Aug 26",
     "year": 2024,
-    "startDate": "2024-08-26T16:08:37Z"
+    "startDate": "2024-08-26T16:08:37Z",
+    "isRace": false
   },
   {
     "id": 12225576817,
@@ -957,7 +1114,8 @@
     "paceFormatted": "7:56",
     "date": "Aug 23",
     "year": 2024,
-    "startDate": "2024-08-23T16:06:49Z"
+    "startDate": "2024-08-23T16:06:49Z",
+    "isRace": false
   },
   {
     "id": 12191180791,
@@ -969,7 +1127,8 @@
     "paceFormatted": "6:58",
     "date": "Aug 19",
     "year": 2024,
-    "startDate": "2024-08-19T15:12:07Z"
+    "startDate": "2024-08-19T15:12:07Z",
+    "isRace": false
   },
   {
     "id": 12173064545,
@@ -981,7 +1140,8 @@
     "paceFormatted": "7:43",
     "date": "Aug 17",
     "year": 2024,
-    "startDate": "2024-08-17T09:49:50Z"
+    "startDate": "2024-08-17T09:49:50Z",
+    "isRace": false
   },
   {
     "id": 12165199402,
@@ -993,7 +1153,8 @@
     "paceFormatted": "8:34",
     "date": "Aug 16",
     "year": 2024,
-    "startDate": "2024-08-16T11:08:45Z"
+    "startDate": "2024-08-16T11:08:45Z",
+    "isRace": false
   },
   {
     "id": 12147922707,
@@ -1005,7 +1166,8 @@
     "paceFormatted": "7:41",
     "date": "Aug 14",
     "year": 2024,
-    "startDate": "2024-08-14T10:53:24Z"
+    "startDate": "2024-08-14T10:53:24Z",
+    "isRace": false
   },
   {
     "id": 12137260132,
@@ -1017,7 +1179,8 @@
     "paceFormatted": "7:37",
     "date": "Aug 12",
     "year": 2024,
-    "startDate": "2024-08-13T06:17:07Z"
+    "startDate": "2024-08-13T06:17:07Z",
+    "isRace": false
   },
   {
     "id": 12124048641,
@@ -1029,7 +1192,8 @@
     "paceFormatted": "8:54",
     "date": "Aug 11",
     "year": 2024,
-    "startDate": "2024-08-11T14:39:51Z"
+    "startDate": "2024-08-11T14:39:51Z",
+    "isRace": false
   },
   {
     "id": 12105989412,
@@ -1041,7 +1205,8 @@
     "paceFormatted": "8:00",
     "date": "Aug 9",
     "year": 2024,
-    "startDate": "2024-08-09T11:41:09Z"
+    "startDate": "2024-08-09T11:41:09Z",
+    "isRace": false
   },
   {
     "id": 12091805138,
@@ -1053,7 +1218,8 @@
     "paceFormatted": "8:12",
     "date": "Aug 7",
     "year": 2024,
-    "startDate": "2024-08-07T20:39:39Z"
+    "startDate": "2024-08-07T20:39:39Z",
+    "isRace": false
   },
   {
     "id": 12028988849,
@@ -1065,7 +1231,8 @@
     "paceFormatted": "7:27",
     "date": "Jul 31",
     "year": 2024,
-    "startDate": "2024-07-31T09:14:38Z"
+    "startDate": "2024-07-31T09:14:38Z",
+    "isRace": false
   },
   {
     "id": 12005969658,
@@ -1077,7 +1244,8 @@
     "paceFormatted": "7:23",
     "date": "Jul 28",
     "year": 2024,
-    "startDate": "2024-07-28T17:04:56Z"
+    "startDate": "2024-07-28T17:04:56Z",
+    "isRace": false
   },
   {
     "id": 11986622541,
@@ -1089,7 +1257,8 @@
     "paceFormatted": "7:12",
     "date": "Jul 26",
     "year": 2024,
-    "startDate": "2024-07-26T10:38:13Z"
+    "startDate": "2024-07-26T10:38:13Z",
+    "isRace": false
   },
   {
     "id": 11954369327,
@@ -1101,7 +1270,8 @@
     "paceFormatted": "7:20",
     "date": "Jul 22",
     "year": 2024,
-    "startDate": "2024-07-22T11:24:01Z"
+    "startDate": "2024-07-22T11:24:01Z",
+    "isRace": false
   },
   {
     "id": 11944831122,
@@ -1113,7 +1283,8 @@
     "paceFormatted": "6:46",
     "date": "Jul 21",
     "year": 2024,
-    "startDate": "2024-07-21T07:37:07Z"
+    "startDate": "2024-07-21T07:37:07Z",
+    "isRace": false
   },
   {
     "id": 11930763890,
@@ -1125,7 +1296,8 @@
     "paceFormatted": "8:47",
     "date": "Jul 19",
     "year": 2024,
-    "startDate": "2024-07-19T14:28:04Z"
+    "startDate": "2024-07-19T14:28:04Z",
+    "isRace": false
   },
   {
     "id": 11675218619,
@@ -1137,7 +1309,8 @@
     "paceFormatted": "7:27",
     "date": "Jun 17",
     "year": 2024,
-    "startDate": "2024-06-17T10:09:29Z"
+    "startDate": "2024-06-17T10:09:29Z",
+    "isRace": false
   },
   {
     "id": 11652545560,
@@ -1149,7 +1322,8 @@
     "paceFormatted": "7:28",
     "date": "Jun 14",
     "year": 2024,
-    "startDate": "2024-06-14T10:22:17Z"
+    "startDate": "2024-06-14T10:22:17Z",
+    "isRace": false
   },
   {
     "id": 11637534667,
@@ -1161,7 +1335,8 @@
     "paceFormatted": "8:28",
     "date": "Jun 12",
     "year": 2024,
-    "startDate": "2024-06-12T10:54:18Z"
+    "startDate": "2024-06-12T10:54:18Z",
+    "isRace": false
   },
   {
     "id": 11613803635,
@@ -1173,7 +1348,8 @@
     "paceFormatted": "9:51",
     "date": "Jun 9",
     "year": 2024,
-    "startDate": "2024-06-09T08:49:03Z"
+    "startDate": "2024-06-09T08:49:03Z",
+    "isRace": true
   },
   {
     "id": 11597266759,
@@ -1185,7 +1361,8 @@
     "paceFormatted": "8:41",
     "date": "Jun 7",
     "year": 2024,
-    "startDate": "2024-06-07T09:29:47Z"
+    "startDate": "2024-06-07T09:29:47Z",
+    "isRace": false
   },
   {
     "id": 11582627352,
@@ -1197,7 +1374,8 @@
     "paceFormatted": "7:08",
     "date": "Jun 5",
     "year": 2024,
-    "startDate": "2024-06-05T11:03:05Z"
+    "startDate": "2024-06-05T11:03:05Z",
+    "isRace": false
   },
   {
     "id": 11566589693,
@@ -1209,7 +1387,8 @@
     "paceFormatted": "7:44",
     "date": "Jun 3",
     "year": 2024,
-    "startDate": "2024-06-03T10:40:04Z"
+    "startDate": "2024-06-03T10:40:04Z",
+    "isRace": false
   },
   {
     "id": 11478599860,
@@ -1221,7 +1400,8 @@
     "paceFormatted": "7:39",
     "date": "May 23",
     "year": 2024,
-    "startDate": "2024-05-23T07:14:41Z"
+    "startDate": "2024-05-23T07:14:41Z",
+    "isRace": false
   },
   {
     "id": 11448899300,
@@ -1233,7 +1413,8 @@
     "paceFormatted": "6:23",
     "date": "May 19",
     "year": 2024,
-    "startDate": "2024-05-19T08:01:51Z"
+    "startDate": "2024-05-19T08:01:51Z",
+    "isRace": true
   },
   {
     "id": 11441812850,
@@ -1245,7 +1426,8 @@
     "paceFormatted": "7:46",
     "date": "May 18",
     "year": 2024,
-    "startDate": "2024-05-18T10:55:39Z"
+    "startDate": "2024-05-18T10:55:39Z",
+    "isRace": false
   },
   {
     "id": 11425956119,
@@ -1257,7 +1439,8 @@
     "paceFormatted": "8:37",
     "date": "May 16",
     "year": 2024,
-    "startDate": "2024-05-16T10:07:12Z"
+    "startDate": "2024-05-16T10:07:12Z",
+    "isRace": false
   },
   {
     "id": 11410856272,
@@ -1269,7 +1452,8 @@
     "paceFormatted": "6:58",
     "date": "May 14",
     "year": 2024,
-    "startDate": "2024-05-14T10:43:02Z"
+    "startDate": "2024-05-14T10:43:02Z",
+    "isRace": false
   },
   {
     "id": 11395901672,
@@ -1281,7 +1465,8 @@
     "paceFormatted": "7:11",
     "date": "May 12",
     "year": 2024,
-    "startDate": "2024-05-12T10:40:46Z"
+    "startDate": "2024-05-12T10:40:46Z",
+    "isRace": false
   },
   {
     "id": 11307044014,
@@ -1293,7 +1478,8 @@
     "paceFormatted": "7:46",
     "date": "May 1",
     "year": 2024,
-    "startDate": "2024-05-01T07:41:05Z"
+    "startDate": "2024-05-01T07:41:05Z",
+    "isRace": false
   },
   {
     "id": 11294018658,
@@ -1305,7 +1491,8 @@
     "paceFormatted": "8:26",
     "date": "Apr 29",
     "year": 2024,
-    "startDate": "2024-04-29T12:59:21Z"
+    "startDate": "2024-04-29T12:59:21Z",
+    "isRace": false
   },
   {
     "id": 11269553429,
@@ -1317,7 +1504,8 @@
     "paceFormatted": "7:54",
     "date": "Apr 26",
     "year": 2024,
-    "startDate": "2024-04-26T09:08:05Z"
+    "startDate": "2024-04-26T09:08:05Z",
+    "isRace": false
   },
   {
     "id": 11249536814,
@@ -1329,7 +1517,8 @@
     "paceFormatted": "6:38",
     "date": "Apr 23",
     "year": 2024,
-    "startDate": "2024-04-23T14:06:07Z"
+    "startDate": "2024-04-23T14:06:07Z",
+    "isRace": false
   },
   {
     "id": 11225454188,
@@ -1341,7 +1530,8 @@
     "paceFormatted": "7:17",
     "date": "Apr 20",
     "year": 2024,
-    "startDate": "2024-04-20T08:35:46Z"
+    "startDate": "2024-04-20T08:35:46Z",
+    "isRace": false
   },
   {
     "id": 11204343243,
@@ -1353,7 +1543,8 @@
     "paceFormatted": "9:10",
     "date": "Apr 17",
     "year": 2024,
-    "startDate": "2024-04-17T10:18:40Z"
+    "startDate": "2024-04-17T10:18:40Z",
+    "isRace": false
   },
   {
     "id": 11174041418,
@@ -1365,7 +1556,8 @@
     "paceFormatted": "8:04",
     "date": "Apr 13",
     "year": 2024,
-    "startDate": "2024-04-13T08:00:18Z"
+    "startDate": "2024-04-13T08:00:18Z",
+    "isRace": true
   },
   {
     "id": 11145177659,
@@ -1377,7 +1569,8 @@
     "paceFormatted": "6:54",
     "date": "Apr 9",
     "year": 2024,
-    "startDate": "2024-04-09T14:07:27Z"
+    "startDate": "2024-04-09T14:07:27Z",
+    "isRace": false
   },
   {
     "id": 11145174996,
@@ -1389,7 +1582,8 @@
     "paceFormatted": "9:11",
     "date": "Apr 8",
     "year": 2024,
-    "startDate": "2024-04-08T17:26:03Z"
+    "startDate": "2024-04-08T17:26:03Z",
+    "isRace": false
   },
   {
     "id": 11130639159,
@@ -1401,7 +1595,8 @@
     "paceFormatted": "7:22",
     "date": "Apr 7",
     "year": 2024,
-    "startDate": "2024-04-07T11:40:31Z"
+    "startDate": "2024-04-07T11:40:31Z",
+    "isRace": false
   },
   {
     "id": 11073409109,
@@ -1413,7 +1608,8 @@
     "paceFormatted": "7:56",
     "date": "Mar 30",
     "year": 2024,
-    "startDate": "2024-03-30T18:17:48Z"
+    "startDate": "2024-03-30T18:17:48Z",
+    "isRace": false
   },
   {
     "id": 11038406239,
@@ -1425,7 +1621,8 @@
     "paceFormatted": "7:14",
     "date": "Mar 25",
     "year": 2024,
-    "startDate": "2024-03-25T16:15:17Z"
+    "startDate": "2024-03-25T16:15:17Z",
+    "isRace": false
   },
   {
     "id": 11022673873,
@@ -1437,7 +1634,8 @@
     "paceFormatted": "8:09",
     "date": "Mar 23",
     "year": 2024,
-    "startDate": "2024-03-23T08:07:40Z"
+    "startDate": "2024-03-23T08:07:40Z",
+    "isRace": false
   },
   {
     "id": 11008288357,
@@ -1449,7 +1647,8 @@
     "paceFormatted": "7:02",
     "date": "Mar 21",
     "year": 2024,
-    "startDate": "2024-03-21T07:40:27Z"
+    "startDate": "2024-03-21T07:40:27Z",
+    "isRace": false
   },
   {
     "id": 10974137435,
@@ -1461,7 +1660,8 @@
     "paceFormatted": "8:54",
     "date": "Mar 16",
     "year": 2024,
-    "startDate": "2024-03-16T10:39:40Z"
+    "startDate": "2024-03-16T10:39:40Z",
+    "isRace": false
   },
   {
     "id": 10965714151,
@@ -1473,7 +1673,8 @@
     "paceFormatted": "11:23",
     "date": "Mar 15",
     "year": 2024,
-    "startDate": "2024-03-15T09:34:34Z"
+    "startDate": "2024-03-15T09:34:34Z",
+    "isRace": false
   },
   {
     "id": 10926740842,
@@ -1485,7 +1686,8 @@
     "paceFormatted": "7:37",
     "date": "Mar 9",
     "year": 2024,
-    "startDate": "2024-03-09T15:50:08Z"
+    "startDate": "2024-03-09T15:50:08Z",
+    "isRace": false
   },
   {
     "id": 10914008835,
@@ -1497,7 +1699,8 @@
     "paceFormatted": "8:36",
     "date": "Mar 7",
     "year": 2024,
-    "startDate": "2024-03-07T18:05:16Z"
+    "startDate": "2024-03-07T18:05:16Z",
+    "isRace": false
   },
   {
     "id": 10892744294,
@@ -1509,7 +1712,8 @@
     "paceFormatted": "9:30",
     "date": "Mar 4",
     "year": 2024,
-    "startDate": "2024-03-04T17:40:33Z"
+    "startDate": "2024-03-04T17:40:33Z",
+    "isRace": false
   },
   {
     "id": 10876125006,
@@ -1521,7 +1725,8 @@
     "paceFormatted": "7:42",
     "date": "Mar 2",
     "year": 2024,
-    "startDate": "2024-03-02T09:45:46Z"
+    "startDate": "2024-03-02T09:45:46Z",
+    "isRace": false
   },
   {
     "id": 10864193136,
@@ -1533,7 +1738,8 @@
     "paceFormatted": "9:52",
     "date": "Feb 29",
     "year": 2024,
-    "startDate": "2024-02-29T12:56:07Z"
+    "startDate": "2024-02-29T12:56:07Z",
+    "isRace": false
   },
   {
     "id": 10831333760,
@@ -1545,7 +1751,8 @@
     "paceFormatted": "8:39",
     "date": "Feb 24",
     "year": 2024,
-    "startDate": "2024-02-24T08:08:10Z"
+    "startDate": "2024-02-24T08:08:10Z",
+    "isRace": false
   },
   {
     "id": 10807877083,
@@ -1557,7 +1764,8 @@
     "paceFormatted": "7:53",
     "date": "Feb 20",
     "year": 2024,
-    "startDate": "2024-02-21T06:08:47Z"
+    "startDate": "2024-02-21T06:08:47Z",
+    "isRace": false
   },
   {
     "id": 10782307704,
@@ -1569,7 +1777,8 @@
     "paceFormatted": "6:48",
     "date": "Feb 17",
     "year": 2024,
-    "startDate": "2024-02-17T09:50:41Z"
+    "startDate": "2024-02-17T09:50:41Z",
+    "isRace": false
   },
   {
     "id": 10776408880,
@@ -1581,7 +1790,8 @@
     "paceFormatted": "8:02",
     "date": "Feb 16",
     "year": 2024,
-    "startDate": "2024-02-16T15:35:12Z"
+    "startDate": "2024-02-16T15:35:12Z",
+    "isRace": false
   },
   {
     "id": 10768046439,
@@ -1593,7 +1803,8 @@
     "paceFormatted": "7:45",
     "date": "Feb 15",
     "year": 2024,
-    "startDate": "2024-02-15T09:00:48Z"
+    "startDate": "2024-02-15T09:00:48Z",
+    "isRace": false
   },
   {
     "id": 10754112505,
@@ -1605,7 +1816,8 @@
     "paceFormatted": "6:13",
     "date": "Feb 12",
     "year": 2024,
-    "startDate": "2024-02-13T06:21:22Z"
+    "startDate": "2024-02-13T06:21:22Z",
+    "isRace": false
   },
   {
     "id": 10742891068,
@@ -1617,7 +1829,8 @@
     "paceFormatted": "7:38",
     "date": "Feb 11",
     "year": 2024,
-    "startDate": "2024-02-11T08:53:28Z"
+    "startDate": "2024-02-11T08:53:28Z",
+    "isRace": false
   },
   {
     "id": 10718047329,
@@ -1629,7 +1842,8 @@
     "paceFormatted": "7:24",
     "date": "Feb 7",
     "year": 2024,
-    "startDate": "2024-02-07T14:25:44Z"
+    "startDate": "2024-02-07T14:25:44Z",
+    "isRace": false
   },
   {
     "id": 10696151204,
@@ -1641,7 +1855,8 @@
     "paceFormatted": "6:21",
     "date": "Feb 3",
     "year": 2024,
-    "startDate": "2024-02-04T07:51:49Z"
+    "startDate": "2024-02-04T07:51:49Z",
+    "isRace": false
   },
   {
     "id": 10682817793,
@@ -1653,7 +1868,8 @@
     "paceFormatted": "7:54",
     "date": "Feb 2",
     "year": 2024,
-    "startDate": "2024-02-02T11:18:39Z"
+    "startDate": "2024-02-02T11:18:39Z",
+    "isRace": false
   },
   {
     "id": 10675569105,
@@ -1665,7 +1881,8 @@
     "paceFormatted": "7:22",
     "date": "Feb 1",
     "year": 2024,
-    "startDate": "2024-02-01T08:49:31Z"
+    "startDate": "2024-02-01T08:49:31Z",
+    "isRace": false
   },
   {
     "id": 10654906379,
@@ -1677,7 +1894,8 @@
     "paceFormatted": "8:06",
     "date": "Jan 29",
     "year": 2024,
-    "startDate": "2024-01-29T10:35:34Z"
+    "startDate": "2024-01-29T10:35:34Z",
+    "isRace": false
   },
   {
     "id": 10617268361,
@@ -1689,7 +1907,8 @@
     "paceFormatted": "7:02",
     "date": "Jan 23",
     "year": 2024,
-    "startDate": "2024-01-23T15:27:27Z"
+    "startDate": "2024-01-23T15:27:27Z",
+    "isRace": false
   },
   {
     "id": 10598156036,
@@ -1701,7 +1920,8 @@
     "paceFormatted": "6:59",
     "date": "Jan 20",
     "year": 2024,
-    "startDate": "2024-01-20T16:37:19Z"
+    "startDate": "2024-01-20T16:37:19Z",
+    "isRace": false
   },
   {
     "id": 10589909875,
@@ -1713,7 +1933,8 @@
     "paceFormatted": "7:42",
     "date": "Jan 19",
     "year": 2024,
-    "startDate": "2024-01-19T10:23:52Z"
+    "startDate": "2024-01-19T10:23:52Z",
+    "isRace": false
   },
   {
     "id": 10565553376,
@@ -1725,7 +1946,8 @@
     "paceFormatted": "6:45",
     "date": "Jan 15",
     "year": 2024,
-    "startDate": "2024-01-15T11:30:21Z"
+    "startDate": "2024-01-15T11:30:21Z",
+    "isRace": false
   },
   {
     "id": 10545040934,
@@ -1737,7 +1959,8 @@
     "paceFormatted": "10:10",
     "date": "Jan 11",
     "year": 2024,
-    "startDate": "2024-01-11T20:42:20Z"
+    "startDate": "2024-01-11T20:42:20Z",
+    "isRace": false
   },
   {
     "id": 10527514230,
@@ -1749,7 +1972,8 @@
     "paceFormatted": "6:59",
     "date": "Jan 9",
     "year": 2024,
-    "startDate": "2024-01-09T13:48:18Z"
+    "startDate": "2024-01-09T13:48:18Z",
+    "isRace": false
   },
   {
     "id": 10480798525,
@@ -1761,7 +1985,8 @@
     "paceFormatted": "8:44",
     "date": "Jan 2",
     "year": 2024,
-    "startDate": "2024-01-02T08:35:58Z"
+    "startDate": "2024-01-02T08:35:58Z",
+    "isRace": false
   },
   {
     "id": 10447271402,
@@ -1773,7 +1998,8 @@
     "paceFormatted": "6:50",
     "date": "Dec 27",
     "year": 2023,
-    "startDate": "2023-12-27T12:38:22Z"
+    "startDate": "2023-12-27T12:38:22Z",
+    "isRace": false
   },
   {
     "id": 10416699110,
@@ -1785,7 +2011,8 @@
     "paceFormatted": "7:57",
     "date": "Dec 21",
     "year": 2023,
-    "startDate": "2023-12-21T13:04:34Z"
+    "startDate": "2023-12-21T13:04:34Z",
+    "isRace": false
   },
   {
     "id": 10386168805,
@@ -1797,7 +2024,8 @@
     "paceFormatted": "8:54",
     "date": "Dec 15",
     "year": 2023,
-    "startDate": "2023-12-15T14:18:23Z"
+    "startDate": "2023-12-15T14:18:23Z",
+    "isRace": false
   },
   {
     "id": 10375755928,
@@ -1809,7 +2037,8 @@
     "paceFormatted": "7:12",
     "date": "Dec 13",
     "year": 2023,
-    "startDate": "2023-12-13T11:24:10Z"
+    "startDate": "2023-12-13T11:24:10Z",
+    "isRace": false
   },
   {
     "id": 10360612579,
@@ -1821,7 +2050,8 @@
     "paceFormatted": "7:13",
     "date": "Dec 10",
     "year": 2023,
-    "startDate": "2023-12-10T11:43:44Z"
+    "startDate": "2023-12-10T11:43:44Z",
+    "isRace": false
   },
   {
     "id": 10350210927,
@@ -1833,7 +2063,8 @@
     "paceFormatted": "7:00",
     "date": "Dec 8",
     "year": 2023,
-    "startDate": "2023-12-08T14:56:19Z"
+    "startDate": "2023-12-08T14:56:19Z",
+    "isRace": false
   },
   {
     "id": 10325025216,
@@ -1845,7 +2076,8 @@
     "paceFormatted": "7:12",
     "date": "Dec 3",
     "year": 2023,
-    "startDate": "2023-12-03T17:26:50Z"
+    "startDate": "2023-12-03T17:26:50Z",
+    "isRace": false
   },
   {
     "id": 10304009440,
@@ -1857,7 +2089,8 @@
     "paceFormatted": "8:30",
     "date": "Nov 29",
     "year": 2023,
-    "startDate": "2023-11-29T16:36:16Z"
+    "startDate": "2023-11-29T16:36:16Z",
+    "isRace": false
   },
   {
     "id": 10287771978,
@@ -1869,7 +2102,8 @@
     "paceFormatted": "6:34",
     "date": "Nov 26",
     "year": 2023,
-    "startDate": "2023-11-26T16:00:48Z"
+    "startDate": "2023-11-26T16:00:48Z",
+    "isRace": false
   },
   {
     "id": 10247842729,
@@ -1881,7 +2115,8 @@
     "paceFormatted": "7:32",
     "date": "Nov 19",
     "year": 2023,
-    "startDate": "2023-11-19T10:38:17Z"
+    "startDate": "2023-11-19T10:38:17Z",
+    "isRace": false
   },
   {
     "id": 10230706882,
@@ -1893,7 +2128,8 @@
     "paceFormatted": "6:43",
     "date": "Nov 16",
     "year": 2023,
-    "startDate": "2023-11-16T11:54:47Z"
+    "startDate": "2023-11-16T11:54:47Z",
+    "isRace": false
   },
   {
     "id": 10219561921,
@@ -1905,7 +2141,8 @@
     "paceFormatted": "7:54",
     "date": "Nov 14",
     "year": 2023,
-    "startDate": "2023-11-14T13:46:52Z"
+    "startDate": "2023-11-14T13:46:52Z",
+    "isRace": false
   },
   {
     "id": 10201279626,
@@ -1917,7 +2154,8 @@
     "paceFormatted": "6:38",
     "date": "Nov 11",
     "year": 2023,
-    "startDate": "2023-11-11T09:25:58Z"
+    "startDate": "2023-11-11T09:25:58Z",
+    "isRace": false
   },
   {
     "id": 10191666915,
@@ -1929,7 +2167,8 @@
     "paceFormatted": "7:00",
     "date": "Nov 9",
     "year": 2023,
-    "startDate": "2023-11-09T16:31:14Z"
+    "startDate": "2023-11-09T16:31:14Z",
+    "isRace": false
   },
   {
     "id": 10179363781,
@@ -1941,7 +2180,8 @@
     "paceFormatted": "7:46",
     "date": "Nov 7",
     "year": 2023,
-    "startDate": "2023-11-07T13:17:27Z"
+    "startDate": "2023-11-07T13:17:27Z",
+    "isRace": false
   },
   {
     "id": 10160394561,
@@ -1953,7 +2193,8 @@
     "paceFormatted": "7:00",
     "date": "Nov 4",
     "year": 2023,
-    "startDate": "2023-11-04T10:41:02Z"
+    "startDate": "2023-11-04T10:41:02Z",
+    "isRace": false
   },
   {
     "id": 10144818705,
@@ -1965,7 +2206,8 @@
     "paceFormatted": "7:20",
     "date": "Nov 1",
     "year": 2023,
-    "startDate": "2023-11-01T14:26:22Z"
+    "startDate": "2023-11-01T14:26:22Z",
+    "isRace": false
   },
   {
     "id": 10115747942,
@@ -1977,7 +2219,8 @@
     "paceFormatted": "8:39",
     "date": "Oct 27",
     "year": 2023,
-    "startDate": "2023-10-27T15:49:56Z"
+    "startDate": "2023-10-27T15:49:56Z",
+    "isRace": false
   },
   {
     "id": 10105147679,
@@ -1989,7 +2232,8 @@
     "paceFormatted": "6:57",
     "date": "Oct 25",
     "year": 2023,
-    "startDate": "2023-10-25T16:02:59Z"
+    "startDate": "2023-10-25T16:02:59Z",
+    "isRace": false
   },
   {
     "id": 10092240145,
@@ -2001,7 +2245,8 @@
     "paceFormatted": "7:54",
     "date": "Oct 23",
     "year": 2023,
-    "startDate": "2023-10-23T12:27:23Z"
+    "startDate": "2023-10-23T12:27:23Z",
+    "isRace": false
   },
   {
     "id": 10081244652,
@@ -2013,7 +2258,8 @@
     "paceFormatted": "7:37",
     "date": "Oct 21",
     "year": 2023,
-    "startDate": "2023-10-21T18:44:20Z"
+    "startDate": "2023-10-21T18:44:20Z",
+    "isRace": false
   },
   {
     "id": 10070302573,
@@ -2025,7 +2271,8 @@
     "paceFormatted": "6:35",
     "date": "Oct 19",
     "year": 2023,
-    "startDate": "2023-10-19T18:27:27Z"
+    "startDate": "2023-10-19T18:27:27Z",
+    "isRace": false
   },
   {
     "id": 10019379331,
@@ -2037,7 +2284,8 @@
     "paceFormatted": "9:59",
     "date": "Oct 10",
     "year": 2023,
-    "startDate": "2023-10-11T06:21:10Z"
+    "startDate": "2023-10-11T06:21:10Z",
+    "isRace": false
   },
   {
     "id": 10016052280,
@@ -2049,7 +2297,8 @@
     "paceFormatted": "7:18",
     "date": "Oct 10",
     "year": 2023,
-    "startDate": "2023-10-10T16:27:35Z"
+    "startDate": "2023-10-10T16:27:35Z",
+    "isRace": false
   },
   {
     "id": 9997133893,
@@ -2061,7 +2310,8 @@
     "paceFormatted": "7:17",
     "date": "Oct 7",
     "year": 2023,
-    "startDate": "2023-10-07T18:57:01Z"
+    "startDate": "2023-10-07T18:57:01Z",
+    "isRace": false
   },
   {
     "id": 9978425878,
@@ -2073,7 +2323,8 @@
     "paceFormatted": "8:29",
     "date": "Oct 4",
     "year": 2023,
-    "startDate": "2023-10-04T15:36:44Z"
+    "startDate": "2023-10-04T15:36:44Z",
+    "isRace": false
   },
   {
     "id": 9957772040,
@@ -2085,7 +2336,8 @@
     "paceFormatted": "7:18",
     "date": "Oct 1",
     "year": 2023,
-    "startDate": "2023-10-01T11:48:55Z"
+    "startDate": "2023-10-01T11:48:55Z",
+    "isRace": false
   },
   {
     "id": 9945592122,
@@ -2097,7 +2349,8 @@
     "paceFormatted": "7:31",
     "date": "Sep 29",
     "year": 2023,
-    "startDate": "2023-09-29T15:21:46Z"
+    "startDate": "2023-09-29T15:21:46Z",
+    "isRace": false
   },
   {
     "id": 9931708864,
@@ -2109,7 +2362,8 @@
     "paceFormatted": "8:11",
     "date": "Sep 27",
     "year": 2023,
-    "startDate": "2023-09-27T09:12:15Z"
+    "startDate": "2023-09-27T09:12:15Z",
+    "isRace": false
   },
   {
     "id": 9732633466,
@@ -2121,7 +2375,8 @@
     "paceFormatted": "7:55",
     "date": "Aug 27",
     "year": 2023,
-    "startDate": "2023-08-27T10:27:04Z"
+    "startDate": "2023-08-27T10:27:04Z",
+    "isRace": false
   },
   {
     "id": 9687451446,
@@ -2133,7 +2388,8 @@
     "paceFormatted": "8:17",
     "date": "Aug 20",
     "year": 2023,
-    "startDate": "2023-08-20T10:01:38Z"
+    "startDate": "2023-08-20T10:01:38Z",
+    "isRace": false
   },
   {
     "id": 9641257109,
@@ -2145,7 +2401,8 @@
     "paceFormatted": "7:14",
     "date": "Aug 13",
     "year": 2023,
-    "startDate": "2023-08-13T07:00:07Z"
+    "startDate": "2023-08-13T07:00:07Z",
+    "isRace": true
   },
   {
     "id": 9633217277,
@@ -2157,7 +2414,8 @@
     "paceFormatted": "8:47",
     "date": "Aug 12",
     "year": 2023,
-    "startDate": "2023-08-12T07:25:40Z"
+    "startDate": "2023-08-12T07:25:40Z",
+    "isRace": false
   },
   {
     "id": 9602388291,
@@ -2169,7 +2427,8 @@
     "paceFormatted": "7:24",
     "date": "Aug 7",
     "year": 2023,
-    "startDate": "2023-08-07T12:20:59Z"
+    "startDate": "2023-08-07T12:20:59Z",
+    "isRace": false
   },
   {
     "id": 9576476872,
@@ -2181,7 +2440,8 @@
     "paceFormatted": "7:20",
     "date": "Aug 3",
     "year": 2023,
-    "startDate": "2023-08-03T09:04:22Z"
+    "startDate": "2023-08-03T09:04:22Z",
+    "isRace": false
   },
   {
     "id": 9569343843,
@@ -2193,7 +2453,8 @@
     "paceFormatted": "10:07",
     "date": "Aug 1",
     "year": 2023,
-    "startDate": "2023-08-02T06:27:51Z"
+    "startDate": "2023-08-02T06:27:51Z",
+    "isRace": false
   },
   {
     "id": 9552163414,
@@ -2205,7 +2466,8 @@
     "paceFormatted": "7:34",
     "date": "Jul 30",
     "year": 2023,
-    "startDate": "2023-07-30T10:17:26Z"
+    "startDate": "2023-07-30T10:17:26Z",
+    "isRace": false
   },
   {
     "id": 9533828644,
@@ -2217,7 +2479,8 @@
     "paceFormatted": "7:54",
     "date": "Jul 27",
     "year": 2023,
-    "startDate": "2023-07-27T12:26:19Z"
+    "startDate": "2023-07-27T12:26:19Z",
+    "isRace": false
   },
   {
     "id": 9522632816,
@@ -2229,7 +2492,8 @@
     "paceFormatted": "8:30",
     "date": "Jul 25",
     "year": 2023,
-    "startDate": "2023-07-25T20:06:12Z"
+    "startDate": "2023-07-25T20:06:12Z",
+    "isRace": false
   },
   {
     "id": 9507122459,
@@ -2241,7 +2505,8 @@
     "paceFormatted": "7:18",
     "date": "Jul 22",
     "year": 2023,
-    "startDate": "2023-07-23T06:39:54Z"
+    "startDate": "2023-07-23T06:39:54Z",
+    "isRace": true
   },
   {
     "id": 9490507475,
@@ -2253,7 +2518,8 @@
     "paceFormatted": "8:24",
     "date": "Jul 20",
     "year": 2023,
-    "startDate": "2023-07-20T13:32:18Z"
+    "startDate": "2023-07-20T13:32:18Z",
+    "isRace": false
   },
   {
     "id": 9469270109,
@@ -2265,7 +2531,8 @@
     "paceFormatted": "7:24",
     "date": "Jul 17",
     "year": 2023,
-    "startDate": "2023-07-17T12:24:12Z"
+    "startDate": "2023-07-17T12:24:12Z",
+    "isRace": false
   },
   {
     "id": 9455709280,
@@ -2277,7 +2544,8 @@
     "paceFormatted": "7:22",
     "date": "Jul 15",
     "year": 2023,
-    "startDate": "2023-07-15T08:53:54Z"
+    "startDate": "2023-07-15T08:53:54Z",
+    "isRace": false
   },
   {
     "id": 9443548066,
@@ -2289,7 +2557,8 @@
     "paceFormatted": "7:54",
     "date": "Jul 13",
     "year": 2023,
-    "startDate": "2023-07-13T08:16:32Z"
+    "startDate": "2023-07-13T08:16:32Z",
+    "isRace": false
   },
   {
     "id": 9427742931,
@@ -2301,7 +2570,8 @@
     "paceFormatted": "8:12",
     "date": "Jul 10",
     "year": 2023,
-    "startDate": "2023-07-10T19:20:31Z"
+    "startDate": "2023-07-10T19:20:31Z",
+    "isRace": false
   },
   {
     "id": 9356874232,
@@ -2313,7 +2583,8 @@
     "paceFormatted": "10:43",
     "date": "Jun 28",
     "year": 2023,
-    "startDate": "2023-06-29T06:08:10Z"
+    "startDate": "2023-06-29T06:08:10Z",
+    "isRace": false
   },
   {
     "id": 9327255179,
@@ -2325,7 +2596,8 @@
     "paceFormatted": "7:25",
     "date": "Jun 24",
     "year": 2023,
-    "startDate": "2023-06-24T09:03:30Z"
+    "startDate": "2023-06-24T09:03:30Z",
+    "isRace": true
   },
   {
     "id": 9298503689,
@@ -2337,7 +2609,8 @@
     "paceFormatted": "6:57",
     "date": "Jun 19",
     "year": 2023,
-    "startDate": "2023-06-19T18:37:51Z"
+    "startDate": "2023-06-19T18:37:51Z",
+    "isRace": false
   },
   {
     "id": 9273794630,
@@ -2349,7 +2622,8 @@
     "paceFormatted": "7:23",
     "date": "Jun 15",
     "year": 2023,
-    "startDate": "2023-06-15T17:33:34Z"
+    "startDate": "2023-06-15T17:33:34Z",
+    "isRace": false
   },
   {
     "id": 9218305289,
@@ -2361,7 +2635,8 @@
     "paceFormatted": "7:44",
     "date": "Jun 7",
     "year": 2023,
-    "startDate": "2023-06-07T07:31:27Z"
+    "startDate": "2023-06-07T07:31:27Z",
+    "isRace": false
   },
   {
     "id": 9195838811,
@@ -2373,7 +2648,8 @@
     "paceFormatted": "8:53",
     "date": "Jun 3",
     "year": 2023,
-    "startDate": "2023-06-03T16:54:49Z"
+    "startDate": "2023-06-03T16:54:49Z",
+    "isRace": false
   },
   {
     "id": 9160692593,
@@ -2385,7 +2661,8 @@
     "paceFormatted": "10:30",
     "date": "May 29",
     "year": 2023,
-    "startDate": "2023-05-29T07:39:46Z"
+    "startDate": "2023-05-29T07:39:46Z",
+    "isRace": false
   },
   {
     "id": 9135456077,
@@ -2397,7 +2674,8 @@
     "paceFormatted": "8:14",
     "date": "May 24",
     "year": 2023,
-    "startDate": "2023-05-24T17:40:43Z"
+    "startDate": "2023-05-24T17:40:43Z",
+    "isRace": false
   },
   {
     "id": 9079050030,
@@ -2409,7 +2687,8 @@
     "paceFormatted": "8:47",
     "date": "May 15",
     "year": 2023,
-    "startDate": "2023-05-15T17:57:12Z"
+    "startDate": "2023-05-15T17:57:12Z",
+    "isRace": false
   },
   {
     "id": 9065313260,
@@ -2421,7 +2700,8 @@
     "paceFormatted": "7:43",
     "date": "May 13",
     "year": 2023,
-    "startDate": "2023-05-13T09:00:29Z"
+    "startDate": "2023-05-13T09:00:29Z",
+    "isRace": false
   },
   {
     "id": 9049592873,
@@ -2433,7 +2713,8 @@
     "paceFormatted": "7:00",
     "date": "May 10",
     "year": 2023,
-    "startDate": "2023-05-10T18:27:43Z"
+    "startDate": "2023-05-10T18:27:43Z",
+    "isRace": false
   },
   {
     "id": 9035842810,
@@ -2445,7 +2726,8 @@
     "paceFormatted": "7:21",
     "date": "May 8",
     "year": 2023,
-    "startDate": "2023-05-08T12:19:05Z"
+    "startDate": "2023-05-08T12:19:05Z",
+    "isRace": false
   },
   {
     "id": 9015748292,
@@ -2457,7 +2739,8 @@
     "paceFormatted": "10:33",
     "date": "May 4",
     "year": 2023,
-    "startDate": "2023-05-05T06:28:11Z"
+    "startDate": "2023-05-05T06:28:11Z",
+    "isRace": false
   },
   {
     "id": 9006775344,
@@ -2469,7 +2752,8 @@
     "paceFormatted": "6:40",
     "date": "May 3",
     "year": 2023,
-    "startDate": "2023-05-03T18:17:54Z"
+    "startDate": "2023-05-03T18:17:54Z",
+    "isRace": false
   },
   {
     "id": 8993725738,
@@ -2481,7 +2765,8 @@
     "paceFormatted": "8:08",
     "date": "May 1",
     "year": 2023,
-    "startDate": "2023-05-01T16:30:37Z"
+    "startDate": "2023-05-01T16:30:37Z",
+    "isRace": false
   },
   {
     "id": 8980725310,
@@ -2493,7 +2778,8 @@
     "paceFormatted": "6:41",
     "date": "Apr 29",
     "year": 2023,
-    "startDate": "2023-04-29T16:12:29Z"
+    "startDate": "2023-04-29T16:12:29Z",
+    "isRace": false
   },
   {
     "id": 8945711604,
@@ -2505,7 +2791,8 @@
     "paceFormatted": "9:32",
     "date": "Apr 23",
     "year": 2023,
-    "startDate": "2023-04-23T12:37:21Z"
+    "startDate": "2023-04-23T12:37:21Z",
+    "isRace": false
   },
   {
     "id": 8909869172,
@@ -2517,7 +2804,8 @@
     "paceFormatted": "9:17",
     "date": "Apr 17",
     "year": 2023,
-    "startDate": "2023-04-17T16:29:55Z"
+    "startDate": "2023-04-17T16:29:55Z",
+    "isRace": false
   },
   {
     "id": 8886780624,
@@ -2529,7 +2817,8 @@
     "paceFormatted": "6:46",
     "date": "Apr 13",
     "year": 2023,
-    "startDate": "2023-04-13T16:55:56Z"
+    "startDate": "2023-04-13T16:55:56Z",
+    "isRace": false
   },
   {
     "id": 8872225757,
@@ -2541,7 +2830,8 @@
     "paceFormatted": "9:14",
     "date": "Apr 11",
     "year": 2023,
-    "startDate": "2023-04-11T07:03:44Z"
+    "startDate": "2023-04-11T07:03:44Z",
+    "isRace": false
   },
   {
     "id": 8855617388,
@@ -2553,7 +2843,8 @@
     "paceFormatted": "8:40",
     "date": "Apr 8",
     "year": 2023,
-    "startDate": "2023-04-08T08:51:36Z"
+    "startDate": "2023-04-08T08:51:36Z",
+    "isRace": false
   },
   {
     "id": 8838979321,
@@ -2565,7 +2856,8 @@
     "paceFormatted": "6:34",
     "date": "Apr 5",
     "year": 2023,
-    "startDate": "2023-04-05T12:06:29Z"
+    "startDate": "2023-04-05T12:06:29Z",
+    "isRace": false
   },
   {
     "id": 8820836924,
@@ -2577,7 +2869,8 @@
     "paceFormatted": "7:22",
     "date": "Apr 2",
     "year": 2023,
-    "startDate": "2023-04-02T08:51:14Z"
+    "startDate": "2023-04-02T08:51:14Z",
+    "isRace": false
   },
   {
     "id": 8800844186,
@@ -2589,7 +2882,8 @@
     "paceFormatted": "6:49",
     "date": "Mar 29",
     "year": 2023,
-    "startDate": "2023-03-29T18:16:56Z"
+    "startDate": "2023-03-29T18:16:56Z",
+    "isRace": false
   },
   {
     "id": 8788519367,
@@ -2601,7 +2895,8 @@
     "paceFormatted": "8:45",
     "date": "Mar 27",
     "year": 2023,
-    "startDate": "2023-03-27T14:13:19Z"
+    "startDate": "2023-03-27T14:13:19Z",
+    "isRace": false
   },
   {
     "id": 8770642208,
@@ -2613,7 +2908,8 @@
     "paceFormatted": "6:39",
     "date": "Mar 24",
     "year": 2023,
-    "startDate": "2023-03-24T10:58:00Z"
+    "startDate": "2023-03-24T10:58:00Z",
+    "isRace": false
   },
   {
     "id": 8761540119,
@@ -2625,7 +2921,8 @@
     "paceFormatted": "8:31",
     "date": "Mar 22",
     "year": 2023,
-    "startDate": "2023-03-22T17:22:53Z"
+    "startDate": "2023-03-22T17:22:53Z",
+    "isRace": false
   },
   {
     "id": 8747774305,
@@ -2637,7 +2934,8 @@
     "paceFormatted": "6:33",
     "date": "Mar 20",
     "year": 2023,
-    "startDate": "2023-03-20T10:05:46Z"
+    "startDate": "2023-03-20T10:05:46Z",
+    "isRace": false
   },
   {
     "id": 8727384349,
@@ -2649,7 +2947,8 @@
     "paceFormatted": "8:32",
     "date": "Mar 16",
     "year": 2023,
-    "startDate": "2023-03-16T17:57:17Z"
+    "startDate": "2023-03-16T17:57:17Z",
+    "isRace": false
   },
   {
     "id": 8710637087,
@@ -2661,7 +2960,8 @@
     "paceFormatted": "7:26",
     "date": "Mar 13",
     "year": 2023,
-    "startDate": "2023-03-13T18:37:36Z"
+    "startDate": "2023-03-13T18:37:36Z",
+    "isRace": false
   },
   {
     "id": 8697817306,
@@ -2673,7 +2973,8 @@
     "paceFormatted": "6:29",
     "date": "Mar 11",
     "year": 2023,
-    "startDate": "2023-03-11T09:25:17Z"
+    "startDate": "2023-03-11T09:25:17Z",
+    "isRace": false
   },
   {
     "id": 8645163560,
@@ -2685,7 +2986,8 @@
     "paceFormatted": "6:44",
     "date": "Mar 1",
     "year": 2023,
-    "startDate": "2023-03-01T17:14:12Z"
+    "startDate": "2023-03-01T17:14:12Z",
+    "isRace": false
   },
   {
     "id": 8621335566,
@@ -2697,7 +2999,8 @@
     "paceFormatted": "8:17",
     "date": "Feb 25",
     "year": 2023,
-    "startDate": "2023-02-25T08:03:14Z"
+    "startDate": "2023-02-25T08:03:14Z",
+    "isRace": false
   },
   {
     "id": 8611827571,
@@ -2709,7 +3012,8 @@
     "paceFormatted": "10:00",
     "date": "Feb 23",
     "year": 2023,
-    "startDate": "2023-02-23T13:48:51Z"
+    "startDate": "2023-02-23T13:48:51Z",
+    "isRace": false
   },
   {
     "id": 8594880302,
@@ -2721,7 +3025,8 @@
     "paceFormatted": "7:59",
     "date": "Feb 20",
     "year": 2023,
-    "startDate": "2023-02-20T10:52:44Z"
+    "startDate": "2023-02-20T10:52:44Z",
+    "isRace": false
   },
   {
     "id": 8578100939,
@@ -2733,7 +3038,8 @@
     "paceFormatted": "8:38",
     "date": "Feb 17",
     "year": 2023,
-    "startDate": "2023-02-17T13:19:10Z"
+    "startDate": "2023-02-17T13:19:10Z",
+    "isRace": false
   },
   {
     "id": 8556338006,
@@ -2745,7 +3051,8 @@
     "paceFormatted": "7:44",
     "date": "Feb 13",
     "year": 2023,
-    "startDate": "2023-02-13T12:01:55Z"
+    "startDate": "2023-02-13T12:01:55Z",
+    "isRace": false
   },
   {
     "id": 8511667830,
@@ -2757,7 +3064,8 @@
     "paceFormatted": "6:50",
     "date": "Feb 5",
     "year": 2023,
-    "startDate": "2023-02-05T08:08:54Z"
+    "startDate": "2023-02-05T08:08:54Z",
+    "isRace": true
   },
   {
     "id": 8478845601,
@@ -2769,7 +3077,8 @@
     "paceFormatted": "7:23",
     "date": "Jan 30",
     "year": 2023,
-    "startDate": "2023-01-30T16:10:01Z"
+    "startDate": "2023-01-30T16:10:01Z",
+    "isRace": false
   },
   {
     "id": 8440892683,
@@ -2781,7 +3090,8 @@
     "paceFormatted": "6:59",
     "date": "Jan 23",
     "year": 2023,
-    "startDate": "2023-01-23T12:49:20Z"
+    "startDate": "2023-01-23T12:49:20Z",
+    "isRace": false
   },
   {
     "id": 8429901940,
@@ -2793,7 +3103,8 @@
     "paceFormatted": "7:05",
     "date": "Jan 21",
     "year": 2023,
-    "startDate": "2023-01-21T11:35:34Z"
+    "startDate": "2023-01-21T11:35:34Z",
+    "isRace": false
   },
   {
     "id": 8415242727,
@@ -2805,7 +3116,8 @@
     "paceFormatted": "6:48",
     "date": "Jan 18",
     "year": 2023,
-    "startDate": "2023-01-18T17:17:27Z"
+    "startDate": "2023-01-18T17:17:27Z",
+    "isRace": false
   },
   {
     "id": 8371809679,
@@ -2817,7 +3129,8 @@
     "paceFormatted": "8:03",
     "date": "Jan 10",
     "year": 2023,
-    "startDate": "2023-01-10T14:32:25Z"
+    "startDate": "2023-01-10T14:32:25Z",
+    "isRace": false
   },
   {
     "id": 8347481545,
@@ -2829,7 +3142,8 @@
     "paceFormatted": "8:35",
     "date": "Jan 5",
     "year": 2023,
-    "startDate": "2023-01-06T07:29:37Z"
+    "startDate": "2023-01-06T07:29:37Z",
+    "isRace": false
   },
   {
     "id": 8264110884,
@@ -2841,7 +3155,8 @@
     "paceFormatted": "7:00",
     "date": "Dec 18",
     "year": 2022,
-    "startDate": "2022-12-18T08:32:48Z"
+    "startDate": "2022-12-18T08:32:48Z",
+    "isRace": false
   },
   {
     "id": 8256086825,
@@ -2853,7 +3168,8 @@
     "paceFormatted": "6:51",
     "date": "Dec 16",
     "year": 2022,
-    "startDate": "2022-12-16T09:52:37Z"
+    "startDate": "2022-12-16T09:52:37Z",
+    "isRace": false
   },
   {
     "id": 8240318694,
@@ -2865,7 +3181,8 @@
     "paceFormatted": "6:37",
     "date": "Dec 12",
     "year": 2022,
-    "startDate": "2022-12-12T08:03:57Z"
+    "startDate": "2022-12-12T08:03:57Z",
+    "isRace": false
   },
   {
     "id": 8232649284,
@@ -2877,7 +3194,8 @@
     "paceFormatted": "6:49",
     "date": "Dec 10",
     "year": 2022,
-    "startDate": "2022-12-10T08:12:30Z"
+    "startDate": "2022-12-10T08:12:30Z",
+    "isRace": false
   },
   {
     "id": 8216956935,
@@ -2889,7 +3207,8 @@
     "paceFormatted": "7:41",
     "date": "Dec 6",
     "year": 2022,
-    "startDate": "2022-12-06T14:48:18Z"
+    "startDate": "2022-12-06T14:48:18Z",
+    "isRace": false
   },
   {
     "id": 8164599951,
@@ -2901,7 +3220,8 @@
     "paceFormatted": "8:40",
     "date": "Nov 24",
     "year": 2022,
-    "startDate": "2022-11-24T15:21:37Z"
+    "startDate": "2022-11-24T15:21:37Z",
+    "isRace": false
   },
   {
     "id": 8155158375,
@@ -2913,7 +3233,8 @@
     "paceFormatted": "6:58",
     "date": "Nov 22",
     "year": 2022,
-    "startDate": "2022-11-22T13:25:17Z"
+    "startDate": "2022-11-22T13:25:17Z",
+    "isRace": false
   },
   {
     "id": 8108686901,
@@ -2925,7 +3246,8 @@
     "paceFormatted": "6:44",
     "date": "Nov 12",
     "year": 2022,
-    "startDate": "2022-11-12T11:57:40Z"
+    "startDate": "2022-11-12T11:57:40Z",
+    "isRace": false
   },
   {
     "id": 8084638233,
@@ -2937,7 +3259,8 @@
     "paceFormatted": "6:29",
     "date": "Nov 7",
     "year": 2022,
-    "startDate": "2022-11-07T14:59:41Z"
+    "startDate": "2022-11-07T14:59:41Z",
+    "isRace": false
   },
   {
     "id": 8073324134,
@@ -2949,7 +3272,8 @@
     "paceFormatted": "6:29",
     "date": "Nov 5",
     "year": 2022,
-    "startDate": "2022-11-05T09:54:26Z"
+    "startDate": "2022-11-05T09:54:26Z",
+    "isRace": false
   },
   {
     "id": 8069240158,
@@ -2961,7 +3285,8 @@
     "paceFormatted": "7:07",
     "date": "Nov 4",
     "year": 2022,
-    "startDate": "2022-11-04T15:43:21Z"
+    "startDate": "2022-11-04T15:43:21Z",
+    "isRace": false
   },
   {
     "id": 8055242409,
@@ -2973,7 +3298,8 @@
     "paceFormatted": "6:44",
     "date": "Nov 1",
     "year": 2022,
-    "startDate": "2022-11-01T15:59:23Z"
+    "startDate": "2022-11-01T15:59:23Z",
+    "isRace": false
   },
   {
     "id": 8025272323,
@@ -2985,7 +3311,8 @@
     "paceFormatted": "7:56",
     "date": "Oct 26",
     "year": 2022,
-    "startDate": "2022-10-26T18:28:17Z"
+    "startDate": "2022-10-26T18:28:17Z",
+    "isRace": false
   },
   {
     "id": 7997796635,
@@ -2997,7 +3324,8 @@
     "paceFormatted": "6:52",
     "date": "Oct 21",
     "year": 2022,
-    "startDate": "2022-10-21T09:30:47Z"
+    "startDate": "2022-10-21T09:30:47Z",
+    "isRace": false
   },
   {
     "id": 7989661034,
@@ -3009,7 +3337,8 @@
     "paceFormatted": "7:58",
     "date": "Oct 19",
     "year": 2022,
-    "startDate": "2022-10-19T13:50:47Z"
+    "startDate": "2022-10-19T13:50:47Z",
+    "isRace": false
   },
   {
     "id": 7930587732,
@@ -3021,7 +3350,8 @@
     "paceFormatted": "6:50",
     "date": "Oct 8",
     "year": 2022,
-    "startDate": "2022-10-08T08:38:54Z"
+    "startDate": "2022-10-08T08:38:54Z",
+    "isRace": false
   },
   {
     "id": 7912385001,
@@ -3033,7 +3363,8 @@
     "paceFormatted": "6:25",
     "date": "Oct 4",
     "year": 2022,
-    "startDate": "2022-10-04T13:44:24Z"
+    "startDate": "2022-10-04T13:44:24Z",
+    "isRace": false
   },
   {
     "id": 7895506331,
@@ -3045,7 +3376,8 @@
     "paceFormatted": "7:25",
     "date": "Oct 1",
     "year": 2022,
-    "startDate": "2022-10-01T08:09:23Z"
+    "startDate": "2022-10-01T08:09:23Z",
+    "isRace": false
   },
   {
     "id": 7880113435,
@@ -3057,7 +3389,8 @@
     "paceFormatted": "7:40",
     "date": "Sep 27",
     "year": 2022,
-    "startDate": "2022-09-28T06:22:10Z"
+    "startDate": "2022-09-28T06:22:10Z",
+    "isRace": false
   },
   {
     "id": 7871686201,
@@ -3069,7 +3402,8 @@
     "paceFormatted": "8:03",
     "date": "Sep 26",
     "year": 2022,
-    "startDate": "2022-09-26T13:03:36Z"
+    "startDate": "2022-09-26T13:03:36Z",
+    "isRace": false
   },
   {
     "id": 7860709919,
@@ -3081,7 +3415,8 @@
     "paceFormatted": "7:27",
     "date": "Sep 24",
     "year": 2022,
-    "startDate": "2022-09-24T10:00:53Z"
+    "startDate": "2022-09-24T10:00:53Z",
+    "isRace": false
   },
   {
     "id": 7835513061,
@@ -3093,7 +3428,8 @@
     "paceFormatted": "6:47",
     "date": "Sep 19",
     "year": 2022,
-    "startDate": "2022-09-19T14:58:16Z"
+    "startDate": "2022-09-19T14:58:16Z",
+    "isRace": false
   },
   {
     "id": 7823645016,
@@ -3105,7 +3441,8 @@
     "paceFormatted": "8:38",
     "date": "Sep 17",
     "year": 2022,
-    "startDate": "2022-09-17T08:35:57Z"
+    "startDate": "2022-09-17T08:35:57Z",
+    "isRace": false
   },
   {
     "id": 7810304643,
@@ -3117,7 +3454,8 @@
     "paceFormatted": "6:28",
     "date": "Sep 14",
     "year": 2022,
-    "startDate": "2022-09-14T18:35:05Z"
+    "startDate": "2022-09-14T18:35:05Z",
+    "isRace": false
   },
   {
     "id": 7799322933,
@@ -3129,7 +3467,8 @@
     "paceFormatted": "7:33",
     "date": "Sep 12",
     "year": 2022,
-    "startDate": "2022-09-12T18:39:18Z"
+    "startDate": "2022-09-12T18:39:18Z",
+    "isRace": false
   },
   {
     "id": 7782240718,
@@ -3141,7 +3480,8 @@
     "paceFormatted": "7:39",
     "date": "Sep 9",
     "year": 2022,
-    "startDate": "2022-09-09T16:50:52Z"
+    "startDate": "2022-09-09T16:50:52Z",
+    "isRace": false
   },
   {
     "id": 7767362254,
@@ -3153,7 +3493,8 @@
     "paceFormatted": "8:56",
     "date": "Sep 6",
     "year": 2022,
-    "startDate": "2022-09-06T20:40:34Z"
+    "startDate": "2022-09-06T20:40:34Z",
+    "isRace": false
   },
   {
     "id": 7754523995,
@@ -3165,7 +3506,8 @@
     "paceFormatted": "9:40",
     "date": "Sep 4",
     "year": 2022,
-    "startDate": "2022-09-04T09:13:59Z"
+    "startDate": "2022-09-04T09:13:59Z",
+    "isRace": false
   },
   {
     "id": 7734552021,
@@ -3177,7 +3519,8 @@
     "paceFormatted": "7:32",
     "date": "Aug 31",
     "year": 2022,
-    "startDate": "2022-08-31T18:46:00Z"
+    "startDate": "2022-08-31T18:46:00Z",
+    "isRace": false
   },
   {
     "id": 7715596902,
@@ -3189,7 +3532,8 @@
     "paceFormatted": "6:12",
     "date": "Aug 28",
     "year": 2022,
-    "startDate": "2022-08-28T07:59:26Z"
+    "startDate": "2022-08-28T07:59:26Z",
+    "isRace": true
   },
   {
     "id": 7703814148,
@@ -3201,7 +3545,8 @@
     "paceFormatted": "8:17",
     "date": "Aug 25",
     "year": 2022,
-    "startDate": "2022-08-26T06:28:38Z"
+    "startDate": "2022-08-26T06:28:38Z",
+    "isRace": false
   },
   {
     "id": 7676584603,
@@ -3213,7 +3558,8 @@
     "paceFormatted": "9:12",
     "date": "Aug 21",
     "year": 2022,
-    "startDate": "2022-08-21T08:14:12Z"
+    "startDate": "2022-08-21T08:14:12Z",
+    "isRace": false
   },
   {
     "id": 7667659043,
@@ -3225,7 +3571,8 @@
     "paceFormatted": "8:14",
     "date": "Aug 19",
     "year": 2022,
-    "startDate": "2022-08-19T22:50:05Z"
+    "startDate": "2022-08-19T22:50:05Z",
+    "isRace": false
   },
   {
     "id": 7656463557,
@@ -3237,7 +3584,8 @@
     "paceFormatted": "7:51",
     "date": "Aug 17",
     "year": 2022,
-    "startDate": "2022-08-17T17:16:15Z"
+    "startDate": "2022-08-17T17:16:15Z",
+    "isRace": false
   },
   {
     "id": 7639356242,
@@ -3249,7 +3597,8 @@
     "paceFormatted": "7:42",
     "date": "Aug 14",
     "year": 2022,
-    "startDate": "2022-08-14T15:00:32Z"
+    "startDate": "2022-08-14T15:00:32Z",
+    "isRace": false
   },
   {
     "id": 7623324614,
@@ -3261,7 +3610,8 @@
     "paceFormatted": "6:26",
     "date": "Aug 11",
     "year": 2022,
-    "startDate": "2022-08-11T17:14:48Z"
+    "startDate": "2022-08-11T17:14:48Z",
+    "isRace": false
   },
   {
     "id": 7609996943,
@@ -3273,7 +3623,8 @@
     "paceFormatted": "7:44",
     "date": "Aug 9",
     "year": 2022,
-    "startDate": "2022-08-09T09:15:30Z"
+    "startDate": "2022-08-09T09:15:30Z",
+    "isRace": false
   },
   {
     "id": 7594190858,
@@ -3285,7 +3636,8 @@
     "paceFormatted": "7:39",
     "date": "Aug 6",
     "year": 2022,
-    "startDate": "2022-08-06T11:11:34Z"
+    "startDate": "2022-08-06T11:11:34Z",
+    "isRace": false
   },
   {
     "id": 7582376454,
@@ -3297,7 +3649,8 @@
     "paceFormatted": "6:36",
     "date": "Aug 4",
     "year": 2022,
-    "startDate": "2022-08-04T09:13:08Z"
+    "startDate": "2022-08-04T09:13:08Z",
+    "isRace": false
   },
   {
     "id": 7549955086,
@@ -3309,7 +3662,8 @@
     "paceFormatted": "8:14",
     "date": "Jul 29",
     "year": 2022,
-    "startDate": "2022-07-29T12:26:28Z"
+    "startDate": "2022-07-29T12:26:28Z",
+    "isRace": false
   },
   {
     "id": 7512219197,
@@ -3321,7 +3675,8 @@
     "paceFormatted": "8:17",
     "date": "Jul 22",
     "year": 2022,
-    "startDate": "2022-07-22T15:19:56Z"
+    "startDate": "2022-07-22T15:19:56Z",
+    "isRace": false
   },
   {
     "id": 7499465452,
@@ -3333,7 +3688,8 @@
     "paceFormatted": "6:15",
     "date": "Jul 19",
     "year": 2022,
-    "startDate": "2022-07-20T06:11:12Z"
+    "startDate": "2022-07-20T06:11:12Z",
+    "isRace": false
   },
   {
     "id": 7486612059,
@@ -3345,7 +3701,8 @@
     "paceFormatted": "7:03",
     "date": "Jul 17",
     "year": 2022,
-    "startDate": "2022-07-17T16:11:56Z"
+    "startDate": "2022-07-17T16:11:56Z",
+    "isRace": false
   },
   {
     "id": 7465512123,
@@ -3357,7 +3714,8 @@
     "paceFormatted": "7:21",
     "date": "Jul 13",
     "year": 2022,
-    "startDate": "2022-07-13T18:26:37Z"
+    "startDate": "2022-07-13T18:26:37Z",
+    "isRace": false
   },
   {
     "id": 7442399535,
@@ -3369,7 +3727,8 @@
     "paceFormatted": "8:52",
     "date": "Jul 9",
     "year": 2022,
-    "startDate": "2022-07-09T12:15:04Z"
+    "startDate": "2022-07-09T12:15:04Z",
+    "isRace": false
   },
   {
     "id": 7415921345,
@@ -3381,7 +3740,8 @@
     "paceFormatted": "6:58",
     "date": "Jul 4",
     "year": 2022,
-    "startDate": "2022-07-04T12:54:25Z"
+    "startDate": "2022-07-04T12:54:25Z",
+    "isRace": false
   },
   {
     "id": 7399311972,
@@ -3393,7 +3753,8 @@
     "paceFormatted": "8:32",
     "date": "Jul 1",
     "year": 2022,
-    "startDate": "2022-07-01T11:50:09Z"
+    "startDate": "2022-07-01T11:50:09Z",
+    "isRace": false
   },
   {
     "id": 7384670223,
@@ -3405,7 +3766,8 @@
     "paceFormatted": "6:55",
     "date": "Jun 28",
     "year": 2022,
-    "startDate": "2022-06-28T15:16:50Z"
+    "startDate": "2022-06-28T15:16:50Z",
+    "isRace": false
   },
   {
     "id": 7362363802,
@@ -3417,7 +3779,8 @@
     "paceFormatted": "8:49",
     "date": "Jun 24",
     "year": 2022,
-    "startDate": "2022-06-24T11:12:18Z"
+    "startDate": "2022-06-24T11:12:18Z",
+    "isRace": false
   },
   {
     "id": 7348128176,
@@ -3429,7 +3792,8 @@
     "paceFormatted": "6:50",
     "date": "Jun 21",
     "year": 2022,
-    "startDate": "2022-06-21T18:01:58Z"
+    "startDate": "2022-06-21T18:01:58Z",
+    "isRace": false
   },
   {
     "id": 7324080624,
@@ -3441,7 +3805,8 @@
     "paceFormatted": "7:19",
     "date": "Jun 17",
     "year": 2022,
-    "startDate": "2022-06-17T09:48:32Z"
+    "startDate": "2022-06-17T09:48:32Z",
+    "isRace": false
   },
   {
     "id": 7255908216,
@@ -3453,7 +3818,8 @@
     "paceFormatted": "8:37",
     "date": "Jun 4",
     "year": 2022,
-    "startDate": "2022-06-04T14:07:30Z"
+    "startDate": "2022-06-04T14:07:30Z",
+    "isRace": false
   },
   {
     "id": 7200540907,
@@ -3465,7 +3831,8 @@
     "paceFormatted": "7:52",
     "date": "May 24",
     "year": 2022,
-    "startDate": "2022-05-25T06:25:53Z"
+    "startDate": "2022-05-25T06:25:53Z",
+    "isRace": false
   },
   {
     "id": 7180005400,
@@ -3477,7 +3844,8 @@
     "paceFormatted": "9:32",
     "date": "May 21",
     "year": 2022,
-    "startDate": "2022-05-21T08:37:48Z"
+    "startDate": "2022-05-21T08:37:48Z",
+    "isRace": false
   },
   {
     "id": 7125132562,
@@ -3489,7 +3857,8 @@
     "paceFormatted": "8:16",
     "date": "May 10",
     "year": 2022,
-    "startDate": "2022-05-11T06:22:07Z"
+    "startDate": "2022-05-11T06:22:07Z",
+    "isRace": false
   },
   {
     "id": 7049422466,
@@ -3501,7 +3870,8 @@
     "paceFormatted": "7:20",
     "date": "Apr 26",
     "year": 2022,
-    "startDate": "2022-04-27T06:23:49Z"
+    "startDate": "2022-04-27T06:23:49Z",
+    "isRace": false
   },
   {
     "id": 7028376791,
@@ -3513,7 +3883,8 @@
     "paceFormatted": "6:38",
     "date": "Apr 23",
     "year": 2022,
-    "startDate": "2022-04-23T07:40:06Z"
+    "startDate": "2022-04-23T07:40:06Z",
+    "isRace": true
   },
   {
     "id": 7018149161,
@@ -3525,7 +3896,8 @@
     "paceFormatted": "7:45",
     "date": "Apr 21",
     "year": 2022,
-    "startDate": "2022-04-21T07:05:11Z"
+    "startDate": "2022-04-21T07:05:11Z",
+    "isRace": false
   },
   {
     "id": 7003199168,
@@ -3537,7 +3909,8 @@
     "paceFormatted": "8:17",
     "date": "Apr 18",
     "year": 2022,
-    "startDate": "2022-04-18T09:57:37Z"
+    "startDate": "2022-04-18T09:57:37Z",
+    "isRace": false
   },
   {
     "id": 6975703119,
@@ -3549,7 +3922,8 @@
     "paceFormatted": "8:15",
     "date": "Apr 12",
     "year": 2022,
-    "startDate": "2022-04-13T06:21:40Z"
+    "startDate": "2022-04-13T06:21:40Z",
+    "isRace": false
   },
   {
     "id": 6930732580,
@@ -3561,7 +3935,8 @@
     "paceFormatted": "7:33",
     "date": "Apr 4",
     "year": 2022,
-    "startDate": "2022-04-04T07:58:35Z"
+    "startDate": "2022-04-04T07:58:35Z",
+    "isRace": false
   },
   {
     "id": 6917128586,
@@ -3573,7 +3948,8 @@
     "paceFormatted": "8:19",
     "date": "Apr 1",
     "year": 2022,
-    "startDate": "2022-04-01T13:35:38Z"
+    "startDate": "2022-04-01T13:35:38Z",
+    "isRace": false
   },
   {
     "id": 6869911444,
@@ -3585,7 +3961,8 @@
     "paceFormatted": "7:51",
     "date": "Mar 22",
     "year": 2022,
-    "startDate": "2022-03-23T06:23:18Z"
+    "startDate": "2022-03-23T06:23:18Z",
+    "isRace": false
   },
   {
     "id": 6693542730,
@@ -3597,7 +3974,8 @@
     "paceFormatted": "18:53",
     "date": "Feb 16",
     "year": 2022,
-    "startDate": "2022-02-16T08:12:43Z"
+    "startDate": "2022-02-16T08:12:43Z",
+    "isRace": false
   },
   {
     "id": 6656463696,
@@ -3609,7 +3987,8 @@
     "paceFormatted": "7:29",
     "date": "Feb 8",
     "year": 2022,
-    "startDate": "2022-02-09T06:25:35Z"
+    "startDate": "2022-02-09T06:25:35Z",
+    "isRace": false
   },
   {
     "id": 6620563785,
@@ -3621,7 +4000,8 @@
     "paceFormatted": "7:33",
     "date": "Feb 1",
     "year": 2022,
-    "startDate": "2022-02-02T06:24:28Z"
+    "startDate": "2022-02-02T06:24:28Z",
+    "isRace": false
   },
   {
     "id": 6595514386,
@@ -3633,7 +4013,8 @@
     "paceFormatted": "8:45",
     "date": "Jan 28",
     "year": 2022,
-    "startDate": "2022-01-28T08:11:30Z"
+    "startDate": "2022-01-28T08:11:30Z",
+    "isRace": false
   },
   {
     "id": 6584939703,
@@ -3645,7 +4026,8 @@
     "paceFormatted": "8:02",
     "date": "Jan 25",
     "year": 2022,
-    "startDate": "2022-01-26T06:19:35Z"
+    "startDate": "2022-01-26T06:19:35Z",
+    "isRace": false
   },
   {
     "id": 6512354615,
@@ -3657,7 +4039,8 @@
     "paceFormatted": "10:32",
     "date": "Jan 11",
     "year": 2022,
-    "startDate": "2022-01-12T06:17:45Z"
+    "startDate": "2022-01-12T06:17:45Z",
+    "isRace": false
   },
   {
     "id": 6492039641,
@@ -3669,7 +4052,8 @@
     "paceFormatted": "8:54",
     "date": "Jan 7",
     "year": 2022,
-    "startDate": "2022-01-08T07:39:37Z"
+    "startDate": "2022-01-08T07:39:37Z",
+    "isRace": false
   },
   {
     "id": 6476970493,
@@ -3681,7 +4065,8 @@
     "paceFormatted": "8:18",
     "date": "Jan 4",
     "year": 2022,
-    "startDate": "2022-01-05T06:19:53Z"
+    "startDate": "2022-01-05T06:19:53Z",
+    "isRace": false
   },
   {
     "id": 6387360885,
@@ -3693,7 +4078,8 @@
     "paceFormatted": "9:09",
     "date": "Dec 14",
     "year": 2021,
-    "startDate": "2021-12-15T06:19:14Z"
+    "startDate": "2021-12-15T06:19:14Z",
+    "isRace": false
   },
   {
     "id": 6270747920,
@@ -3705,7 +4091,8 @@
     "paceFormatted": "8:03",
     "date": "Nov 16",
     "year": 2021,
-    "startDate": "2021-11-17T06:20:45Z"
+    "startDate": "2021-11-17T06:20:45Z",
+    "isRace": false
   },
   {
     "id": 6206258687,
@@ -3717,7 +4104,8 @@
     "paceFormatted": "7:58",
     "date": "Nov 2",
     "year": 2021,
-    "startDate": "2021-11-03T06:22:07Z"
+    "startDate": "2021-11-03T06:22:07Z",
+    "isRace": false
   },
   {
     "id": 6183294279,
@@ -3729,7 +4117,8 @@
     "paceFormatted": "8:36",
     "date": "Oct 28",
     "year": 2021,
-    "startDate": "2021-10-29T06:24:55Z"
+    "startDate": "2021-10-29T06:24:55Z",
+    "isRace": false
   },
   {
     "id": 6138120634,
@@ -3741,7 +4130,8 @@
     "paceFormatted": "12:17",
     "date": "Oct 19",
     "year": 2021,
-    "startDate": "2021-10-19T12:46:37Z"
+    "startDate": "2021-10-19T12:46:37Z",
+    "isRace": false
   },
   {
     "id": 6122139472,
@@ -3753,7 +4143,8 @@
     "paceFormatted": "14:00",
     "date": "Oct 16",
     "year": 2021,
-    "startDate": "2021-10-16T08:18:39Z"
+    "startDate": "2021-10-16T08:18:39Z",
+    "isRace": false
   },
   {
     "id": 6047782511,
@@ -3765,7 +4156,8 @@
     "paceFormatted": "11:00",
     "date": "Sep 30",
     "year": 2021,
-    "startDate": "2021-10-01T06:36:38Z"
+    "startDate": "2021-10-01T06:36:38Z",
+    "isRace": false
   },
   {
     "id": 5975054960,
@@ -3777,7 +4169,8 @@
     "paceFormatted": "10:07",
     "date": "Sep 16",
     "year": 2021,
-    "startDate": "2021-09-17T06:15:42Z"
+    "startDate": "2021-09-17T06:15:42Z",
+    "isRace": false
   },
   {
     "id": 5967323208,
@@ -3789,7 +4182,8 @@
     "paceFormatted": "8:40",
     "date": "Sep 15",
     "year": 2021,
-    "startDate": "2021-09-15T17:44:00Z"
+    "startDate": "2021-09-15T17:44:00Z",
+    "isRace": false
   },
   {
     "id": 5705743565,
@@ -3801,7 +4195,8 @@
     "paceFormatted": "8:07",
     "date": "Jul 29",
     "year": 2021,
-    "startDate": "2021-07-29T08:12:23Z"
+    "startDate": "2021-07-29T08:12:23Z",
+    "isRace": false
   },
   {
     "id": 5666601140,
@@ -3813,7 +4208,8 @@
     "paceFormatted": "7:19",
     "date": "Jul 21",
     "year": 2021,
-    "startDate": "2021-07-21T18:38:53Z"
+    "startDate": "2021-07-21T18:38:53Z",
+    "isRace": false
   },
   {
     "id": 5629476095,
@@ -3825,7 +4221,8 @@
     "paceFormatted": "6:58",
     "date": "Jul 14",
     "year": 2021,
-    "startDate": "2021-07-14T18:32:02Z"
+    "startDate": "2021-07-14T18:32:02Z",
+    "isRace": false
   },
   {
     "id": 5592746067,
@@ -3837,7 +4234,8 @@
     "paceFormatted": "7:22",
     "date": "Jul 7",
     "year": 2021,
-    "startDate": "2021-07-07T18:24:07Z"
+    "startDate": "2021-07-07T18:24:07Z",
+    "isRace": false
   },
   {
     "id": 5587332462,
@@ -3849,7 +4247,8 @@
     "paceFormatted": "9:32",
     "date": "Jul 6",
     "year": 2021,
-    "startDate": "2021-07-06T18:38:44Z"
+    "startDate": "2021-07-06T18:38:44Z",
+    "isRace": false
   },
   {
     "id": 5510966727,
@@ -3861,7 +4260,8 @@
     "paceFormatted": "8:47",
     "date": "Jun 21",
     "year": 2021,
-    "startDate": "2021-06-22T06:55:45Z"
+    "startDate": "2021-06-22T06:55:45Z",
+    "isRace": false
   },
   {
     "id": 5479897906,
@@ -3873,7 +4273,8 @@
     "paceFormatted": "10:09",
     "date": "Jun 15",
     "year": 2021,
-    "startDate": "2021-06-16T06:14:37Z"
+    "startDate": "2021-06-16T06:14:37Z",
+    "isRace": false
   },
   {
     "id": 5440834491,
@@ -3885,7 +4286,8 @@
     "paceFormatted": "8:47",
     "date": "Jun 8",
     "year": 2021,
-    "startDate": "2021-06-09T06:15:20Z"
+    "startDate": "2021-06-09T06:15:20Z",
+    "isRace": false
   },
   {
     "id": 5400762739,
@@ -3897,7 +4299,8 @@
     "paceFormatted": "8:42",
     "date": "Jun 1",
     "year": 2021,
-    "startDate": "2021-06-02T06:17:24Z"
+    "startDate": "2021-06-02T06:17:24Z",
+    "isRace": false
   },
   {
     "id": 5361254795,
@@ -3909,7 +4312,8 @@
     "paceFormatted": "7:43",
     "date": "May 25",
     "year": 2021,
-    "startDate": "2021-05-26T06:16:49Z"
+    "startDate": "2021-05-26T06:16:49Z",
+    "isRace": false
   },
   {
     "id": 5270742603,
@@ -3921,7 +4325,8 @@
     "paceFormatted": "8:36",
     "date": "May 9",
     "year": 2021,
-    "startDate": "2021-05-09T14:25:52Z"
+    "startDate": "2021-05-09T14:25:52Z",
+    "isRace": false
   },
   {
     "id": 5249127894,
@@ -3933,7 +4338,8 @@
     "paceFormatted": "9:05",
     "date": "May 5",
     "year": 2021,
-    "startDate": "2021-05-05T18:12:49Z"
+    "startDate": "2021-05-05T18:12:49Z",
+    "isRace": false
   },
   {
     "id": 5237087414,
@@ -3945,7 +4351,8 @@
     "paceFormatted": "8:45",
     "date": "May 3",
     "year": 2021,
-    "startDate": "2021-05-03T11:08:21Z"
+    "startDate": "2021-05-03T11:08:21Z",
+    "isRace": false
   },
   {
     "id": 5058483889,
@@ -3957,7 +4364,8 @@
     "paceFormatted": "8:39",
     "date": "Apr 2",
     "year": 2021,
-    "startDate": "2021-04-02T17:01:15Z"
+    "startDate": "2021-04-02T17:01:15Z",
+    "isRace": false
   },
   {
     "id": 4993816952,
@@ -3969,7 +4377,8 @@
     "paceFormatted": "8:58",
     "date": "Mar 22",
     "year": 2021,
-    "startDate": "2021-03-22T18:40:22Z"
+    "startDate": "2021-03-22T18:40:22Z",
+    "isRace": false
   },
   {
     "id": 4965112987,
@@ -3981,7 +4390,8 @@
     "paceFormatted": "7:50",
     "date": "Mar 17",
     "year": 2021,
-    "startDate": "2021-03-17T16:54:07Z"
+    "startDate": "2021-03-17T16:54:07Z",
+    "isRace": false
   },
   {
     "id": 4901954354,
@@ -3993,7 +4403,8 @@
     "paceFormatted": "7:42",
     "date": "Mar 6",
     "year": 2021,
-    "startDate": "2021-03-06T09:43:53Z"
+    "startDate": "2021-03-06T09:43:53Z",
+    "isRace": false
   },
   {
     "id": 4884005383,
@@ -4005,7 +4416,8 @@
     "paceFormatted": "7:32",
     "date": "Mar 2",
     "year": 2021,
-    "startDate": "2021-03-03T07:52:17Z"
+    "startDate": "2021-03-03T07:52:17Z",
+    "isRace": false
   },
   {
     "id": 4874682929,
@@ -4017,7 +4429,8 @@
     "paceFormatted": "8:18",
     "date": "Mar 1",
     "year": 2021,
-    "startDate": "2021-03-01T17:03:57Z"
+    "startDate": "2021-03-01T17:03:57Z",
+    "isRace": false
   },
   {
     "id": 4697743109,
@@ -4029,7 +4442,8 @@
     "paceFormatted": "8:57",
     "date": "Jan 28",
     "year": 2021,
-    "startDate": "2021-01-28T16:44:37Z"
+    "startDate": "2021-01-28T16:44:37Z",
+    "isRace": false
   },
   {
     "id": 4655090642,
@@ -4041,7 +4455,8 @@
     "paceFormatted": "8:23",
     "date": "Jan 20",
     "year": 2021,
-    "startDate": "2021-01-20T18:29:24Z"
+    "startDate": "2021-01-20T18:29:24Z",
+    "isRace": false
   },
   {
     "id": 4632204616,
@@ -4053,7 +4468,8 @@
     "paceFormatted": "9:52",
     "date": "Jan 16",
     "year": 2021,
-    "startDate": "2021-01-16T13:13:50Z"
+    "startDate": "2021-01-16T13:13:50Z",
+    "isRace": false
   },
   {
     "id": 4617157937,
@@ -4065,7 +4481,8 @@
     "paceFormatted": "11:24",
     "date": "Jan 13",
     "year": 2021,
-    "startDate": "2021-01-13T16:14:50Z"
+    "startDate": "2021-01-13T16:14:50Z",
+    "isRace": false
   },
   {
     "id": 4579996958,
@@ -4077,7 +4494,8 @@
     "paceFormatted": "9:02",
     "date": "Jan 6",
     "year": 2021,
-    "startDate": "2021-01-06T18:55:38Z"
+    "startDate": "2021-01-06T18:55:38Z",
+    "isRace": false
   },
   {
     "id": 4561736391,
@@ -4089,7 +4507,8 @@
     "paceFormatted": "8:53",
     "date": "Jan 3",
     "year": 2021,
-    "startDate": "2021-01-03T08:29:01Z"
+    "startDate": "2021-01-03T08:29:01Z",
+    "isRace": false
   },
   {
     "id": 4258755354,
@@ -4101,7 +4520,8 @@
     "paceFormatted": "7:04",
     "date": "Oct 29",
     "year": 2020,
-    "startDate": "2020-10-29T07:39:29Z"
+    "startDate": "2020-10-29T07:39:29Z",
+    "isRace": false
   },
   {
     "id": 4244325900,
@@ -4113,7 +4533,8 @@
     "paceFormatted": "7:23",
     "date": "Oct 25",
     "year": 2020,
-    "startDate": "2020-10-25T16:54:41Z"
+    "startDate": "2020-10-25T16:54:41Z",
+    "isRace": false
   },
   {
     "id": 4218308395,
@@ -4125,7 +4546,8 @@
     "paceFormatted": "8:00",
     "date": "Oct 19",
     "year": 2020,
-    "startDate": "2020-10-19T18:30:37Z"
+    "startDate": "2020-10-19T18:30:37Z",
+    "isRace": false
   },
   {
     "id": 4196617436,
@@ -4137,7 +4559,8 @@
     "paceFormatted": "8:27",
     "date": "Oct 14",
     "year": 2020,
-    "startDate": "2020-10-14T19:00:44Z"
+    "startDate": "2020-10-14T19:00:44Z",
+    "isRace": false
   },
   {
     "id": 4075889227,
@@ -4149,7 +4572,8 @@
     "paceFormatted": "7:09",
     "date": "Sep 17",
     "year": 2020,
-    "startDate": "2020-09-17T19:11:52Z"
+    "startDate": "2020-09-17T19:11:52Z",
+    "isRace": false
   },
   {
     "id": 4032900110,
@@ -4161,7 +4585,8 @@
     "paceFormatted": "9:20",
     "date": "Sep 8",
     "year": 2020,
-    "startDate": "2020-09-08T19:40:02Z"
+    "startDate": "2020-09-08T19:40:02Z",
+    "isRace": false
   },
   {
     "id": 3999121494,
@@ -4173,7 +4598,8 @@
     "paceFormatted": "8:00",
     "date": "Sep 1",
     "year": 2020,
-    "startDate": "2020-09-01T20:01:49Z"
+    "startDate": "2020-09-01T20:01:49Z",
+    "isRace": false
   },
   {
     "id": 3989571433,
@@ -4185,7 +4611,8 @@
     "paceFormatted": "8:14",
     "date": "Aug 30",
     "year": 2020,
-    "startDate": "2020-08-30T19:35:12Z"
+    "startDate": "2020-08-30T19:35:12Z",
+    "isRace": false
   },
   {
     "id": 3856477334,
@@ -4197,7 +4624,8 @@
     "paceFormatted": "7:57",
     "date": "Aug 2",
     "year": 2020,
-    "startDate": "2020-08-02T20:37:26Z"
+    "startDate": "2020-08-02T20:37:26Z",
+    "isRace": false
   },
   {
     "id": 3813139329,
@@ -4209,7 +4637,8 @@
     "paceFormatted": "8:01",
     "date": "Jul 25",
     "year": 2020,
-    "startDate": "2020-07-25T18:32:27Z"
+    "startDate": "2020-07-25T18:32:27Z",
+    "isRace": false
   },
   {
     "id": 3795964083,
@@ -4221,7 +4650,8 @@
     "paceFormatted": "7:30",
     "date": "Jul 21",
     "year": 2020,
-    "startDate": "2020-07-21T08:05:27Z"
+    "startDate": "2020-07-21T08:05:27Z",
+    "isRace": false
   },
   {
     "id": 3747864271,
@@ -4233,7 +4663,8 @@
     "paceFormatted": "7:49",
     "date": "Jul 11",
     "year": 2020,
-    "startDate": "2020-07-11T12:41:10Z"
+    "startDate": "2020-07-11T12:41:10Z",
+    "isRace": false
   },
   {
     "id": 3734654443,
@@ -4245,7 +4676,8 @@
     "paceFormatted": "7:14",
     "date": "Jul 8",
     "year": 2020,
-    "startDate": "2020-07-08T18:49:23Z"
+    "startDate": "2020-07-08T18:49:23Z",
+    "isRace": false
   },
   {
     "id": 3724736308,
@@ -4257,7 +4689,8 @@
     "paceFormatted": "7:20",
     "date": "Jul 6",
     "year": 2020,
-    "startDate": "2020-07-06T18:18:43Z"
+    "startDate": "2020-07-06T18:18:43Z",
+    "isRace": false
   },
   {
     "id": 3634110819,
@@ -4269,7 +4702,8 @@
     "paceFormatted": "9:26",
     "date": "Jun 18",
     "year": 2020,
-    "startDate": "2020-06-18T07:18:02Z"
+    "startDate": "2020-06-18T07:18:02Z",
+    "isRace": false
   },
   {
     "id": 3603481202,
@@ -4281,7 +4715,8 @@
     "paceFormatted": "7:50",
     "date": "Jun 12",
     "year": 2020,
-    "startDate": "2020-06-12T08:41:52Z"
+    "startDate": "2020-06-12T08:41:52Z",
+    "isRace": false
   },
   {
     "id": 3485771715,
@@ -4293,7 +4728,8 @@
     "paceFormatted": "7:12",
     "date": "May 20",
     "year": 2020,
-    "startDate": "2020-05-20T19:57:51Z"
+    "startDate": "2020-05-20T19:57:51Z",
+    "isRace": false
   },
   {
     "id": 3468779362,
@@ -4305,7 +4741,8 @@
     "paceFormatted": "8:13",
     "date": "May 17",
     "year": 2020,
-    "startDate": "2020-05-17T12:07:29Z"
+    "startDate": "2020-05-17T12:07:29Z",
+    "isRace": false
   },
   {
     "id": 3457592422,
@@ -4317,7 +4754,8 @@
     "paceFormatted": "9:00",
     "date": "May 15",
     "year": 2020,
-    "startDate": "2020-05-15T18:05:12Z"
+    "startDate": "2020-05-15T18:05:12Z",
+    "isRace": false
   },
   {
     "id": 3426173016,
@@ -4329,7 +4767,8 @@
     "paceFormatted": "8:31",
     "date": "May 9",
     "year": 2020,
-    "startDate": "2020-05-09T11:23:10Z"
+    "startDate": "2020-05-09T11:23:10Z",
+    "isRace": false
   },
   {
     "id": 3411035262,
@@ -4341,7 +4780,8 @@
     "paceFormatted": "8:52",
     "date": "May 6",
     "year": 2020,
-    "startDate": "2020-05-06T17:31:39Z"
+    "startDate": "2020-05-06T17:31:39Z",
+    "isRace": false
   },
   {
     "id": 3393347309,
@@ -4353,7 +4793,8 @@
     "paceFormatted": "7:44",
     "date": "May 3",
     "year": 2020,
-    "startDate": "2020-05-03T10:35:58Z"
+    "startDate": "2020-05-03T10:35:58Z",
+    "isRace": false
   },
   {
     "id": 3373543799,
@@ -4365,7 +4806,8 @@
     "paceFormatted": "8:04",
     "date": "Apr 29",
     "year": 2020,
-    "startDate": "2020-04-29T18:42:46Z"
+    "startDate": "2020-04-29T18:42:46Z",
+    "isRace": false
   },
   {
     "id": 3364174670,
@@ -4377,7 +4819,8 @@
     "paceFormatted": "7:46",
     "date": "Apr 27",
     "year": 2020,
-    "startDate": "2020-04-27T18:14:14Z"
+    "startDate": "2020-04-27T18:14:14Z",
+    "isRace": false
   },
   {
     "id": 3348502842,
@@ -4389,7 +4832,8 @@
     "paceFormatted": "8:15",
     "date": "Apr 24",
     "year": 2020,
-    "startDate": "2020-04-24T18:11:23Z"
+    "startDate": "2020-04-24T18:11:23Z",
+    "isRace": false
   },
   {
     "id": 3339019338,
@@ -4401,7 +4845,8 @@
     "paceFormatted": "6:51",
     "date": "Apr 22",
     "year": 2020,
-    "startDate": "2020-04-22T18:36:26Z"
+    "startDate": "2020-04-22T18:36:26Z",
+    "isRace": false
   },
   {
     "id": 3324464678,
@@ -4413,7 +4858,8 @@
     "paceFormatted": "8:14",
     "date": "Apr 19",
     "year": 2020,
-    "startDate": "2020-04-19T18:10:42Z"
+    "startDate": "2020-04-19T18:10:42Z",
+    "isRace": false
   },
   {
     "id": 3296063569,
@@ -4425,7 +4871,8 @@
     "paceFormatted": "9:12",
     "date": "Apr 13",
     "year": 2020,
-    "startDate": "2020-04-13T19:36:41Z"
+    "startDate": "2020-04-13T19:36:41Z",
+    "isRace": false
   },
   {
     "id": 3282364285,
@@ -4437,7 +4884,8 @@
     "paceFormatted": "8:49",
     "date": "Apr 10",
     "year": 2020,
-    "startDate": "2020-04-10T18:32:34Z"
+    "startDate": "2020-04-10T18:32:34Z",
+    "isRace": false
   },
   {
     "id": 3269390676,
@@ -4449,7 +4897,8 @@
     "paceFormatted": "7:25",
     "date": "Apr 7",
     "year": 2020,
-    "startDate": "2020-04-07T18:07:17Z"
+    "startDate": "2020-04-07T18:07:17Z",
+    "isRace": false
   },
   {
     "id": 3252025003,
@@ -4461,7 +4910,8 @@
     "paceFormatted": "8:53",
     "date": "Apr 3",
     "year": 2020,
-    "startDate": "2020-04-03T19:12:09Z"
+    "startDate": "2020-04-03T19:12:09Z",
+    "isRace": false
   },
   {
     "id": 3244602781,
@@ -4473,7 +4923,8 @@
     "paceFormatted": "9:03",
     "date": "Apr 1",
     "year": 2020,
-    "startDate": "2020-04-01T17:30:53Z"
+    "startDate": "2020-04-01T17:30:53Z",
+    "isRace": false
   },
   {
     "id": 3225831934,
@@ -4485,7 +4936,8 @@
     "paceFormatted": "7:14",
     "date": "Mar 27",
     "year": 2020,
-    "startDate": "2020-03-27T18:29:58Z"
+    "startDate": "2020-03-27T18:29:58Z",
+    "isRace": false
   },
   {
     "id": 3201986350,
@@ -4497,7 +4949,8 @@
     "paceFormatted": "6:56",
     "date": "Mar 20",
     "year": 2020,
-    "startDate": "2020-03-20T18:14:55Z"
+    "startDate": "2020-03-20T18:14:55Z",
+    "isRace": false
   },
   {
     "id": 3187534153,
@@ -4509,7 +4962,8 @@
     "paceFormatted": "7:25",
     "date": "Mar 15",
     "year": 2020,
-    "startDate": "2020-03-15T18:23:02Z"
+    "startDate": "2020-03-15T18:23:02Z",
+    "isRace": false
   },
   {
     "id": 3175919229,
@@ -4521,7 +4975,8 @@
     "paceFormatted": "7:31",
     "date": "Mar 11",
     "year": 2020,
-    "startDate": "2020-03-11T17:28:54Z"
+    "startDate": "2020-03-11T17:28:54Z",
+    "isRace": false
   },
   {
     "id": 3159252213,
@@ -4533,7 +4988,8 @@
     "paceFormatted": "7:43",
     "date": "Mar 5",
     "year": 2020,
-    "startDate": "2020-03-06T06:01:27Z"
+    "startDate": "2020-03-06T06:01:27Z",
+    "isRace": false
   },
   {
     "id": 3153897266,
@@ -4545,7 +5001,8 @@
     "paceFormatted": "7:27",
     "date": "Mar 3",
     "year": 2020,
-    "startDate": "2020-03-04T07:47:47Z"
+    "startDate": "2020-03-04T07:47:47Z",
+    "isRace": false
   },
   {
     "id": 3143406766,
@@ -4557,7 +5014,8 @@
     "paceFormatted": "8:46",
     "date": "Feb 29",
     "year": 2020,
-    "startDate": "2020-02-29T16:38:45Z"
+    "startDate": "2020-02-29T16:38:45Z",
+    "isRace": false
   },
   {
     "id": 3136601123,
@@ -4569,7 +5027,8 @@
     "paceFormatted": "Infinity:NaN",
     "date": "Feb 26",
     "year": 2020,
-    "startDate": "2020-02-27T07:01:16Z"
+    "startDate": "2020-02-27T07:01:16Z",
+    "isRace": false
   },
   {
     "id": 3133799407,
@@ -4581,7 +5040,8 @@
     "paceFormatted": "8:28",
     "date": "Feb 25",
     "year": 2020,
-    "startDate": "2020-02-26T06:14:24Z"
+    "startDate": "2020-02-26T06:14:24Z",
+    "isRace": false
   },
   {
     "id": 3113919388,
@@ -4593,7 +5053,8 @@
     "paceFormatted": "9:02",
     "date": "Feb 18",
     "year": 2020,
-    "startDate": "2020-02-19T06:59:17Z"
+    "startDate": "2020-02-19T06:59:17Z",
+    "isRace": false
   },
   {
     "id": 3107979134,
@@ -4605,7 +5066,8 @@
     "paceFormatted": "7:57",
     "date": "Feb 16",
     "year": 2020,
-    "startDate": "2020-02-17T06:18:22Z"
+    "startDate": "2020-02-17T06:18:22Z",
+    "isRace": false
   },
   {
     "id": 3088195165,
@@ -4617,7 +5079,8 @@
     "paceFormatted": "8:16",
     "date": "Feb 9",
     "year": 2020,
-    "startDate": "2020-02-10T06:19:30Z"
+    "startDate": "2020-02-10T06:19:30Z",
+    "isRace": false
   },
   {
     "id": 3074068128,
@@ -4629,7 +5092,8 @@
     "paceFormatted": "8:10",
     "date": "Feb 4",
     "year": 2020,
-    "startDate": "2020-02-05T06:14:07Z"
+    "startDate": "2020-02-05T06:14:07Z",
+    "isRace": false
   },
   {
     "id": 3048102717,
@@ -4641,7 +5105,8 @@
     "paceFormatted": "7:31",
     "date": "Jan 26",
     "year": 2020,
-    "startDate": "2020-01-27T06:05:53Z"
+    "startDate": "2020-01-27T06:05:53Z",
+    "isRace": false
   },
   {
     "id": 3038953700,
@@ -4653,7 +5118,8 @@
     "paceFormatted": "7:43",
     "date": "Jan 23",
     "year": 2020,
-    "startDate": "2020-01-24T06:35:43Z"
+    "startDate": "2020-01-24T06:35:43Z",
+    "isRace": false
   },
   {
     "id": 3033503830,
@@ -4665,7 +5131,8 @@
     "paceFormatted": "9:14",
     "date": "Jan 21",
     "year": 2020,
-    "startDate": "2020-01-22T05:53:16Z"
+    "startDate": "2020-01-22T05:53:16Z",
+    "isRace": false
   },
   {
     "id": 3007997035,
@@ -4677,7 +5144,8 @@
     "paceFormatted": "8:10",
     "date": "Jan 13",
     "year": 2020,
-    "startDate": "2020-01-13T10:57:53Z"
+    "startDate": "2020-01-13T10:57:53Z",
+    "isRace": false
   },
   {
     "id": 3005922488,
@@ -4689,7 +5157,8 @@
     "paceFormatted": "7:32",
     "date": "Jan 12",
     "year": 2020,
-    "startDate": "2020-01-12T13:29:12Z"
+    "startDate": "2020-01-12T13:29:12Z",
+    "isRace": false
   },
   {
     "id": 2993154330,
@@ -4701,7 +5170,8 @@
     "paceFormatted": "8:24",
     "date": "Jan 7",
     "year": 2020,
-    "startDate": "2020-01-08T06:17:45Z"
+    "startDate": "2020-01-08T06:17:45Z",
+    "isRace": false
   },
   {
     "id": 2985311572,
@@ -4713,7 +5183,8 @@
     "paceFormatted": "6:26",
     "date": "Jan 5",
     "year": 2020,
-    "startDate": "2020-01-05T08:32:51Z"
+    "startDate": "2020-01-05T08:32:51Z",
+    "isRace": false
   },
   {
     "id": 2978618905,
@@ -4725,7 +5196,8 @@
     "paceFormatted": "7:24",
     "date": "Jan 2",
     "year": 2020,
-    "startDate": "2020-01-03T06:13:59Z"
+    "startDate": "2020-01-03T06:13:59Z",
+    "isRace": false
   },
   {
     "id": 2973617063,
@@ -4737,7 +5209,8 @@
     "paceFormatted": "8:42",
     "date": "Dec 31",
     "year": 2019,
-    "startDate": "2020-01-01T07:19:07Z"
+    "startDate": "2020-01-01T07:19:07Z",
+    "isRace": false
   },
   {
     "id": 2968168724,
@@ -4749,7 +5222,8 @@
     "paceFormatted": "8:06",
     "date": "Dec 29",
     "year": 2019,
-    "startDate": "2019-12-30T06:21:38Z"
+    "startDate": "2019-12-30T06:21:38Z",
+    "isRace": false
   },
   {
     "id": 2963351362,
@@ -4761,7 +5235,8 @@
     "paceFormatted": "7:54",
     "date": "Dec 28",
     "year": 2019,
-    "startDate": "2019-12-28T09:20:05Z"
+    "startDate": "2019-12-28T09:20:05Z",
+    "isRace": false
   },
   {
     "id": 2958598031,
@@ -4773,7 +5248,8 @@
     "paceFormatted": "6:23",
     "date": "Dec 26",
     "year": 2019,
-    "startDate": "2019-12-26T13:02:25Z"
+    "startDate": "2019-12-26T13:02:25Z",
+    "isRace": false
   },
   {
     "id": 2950240183,
@@ -4785,7 +5261,8 @@
     "paceFormatted": "7:13",
     "date": "Dec 22",
     "year": 2019,
-    "startDate": "2019-12-22T13:40:26Z"
+    "startDate": "2019-12-22T13:40:26Z",
+    "isRace": false
   },
   {
     "id": 2945047402,
@@ -4797,7 +5274,8 @@
     "paceFormatted": "10:50",
     "date": "Dec 19",
     "year": 2019,
-    "startDate": "2019-12-20T06:18:05Z"
+    "startDate": "2019-12-20T06:18:05Z",
+    "isRace": false
   },
   {
     "id": 2935557216,
@@ -4809,7 +5287,8 @@
     "paceFormatted": "7:28",
     "date": "Dec 15",
     "year": 2019,
-    "startDate": "2019-12-15T10:27:01Z"
+    "startDate": "2019-12-15T10:27:01Z",
+    "isRace": false
   },
   {
     "id": 2930248083,
@@ -4821,7 +5300,8 @@
     "paceFormatted": "8:01",
     "date": "Dec 12",
     "year": 2019,
-    "startDate": "2019-12-13T06:34:07Z"
+    "startDate": "2019-12-13T06:34:07Z",
+    "isRace": false
   },
   {
     "id": 2920896372,
@@ -4833,7 +5313,8 @@
     "paceFormatted": "9:34",
     "date": "Dec 8",
     "year": 2019,
-    "startDate": "2019-12-08T14:44:47Z"
+    "startDate": "2019-12-08T14:44:47Z",
+    "isRace": false
   },
   {
     "id": 2913233811,
@@ -4845,7 +5326,8 @@
     "paceFormatted": "8:29",
     "date": "Dec 4",
     "year": 2019,
-    "startDate": "2019-12-05T07:33:54Z"
+    "startDate": "2019-12-05T07:33:54Z",
+    "isRace": false
   },
   {
     "id": 2908750361,
@@ -4857,7 +5339,8 @@
     "paceFormatted": "7:49",
     "date": "Dec 3",
     "year": 2019,
-    "startDate": "2019-12-03T08:43:19Z"
+    "startDate": "2019-12-03T08:43:19Z",
+    "isRace": false
   },
   {
     "id": 2900316585,
@@ -4869,7 +5352,8 @@
     "paceFormatted": "8:00",
     "date": "Nov 29",
     "year": 2019,
-    "startDate": "2019-11-29T14:33:36Z"
+    "startDate": "2019-11-29T14:33:36Z",
+    "isRace": false
   },
   {
     "id": 2886581857,
@@ -4881,7 +5365,8 @@
     "paceFormatted": "6:50",
     "date": "Nov 23",
     "year": 2019,
-    "startDate": "2019-11-23T15:00:31Z"
+    "startDate": "2019-11-23T15:00:31Z",
+    "isRace": false
   },
   {
     "id": 2872284265,
@@ -4893,7 +5378,8 @@
     "paceFormatted": "7:37",
     "date": "Nov 17",
     "year": 2019,
-    "startDate": "2019-11-17T08:02:18Z"
+    "startDate": "2019-11-17T08:02:18Z",
+    "isRace": true
   },
   {
     "id": 2862404863,
@@ -4905,7 +5391,8 @@
     "paceFormatted": "8:22",
     "date": "Nov 12",
     "year": 2019,
-    "startDate": "2019-11-13T07:05:51Z"
+    "startDate": "2019-11-13T07:05:51Z",
+    "isRace": false
   },
   {
     "id": 2853019601,
@@ -4917,7 +5404,8 @@
     "paceFormatted": "7:36",
     "date": "Nov 9",
     "year": 2019,
-    "startDate": "2019-11-09T09:37:23Z"
+    "startDate": "2019-11-09T09:37:23Z",
+    "isRace": false
   },
   {
     "id": 2845583273,
@@ -4929,7 +5417,8 @@
     "paceFormatted": "9:15",
     "date": "Nov 5",
     "year": 2019,
-    "startDate": "2019-11-06T06:33:47Z"
+    "startDate": "2019-11-06T06:33:47Z",
+    "isRace": false
   },
   {
     "id": 2838582601,
@@ -4941,7 +5430,8 @@
     "paceFormatted": "6:55",
     "date": "Nov 3",
     "year": 2019,
-    "startDate": "2019-11-03T07:01:32Z"
+    "startDate": "2019-11-03T07:01:32Z",
+    "isRace": true
   },
   {
     "id": 2836256011,
@@ -4953,7 +5443,8 @@
     "paceFormatted": "8:04",
     "date": "Nov 2",
     "year": 2019,
-    "startDate": "2019-11-02T12:02:41Z"
+    "startDate": "2019-11-02T12:02:41Z",
+    "isRace": false
   },
   {
     "id": 2828620926,
@@ -4965,7 +5456,8 @@
     "paceFormatted": "9:01",
     "date": "Oct 29",
     "year": 2019,
-    "startDate": "2019-10-30T06:11:58Z"
+    "startDate": "2019-10-30T06:11:58Z",
+    "isRace": false
   },
   {
     "id": 2822403749,
@@ -4977,7 +5469,8 @@
     "paceFormatted": "7:11",
     "date": "Oct 27",
     "year": 2019,
-    "startDate": "2019-10-27T12:46:34Z"
+    "startDate": "2019-10-27T12:46:34Z",
+    "isRace": false
   },
   {
     "id": 2815953887,
@@ -4989,7 +5482,8 @@
     "paceFormatted": "7:57",
     "date": "Oct 24",
     "year": 2019,
-    "startDate": "2019-10-25T06:22:53Z"
+    "startDate": "2019-10-25T06:22:53Z",
+    "isRace": false
   },
   {
     "id": 2809889050,
@@ -5001,7 +5495,8 @@
     "paceFormatted": "9:50",
     "date": "Oct 22",
     "year": 2019,
-    "startDate": "2019-10-22T18:07:23Z"
+    "startDate": "2019-10-22T18:07:23Z",
+    "isRace": false
   },
   {
     "id": 2805911666,
@@ -5013,7 +5508,8 @@
     "paceFormatted": "7:54",
     "date": "Oct 20",
     "year": 2019,
-    "startDate": "2019-10-21T06:17:05Z"
+    "startDate": "2019-10-21T06:17:05Z",
+    "isRace": false
   },
   {
     "id": 2798214478,
@@ -5025,7 +5521,8 @@
     "paceFormatted": "7:35",
     "date": "Oct 17",
     "year": 2019,
-    "startDate": "2019-10-18T06:15:17Z"
+    "startDate": "2019-10-18T06:15:17Z",
+    "isRace": false
   },
   {
     "id": 2786419277,
@@ -5037,7 +5534,8 @@
     "paceFormatted": "8:19",
     "date": "Oct 13",
     "year": 2019,
-    "startDate": "2019-10-13T11:20:48Z"
+    "startDate": "2019-10-13T11:20:48Z",
+    "isRace": false
   },
   {
     "id": 2780372421,
@@ -5049,7 +5547,8 @@
     "paceFormatted": "7:28",
     "date": "Oct 11",
     "year": 2019,
-    "startDate": "2019-10-11T10:13:25Z"
+    "startDate": "2019-10-11T10:13:25Z",
+    "isRace": false
   },
   {
     "id": 2775302524,
@@ -5061,7 +5560,8 @@
     "paceFormatted": "9:06",
     "date": "Oct 8",
     "year": 2019,
-    "startDate": "2019-10-09T06:17:32Z"
+    "startDate": "2019-10-09T06:17:32Z",
+    "isRace": false
   },
   {
     "id": 2768778237,
@@ -5073,7 +5573,8 @@
     "paceFormatted": "8:14",
     "date": "Oct 6",
     "year": 2019,
-    "startDate": "2019-10-06T12:42:39Z"
+    "startDate": "2019-10-06T12:42:39Z",
+    "isRace": false
   },
   {
     "id": 2762399576,
@@ -5085,7 +5586,8 @@
     "paceFormatted": "8:32",
     "date": "Oct 3",
     "year": 2019,
-    "startDate": "2019-10-04T06:48:30Z"
+    "startDate": "2019-10-04T06:48:30Z",
+    "isRace": false
   },
   {
     "id": 2757252614,
@@ -5097,7 +5599,8 @@
     "paceFormatted": "8:23",
     "date": "Oct 2",
     "year": 2019,
-    "startDate": "2019-10-02T07:03:11Z"
+    "startDate": "2019-10-02T07:03:11Z",
+    "isRace": false
   },
   {
     "id": 2750094871,
@@ -5109,7 +5612,8 @@
     "paceFormatted": "8:09",
     "date": "Sep 29",
     "year": 2019,
-    "startDate": "2019-09-29T09:30:53Z"
+    "startDate": "2019-09-29T09:30:53Z",
+    "isRace": false
   },
   {
     "id": 2738854156,
@@ -5121,7 +5625,8 @@
     "paceFormatted": "9:33",
     "date": "Sep 25",
     "year": 2019,
-    "startDate": "2019-09-25T07:04:06Z"
+    "startDate": "2019-09-25T07:04:06Z",
+    "isRace": false
   },
   {
     "id": 2732020774,
@@ -5133,7 +5638,8 @@
     "paceFormatted": "6:56",
     "date": "Sep 22",
     "year": 2019,
-    "startDate": "2019-09-22T11:38:53Z"
+    "startDate": "2019-09-22T11:38:53Z",
+    "isRace": false
   },
   {
     "id": 2722550786,
@@ -5145,7 +5651,8 @@
     "paceFormatted": "7:55",
     "date": "Sep 19",
     "year": 2019,
-    "startDate": "2019-09-19T07:55:41Z"
+    "startDate": "2019-09-19T07:55:41Z",
+    "isRace": false
   },
   {
     "id": 2716799961,
@@ -5157,7 +5664,8 @@
     "paceFormatted": "7:00",
     "date": "Sep 17",
     "year": 2019,
-    "startDate": "2019-09-17T08:02:55Z"
+    "startDate": "2019-09-17T08:02:55Z",
+    "isRace": false
   },
   {
     "id": 2712013670,
@@ -5169,7 +5677,8 @@
     "paceFormatted": "10:03",
     "date": "Sep 15",
     "year": 2019,
-    "startDate": "2019-09-15T10:35:37Z"
+    "startDate": "2019-09-15T10:35:37Z",
+    "isRace": false
   },
   {
     "id": 2708917418,
@@ -5181,7 +5690,8 @@
     "paceFormatted": "8:47",
     "date": "Sep 14",
     "year": 2019,
-    "startDate": "2019-09-14T13:31:59Z"
+    "startDate": "2019-09-14T13:31:59Z",
+    "isRace": false
   },
   {
     "id": 2699391558,
@@ -5193,7 +5703,8 @@
     "paceFormatted": "9:45",
     "date": "Sep 10",
     "year": 2019,
-    "startDate": "2019-09-11T06:59:48Z"
+    "startDate": "2019-09-11T06:59:48Z",
+    "isRace": false
   },
   {
     "id": 2685749999,
@@ -5205,7 +5716,8 @@
     "paceFormatted": "7:22",
     "date": "Sep 6",
     "year": 2019,
-    "startDate": "2019-09-06T17:07:08Z"
+    "startDate": "2019-09-06T17:07:08Z",
+    "isRace": false
   },
   {
     "id": 2671775952,
@@ -5217,7 +5729,8 @@
     "paceFormatted": "8:02",
     "date": "Sep 1",
     "year": 2019,
-    "startDate": "2019-09-01T11:46:14Z"
+    "startDate": "2019-09-01T11:46:14Z",
+    "isRace": false
   },
   {
     "id": 2659160621,
@@ -5229,7 +5742,8 @@
     "paceFormatted": "8:03",
     "date": "Aug 28",
     "year": 2019,
-    "startDate": "2019-08-28T07:11:02Z"
+    "startDate": "2019-08-28T07:11:02Z",
+    "isRace": false
   },
   {
     "id": 2650727758,
@@ -5241,7 +5755,8 @@
     "paceFormatted": "6:35",
     "date": "Aug 25",
     "year": 2019,
-    "startDate": "2019-08-25T08:00:11Z"
+    "startDate": "2019-08-25T08:00:11Z",
+    "isRace": true
   },
   {
     "id": 2650483361,
@@ -5253,7 +5768,8 @@
     "paceFormatted": "8:09",
     "date": "Aug 25",
     "year": 2019,
-    "startDate": "2019-08-25T07:12:22Z"
+    "startDate": "2019-08-25T07:12:22Z",
+    "isRace": false
   },
   {
     "id": 2644498272,
@@ -5265,7 +5781,8 @@
     "paceFormatted": "7:25",
     "date": "Aug 23",
     "year": 2019,
-    "startDate": "2019-08-23T07:53:37Z"
+    "startDate": "2019-08-23T07:53:37Z",
+    "isRace": false
   },
   {
     "id": 2638595849,
@@ -5277,7 +5794,8 @@
     "paceFormatted": "11:10",
     "date": "Aug 20",
     "year": 2019,
-    "startDate": "2019-08-21T06:59:08Z"
+    "startDate": "2019-08-21T06:59:08Z",
+    "isRace": false
   },
   {
     "id": 2627623218,
@@ -5289,7 +5807,8 @@
     "paceFormatted": "7:02",
     "date": "Aug 17",
     "year": 2019,
-    "startDate": "2019-08-17T10:35:24Z"
+    "startDate": "2019-08-17T10:35:24Z",
+    "isRace": false
   },
   {
     "id": 2617225510,
@@ -5301,7 +5820,8 @@
     "paceFormatted": "8:58",
     "date": "Aug 13",
     "year": 2019,
-    "startDate": "2019-08-13T18:21:45Z"
+    "startDate": "2019-08-13T18:21:45Z",
+    "isRace": false
   },
   {
     "id": 2614215365,
@@ -5313,7 +5833,8 @@
     "paceFormatted": "7:43",
     "date": "Aug 12",
     "year": 2019,
-    "startDate": "2019-08-12T20:40:57Z"
+    "startDate": "2019-08-12T20:40:57Z",
+    "isRace": false
   },
   {
     "id": 2604629919,
@@ -5325,7 +5846,8 @@
     "paceFormatted": "6:56",
     "date": "Aug 9",
     "year": 2019,
-    "startDate": "2019-08-09T08:15:06Z"
+    "startDate": "2019-08-09T08:15:06Z",
+    "isRace": false
   },
   {
     "id": 2598926374,
@@ -5337,7 +5859,8 @@
     "paceFormatted": "9:34",
     "date": "Aug 7",
     "year": 2019,
-    "startDate": "2019-08-07T07:00:30Z"
+    "startDate": "2019-08-07T07:00:30Z",
+    "isRace": false
   },
   {
     "id": 2591210304,
@@ -5349,7 +5872,8 @@
     "paceFormatted": "7:41",
     "date": "Aug 4",
     "year": 2019,
-    "startDate": "2019-08-04T11:30:41Z"
+    "startDate": "2019-08-04T11:30:41Z",
+    "isRace": false
   },
   {
     "id": 2585583197,
@@ -5361,7 +5885,8 @@
     "paceFormatted": "7:41",
     "date": "Aug 2",
     "year": 2019,
-    "startDate": "2019-08-02T20:00:17Z"
+    "startDate": "2019-08-02T20:00:17Z",
+    "isRace": false
   },
   {
     "id": 2577295960,
@@ -5373,7 +5898,8 @@
     "paceFormatted": "9:39",
     "date": "Jul 30",
     "year": 2019,
-    "startDate": "2019-07-30T17:17:58Z"
+    "startDate": "2019-07-30T17:17:58Z",
+    "isRace": false
   },
   {
     "id": 2568223959,
@@ -5385,7 +5911,8 @@
     "paceFormatted": "7:45",
     "date": "Jul 27",
     "year": 2019,
-    "startDate": "2019-07-27T15:27:03Z"
+    "startDate": "2019-07-27T15:27:03Z",
+    "isRace": false
   },
   {
     "id": 2549130385,
@@ -5397,7 +5924,8 @@
     "paceFormatted": "7:38",
     "date": "Jul 20",
     "year": 2019,
-    "startDate": "2019-07-20T14:00:28Z"
+    "startDate": "2019-07-20T14:00:28Z",
+    "isRace": false
   },
   {
     "id": 2541598001,
@@ -5409,7 +5937,8 @@
     "paceFormatted": "9:27",
     "date": "Jul 17",
     "year": 2019,
-    "startDate": "2019-07-17T18:29:27Z"
+    "startDate": "2019-07-17T18:29:27Z",
+    "isRace": false
   },
   {
     "id": 2529293797,
@@ -5421,7 +5950,8 @@
     "paceFormatted": "7:07",
     "date": "Jul 13",
     "year": 2019,
-    "startDate": "2019-07-13T10:13:33Z"
+    "startDate": "2019-07-13T10:13:33Z",
+    "isRace": false
   },
   {
     "id": 2520675392,
@@ -5433,7 +5963,8 @@
     "paceFormatted": "9:08",
     "date": "Jul 9",
     "year": 2019,
-    "startDate": "2019-07-10T06:55:59Z"
+    "startDate": "2019-07-10T06:55:59Z",
+    "isRace": false
   },
   {
     "id": 2502466677,
@@ -5445,7 +5976,8 @@
     "paceFormatted": "7:02",
     "date": "Jul 3",
     "year": 2019,
-    "startDate": "2019-07-03T18:53:47Z"
+    "startDate": "2019-07-03T18:53:47Z",
+    "isRace": false
   },
   {
     "id": 2493414983,
@@ -5457,7 +5989,8 @@
     "paceFormatted": "7:50",
     "date": "Jun 30",
     "year": 2019,
-    "startDate": "2019-06-30T10:33:34Z"
+    "startDate": "2019-06-30T10:33:34Z",
+    "isRace": false
   },
   {
     "id": 2487519074,
@@ -5469,7 +6002,8 @@
     "paceFormatted": "9:34",
     "date": "Jun 27",
     "year": 2019,
-    "startDate": "2019-06-28T06:56:06Z"
+    "startDate": "2019-06-28T06:56:06Z",
+    "isRace": false
   },
   {
     "id": 2481005284,
@@ -5481,7 +6015,8 @@
     "paceFormatted": "7:13",
     "date": "Jun 25",
     "year": 2019,
-    "startDate": "2019-06-25T18:37:58Z"
+    "startDate": "2019-06-25T18:37:58Z",
+    "isRace": false
   },
   {
     "id": 2475155817,
@@ -5493,7 +6028,8 @@
     "paceFormatted": "6:54",
     "date": "Jun 23",
     "year": 2019,
-    "startDate": "2019-06-23T10:41:01Z"
+    "startDate": "2019-06-23T10:41:01Z",
+    "isRace": false
   },
   {
     "id": 2471906094,
@@ -5505,7 +6041,8 @@
     "paceFormatted": "8:31",
     "date": "Jun 22",
     "year": 2019,
-    "startDate": "2019-06-22T11:16:50Z"
+    "startDate": "2019-06-22T11:16:50Z",
+    "isRace": false
   },
   {
     "id": 2463192135,
@@ -5517,7 +6054,8 @@
     "paceFormatted": "10:43",
     "date": "Jun 19",
     "year": 2019,
-    "startDate": "2019-06-19T07:00:30Z"
+    "startDate": "2019-06-19T07:00:30Z",
+    "isRace": false
   },
   {
     "id": 2459088632,
@@ -5529,7 +6067,8 @@
     "paceFormatted": "6:34",
     "date": "Jun 17",
     "year": 2019,
-    "startDate": "2019-06-17T18:41:46Z"
+    "startDate": "2019-06-17T18:41:46Z",
+    "isRace": false
   },
   {
     "id": 2447106555,
@@ -5541,7 +6080,8 @@
     "paceFormatted": "7:27",
     "date": "Jun 13",
     "year": 2019,
-    "startDate": "2019-06-13T08:33:21Z"
+    "startDate": "2019-06-13T08:33:21Z",
+    "isRace": false
   },
   {
     "id": 2441939639,
@@ -5553,7 +6093,8 @@
     "paceFormatted": "8:40",
     "date": "Jun 11",
     "year": 2019,
-    "startDate": "2019-06-11T08:47:37Z"
+    "startDate": "2019-06-11T08:47:37Z",
+    "isRace": false
   },
   {
     "id": 2436895895,
@@ -5565,7 +6106,8 @@
     "paceFormatted": "8:15",
     "date": "Jun 9",
     "year": 2019,
-    "startDate": "2019-06-09T08:26:26Z"
+    "startDate": "2019-06-09T08:26:26Z",
+    "isRace": false
   },
   {
     "id": 2427439498,
@@ -5577,7 +6119,8 @@
     "paceFormatted": "7:12",
     "date": "Jun 5",
     "year": 2019,
-    "startDate": "2019-06-05T21:34:27Z"
+    "startDate": "2019-06-05T21:34:27Z",
+    "isRace": false
   },
   {
     "id": 2414781824,
@@ -5589,7 +6132,8 @@
     "paceFormatted": "6:45",
     "date": "Jun 1",
     "year": 2019,
-    "startDate": "2019-06-01T07:44:28Z"
+    "startDate": "2019-06-01T07:44:28Z",
+    "isRace": false
   },
   {
     "id": 2411834665,
@@ -5601,7 +6145,8 @@
     "paceFormatted": "9:48",
     "date": "May 30",
     "year": 2019,
-    "startDate": "2019-05-31T06:59:58Z"
+    "startDate": "2019-05-31T06:59:58Z",
+    "isRace": false
   },
   {
     "id": 2399800772,
@@ -5613,7 +6158,8 @@
     "paceFormatted": "8:15",
     "date": "May 26",
     "year": 2019,
-    "startDate": "2019-05-26T10:12:44Z"
+    "startDate": "2019-05-26T10:12:44Z",
+    "isRace": false
   },
   {
     "id": 2392324187,
@@ -5625,7 +6171,8 @@
     "paceFormatted": "8:20",
     "date": "May 23",
     "year": 2019,
-    "startDate": "2019-05-23T18:44:34Z"
+    "startDate": "2019-05-23T18:44:34Z",
+    "isRace": false
   },
   {
     "id": 2390830150,
@@ -5637,7 +6184,8 @@
     "paceFormatted": "10:11",
     "date": "May 22",
     "year": 2019,
-    "startDate": "2019-05-23T06:53:45Z"
+    "startDate": "2019-05-23T06:53:45Z",
+    "isRace": false
   },
   {
     "id": 2378263993,
@@ -5649,7 +6197,8 @@
     "paceFormatted": "12:33",
     "date": "May 18",
     "year": 2019,
-    "startDate": "2019-05-18T11:35:25Z"
+    "startDate": "2019-05-18T11:35:25Z",
+    "isRace": false
   },
   {
     "id": 2359549293,
@@ -5661,7 +6210,8 @@
     "paceFormatted": "7:17",
     "date": "May 11",
     "year": 2019,
-    "startDate": "2019-05-11T11:32:42Z"
+    "startDate": "2019-05-11T11:32:42Z",
+    "isRace": false
   },
   {
     "id": 2351623833,
@@ -5673,7 +6223,8 @@
     "paceFormatted": "9:15",
     "date": "May 7",
     "year": 2019,
-    "startDate": "2019-05-08T06:29:22Z"
+    "startDate": "2019-05-08T06:29:22Z",
+    "isRace": false
   },
   {
     "id": 2341862847,
@@ -5685,7 +6236,8 @@
     "paceFormatted": "8:56",
     "date": "May 4",
     "year": 2019,
-    "startDate": "2019-05-04T10:13:48Z"
+    "startDate": "2019-05-04T10:13:48Z",
+    "isRace": false
   },
   {
     "id": 2326202013,
@@ -5697,7 +6249,8 @@
     "paceFormatted": "9:07",
     "date": "Apr 28",
     "year": 2019,
-    "startDate": "2019-04-28T08:35:52Z"
+    "startDate": "2019-04-28T08:35:52Z",
+    "isRace": false
   },
   {
     "id": 2318228938,
@@ -5709,7 +6262,8 @@
     "paceFormatted": "8:33",
     "date": "Apr 25",
     "year": 2019,
-    "startDate": "2019-04-25T07:34:20Z"
+    "startDate": "2019-04-25T07:34:20Z",
+    "isRace": false
   },
   {
     "id": 2304948030,
@@ -5721,7 +6275,8 @@
     "paceFormatted": "7:47",
     "date": "Apr 20",
     "year": 2019,
-    "startDate": "2019-04-20T07:48:13Z"
+    "startDate": "2019-04-20T07:48:13Z",
+    "isRace": false
   },
   {
     "id": 2288057090,
@@ -5733,7 +6288,8 @@
     "paceFormatted": "7:45",
     "date": "Apr 13",
     "year": 2019,
-    "startDate": "2019-04-13T18:31:15Z"
+    "startDate": "2019-04-13T18:31:15Z",
+    "isRace": false
   },
   {
     "id": 2282017486,
@@ -5745,7 +6301,8 @@
     "paceFormatted": "7:26",
     "date": "Apr 11",
     "year": 2019,
-    "startDate": "2019-04-11T07:36:10Z"
+    "startDate": "2019-04-11T07:36:10Z",
+    "isRace": false
   },
   {
     "id": 2270747838,
@@ -5757,7 +6314,8 @@
     "paceFormatted": "8:11",
     "date": "Apr 6",
     "year": 2019,
-    "startDate": "2019-04-06T21:57:16Z"
+    "startDate": "2019-04-06T21:57:16Z",
+    "isRace": false
   },
   {
     "id": 2249416295,
@@ -5769,7 +6327,8 @@
     "paceFormatted": "7:05",
     "date": "Mar 29",
     "year": 2019,
-    "startDate": "2019-03-29T07:20:03Z"
+    "startDate": "2019-03-29T07:20:03Z",
+    "isRace": false
   },
   {
     "id": 2238401139,
@@ -5781,7 +6340,8 @@
     "paceFormatted": "6:43",
     "date": "Mar 24",
     "year": 2019,
-    "startDate": "2019-03-24T12:54:43Z"
+    "startDate": "2019-03-24T12:54:43Z",
+    "isRace": false
   },
   {
     "id": 2217779914,
@@ -5793,7 +6353,8 @@
     "paceFormatted": "7:04",
     "date": "Mar 16",
     "year": 2019,
-    "startDate": "2019-03-16T10:39:22Z"
+    "startDate": "2019-03-16T10:39:22Z",
+    "isRace": false
   },
   {
     "id": 2204994172,
@@ -5805,7 +6366,8 @@
     "paceFormatted": "7:04",
     "date": "Mar 10",
     "year": 2019,
-    "startDate": "2019-03-10T12:23:19Z"
+    "startDate": "2019-03-10T12:23:19Z",
+    "isRace": false
   },
   {
     "id": 2186793828,
@@ -5817,7 +6379,8 @@
     "paceFormatted": "7:29",
     "date": "Mar 2",
     "year": 2019,
-    "startDate": "2019-03-02T11:14:36Z"
+    "startDate": "2019-03-02T11:14:36Z",
+    "isRace": false
   },
   {
     "id": 2160381363,
@@ -5829,7 +6392,8 @@
     "paceFormatted": "8:46",
     "date": "Feb 18",
     "year": 2019,
-    "startDate": "2019-02-19T07:24:38Z"
+    "startDate": "2019-02-19T07:24:38Z",
+    "isRace": false
   },
   {
     "id": 2158771254,
@@ -5841,7 +6405,8 @@
     "paceFormatted": "7:07",
     "date": "Feb 18",
     "year": 2019,
-    "startDate": "2019-02-18T11:43:06Z"
+    "startDate": "2019-02-18T11:43:06Z",
+    "isRace": false
   },
   {
     "id": 2153891383,
@@ -5853,7 +6418,8 @@
     "paceFormatted": "7:19",
     "date": "Feb 16",
     "year": 2019,
-    "startDate": "2019-02-16T11:34:44Z"
+    "startDate": "2019-02-16T11:34:44Z",
+    "isRace": false
   },
   {
     "id": 2151076929,
@@ -5865,7 +6431,8 @@
     "paceFormatted": "7:03",
     "date": "Feb 15",
     "year": 2019,
-    "startDate": "2019-02-15T08:45:31Z"
+    "startDate": "2019-02-15T08:45:31Z",
+    "isRace": false
   },
   {
     "id": 2141433153,
@@ -5877,7 +6444,8 @@
     "paceFormatted": "6:29",
     "date": "Feb 12",
     "year": 2019,
-    "startDate": "2019-02-12T08:01:49Z"
+    "startDate": "2019-02-12T08:01:49Z",
+    "isRace": false
   },
   {
     "id": 2135403842,
@@ -5889,7 +6457,8 @@
     "paceFormatted": "6:51",
     "date": "Feb 9",
     "year": 2019,
-    "startDate": "2019-02-09T13:37:53Z"
+    "startDate": "2019-02-09T13:37:53Z",
+    "isRace": false
   },
   {
     "id": 2094941381,
@@ -5901,7 +6470,8 @@
     "paceFormatted": "6:53",
     "date": "Jan 21",
     "year": 2019,
-    "startDate": "2019-01-21T14:50:06Z"
+    "startDate": "2019-01-21T14:50:06Z",
+    "isRace": false
   },
   {
     "id": 2087118804,
@@ -5913,7 +6483,8 @@
     "paceFormatted": "10:01",
     "date": "Jan 17",
     "year": 2019,
-    "startDate": "2019-01-18T06:56:10Z"
+    "startDate": "2019-01-18T06:56:10Z",
+    "isRace": false
   },
   {
     "id": 2074003197,
@@ -5925,7 +6496,8 @@
     "paceFormatted": "6:44",
     "date": "Jan 12",
     "year": 2019,
-    "startDate": "2019-01-12T10:09:01Z"
+    "startDate": "2019-01-12T10:09:01Z",
+    "isRace": false
   },
   {
     "id": 2064379960,
@@ -5937,7 +6509,8 @@
     "paceFormatted": "8:00",
     "date": "Jan 7",
     "year": 2019,
-    "startDate": "2019-01-08T06:29:04Z"
+    "startDate": "2019-01-08T06:29:04Z",
+    "isRace": false
   },
   {
     "id": 2058564241,
@@ -5949,7 +6522,8 @@
     "paceFormatted": "7:44",
     "date": "Jan 5",
     "year": 2019,
-    "startDate": "2019-01-05T17:22:14Z"
+    "startDate": "2019-01-05T17:22:14Z",
+    "isRace": false
   },
   {
     "id": 2047181835,
@@ -5961,7 +6535,8 @@
     "paceFormatted": "7:48",
     "date": "Dec 31",
     "year": 2018,
-    "startDate": "2018-12-31T09:49:24Z"
+    "startDate": "2018-12-31T09:49:24Z",
+    "isRace": false
   },
   {
     "id": 2035228399,
@@ -5973,7 +6548,8 @@
     "paceFormatted": "7:07",
     "date": "Dec 25",
     "year": 2018,
-    "startDate": "2018-12-25T10:56:45Z"
+    "startDate": "2018-12-25T10:56:45Z",
+    "isRace": false
   },
   {
     "id": 2030430030,
@@ -5985,7 +6561,8 @@
     "paceFormatted": "7:03",
     "date": "Dec 22",
     "year": 2018,
-    "startDate": "2018-12-22T13:46:45Z"
+    "startDate": "2018-12-22T13:46:45Z",
+    "isRace": false
   },
   {
     "id": 2025255318,
@@ -5997,7 +6574,8 @@
     "paceFormatted": "7:13",
     "date": "Dec 18",
     "year": 2018,
-    "startDate": "2018-12-19T07:54:09Z"
+    "startDate": "2018-12-19T07:54:09Z",
+    "isRace": false
   },
   {
     "id": 2018994853,
@@ -6009,7 +6587,8 @@
     "paceFormatted": "7:13",
     "date": "Dec 15",
     "year": 2018,
-    "startDate": "2018-12-15T13:23:29Z"
+    "startDate": "2018-12-15T13:23:29Z",
+    "isRace": false
   },
   {
     "id": 2004246219,
@@ -6021,7 +6600,8 @@
     "paceFormatted": "8:40",
     "date": "Dec 6",
     "year": 2018,
-    "startDate": "2018-12-06T18:25:20Z"
+    "startDate": "2018-12-06T18:25:20Z",
+    "isRace": false
   },
   {
     "id": 1999877398,
@@ -6033,7 +6613,8 @@
     "paceFormatted": "11:58",
     "date": "Dec 3",
     "year": 2018,
-    "startDate": "2018-12-04T06:29:54Z"
+    "startDate": "2018-12-04T06:29:54Z",
+    "isRace": false
   },
   {
     "id": 1995038722,
@@ -6045,7 +6626,8 @@
     "paceFormatted": "6:57",
     "date": "Dec 1",
     "year": 2018,
-    "startDate": "2018-12-01T11:43:16Z"
+    "startDate": "2018-12-01T11:43:16Z",
+    "isRace": false
   },
   {
     "id": 1987807842,
@@ -6057,7 +6639,8 @@
     "paceFormatted": "6:46",
     "date": "Nov 26",
     "year": 2018,
-    "startDate": "2018-11-27T07:35:57Z"
+    "startDate": "2018-11-27T07:35:57Z",
+    "isRace": false
   },
   {
     "id": 1979352982,
@@ -6069,7 +6652,8 @@
     "paceFormatted": "7:37",
     "date": "Nov 22",
     "year": 2018,
-    "startDate": "2018-11-22T09:16:35Z"
+    "startDate": "2018-11-22T09:16:35Z",
+    "isRace": false
   },
   {
     "id": 1951512028,
@@ -6081,7 +6665,8 @@
     "paceFormatted": "8:01",
     "date": "Nov 6",
     "year": 2018,
-    "startDate": "2018-11-07T06:56:31Z"
+    "startDate": "2018-11-07T06:56:31Z",
+    "isRace": false
   },
   {
     "id": 1943744418,
@@ -6093,7 +6678,8 @@
     "paceFormatted": "8:17",
     "date": "Nov 3",
     "year": 2018,
-    "startDate": "2018-11-03T08:30:27Z"
+    "startDate": "2018-11-03T08:30:27Z",
+    "isRace": false
   },
   {
     "id": 1926766709,
@@ -6105,7 +6691,8 @@
     "paceFormatted": "12:15",
     "date": "Oct 24",
     "year": 2018,
-    "startDate": "2018-10-25T06:54:02Z"
+    "startDate": "2018-10-25T06:54:02Z",
+    "isRace": false
   },
   {
     "id": 1917229477,
@@ -6117,7 +6704,8 @@
     "paceFormatted": "7:15",
     "date": "Oct 20",
     "year": 2018,
-    "startDate": "2018-10-20T14:12:59Z"
+    "startDate": "2018-10-20T14:12:59Z",
+    "isRace": false
   },
   {
     "id": 1904631226,
@@ -6129,7 +6717,8 @@
     "paceFormatted": "7:01",
     "date": "Oct 14",
     "year": 2018,
-    "startDate": "2018-10-14T10:50:28Z"
+    "startDate": "2018-10-14T10:50:28Z",
+    "isRace": false
   },
   {
     "id": 1894903455,
@@ -6141,7 +6730,8 @@
     "paceFormatted": "8:07",
     "date": "Oct 9",
     "year": 2018,
-    "startDate": "2018-10-09T16:23:29Z"
+    "startDate": "2018-10-09T16:23:29Z",
+    "isRace": false
   },
   {
     "id": 1839003684,
@@ -6153,7 +6743,8 @@
     "paceFormatted": "7:59",
     "date": "Sep 13",
     "year": 2018,
-    "startDate": "2018-09-13T07:50:01Z"
+    "startDate": "2018-09-13T07:50:01Z",
+    "isRace": false
   },
   {
     "id": 1830959635,
@@ -6165,7 +6756,8 @@
     "paceFormatted": "7:06",
     "date": "Sep 9",
     "year": 2018,
-    "startDate": "2018-09-09T10:53:23Z"
+    "startDate": "2018-09-09T10:53:23Z",
+    "isRace": false
   },
   {
     "id": 1825518066,
@@ -6177,7 +6769,8 @@
     "paceFormatted": "9:31",
     "date": "Sep 7",
     "year": 2018,
-    "startDate": "2018-09-07T07:33:14Z"
+    "startDate": "2018-09-07T07:33:14Z",
+    "isRace": false
   },
   {
     "id": 1821185754,
@@ -6189,7 +6782,8 @@
     "paceFormatted": "7:31",
     "date": "Sep 5",
     "year": 2018,
-    "startDate": "2018-09-05T07:10:17Z"
+    "startDate": "2018-09-05T07:10:17Z",
+    "isRace": false
   },
   {
     "id": 1812834769,
@@ -6201,7 +6795,8 @@
     "paceFormatted": "7:07",
     "date": "Sep 1",
     "year": 2018,
-    "startDate": "2018-09-01T13:50:52Z"
+    "startDate": "2018-09-01T13:50:52Z",
+    "isRace": false
   },
   {
     "id": 1798971397,
@@ -6213,7 +6808,8 @@
     "paceFormatted": "5:55",
     "date": "Aug 26",
     "year": 2018,
-    "startDate": "2018-08-26T08:00:06Z"
+    "startDate": "2018-08-26T08:00:06Z",
+    "isRace": true
   },
   {
     "id": 1798816234,
@@ -6225,7 +6821,8 @@
     "paceFormatted": "8:43",
     "date": "Aug 25",
     "year": 2018,
-    "startDate": "2018-08-26T06:54:33Z"
+    "startDate": "2018-08-26T06:54:33Z",
+    "isRace": false
   },
   {
     "id": 1794315357,
@@ -6237,7 +6834,8 @@
     "paceFormatted": "8:21",
     "date": "Aug 23",
     "year": 2018,
-    "startDate": "2018-08-24T06:18:37Z"
+    "startDate": "2018-08-24T06:18:37Z",
+    "isRace": false
   },
   {
     "id": 1783850258,
@@ -6249,7 +6847,8 @@
     "paceFormatted": "7:23",
     "date": "Aug 19",
     "year": 2018,
-    "startDate": "2018-08-19T10:54:34Z"
+    "startDate": "2018-08-19T10:54:34Z",
+    "isRace": false
   },
   {
     "id": 1774217767,
@@ -6261,7 +6860,8 @@
     "paceFormatted": "6:05",
     "date": "Aug 15",
     "year": 2018,
-    "startDate": "2018-08-15T09:01:17Z"
+    "startDate": "2018-08-15T09:01:17Z",
+    "isRace": false
   },
   {
     "id": 1774076006,
@@ -6273,7 +6873,8 @@
     "paceFormatted": "6:27",
     "date": "Aug 15",
     "year": 2018,
-    "startDate": "2018-08-15T08:01:03Z"
+    "startDate": "2018-08-15T08:01:03Z",
+    "isRace": false
   },
   {
     "id": 1762865710,
@@ -6285,7 +6886,8 @@
     "paceFormatted": "9:31",
     "date": "Aug 10",
     "year": 2018,
-    "startDate": "2018-08-10T07:02:05Z"
+    "startDate": "2018-08-10T07:02:05Z",
+    "isRace": false
   },
   {
     "id": 1752811709,
@@ -6297,7 +6899,8 @@
     "paceFormatted": "9:42",
     "date": "Aug 5",
     "year": 2018,
-    "startDate": "2018-08-05T14:31:45Z"
+    "startDate": "2018-08-05T14:31:45Z",
+    "isRace": false
   },
   {
     "id": 1742704741,
@@ -6309,7 +6912,8 @@
     "paceFormatted": "14:57",
     "date": "Aug 1",
     "year": 2018,
-    "startDate": "2018-08-01T07:04:06Z"
+    "startDate": "2018-08-01T07:04:06Z",
+    "isRace": false
   },
   {
     "id": 1735738378,
@@ -6321,7 +6925,8 @@
     "paceFormatted": "7:45",
     "date": "Jul 28",
     "year": 2018,
-    "startDate": "2018-07-29T06:31:29Z"
+    "startDate": "2018-07-29T06:31:29Z",
+    "isRace": false
   },
   {
     "id": 1733961666,
@@ -6333,7 +6938,8 @@
     "paceFormatted": "7:00",
     "date": "Jul 28",
     "year": 2018,
-    "startDate": "2018-07-28T10:47:44Z"
+    "startDate": "2018-07-28T10:47:44Z",
+    "isRace": false
   },
   {
     "id": 1729300802,
@@ -6345,7 +6951,8 @@
     "paceFormatted": "6:47",
     "date": "Jul 26",
     "year": 2018,
-    "startDate": "2018-07-26T07:29:12Z"
+    "startDate": "2018-07-26T07:29:12Z",
+    "isRace": false
   },
   {
     "id": 1718377277,
@@ -6357,7 +6964,8 @@
     "paceFormatted": "7:20",
     "date": "Jul 21",
     "year": 2018,
-    "startDate": "2018-07-21T11:32:24Z"
+    "startDate": "2018-07-21T11:32:24Z",
+    "isRace": false
   },
   {
     "id": 1706853736,
@@ -6369,7 +6977,8 @@
     "paceFormatted": "7:01",
     "date": "Jul 16",
     "year": 2018,
-    "startDate": "2018-07-16T10:10:33Z"
+    "startDate": "2018-07-16T10:10:33Z",
+    "isRace": false
   },
   {
     "id": 1687360510,
@@ -6381,7 +6990,8 @@
     "paceFormatted": "6:39",
     "date": "Jul 7",
     "year": 2018,
-    "startDate": "2018-07-07T11:55:15Z"
+    "startDate": "2018-07-07T11:55:15Z",
+    "isRace": false
   },
   {
     "id": 1681358605,
@@ -6393,7 +7003,8 @@
     "paceFormatted": "8:11",
     "date": "Jul 4",
     "year": 2018,
-    "startDate": "2018-07-04T12:06:28Z"
+    "startDate": "2018-07-04T12:06:28Z",
+    "isRace": false
   },
   {
     "id": 1672161489,
@@ -6405,7 +7016,8 @@
     "paceFormatted": "8:13",
     "date": "Jun 30",
     "year": 2018,
-    "startDate": "2018-06-30T08:17:45Z"
+    "startDate": "2018-06-30T08:17:45Z",
+    "isRace": false
   },
   {
     "id": 1660199629,
@@ -6417,7 +7029,8 @@
     "paceFormatted": "8:58",
     "date": "Jun 24",
     "year": 2018,
-    "startDate": "2018-06-24T13:50:23Z"
+    "startDate": "2018-06-24T13:50:23Z",
+    "isRace": false
   },
   {
     "id": 1655019642,
@@ -6429,7 +7042,8 @@
     "paceFormatted": "8:08",
     "date": "Jun 22",
     "year": 2018,
-    "startDate": "2018-06-22T08:15:25Z"
+    "startDate": "2018-06-22T08:15:25Z",
+    "isRace": false
   },
   {
     "id": 1645585428,
@@ -6441,7 +7055,8 @@
     "paceFormatted": "7:24",
     "date": "Jun 17",
     "year": 2018,
-    "startDate": "2018-06-17T15:48:53Z"
+    "startDate": "2018-06-17T15:48:53Z",
+    "isRace": false
   },
   {
     "id": 1640099082,
@@ -6453,7 +7068,8 @@
     "paceFormatted": "9:39",
     "date": "Jun 15",
     "year": 2018,
-    "startDate": "2018-06-15T07:08:35Z"
+    "startDate": "2018-06-15T07:08:35Z",
+    "isRace": false
   },
   {
     "id": 1630619047,
@@ -6465,7 +7081,8 @@
     "paceFormatted": "7:46",
     "date": "Jun 10",
     "year": 2018,
-    "startDate": "2018-06-10T12:05:22Z"
+    "startDate": "2018-06-10T12:05:22Z",
+    "isRace": false
   },
   {
     "id": 1625225346,
@@ -6477,7 +7094,8 @@
     "paceFormatted": "10:28",
     "date": "Jun 8",
     "year": 2018,
-    "startDate": "2018-06-08T07:49:11Z"
+    "startDate": "2018-06-08T07:49:11Z",
+    "isRace": false
   },
   {
     "id": 1610155779,
@@ -6489,7 +7107,8 @@
     "paceFormatted": "11:30",
     "date": "May 31",
     "year": 2018,
-    "startDate": "2018-06-01T06:32:54Z"
+    "startDate": "2018-06-01T06:32:54Z",
+    "isRace": false
   },
   {
     "id": 1584701112,
@@ -6501,7 +7120,8 @@
     "paceFormatted": "6:49",
     "date": "May 20",
     "year": 2018,
-    "startDate": "2018-05-20T08:05:55Z"
+    "startDate": "2018-05-20T08:05:55Z",
+    "isRace": true
   },
   {
     "id": 1573857959,
@@ -6513,7 +7133,8 @@
     "paceFormatted": "10:50",
     "date": "May 15",
     "year": 2018,
-    "startDate": "2018-05-15T08:37:02Z"
+    "startDate": "2018-05-15T08:37:02Z",
+    "isRace": false
   },
   {
     "id": 1570618520,
@@ -6525,7 +7146,8 @@
     "paceFormatted": "18:22",
     "date": "May 13",
     "year": 2018,
-    "startDate": "2018-05-13T15:01:36Z"
+    "startDate": "2018-05-13T15:01:36Z",
+    "isRace": false
   },
   {
     "id": 1564873122,
@@ -6537,7 +7159,8 @@
     "paceFormatted": "9:42",
     "date": "May 11",
     "year": 2018,
-    "startDate": "2018-05-11T07:30:05Z"
+    "startDate": "2018-05-11T07:30:05Z",
+    "isRace": false
   },
   {
     "id": 1539503495,
@@ -6549,7 +7172,8 @@
     "paceFormatted": "8:13",
     "date": "Apr 29",
     "year": 2018,
-    "startDate": "2018-04-29T08:54:33Z"
+    "startDate": "2018-04-29T08:54:33Z",
+    "isRace": false
   },
   {
     "id": 1522641006,
@@ -6561,7 +7185,8 @@
     "paceFormatted": "8:36",
     "date": "Apr 21",
     "year": 2018,
-    "startDate": "2018-04-21T07:00:59Z"
+    "startDate": "2018-04-21T07:00:59Z",
+    "isRace": false
   },
   {
     "id": 1508350290,
@@ -6573,7 +7198,8 @@
     "paceFormatted": "7:15",
     "date": "Apr 14",
     "year": 2018,
-    "startDate": "2018-04-14T08:47:44Z"
+    "startDate": "2018-04-14T08:47:44Z",
+    "isRace": false
   },
   {
     "id": 1506085342,
@@ -6585,7 +7211,8 @@
     "paceFormatted": "10:46",
     "date": "Apr 12",
     "year": 2018,
-    "startDate": "2018-04-13T06:39:01Z"
+    "startDate": "2018-04-13T06:39:01Z",
+    "isRace": false
   },
   {
     "id": 1502398587,
@@ -6597,7 +7224,8 @@
     "paceFormatted": "10:45",
     "date": "Apr 11",
     "year": 2018,
-    "startDate": "2018-04-11T07:41:03Z"
+    "startDate": "2018-04-11T07:41:03Z",
+    "isRace": false
   },
   {
     "id": 1495431575,
@@ -6609,7 +7237,8 @@
     "paceFormatted": "7:57",
     "date": "Apr 7",
     "year": 2018,
-    "startDate": "2018-04-07T16:12:53Z"
+    "startDate": "2018-04-07T16:12:53Z",
+    "isRace": false
   },
   {
     "id": 1490058231,
@@ -6621,7 +7250,8 @@
     "paceFormatted": "7:44",
     "date": "Apr 4",
     "year": 2018,
-    "startDate": "2018-04-04T18:06:50Z"
+    "startDate": "2018-04-04T18:06:50Z",
+    "isRace": false
   },
   {
     "id": 1478179237,
@@ -6633,7 +7263,8 @@
     "paceFormatted": "11:02",
     "date": "Mar 28",
     "year": 2018,
-    "startDate": "2018-03-29T06:18:00Z"
+    "startDate": "2018-03-29T06:18:00Z",
+    "isRace": false
   },
   {
     "id": 1475645948,
@@ -6645,7 +7276,8 @@
     "paceFormatted": "16:44",
     "date": "Mar 27",
     "year": 2018,
-    "startDate": "2018-03-27T17:16:15Z"
+    "startDate": "2018-03-27T17:16:15Z",
+    "isRace": false
   },
   {
     "id": 1475270450,
@@ -6657,7 +7289,8 @@
     "paceFormatted": "14:06",
     "date": "Mar 27",
     "year": 2018,
-    "startDate": "2018-03-27T12:01:52Z"
+    "startDate": "2018-03-27T12:01:52Z",
+    "isRace": false
   },
   {
     "id": 1430080973,
@@ -6669,7 +7302,8 @@
     "paceFormatted": "8:26",
     "date": "Feb 27",
     "year": 2018,
-    "startDate": "2018-02-28T07:08:27Z"
+    "startDate": "2018-02-28T07:08:27Z",
+    "isRace": false
   },
   {
     "id": 1426144555,
@@ -6681,7 +7315,8 @@
     "paceFormatted": "7:07",
     "date": "Feb 25",
     "year": 2018,
-    "startDate": "2018-02-25T11:31:09Z"
+    "startDate": "2018-02-25T11:31:09Z",
+    "isRace": false
   },
   {
     "id": 1420541927,
@@ -6693,7 +7328,8 @@
     "paceFormatted": "8:01",
     "date": "Feb 21",
     "year": 2018,
-    "startDate": "2018-02-22T06:47:42Z"
+    "startDate": "2018-02-22T06:47:42Z",
+    "isRace": false
   },
   {
     "id": 1412088166,
@@ -6705,7 +7341,8 @@
     "paceFormatted": "11:23",
     "date": "Feb 16",
     "year": 2018,
-    "startDate": "2018-02-17T06:38:23Z"
+    "startDate": "2018-02-17T06:38:23Z",
+    "isRace": false
   },
   {
     "id": 1410297177,
@@ -6717,7 +7354,8 @@
     "paceFormatted": "14:06",
     "date": "Feb 15",
     "year": 2018,
-    "startDate": "2018-02-16T06:27:32Z"
+    "startDate": "2018-02-16T06:27:32Z",
+    "isRace": false
   },
   {
     "id": 1401492144,
@@ -6729,7 +7367,8 @@
     "paceFormatted": "9:48",
     "date": "Feb 10",
     "year": 2018,
-    "startDate": "2018-02-10T13:47:42Z"
+    "startDate": "2018-02-10T13:47:42Z",
+    "isRace": false
   },
   {
     "id": 1396158853,
@@ -6741,7 +7380,8 @@
     "paceFormatted": "10:21",
     "date": "Feb 6",
     "year": 2018,
-    "startDate": "2018-02-07T07:21:04Z"
+    "startDate": "2018-02-07T07:21:04Z",
+    "isRace": false
   },
   {
     "id": 1387912920,
@@ -6753,7 +7393,8 @@
     "paceFormatted": "10:13",
     "date": "Feb 1",
     "year": 2018,
-    "startDate": "2018-02-02T06:52:36Z"
+    "startDate": "2018-02-02T06:52:36Z",
+    "isRace": false
   },
   {
     "id": 1368797489,
@@ -6765,7 +7406,8 @@
     "paceFormatted": "8:09",
     "date": "Jan 21",
     "year": 2018,
-    "startDate": "2018-01-21T11:02:21Z"
+    "startDate": "2018-01-21T11:02:21Z",
+    "isRace": false
   },
   {
     "id": 1361679139,
@@ -6777,7 +7419,8 @@
     "paceFormatted": "8:26",
     "date": "Jan 16",
     "year": 2018,
-    "startDate": "2018-01-17T07:16:57Z"
+    "startDate": "2018-01-17T07:16:57Z",
+    "isRace": false
   },
   {
     "id": 1358815339,
@@ -6789,7 +7432,8 @@
     "paceFormatted": "8:38",
     "date": "Jan 15",
     "year": 2018,
-    "startDate": "2018-01-15T09:31:16Z"
+    "startDate": "2018-01-15T09:31:16Z",
+    "isRace": false
   },
   {
     "id": 1355804855,
@@ -6801,7 +7445,8 @@
     "paceFormatted": "19:42",
     "date": "Jan 13",
     "year": 2018,
-    "startDate": "2018-01-13T15:57:18Z"
+    "startDate": "2018-01-13T15:57:18Z",
+    "isRace": false
   },
   {
     "id": 1355305447,
@@ -6813,7 +7458,8 @@
     "paceFormatted": "8:33",
     "date": "Jan 13",
     "year": 2018,
-    "startDate": "2018-01-13T09:22:40Z"
+    "startDate": "2018-01-13T09:22:40Z",
+    "isRace": false
   },
   {
     "id": 1350300811,
@@ -6825,7 +7471,8 @@
     "paceFormatted": "9:05",
     "date": "Jan 9",
     "year": 2018,
-    "startDate": "2018-01-10T07:02:41Z"
+    "startDate": "2018-01-10T07:02:41Z",
+    "isRace": false
   },
   {
     "id": 1342062088,
@@ -6837,7 +7484,8 @@
     "paceFormatted": "10:19",
     "date": "Jan 4",
     "year": 2018,
-    "startDate": "2018-01-05T06:09:56Z"
+    "startDate": "2018-01-05T06:09:56Z",
+    "isRace": false
   },
   {
     "id": 1336414698,
@@ -6849,7 +7497,8 @@
     "paceFormatted": "7:02",
     "date": "Jan 1",
     "year": 2018,
-    "startDate": "2018-01-01T11:46:52Z"
+    "startDate": "2018-01-01T11:46:52Z",
+    "isRace": false
   },
   {
     "id": 1328253075,
@@ -6861,7 +7510,8 @@
     "paceFormatted": "10:45",
     "date": "Dec 26",
     "year": 2017,
-    "startDate": "2017-12-26T10:46:42Z"
+    "startDate": "2017-12-26T10:46:42Z",
+    "isRace": false
   },
   {
     "id": 1320946535,
@@ -6873,7 +7523,8 @@
     "paceFormatted": "8:49",
     "date": "Dec 19",
     "year": 2017,
-    "startDate": "2017-12-20T06:37:45Z"
+    "startDate": "2017-12-20T06:37:45Z",
+    "isRace": false
   },
   {
     "id": 1318517851,
@@ -6885,7 +7536,8 @@
     "paceFormatted": "8:09",
     "date": "Dec 17",
     "year": 2017,
-    "startDate": "2017-12-18T07:30:35Z"
+    "startDate": "2017-12-18T07:30:35Z",
+    "isRace": false
   },
   {
     "id": 1304574148,
@@ -6897,7 +7549,8 @@
     "paceFormatted": "16:49",
     "date": "Dec 5",
     "year": 2017,
-    "startDate": "2017-12-06T07:04:44Z"
+    "startDate": "2017-12-06T07:04:44Z",
+    "isRace": false
   },
   {
     "id": 1297878353,
@@ -6909,7 +7562,8 @@
     "paceFormatted": "9:03",
     "date": "Nov 30",
     "year": 2017,
-    "startDate": "2017-12-01T06:26:57Z"
+    "startDate": "2017-12-01T06:26:57Z",
+    "isRace": false
   },
   {
     "id": 1295521301,
@@ -6921,7 +7575,8 @@
     "paceFormatted": "14:31",
     "date": "Nov 28",
     "year": 2017,
-    "startDate": "2017-11-29T07:01:30Z"
+    "startDate": "2017-11-29T07:01:30Z",
+    "isRace": false
   },
   {
     "id": 1291686638,
@@ -6933,7 +7588,8 @@
     "paceFormatted": "8:21",
     "date": "Nov 25",
     "year": 2017,
-    "startDate": "2017-11-26T07:49:58Z"
+    "startDate": "2017-11-26T07:49:58Z",
+    "isRace": false
   },
   {
     "id": 1287444860,
@@ -6945,7 +7601,8 @@
     "paceFormatted": "11:41",
     "date": "Nov 22",
     "year": 2017,
-    "startDate": "2017-11-23T07:57:31Z"
+    "startDate": "2017-11-23T07:57:31Z",
+    "isRace": false
   },
   {
     "id": 1282842979,
@@ -6957,7 +7614,8 @@
     "paceFormatted": "10:01",
     "date": "Nov 19",
     "year": 2017,
-    "startDate": "2017-11-19T17:07:44Z"
+    "startDate": "2017-11-19T17:07:44Z",
+    "isRace": false
   },
   {
     "id": 1272743541,
@@ -6969,7 +7627,8 @@
     "paceFormatted": "9:10",
     "date": "Nov 12",
     "year": 2017,
-    "startDate": "2017-11-12T09:36:14Z"
+    "startDate": "2017-11-12T09:36:14Z",
+    "isRace": false
   },
   {
     "id": 1266720163,
@@ -6981,7 +7640,8 @@
     "paceFormatted": "9:51",
     "date": "Nov 7",
     "year": 2017,
-    "startDate": "2017-11-08T07:14:00Z"
+    "startDate": "2017-11-08T07:14:00Z",
+    "isRace": false
   },
   {
     "id": 1261470356,
@@ -6993,7 +7653,8 @@
     "paceFormatted": "11:05",
     "date": "Nov 4",
     "year": 2017,
-    "startDate": "2017-11-04T15:35:05Z"
+    "startDate": "2017-11-04T15:35:05Z",
+    "isRace": false
   },
   {
     "id": 1256586056,
@@ -7005,7 +7666,8 @@
     "paceFormatted": "9:44",
     "date": "Nov 1",
     "year": 2017,
-    "startDate": "2017-11-01T07:08:40Z"
+    "startDate": "2017-11-01T07:08:40Z",
+    "isRace": false
   },
   {
     "id": 1252664626,
@@ -7017,7 +7679,8 @@
     "paceFormatted": "8:16",
     "date": "Oct 29",
     "year": 2017,
-    "startDate": "2017-10-29T11:51:34Z"
+    "startDate": "2017-10-29T11:51:34Z",
+    "isRace": false
   },
   {
     "id": 1246315251,
@@ -7029,7 +7692,8 @@
     "paceFormatted": "9:31",
     "date": "Oct 25",
     "year": 2017,
-    "startDate": "2017-10-25T07:07:39Z"
+    "startDate": "2017-10-25T07:07:39Z",
+    "isRace": false
   },
   {
     "id": 1236116758,
@@ -7041,7 +7705,8 @@
     "paceFormatted": "8:49",
     "date": "Oct 17",
     "year": 2017,
-    "startDate": "2017-10-18T06:48:06Z"
+    "startDate": "2017-10-18T06:48:06Z",
+    "isRace": false
   },
   {
     "id": 1233149849,
@@ -7053,7 +7718,8 @@
     "paceFormatted": "7:53",
     "date": "Oct 16",
     "year": 2017,
-    "startDate": "2017-10-16T08:13:15Z"
+    "startDate": "2017-10-16T08:13:15Z",
+    "isRace": false
   },
   {
     "id": 1222512764,
@@ -7065,7 +7731,8 @@
     "paceFormatted": "9:41",
     "date": "Oct 9",
     "year": 2017,
-    "startDate": "2017-10-09T07:07:14Z"
+    "startDate": "2017-10-09T07:07:14Z",
+    "isRace": false
   },
   {
     "id": 1204831634,
@@ -7077,7 +7744,8 @@
     "paceFormatted": "7:37",
     "date": "Sep 27",
     "year": 2017,
-    "startDate": "2017-09-27T16:16:27Z"
+    "startDate": "2017-09-27T16:16:27Z",
+    "isRace": false
   },
   {
     "id": 1201244856,
@@ -7089,7 +7757,8 @@
     "paceFormatted": "7:09",
     "date": "Sep 25",
     "year": 2017,
-    "startDate": "2017-09-25T12:28:44Z"
+    "startDate": "2017-09-25T12:28:44Z",
+    "isRace": false
   },
   {
     "id": 1197836668,
@@ -7101,7 +7770,8 @@
     "paceFormatted": "8:06",
     "date": "Sep 23",
     "year": 2017,
-    "startDate": "2017-09-23T08:33:11Z"
+    "startDate": "2017-09-23T08:33:11Z",
+    "isRace": false
   },
   {
     "id": 1193092303,
@@ -7113,7 +7783,8 @@
     "paceFormatted": "7:11",
     "date": "Sep 20",
     "year": 2017,
-    "startDate": "2017-09-20T08:12:03Z"
+    "startDate": "2017-09-20T08:12:03Z",
+    "isRace": false
   },
   {
     "id": 1189033667,
@@ -7125,7 +7796,8 @@
     "paceFormatted": "9:33",
     "date": "Sep 17",
     "year": 2017,
-    "startDate": "2017-09-17T10:37:57Z"
+    "startDate": "2017-09-17T10:37:57Z",
+    "isRace": false
   },
   {
     "id": 1186928474,
@@ -7137,7 +7809,8 @@
     "paceFormatted": "6:40",
     "date": "Sep 16",
     "year": 2017,
-    "startDate": "2017-09-16T10:09:17Z"
+    "startDate": "2017-09-16T10:09:17Z",
+    "isRace": false
   },
   {
     "id": 1183716551,
@@ -7149,7 +7822,8 @@
     "paceFormatted": "9:22",
     "date": "Sep 14",
     "year": 2017,
-    "startDate": "2017-09-14T07:20:40Z"
+    "startDate": "2017-09-14T07:20:40Z",
+    "isRace": false
   },
   {
     "id": 1173566338,
@@ -7161,7 +7835,8 @@
     "paceFormatted": "6:17",
     "date": "Sep 7",
     "year": 2017,
-    "startDate": "2017-09-07T19:16:36Z"
+    "startDate": "2017-09-07T19:16:36Z",
+    "isRace": true
   },
   {
     "id": 1171195965,
@@ -7173,7 +7848,8 @@
     "paceFormatted": "8:44",
     "date": "Sep 6",
     "year": 2017,
-    "startDate": "2017-09-06T07:39:21Z"
+    "startDate": "2017-09-06T07:39:21Z",
+    "isRace": false
   },
   {
     "id": 1165379397,
@@ -7185,7 +7861,8 @@
     "paceFormatted": "8:21",
     "date": "Sep 2",
     "year": 2017,
-    "startDate": "2017-09-02T19:21:44Z"
+    "startDate": "2017-09-02T19:21:44Z",
+    "isRace": false
   },
   {
     "id": 1160832454,
@@ -7197,7 +7874,8 @@
     "paceFormatted": "8:22",
     "date": "Aug 30",
     "year": 2017,
-    "startDate": "2017-08-30T21:26:02Z"
+    "startDate": "2017-08-30T21:26:02Z",
+    "isRace": false
   },
   {
     "id": 1153564265,
@@ -7209,7 +7887,8 @@
     "paceFormatted": "7:15",
     "date": "Aug 26",
     "year": 2017,
-    "startDate": "2017-08-26T11:37:44Z"
+    "startDate": "2017-08-26T11:37:44Z",
+    "isRace": false
   },
   {
     "id": 1141961348,
@@ -7221,7 +7900,8 @@
     "paceFormatted": "6:57",
     "date": "Aug 19",
     "year": 2017,
-    "startDate": "2017-08-19T14:07:56Z"
+    "startDate": "2017-08-19T14:07:56Z",
+    "isRace": false
   },
   {
     "id": 1121946837,
@@ -7233,7 +7913,8 @@
     "paceFormatted": "8:23",
     "date": "Aug 7",
     "year": 2017,
-    "startDate": "2017-08-07T08:39:31Z"
+    "startDate": "2017-08-07T08:39:31Z",
+    "isRace": false
   },
   {
     "id": 1083148453,
@@ -7245,7 +7926,8 @@
     "paceFormatted": "6:53",
     "date": "Jul 14",
     "year": 2017,
-    "startDate": "2017-07-14T08:55:22Z"
+    "startDate": "2017-07-14T08:55:22Z",
+    "isRace": false
   },
   {
     "id": 1066282558,
@@ -7257,7 +7939,8 @@
     "paceFormatted": "10:28",
     "date": "Jul 3",
     "year": 2017,
-    "startDate": "2017-07-03T14:16:05Z"
+    "startDate": "2017-07-03T14:16:05Z",
+    "isRace": false
   },
   {
     "id": 1063182825,
@@ -7269,7 +7952,8 @@
     "paceFormatted": "14:12",
     "date": "Jul 1",
     "year": 2017,
-    "startDate": "2017-07-01T17:35:49Z"
+    "startDate": "2017-07-01T17:35:49Z",
+    "isRace": false
   },
   {
     "id": 1062970514,
@@ -7281,7 +7965,8 @@
     "paceFormatted": "10:20",
     "date": "Jul 1",
     "year": 2017,
-    "startDate": "2017-07-01T13:36:16Z"
+    "startDate": "2017-07-01T13:36:16Z",
+    "isRace": false
   },
   {
     "id": 1059683692,
@@ -7293,7 +7978,8 @@
     "paceFormatted": "10:30",
     "date": "Jun 28",
     "year": 2017,
-    "startDate": "2017-06-28T14:32:42Z"
+    "startDate": "2017-06-28T14:32:42Z",
+    "isRace": false
   },
   {
     "id": 1030211596,
@@ -7305,7 +7991,8 @@
     "paceFormatted": "9:43",
     "date": "Jun 10",
     "year": 2017,
-    "startDate": "2017-06-10T10:11:53Z"
+    "startDate": "2017-06-10T10:11:53Z",
+    "isRace": false
   },
   {
     "id": 1019987923,
@@ -7317,7 +8004,8 @@
     "paceFormatted": "11:36",
     "date": "Jun 3",
     "year": 2017,
-    "startDate": "2017-06-03T18:23:08Z"
+    "startDate": "2017-06-03T18:23:08Z",
+    "isRace": false
   },
   {
     "id": 1004392658,
@@ -7329,7 +8017,8 @@
     "paceFormatted": "10:45",
     "date": "May 24",
     "year": 2017,
-    "startDate": "2017-05-24T20:13:54Z"
+    "startDate": "2017-05-24T20:13:54Z",
+    "isRace": false
   },
   {
     "id": 997876063,
@@ -7341,7 +8030,8 @@
     "paceFormatted": "8:32",
     "date": "May 20",
     "year": 2017,
-    "startDate": "2017-05-20T21:25:08Z"
+    "startDate": "2017-05-20T21:25:08Z",
+    "isRace": false
   },
   {
     "id": 982956877,
@@ -7353,7 +8043,8 @@
     "paceFormatted": "9:46",
     "date": "May 12",
     "year": 2017,
-    "startDate": "2017-05-12T09:14:02Z"
+    "startDate": "2017-05-12T09:14:02Z",
+    "isRace": false
   },
   {
     "id": 974068282,
@@ -7365,7 +8056,8 @@
     "paceFormatted": "12:31",
     "date": "May 6",
     "year": 2017,
-    "startDate": "2017-05-06T11:38:18Z"
+    "startDate": "2017-05-06T11:38:18Z",
+    "isRace": false
   },
   {
     "id": 947581146,
@@ -7377,7 +8069,8 @@
     "paceFormatted": "10:20",
     "date": "Apr 18",
     "year": 2017,
-    "startDate": "2017-04-18T07:03:11Z"
+    "startDate": "2017-04-18T07:03:11Z",
+    "isRace": false
   },
   {
     "id": 936373756,
@@ -7389,7 +8082,8 @@
     "paceFormatted": "8:38",
     "date": "Apr 10",
     "year": 2017,
-    "startDate": "2017-04-10T08:17:13Z"
+    "startDate": "2017-04-10T08:17:13Z",
+    "isRace": false
   },
   {
     "id": 925541210,
@@ -7401,7 +8095,8 @@
     "paceFormatted": "10:56",
     "date": "Apr 2",
     "year": 2017,
-    "startDate": "2017-04-02T11:23:38Z"
+    "startDate": "2017-04-02T11:23:38Z",
+    "isRace": false
   },
   {
     "id": 919526015,
@@ -7413,7 +8108,8 @@
     "paceFormatted": "10:08",
     "date": "Mar 29",
     "year": 2017,
-    "startDate": "2017-03-29T08:27:32Z"
+    "startDate": "2017-03-29T08:27:32Z",
+    "isRace": false
   },
   {
     "id": 917221262,
@@ -7425,7 +8121,8 @@
     "paceFormatted": "17:12",
     "date": "Mar 27",
     "year": 2017,
-    "startDate": "2017-03-27T13:40:20Z"
+    "startDate": "2017-03-27T13:40:20Z",
+    "isRace": false
   },
   {
     "id": 903750997,
@@ -7437,7 +8134,8 @@
     "paceFormatted": "10:21",
     "date": "Mar 17",
     "year": 2017,
-    "startDate": "2017-03-17T08:00:59Z"
+    "startDate": "2017-03-17T08:00:59Z",
+    "isRace": false
   },
   {
     "id": 894821082,
@@ -7449,7 +8147,8 @@
     "paceFormatted": "10:15",
     "date": "Mar 10",
     "year": 2017,
-    "startDate": "2017-03-10T08:49:58Z"
+    "startDate": "2017-03-10T08:49:58Z",
+    "isRace": false
   },
   {
     "id": 878178386,
@@ -7461,7 +8160,8 @@
     "paceFormatted": "10:11",
     "date": "Feb 24",
     "year": 2017,
-    "startDate": "2017-02-24T09:20:59Z"
+    "startDate": "2017-02-24T09:20:59Z",
+    "isRace": false
   },
   {
     "id": 867308551,
@@ -7473,7 +8173,8 @@
     "paceFormatted": "7:39",
     "date": "Feb 14",
     "year": 2017,
-    "startDate": "2017-02-15T07:40:42Z"
+    "startDate": "2017-02-15T07:40:42Z",
+    "isRace": false
   },
   {
     "id": 811400368,
@@ -7485,7 +8186,8 @@
     "paceFormatted": "9:37",
     "date": "Dec 25",
     "year": 2016,
-    "startDate": "2016-12-25T18:15:21Z"
+    "startDate": "2016-12-25T18:15:21Z",
+    "isRace": false
   },
   {
     "id": 787378983,
@@ -7497,7 +8199,8 @@
     "paceFormatted": "10:31",
     "date": "Nov 27",
     "year": 2016,
-    "startDate": "2016-11-27T09:03:29Z"
+    "startDate": "2016-11-27T09:03:29Z",
+    "isRace": false
   },
   {
     "id": 768422124,
@@ -7509,7 +8212,8 @@
     "paceFormatted": "8:39",
     "date": "Nov 6",
     "year": 2016,
-    "startDate": "2016-11-06T20:50:28Z"
+    "startDate": "2016-11-06T20:50:28Z",
+    "isRace": false
   },
   {
     "id": 761237030,
@@ -7521,7 +8225,8 @@
     "paceFormatted": "8:59",
     "date": "Oct 30",
     "year": 2016,
-    "startDate": "2016-10-30T20:55:15Z"
+    "startDate": "2016-10-30T20:55:15Z",
+    "isRace": false
   },
   {
     "id": 724814846,
@@ -7533,7 +8238,8 @@
     "paceFormatted": "8:32",
     "date": "Sep 25",
     "year": 2016,
-    "startDate": "2016-09-25T09:23:45Z"
+    "startDate": "2016-09-25T09:23:45Z",
+    "isRace": false
   },
   {
     "id": 708757550,
@@ -7545,7 +8251,8 @@
     "paceFormatted": "7:48",
     "date": "Sep 11",
     "year": 2016,
-    "startDate": "2016-09-11T09:49:55Z"
+    "startDate": "2016-09-11T09:49:55Z",
+    "isRace": false
   },
   {
     "id": 700701395,
@@ -7557,7 +8264,8 @@
     "paceFormatted": "8:29",
     "date": "Sep 4",
     "year": 2016,
-    "startDate": "2016-09-04T11:46:32Z"
+    "startDate": "2016-09-04T11:46:32Z",
+    "isRace": false
   },
   {
     "id": 687433663,
@@ -7569,7 +8277,8 @@
     "paceFormatted": "8:15",
     "date": "Aug 24",
     "year": 2016,
-    "startDate": "2016-08-24T08:23:50Z"
+    "startDate": "2016-08-24T08:23:50Z",
+    "isRace": false
   },
   {
     "id": 684965400,
@@ -7581,7 +8290,8 @@
     "paceFormatted": "8:09",
     "date": "Aug 22",
     "year": 2016,
-    "startDate": "2016-08-22T08:09:00Z"
+    "startDate": "2016-08-22T08:09:00Z",
+    "isRace": false
   },
   {
     "id": 660081316,
@@ -7593,7 +8303,8 @@
     "paceFormatted": "9:18",
     "date": "Jul 31",
     "year": 2016,
-    "startDate": "2016-07-31T16:07:04Z"
+    "startDate": "2016-07-31T16:07:04Z",
+    "isRace": false
   },
   {
     "id": 657497518,
@@ -7605,7 +8316,8 @@
     "paceFormatted": "9:21",
     "date": "Jul 29",
     "year": 2016,
-    "startDate": "2016-07-29T11:05:18Z"
+    "startDate": "2016-07-29T11:05:18Z",
+    "isRace": false
   },
   {
     "id": 650818951,
@@ -7617,7 +8329,8 @@
     "paceFormatted": "14:36",
     "date": "Jul 23",
     "year": 2016,
-    "startDate": "2016-07-23T08:04:14Z"
+    "startDate": "2016-07-23T08:04:14Z",
+    "isRace": false
   },
   {
     "id": 650284363,
@@ -7629,7 +8342,8 @@
     "paceFormatted": "13:13",
     "date": "Jul 22",
     "year": 2016,
-    "startDate": "2016-07-22T23:44:07Z"
+    "startDate": "2016-07-22T23:44:07Z",
+    "isRace": false
   },
   {
     "id": 650038342,
@@ -7641,7 +8355,8 @@
     "paceFormatted": "8:08",
     "date": "Jul 22",
     "year": 2016,
-    "startDate": "2016-07-22T16:19:23Z"
+    "startDate": "2016-07-22T16:19:23Z",
+    "isRace": false
   },
   {
     "id": 639599617,
@@ -7653,7 +8368,8 @@
     "paceFormatted": "17:48",
     "date": "Jul 12",
     "year": 2016,
-    "startDate": "2016-07-13T05:32:04Z"
+    "startDate": "2016-07-13T05:32:04Z",
+    "isRace": false
   },
   {
     "id": 624577970,
@@ -7665,7 +8381,8 @@
     "paceFormatted": "9:10",
     "date": "Jun 28",
     "year": 2016,
-    "startDate": "2016-06-29T06:22:05Z"
+    "startDate": "2016-06-29T06:22:05Z",
+    "isRace": false
   },
   {
     "id": 617262861,
@@ -7677,7 +8394,8 @@
     "paceFormatted": "9:46",
     "date": "Jun 21",
     "year": 2016,
-    "startDate": "2016-06-22T06:41:30Z"
+    "startDate": "2016-06-22T06:41:30Z",
+    "isRace": false
   },
   {
     "id": 610060998,
@@ -7689,7 +8407,8 @@
     "paceFormatted": "9:43",
     "date": "Jun 14",
     "year": 2016,
-    "startDate": "2016-06-15T06:41:48Z"
+    "startDate": "2016-06-15T06:41:48Z",
+    "isRace": false
   },
   {
     "id": 602725378,
@@ -7701,7 +8420,8 @@
     "paceFormatted": "10:26",
     "date": "Jun 7",
     "year": 2016,
-    "startDate": "2016-06-08T06:37:06Z"
+    "startDate": "2016-06-08T06:37:06Z",
+    "isRace": false
   },
   {
     "id": 600554288,
@@ -7713,7 +8433,8 @@
     "paceFormatted": "9:08",
     "date": "Jun 6",
     "year": 2016,
-    "startDate": "2016-06-06T08:26:23Z"
+    "startDate": "2016-06-06T08:26:23Z",
+    "isRace": false
   },
   {
     "id": 580160475,
@@ -7725,7 +8446,8 @@
     "paceFormatted": "8:56",
     "date": "May 18",
     "year": 2016,
-    "startDate": "2016-05-18T08:32:58Z"
+    "startDate": "2016-05-18T08:32:58Z",
+    "isRace": false
   },
   {
     "id": 554699188,
@@ -7737,7 +8459,8 @@
     "paceFormatted": "11:51",
     "date": "Apr 23",
     "year": 2016,
-    "startDate": "2016-04-23T12:06:03Z"
+    "startDate": "2016-04-23T12:06:03Z",
+    "isRace": false
   },
   {
     "id": 549285718,
@@ -7749,7 +8472,8 @@
     "paceFormatted": "12:42",
     "date": "Apr 18",
     "year": 2016,
-    "startDate": "2016-04-18T07:43:09Z"
+    "startDate": "2016-04-18T07:43:09Z",
+    "isRace": false
   },
   {
     "id": 521397921,
@@ -7761,7 +8485,8 @@
     "paceFormatted": "22:40",
     "date": "Mar 19",
     "year": 2016,
-    "startDate": "2016-03-19T11:25:16Z"
+    "startDate": "2016-03-19T11:25:16Z",
+    "isRace": false
   },
   {
     "id": 520215449,
@@ -7773,7 +8498,8 @@
     "paceFormatted": "11:56",
     "date": "Mar 18",
     "year": 2016,
-    "startDate": "2016-03-18T07:54:36Z"
+    "startDate": "2016-03-18T07:54:36Z",
+    "isRace": false
   },
   {
     "id": 451207303,
@@ -7785,7 +8511,8 @@
     "paceFormatted": "11:56",
     "date": "Dec 15",
     "year": 2015,
-    "startDate": "2015-12-16T07:39:52Z"
+    "startDate": "2015-12-16T07:39:52Z",
+    "isRace": false
   },
   {
     "id": 420325221,
@@ -7797,7 +8524,8 @@
     "paceFormatted": "10:24",
     "date": "Oct 25",
     "year": 2015,
-    "startDate": "2015-10-25T11:42:54Z"
+    "startDate": "2015-10-25T11:42:54Z",
+    "isRace": false
   },
   {
     "id": 414881845,
@@ -7809,7 +8537,8 @@
     "paceFormatted": "10:38",
     "date": "Oct 17",
     "year": 2015,
-    "startDate": "2015-10-17T08:42:29Z"
+    "startDate": "2015-10-17T08:42:29Z",
+    "isRace": false
   },
   {
     "id": 380195664,
@@ -7821,7 +8550,8 @@
     "paceFormatted": "7:50",
     "date": "Aug 29",
     "year": 2015,
-    "startDate": "2015-08-29T09:09:06Z"
+    "startDate": "2015-08-29T09:09:06Z",
+    "isRace": false
   },
   {
     "id": 369144666,
@@ -7833,7 +8563,8 @@
     "paceFormatted": "8:15",
     "date": "Aug 14",
     "year": 2015,
-    "startDate": "2015-08-14T18:04:10Z"
+    "startDate": "2015-08-14T18:04:10Z",
+    "isRace": false
   },
   {
     "id": 365432613,
@@ -7845,7 +8576,8 @@
     "paceFormatted": "15:25",
     "date": "Aug 9",
     "year": 2015,
-    "startDate": "2015-08-09T14:04:42Z"
+    "startDate": "2015-08-09T14:04:42Z",
+    "isRace": false
   },
   {
     "id": 361422280,
@@ -7857,7 +8589,8 @@
     "paceFormatted": "7:08",
     "date": "Aug 4",
     "year": 2015,
-    "startDate": "2015-08-04T16:49:35Z"
+    "startDate": "2015-08-04T16:49:35Z",
+    "isRace": false
   },
   {
     "id": 353866294,
@@ -7869,7 +8602,8 @@
     "paceFormatted": "8:57",
     "date": "Jul 25",
     "year": 2015,
-    "startDate": "2015-07-25T13:27:59Z"
+    "startDate": "2015-07-25T13:27:59Z",
+    "isRace": false
   },
   {
     "id": 353262008,
@@ -7881,7 +8615,8 @@
     "paceFormatted": "8:18",
     "date": "Jul 24",
     "year": 2015,
-    "startDate": "2015-07-24T16:51:22Z"
+    "startDate": "2015-07-24T16:51:22Z",
+    "isRace": false
   },
   {
     "id": 349667692,
@@ -7893,7 +8628,8 @@
     "paceFormatted": "13:31",
     "date": "Jul 19",
     "year": 2015,
-    "startDate": "2015-07-19T10:07:00Z"
+    "startDate": "2015-07-19T10:07:00Z",
+    "isRace": false
   },
   {
     "id": 344669791,
@@ -7905,7 +8641,8 @@
     "paceFormatted": "12:41",
     "date": "Jul 12",
     "year": 2015,
-    "startDate": "2015-07-12T09:35:55Z"
+    "startDate": "2015-07-12T09:35:55Z",
+    "isRace": false
   },
   {
     "id": 343935540,
@@ -7917,7 +8654,8 @@
     "paceFormatted": "15:12",
     "date": "Jul 11",
     "year": 2015,
-    "startDate": "2015-07-11T09:14:34Z"
+    "startDate": "2015-07-11T09:14:34Z",
+    "isRace": false
   },
   {
     "id": 341938775,
@@ -7929,7 +8667,8 @@
     "paceFormatted": "9:30",
     "date": "Jul 8",
     "year": 2015,
-    "startDate": "2015-07-08T13:03:40Z"
+    "startDate": "2015-07-08T13:03:40Z",
+    "isRace": false
   },
   {
     "id": 337808953,
@@ -7941,7 +8680,8 @@
     "paceFormatted": "10:12",
     "date": "Jul 2",
     "year": 2015,
-    "startDate": "2015-07-02T12:33:26Z"
+    "startDate": "2015-07-02T12:33:26Z",
+    "isRace": false
   },
   {
     "id": 335542142,
@@ -7953,7 +8693,8 @@
     "paceFormatted": "8:28",
     "date": "Jun 29",
     "year": 2015,
-    "startDate": "2015-06-29T09:36:02Z"
+    "startDate": "2015-06-29T09:36:02Z",
+    "isRace": false
   },
   {
     "id": 329353351,
@@ -7965,7 +8706,8 @@
     "paceFormatted": "8:59",
     "date": "Jun 20",
     "year": 2015,
-    "startDate": "2015-06-20T08:41:46Z"
+    "startDate": "2015-06-20T08:41:46Z",
+    "isRace": false
   },
   {
     "id": 328321919,
@@ -7977,7 +8719,8 @@
     "paceFormatted": "13:16",
     "date": "Jun 18",
     "year": 2015,
-    "startDate": "2015-06-18T13:00:02Z"
+    "startDate": "2015-06-18T13:00:02Z",
+    "isRace": false
   },
   {
     "id": 327728274,
@@ -7989,7 +8732,8 @@
     "paceFormatted": "15:15",
     "date": "Jun 17",
     "year": 2015,
-    "startDate": "2015-06-17T17:19:52Z"
+    "startDate": "2015-06-17T17:19:52Z",
+    "isRace": false
   },
   {
     "id": 324650001,
@@ -8001,7 +8745,8 @@
     "paceFormatted": "9:02",
     "date": "Jun 13",
     "year": 2015,
-    "startDate": "2015-06-13T09:33:57Z"
+    "startDate": "2015-06-13T09:33:57Z",
+    "isRace": false
   },
   {
     "id": 318578374,
@@ -8013,7 +8758,8 @@
     "paceFormatted": "10:16",
     "date": "Jun 4",
     "year": 2015,
-    "startDate": "2015-06-04T18:02:07Z"
+    "startDate": "2015-06-04T18:02:07Z",
+    "isRace": false
   },
   {
     "id": 315957409,
@@ -8025,7 +8771,8 @@
     "paceFormatted": "9:43",
     "date": "May 31",
     "year": 2015,
-    "startDate": "2015-05-31T19:50:18Z"
+    "startDate": "2015-05-31T19:50:18Z",
+    "isRace": false
   },
   {
     "id": 306707809,
@@ -8037,7 +8784,8 @@
     "paceFormatted": "12:00",
     "date": "May 17",
     "year": 2015,
-    "startDate": "2015-05-17T13:48:06Z"
+    "startDate": "2015-05-17T13:48:06Z",
+    "isRace": false
   },
   {
     "id": 303722482,
@@ -8049,7 +8797,8 @@
     "paceFormatted": "10:25",
     "date": "May 13",
     "year": 2015,
-    "startDate": "2015-05-13T07:11:30Z"
+    "startDate": "2015-05-13T07:11:30Z",
+    "isRace": false
   },
   {
     "id": 297655550,
@@ -8061,7 +8810,8 @@
     "paceFormatted": "13:50",
     "date": "May 3",
     "year": 2015,
-    "startDate": "2015-05-03T12:30:48Z"
+    "startDate": "2015-05-03T12:30:48Z",
+    "isRace": false
   },
   {
     "id": 284435790,
@@ -8073,7 +8823,8 @@
     "paceFormatted": "15:33",
     "date": "Apr 12",
     "year": 2015,
-    "startDate": "2015-04-12T16:55:30Z"
+    "startDate": "2015-04-12T16:55:30Z",
+    "isRace": false
   },
   {
     "id": 282463529,
@@ -8085,7 +8836,8 @@
     "paceFormatted": "9:56",
     "date": "Apr 9",
     "year": 2015,
-    "startDate": "2015-04-09T19:19:25Z"
+    "startDate": "2015-04-09T19:19:25Z",
+    "isRace": false
   },
   {
     "id": 279377361,
@@ -8097,7 +8849,8 @@
     "paceFormatted": "11:45",
     "date": "Apr 4",
     "year": 2015,
-    "startDate": "2015-04-04T17:11:58Z"
+    "startDate": "2015-04-04T17:11:58Z",
+    "isRace": false
   },
   {
     "id": 265280190,
@@ -8109,7 +8862,8 @@
     "paceFormatted": "12:20",
     "date": "Mar 8",
     "year": 2015,
-    "startDate": "2015-03-08T17:06:30Z"
+    "startDate": "2015-03-08T17:06:30Z",
+    "isRace": false
   },
   {
     "id": 250862117,
@@ -8121,7 +8875,8 @@
     "paceFormatted": "12:27",
     "date": "Feb 5",
     "year": 2015,
-    "startDate": "2015-02-05T11:20:58Z"
+    "startDate": "2015-02-05T11:20:58Z",
+    "isRace": false
   },
   {
     "id": 250543076,
@@ -8133,7 +8888,8 @@
     "paceFormatted": "11:49",
     "date": "Feb 4",
     "year": 2015,
-    "startDate": "2015-02-04T16:21:57Z"
+    "startDate": "2015-02-04T16:21:57Z",
+    "isRace": false
   },
   {
     "id": 246900820,
@@ -8145,7 +8901,8 @@
     "paceFormatted": "9:48",
     "date": "Jan 27",
     "year": 2015,
-    "startDate": "2015-01-27T08:09:18Z"
+    "startDate": "2015-01-27T08:09:18Z",
+    "isRace": false
   },
   {
     "id": 222543827,
@@ -8157,7 +8914,8 @@
     "paceFormatted": "19:23",
     "date": "Nov 23",
     "year": 2014,
-    "startDate": "2014-11-23T12:28:51Z"
+    "startDate": "2014-11-23T12:28:51Z",
+    "isRace": false
   },
   {
     "id": 222055298,
@@ -8169,7 +8927,8 @@
     "paceFormatted": "9:49",
     "date": "Nov 22",
     "year": 2014,
-    "startDate": "2014-11-22T11:37:45Z"
+    "startDate": "2014-11-22T11:37:45Z",
+    "isRace": false
   },
   {
     "id": 219647105,
@@ -8181,7 +8940,8 @@
     "paceFormatted": "12:49",
     "date": "Nov 15",
     "year": 2014,
-    "startDate": "2014-11-15T16:08:32Z"
+    "startDate": "2014-11-15T16:08:32Z",
+    "isRace": false
   },
   {
     "id": 219645920,
@@ -8193,7 +8953,8 @@
     "paceFormatted": "14:17",
     "date": "Nov 15",
     "year": 2014,
-    "startDate": "2014-11-15T14:12:52Z"
+    "startDate": "2014-11-15T14:12:52Z",
+    "isRace": false
   },
   {
     "id": 217004494,
@@ -8205,7 +8966,8 @@
     "paceFormatted": "18:34",
     "date": "Nov 8",
     "year": 2014,
-    "startDate": "2014-11-08T11:17:55Z"
+    "startDate": "2014-11-08T11:17:55Z",
+    "isRace": false
   },
   {
     "id": 216393948,
@@ -8217,7 +8979,8 @@
     "paceFormatted": "9:55",
     "date": "Nov 6",
     "year": 2014,
-    "startDate": "2014-11-06T22:14:38Z"
+    "startDate": "2014-11-06T22:14:38Z",
+    "isRace": false
   },
   {
     "id": 194581812,
@@ -8229,7 +8992,8 @@
     "paceFormatted": "10:14",
     "date": "Sep 14",
     "year": 2014,
-    "startDate": "2014-09-14T12:24:14Z"
+    "startDate": "2014-09-14T12:24:14Z",
+    "isRace": false
   },
   {
     "id": 190775924,
@@ -8241,7 +9005,8 @@
     "paceFormatted": "10:50",
     "date": "Sep 6",
     "year": 2014,
-    "startDate": "2014-09-06T11:14:13Z"
+    "startDate": "2014-09-06T11:14:13Z",
+    "isRace": false
   },
   {
     "id": 188119863,
@@ -8253,7 +9018,8 @@
     "paceFormatted": "8:33",
     "date": "Aug 31",
     "year": 2014,
-    "startDate": "2014-08-31T14:42:06Z"
+    "startDate": "2014-08-31T14:42:06Z",
+    "isRace": false
   },
   {
     "id": 186049039,
@@ -8265,7 +9031,8 @@
     "paceFormatted": "8:58",
     "date": "Aug 27",
     "year": 2014,
-    "startDate": "2014-08-27T07:40:41Z"
+    "startDate": "2014-08-27T07:40:41Z",
+    "isRace": false
   },
   {
     "id": 184438157,
@@ -8277,7 +9044,8 @@
     "paceFormatted": "10:48",
     "date": "Aug 23",
     "year": 2014,
-    "startDate": "2014-08-23T17:21:01Z"
+    "startDate": "2014-08-23T17:21:01Z",
+    "isRace": false
   },
   {
     "id": 180356497,
@@ -8289,7 +9057,8 @@
     "paceFormatted": "12:03",
     "date": "Aug 14",
     "year": 2014,
-    "startDate": "2014-08-14T18:02:44Z"
+    "startDate": "2014-08-14T18:02:44Z",
+    "isRace": false
   },
   {
     "id": 178551601,
@@ -8301,7 +9070,8 @@
     "paceFormatted": "12:43",
     "date": "Aug 10",
     "year": 2014,
-    "startDate": "2014-08-10T18:06:50Z"
+    "startDate": "2014-08-10T18:06:50Z",
+    "isRace": false
   },
   {
     "id": 178441807,
@@ -8313,7 +9083,8 @@
     "paceFormatted": "12:21",
     "date": "Aug 10",
     "year": 2014,
-    "startDate": "2014-08-10T13:03:16Z"
+    "startDate": "2014-08-10T13:03:16Z",
+    "isRace": false
   },
   {
     "id": 176968060,
@@ -8325,7 +9096,8 @@
     "paceFormatted": "13:09",
     "date": "Aug 7",
     "year": 2014,
-    "startDate": "2014-08-07T11:31:11Z"
+    "startDate": "2014-08-07T11:31:11Z",
+    "isRace": false
   },
   {
     "id": 175856190,
@@ -8337,7 +9109,8 @@
     "paceFormatted": "10:59",
     "date": "Aug 5",
     "year": 2014,
-    "startDate": "2014-08-05T09:19:17Z"
+    "startDate": "2014-08-05T09:19:17Z",
+    "isRace": false
   },
   {
     "id": 167267730,
@@ -8349,7 +9122,8 @@
     "paceFormatted": "10:19",
     "date": "Jul 17",
     "year": 2014,
-    "startDate": "2014-07-17T11:55:13Z"
+    "startDate": "2014-07-17T11:55:13Z",
+    "isRace": false
   },
   {
     "id": 164999884,
@@ -8361,7 +9135,8 @@
     "paceFormatted": "9:56",
     "date": "Jul 12",
     "year": 2014,
-    "startDate": "2014-07-12T10:51:03Z"
+    "startDate": "2014-07-12T10:51:03Z",
+    "isRace": false
   },
   {
     "id": 152106489,
@@ -8373,7 +9148,8 @@
     "paceFormatted": "12:18",
     "date": "Jun 10",
     "year": 2014,
-    "startDate": "2014-06-10T22:06:22Z"
+    "startDate": "2014-06-10T22:06:22Z",
+    "isRace": false
   },
   {
     "id": 121671484,
@@ -8385,7 +9161,8 @@
     "paceFormatted": "13:33",
     "date": "Mar 17",
     "year": 2014,
-    "startDate": "2014-03-17T21:13:19Z"
+    "startDate": "2014-03-17T21:13:19Z",
+    "isRace": false
   },
   {
     "id": 113904827,
@@ -8397,7 +9174,8 @@
     "paceFormatted": "14:11",
     "date": "Feb 16",
     "year": 2014,
-    "startDate": "2014-02-16T20:52:42Z"
+    "startDate": "2014-02-16T20:52:42Z",
+    "isRace": false
   },
   {
     "id": 82087315,
@@ -8409,7 +9187,8 @@
     "paceFormatted": "11:26",
     "date": "Sep 12",
     "year": 2013,
-    "startDate": "2013-09-12T22:09:07Z"
+    "startDate": "2013-09-12T22:09:07Z",
+    "isRace": false
   },
   {
     "id": 24533846,
@@ -8421,6 +9200,7 @@
     "paceFormatted": "12:15",
     "date": "Oct 9",
     "year": 2012,
-    "startDate": "2012-10-09T19:58:11Z"
+    "startDate": "2012-10-09T19:58:11Z",
+    "isRace": false
   }
 ]

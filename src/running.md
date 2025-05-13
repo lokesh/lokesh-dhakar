@@ -37,12 +37,10 @@ In the chart below, you can see all my recent runs. The goal is to complete a ma
           {{ run.year }}
         </h3>
         <div
-          v-if="hasComment(run.id)"
-          class="comment"
-          :class="`comment-${comments[run.id].type}`"
+          v-if="run.isRace"
+          class="comment comment-race"
         >
           <div class="comment-icon"></div>
-          <div class="comment-text" v-html="comments[run.id].text"></div>
         </div>
         <div class="run">
           <div class="run-name">
@@ -195,6 +193,10 @@ The data for my runs in this post are pulled from [Strava](//strava.com). I run 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.run-name a {
+  text-decoration: none;
 }
 
 .run-metrics {

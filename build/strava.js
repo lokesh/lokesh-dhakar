@@ -90,6 +90,7 @@ function formatRunData(runs) {
       date: new Date(run.start_date_local).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
       year: new Date(run.start_date_local).getFullYear(),
       startDate: run.start_date_local,
+      isRace: run.workout_type === 1
     });
 
   });
