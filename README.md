@@ -7,9 +7,6 @@
 Example [Metalsmith + Nunjucks demo site](https://github.com/voorhoede/demo-metalsmith-nunjucks).
 
 
-## To-do
-- Add a clear "Available for work"-esque label related to Product Management search.
-
 ### Next
 - Update this readme. Decide on wether to keep or update the following pages: running , notes, page, places, sketches, and inspiration
 
