@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Personal portfolio/blog site (lokeshdhakar.com) built with Metalsmith (static site generator) and Nunjucks templating. Interactive pages use Vue.js for client-side rendering. Hosted on Dreamhost, deployed via SFTP.
 
-**Node version**: 12.18.2 (see .nvmrc)
+**Node version**: 22 (see .nvmrc)
 
 ## Commands
 

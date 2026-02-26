@@ -31,7 +31,7 @@
     "foursquare-process": "node ./build/foursquare-process.js",
     "notes": "sh build/notes.sh",
     "img": "node ./build/img.js",
-    "test": "node ./test/foursquare.test.js --experimental-modules",
+    "test": "node ./test/foursquare.test.mjs",
     "places-admin": "http-server -o admin/places.html",
     "places-admin-server": "node admin/server.js"
   },
@@ -46,6 +46,9 @@
   },
   "homepage": "https://github.com/lokesh/lokesh-dhakar#readme",
   "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",

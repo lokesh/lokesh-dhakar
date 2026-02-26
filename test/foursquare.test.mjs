@@ -1,4 +1,4 @@
-import { checkins } from './data/checkins.js'
+import { checkins } from './data/checkins.mjs'
 import {
 	CATEGORY_ANY,
 	LOCATION_ANY,
@@ -9,13 +9,6 @@ import {
 	filterByLocation,
 } from '../src/js/utils/foursquare.js'
 
-
-/*
-	IMPORTANT
-	---------
-	To run tests, update package.json by adding: "type": "module", and then run:
-	npm run test
-*/
 
 
 function t(str, a, b) {
