@@ -14,7 +14,7 @@ Personal portfolio/blog site (lokeshdhakar.com) built with Metalsmith (static si
 npm run dev          # Build + watch + serve at http://localhost:8080
 npm run build        # Build static site (src/ → dist/)
 npm run deploy       # SFTP deploy dist/ to Dreamhost
-npm run test         # Run foursquare utility tests (test/foursquare.test.js)
+npm run test         # Run foursquare utility tests (test/foursquare.test.mjs)
 
 # Data fetching
 npm run strava              # Fetch & process Strava activities → src/data/
@@ -22,9 +22,15 @@ npm run foursquare-fetch    # Fetch raw Foursquare check-ins
 npm run foursquare-process  # Process, categorize, aggregate check-ins → src/data/
 npm run notes               # Convert src/notes/ markdown → src/data/notes.json
 
+# Places admin
+npm run places-admin-server # Start Express API server for venue metadata
+npm run places-admin        # Open admin UI for adding venue comments/traits
+
 # Utilities
 npm run img <FILENAME>      # Resize image, generate thumbnail, place in media folder
 ```
+
+**Live reload**: Add `<script src="http://localhost:35729/livereload.js"></script>` to `src/layouts/base.njk` during development (don't commit).
 
 ## Architecture
 
@@ -73,4 +79,38 @@ Strava and Foursquare tokens stored in `.private` file (not in git). SFTP creden
 
 ## Testing
 
-Tests are in `test/foursquare.test.js` with test data in `test/data/checkins.js`. Tests cover the client-side filtering/aggregation functions from `src/js/utils/foursquare.js` (checkinsToVenues, filterByCategory, filterByLocation, filterByMetadata).
+Tests are in `test/foursquare.test.mjs` with test data in `test/data/checkins.js`. Tests cover the client-side filtering/aggregation functions from `src/js/utils/foursquare.js` (checkinsToVenues, filterByCategory, filterByLocation, filterByMetadata).
+
+## Adding Content
+
+### Notes
+
+1. Add a markdown file to `src/notes/` (duplicate an existing one)
+2. Run `npm run notes` to regenerate `src/data/notes.json`
+3. For thumbnail: grab a tall-aspect-ratio image, run `npm run img <FILENAME>` to resize and place it
+
+### Sketches
+
+1. Update `src/data/sketches.json`
+2. Codepen thumbs auto-generate at 640x360px; for manual creation run `npm run img <FILENAME>`
+
+### Work/Projects images
+
+Export 2400x1800 from Figma, compress with squoosh.app (WebP, effort 4, quality 75, preserve transparency).
+
+## Re-authorizing API Tokens
+
+### Strava
+
+Tokens auto-refresh via `build/strava.js`. If fully broken:
+
+1. Visit `http://www.strava.com/oauth/authorize?client_id=7203&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=activity:read`
+2. Grab the `code` from the redirect URL
+3. POST to `https://www.strava.com/api/v3/oauth/token` with client_id, client_secret (from Strava API settings), the code, and `grant_type=authorization_code`
+4. Update `.private` with the returned access_token and refresh_token
+
+### Foursquare
+
+1. Visit `https://foursquare.com/oauth2/authenticate?client_id=EOR1IUQHRPBCVEAFX0XTOCTPRSIJARFVXZGBUGKV012MNA4C&response_type=code&redirect_uri=https://www.google.com`
+2. Grab the `code` from the redirect URL
+3. GET/POST to `https://foursquare.com/oauth2/access_token` with client_id, client_secret, the code, `grant_type=authorization_code`, and `redirect_uri=https://www.google.com`
