@@ -53,13 +53,13 @@ Three pages use Vue.js (loaded as ES module, no build step) to render JSON data:
 
 - **Running** (`src/running.md`): Displays Strava activities as visual bars. Data fetched by `build/strava.js`, which handles OAuth token refresh and writes to `src/data/strava-activities.json` and `src/data/strava-activities-edited-runs.json`.
 
-- **Places** (`src/places.md`): Displays Foursquare/Swarm check-ins with filtering by location and category. Two-stage pipeline: fetch (`build/foursquare-fetch.js`) then process (`build/foursquare-process.js`). Processing remaps Foursquare categories to ~10 custom categories via CSV (`build/data/foursquare-custom-categories.csv`), marks first/last visits, merges venue metadata from admin, and outputs `places-all-time.json` and `places-grouped-by-year.json`.
+- **Places** (`src/places.md`): Displays Foursquare/Swarm check-ins with filtering by location and category. Two-stage pipeline: fetch (`build/foursquare-fetch.js`) then process (`build/foursquare-process.js`). Processing remaps Foursquare categories to ~10 custom categories via CSV (`build/data/foursquare-custom-categories.csv`), marks first/last visits, merges venue metadata from admin, and outputs `places-all-time.json` and `places-grouped-by-year.json`. The category remapping is tracked in a [Google Doc](https://docs.google.com/spreadsheets/d/1YVD54Ree4aF8sivG3qOB9YuRB20Hg_RcvamMRjWnjDI/edit#gid=0) from which the CSV is exported. Note: `firstVisit`/`lastVisit` flags operate at month-level granularity — if multiple check-ins happen in the same month as a first/last visit, all get the flag.
 
 - **Notes** (`src/notes.md`): Displays notes with thumbnails from `src/data/notes.json`.
 
 ### Places Admin
 
-Express server (`admin/server.js`) + HTML UI (`admin/places.html`) for adding venue comments and traits (date spot, outdoor seating, etc.). Data saved to `build/data/places-comments.json`, merged during `foursquare-process`.
+Express server (`admin/server.js`) + HTML UI (`admin/places.html`) for adding venue comments and traits (date spot, outdoor seating, etc.). Data saved to `build/data/places-comments.json`, merged during `foursquare-process`. Full workflow: fetch latest check-in data first, then run the admin server + UI, add metadata, then run `foursquare-process` to merge.
 
 ### Frontend
 
