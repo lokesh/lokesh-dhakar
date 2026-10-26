@@ -9,6 +9,7 @@ layout: page.njk
   <li><span class="project-title">[Bitsweeper](/projects/bitsweeper)</span> - A retro-styled take on Minesweeper.</li>
   <li><span class="project-title">[Team Bee](/projects/team-bee)</span> - NYT Spelling Bee made for teams, specifically made for my family.</li>
   <li><span class="project-title">[Color Stacks](/projects/color-stacks)</span> - A color palette generator for design systems.</li>
+  <li><span class="project-title">[Lightbox3](/projects/lightbox3/)</span> - The threequel.</li>
   <li><span class="project-title">[Lightbox2](/projects/lightbox2/)</span> - The sequel.</li>
   <li><span class="project-title">[Color Thief](/projects/color-thief/)</span> - Generate color palettes from an image.</li>
   <li><span class="project-title">[Lightbox](/projects/lightbox/)</span> - The original Lightbox library.</li>

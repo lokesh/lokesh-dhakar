@@ -31,10 +31,9 @@ pageWidth: full
         <div class="p-subtitle">2018-2022</div>
       </div>
     </div>
-<p><!--Square offers a suite of hardware and software for businesses to manage sales, inventory, and back office tasks.--> I worked on the eCommerce team at Square focusing on the following areas:</p>
-<p><strong>1: Helping merchants translate their brand online.</strong> I worked on our website editor's style related features: layout, typography, color, imagery, et al.</p>
+<p>I worked on the eCommerce team, making it possible for merchants to build websites that actually look like <em>their</em> brand, not a template. I owned style-related features in the site editor: layout, typography, color, imagery.</p>
 
-<p><strong>2: Orbit, a design system built in Vue.js.</strong> It is utilized in all eCommerce products. I was a major engineering contributor as well as a design contributor.</p>
+<p><strong>I was also a major contributor to Orbit, the Vue.js design system shared across all eCommerce products.</strong></p>
 
 <a href="https://square.online/" class="p-action">View live</a>
 
@@ -69,8 +68,8 @@ pageWidth: full
         <div class="p-subtitle">2015-2018</div>
       </div>
     </div>
-    <p>Weebly was a web design and hosting company known for it's drag and drop website editor. We were acquired by Square in 2018.</p>
-    <p><strong>I was on the Design Engineering team where I worked on building the design system as well as constructing UI for the product and marketing site.</strong>
+    <p>Weebly was the drag-and-drop website builder, acquired by Square in 2018.</p>
+    <p><strong>I was on the Design Engineering team, building the design system and shipping UI across the product and marketing site.</strong>
     </p>
   </div>
   
@@ -106,8 +105,8 @@ pageWidth: full
         <div class="p-subtitle">2012-2015</div>
       </div>
     </div>
-    <p>Getaround is a car sharing company, think Airbnb for cars.</p>
-    <p>I joined as a UI Engineer and eventually led the Web Engineering team. <strong>I touched most web features and managed two other engineers.</strong></p>
+    <p>Getaround is peer-to-peer car sharing. Think Airbnb for cars.</p>
+    <p>I joined as a UI Engineer, grew into leading the Web Engineering team, and <strong>had my hands on most of the consumer-facing web product.</strong></p>
     <a href="https://getaround.com" class="p-action">View live</a>
   </div>
 
@@ -133,12 +132,10 @@ pageWidth: full
       <div class="p-title-bar">
         <div class="p-title">Lightbox</div>
         <div class="p-subtitle">Author and Maintainer</div>
-        <div class="p-subtitle">2015</div>
       </div>
     </div>
-    <p>Original Javascript library for overlaying images on top of the current page. Freeing you from the  constraints of the page layout and letting you show images at larger size. Lightbox introduced this new pattern to the web, which is now ubiquitous, and has become a generic term for overlaying content on a page.</p>
-    <a href="https://lokeshdhakar.com/projects/lightbox2/" class="p-action">Demo and docs</a>
-    <a href="https://github.com/lokesh/lightbox2" class="p-action">Github ★6k </a>
+    <p>The original JavaScript library for overlaying images on a web page. A small script that became a ubiquitous UI pattern and entered the lexicon. "Lightbox" is now a generic term for any content overlay on the web.</p>
+    <a href="https://lokeshdhakar.com/projects/lightbox3/" class="p-action">Demo and docs</a>
     <a href="https://en.wikipedia.org/wiki/Lightbox_(JavaScript)" class="p-action">Wikipedia</a>
   </div>
   <div class="p-media-section">
@@ -160,12 +157,11 @@ pageWidth: full
       <div class="p-title-bar">
         <div class="p-title">Color Thief</div>
         <div class="p-subtitle">Author and Maintainer</div>
-        <div class="p-subtitle">2013</div>
       </div>
     </div>
-<p>Javascript library to extract color palettes from images, allowing for new techniques such as UIs that adapt their palette to an image.</p>
+<p>A JavaScript library for grabbing the dominant color and palette from any image. Used for dynamic theming, adaptive UIs, and anywhere you want a design to respond to its content.</p>
     <a href="https://lokeshdhakar.com/projects/color-thief/" class="p-action">Demo and docs</a>
-    <a href="https://github.com/lokesh/color-thief" class="p-action">Github ★12k </a>
+    <a href="https://github.com/lokesh/color-thief" class="p-action">Github ★12k</a>
   </div>
   <div class="p-media-section">
     <div class="p-page">
@@ -185,10 +181,9 @@ pageWidth: full
       <div class="p-title-bar">
         <div class="p-title">Color Stacks</div>
         <div class="p-subtitle">Creator and Maintainer</div>
-        <div class="p-subtitle">2020</div>
       </div>
     </div>
-    <p>A color palette generator for design systems.</p>
+    <p>Generate consistent, accessible color ramps from a few base colors. Built for design systems where you need predictable palettes, not just pretty ones.</p>
     <a href="https://lokeshdhakar.com/projects/color-stacks/" class="p-action">View live</a>
     <a href="https://github.com/lokesh/color-stacks" class="p-action">Github</a>
   </div>
@@ -203,16 +198,15 @@ pageWidth: full
   </div>
 </div>
 
-<div class="p p-ascii-today">
+<div class="p p-ascii-today archived-project">
   <div class="p-info-section">
     <div class="p-header">
       <div class="p-title-bar">
         <div class="p-title">ASCII Today</div>
         <div class="p-subtitle">Creator</div>
-        <div class="p-subtitle">2017</div>
       </div>
     </div>
-    <p>A super-fast ASCII title generator for sprucing up code comments and readmes.</p>
+    <p>Type a word, pick a font, get ASCII art. A fast, no-fuss title generator for code comments and READMEs.</p>
     <a href="https://ascii.today/" class="p-action">View live</a>
     <a href="https://github.com/lokesh/ascii-today" class="p-action">Github</a>
   </div>
@@ -229,6 +223,7 @@ pageWidth: full
 
 
 
+<div class="archived-section">
 <div class="section-heading">
   <h1 class="section-title">Games</h1>
 </div>
@@ -242,7 +237,7 @@ pageWidth: full
         <div class="p-subtitle">2022</div>
       </div>
     </div>
-    <p>A quirky, retro take on Minesweeper playable in the browser.</p>
+    <p>Minesweeper with a quirky, retro twist. Playable in the browser.</p>
     <a href="https://lokeshdhakar.com/projects/bitsweeper/" class="p-action">Play</a>
   </div>
   <div class="p-media-section">
@@ -265,7 +260,7 @@ pageWidth: full
         <div class="p-subtitle">2021</div>
       </div>
     </div>
-    <p>Spelling Bee word game, remade for teams. I made this to enjoy with my family, as my mom and sister are big word game fans.</p>
+    <p>NYT Spelling Bee, rebuilt for multiplayer. I made it so my mom, sister, and I could play together. They're the word game fans in the family.</p>
   </div>
   <div class="p-media-section">
     <div class="p-page">
@@ -284,6 +279,7 @@ pageWidth: full
 
   </div>
 </div>
+</div><!-- end archived-section -->
 
 <style>
 :root {
@@ -417,6 +413,15 @@ pageWidth: full
 .p-subtitle {
   color: var(--muted-color);
   font-weight: var(--weight-semi-bold);
+}
+
+.p-subtitle:last-child {
+  display: none;
+}
+
+.archived-project,
+.archived-section {
+  display: none;
 }
 
 .p-actions {
